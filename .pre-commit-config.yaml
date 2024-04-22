@@ -1,0 +1,66 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.5.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-yaml
+  - id: check-json
+  - id: check-merge-conflict
+  - id: check-added-large-files
+  - id: check-ast
+  - id: debug-statements
+  - id: detect-private-key
+  - id: requirements-txt-fixer
+
+- repo: https://github.com/PyCQA/isort
+  rev: 5.13.2
+  hooks:
+  - id: isort
+
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.9.0
+  hooks:
+  - id: mypy
+    additional_dependencies: [types-all]
+    args: [--python-version=3.11]
+
+- repo: https://github.com/myint/autoflake
+  rev: v2.3.0
+  hooks:
+    - id: autoflake
+      args: [ '--in-place', '--remove-all-unused-imports', '--ignore-init-module-imports' ]
+
+- repo: https://github.com/PyCQA/flake8
+  rev: 7.0.0
+  hooks:
+  - id: flake8
+    additional_dependencies:
+    - flake8-bugbear
+    - flake8-comprehensions
+    - flake8-simplify
+
+- repo: https://github.com/asottile/pyupgrade
+  rev: v3.15.1
+  hooks:
+  - id: pyupgrade
+    args: ["--py310-plus"]
+
+- repo: https://github.com/PyCQA/docformatter
+  rev: v1.7.5
+  hooks:
+  - id: docformatter
+    additional_dependencies: [tomli]
+
+- repo: https://github.com/PyCQA/bandit
+  rev: 1.7.8
+  hooks:
+  - id: bandit
+    args: ["-c", "pyproject.toml"]
+    additional_dependencies: ["bandit[toml]"]
+
+- repo: https://github.com/psf/black
+  rev: 24.2.0
+  hooks:
+  - id: black
+    language_version: python3.10
