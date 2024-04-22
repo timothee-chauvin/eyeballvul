@@ -12,3 +12,19 @@ python = "^3.10"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.docformatter]
+wrap-summaries = 100
+wrap-descriptions = 100
+force-wrap = true
+pre-summary-newline = true
+
+[tool.mypy]
+check_untyped_defs = true
