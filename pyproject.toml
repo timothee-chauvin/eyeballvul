@@ -4,10 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Timothee Chauvin <timothee.chauvin28@gmail.com>"]
 readme = "README.md"
+packages = [{ include = "repovul" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
+fire = "^0.6.0"
+requests = "^2.31.0"
 
+[tool.poetry.scripts]
+rv = "repovul.__main__:main"
 
 [build-system]
 requires = ["poetry-core"]
@@ -28,3 +33,7 @@ pre-summary-newline = true
 
 [tool.mypy]
 check_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = "fire.*"
+ignore_missing_imports = true

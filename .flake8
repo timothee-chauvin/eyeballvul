@@ -1,0 +1,4 @@
+[flake8]
+extend-ignore =
+  # Line too long: already handled by black
+  E501,
