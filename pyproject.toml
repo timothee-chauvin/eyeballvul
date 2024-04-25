@@ -37,5 +37,5 @@ pre-summary-newline = true
 check_untyped_defs = true
 
 [[tool.mypy.overrides]]
-module = "fire.*"
+module = "fire.*,pydantic.*,typeguard.*"
 ignore_missing_imports = true

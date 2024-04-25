@@ -9,6 +9,7 @@ with open(PARENT_DIR / "config.toml", "rb") as f:
 
 class Config:
     ecosystems = config["ecosystems"]
+    supported_domains = config["supported_domains"]
     base_path = Path(config["data_path"]).expanduser()
 
     paths = {
