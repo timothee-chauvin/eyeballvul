@@ -39,5 +39,13 @@ pre-summary-newline = true
 check_untyped_defs = true
 
 [[tool.mypy.overrides]]
-module = "fire.*,pydantic.*,typeguard.*"
+module = """\
+  fire.*,\
+  ortools.*,\
+  pydantic.*,\
+  typeguard.*\
+"""
 ignore_missing_imports = true
+
+[tool.bandit.assert_used]
+skips = ['*_test.py', '*/test_*.py']
