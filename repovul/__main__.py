@@ -19,7 +19,7 @@ def download():
     ecosystems = Config.ecosystems
     url_template = "https://osv-vulnerabilities.storage.googleapis.com/{ecosystem}/all.zip"
     for ecosystem in ecosystems:
-        destination = Config.paths["osv"] / ecosystem
+        destination = Config.paths.osv / ecosystem
         url = url_template.format(ecosystem=ecosystem)
         logging.info(f"Downloading data from {ecosystem}...")
         response = requests.get(url, timeout=30)
@@ -30,9 +30,9 @@ def download():
 @typechecked
 def get_osv_items() -> list[dict]:
     """Get the items from the osv.dev dataset."""
-    osv_path = Config.paths["osv"]
+    osv_path = Config.paths.osv
     items = []
-    for ecosystem in Config.paths["osv"].iterdir():
+    for ecosystem in Config.paths.osv.iterdir():
         for item_basename in ecosystem.iterdir():
             with open(osv_path / ecosystem / item_basename) as f:
                 item = json.load(f)

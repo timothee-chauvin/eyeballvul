@@ -80,7 +80,7 @@ def temp_directory():
     """Context manager to create and clean up a temporary directory, changing the current directory
     to it for the duration of the context."""
     saved_cwd = os.getcwd()
-    tmp_dir = mkdtemp(dir=Config.paths["workdir"])
+    tmp_dir = mkdtemp(dir=Config.paths.workdir)
     try:
         os.chdir(tmp_dir)
         yield tmp_dir
