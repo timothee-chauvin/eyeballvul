@@ -35,3 +35,4 @@ ecosystems = [
 supported_domains = ["github.com"]
 
 data_path = "~/.cache/repovul"
+workdir = "/tmp/repovul"

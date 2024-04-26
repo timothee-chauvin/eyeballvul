@@ -125,3 +125,22 @@ def clone_repo_with_cache(repo_url: str, tmp_dir: str) -> str:
     shutil.copytree(cache_dir, dest_dir)
 
     return str(dest_dir)
+
+
+@typechecked
+def get_version_dates(versions: set[str], repo_dir: str) -> dict[str, str]:
+    """Get the dates of the versions in the repository."""
+    version_dates = {}
+    for version in versions:
+        try:
+            date = (
+                subprocess.check_output(["git", "log", "-1", "--format=%cI", version], cwd=repo_dir)
+                .decode()
+                .strip()
+            )
+            version_dates[version] = date
+        except subprocess.CalledProcessError as e:
+            logging.debug(
+                f"Failed to get the date of version {version}: exit status {e.returncode}"
+            )
+    return version_dates
