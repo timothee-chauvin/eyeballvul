@@ -13,6 +13,7 @@ requests = "^2.31.0"
 typeguard = "^4.2.1"
 pydantic = "^2.7.1"
 ortools = "^9.9.3963"
+pytest = "^8.1.1"
 
 [tool.poetry.scripts]
 rv = "repovul.__main__:main"
