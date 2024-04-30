@@ -158,7 +158,16 @@ def osv_group_to_repovul_group(
             affected_versions_by_item[item_id] = [
                 version for version in affected_versions if version in version_dates
             ]
+        # Filter out possible empty lists
+        affected_versions_by_item = {
+            item_id: affected_versions
+            for item_id, affected_versions in affected_versions_by_item.items()
+            if affected_versions
+        }
         all_versions -= missing_versions
+        if not all_versions:
+            logging.info("No valid versions found. Skipping.")
+            return [], []
     hitting_set_versions = solve_hitting_set(
         lists=list(affected_versions_by_item.values()),
         version_dates=version_dates,
