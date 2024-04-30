@@ -39,6 +39,32 @@ class RepovulItem(BaseModel):
 
 
 @typechecked
+def filter_out_no_affected_versions(osv_group: list[OSVVulnerability]) -> list[OSVVulnerability]:
+    """Filter out OSV items that don't have any affected version."""
+    filtered = [osv_item for osv_item in osv_group if osv_item.get_affected_versions()]
+    if len(filtered) < len(osv_group):
+        logging.info(
+            f"Filtered out {len(osv_group) - len(filtered)}/{len(osv_group)} OSV items without affected versions."
+        )
+    return filtered
+
+
+@typechecked
+def get_repo_url(osv_group: list[OSVVulnerability]) -> str:
+    """
+    Get the repository URL from a group of OSV items.
+
+    All OSV items in the group must have the same repo URL.
+    """
+    repo_urls = {osv_item.get_repo_url() for osv_item in osv_group}
+    if len(repo_urls) != 1:
+        raise ValueError(
+            f"All OSV items in the group must have the same repo URL. Found multiple URLs: {repo_urls}."
+        )
+    return repo_urls.pop()
+
+
+@typechecked
 def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[RepovulItem]:
     """
     Convert a group of OSV items, sharing the same repo URL, to a group of Repovul items.
@@ -50,16 +76,8 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
 
     Versions that aren't found in the git repo are also ignored.
     """
-    # Filter out the OSV items that don't have any affected version.
-    osv_group_new = [osv_item for osv_item in osv_group if osv_item.get_affected_versions()]
-    if len(osv_group_new) < len(osv_group):
-        logging.info(
-            f"Filtered out {len(osv_group) - len(osv_group_new)}/{len(osv_group)} OSV items without affected versions."
-        )
-    osv_group = osv_group_new
-    repo_url = osv_group[0].get_repo_url()
-    if any(osv_item.get_repo_url() != repo_url for osv_item in osv_group):
-        raise ValueError("All OSV items in the group must have the same repo URL.")
+    osv_group = filter_out_no_affected_versions(osv_group)
+    repo_url = get_repo_url(osv_group)
     with temp_directory() as tmp_dir:
         repo_dir = clone_repo_with_cache(repo_url, tmp_dir)
         os.chdir(repo_dir)
