@@ -29,7 +29,7 @@ class Config:
         repovul_vulns=base_path / "data/repovul/vulns",
         repovul_revisions=base_path / "data/repovul/revisions",
         hitting_set_cache=base_path / "cache" / "hitting_set",
-        repo_cache=base_path / "repo_cache",
+        repo_cache=base_path / "cache" / "repos",
         workdir=Path(config["workdir"]),
     )
 
