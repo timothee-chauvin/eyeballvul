@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import re
@@ -144,3 +145,27 @@ def get_version_dates(versions: set[str], repo_dir: str) -> dict[str, str]:
                 f"Failed to get the date of version {version}: exit status {e.returncode}"
             )
     return version_dates
+
+
+@typechecked
+def compute_code_sizes_at_revision(repo_dir: str, commit: str) -> dict[str, int | dict[str, int]]:
+    """Get the size of each programming language in bytes (sorted in order of decreasing size), as
+    well as the total number of bytes of code, at the given commit from github-linguist."""
+    # cwd is used for asdf to select the correct version of bundle
+    linguist_output = subprocess.check_output(
+        ["bundle", "exec", "github-linguist", "--json", "--rev", commit, repo_dir],
+        cwd=Config.paths.project,
+    ).decode()
+    languages = {k: v["size"] for k, v in json.loads(linguist_output).items()}
+    sorted_languages = dict(sorted(languages.items(), key=lambda item: item[1], reverse=True))
+    total = sum(languages.values())
+    return {
+        "languages": sorted_languages,
+        "size": total,
+    }
+
+
+@typechecked
+def tag_to_commit(tag: str) -> str:
+    """Get the commit hash of the given tag."""
+    return subprocess.check_output(["git", "rev-list", "-n", "1", tag]).decode().strip()

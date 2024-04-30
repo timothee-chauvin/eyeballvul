@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cgi (0.4.1)
+    charlock_holmes (0.7.7)
+    github-linguist (7.29.0)
+      cgi
+      charlock_holmes (~> 0.7.7)
+      mini_mime (~> 1.0)
+      rugged (~> 1.0)
+    mini_mime (1.1.5)
+    rugged (1.7.2)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  github-linguist (~> 7.29.0)
+
+BUNDLED WITH
+   2.5.6

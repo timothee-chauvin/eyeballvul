@@ -6,7 +6,14 @@ from pydantic import BaseModel
 from typeguard import typechecked
 
 from repovul.models.osv import OSVVulnerability
-from repovul.util import clone_repo_with_cache, get_version_dates, solve_hitting_set, temp_directory
+from repovul.util import (
+    clone_repo_with_cache,
+    compute_code_sizes_at_revision,
+    get_version_dates,
+    solve_hitting_set,
+    tag_to_commit,
+    temp_directory,
+)
 
 
 class RepovulItem(BaseModel):
@@ -27,7 +34,8 @@ class RepovulItem(BaseModel):
     commits: list[str]
     commit_dates: list[str]
     # Computed here.
-    repo_size: int
+    repo_languages: list[dict[str, int]]
+    repo_sizes: list[int]
 
 
 @typechecked
@@ -83,14 +91,27 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
         )
         logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
+        # Map versions to commits
+        version_commit_map = {version: tag_to_commit(version) for version in hitting_set_versions}
+
+        # Compute sizes
+        repo_languages = []
+        repo_sizes = []
+        for version in hitting_set_versions:
+            languages_and_size = compute_code_sizes_at_revision(
+                repo_dir, version_commit_map[version]
+            )
+            repo_languages.append(languages_and_size["languages"])
+            repo_sizes.append(languages_and_size["size"])
         repovul_items = []
         for osv_item in osv_group:
-            commits = [
+            concerned_versions = [
                 version
                 for version in hitting_set_versions
                 if version in cast(list[str], osv_item.get_affected_versions())
-            ]  # TODO commits, not versions (or commits + versions)
-            commit_dates = [version_dates[version] for version in commits]
+            ]
+            commits = [version_commit_map[version] for version in concerned_versions]
+            commit_dates = [version_dates[version] for version in concerned_versions]
             repovul_item = RepovulItem(
                 id=osv_item.id,
                 published=osv_item.published,
@@ -100,7 +121,8 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
                 repo_url=osv_item.get_repo_url(),
                 commits=commits,
                 commit_dates=commit_dates,
-                repo_size=0,  # TODO
+                repo_languages=repo_languages,
+                repo_sizes=repo_sizes,
             )
             repovul_items.append(repovul_item)
         return repovul_items
