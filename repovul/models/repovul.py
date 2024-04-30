@@ -5,11 +5,13 @@ from typing import cast
 from pydantic import BaseModel
 from typeguard import typechecked
 
+from repovul.config.config_loader import Config
 from repovul.models.osv import OSVVulnerability
 from repovul.util import (
     clone_repo_with_cache,
     compute_code_sizes_at_revision,
     get_version_dates,
+    repo_url_to_name,
     solve_hitting_set,
     tag_to_commit,
 )
@@ -43,6 +45,15 @@ class RepovulItem(BaseModel):
     repo_url: str
     # Inferred from osv.dev and visiting the repo.
     versions: list[RepovulVersion]
+
+    def log(self):
+        """Serialize this item into Config.paths.repovul."""
+        repo_name = repo_url_to_name(self.repo_url)
+        repovul_dir = Config.paths.repovul / repo_name
+        repovul_dir.mkdir(parents=True, exist_ok=True)
+        with open(repovul_dir / f"{self.id}.json", "w") as f:
+            f.write(self.model_dump_json(indent=2))
+            f.write("\n")
 
 
 @typechecked

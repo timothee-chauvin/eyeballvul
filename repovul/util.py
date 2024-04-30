@@ -34,6 +34,12 @@ def get_domain(repo_url: str) -> str:
     return urlparse(repo_url).netloc
 
 
+@typechecked
+def repo_url_to_name(repo_url: str) -> str:
+    """Get the name of the repository from the URL."""
+    return Path(repo_url.replace(".git", "")).name
+
+
 def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> list[str]:
     def parse_version(version: str) -> int:
         return int(datetime.fromisoformat(version_dates[version]).timestamp())
@@ -106,9 +112,7 @@ def extract_from_regex(regex: str, text: str) -> str:
 
 @typechecked
 def clone_repo_with_cache(repo_url: str) -> str:
-    # Extract the repo name from the URL
-    repo_name = Path(repo_url.replace(".git", "")).name
-
+    repo_name = repo_url_to_name(repo_url)
     # Check if the repo is already in the cache
     repo_dir = Path(Config.paths.repo_cache) / repo_name
     if repo_dir.exists():

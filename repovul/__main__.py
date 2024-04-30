@@ -9,6 +9,7 @@ from typeguard import typechecked
 
 from repovul.config import Config
 from repovul.models.osv import OSVVulnerability
+from repovul.models.repovul import osv_group_to_repovul_group
 from repovul.util import get_domain
 
 logging.basicConfig(level=logging.INFO)
@@ -56,8 +57,19 @@ def osv_items_by_repo(items: list[dict]) -> dict[str, list]:
     return items_by_repo
 
 
+@typechecked
+def convert_one(repo_url: str) -> None:
+    """Convert the OSV items of a single repository to Repovul items."""
+    items = get_osv_items()
+    by_repo = osv_items_by_repo(items)
+    osv_items = [OSVVulnerability(**item) for item in by_repo[repo_url]]
+    repovul_items = osv_group_to_repovul_group(osv_items)
+    for repovul_item in repovul_items:
+        repovul_item.log()
+
+
 def main():
-    fire.Fire({"download": download})
+    fire.Fire({"download": download, "convert_one": convert_one})
 
 
 if __name__ == "__main__":
