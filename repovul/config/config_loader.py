@@ -11,7 +11,8 @@ with open(PARENT_DIR / "config.toml", "rb") as f:
 class Paths(NamedTuple):
     project: Path
     osv: Path
-    repovul: Path
+    repovul_vulns: Path
+    repovul_revisions: Path
     repo_cache: Path
     workdir: Path
 
@@ -24,7 +25,8 @@ class Config:
     paths = Paths(
         project=PARENT_DIR.parent.parent,
         osv=base_path / "data/osv",
-        repovul=base_path / "data/repovul",
+        repovul_vulns=base_path / "data/repovul/vulns",
+        repovul_revisions=base_path / "data/repovul/revisions",
         repo_cache=base_path / "repo_cache",
         workdir=Path(config["workdir"]),
     )

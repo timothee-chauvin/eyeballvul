@@ -62,9 +62,11 @@ def osv_items_by_repo(items: list[dict]) -> dict[str, list]:
 def convert_one(repo_url: str, items: list[dict]) -> None:
     """Convert the OSV items of a single repository to Repovul items."""
     osv_items = [OSVVulnerability(**item) for item in items]
-    repovul_items = osv_group_to_repovul_group(osv_items)
+    repovul_items, repovul_revisions = osv_group_to_repovul_group(osv_items)
     for repovul_item in repovul_items:
         repovul_item.log()
+    for repovul_revision in repovul_revisions:
+        repovul_revision.log()
 
 
 @typechecked

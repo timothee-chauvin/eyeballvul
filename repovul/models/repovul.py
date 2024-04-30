@@ -28,6 +28,13 @@ class RepovulRevision(BaseModel):
     # Sum of all programming language sizes in bytes
     size: int
 
+    def log(self) -> None:
+        repovul_dir = Config.paths.repovul_revisions
+        repovul_dir.mkdir(parents=True, exist_ok=True)
+        with open(repovul_dir / f"{self.commit}.json", "w") as f:
+            f.write(self.model_dump_json(indent=2))
+            f.write("\n")
+
 
 class RepovulItem(BaseModel):
     # Same as in osv.dev.
@@ -44,12 +51,12 @@ class RepovulItem(BaseModel):
     # Extracted from osv.dev.
     repo_url: str
     # Inferred from osv.dev and visiting the repo.
-    revisions: list[RepovulRevision]
+    # This maps to a list of RepovulRevision objects.
+    commits: list[str]
 
-    def log(self):
-        """Serialize this item into Config.paths.repovul."""
+    def log(self) -> None:
         repo_name = repo_url_to_name(self.repo_url)
-        repovul_dir = Config.paths.repovul / repo_name
+        repovul_dir = Config.paths.repovul_vulns / repo_name
         repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.id}.json", "w") as f:
             f.write(self.model_dump_json(indent=2))
@@ -102,9 +109,12 @@ def versions_to_repovul_revisions(
 
 
 @typechecked
-def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[RepovulItem]:
+def osv_group_to_repovul_group(
+    osv_group: list[OSVVulnerability],
+) -> tuple[list[RepovulItem], list[RepovulRevision]]:
     """
-    Convert a group of OSV items, sharing the same repo URL, to a group of Repovul items.
+    Convert a group of OSV items, sharing the same repo URL, to a group of Repovul items and a group
+    of Repovul revisions.
 
     This is done by groups in order to compute the smallest set of commits that hold all the
     vulnerabilities in the group.
@@ -158,7 +168,7 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
             details=osv_item.details,
             summary=osv_item.summary,
             repo_url=osv_item.get_repo_url(),
-            revisions=[repovul_revisions[version] for version in concerned_versions],
+            commits=[repovul_revisions[version].commit for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
-    return repovul_items
+    return repovul_items, list(repovul_revisions.values())
