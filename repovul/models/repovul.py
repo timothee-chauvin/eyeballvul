@@ -137,6 +137,9 @@ def osv_group_to_repovul_group(
     Versions that aren't found in the git repo are also ignored.
     """
     osv_group = filter_out_no_affected_versions(osv_group)
+    if not osv_group:
+        logging.info("No OSV items with affected versions found. Skipping.")
+        return [], []
     repo_url = get_repo_url(osv_group)
     repo_dir = clone_repo_with_cache(repo_url)
     os.chdir(repo_dir)
