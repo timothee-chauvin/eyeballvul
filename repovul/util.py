@@ -134,7 +134,11 @@ def get_version_dates(versions: set[str], repo_dir: str) -> dict[str, str]:
     for version in versions:
         try:
             date = (
-                subprocess.check_output(["git", "log", "-1", "--format=%cI", version], cwd=repo_dir)
+                subprocess.check_output(
+                    ["git", "log", "-1", "--format=%cI", version],
+                    stderr=subprocess.DEVNULL,
+                    cwd=repo_dir,
+                )
                 .decode()
                 .strip()
             )
