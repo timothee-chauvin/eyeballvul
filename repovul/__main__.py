@@ -1,6 +1,7 @@
 import io
 import json
 import logging
+import time
 import zipfile
 
 import fire
@@ -58,18 +59,44 @@ def osv_items_by_repo(items: list[dict]) -> dict[str, list]:
 
 
 @typechecked
-def convert_one(repo_url: str) -> None:
+def convert_one(repo_url: str, items: list[dict]) -> None:
     """Convert the OSV items of a single repository to Repovul items."""
-    items = get_osv_items()
-    by_repo = osv_items_by_repo(items)
-    osv_items = [OSVVulnerability(**item) for item in by_repo[repo_url]]
+    osv_items = [OSVVulnerability(**item) for item in items]
     repovul_items = osv_group_to_repovul_group(osv_items)
     for repovul_item in repovul_items:
         repovul_item.log()
 
 
+@typechecked
+def convert_one_toplevel(repo_url: str) -> None:
+    """Convert the OSV items of a single repository to Repovul items."""
+    items = get_osv_items()
+    by_repo = osv_items_by_repo(items)
+    convert_one(repo_url, by_repo[repo_url])
+
+
+@typechecked
+def convert_all() -> None:
+    """Convert the OSV items of all repositories to Repovul items."""
+    items = get_osv_items()
+    by_repo = osv_items_by_repo(items)
+    start = time.time()
+    for i, repo_url in enumerate(by_repo.keys()):
+        logging.info(f"Processing {repo_url}...")
+        convert_one(repo_url, by_repo[repo_url])
+        elapsed = time.time() - start
+        ETA = elapsed / (i + 1) * (len(by_repo) - i - 1)
+        logging.info(f"({i+1}/{len(by_repo)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
+
+
 def main():
-    fire.Fire({"download": download, "convert_one": convert_one})
+    fire.Fire(
+        {
+            "download": download,
+            "convert_one": convert_one_toplevel,
+            "convert_all": convert_all,
+        }
+    )
 
 
 if __name__ == "__main__":
