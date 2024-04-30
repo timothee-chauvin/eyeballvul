@@ -1,5 +1,6 @@
 import logging
 import os
+import shutil
 from pathlib import Path
 from typing import cast
 
@@ -198,4 +199,5 @@ def osv_group_to_repovul_group(
             commits=[repovul_revisions[version].commit for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
+    shutil.rmtree(repo_dir)
     return repovul_items, list(repovul_revisions.values())
