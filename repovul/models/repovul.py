@@ -15,6 +15,18 @@ from repovul.util import (
 )
 
 
+class RepovulVersion(BaseModel):
+    # Full commit hash
+    commit: str
+    # ISO 8601 date of the commit, e.g. "2021-09-01T00:00:00Z"
+    date: str
+    # Size in bytes of each programming language in the repo
+    # at that commit, according to github linguist
+    languages: dict[str, int]
+    # Sum of all programming language sizes in bytes
+    size: int
+
+
 class RepovulItem(BaseModel):
     # Same as in osv.dev.
     # Get it from there at https://api.osv.dev/v1/vulns/{id}
@@ -30,11 +42,7 @@ class RepovulItem(BaseModel):
     # Extracted from osv.dev.
     repo_url: str
     # Inferred from osv.dev and visiting the repo.
-    commits: list[str]
-    commit_dates: list[str]
-    # Computed here.
-    repo_languages: list[dict[str, int]]
-    repo_sizes: list[int]
+    versions: list[RepovulVersion]
 
 
 @typechecked
@@ -61,6 +69,25 @@ def get_repo_url(osv_group: list[OSVVulnerability]) -> str:
             f"All OSV items in the group must have the same repo URL. Found multiple URLs: {repo_urls}."
         )
     return repo_urls.pop()
+
+
+@typechecked
+def versions_to_repovul_versions(
+    versions: list[str], version_dates: dict[str, str], repo_dir: str
+) -> dict[str, RepovulVersion]:
+    repovul_versions = {}
+    for version in versions:
+        commit = tag_to_commit(version)
+        date = version_dates[version]
+        languages_and_size = compute_code_sizes_at_revision(repo_dir, commit)
+        repovul_version = RepovulVersion(
+            commit=commit,
+            date=date,
+            languages=languages_and_size["languages"],
+            size=languages_and_size["size"],
+        )
+        repovul_versions[version] = repovul_version
+    return repovul_versions
 
 
 @typechecked
@@ -105,26 +132,14 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
     hitting_set_versions = sorted(hitting_set_versions, key=lambda version: version_dates[version])
     logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
-    # Map versions to commits
-    version_commit_map = {version: tag_to_commit(version) for version in hitting_set_versions}
-
-    # Compute sizes
-    repo_languages = []
-    repo_sizes = []
-    for version in hitting_set_versions:
-        languages_and_size = compute_code_sizes_at_revision(repo_dir, version_commit_map[version])
-        repo_languages.append(languages_and_size["languages"])
-        repo_sizes.append(languages_and_size["size"])
-
     repovul_items = []
+    repovul_versions = versions_to_repovul_versions(hitting_set_versions, version_dates, repo_dir)
     for osv_item in osv_group:
         concerned_versions = [
             version
             for version in hitting_set_versions
             if version in cast(list[str], osv_item.get_affected_versions())
         ]
-        commits = [version_commit_map[version] for version in concerned_versions]
-        commit_dates = [version_dates[version] for version in concerned_versions]
         repovul_item = RepovulItem(
             id=osv_item.id,
             published=osv_item.published,
@@ -132,10 +147,7 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
             details=osv_item.details,
             summary=osv_item.summary,
             repo_url=osv_item.get_repo_url(),
-            commits=commits,
-            commit_dates=commit_dates,
-            repo_languages=repo_languages,
-            repo_sizes=repo_sizes,
+            versions=[repovul_versions[version] for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
     return repovul_items
