@@ -105,27 +105,22 @@ def extract_from_regex(regex: str, text: str) -> str:
 
 
 @typechecked
-def clone_repo_with_cache(repo_url: str, tmp_dir: str) -> str:
+def clone_repo_with_cache(repo_url: str) -> str:
     # Extract the repo name from the URL
     repo_name = Path(repo_url.replace(".git", "")).name
 
     # Check if the repo is already in the cache
-    cache_dir = Path(Config.paths.repo_cache) / repo_name
-    if cache_dir.exists():
+    repo_dir = Path(Config.paths.repo_cache) / repo_name
+    if repo_dir.exists():
         # If the repo is in the cache, update it
         logging.info(f"Updating '{repo_name}' from cache...")
-        subprocess.check_call(["git", "pull"], cwd=cache_dir)
+        subprocess.check_call(["git", "pull"], cwd=repo_dir)
     else:
         # If the repo is not in the cache, clone it
         print(f"Cloning '{repo_name}' into cache...")
         subprocess.run(["git", "clone", repo_url], cwd=Config.paths.repo_cache)
 
-    # Copy the updated repo from the cache to the temporary directory
-    dest_dir = Path(tmp_dir) / repo_name
-    logging.info(f"Copying '{repo_name}' to {dest_dir}...")
-    shutil.copytree(cache_dir, dest_dir)
-
-    return str(dest_dir)
+    return str(repo_dir)
 
 
 @typechecked
