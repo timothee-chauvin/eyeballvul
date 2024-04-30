@@ -17,7 +17,7 @@ from repovul.util import (
 )
 
 
-class RepovulVersion(BaseModel):
+class RepovulRevision(BaseModel):
     # Full commit hash
     commit: str
     # ISO 8601 date of the commit, e.g. "2021-09-01T00:00:00Z"
@@ -44,7 +44,7 @@ class RepovulItem(BaseModel):
     # Extracted from osv.dev.
     repo_url: str
     # Inferred from osv.dev and visiting the repo.
-    versions: list[RepovulVersion]
+    revisions: list[RepovulRevision]
 
     def log(self):
         """Serialize this item into Config.paths.repovul."""
@@ -83,22 +83,22 @@ def get_repo_url(osv_group: list[OSVVulnerability]) -> str:
 
 
 @typechecked
-def versions_to_repovul_versions(
+def versions_to_repovul_revisions(
     versions: list[str], version_dates: dict[str, str], repo_dir: str
-) -> dict[str, RepovulVersion]:
-    repovul_versions = {}
+) -> dict[str, RepovulRevision]:
+    repovul_revisions = {}
     for version in versions:
         commit = tag_to_commit(version)
         date = version_dates[version]
         languages_and_size = compute_code_sizes_at_revision(repo_dir, commit)
-        repovul_version = RepovulVersion(
+        repovul_revision = RepovulRevision(
             commit=commit,
             date=date,
             languages=languages_and_size["languages"],
             size=languages_and_size["size"],
         )
-        repovul_versions[version] = repovul_version
-    return repovul_versions
+        repovul_revisions[version] = repovul_revision
+    return repovul_revisions
 
 
 @typechecked
@@ -144,7 +144,7 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
     logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
     repovul_items = []
-    repovul_versions = versions_to_repovul_versions(hitting_set_versions, version_dates, repo_dir)
+    repovul_revisions = versions_to_repovul_revisions(hitting_set_versions, version_dates, repo_dir)
     for osv_item in osv_group:
         concerned_versions = [
             version
@@ -158,7 +158,7 @@ def osv_group_to_repovul_group(osv_group: list[OSVVulnerability]) -> list[Repovu
             details=osv_item.details,
             summary=osv_item.summary,
             repo_url=osv_item.get_repo_url(),
-            versions=[repovul_versions[version] for version in concerned_versions],
+            revisions=[repovul_revisions[version] for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
     return repovul_items
