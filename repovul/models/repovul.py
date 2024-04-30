@@ -1,5 +1,6 @@
 import logging
 import os
+from pathlib import Path
 from typing import cast
 
 from pydantic import BaseModel
@@ -34,6 +35,11 @@ class RepovulRevision(BaseModel):
         with open(repovul_dir / f"{self.commit}.json", "w") as f:
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
+
+    @staticmethod
+    def from_file(filepath: str | Path) -> "RepovulRevision":
+        with open(filepath) as f:
+            return RepovulRevision.model_validate_json(f.read())
 
 
 class RepovulItem(BaseModel):
@@ -91,20 +97,27 @@ def get_repo_url(osv_group: list[OSVVulnerability]) -> str:
 
 @typechecked
 def versions_to_repovul_revisions(
-    versions: list[str], version_dates: dict[str, str], repo_dir: str
+    versions: list[str], version_dates: dict[str, str], repo_dir: str, use_cache: bool = True
 ) -> dict[str, RepovulRevision]:
     repovul_revisions = {}
     for version in versions:
         commit = tag_to_commit(version)
-        date = version_dates[version]
-        languages_and_size = compute_code_sizes_at_revision(repo_dir, commit)
-        repovul_revision = RepovulRevision(
-            commit=commit,
-            date=date,
-            languages=languages_and_size["languages"],
-            size=languages_and_size["size"],
-        )
-        repovul_revisions[version] = repovul_revision
+        revision_filepath = Config.paths.repovul_revisions / f"{commit}.json"
+        if use_cache and revision_filepath.exists():
+            repovul_revision = RepovulRevision.from_file(
+                Config.paths.repovul_revisions / f"{commit}.json"
+            )
+            repovul_revisions[version] = repovul_revision
+        else:
+            date = version_dates[version]
+            languages_and_size = compute_code_sizes_at_revision(repo_dir, commit)
+            repovul_revision = RepovulRevision(
+                commit=commit,
+                date=date,
+                languages=languages_and_size["languages"],
+                size=languages_and_size["size"],
+            )
+            repovul_revisions[version] = repovul_revision
     return repovul_revisions
 
 
@@ -154,7 +167,9 @@ def osv_group_to_repovul_group(
     logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
     repovul_items = []
-    repovul_revisions = versions_to_repovul_revisions(hitting_set_versions, version_dates, repo_dir)
+    repovul_revisions = versions_to_repovul_revisions(
+        hitting_set_versions, version_dates, repo_dir, use_cache=True
+    )
     for osv_item in osv_group:
         concerned_versions = [
             version
