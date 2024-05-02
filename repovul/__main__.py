@@ -50,11 +50,16 @@ def osv_items_by_repo(items: list[dict]) -> dict[str, list]:
     Filtering out unsupported domains is done in this function.
     """
     items_by_repo: dict[str, list] = {}
+    filtered_out = set()
     for item in items:
         repo_url = OSVVulnerability(**item).get_repo_url()
         if get_domain(repo_url) not in Config.supported_domains:
+            filtered_out.add(repo_url)
             continue
         items_by_repo.setdefault(repo_url, []).append(item)
+    logging.info(
+        f"Kept {len(items_by_repo)} repos. {len(filtered_out)} unsupported repos filtered out."
+    )
     return items_by_repo
 
 

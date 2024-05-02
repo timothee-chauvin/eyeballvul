@@ -32,7 +32,7 @@ ecosystems = [
   ## seemingly based on commits marked as improving security
   # "Linux",
 ]
-supported_domains = ["github.com"]
+supported_domains = ["github.com", "gitlab.com"]
 
 data_path = "~/.cache/repovul"
 workdir = "/tmp/repovul"
