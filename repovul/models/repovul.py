@@ -57,6 +57,7 @@ class RepovulItem(BaseModel):
     summary: str | None = None
     # Extracted from osv.dev.
     repo_url: str
+    cwes: list[str]
     # Inferred from osv.dev and visiting the repo.
     # This maps to a list of RepovulRevision objects.
     commits: list[str]
@@ -196,6 +197,7 @@ def osv_group_to_repovul_group(
             details=osv_item.details,
             summary=osv_item.summary,
             repo_url=osv_item.get_repo_url(),
+            cwes=osv_item.get_cwes(),
             commits=[repovul_revisions[version].commit for version in concerned_versions],
         )
         repovul_items.append(repovul_item)

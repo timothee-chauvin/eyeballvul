@@ -1,4 +1,6 @@
+import re
 from enum import Enum
+from typing import Any
 
 from pydantic import BaseModel
 
@@ -77,6 +79,7 @@ class OSVVulnerability(BaseModel):
     related: list[str] | None = None
     references: list[OSVReference] | None = None
     severity: list[OSVSeverity] | None = None
+    database_specific: Any | None = None
 
     def get_repo_url(self) -> str:
         for affected in self.affected:
@@ -111,3 +114,26 @@ class OSVVulnerability(BaseModel):
                         if event.fixed:
                             return event.fixed
         return None
+
+    def get_cwes(self) -> list[str]:
+        """Try finding CWEs from a few possible places."""
+        cwe_regex = r"^CWE-\d+$"
+        cwe_url_regex = r"https://cwe.mitre.org/data/definitions/(\d+).html"
+        cwes = []
+        # Try finding in databaseSpecific["CWE"]["id"]
+        if (
+            self.database_specific is not None
+            and "CWE" in self.database_specific
+            and "id" in self.database_specific["CWE"]
+        ):
+            cwe_id = self.database_specific["CWE"]["id"]
+            match = re.match(cwe_regex, cwe_id)
+            if match:
+                cwes.append(match.group())
+        # Try finding in references with type=="WEB" and url=="https://cwe.mitre.org/data/definitions/<cwe_number>.html"
+        for reference in self.references or []:
+            if reference.type == OSVReferenceType.WEB:
+                match = re.match(cwe_url_regex, reference.url)
+                if match:
+                    cwes.append(f"CWE-{match.group(1)}")
+        return sorted(cwes)
