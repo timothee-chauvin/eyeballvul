@@ -18,6 +18,11 @@ pytest = "^8.1.1"
 [tool.poetry.scripts]
 rv = "repovul.__main__:main"
 
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.0"
+mypy = { extras = ["types-all"], version = "^1.10.0" }
+types-requests = "^2.31.0.20240406"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
@@ -41,9 +46,6 @@ check_untyped_defs = true
 [[tool.mypy.overrides]]
 module = """\
   fire.*,\
-  ortools.*,\
-  pydantic.*,\
-  typeguard.*\
 """
 ignore_missing_imports = true
 

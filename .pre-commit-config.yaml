@@ -22,7 +22,8 @@ repos:
   rev: v1.9.0
   hooks:
   - id: mypy
-    additional_dependencies: [types-all]
+    entry: poetry run mypy
+    language: system
     args: [--python-version=3.11]
 
 - repo: https://github.com/myint/autoflake

@@ -111,12 +111,12 @@ def versions_to_repovul_revisions(
             repovul_revisions[version] = repovul_revision
         else:
             date = version_dates[version]
-            languages_and_size = compute_code_sizes_at_revision(repo_dir, commit)
+            languages, size = compute_code_sizes_at_revision(repo_dir, commit)
             repovul_revision = RepovulRevision(
                 commit=commit,
                 date=date,
-                languages=languages_and_size["languages"],
-                size=languages_and_size["size"],
+                languages=languages,
+                size=size,
             )
             repovul_revisions[version] = repovul_revision
     return repovul_revisions
