@@ -66,7 +66,7 @@ class RepovulItem(BaseModel):
         repovul_dir = Config.paths.repovul_vulns / repo_name
         repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.id}.json", "w") as f:
-            f.write(self.model_dump_json(indent=2))
+            f.write(self.model_dump_json(indent=2, exclude_none=True))
             f.write("\n")
 
 
