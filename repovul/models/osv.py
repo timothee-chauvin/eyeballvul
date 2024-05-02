@@ -12,8 +12,8 @@ class OSVSeverityType(str, Enum):
 
 
 class OSVSeverity(BaseModel):
-    type: OSVSeverityType | None = OSVSeverityType.UNSPECIFIED
-    score: str | None = None
+    type: OSVSeverityType
+    score: str
 
 
 class OSVRangeType(str, Enum):
