@@ -4,16 +4,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
-
-class OSVSeverityType(str, Enum):
-    UNSPECIFIED = "UNSPECIFIED"
-    CVSS_V3 = "CVSS_V3"
-    CVSS_V2 = "CVSS_V2"
-
-
-class OSVSeverity(BaseModel):
-    type: OSVSeverityType
-    score: str
+from repovul.models.common import Severity
 
 
 class OSVRangeType(str, Enum):
@@ -48,7 +39,7 @@ class OSVAffected(BaseModel):
     versions: list[str] | None = None
     ecosystem_specific: dict | None = None
     database_specific: dict | None = None
-    severity: list[OSVSeverity] | None = None
+    severity: list[Severity] | None = None
 
 
 class OSVReferenceType(str, Enum):
@@ -78,7 +69,7 @@ class OSVVulnerability(BaseModel):
     aliases: list[str] | None = None
     related: list[str] | None = None
     references: list[OSVReference] | None = None
-    severity: list[OSVSeverity] | None = None
+    severity: list[Severity] | None = None
     database_specific: Any | None = None
 
     def get_repo_url(self) -> str:

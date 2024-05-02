@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
+from repovul.models.common import Severity
 from repovul.models.osv import OSVVulnerability
 from repovul.util import (
     clone_repo_with_cache,
@@ -55,6 +56,8 @@ class RepovulItem(BaseModel):
     details: str
     # Same as in osv.dev.
     summary: str | None = None
+    # Same as in asv.dev.
+    severity: list[Severity] | None = None
     # Extracted from osv.dev.
     repo_url: str
     cwes: list[str]
@@ -198,6 +201,7 @@ def osv_group_to_repovul_group(
             summary=osv_item.summary,
             repo_url=osv_item.get_repo_url(),
             cwes=osv_item.get_cwes(),
+            severity=osv_item.severity,
             commits=[repovul_revisions[version].commit for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
