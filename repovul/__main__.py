@@ -1,6 +1,8 @@
+import cProfile
 import io
 import json
 import logging
+import pstats
 import time
 import zipfile
 
@@ -104,6 +106,19 @@ def main():
             "convert_all": convert_all,
         }
     )
+
+
+def profile():
+    pr = cProfile.Profile()
+    pr.enable()
+    try:
+        main()
+    finally:
+        pr.disable()
+        pr.dump_stats("profile.stats")
+
+        p = pstats.Stats("profile.stats")
+        p.sort_stats("cumtime").print_stats(50)
 
 
 if __name__ == "__main__":
