@@ -1,10 +1,11 @@
 import logging
 import os
 import shutil
+from datetime import datetime
 from pathlib import Path
 from typing import cast
 
-from pydantic import BaseModel
+from sqlmodel import JSON, Column, Field, SQLModel
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
@@ -20,16 +21,21 @@ from repovul.util import (
 )
 
 
-class RepovulRevision(BaseModel):
+class RepovulRevision(SQLModel, table=True):
     # Full commit hash
-    commit: str
-    # ISO 8601 date of the commit, e.g. "2021-09-01T00:00:00Z"
-    date: str
+    commit: str = Field(primary_key=True)
+    # Date of the commit. To be serialized as an ISO 8601 string,
+    # e.g. "2021-09-01T00:00:00Z"
+    date: datetime
+
     # Size in bytes of each programming language in the repo
     # at that commit, according to github linguist
-    languages: dict[str, int]
+    languages: dict[str, int] = Field(sa_column=Column(JSON))
     # Sum of all programming language sizes in bytes
     size: int
+
+    class Config:
+        validate_assignment = True
 
     def log(self) -> None:
         repovul_dir = Config.paths.repovul_revisions
@@ -44,26 +50,29 @@ class RepovulRevision(BaseModel):
             return RepovulRevision.model_validate_json(f.read())
 
 
-class RepovulItem(BaseModel):
+class RepovulItem(SQLModel, table=True):
     # Same as in osv.dev.
     # Get it from there at https://api.osv.dev/v1/vulns/{id}
-    id: str
+    id: str = Field(primary_key=True)
     # Same as in osv.dev.
-    published: str
+    published: datetime
     # Same as in osv.dev.
-    modified: str
+    modified: datetime
     # Same as in osv.dev.
     details: str
     # Same as in osv.dev.
     summary: str | None = None
     # Same as in asv.dev.
-    severity: list[Severity] | None = None
+    severity: list[Severity] | None = Field(sa_column=Column(JSON))
     # Extracted from osv.dev.
     repo_url: str
-    cwes: list[str]
+    cwes: list[str] = Field(sa_column=Column(JSON))
     # Inferred from osv.dev and visiting the repo.
     # This maps to a list of RepovulRevision objects.
-    commits: list[str]
+    commits: list[str] = Field(sa_column=Column(JSON))
+
+    class Config:
+        validate_assignment = True
 
     def log(self) -> None:
         repo_name = repo_url_to_name(self.repo_url)
@@ -72,6 +81,9 @@ class RepovulItem(BaseModel):
         with open(repovul_dir / f"{self.id}.json", "w") as f:
             f.write(self.model_dump_json(indent=2, exclude_none=True))
             f.write("\n")
+
+    def to_dict(self) -> dict:
+        return self.model_dump(exclude_none=True, mode="json")
 
 
 @typechecked
@@ -205,5 +217,12 @@ def osv_group_to_repovul_group(
             commits=[repovul_revisions[version].commit for version in concerned_versions],
         )
         repovul_items.append(repovul_item)
-    shutil.rmtree(repo_dir)
+    repos_to_cache = [
+        "https://github.com/mattermost/desktop",
+        "https://github.com/blackcatdevelopment/blackcatcms",
+        "https://github.com/wireshark/wireshark",
+        "https://github.com/pimcore/pimcore",
+    ]
+    if repo_url not in repos_to_cache:
+        shutil.rmtree(repo_dir)
     return repovul_items, list(repovul_revisions.values())

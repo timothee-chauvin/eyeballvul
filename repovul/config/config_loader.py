@@ -13,6 +13,7 @@ class Paths(NamedTuple):
     osv: Path
     repovul_vulns: Path
     repovul_revisions: Path
+    db: Path
     hitting_set_cache: Path
     repo_cache: Path
     workdir: Path
@@ -28,6 +29,7 @@ class Config:
         osv=base_path / "data/osv",
         repovul_vulns=base_path / "data/repovul/vulns",
         repovul_revisions=base_path / "data/repovul/revisions",
+        db=base_path / "data/repovul/db",
         hitting_set_cache=base_path / "cache" / "hitting_set",
         repo_cache=base_path / "cache" / "repos",
         workdir=Path(config["workdir"]),

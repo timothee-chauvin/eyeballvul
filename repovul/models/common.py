@@ -1,14 +1,8 @@
-from enum import Enum
+from typing import Literal
 
-from pydantic import BaseModel
-
-
-class SeverityType(str, Enum):
-    UNSPECIFIED = "UNSPECIFIED"
-    CVSS_V3 = "CVSS_V3"
-    CVSS_V2 = "CVSS_V2"
+from typing_extensions import TypedDict
 
 
-class Severity(BaseModel):
-    type: SeverityType
+class Severity(TypedDict):
+    type: Literal["CVSS_V3", "CVSS_V2", "UNSPECIFIED"]
     score: str

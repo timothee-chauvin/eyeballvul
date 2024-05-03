@@ -8,6 +8,7 @@ import zipfile
 
 import fire
 import requests
+from sqlmodel import Session, SQLModel, create_engine
 from typeguard import typechecked
 
 from repovul.config import Config
@@ -70,10 +71,14 @@ def convert_one(repo_url: str, items: list[dict]) -> None:
     """Convert the OSV items of a single repository to Repovul items."""
     osv_items = [OSVVulnerability(**item) for item in items]
     repovul_items, repovul_revisions = osv_group_to_repovul_group(osv_items)
-    for repovul_item in repovul_items:
-        repovul_item.log()
-    for repovul_revision in repovul_revisions:
-        repovul_revision.log()
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db", echo=True)
+    SQLModel.metadata.create_all(engine)
+    with Session(engine) as session:
+        for repovul_item in repovul_items:
+            session.merge(repovul_item)
+        for repovul_revision in repovul_revisions:
+            session.merge(repovul_revision)
+        session.commit()
 
 
 @typechecked
