@@ -122,6 +122,9 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
     engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
     with Session(engine) as session:
         # FIXME this isn't very clean (tests if the commit hash is part of the json string of the commit array)
+        # This SQL would be better, but I can't find a way to convert it to sqlalchemy:
+        # SELECT r.* FROM repovulitem r, JSON_EACH(r.commits) as jc WHERE jc.value = 'commit_hash';
+
         # type ignore used because RepovulItem.commits doesn't have
         # a `contains` method, but this is valid sqlalchemy.
         query = select(RepovulItem).where(RepovulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
@@ -164,6 +167,32 @@ def get_by_project(repo_url: str, after: str | None = None, before: str | None =
         print(json.dumps(results_json, indent=2))
 
 
+def get_commits(after: str | None = None, before: str | None = None):
+    """
+    Get a list of all commits that have at least one vuln within the date range.
+
+    The list can be filtered with the optional `after` and `before` parameters, which must be ISO
+    8601 dates.
+
+    `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
+    (2) after <= date < before, (3) date < before.
+    """
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    with Session(engine) as session:
+        query = select(RepovulItem)
+
+        if after:
+            start_date = datetime.fromisoformat(after)
+            query = query.where(RepovulItem.published >= start_date)
+        if before:
+            end_date = datetime.fromisoformat(before)
+            query = query.where(RepovulItem.published < end_date)
+
+        results = session.exec(query).all()
+        commits = {commit for item in results for commit in item.commits}
+        print(json.dumps(list(commits), indent=2))
+
+
 def main():
     fire.Fire(
         {
@@ -172,6 +201,7 @@ def main():
             "convert_all": convert_all,
             "get_by_commit": get_by_commit,
             "get_by_project": get_by_project,
+            "get_commits": get_commits,
         }
     )
 
