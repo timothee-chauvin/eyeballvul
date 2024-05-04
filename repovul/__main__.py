@@ -141,6 +141,15 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
         print(json.dumps(results_json, indent=2))
 
 
+def get_projects():
+    """Get the list of repo URLs."""
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    with Session(engine) as session:
+        query = select(RepovulItem.repo_url).distinct()
+        results = session.exec(query).all()
+        print(json.dumps(results, indent=2))
+
+
 def get_by_project(repo_url: str, after: str | None = None, before: str | None = None):
     """
     Get the Repovul items that match a project's repo URL.
@@ -202,6 +211,7 @@ def main():
             "get_by_commit": get_by_commit,
             "get_by_project": get_by_project,
             "get_commits": get_commits,
+            "get_projects": get_projects,
         }
     )
 
