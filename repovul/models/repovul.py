@@ -27,7 +27,6 @@ class RepovulRevision(SQLModel, table=True):
     # Date of the commit. To be serialized as an ISO 8601 string,
     # e.g. "2021-09-01T00:00:00Z"
     date: datetime
-
     # Size in bytes of each programming language in the repo
     # at that commit, according to github linguist
     languages: dict[str, int] = Field(sa_column=Column(JSON))
