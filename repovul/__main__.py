@@ -5,15 +5,16 @@ import logging
 import pstats
 import time
 import zipfile
+from datetime import datetime
 
 import fire
 import requests
-from sqlmodel import Session, SQLModel, create_engine
+from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config import Config
 from repovul.models.osv import OSVVulnerability
-from repovul.models.repovul import osv_group_to_repovul_group
+from repovul.models.repovul import RepovulItem, osv_group_to_repovul_group
 from repovul.util import get_domain
 
 logging.basicConfig(level=logging.INFO)
@@ -103,12 +104,47 @@ def convert_all() -> None:
         logging.info(f"({i+1}/{len(by_repo)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
 
 
+@typechecked
+def get_by_commit(commit_hash: str, after: str | None = None, before: str | None = None):
+    """
+    Get the Repovul items that match a commit hash.
+
+    The commit hash must be 40 characters long.
+
+    The list can be filtered with the optional `after` and `before` parameters, which must be ISO
+    8601 dates.
+
+    `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
+    (2) after <= date < before, (3) date < before.
+    """
+    if len(commit_hash) != 40:
+        raise ValueError("The commit hash must be 40 characters long.")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    with Session(engine) as session:
+        # FIXME this isn't very clean (tests if the commit hash is part of the json string of the commit array)
+        # type ignore used because RepovulItem.commits doesn't have
+        # a `contains` method, but this is valid sqlalchemy.
+        query = select(RepovulItem).where(RepovulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
+
+        if after:
+            start_date = datetime.fromisoformat(after)
+            query = query.where(RepovulItem.published >= start_date)
+        if before:
+            end_date = datetime.fromisoformat(before)
+            query = query.where(RepovulItem.published < end_date)
+
+        results = session.exec(query).all()
+        results_json = [item.to_dict() for item in results]
+        print(json.dumps(results_json, indent=2))
+
+
 def main():
     fire.Fire(
         {
             "download": download,
             "convert_one": convert_one_toplevel,
             "convert_all": convert_all,
+            "get_by_commit": get_by_commit,
         }
     )
 
