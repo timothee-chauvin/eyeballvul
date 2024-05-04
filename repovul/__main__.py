@@ -138,6 +138,32 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
         print(json.dumps(results_json, indent=2))
 
 
+def get_by_project(repo_url: str, after: str | None = None, before: str | None = None):
+    """
+    Get the Repovul items that match a project's repo URL.
+
+    The list can be filtered with the optional `after` and `before` parameters, which must be ISO
+    8601 dates.
+
+    `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
+    (2) after <= date < before, (3) date < before.
+    """
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    with Session(engine) as session:
+        query = select(RepovulItem).where(RepovulItem.repo_url == repo_url)
+
+        if after:
+            start_date = datetime.fromisoformat(after)
+            query = query.where(RepovulItem.published >= start_date)
+        if before:
+            end_date = datetime.fromisoformat(before)
+            query = query.where(RepovulItem.published < end_date)
+
+        results = session.exec(query).all()
+        results_json = [item.to_dict() for item in results]
+        print(json.dumps(results_json, indent=2))
+
+
 def main():
     fire.Fire(
         {
@@ -145,6 +171,7 @@ def main():
             "convert_one": convert_one_toplevel,
             "convert_all": convert_all,
             "get_by_commit": get_by_commit,
+            "get_by_project": get_by_project,
         }
     )
 
