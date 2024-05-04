@@ -176,7 +176,7 @@ def get_by_project(repo_url: str, after: str | None = None, before: str | None =
         print(json.dumps(results_json, indent=2))
 
 
-def get_commits(after: str | None = None, before: str | None = None):
+def get_commits(after: str | None = None, before: str | None = None, project: str | None = None):
     """
     Get a list of all commits that have at least one vuln within the date range.
 
@@ -185,11 +185,14 @@ def get_commits(after: str | None = None, before: str | None = None):
 
     `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
     (2) after <= date < before, (3) date < before.
+
+    The list can also be filtered by the `project` parameter, a repo URL.
     """
     engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
     with Session(engine) as session:
         query = select(RepovulItem)
-
+        if project:
+            query = query.where(RepovulItem.repo_url == project)
         if after:
             start_date = datetime.fromisoformat(after)
             query = query.where(RepovulItem.published >= start_date)
