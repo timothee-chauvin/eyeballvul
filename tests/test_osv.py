@@ -17,5 +17,4 @@ def test_get_cwes(assets_dir, osv_id, expected):
     with open(Path(assets_dir) / "osv_items" / f"{osv_id}.json") as f:
         osv_item_json = json.load(f)
     item = OSVVulnerability(**osv_item_json)
-    print(item)
     assert set(item.get_cwes()) == expected
