@@ -116,15 +116,21 @@ def versions_to_repovul_revisions(
     versions: list[str], version_dates: dict[str, str], repo_dir: str, use_cache: bool = True
 ) -> dict[str, RepovulRevision]:
     repovul_revisions = {}
-    for version in versions:
+    for i, version in enumerate(versions):
         commit = tag_to_commit(version)
         revision_filepath = Config.paths.repovul_revisions / f"{commit}.json"
         if use_cache and revision_filepath.exists():
+            logging.info(
+                f"(linguist {i+1}/{len(versions)}) Found size in cache for version {version}."
+            )
             repovul_revision = RepovulRevision.from_file(
                 Config.paths.repovul_revisions / f"{commit}.json"
             )
             repovul_revisions[version] = repovul_revision
         else:
+            logging.info(
+                f"(linguist {i+1}/{len(versions)}) Computing size for version {version}..."
+            )
             date = version_dates[version]
             languages, size = compute_code_sizes_at_revision(repo_dir, commit)
             repovul_revision = RepovulRevision(
