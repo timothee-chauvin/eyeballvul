@@ -97,6 +97,17 @@ def filter_out_no_affected_versions(osv_group: list[OSVVulnerability]) -> list[O
 
 
 @typechecked
+def filter_out_withdrawn(osv_group: list[OSVVulnerability]) -> list[OSVVulnerability]:
+    """Filter out OSV items that are marked as withdrawn."""
+    filtered = [osv_item for osv_item in osv_group if not osv_item.withdrawn]
+    if len(filtered) < len(osv_group):
+        logging.info(
+            f"Filtered out {len(osv_group) - len(filtered)}/{len(osv_group)} OSV items marked as withdrawn."
+        )
+    return filtered
+
+
+@typechecked
 def get_repo_url(osv_group: list[OSVVulnerability]) -> str:
     """
     Get the repository URL from a group of OSV items.
@@ -154,11 +165,12 @@ def osv_group_to_repovul_group(
     This is done by groups in order to compute the smallest set of commits that hold all the
     vulnerabilities in the group.
 
-    OSV items that don't have any affected version are ignored.
+    OSV items that don't have any affected version, or that are marked as withdraw, are ignored.
 
     Versions that aren't found in the git repo are also ignored.
     """
     osv_group = filter_out_no_affected_versions(osv_group)
+    osv_group = filter_out_withdrawn(osv_group)
     if not osv_group:
         logging.info("No OSV items with affected versions found. Skipping.")
         return [], []
