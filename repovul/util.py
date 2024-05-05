@@ -153,11 +153,18 @@ def clone_repo_with_cache(repo_url: str) -> str:
     if repo_dir.exists():
         # If the repo is in the cache, update it
         logging.info(f"Updating '{repo_name}' from cache...")
-        subprocess.check_call(["git", "pull"], cwd=repo_dir)
+        subprocess.check_call(
+            ["git", "pull"], cwd=repo_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+        )
     else:
         # If the repo is not in the cache, clone it
         print(f"Cloning '{repo_name}' into cache...")
-        subprocess.run(["git", "clone", repo_url], cwd=Config.paths.repo_cache)
+        subprocess.run(
+            ["git", "clone", repo_url],
+            cwd=Config.paths.repo_cache,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
 
     return str(repo_dir)
 
