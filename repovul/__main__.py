@@ -72,7 +72,7 @@ def convert_one(repo_url: str, items: list[dict]) -> None:
     """Convert the OSV items of a single repository to Repovul items."""
     osv_items = [OSVVulnerability(**item) for item in items]
     repovul_items, repovul_revisions = osv_group_to_repovul_group(osv_items)
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db", echo=True)
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
         for repovul_item in repovul_items:
