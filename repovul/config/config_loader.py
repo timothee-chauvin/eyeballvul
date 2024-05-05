@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import NamedTuple
 
 PARENT_DIR = Path(__file__).parent
+PROJECT_DIR = PARENT_DIR.parent.parent
 
 with open(PARENT_DIR / "config.toml", "rb") as f:
     config = tomllib.load(f)
@@ -22,16 +23,17 @@ class Paths(NamedTuple):
 class Config:
     ecosystems = config["ecosystems"]
     supported_domains = config["supported_domains"]
-    base_path = Path(config["data_path"]).expanduser()
+    cache_path = Path(config["cache_path"]).expanduser()
+    data_path = PROJECT_DIR / "data"
 
     paths = Paths(
-        project=PARENT_DIR.parent.parent,
-        osv=base_path / "data/osv",
-        repovul_vulns=base_path / "data/repovul/vulns",
-        repovul_revisions=base_path / "data/repovul/revisions",
-        db=base_path / "data/repovul/db",
-        hitting_set_cache=base_path / "cache" / "hitting_set",
-        repo_cache=base_path / "cache" / "repos",
+        project=PROJECT_DIR,
+        osv=cache_path / "osv",
+        repovul_vulns=data_path / "vulns",
+        repovul_revisions=data_path / "revisions",
+        db=data_path / "db",
+        hitting_set_cache=cache_path / "hitting_set",
+        repo_cache=cache_path / "repos",
         workdir=Path(config["workdir"]),
     )
 
