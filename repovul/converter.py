@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from typing import cast
 
-from sqlmodel import Session, SQLModel, create_engine
+from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
@@ -31,6 +31,8 @@ class Converter:
         self.cache = Cache.read()
         self.osv_items = self.get_osv_items()
         self.by_repo = self.osv_items_by_repo(self.osv_items)
+        self.engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+        SQLModel.metadata.create_all(self.engine)
 
     def convert_one(self, repo_url: str) -> None:
         """Convert the OSV items of a single repository to Repovul items."""
@@ -38,9 +40,7 @@ class Converter:
         items = self.by_repo[repo_url]
         osv_items = [OSVVulnerability(**item) for item in items]
         repovul_items, repovul_revisions = self.osv_group_to_repovul_group(osv_items)
-        engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
-        SQLModel.metadata.create_all(engine)
-        with Session(engine) as session:
+        with Session(self.engine) as session:
             for repovul_item in repovul_items:
                 session.merge(repovul_item)
             for repovul_revision in repovul_revisions:
@@ -155,8 +155,8 @@ class Converter:
         logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
         repovul_items = []
-        repovul_revisions = self.versions_to_repovul_revisions(
-            hitting_set_versions, versions_info, repo_url, repo_dir, use_cache=True
+        repovul_revisions = self.versions_to_repovul_revisions_with_cache(
+            hitting_set_versions, versions_info, repo_url, repo_dir
         )
         for osv_item in osv_group:
             concerned_versions = [
@@ -259,13 +259,12 @@ class Converter:
             self.cache[repo_url].versions_info[version] = version_info
         return repo_dir, version_info
 
-    @staticmethod
-    def versions_to_repovul_revisions(
+    def versions_to_repovul_revisions_with_cache(
+        self,
         versions: list[str],
         versions_info: dict[str, tuple[str, float] | None],
         repo_url: str,
         repo_dir: str | None,
-        use_cache: bool = True,
     ) -> dict[str, RepovulRevision]:
         repovul_revisions = {}
         for i, version in enumerate(versions):
@@ -275,15 +274,14 @@ class Converter:
                     "Unknown version incorrectly passed to `versions_to_repovul_revisions`."
                 )
             commit, date = version_info
-            revision_filepath = Config.paths.repovul_revisions / f"{commit}.json"
-            if use_cache and revision_filepath.exists():
+            with Session(self.engine) as session:
+                query = select(RepovulRevision).where(RepovulRevision.commit == commit)
+                existing_revision = session.exec(query).first()
+            if existing_revision:
                 logging.info(
                     f"(linguist {i+1}/{len(versions)}) Found size in cache for version {version}."
                 )
-                repovul_revision = RepovulRevision.from_file(
-                    Config.paths.repovul_revisions / f"{commit}.json"
-                )
-                repovul_revisions[version] = repovul_revision
+                repovul_revisions[version] = existing_revision
             else:
                 logging.info(
                     f"(linguist {i+1}/{len(versions)}) Computing size for version {version}..."
