@@ -22,7 +22,7 @@ class Cache(RootModel):
             return Cache({})
         else:
             with open(cache_filepath) as f:
-                return Cache(**json.load(f))
+                return Cache(json.load(f))
 
     def write(self) -> None:
         """Write the cache to the cache file."""
@@ -30,3 +30,15 @@ class Cache(RootModel):
         with open(cache_filepath, "w") as f:
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
+
+    def __getitem__(self, key: str) -> CacheItem:
+        return self.root[key]
+
+    def __setitem__(self, key: str, value: CacheItem) -> None:
+        self.root[key] = value
+
+    def __delitem__(self, key: str) -> None:
+        del self.root[key]
+
+    def __contains__(self, key: str) -> bool:
+        return key in self.root
