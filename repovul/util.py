@@ -212,6 +212,8 @@ def compute_code_sizes_at_revision(repo_dir: str, commit: str) -> tuple[dict[str
 
 
 @typechecked
-def tag_to_commit(tag: str) -> str:
+def tag_to_commit(repo_dir: str, tag: str) -> str:
     """Get the commit hash of the given tag."""
-    return subprocess.check_output(["git", "rev-list", "-n", "1", tag]).decode().strip()
+    return (
+        subprocess.check_output(["git", "rev-list", "-n", "1", tag], cwd=repo_dir).decode().strip()
+    )
