@@ -1,6 +1,6 @@
 import json
 
-from pydantic import BaseModel
+from pydantic import BaseModel, RootModel
 
 from repovul.config.config_loader import Config
 
@@ -11,15 +11,15 @@ class CacheItem(BaseModel):
     hitting_set_results: dict[str, list[str]]
 
 
-class Cache(BaseModel):
-    items: dict[str, CacheItem]
+class Cache(RootModel):
+    root: dict[str, CacheItem]
 
     @staticmethod
     def read() -> "Cache":
         """Read the cache from the cache file."""
         cache_filepath = Config.paths.repo_info_cache / "cache.json"
         if not cache_filepath.exists():
-            return Cache(items={})
+            return Cache({})
         else:
             with open(cache_filepath) as f:
                 return Cache(**json.load(f))
