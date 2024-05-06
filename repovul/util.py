@@ -42,7 +42,7 @@ def repo_url_to_name(repo_url: str) -> str:
 
 
 @typechecked
-def _solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> list[str]:
+def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> list[str]:
     """Versions are returned sorted by date in ascending order, according to `version_dates`."""
 
     def parse_version(version: str) -> int:
@@ -86,34 +86,6 @@ def _solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) ->
         return sorted(hitting_set, key=lambda version: parse_version(version))
     else:
         raise ValueError("No optimal solution found in stage 2/2.")
-
-
-@typechecked
-def solve_hitting_set(
-    lists: list[list[str]], version_dates: dict[str, str], use_cache: bool = True
-) -> list[str]:
-    """
-    Solve the hitting set problem.
-
-    If `use_cache` is True, the solution is retrieved from the cache if it exists.
-
-    In any case, the solution is saved to the cache after being computed.
-    """
-    sorted_lists = sorted([sorted(lst) for lst in lists])
-    sorted_version_dates = sorted(version_dates.items(), key=lambda item: item[0])
-    arguments_hash = get_str_weak_hash(json.dumps([sorted_lists, sorted_version_dates]))
-    cache_filepath = Config.paths.hitting_set_cache / f"{arguments_hash}.json"
-    if use_cache and cache_filepath.exists():
-        with open(cache_filepath) as f:
-            solution = json.load(f)
-        logging.info(f"Hitting set solution found in cache: {solution}")
-    else:
-        solution = _solve_hitting_set(lists, version_dates)
-        with open(cache_filepath, "w") as f:
-            json.dump(solution, f)
-            f.write("\n")
-        logging.info("Hitting set solution saved to cache.")
-    return solution
 
 
 @typechecked

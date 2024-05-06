@@ -31,6 +31,14 @@ class Cache(RootModel):
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
 
+    def initialize(self, repo_url: str) -> None:
+        if repo_url not in self:
+            self[repo_url] = CacheItem(
+                versions_to_commits={},
+                commits_to_dates={},
+                hitting_set_results={},
+            )
+
     def __getitem__(self, key: str) -> CacheItem:
         return self.root[key]
 

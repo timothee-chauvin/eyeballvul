@@ -15,6 +15,7 @@ from repovul.util import (
     clone_repo_with_cache,
     compute_code_sizes_at_revision,
     get_domain,
+    get_str_weak_hash,
     get_version_dates,
     solve_hitting_set,
     tag_to_commit,
@@ -32,6 +33,7 @@ class Converter:
 
     def convert_one(self, repo_url: str) -> None:
         """Convert the OSV items of a single repository to Repovul items."""
+        self.cache.initialize(repo_url)
         items = self.by_repo[repo_url]
         osv_items = [OSVVulnerability(**item) for item in items]
         repovul_items, repovul_revisions = self.osv_group_to_repovul_group(osv_items)
@@ -138,7 +140,8 @@ class Converter:
             if not all_versions:
                 logging.info("No valid versions found. Skipping.")
                 return [], []
-        hitting_set_versions = solve_hitting_set(
+        hitting_set_versions = self.solve_hitting_set_with_cache(
+            repo_url=repo_url,
             lists=list(affected_versions_by_item.values()),
             version_dates=version_dates,
         )
@@ -243,3 +246,25 @@ class Converter:
                 )
                 repovul_revisions[version] = repovul_revision
         return repovul_revisions
+
+    def solve_hitting_set_with_cache(
+        self, repo_url: str, lists: list[list[str]], version_dates: dict[str, str]
+    ) -> list[str]:
+        """
+        Solve the hitting set problem, or retrieve the solution from the cache if it has already
+        been computed.
+
+        The solution is saved to the cache after being computed.
+        """
+        sorted_lists = sorted([sorted(lst) for lst in lists])
+        sorted_version_dates = sorted(version_dates.items(), key=lambda item: item[0])
+        arguments_hash = get_str_weak_hash(json.dumps([sorted_lists, sorted_version_dates]))
+
+        if arguments_hash in self.cache[repo_url].hitting_set_results:
+            solution = self.cache[repo_url].hitting_set_results[arguments_hash]
+            logging.info(f"Hitting set solution found in cache: {solution}")
+        else:
+            solution = solve_hitting_set(lists, version_dates)
+            self.cache[repo_url].hitting_set_results[arguments_hash] = solution
+            logging.info("Hitting set solution saved to cache.")
+        return solution

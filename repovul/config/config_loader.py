@@ -15,7 +15,6 @@ class Paths(NamedTuple):
     repovul_vulns: Path
     repovul_revisions: Path
     db: Path
-    hitting_set_cache: Path
     repo_info_cache: Path
     repo_cache: Path
     workdir: Path
@@ -33,7 +32,6 @@ class Config:
         repovul_vulns=data_path / "vulns",
         repovul_revisions=data_path / "revisions",
         db=data_path / "db",
-        hitting_set_cache=cache_path / "hitting_set",
         repo_info_cache=cache_path / "repo_info",
         repo_cache=cache_path / "repos",
         workdir=Path(config["workdir"]),
