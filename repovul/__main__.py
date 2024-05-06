@@ -3,17 +3,19 @@ import io
 import json
 import logging
 import pstats
+import sys
 import zipfile
 from datetime import datetime
+from pathlib import Path
 
 import fire
 import requests
-from sqlmodel import Session, create_engine, select
+from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config import Config
 from repovul.converter import Converter
-from repovul.models.repovul import RepovulItem
+from repovul.models.repovul import RepovulItem, RepovulRevision
 
 logging.basicConfig(level=logging.INFO)
 
@@ -140,6 +142,53 @@ def get_commits(after: str | None = None, before: str | None = None, project: st
         print(json.dumps(list(commits), indent=2))
 
 
+def json_export() -> None:
+    """Export the contents of the SQL database into JSON files in the data directory."""
+    if Path(Config.paths.data).exists():
+        print(f"The data directory already exists at {Config.paths.data}.")
+        print("Please remove it or back it up before exporting.")
+        sys.exit(1)
+    for path in [Config.paths.repovul_vulns, Config.paths.repovul_revisions]:
+        path.mkdir(parents=True, exist_ok=True)
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    with Session(engine) as session:
+        item_query = select(RepovulItem)
+        repovul_items = session.exec(item_query).all()
+        for item in repovul_items:
+            item.log()
+        revision_query = select(RepovulRevision)
+        repovul_revisions = session.exec(revision_query).all()
+        for revision in repovul_revisions:
+            revision.log()
+    print(
+        f"Successfully exported {len(repovul_items)} RepovulItems and {len(repovul_revisions)} RepovulRevisions to {Config.paths.data}."
+    )
+
+
+def json_import() -> None:
+    """Import the contents of the JSON files in the data directory into the SQL database."""
+    if Path(Config.paths.db).exists():
+        print(f"The database directory already exists at {Config.paths.db}.")
+        print("Please remove it or back it up before importing.")
+        sys.exit(1)
+    Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
+    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    SQLModel.metadata.create_all(engine)
+    with Session(engine) as session:
+        repovul_item_files = list(Config.paths.repovul_vulns.glob("**/*.json"))
+        for path in repovul_item_files:
+            item = RepovulItem.from_file(path)
+            session.add(item)
+        repovul_revision_files = list(Config.paths.repovul_revisions.glob("**/*.json"))
+        for path in repovul_revision_files:
+            revision = RepovulRevision.from_file(path)
+            session.add(revision)
+        session.commit()
+    print(
+        f"Successfully imported {len(repovul_item_files)} RepovulItems and {len(repovul_revision_files)} RepovulRevisions into the database at {Config.paths.db}."
+    )
+
+
 def main():
     fire.Fire(
         {
@@ -150,6 +199,8 @@ def main():
             "get_by_project": get_by_project,
             "get_commits": get_commits,
             "get_projects": get_projects,
+            "json_export": json_export,
+            "json_import": json_import,
         }
     )
 

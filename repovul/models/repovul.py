@@ -25,7 +25,6 @@ class RepovulRevision(SQLModel, table=True):
 
     def log(self) -> None:
         repovul_dir = Config.paths.repovul_revisions
-        repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.commit}.json", "w") as f:
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
@@ -67,6 +66,11 @@ class RepovulItem(SQLModel, table=True):
         with open(repovul_dir / f"{self.id}.json", "w") as f:
             f.write(self.model_dump_json(indent=2, exclude_none=True))
             f.write("\n")
+
+    @staticmethod
+    def from_file(filepath: str | Path) -> "RepovulItem":
+        with open(filepath) as f:
+            return RepovulItem.model_validate_json(f.read())
 
     def to_dict(self) -> dict:
         return self.model_dump(exclude_none=True, mode="json")

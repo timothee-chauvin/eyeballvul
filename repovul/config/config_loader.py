@@ -12,6 +12,7 @@ with open(PARENT_DIR / "config.toml", "rb") as f:
 class Paths(NamedTuple):
     project: Path
     osv: Path
+    data: Path
     repovul_vulns: Path
     repovul_revisions: Path
     db: Path
@@ -29,6 +30,7 @@ class Config:
     paths = Paths(
         project=PROJECT_DIR,
         osv=cache_path / "osv",
+        data=data_path,
         repovul_vulns=data_path / "vulns",
         repovul_revisions=data_path / "revisions",
         db=PROJECT_DIR / "db",
@@ -38,6 +40,14 @@ class Config:
     )
 
 
+no_mkdir = [
+    Config.paths.data,
+    Config.paths.repovul_vulns,
+    Config.paths.repovul_revisions,
+    Config.paths.db,
+]
+
 # Create all directories in the config if they don't exist
 for path in Config.paths:
-    path.mkdir(parents=True, exist_ok=True)
+    if path not in no_mkdir:
+        path.mkdir(parents=True, exist_ok=True)
