@@ -127,7 +127,7 @@ class Converter:
         unknown_versions = {v for v in versions_info if not versions_info[v]}
         if unknown_versions:
             logging.info(
-                f"Filtering out {len(unknown_versions)}/{len(all_versions)} versions as not found by git: {unknown_versions}"
+                f"Filtered out {len(unknown_versions)}/{len(all_versions)} versions as not found by git: {unknown_versions}"
             )
             for item_id, affected_versions in affected_versions_by_item.items():
                 affected_versions_by_item[item_id] = [
@@ -248,12 +248,12 @@ class Converter:
         if version in self.cache[repo_url].versions_info:
             return repo_dir, self.cache[repo_url].versions_info[version]
         else:
-            logging.info(f"Version '{version}' not found in cache.")
-            repo_dir = repo_dir or clone_repo_with_cache(repo_url)
+            if not repo_dir:
+                logging.info("At least one version not found in cache. Cloning.")
+                repo_dir = clone_repo_with_cache(repo_url)
             commit = get_version_commit(repo_dir, version)
             date = get_version_date(repo_dir, version)
             if commit is None or date is None:
-                logging.info(f"Version '{version}' not known to git.")
                 version_info = None
             else:
                 version_info = (commit, date)
@@ -330,7 +330,7 @@ class Converter:
 
         if arguments_hash in self.cache[repo_url].hitting_set_results:
             solution = self.cache[repo_url].hitting_set_results[arguments_hash]
-            logging.info(f"Hitting set solution found in cache: {solution}")
+            logging.info("Hitting set solution found in cache.")
         else:
             solution = solve_hitting_set(lists, version_dates)
             self.cache[repo_url].hitting_set_results[arguments_hash] = solution
