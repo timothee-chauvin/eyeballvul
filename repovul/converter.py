@@ -142,9 +142,6 @@ class Converter:
             lists=list(affected_versions_by_item.values()),
             version_dates=version_dates,
         )
-        hitting_set_versions = sorted(
-            hitting_set_versions, key=lambda version: version_dates[version]
-        )
         logging.info(f"Minimum hitting set: {hitting_set_versions}")
 
         repovul_items = []

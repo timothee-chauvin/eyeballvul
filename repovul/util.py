@@ -43,6 +43,8 @@ def repo_url_to_name(repo_url: str) -> str:
 
 @typechecked
 def _solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> list[str]:
+    """Versions are returned sorted by date in ascending order, according to `version_dates`."""
+
     def parse_version(version: str) -> int:
         return int(datetime.fromisoformat(version_dates[version]).timestamp())
 
@@ -81,7 +83,7 @@ def _solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) ->
         hitting_set = [version for version in all_versions if solver.Value(version_vars[version])]
         logging.debug(f"Minimum hitting set: {hitting_set}")
         logging.debug(f"Optimal solution found in {duration:.2f} seconds.")
-        return hitting_set
+        return sorted(hitting_set, key=lambda version: parse_version(version))
     else:
         raise ValueError("No optimal solution found in stage 2/2.")
 
