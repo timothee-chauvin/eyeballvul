@@ -2,6 +2,7 @@ import json
 import logging
 import shutil
 import time
+from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime
 from typing import cast
 
@@ -259,6 +260,37 @@ class Converter:
             self.cache[repo_url].versions_info[version] = version_info
         return repo_dir, version_info
 
+    def get_existing_revisions(
+        self, versions: list[str], versions_info: dict[str, tuple[str, float] | None]
+    ) -> dict[str, RepovulRevision]:
+        existing_revisions = {}
+        with Session(self.engine) as session:
+            for version in versions:
+                version_info = versions_info[version]
+                if version_info is None:
+                    raise ValueError(
+                        "Unknown version incorrectly passed to `versions_to_repovul_revisions`."
+                    )
+                commit, _ = version_info
+                query = select(RepovulRevision).where(RepovulRevision.commit == commit)
+                existing_revision = session.exec(query).first()
+                if existing_revision:
+                    existing_revisions[version] = existing_revision
+        logging.info(f"Found size in cache for {len(existing_revisions)}/{len(versions)} versions.")
+        return existing_revisions
+
+    @staticmethod
+    def process_new_version(
+        args: tuple[str, tuple[str, float], str]
+    ) -> tuple[str, RepovulRevision]:
+        version, version_info, repo_dir = args
+        logging.info(f"Computing size for version {version}...")
+        commit, date = version_info
+        languages, size = compute_code_sizes_at_revision(repo_dir, commit)
+        return version, RepovulRevision(
+            commit=commit, date=datetime.fromtimestamp(date), languages=languages, size=size
+        )
+
     def versions_to_repovul_revisions_with_cache(
         self,
         versions: list[str],
@@ -266,37 +298,22 @@ class Converter:
         repo_url: str,
         repo_dir: str | None,
     ) -> dict[str, RepovulRevision]:
-        repovul_revisions = {}
-        for i, version in enumerate(versions):
-            version_info = versions_info[version]
-            if version_info is None:
-                raise ValueError(
-                    "Unknown version incorrectly passed to `versions_to_repovul_revisions`."
-                )
-            commit, date = version_info
-            with Session(self.engine) as session:
-                query = select(RepovulRevision).where(RepovulRevision.commit == commit)
-                existing_revision = session.exec(query).first()
-            if existing_revision:
-                logging.info(
-                    f"(linguist {i+1}/{len(versions)}) Found size in cache for version {version}."
-                )
-                repovul_revisions[version] = existing_revision
-            else:
-                logging.info(
-                    f"(linguist {i+1}/{len(versions)}) Computing size for version {version}..."
-                )
-                if not repo_dir:
-                    repo_dir = clone_repo_with_cache(repo_url)
-                languages, size = compute_code_sizes_at_revision(repo_dir, commit)
-                repovul_revision = RepovulRevision(
-                    commit=commit,
-                    date=datetime.fromtimestamp(date),
-                    languages=languages,
-                    size=size,
-                )
-                repovul_revisions[version] = repovul_revision
-        return repovul_revisions
+        # Proceed in two steps.
+        # First, identify all the already known revisions in the database.
+        existing_revisions = self.get_existing_revisions(versions, versions_info)
+        if len(existing_revisions) == len(versions):
+            return existing_revisions
+        # Second, compute sizes in parallel for the remaining versions.
+        if not repo_dir:
+            repo_dir = clone_repo_with_cache(repo_url)
+        to_compute_args = [
+            (version, versions_info[version], repo_dir)
+            for version in versions
+            if version not in existing_revisions
+        ]
+        with ProcessPoolExecutor() as executor:
+            new_revisions = executor.map(self.process_new_version, to_compute_args)
+        return {**existing_revisions, **dict(new_revisions)}
 
     def solve_hitting_set_with_cache(
         self, repo_url: str, lists: list[list[str]], version_dates: dict[str, float]
