@@ -12,7 +12,7 @@ from sqlmodel import Session, create_engine, select
 from typeguard import typechecked
 
 from repovul.config import Config
-from repovul.models.converter import Converter
+from repovul.converter import Converter
 from repovul.models.repovul import RepovulItem
 
 logging.basicConfig(level=logging.INFO)
