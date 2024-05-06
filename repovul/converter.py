@@ -99,7 +99,7 @@ class Converter:
         This is done by groups in order to compute the smallest set of commits that hold all the
         vulnerabilities in the group.
 
-         OSV items that don't have any affected version, or that are marked as withdraw, are
+        OSV items that don't have any affected version, or that are marked as withdrawn, are
         ignored.
 
         Versions that aren't found in the git repo are also ignored.
