@@ -269,7 +269,7 @@ class Converter:
                 version_info = versions_info[version]
                 if version_info is None:
                     raise ValueError(
-                        "Unknown version incorrectly passed to `versions_to_repovul_revisions`."
+                        f"Unknown version incorrectly passed to `versions_to_repovul_revisions`: '{version}."
                     )
                 commit, _ = version_info
                 query = select(RepovulRevision).where(RepovulRevision.commit == commit)
@@ -284,7 +284,7 @@ class Converter:
         args: tuple[str, tuple[str, float], str]
     ) -> tuple[str, RepovulRevision]:
         version, version_info, repo_dir = args
-        logging.info(f"Computing size for version {version}...")
+        logging.info(f"Computing size for version '{version}'...")
         commit, date = version_info
         languages, size = compute_code_sizes_at_revision(repo_dir, commit)
         return version, RepovulRevision(
