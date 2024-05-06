@@ -31,7 +31,7 @@ class Config:
         osv=cache_path / "osv",
         repovul_vulns=data_path / "vulns",
         repovul_revisions=data_path / "revisions",
-        db=data_path / "db",
+        db=PROJECT_DIR / "db",
         repo_info_cache=cache_path / "repo_info",
         repo_cache=cache_path / "repos",
         workdir=Path(config["workdir"]),
