@@ -2,6 +2,7 @@ import json
 import logging
 import shutil
 import time
+from datetime import datetime
 from typing import cast
 
 from sqlmodel import Session, SQLModel, create_engine
@@ -16,9 +17,9 @@ from repovul.util import (
     compute_code_sizes_at_revision,
     get_domain,
     get_str_weak_hash,
-    get_version_dates,
+    get_version_commit,
+    get_version_date,
     solve_hitting_set,
-    tag_to_commit,
 )
 
 
@@ -110,8 +111,6 @@ class Converter:
             logging.info("No OSV items with affected versions found. Skipping.")
             return [], []
         repo_url = self.get_repo_url(osv_group)
-        # TODO change this
-        repo_dir = clone_repo_with_cache(repo_url)
         # For each affected version in each OSV item, find the corresponding commit and its date.
         # This will allow to sort versions chronologically, to use as a constraint
         # in the hitting set solver.
@@ -119,16 +118,19 @@ class Converter:
             osv_item.id: cast(list[str], osv_item.get_affected_versions()) for osv_item in osv_group
         }
         all_versions = {version for lst in affected_versions_by_item.values() for version in lst}
-        version_dates = get_version_dates(all_versions, repo_dir)
-        # Some versions may be omitted due to not being found by git. Filter them out of our current data structures.
-        missing_versions = all_versions - version_dates.keys()
-        if missing_versions:
+        repo_dir = None  # don't clone the repo yet, in case it's not needed
+        repo_dir, versions_info = self.get_versions_info_with_cache(
+            repo_url, all_versions, repo_dir
+        )
+        # Some versions may not have been found by git. Filter them out of our current data structures.
+        unknown_versions = {v for v in versions_info if not versions_info[v]}
+        if unknown_versions:
             logging.info(
-                f"Filtering out {len(missing_versions)}/{len(all_versions)} versions as not found by git: {missing_versions}"
+                f"Filtering out {len(unknown_versions)}/{len(all_versions)} versions as not found by git: {unknown_versions}"
             )
             for item_id, affected_versions in affected_versions_by_item.items():
                 affected_versions_by_item[item_id] = [
-                    version for version in affected_versions if version in version_dates
+                    version for version in affected_versions if version not in unknown_versions
                 ]
             # Filter out possible empty lists
             affected_versions_by_item = {
@@ -136,10 +138,15 @@ class Converter:
                 for item_id, affected_versions in affected_versions_by_item.items()
                 if affected_versions
             }
-            all_versions -= missing_versions
+            all_versions -= unknown_versions
             if not all_versions:
                 logging.info("No valid versions found. Skipping.")
                 return [], []
+        version_dates: dict[str, float] = {}
+        for version in versions_info:
+            version_info = versions_info[version]
+            if version_info:
+                version_dates[version] = version_info[1]
         hitting_set_versions = self.solve_hitting_set_with_cache(
             repo_url=repo_url,
             lists=list(affected_versions_by_item.values()),
@@ -149,7 +156,7 @@ class Converter:
 
         repovul_items = []
         repovul_revisions = self.versions_to_repovul_revisions(
-            hitting_set_versions, version_dates, repo_dir, use_cache=True
+            hitting_set_versions, versions_info, repo_url, repo_dir, use_cache=True
         )
         for osv_item in osv_group:
             concerned_versions = [
@@ -176,7 +183,7 @@ class Converter:
             "https://github.com/pimcore/pimcore",
             "https://gitlab.com/gitlab-org/gitlab",
         ]
-        if repo_url not in repos_to_cache:
+        if repo_dir and repo_url not in repos_to_cache:
             shutil.rmtree(repo_dir)
         return repovul_items, list(repovul_revisions.values())
 
@@ -216,13 +223,58 @@ class Converter:
             )
         return repo_urls.pop()
 
+    def get_versions_info_with_cache(
+        self, repo_url: str, versions: set[str], repo_dir: str | None
+    ) -> tuple[str | None, dict[str, tuple[str, float] | None]]:
+        """Get the commit hash and date for each version in the repository, using the cache if it's
+        already known."""
+        versions_info = {}
+        for version in versions:
+            repo_dir, rest = self.get_version_info_with_cache(repo_url, version, repo_dir)
+            # rest is either None, or a tuple (commit_hash, date)
+            versions_info[version] = rest
+        return repo_dir, versions_info
+
+    def get_version_info_with_cache(
+        self, repo_url: str, version: str, repo_dir: str | None
+    ) -> tuple[str | None, tuple[str, float] | None]:
+        """
+        Get the commit hash and date for a version in the repository, using the cache if it's
+        already known.
+
+        Return None if the version isn't known to git.
+        """
+        if version in self.cache[repo_url].versions_info:
+            return repo_dir, self.cache[repo_url].versions_info[version]
+        else:
+            logging.info(f"Version '{version}' not found in cache.")
+            repo_dir = repo_dir or clone_repo_with_cache(repo_url)
+            commit = get_version_commit(repo_dir, version)
+            date = get_version_date(repo_dir, version)
+            if commit is None or date is None:
+                logging.info(f"Version '{version}' not known to git.")
+                version_info = None
+            else:
+                version_info = (commit, date)
+            self.cache[repo_url].versions_info[version] = version_info
+        return repo_dir, version_info
+
     @staticmethod
     def versions_to_repovul_revisions(
-        versions: list[str], version_dates: dict[str, str], repo_dir: str, use_cache: bool = True
+        versions: list[str],
+        versions_info: dict[str, tuple[str, float] | None],
+        repo_url: str,
+        repo_dir: str | None,
+        use_cache: bool = True,
     ) -> dict[str, RepovulRevision]:
         repovul_revisions = {}
         for i, version in enumerate(versions):
-            commit = tag_to_commit(repo_dir, version)
+            version_info = versions_info[version]
+            if version_info is None:
+                raise ValueError(
+                    "Unknown version incorrectly passed to `versions_to_repovul_revisions`."
+                )
+            commit, date = version_info
             revision_filepath = Config.paths.repovul_revisions / f"{commit}.json"
             if use_cache and revision_filepath.exists():
                 logging.info(
@@ -236,11 +288,12 @@ class Converter:
                 logging.info(
                     f"(linguist {i+1}/{len(versions)}) Computing size for version {version}..."
                 )
-                date = version_dates[version]
+                if not repo_dir:
+                    repo_dir = clone_repo_with_cache(repo_url)
                 languages, size = compute_code_sizes_at_revision(repo_dir, commit)
                 repovul_revision = RepovulRevision(
                     commit=commit,
-                    date=date,
+                    date=datetime.fromtimestamp(date),
                     languages=languages,
                     size=size,
                 )
@@ -248,7 +301,7 @@ class Converter:
         return repovul_revisions
 
     def solve_hitting_set_with_cache(
-        self, repo_url: str, lists: list[list[str]], version_dates: dict[str, str]
+        self, repo_url: str, lists: list[list[str]], version_dates: dict[str, float]
     ) -> list[str]:
         """
         Solve the hitting set problem, or retrieve the solution from the cache if it has already

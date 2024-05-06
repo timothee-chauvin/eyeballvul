@@ -6,8 +6,7 @@ from repovul.config.config_loader import Config
 
 
 class CacheItem(BaseModel):
-    versions_to_commits: dict[str, str]
-    commits_to_dates: dict[str, str]
+    versions_info: dict[str, tuple[str, float] | None]
     hitting_set_results: dict[str, list[str]]
 
 
@@ -34,8 +33,7 @@ class Cache(RootModel):
     def initialize(self, repo_url: str) -> None:
         if repo_url not in self:
             self[repo_url] = CacheItem(
-                versions_to_commits={},
-                commits_to_dates={},
+                versions_info={},
                 hitting_set_results={},
             )
 

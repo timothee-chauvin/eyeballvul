@@ -42,11 +42,8 @@ def repo_url_to_name(repo_url: str) -> str:
 
 
 @typechecked
-def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> list[str]:
+def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, float]) -> list[str]:
     """Versions are returned sorted by date in ascending order, according to `version_dates`."""
-
-    def parse_version(version: str) -> int:
-        return int(datetime.fromisoformat(version_dates[version]).timestamp())
 
     start = time.time()
     model = cp_model.CpModel()
@@ -72,7 +69,9 @@ def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> 
     model.Add(sum(version_vars[version] for version in all_versions) == min_versions)
 
     # Maximize the sum of the selected version dates
-    model.Maximize(sum(parse_version(version) * version_vars[version] for version in all_versions))
+    model.Maximize(
+        sum(int(version_dates[version]) * version_vars[version] for version in all_versions)
+    )
 
     solver = cp_model.CpSolver()
     status = solver.Solve(model)
@@ -83,7 +82,7 @@ def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, str]) -> 
         hitting_set = [version for version in all_versions if solver.Value(version_vars[version])]
         logging.debug(f"Minimum hitting set: {hitting_set}")
         logging.debug(f"Optimal solution found in {duration:.2f} seconds.")
-        return sorted(hitting_set, key=lambda version: parse_version(version))
+        return sorted(hitting_set, key=lambda version: version_dates[version])
     else:
         raise ValueError("No optimal solution found in stage 2/2.")
 
@@ -144,29 +143,6 @@ def clone_repo_with_cache(repo_url: str) -> str:
 
 
 @typechecked
-def get_version_dates(versions: set[str], repo_dir: str) -> dict[str, str]:
-    """Get the dates of the versions in the repository."""
-    version_dates = {}
-    for version in versions:
-        try:
-            date = (
-                subprocess.check_output(
-                    ["git", "log", "-1", "--format=%cI", version],
-                    stderr=subprocess.DEVNULL,
-                    cwd=repo_dir,
-                )
-                .decode()
-                .strip()
-            )
-            version_dates[version] = date
-        except subprocess.CalledProcessError as e:
-            logging.debug(
-                f"Failed to get the date of version {version}: exit status {e.returncode}"
-            )
-    return version_dates
-
-
-@typechecked
 def compute_code_sizes_at_revision(repo_dir: str, commit: str) -> tuple[dict[str, int], int]:
     """
     Get the size of each programming language in bytes (sorted in order of decreasing size), as well
@@ -186,8 +162,41 @@ def compute_code_sizes_at_revision(repo_dir: str, commit: str) -> tuple[dict[str
 
 
 @typechecked
-def tag_to_commit(repo_dir: str, tag: str) -> str:
-    """Get the commit hash of the given tag."""
-    return (
-        subprocess.check_output(["git", "rev-list", "-n", "1", tag], cwd=repo_dir).decode().strip()
-    )
+def get_version_commit(repo_dir: str, version: str) -> str | None:
+    """
+    Get the commit hash of the given version.
+
+    If the version isn't known to git, return None.
+    """
+    try:
+        return (
+            subprocess.check_output(
+                ["git", "rev-list", "-n", "1", version], stderr=subprocess.DEVNULL, cwd=repo_dir
+            )
+            .decode()
+            .strip()
+        )
+    except subprocess.CalledProcessError:
+        return None
+
+
+@typechecked
+def get_version_date(repo_dir: str, version: str) -> float | None:
+    """
+    Get the commit date, as a float, of the given version.
+
+    If the version isn't known to git, return None.
+    """
+    try:
+        date_str = (
+            subprocess.check_output(
+                ["git", "log", "-1", "--format=%cI", version],
+                stderr=subprocess.DEVNULL,
+                cwd=repo_dir,
+            )
+            .decode()
+            .strip()
+        )
+        return datetime.fromisoformat(date_str).timestamp()
+    except subprocess.CalledProcessError:
+        return None
