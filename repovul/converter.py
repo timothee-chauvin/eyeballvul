@@ -4,6 +4,7 @@ import shutil
 import time
 from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime
+from pathlib import Path
 from typing import cast
 
 from sqlmodel import Session, SQLModel, create_engine, select
@@ -32,6 +33,7 @@ class Converter:
         self.cache = Cache.read()
         self.osv_items = self.get_osv_items()
         self.by_repo = self.osv_items_by_repo(self.osv_items)
+        Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
         self.engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
         SQLModel.metadata.create_all(self.engine)
 
