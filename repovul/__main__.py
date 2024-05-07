@@ -41,6 +41,10 @@ def convert_all() -> None:
     return Converter().convert_all()
 
 
+def convert_range(start: int, end: int) -> None:
+    return Converter().convert_range(start, end)
+
+
 @typechecked
 def get_by_commit(commit_hash: str, after: str | None = None, before: str | None = None):
     """
@@ -195,6 +199,7 @@ def main():
             "download": download,
             "convert_one": convert_one,
             "convert_all": convert_all,
+            "convert_range": convert_range,
             "get_by_commit": get_by_commit,
             "get_by_project": get_by_project,
             "get_commits": get_commits,

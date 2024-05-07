@@ -61,6 +61,17 @@ class Converter:
             ETA = elapsed / (i + 1) * (len(self.by_repo) - i - 1)
             logging.info(f"({i+1}/{len(self.by_repo)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
 
+    def convert_range(self, start: int, end: int) -> None:
+        """Convert the OSV items of a range of repositories to Repovul items."""
+        time_start = time.time()
+        repo_urls = sorted(self.by_repo.keys())[start:end]
+        for i, repo_url in enumerate(repo_urls):
+            logging.info(f"Processing {repo_url}...")
+            self.convert_one(repo_url)
+            elapsed = time.time() - time_start
+            ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
+            logging.info(f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
+
     @staticmethod
     def get_osv_items() -> list[dict]:
         """Get the items from the osv.dev dataset."""
