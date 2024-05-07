@@ -135,8 +135,6 @@ def clone_repo_with_cache(repo_url: str) -> str:
         subprocess.run(
             ["git", "clone", repo_url],
             cwd=Config.paths.repo_cache,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
         )
 
     return str(repo_dir)
