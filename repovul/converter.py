@@ -53,11 +53,11 @@ class Converter:
 
     def convert_all(self) -> None:
         """Convert the OSV items of all repositories to Repovul items."""
-        start = time.time()
-        for i, repo_url in enumerate(self.by_repo.keys()):
+        time_start = time.time()
+        for i, repo_url in enumerate(sorted(self.by_repo.keys())):
             logging.info(f"Processing {repo_url}...")
             self.convert_one(repo_url)
-            elapsed = time.time() - start
+            elapsed = time.time() - time_start
             ETA = elapsed / (i + 1) * (len(self.by_repo) - i - 1)
             logging.info(f"({i+1}/{len(self.by_repo)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
 
