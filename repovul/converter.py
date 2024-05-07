@@ -281,14 +281,18 @@ class Converter:
 
     @staticmethod
     def process_new_version(
-        args: tuple[str, tuple[str, float], str]
+        args: tuple[str, tuple[str, float], str, str]
     ) -> tuple[str, RepovulRevision]:
-        version, version_info, repo_dir = args
+        version, version_info, repo_url, repo_dir = args
         logging.info(f"Computing size for version '{version}'...")
         commit, date = version_info
         languages, size = compute_code_sizes_at_revision(repo_dir, commit)
         return version, RepovulRevision(
-            commit=commit, date=datetime.fromtimestamp(date), languages=languages, size=size
+            commit=commit,
+            repo_url=repo_url,
+            date=datetime.fromtimestamp(date),
+            languages=languages,
+            size=size,
         )
 
     def versions_to_repovul_revisions_with_cache(
@@ -307,7 +311,7 @@ class Converter:
         if not repo_dir:
             repo_dir = clone_repo_with_cache(repo_url)
         to_compute_args = [
-            (version, versions_info[version], repo_dir)
+            (version, versions_info[version], repo_url, repo_dir)
             for version in versions
             if version not in existing_revisions
         ]

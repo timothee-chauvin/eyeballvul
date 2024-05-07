@@ -11,6 +11,8 @@ from repovul.util import repo_url_to_name
 class RepovulRevision(SQLModel, table=True):
     # Full commit hash
     commit: str = Field(primary_key=True)
+    # Repository URL
+    repo_url: str
     # Date of the commit. To be serialized as an ISO 8601 string,
     # e.g. "2021-09-01T00:00:00Z"
     date: datetime
@@ -24,7 +26,9 @@ class RepovulRevision(SQLModel, table=True):
         validate_assignment = True
 
     def log(self) -> None:
-        repovul_dir = Config.paths.repovul_revisions
+        repo_name = repo_url_to_name(self.repo_url)
+        repovul_dir = Config.paths.repovul_revisions / repo_name
+        repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.commit}.json", "w") as f:
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
