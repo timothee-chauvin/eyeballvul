@@ -24,11 +24,14 @@ class Cache(RootModel):
                 return Cache(json.load(f))
 
     def write(self) -> None:
-        """Write the cache to the cache file."""
+        """Write the cache to the cache file, ensuring the file won't be lost if this function is
+        interrupted in the middle."""
+        tmp_cache_filepath = Config.paths.workdir / "cache.json"
         cache_filepath = Config.paths.repo_info_cache / "cache.json"
-        with open(cache_filepath, "w") as f:
+        with open(tmp_cache_filepath, "w") as f:
             f.write(self.model_dump_json(indent=2))
             f.write("\n")
+        tmp_cache_filepath.replace(cache_filepath)
 
     def initialize(self, repo_url: str) -> None:
         if repo_url not in self:
