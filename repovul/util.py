@@ -137,6 +137,7 @@ def clone_repo_with_cache(repo_url: str) -> str:
             ["git", "clone", repo_url],
             cwd=Config.paths.repo_cache,
             capture_output=True,
+            env={"GIT_ASKPASS": "true"},
         )
         if res.returncode != 0:
             if "remote: Repository not found" in res.stderr.decode():
