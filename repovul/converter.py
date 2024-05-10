@@ -1,6 +1,5 @@
 import json
 import logging
-import shutil
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
@@ -16,13 +15,14 @@ from repovul.models.cache import Cache, CacheItem
 from repovul.models.osv import OSVVulnerability
 from repovul.models.repovul import RepovulItem, RepovulRevision
 from repovul.util import (
-    clone_repo_with_cache,
+    clone_repo,
     compute_code_sizes_at_revision,
     get_domain,
     get_str_weak_hash,
     get_version_commit,
     get_version_date,
     solve_hitting_set,
+    temp_directory,
 )
 
 
@@ -55,9 +55,10 @@ class Converter:
         cache
         """
         try:
-            return Converter.osv_group_to_repovul_group(
-                repo_url, osv_items, cache, existing_revisions
-            )
+            with temp_directory() as repo_workdir:
+                return Converter.osv_group_to_repovul_group(
+                    repo_url, repo_workdir, osv_items, cache, existing_revisions
+                )
         except RepoNotFoundError:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
             return [], [], cache
@@ -171,7 +172,8 @@ class Converter:
 
     @staticmethod
     def osv_group_to_repovul_group(
-        repo_url,
+        repo_url: str,
+        repo_workdir: str,
         osv_group: list[OSVVulnerability],
         cache: CacheItem,
         existing_revisions: list[RepovulRevision],
@@ -199,7 +201,7 @@ class Converter:
         all_versions = {version for lst in affected_versions_by_item.values() for version in lst}
         repo_dir = None  # don't clone the repo yet, in case it's not needed
         repo_dir, versions_info, cache = Converter.get_versions_info_with_cache(
-            repo_url, all_versions, repo_dir, cache
+            repo_url, repo_workdir, all_versions, repo_dir, cache
         )
         # Some versions may not have been found by git. Filter them out of our current data structures.
         unknown_versions = {v for v in versions_info if not versions_info[v]}
@@ -235,7 +237,12 @@ class Converter:
 
         repovul_items = []
         repo_dir, repovul_revisions = Converter.versions_to_repovul_revisions_with_cache(
-            hitting_set_versions, versions_info, repo_url, repo_dir, existing_revisions
+            hitting_set_versions,
+            versions_info,
+            repo_url,
+            repo_workdir,
+            repo_dir,
+            existing_revisions,
         )
         for osv_item in osv_group:
             concerned_versions = [
@@ -255,8 +262,6 @@ class Converter:
                 commits=[repovul_revisions[version].commit for version in concerned_versions],
             )
             repovul_items.append(repovul_item)
-        if repo_dir:
-            shutil.rmtree(repo_dir)
         return repovul_items, list(repovul_revisions.values()), cache
 
     @staticmethod
@@ -283,14 +288,14 @@ class Converter:
 
     @staticmethod
     def get_versions_info_with_cache(
-        repo_url: str, versions: set[str], repo_dir: str | None, cache: CacheItem
+        repo_url: str, repo_workdir: str, versions: set[str], repo_dir: str | None, cache: CacheItem
     ) -> tuple[str | None, dict[str, tuple[str, float] | None], CacheItem]:
         """Get the commit hash and date for each version in the repository, using the cache if it's
         already known."""
         versions_info = {}
         for version in versions:
             repo_dir, rest, cache = Converter.get_version_info_with_cache(
-                repo_url, version, repo_dir, cache
+                repo_url, repo_workdir, version, repo_dir, cache
             )
             # rest is either None, or a tuple (commit_hash, date)
             versions_info[version] = rest
@@ -298,7 +303,7 @@ class Converter:
 
     @staticmethod
     def get_version_info_with_cache(
-        repo_url: str, version: str, repo_dir: str | None, cache: CacheItem
+        repo_url: str, repo_workdir: str, version: str, repo_dir: str | None, cache: CacheItem
     ) -> tuple[str | None, tuple[str, float] | None, CacheItem]:
         """
         Get the commit hash and date for a version in the repository, using the cache if it's
@@ -311,7 +316,7 @@ class Converter:
         else:
             if not repo_dir:
                 logging.info("At least one version not found in cache. Cloning.")
-                repo_dir = clone_repo_with_cache(repo_url)
+                repo_dir = clone_repo(repo_url, repo_workdir)
             commit = get_version_commit(repo_dir, version)
             date = get_version_date(repo_dir, version)
             if commit is None or date is None:
@@ -346,6 +351,7 @@ class Converter:
         versions: list[str],
         versions_info: dict[str, tuple[str, float] | None],
         repo_url: str,
+        repo_workdir: str,
         repo_dir: str | None,
         existing_revisions: list[RepovulRevision],
     ) -> tuple[str | None, dict[str, RepovulRevision]]:
@@ -363,7 +369,7 @@ class Converter:
             return repo_dir, version_to_existing_revision
         # Compute sizes for the yet unknown versions.
         if not repo_dir:
-            repo_dir = clone_repo_with_cache(repo_url)
+            repo_dir = clone_repo(repo_url, repo_workdir)
         unknown_versions = [
             version for version in versions if version not in version_to_existing_revision
         ]

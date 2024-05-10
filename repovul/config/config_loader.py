@@ -17,7 +17,6 @@ class Paths(NamedTuple):
     repovul_revisions: Path
     db: Path
     repo_info_cache: Path
-    repo_cache: Path
     workdir: Path
 
 
@@ -36,7 +35,6 @@ class Config:
         repovul_revisions=data_path / "revisions",
         db=PROJECT_DIR / "db",
         repo_info_cache=cache_path / "repo_info",
-        repo_cache=cache_path / "repos",
         workdir=Path(config["workdir"]),
     )
 
