@@ -36,3 +36,4 @@ supported_domains = ["github.com", "gitlab.com"]
 
 cache_path = "~/.cache/repovul"
 workdir = "/tmp/repovul"
+cache_write_interval = 60

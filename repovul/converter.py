@@ -37,8 +37,12 @@ class Converter:
         self.engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
         SQLModel.metadata.create_all(self.engine)
 
-    def convert_one(self, repo_url: str) -> None:
-        """Convert the OSV items of a single repository to Repovul items."""
+    def convert_one_inner(self, repo_url: str) -> None:
+        """
+        Convert the OSV items of a single repository to Repovul items.
+
+        Does not write the possibly updated cache to the disk.
+        """
         self.cache.initialize(repo_url)
         items = self.by_repo[repo_url]
         osv_items = [OSVVulnerability(**item) for item in items]
@@ -49,28 +53,40 @@ class Converter:
             for repovul_revision in repovul_revisions:
                 session.merge(repovul_revision)
             session.commit()
+
+    def convert_one(self, repo_url: str) -> None:
+        """
+        Convert the OSV items of a single repository to Repovul items.
+
+        Top-level function.
+        """
+        self.convert_one_inner(repo_url)
+        self.cache.write()
+
+    def convert_list(self, repo_urls: list[str]) -> None:
+        """Convert the OSV items of a list of repositories to Repovul items."""
+        time_start = time.time()
+        cache_last_written = time_start
+        for i, repo_url in enumerate(repo_urls):
+            logging.info(f"Processing {repo_url}...")
+            self.convert_one_inner(repo_url)
+            elapsed = time.time() - time_start
+            ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
+            logging.info(f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
+            if time.time() - cache_last_written > Config.cache_write_interval:
+                self.cache.write()
+                cache_last_written = time.time()
         self.cache.write()
 
     def convert_all(self) -> None:
         """Convert the OSV items of all repositories to Repovul items."""
-        time_start = time.time()
-        for i, repo_url in enumerate(sorted(self.by_repo.keys())):
-            logging.info(f"Processing {repo_url}...")
-            self.convert_one(repo_url)
-            elapsed = time.time() - time_start
-            ETA = elapsed / (i + 1) * (len(self.by_repo) - i - 1)
-            logging.info(f"({i+1}/{len(self.by_repo)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
+        repo_urls = sorted(self.by_repo.keys())
+        self.convert_list(repo_urls)
 
     def convert_range(self, start: int, end: int) -> None:
         """Convert the OSV items of a range of repositories to Repovul items."""
-        time_start = time.time()
         repo_urls = sorted(self.by_repo.keys())[start:end]
-        for i, repo_url in enumerate(repo_urls):
-            logging.info(f"Processing {repo_url}...")
-            self.convert_one(repo_url)
-            elapsed = time.time() - time_start
-            ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
-            logging.info(f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}")
+        self.convert_list(repo_urls)
 
     @staticmethod
     def get_osv_items() -> list[dict]:

@@ -24,6 +24,7 @@ class Paths(NamedTuple):
 class Config:
     ecosystems = config["ecosystems"]
     supported_domains = config["supported_domains"]
+    cache_write_interval = config["cache_write_interval"]
     cache_path = Path(config["cache_path"]).expanduser()
     data_path = PROJECT_DIR / "data"
 
