@@ -17,6 +17,7 @@ from ortools.sat.python import cp_model
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
+from repovul.exceptions import RepoNotFoundError
 
 
 @typechecked
@@ -132,11 +133,19 @@ def clone_repo_with_cache(repo_url: str) -> str:
     else:
         # If the repo is not in the cache, clone it
         print(f"Cloning '{repo_name}'...")
-        subprocess.run(
+        res = subprocess.run(
             ["git", "clone", repo_url],
             cwd=Config.paths.repo_cache,
+            capture_output=True,
         )
-
+        if res.returncode != 0:
+            if "remote: Repository not found" in res.stderr.decode():
+                raise RepoNotFoundError(f"Repository '{repo_name}' not found.")
+            else:
+                # Unknown error
+                raise RuntimeError(
+                    f"Failed to clone repository '{repo_name}': {res.stderr.decode()}"
+                )
     return str(repo_dir)
 
 

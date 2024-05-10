@@ -11,6 +11,7 @@ from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
+from repovul.exceptions import RepoNotFoundError
 from repovul.models.cache import Cache
 from repovul.models.osv import OSVVulnerability
 from repovul.models.repovul import RepovulItem, RepovulRevision
@@ -46,7 +47,11 @@ class Converter:
         self.cache.initialize(repo_url)
         items = self.by_repo[repo_url]
         osv_items = [OSVVulnerability(**item) for item in items]
-        repovul_items, repovul_revisions = self.osv_group_to_repovul_group(osv_items)
+        try:
+            repovul_items, repovul_revisions = self.osv_group_to_repovul_group(osv_items)
+        except RepoNotFoundError:
+            logging.warning(f"Repo {repo_url} not found. Skipping.")
+            return
         with Session(self.engine) as session:
             for repovul_item in repovul_items:
                 session.merge(repovul_item)
