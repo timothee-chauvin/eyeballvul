@@ -133,20 +133,23 @@ def clone_repo_with_cache(repo_url: str) -> str:
     else:
         # If the repo is not in the cache, clone it
         print(f"Cloning '{repo_name}'...")
-        res = subprocess.run(
-            ["git", "clone", repo_url],
-            cwd=Config.paths.repo_cache,
-            capture_output=True,
-            env={"GIT_ASKPASS": "true"},
-        )
-        if res.returncode != 0:
-            if "remote: Repository not found" in res.stderr.decode():
-                raise RepoNotFoundError(f"Repository '{repo_name}' not found.")
-            else:
-                # Unknown error
-                raise RuntimeError(
-                    f"Failed to clone repository '{repo_name}': {res.stderr.decode()}"
-                )
+        try:
+            res = subprocess.run(
+                ["git", "clone", repo_url],
+                cwd=Config.paths.repo_cache,
+                capture_output=True,
+                env={"GIT_ASKPASS": "true"},
+            )
+            if res.returncode != 0:
+                if "remote: Repository not found" in res.stderr.decode():
+                    raise RepoNotFoundError(f"Repository '{repo_name}' not found.")
+                else:
+                    # Unknown error
+                    raise RuntimeError(
+                        f"Failed to clone repository '{repo_name}': {res.stderr.decode()}"
+                    )
+        except RuntimeError:
+            raise RepoNotFoundError(f"Repository '{repo_name}' raised a runtime error.")
     return str(repo_dir)
 
 
