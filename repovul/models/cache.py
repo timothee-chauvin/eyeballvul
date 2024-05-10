@@ -9,6 +9,28 @@ class CacheItem(BaseModel):
     versions_info: dict[str, tuple[str, float] | None]
     hitting_set_results: dict[str, list[str]]
 
+    def __eq__(self, other):
+        if isinstance(other, CacheItem):
+            return self.compare_versions_info(
+                other.versions_info
+            ) and self.compare_hitting_set_results(other.hitting_set_results)
+        return False
+
+    def compare_versions_info(self, other_versions_info):
+        if self.versions_info.keys() != other_versions_info.keys():
+            return False
+        return all(
+            self.versions_info[key] == other_versions_info[key] for key in self.versions_info
+        )
+
+    def compare_hitting_set_results(self, other_hitting_set_results):
+        if self.hitting_set_results.keys() != other_hitting_set_results.keys():
+            return False
+        return all(
+            set(self.hitting_set_results[key]) == set(other_hitting_set_results[key])
+            for key in self.hitting_set_results
+        )
+
 
 class Cache(RootModel):
     root: dict[str, CacheItem]

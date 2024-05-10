@@ -17,7 +17,9 @@ from repovul.config import Config
 from repovul.converter import Converter
 from repovul.models.repovul import RepovulItem, RepovulRevision
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO, format="%(levelname)s-%(process)d-%(asctime)s - %(message)s"
+)
 
 
 def download():
