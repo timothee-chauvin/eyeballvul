@@ -1,4 +1,14 @@
 .venv
 .git
+
+# Docker
 .dockerignore
 Dockerfile
+
+# data
+db/
+data/
+
+# misc
+.mypy_cache
+.pytest_cache

@@ -29,15 +29,17 @@ COPY --chown=repovuluser:repovuluser .tool-versions ./
 RUN asdf plugin add ruby \
   && asdf install
 
+# Install linguist
+COPY --chown=repovuluser:repovuluser Gemfile.lock Gemfile ./
+RUN bundle install
+
 # Install Poetry
 RUN curl -sSL https://install.python-poetry.org | python3 -
 ENV PATH="$HOME/.local/bin:$PATH"
 
+# Install the project using poetry
 COPY --chown=repovuluser:repovuluser . .
 RUN poetry install --no-interaction --no-ansi
-
-# Install linguist
-RUN bundle install
 
 # Create "rv" alias
 RUN echo "alias rv='poetry run rv'" >> $HOME/.bashrc
