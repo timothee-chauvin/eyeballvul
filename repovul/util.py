@@ -16,7 +16,7 @@ from ortools.sat.python import cp_model
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
-from repovul.exceptions import RepoNotFoundError
+from repovul.exceptions import LinguistError, RepoNotFoundError
 
 
 @typechecked
@@ -147,10 +147,13 @@ def compute_code_sizes_at_revision(repo_dir: str, commit: str) -> tuple[dict[str
     :return: a tuple (languages, size)
     """
     # cwd is used for asdf to select the correct version of bundle
-    linguist_output = subprocess.check_output(
-        ["bundle", "exec", "github-linguist", "--json", "--rev", commit, repo_dir],
-        cwd=Config.paths.project,
-    ).decode()
+    try:
+        linguist_output = subprocess.check_output(
+            ["bundle", "exec", "github-linguist", "--json", "--rev", commit, repo_dir],
+            cwd=Config.paths.project,
+        ).decode()
+    except subprocess.CalledProcessError:
+        raise LinguistError()
     languages = {k: v["size"] for k, v in json.loads(linguist_output).items()}
     sorted_languages = dict(sorted(languages.items(), key=lambda item: item[1], reverse=True))
     total = sum(languages.values())

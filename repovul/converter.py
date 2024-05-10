@@ -10,7 +10,7 @@ from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
-from repovul.exceptions import RepoNotFoundError
+from repovul.exceptions import LinguistError, RepoNotFoundError
 from repovul.models.cache import Cache, CacheItem
 from repovul.models.osv import OSVVulnerability
 from repovul.models.repovul import RepovulItem, RepovulRevision
@@ -61,6 +61,9 @@ class Converter:
                 )
         except RepoNotFoundError:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
+            return [], [], cache
+        except LinguistError:
+            logging.warning(f"Error computing code sizes for {repo_url}. Skipping.")
             return [], [], cache
 
     def prepare_arguments(
