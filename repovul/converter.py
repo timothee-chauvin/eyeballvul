@@ -100,38 +100,48 @@ class Converter:
                 for args in to_compute_args
             }
 
-            for i, future in enumerate(as_completed(futures_to_repo_urls)):
-                repo_url = futures_to_repo_urls[future]
-                maybe_exception = future.exception()
-                if maybe_exception:
-                    logging.error(f"Error processing {repo_url}: {maybe_exception}")
-                    executor.shutdown(wait=False, cancel_futures=True)
-                    raise maybe_exception
-                repovul_items, repovul_revisions, cache = future.result()
-                with Session(self.engine) as session:
-                    # First remove all the items for this repo URL
-                    # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
-                    delete_items = delete(RepovulItem).where(RepovulItem.repo_url == repo_url)  # type: ignore[arg-type]
-                    session.exec(delete_items)  # type: ignore[call-overload]
-                    delete_revisions = delete(RepovulRevision).where(
-                        RepovulRevision.repo_url == repo_url  # type: ignore[arg-type]
+            try:
+                for i, future in enumerate(as_completed(futures_to_repo_urls)):
+                    repo_url = futures_to_repo_urls[future]
+                    logging.info(f"({i+1}/{len(repo_urls)}) started processing {repo_url}")
+                    try:
+                        repovul_items, repovul_revisions, cache = future.result()
+                    except Exception as e:
+                        logging.error(f"Error processing {repo_url}: {e}")
+                        raise e
+                    with Session(self.engine) as session:
+                        # First remove all the items for this repo URL
+                        # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
+                        delete_items = delete(RepovulItem).where(RepovulItem.repo_url == repo_url)  # type: ignore[arg-type]
+                        session.exec(delete_items)  # type: ignore[call-overload]
+                        delete_revisions = delete(RepovulRevision).where(
+                            RepovulRevision.repo_url == repo_url  # type: ignore[arg-type]
+                        )
+                        session.exec(delete_revisions)  # type: ignore[call-overload]
+                        session.add_all(repovul_items)
+                        # Need to create new objects for RepovulRevision, otherwise sqlmodel considers that since
+                        # they were extracted from the database, they don't need to be added again, and silently ignores them.
+                        session.add_all(
+                            [
+                                RepovulRevision(**revision.to_dict())
+                                for revision in repovul_revisions
+                            ]
+                        )
+                        session.commit()
+                    if cache != self.cache[repo_url]:
+                        logging.info(f"Cache updated for {repo_url}. Writing.")
+                        self.cache[repo_url] = cache
+                        self.cache.write()
+                    elapsed = time.time() - time_start
+                    ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
+                    logging.info(
+                        f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}, finished processing {repo_url}"
                     )
-                    session.exec(delete_revisions)  # type: ignore[call-overload]
-                    session.add_all(repovul_items)
-                    # Need to create new objects for RepovulRevision, otherwise sqlmodel considers that since
-                    # they were extracted from the database, they don't need to be added again, and silently ignores them.
-                    session.add_all(
-                        [RepovulRevision(**revision.to_dict()) for revision in repovul_revisions]
-                    )
-                    session.commit()
-                if cache != self.cache[repo_url]:
-                    self.cache[repo_url] = cache
-                    self.cache.write()
-                elapsed = time.time() - time_start
-                ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
-                logging.info(
-                    f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}, finished processing {repo_url}"
-                )
+            except Exception as e:
+                logging.error(f"Error in main process: {e}")
+                for future in futures_to_repo_urls:
+                    future.cancel()
+                raise e
 
     def convert_one(self, repo_url: str) -> None:
         """
