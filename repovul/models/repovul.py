@@ -12,7 +12,7 @@ class RepovulRevision(SQLModel, table=True):
     # Full commit hash
     commit: str = Field(primary_key=True)
     # Repository URL
-    repo_url: str
+    repo_url: str = Field(index=True)
     # Date of the commit. To be serialized as an ISO 8601 string,
     # e.g. "2021-09-01T00:00:00Z"
     date: datetime
@@ -57,7 +57,7 @@ class RepovulItem(SQLModel, table=True):
     # Same as in asv.dev.
     severity: list[Severity] | None = Field(sa_column=Column(JSON))
     # Extracted from osv.dev.
-    repo_url: str
+    repo_url: str = Field(index=True)
     cwes: list[str] = Field(sa_column=Column(JSON))
     # Inferred from osv.dev and visiting the repo.
     # This maps to a list of RepovulRevision objects.
