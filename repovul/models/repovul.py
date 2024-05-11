@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 
-from sqlmodel import JSON, Column, Field, SQLModel
+from sqlmodel import JSON, Column, Field, SQLModel, UniqueConstraint
 
 from repovul.config.config_loader import Config
 from repovul.models.common import Severity
@@ -12,7 +12,7 @@ class RepovulRevision(SQLModel, table=True):
     # Full commit hash
     commit: str = Field(primary_key=True)
     # Repository URL
-    repo_url: str = Field(index=True)
+    repo_url: str = Field(primary_key=True)
     # Date of the commit. To be serialized as an ISO 8601 string,
     # e.g. "2021-09-01T00:00:00Z"
     date: datetime
@@ -21,6 +21,8 @@ class RepovulRevision(SQLModel, table=True):
     languages: dict[str, int] = Field(sa_column=Column(JSON))
     # Sum of all programming language sizes in bytes
     size: int
+
+    __table_args__ = (UniqueConstraint("repo_url", "commit"),)
 
     class Config:
         validate_assignment = True
