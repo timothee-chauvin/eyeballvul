@@ -1,4 +1,5 @@
 import json
+from collections.abc import ItemsView, KeysView, ValuesView
 
 from pydantic import BaseModel, RootModel
 
@@ -73,3 +74,18 @@ class Cache(RootModel):
 
     def __contains__(self, key: str) -> bool:
         return key in self.root
+
+    def __len__(self) -> int:
+        return len(self.root)
+
+    def keys(self) -> KeysView[str]:
+        return self.root.keys()
+
+    def values(self) -> ValuesView[CacheItem]:
+        return self.root.values()
+
+    def items(self) -> ItemsView[str, CacheItem]:
+        return self.root.items()
+
+    def get(self, key: str, default: CacheItem | None = None) -> CacheItem | None:
+        return self.root.get(key, default)
