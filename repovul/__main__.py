@@ -181,11 +181,11 @@ def json_import() -> None:
     engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
-        repovul_item_files = list(Config.paths.repovul_vulns.glob("**/*.json"))
+        repovul_item_files = list(Config.paths.repovul_vulns.glob("*/*.json"))
         for path in repovul_item_files:
             item = RepovulItem.from_file(path)
             session.add(item)
-        repovul_revision_files = list(Config.paths.repovul_revisions.glob("**/*.json"))
+        repovul_revision_files = list(Config.paths.repovul_revisions.glob("*/*.json"))
         for path in repovul_revision_files:
             revision = RepovulRevision.from_file(path)
             session.add(revision)
