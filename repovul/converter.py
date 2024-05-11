@@ -6,6 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import cast
 
+from sqlalchemy import delete
 from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
@@ -108,11 +109,18 @@ class Converter:
                     raise maybe_exception
                 repovul_items, repovul_revisions, cache = future.result()
                 with Session(self.engine) as session:
-                    # TODO remove existing first
+                    # First remove all the items for this repo URL
+                    # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
+                    delete_items = delete(RepovulItem).where(RepovulItem.repo_url == repo_url)  # type: ignore[arg-type]
+                    session.exec(delete_items)  # type: ignore[call-overload]
+                    delete_revisions = delete(RepovulRevision).where(
+                        RepovulRevision.repo_url == repo_url  # type: ignore[arg-type]
+                    )
+                    session.exec(delete_revisions)  # type: ignore[call-overload]
                     for item in repovul_items:
-                        session.merge(item)
+                        session.add(item)
                     for revision in repovul_revisions:
-                        session.merge(revision)
+                        session.add(revision)
                     session.commit()
                 if cache != self.cache[repo_url]:
                     self.cache[repo_url] = cache
