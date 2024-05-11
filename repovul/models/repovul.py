@@ -38,6 +38,9 @@ class RepovulRevision(SQLModel, table=True):
         with open(filepath) as f:
             return RepovulRevision.model_validate_json(f.read())
 
+    def to_dict(self) -> dict:
+        return self.model_dump(exclude_none=True, mode="json")
+
 
 class RepovulItem(SQLModel, table=True):
     # Same as in osv.dev.

@@ -117,10 +117,12 @@ class Converter:
                         RepovulRevision.repo_url == repo_url  # type: ignore[arg-type]
                     )
                     session.exec(delete_revisions)  # type: ignore[call-overload]
-                    for item in repovul_items:
-                        session.add(item)
-                    for revision in repovul_revisions:
-                        session.add(revision)
+                    session.add_all(repovul_items)
+                    # Need to create new objects for RepovulRevision, otherwise sqlmodel considers that since
+                    # they were extracted from the database, they don't need to be added again, and silently ignores them.
+                    session.add_all(
+                        [RepovulRevision(**revision.to_dict()) for revision in repovul_revisions]
+                    )
                     session.commit()
                 if cache != self.cache[repo_url]:
                     self.cache[repo_url] = cache
