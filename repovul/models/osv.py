@@ -73,13 +73,14 @@ class OSVVulnerability(BaseModel):
     database_specific: Any | None = None
 
     def get_repo_url(self) -> str:
+        """Return the lowercase repo URL."""
         for affected in self.affected:
             if affected.ranges:
                 for range_ in affected.ranges:
                     if range_.type == OSVRangeType.GIT and range_.repo:
                         # TODO not exactly correct, sometimes there are two repo urls for the same item,
                         # e.g. CVE-2017-6908
-                        return range_.repo
+                        return range_.repo.lower()
         raise ValueError(f"No repo URL found for item {self.id}")
 
     def get_affected_versions(self) -> list[str] | None:
