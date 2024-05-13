@@ -42,7 +42,9 @@ class Converter:
     """Class to perform the conversion from OSV items to Repovul items."""
 
     def __init__(self):
+        logging.info("Reading cache...")
         self.cache = Cache.read()
+        logging.info("Reading OSV items...")
         self.osv_items = self.get_osv_items()
         self.by_repo = self.osv_items_by_repo(self.osv_items)
         Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
@@ -304,7 +306,7 @@ class Converter:
             version_dates=version_dates,
             cache=cache,
         )
-        logging.info(f"Minimum hitting set: {hitting_set_versions}")
+        logging.debug(f"Minimum hitting set: {hitting_set_versions}")
 
         repovul_items = []
         repo_dir, repovul_revisions = Converter.versions_to_repovul_revisions_with_cache(
@@ -342,7 +344,7 @@ class Converter:
         """Filter out OSV items that don't have any affected version."""
         filtered = [osv_item for osv_item in osv_group if osv_item.get_affected_versions()]
         if len(filtered) < len(osv_group):
-            logging.info(
+            logging.debug(
                 f"Filtered out {len(osv_group) - len(filtered)}/{len(osv_group)} OSV items without affected versions."
             )
         return filtered
@@ -352,7 +354,7 @@ class Converter:
         """Filter out OSV items that are marked as withdrawn."""
         filtered = [osv_item for osv_item in osv_group if not osv_item.withdrawn]
         if len(filtered) < len(osv_group):
-            logging.info(
+            logging.debug(
                 f"Filtered out {len(osv_group) - len(filtered)}/{len(osv_group)} OSV items marked as withdrawn."
             )
         return filtered
@@ -472,7 +474,7 @@ class Converter:
 
         if arguments_hash in cache.hitting_set_results:
             solution = cache.hitting_set_results[arguments_hash]
-            logging.info("Hitting set solution found in cache.")
+            logging.debug("Hitting set solution found in cache.")
         else:
             solution = solve_hitting_set(lists, version_dates)
             cache.hitting_set_results[arguments_hash] = solution
