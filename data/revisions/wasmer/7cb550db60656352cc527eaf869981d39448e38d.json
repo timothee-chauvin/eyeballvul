@@ -1,0 +1,23 @@
+{
+  "commit": "7cb550db60656352cc527eaf869981d39448e38d",
+  "repo_url": "https://github.com/wasmerio/wasmer",
+  "date": "2023-10-27T05:42:11",
+  "languages": {
+    "Rust": 7204629,
+    "C++": 204795,
+    "C": 131650,
+    "Makefile": 36327,
+    "Python": 29764,
+    "JavaScript": 9355,
+    "Swift": 4867,
+    "Shell": 4708,
+    "Inno Setup": 3126,
+    "TypeScript": 2583,
+    "HTML": 1270,
+    "Nix": 1221,
+    "CSS": 496,
+    "Dockerfile": 332,
+    "Batchfile": 30
+  },
+  "size": 7635153
+}

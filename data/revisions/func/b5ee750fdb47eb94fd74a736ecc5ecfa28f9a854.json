@@ -1,0 +1,17 @@
+{
+  "commit": "b5ee750fdb47eb94fd74a736ecc5ecfa28f9a854",
+  "repo_url": "https://github.com/knative/func",
+  "date": "2022-10-18T21:40:10",
+  "languages": {
+    "Go": 945595,
+    "Shell": 28264,
+    "Java": 13931,
+    "JavaScript": 13082,
+    "Makefile": 7880,
+    "Rust": 7125,
+    "TypeScript": 6887,
+    "Python": 3357,
+    "Procfile": 142
+  },
+  "size": 1026263
+}

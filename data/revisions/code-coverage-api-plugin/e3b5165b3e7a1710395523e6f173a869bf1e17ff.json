@@ -1,0 +1,13 @@
+{
+  "commit": "e3b5165b3e7a1710395523e6f173a869bf1e17ff",
+  "repo_url": "https://github.com/jenkinsci/code-coverage-api-plugin",
+  "date": "2019-12-16T10:15:11",
+  "languages": {
+    "Java": 192693,
+    "XSLT": 18691,
+    "JavaScript": 13834,
+    "CSS": 1048,
+    "HTML": 614
+  },
+  "size": 226880
+}

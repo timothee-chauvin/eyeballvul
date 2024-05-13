@@ -1,0 +1,11 @@
+{
+  "commit": "628efad676aaa320ba3f47e223c43c35f16a44f1",
+  "repo_url": "https://github.com/jenkinsci/kubernetes-pipeline-plugin",
+  "date": "2019-01-29T10:50:28",
+  "languages": {
+    "Java": 252754,
+    "Groovy": 31225,
+    "HTML": 16751
+  },
+  "size": 300730
+}

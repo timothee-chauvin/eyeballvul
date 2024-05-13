@@ -1,0 +1,11 @@
+{
+  "commit": "f3986cb7d3191122a78ff4113c2b8becae313830",
+  "repo_url": "https://github.com/jenkinsci/parasoft-findings-plugin",
+  "date": "2019-10-25T12:57:42",
+  "languages": {
+    "Java": 177955,
+    "XSLT": 47336,
+    "HTML": 1215
+  },
+  "size": 226506
+}

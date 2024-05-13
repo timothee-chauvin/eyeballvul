@@ -1,0 +1,30 @@
+{
+  "commit": "30b71758dbc21dc71f3fc2a501bd7097197da644",
+  "repo_url": "https://github.com/kamailio/kamailio",
+  "date": "2018-04-24T12:51:30",
+  "languages": {
+    "C": 25929659,
+    "C++": 1217423,
+    "Shell": 450794,
+    "Makefile": 282172,
+    "Yacc": 113355,
+    "Python": 88470,
+    "Perl": 76244,
+    "Lex": 62124,
+    "XS": 32204,
+    "Roff": 28066,
+    "Java": 24042,
+    "M4": 20589,
+    "PHP": 13044,
+    "PLpgSQL": 9381,
+    "Lua": 9048,
+    "Vim Script": 8963,
+    "JavaScript": 8596,
+    "Ragel": 2719,
+    "Awk": 2435,
+    "HTML": 1990,
+    "C#": 1722,
+    "GDB": 11
+  },
+  "size": 28383051
+}

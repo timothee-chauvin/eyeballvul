@@ -1,0 +1,11 @@
+{
+  "commit": "c5a1f43ff742ad70ac2fb36268ff75359a071038",
+  "repo_url": "https://github.com/sigstore/gitsign",
+  "date": "2023-05-22T20:12:58",
+  "languages": {
+    "Go": 268612,
+    "Makefile": 1469,
+    "Shell": 936
+  },
+  "size": 271017
+}

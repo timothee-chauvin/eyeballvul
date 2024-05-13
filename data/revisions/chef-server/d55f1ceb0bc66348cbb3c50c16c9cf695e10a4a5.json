@@ -1,0 +1,21 @@
+{
+  "commit": "d55f1ceb0bc66348cbb3c50c16c9cf695e10a4a5",
+  "repo_url": "https://github.com/chef/chef-server",
+  "date": "2023-06-02T14:15:53",
+  "languages": {
+    "Erlang": 2517770,
+    "Ruby": 2375363,
+    "SCSS": 208826,
+    "PLpgSQL": 186350,
+    "HTML": 141247,
+    "Shell": 111662,
+    "Lua": 56683,
+    "Makefile": 36374,
+    "CSS": 18719,
+    "R": 6225,
+    "JavaScript": 4396,
+    "RAML": 2130,
+    "Go": 99
+  },
+  "size": 5665844
+}

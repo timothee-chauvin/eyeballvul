@@ -1,0 +1,11 @@
+{
+  "commit": "7a4e086278cfd8fed0a6885dfeb808a57b8f5014",
+  "repo_url": "https://github.com/structurizr/onpremises",
+  "date": "2023-09-28T10:59:11",
+  "languages": {
+    "Java": 782172,
+    "Shell": 2752,
+    "Dockerfile": 365
+  },
+  "size": 785289
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "4189af8d04b779ac7a6f959d829652e58ce80539",
+  "repo_url": "https://github.com/kanbanwp/kanban",
+  "date": "2021-07-03T04:37:38",
+  "languages": {
+    "PHP": 618421,
+    "JavaScript": 352177,
+    "SCSS": 64335,
+    "Hack": 23521
+  },
+  "size": 1058454
+}

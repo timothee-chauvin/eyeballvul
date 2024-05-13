@@ -1,0 +1,11 @@
+{
+  "commit": "da74b3c91570b9716fbb424e90935806b2b29814",
+  "repo_url": "https://github.com/eclipse/wakaama",
+  "date": "2018-12-12T10:12:55",
+  "languages": {
+    "C": 485599,
+    "CMake": 2786,
+    "HTML": 2330
+  },
+  "size": 490715
+}

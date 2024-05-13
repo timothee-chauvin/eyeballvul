@@ -1,0 +1,14 @@
+{
+  "commit": "d1c05c475b16097c4366149564279fd394353af3",
+  "repo_url": "https://github.com/pwndoc/pwndoc",
+  "date": "2021-06-08T00:58:14",
+  "languages": {
+    "JavaScript": 455092,
+    "HTML": 202641,
+    "Vue": 67721,
+    "Stylus": 3127,
+    "Shell": 1140,
+    "Dockerfile": 655
+  },
+  "size": 730376
+}

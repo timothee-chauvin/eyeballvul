@@ -1,0 +1,22 @@
+{
+  "commit": "d9cda3dcd26b0e463533c5cc96e39c0f39fc32c1",
+  "repo_url": "https://github.com/ariya/phantomjs",
+  "date": "2016-01-24T18:24:05",
+  "languages": {
+    "HTML": 5155603,
+    "JavaScript": 382933,
+    "C++": 313183,
+    "C": 195911,
+    "Java": 136179,
+    "Python": 62779,
+    "Shell": 15994,
+    "QMake": 2495,
+    "Batchfile": 1311,
+    "Ruby": 1307,
+    "C#": 1101,
+    "XSLT": 1047,
+    "ASP.NET": 825,
+    "CSS": 385
+  },
+  "size": 6271053
+}

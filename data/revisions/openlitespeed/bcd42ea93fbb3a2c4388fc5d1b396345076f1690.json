@@ -1,0 +1,22 @@
+{
+  "commit": "bcd42ea93fbb3a2c4388fc5d1b396345076f1690",
+  "repo_url": "https://github.com/litespeedtech/openlitespeed",
+  "date": "2017-08-15T21:25:42",
+  "languages": {
+    "C++": 5299859,
+    "C": 1194350,
+    "Roff": 712952,
+    "Makefile": 667472,
+    "Shell": 341252,
+    "HTML": 253026,
+    "M4": 41883,
+    "CMake": 36113,
+    "JavaScript": 18595,
+    "CSS": 7543,
+    "Fortran": 3269,
+    "Perl": 656,
+    "PHP": 278,
+    "Python": 105
+  },
+  "size": 8577353
+}

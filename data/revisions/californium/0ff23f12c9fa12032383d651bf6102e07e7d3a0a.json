@@ -1,0 +1,13 @@
+{
+  "commit": "0ff23f12c9fa12032383d651bf6102e07e7d3a0a",
+  "repo_url": "https://github.com/eclipse-californium/californium",
+  "date": "2022-07-14T05:15:49",
+  "languages": {
+    "Java": 8059301,
+    "Shell": 99279,
+    "HTML": 9889,
+    "Dockerfile": 1488,
+    "CSS": 352
+  },
+  "size": 8170309
+}

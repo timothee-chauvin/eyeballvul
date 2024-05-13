@@ -1,0 +1,16 @@
+{
+  "commit": "731d9c24de3a6c5b2d790ea8342a6cd08144ec04",
+  "repo_url": "https://github.com/tencent/habomalhunter",
+  "date": "2017-01-17T09:13:31",
+  "languages": {
+    "Python": 166564,
+    "Lua": 26472,
+    "C": 13048,
+    "Shell": 8732,
+    "CSS": 7596,
+    "YARA": 2348,
+    "Makefile": 1730,
+    "Assembly": 1172
+  },
+  "size": 227662
+}

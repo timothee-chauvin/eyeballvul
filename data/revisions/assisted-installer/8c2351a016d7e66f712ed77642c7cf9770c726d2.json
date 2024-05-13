@@ -1,0 +1,11 @@
+{
+  "commit": "8c2351a016d7e66f712ed77642c7cf9770c726d2",
+  "repo_url": "https://github.com/openshift/assisted-installer",
+  "date": "2021-08-04T04:45:09",
+  "languages": {
+    "Go": 284173,
+    "Makefile": 2894,
+    "Shell": 1160
+  },
+  "size": 288227
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "6c06da5581637806e686e6b39f177d20569a6902",
+  "repo_url": "https://github.com/archivebox/archivebox",
+  "date": "2021-04-14T08:32:27",
+  "languages": {
+    "Python": 451863,
+    "HTML": 416866,
+    "Shell": 23192,
+    "CSS": 8208,
+    "Dockerfile": 5035,
+    "SCSS": 764
+  },
+  "size": 905928
+}

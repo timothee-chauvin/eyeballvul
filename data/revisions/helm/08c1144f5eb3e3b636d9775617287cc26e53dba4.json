@@ -1,0 +1,12 @@
+{
+  "commit": "08c1144f5eb3e3b636d9775617287cc26e53dba4",
+  "repo_url": "https://github.com/helm/helm",
+  "date": "2017-10-23T20:24:03",
+  "languages": {
+    "Go": 1122214,
+    "Shell": 62259,
+    "Makefile": 7789,
+    "Dockerfile": 742
+  },
+  "size": 1193004
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "789ad284c2d82fc693a0caa9091860c7b0561a1b",
+  "repo_url": "https://github.com/jfisteus/html2xhtml",
+  "date": "2015-09-25T16:06:09",
+  "languages": {
+    "C": 495232,
+    "Java": 43865,
+    "Shell": 32902,
+    "HTML": 18646,
+    "Python": 9204,
+    "Lex": 8470,
+    "Yacc": 4341,
+    "M4": 3740,
+    "Makefile": 2758,
+    "JavaScript": 932
+  },
+  "size": 620090
+}

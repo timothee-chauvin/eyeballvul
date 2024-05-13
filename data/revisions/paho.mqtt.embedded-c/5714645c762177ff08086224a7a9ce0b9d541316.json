@@ -1,0 +1,13 @@
+{
+  "commit": "5714645c762177ff08086224a7a9ce0b9d541316",
+  "repo_url": "https://github.com/eclipse/paho.mqtt.embedded-c",
+  "date": "2015-02-20T11:11:20",
+  "languages": {
+    "C": 142789,
+    "C++": 63943,
+    "HTML": 10835,
+    "Makefile": 9002,
+    "Shell": 1568
+  },
+  "size": 228137
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "983ef37b3e2acf38a898e191c9bbbd2bc2c05da7",
+  "repo_url": "https://github.com/wasmi-labs/wasmi",
+  "date": "2023-07-31T12:12:51",
+  "languages": {
+    "Rust": 1036565,
+    "WebAssembly": 27241,
+    "Shell": 5340
+  },
+  "size": 1069146
+}

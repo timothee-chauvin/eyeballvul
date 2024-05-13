@@ -1,0 +1,17 @@
+{
+  "commit": "b9292f9d786e90a3aa0ba9a9ebdfebe4e0c5297e",
+  "repo_url": "https://github.com/pymedusa/medusa",
+  "date": "2023-01-14T16:42:26",
+  "languages": {
+    "Python": 3610494,
+    "JavaScript": 1311841,
+    "Vue": 1189200,
+    "CSS": 146048,
+    "Mako": 36222,
+    "Shell": 16518,
+    "SCSS": 12283,
+    "Dockerfile": 1514,
+    "HTML": 223
+  },
+  "size": 6324343
+}

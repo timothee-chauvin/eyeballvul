@@ -1,0 +1,16 @@
+{
+  "commit": "8b20c72dd80e2faf531f308d430a145a253aeac3",
+  "repo_url": "https://github.com/rails/rails",
+  "date": "2014-02-18T18:45:20",
+  "languages": {
+    "Ruby": 8278623,
+    "CSS": 126861,
+    "HTML": 70167,
+    "JavaScript": 7683,
+    "Shell": 1833,
+    "Yacc": 967,
+    "CoffeeScript": 633,
+    "SCSS": 533
+  },
+  "size": 8487300
+}

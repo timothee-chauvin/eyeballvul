@@ -1,0 +1,18 @@
+{
+  "commit": "766dd870cedb6ef7c214e897718002396ae4b5f4",
+  "repo_url": "https://github.com/cz-nic/pyoidc",
+  "date": "2020-02-05T08:31:26",
+  "languages": {
+    "Python": 1458060,
+    "JavaScript": 132438,
+    "Mako": 41617,
+    "HTML": 5179,
+    "Dockerfile": 4467,
+    "Shell": 3535,
+    "Makefile": 2777,
+    "Jinja": 1642,
+    "Elixir": 1461,
+    "CSS": 157
+  },
+  "size": 1651333
+}

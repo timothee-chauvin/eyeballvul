@@ -1,0 +1,23 @@
+{
+  "commit": "3c07380f96ec735391ffcfea47504ed7a323543e",
+  "repo_url": "https://github.com/tutao/tutanota",
+  "date": "2023-09-19T10:12:37",
+  "languages": {
+    "TypeScript": 12234417,
+    "JavaScript": 1017209,
+    "Kotlin": 261823,
+    "Swift": 228569,
+    "C": 140704,
+    "HTML": 115781,
+    "Objective-C": 64534,
+    "Ruby": 3917,
+    "Java": 3638,
+    "Groovy": 1910,
+    "C++": 1794,
+    "NSIS": 980,
+    "Shell": 840,
+    "Makefile": 689,
+    "CMake": 661
+  },
+  "size": 14077466
+}

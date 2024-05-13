@@ -1,0 +1,12 @@
+{
+  "commit": "18ff5629cf6786e405ab0008dbdc34973b99c9c8",
+  "repo_url": "https://github.com/mindwerks/wildmidi",
+  "date": "2017-02-26T17:30:45",
+  "languages": {
+    "C": 661760,
+    "CMake": 31632,
+    "Shell": 8176,
+    "Makefile": 7190
+  },
+  "size": 708758
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "74d7fe640a3133830be05df94cf00b7fc00fd9f4",
+  "repo_url": "https://github.com/opennds/opennds",
+  "date": "2023-07-14T14:46:10",
+  "languages": {
+    "C": 316457,
+    "Shell": 191152,
+    "PHP": 79890,
+    "Makefile": 8302,
+    "HTML": 2484,
+    "CSS": 1723,
+    "Python": 644
+  },
+  "size": 600652
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "a159945db9d97e79a30cb34e2aaa45fd28dea576",
+  "repo_url": "https://github.com/syoyo/tinygltf",
+  "date": "2020-10-31T10:40:33",
+  "languages": {
+    "C++": 1368241,
+    "C": 329109,
+    "Python": 2379,
+    "CMake": 1423,
+    "Makefile": 861,
+    "Lua": 718,
+    "Shell": 376,
+    "Meson": 272,
+    "Batchfile": 165
+  },
+  "size": 1703544
+}

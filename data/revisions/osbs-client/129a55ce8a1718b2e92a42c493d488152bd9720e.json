@@ -1,0 +1,11 @@
+{
+  "commit": "129a55ce8a1718b2e92a42c493d488152bd9720e",
+  "repo_url": "https://github.com/containerbuildsystem/osbs-client",
+  "date": "2019-06-10T17:06:53",
+  "languages": {
+    "Python": 904329,
+    "Shell": 5034,
+    "Dockerfile": 1393
+  },
+  "size": 910756
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "a3d9206b8e513d729ab95f3994924b950c15b43a",
+  "repo_url": "https://github.com/jenkinsci/redgate-sql-ci-plugin",
+  "date": "2019-12-05T10:29:27",
+  "languages": {
+    "Java": 47845,
+    "PowerShell": 38559,
+    "HTML": 893,
+    "Batchfile": 96
+  },
+  "size": 87393
+}

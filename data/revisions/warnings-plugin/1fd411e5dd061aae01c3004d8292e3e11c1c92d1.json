@@ -1,0 +1,12 @@
+{
+  "commit": "1fd411e5dd061aae01c3004d8292e3e11c1c92d1",
+  "repo_url": "https://github.com/jenkinsci/warnings-plugin",
+  "date": "2017-07-16T19:47:25",
+  "languages": {
+    "Java": 712669,
+    "HTML": 64728,
+    "Shell": 757,
+    "Vim Snippet": 286
+  },
+  "size": 778440
+}

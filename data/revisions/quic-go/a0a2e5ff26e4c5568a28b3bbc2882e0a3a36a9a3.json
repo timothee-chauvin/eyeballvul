@@ -1,0 +1,11 @@
+{
+  "commit": "a0a2e5ff26e4c5568a28b3bbc2882e0a3a36a9a3",
+  "repo_url": "https://github.com/lucas-clemente/quic-go",
+  "date": "2023-08-04T00:34:29",
+  "languages": {
+    "Go": 2410236,
+    "Shell": 2893,
+    "Dockerfile": 1384
+  },
+  "size": 2414513
+}

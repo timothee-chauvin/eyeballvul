@@ -1,0 +1,16 @@
+{
+  "commit": "fb038412dc5945d3b02a582ec49537fce44a2e09",
+  "repo_url": "https://github.com/qinming99/dst-admin",
+  "date": "2021-06-25T14:18:15",
+  "languages": {
+    "Java": 193018,
+    "FreeMarker": 140499,
+    "SCSS": 79489,
+    "Less": 78481,
+    "CSS": 38659,
+    "JavaScript": 28005,
+    "Shell": 7177,
+    "Dockerfile": 894
+  },
+  "size": 566222
+}

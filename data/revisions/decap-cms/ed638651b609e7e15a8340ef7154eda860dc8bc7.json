@@ -1,0 +1,13 @@
+{
+  "commit": "ed638651b609e7e15a8340ef7154eda860dc8bc7",
+  "repo_url": "https://github.com/decaporg/decap-cms",
+  "date": "2022-04-13T15:21:59",
+  "languages": {
+    "JavaScript": 1778429,
+    "TypeScript": 674660,
+    "HTML": 168944,
+    "CSS": 529,
+    "Shell": 473
+  },
+  "size": 2623035
+}

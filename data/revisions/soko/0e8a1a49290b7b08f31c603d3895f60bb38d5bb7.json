@@ -1,0 +1,13 @@
+{
+  "commit": "0e8a1a49290b7b08f31c603d3895f60bb38d5bb7",
+  "repo_url": "https://github.com/gentoo/soko",
+  "date": "2020-06-12T11:57:17",
+  "languages": {
+    "Go": 147046,
+    "JavaScript": 16187,
+    "SCSS": 8921,
+    "Shell": 2012,
+    "Dockerfile": 707
+  },
+  "size": 174873
+}

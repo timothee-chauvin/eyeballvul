@@ -1,0 +1,11 @@
+{
+  "commit": "b3c1ced04e571fc316648d114ff0c8121e051d8f",
+  "repo_url": "https://github.com/java-decompiler/jd-gui",
+  "date": "2019-12-25T14:42:26",
+  "languages": {
+    "Java": 863201,
+    "ANTLR": 20992,
+    "Shell": 12397
+  },
+  "size": 896590
+}

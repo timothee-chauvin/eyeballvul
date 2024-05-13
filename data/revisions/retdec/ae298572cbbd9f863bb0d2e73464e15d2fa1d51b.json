@@ -1,0 +1,16 @@
+{
+  "commit": "ae298572cbbd9f863bb0d2e73464e15d2fa1d51b",
+  "repo_url": "https://github.com/avast/retdec",
+  "date": "2019-03-18T15:44:07",
+  "languages": {
+    "C++": 15046806,
+    "YARA": 4536341,
+    "Python": 355738,
+    "CMake": 70275,
+    "C": 32755,
+    "Shell": 12295,
+    "Dockerfile": 1268,
+    "Makefile": 714
+  },
+  "size": 20056192
+}

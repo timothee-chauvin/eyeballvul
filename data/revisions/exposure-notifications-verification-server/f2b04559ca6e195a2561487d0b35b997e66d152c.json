@@ -1,0 +1,16 @@
+{
+  "commit": "f2b04559ca6e195a2561487d0b35b997e66d152c",
+  "repo_url": "https://github.com/google/exposure-notifications-verification-server",
+  "date": "2021-03-01T16:48:16",
+  "languages": {
+    "Go": 1854157,
+    "HTML": 340031,
+    "HCL": 169987,
+    "JavaScript": 29449,
+    "Shell": 14422,
+    "CSS": 3363,
+    "Dockerfile": 1960,
+    "Makefile": 1776
+  },
+  "size": 2415145
+}

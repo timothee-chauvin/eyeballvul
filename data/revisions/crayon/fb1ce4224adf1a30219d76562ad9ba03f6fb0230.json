@@ -1,0 +1,14 @@
+{
+  "commit": "fb1ce4224adf1a30219d76562ad9ba03f6fb0230",
+  "repo_url": "https://github.com/shawnscode/crayon",
+  "date": "2018-11-21T08:54:42",
+  "languages": {
+    "Rust": 619538,
+    "Perl": 36971,
+    "GLSL": 2842,
+    "JavaScript": 860,
+    "Shell": 835,
+    "HTML": 120
+  },
+  "size": 661166
+}

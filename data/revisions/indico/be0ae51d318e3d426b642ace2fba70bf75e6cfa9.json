@@ -1,0 +1,17 @@
+{
+  "commit": "be0ae51d318e3d426b642ace2fba70bf75e6cfa9",
+  "repo_url": "https://github.com/indico/indico",
+  "date": "2021-01-25T13:24:18",
+  "languages": {
+    "Python": 4992322,
+    "JavaScript": 2080388,
+    "HTML": 1409849,
+    "SCSS": 469370,
+    "CSS": 35512,
+    "TeX": 23327,
+    "Shell": 2674,
+    "Mako": 1527,
+    "XSLT": 1504
+  },
+  "size": 9016473
+}

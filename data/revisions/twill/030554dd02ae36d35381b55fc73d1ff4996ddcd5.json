@@ -1,0 +1,14 @@
+{
+  "commit": "030554dd02ae36d35381b55fc73d1ff4996ddcd5",
+  "repo_url": "https://github.com/area17/twill",
+  "date": "2021-09-16T23:03:36",
+  "languages": {
+    "PHP": 1038461,
+    "Vue": 590593,
+    "JavaScript": 238099,
+    "Blade": 174985,
+    "SCSS": 80393,
+    "CSS": 6179
+  },
+  "size": 2128710
+}

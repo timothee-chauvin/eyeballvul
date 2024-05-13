@@ -1,0 +1,16 @@
+{
+  "commit": "d601db995de1efbf511fa7d22303c330ea6b9310",
+  "repo_url": "https://github.com/evolution-cms/evolution",
+  "date": "2018-08-07T11:43:50",
+  "languages": {
+    "PHP": 8391955,
+    "JavaScript": 2397772,
+    "CSS": 386384,
+    "Smarty": 146161,
+    "HTML": 105844,
+    "Less": 2454,
+    "Makefile": 1987,
+    "Handlebars": 741
+  },
+  "size": 11433298
+}

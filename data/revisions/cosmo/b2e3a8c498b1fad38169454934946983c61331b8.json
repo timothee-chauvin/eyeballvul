@@ -1,0 +1,14 @@
+{
+  "commit": "b2e3a8c498b1fad38169454934946983c61331b8",
+  "repo_url": "https://github.com/cosmocms/cosmo",
+  "date": "2016-06-13T10:28:51",
+  "languages": {
+    "PHP": 488498,
+    "JavaScript": 175512,
+    "HTML": 121103,
+    "SCSS": 69114,
+    "Java": 14870,
+    "CSS": 548
+  },
+  "size": 869645
+}

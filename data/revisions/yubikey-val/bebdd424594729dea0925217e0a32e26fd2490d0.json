@@ -1,0 +1,13 @@
+{
+  "commit": "bebdd424594729dea0925217e0a32e26fd2490d0",
+  "repo_url": "https://github.com/yubico/yubikey-val",
+  "date": "2016-11-01T09:23:45",
+  "languages": {
+    "PHP": 130732,
+    "Roff": 23840,
+    "Makefile": 7931,
+    "Perl": 5941,
+    "Shell": 2350
+  },
+  "size": 170794
+}

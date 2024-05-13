@@ -1,0 +1,12 @@
+{
+  "commit": "8f96167fa2128c3235eee7a70b93b22518be2efc",
+  "repo_url": "https://github.com/jenkinsci/anchore-container-scanner-plugin",
+  "date": "2018-07-18T22:57:42",
+  "languages": {
+    "Java": 111555,
+    "JavaScript": 6403,
+    "HTML": 5894,
+    "CSS": 291
+  },
+  "size": 124143
+}

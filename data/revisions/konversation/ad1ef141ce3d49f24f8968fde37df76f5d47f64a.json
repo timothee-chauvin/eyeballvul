@@ -1,0 +1,14 @@
+{
+  "commit": "ad1ef141ce3d49f24f8968fde37df76f5d47f64a",
+  "repo_url": "https://github.com/kde/konversation",
+  "date": "2017-05-09T15:22:11",
+  "languages": {
+    "C++": 2171544,
+    "Python": 36596,
+    "CMake": 12390,
+    "Perl": 10143,
+    "C": 6155,
+    "Shell": 4364
+  },
+  "size": 2241192
+}

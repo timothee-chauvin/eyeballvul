@@ -1,0 +1,11 @@
+{
+  "commit": "f6fa366ee571061bbfd6a3f311cef0ba18b9548e",
+  "repo_url": "https://github.com/csaf-poc/csaf_distribution",
+  "date": "2022-05-19T12:17:24",
+  "languages": {
+    "Go": 177758,
+    "HTML": 4481,
+    "Makefile": 3499
+  },
+  "size": 185738
+}

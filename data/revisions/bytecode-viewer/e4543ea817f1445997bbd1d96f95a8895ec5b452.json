@@ -1,0 +1,14 @@
+{
+  "commit": "e4543ea817f1445997bbd1d96f95a8895ec5b452",
+  "repo_url": "https://github.com/konloch/bytecode-viewer",
+  "date": "2021-08-12T12:15:49",
+  "languages": {
+    "Java": 1333276,
+    "HTML": 27514,
+    "JavaScript": 4364,
+    "Batchfile": 472,
+    "Python": 460,
+    "Ruby": 418
+  },
+  "size": 1366504
+}

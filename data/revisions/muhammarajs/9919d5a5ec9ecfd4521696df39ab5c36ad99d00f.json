@@ -1,0 +1,20 @@
+{
+  "commit": "9919d5a5ec9ecfd4521696df39ab5c36ad99d00f",
+  "repo_url": "https://github.com/julianhille/muhammarajs",
+  "date": "2022-06-23T19:54:56",
+  "languages": {
+    "C": 10922276,
+    "C++": 2505945,
+    "Shell": 348687,
+    "Makefile": 160534,
+    "Python": 138644,
+    "CMake": 84910,
+    "Assembly": 79368,
+    "JavaScript": 71865,
+    "M4": 46659,
+    "Perl": 13048,
+    "HTML": 7311,
+    "Awk": 3962
+  },
+  "size": 14383209
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "2d5f15c49abf37c7753a0263748e1909fdae4e71",
+  "repo_url": "https://github.com/graphite-project/graphite-web",
+  "date": "2017-12-19T08:44:08",
+  "languages": {
+    "JavaScript": 1689932,
+    "Python": 1221597,
+    "CSS": 150191,
+    "HTML": 21424,
+    "Ruby": 1950,
+    "Shell": 1113,
+    "Perl": 857
+  },
+  "size": 3087064
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "9b751fe6d8056b2cc4b070a0faf414810edc9050",
+  "repo_url": "https://github.com/nheko-reborn/nheko",
+  "date": "2022-09-09T17:13:55",
+  "languages": {
+    "C++": 2145975,
+    "QML": 554195,
+    "CMake": 47587,
+    "Python": 35374,
+    "Shell": 13559,
+    "Objective-C++": 5056,
+    "Qt Script": 3294,
+    "Makefile": 1624,
+    "PowerShell": 958,
+    "Ruby": 253
+  },
+  "size": 2807875
+}

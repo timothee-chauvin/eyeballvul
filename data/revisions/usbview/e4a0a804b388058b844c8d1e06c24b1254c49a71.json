@@ -1,0 +1,13 @@
+{
+  "commit": "e4a0a804b388058b844c8d1e06c24b1254c49a71",
+  "repo_url": "https://github.com/gregkh/usbview",
+  "date": "2021-10-22T11:34:48",
+  "languages": {
+    "C": 43449,
+    "M4": 2370,
+    "Makefile": 2220,
+    "Roff": 861,
+    "Shell": 686
+  },
+  "size": 49586
+}

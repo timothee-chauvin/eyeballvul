@@ -1,0 +1,13 @@
+{
+  "commit": "34c0a1313a011ac2d254f3a48ba86dd810b68eb2",
+  "repo_url": "https://github.com/admin-ch/covidcertificate-app-ios",
+  "date": "2021-07-21T22:03:48",
+  "languages": {
+    "Swift": 749447,
+    "HTML": 14806,
+    "Objective-C": 10424,
+    "Ruby": 1526,
+    "C": 180
+  },
+  "size": 776383
+}

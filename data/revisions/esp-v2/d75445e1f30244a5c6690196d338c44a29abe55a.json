@@ -1,0 +1,17 @@
+{
+  "commit": "d75445e1f30244a5c6690196d338c44a29abe55a",
+  "repo_url": "https://github.com/googlecloudplatform/esp-v2",
+  "date": "2023-01-10T18:13:09",
+  "languages": {
+    "Go": 1521930,
+    "C++": 726498,
+    "Python": 191333,
+    "Shell": 150249,
+    "Starlark": 54895,
+    "Makefile": 15488,
+    "JavaScript": 12263,
+    "Lua": 2759,
+    "Dockerfile": 2691
+  },
+  "size": 2678106
+}

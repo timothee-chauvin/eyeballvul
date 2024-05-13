@@ -1,0 +1,14 @@
+{
+  "commit": "6504b56f8c113a0de9271109154cbeb4fe578dbf",
+  "repo_url": "https://github.com/plusone-masaki/csv-plus",
+  "date": "2021-06-23T13:11:25",
+  "languages": {
+    "TypeScript": 46350,
+    "Vue": 22953,
+    "JavaScript": 6191,
+    "Sass": 4179,
+    "HTML": 555,
+    "SCSS": 290
+  },
+  "size": 80518
+}

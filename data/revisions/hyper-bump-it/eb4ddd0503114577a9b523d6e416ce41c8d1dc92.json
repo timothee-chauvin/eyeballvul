@@ -1,0 +1,11 @@
+{
+  "commit": "eb4ddd0503114577a9b523d6e416ce41c8d1dc92",
+  "repo_url": "https://github.com/plannigan/hyper-bump-it",
+  "date": "2023-08-04T14:02:53",
+  "languages": {
+    "Python": 356479,
+    "Shell": 916,
+    "Dockerfile": 896
+  },
+  "size": 358291
+}

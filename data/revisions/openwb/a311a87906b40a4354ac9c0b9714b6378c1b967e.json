@@ -1,0 +1,15 @@
+{
+  "commit": "a311a87906b40a4354ac9c0b9714b6378c1b967e",
+  "repo_url": "https://github.com/snaptec/openwb",
+  "date": "2020-02-28T09:53:50",
+  "languages": {
+    "PHP": 1582502,
+    "JavaScript": 1108213,
+    "Shell": 522285,
+    "Python": 483188,
+    "CSS": 225087,
+    "HTML": 222718,
+    "Hack": 11651
+  },
+  "size": 4155644
+}

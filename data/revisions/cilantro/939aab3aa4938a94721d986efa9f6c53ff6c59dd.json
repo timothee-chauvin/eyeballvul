@@ -1,0 +1,16 @@
+{
+  "commit": "939aab3aa4938a94721d986efa9f6c53ff6c59dd",
+  "repo_url": "https://github.com/dainst/cilantro",
+  "date": "2019-09-24T08:59:19",
+  "languages": {
+    "Python": 178849,
+    "Vue": 59440,
+    "TypeScript": 20856,
+    "Dockerfile": 12236,
+    "JavaScript": 2502,
+    "Shell": 1839,
+    "Makefile": 1237,
+    "HTML": 565
+  },
+  "size": 277524
+}

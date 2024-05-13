@@ -1,0 +1,20 @@
+{
+  "commit": "5913f74001973923f21777b2e6cf5173af079faf",
+  "repo_url": "https://github.com/thm-mni-ii/feedbacksystem",
+  "date": "2023-01-03T12:18:15",
+  "languages": {
+    "Scala": 405761,
+    "TypeScript": 330733,
+    "HTML": 92378,
+    "Python": 79738,
+    "Kotlin": 41062,
+    "SCSS": 35034,
+    "PLpgSQL": 15518,
+    "Dockerfile": 2138,
+    "Shell": 2095,
+    "JavaScript": 1731,
+    "Jupyter Notebook": 1677,
+    "Smarty": 144
+  },
+  "size": 1008009
+}

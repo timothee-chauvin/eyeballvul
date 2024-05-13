@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2015-1",
+  "published": "2015-07-23T00:00:00",
+  "modified": "2023-11-08T03:57:49.586556",
+  "details": "Multiple integer overflows in the XML_GetBuffer function in Expat through 2.1.0, as used in Google Chrome before 44.0.2403.89 and other products, allow remote attackers to cause a denial of service (heap-based buffer overflow) or possibly have unspecified other impact via crafted XML data, a related issue to CVE-2015-2716.",
+  "summary": "Issue #26556: Expat 2.1.1",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

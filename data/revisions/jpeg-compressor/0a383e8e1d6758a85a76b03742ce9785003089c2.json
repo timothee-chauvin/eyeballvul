@@ -1,0 +1,11 @@
+{
+  "commit": "0a383e8e1d6758a85a76b03742ce9785003089c2",
+  "repo_url": "https://github.com/kornelski/jpeg-compressor",
+  "date": "2013-10-16T00:04:59",
+  "languages": {
+    "C++": 173416,
+    "C": 146543,
+    "Makefile": 124
+  },
+  "size": 320083
+}

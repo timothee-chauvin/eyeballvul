@@ -1,0 +1,20 @@
+{
+  "commit": "5cdc3f8a5ea212c3bf231cb710ea3436e9aad1d7",
+  "repo_url": "https://github.com/wso2/product-apim",
+  "date": "2018-03-15T16:37:41",
+  "languages": {
+    "Java": 5406453,
+    "JavaScript": 327461,
+    "Less": 199838,
+    "PLSQL": 78700,
+    "CSS": 69611,
+    "TSQL": 53028,
+    "HTML": 21493,
+    "Shell": 17622,
+    "Batchfile": 12545,
+    "SQLPL": 11463,
+    "XSLT": 3737,
+    "Handlebars": 2861
+  },
+  "size": 6204812
+}

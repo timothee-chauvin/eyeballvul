@@ -1,0 +1,14 @@
+{
+  "commit": "9bd95d92f7843a0f11430ed3e27a3ab6e3f11092",
+  "repo_url": "https://github.com/learnpress/learnpress",
+  "date": "2021-11-19T03:49:58",
+  "languages": {
+    "PHP": 3161778,
+    "JavaScript": 400435,
+    "SCSS": 294665,
+    "Hack": 8442,
+    "Shell": 4655,
+    "CSS": 61
+  },
+  "size": 3870036
+}

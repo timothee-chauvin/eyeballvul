@@ -1,0 +1,13 @@
+{
+  "commit": "428c13d8a8e4fa470027f604b784b2fed11ca725",
+  "repo_url": "https://github.com/yahoo/elide",
+  "date": "2020-02-15T23:55:30",
+  "languages": {
+    "Java": 2501046,
+    "Shell": 4650,
+    "ANTLR": 2041,
+    "Procfile": 366,
+    "Makefile": 122
+  },
+  "size": 2508225
+}

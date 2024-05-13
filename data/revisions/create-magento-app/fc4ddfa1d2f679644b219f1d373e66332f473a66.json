@@ -1,0 +1,13 @@
+{
+  "commit": "fc4ddfa1d2f679644b219f1d373e66332f473a66",
+  "repo_url": "https://github.com/scandipwa/create-magento-app",
+  "date": "2021-05-31T11:11:03",
+  "languages": {
+    "JavaScript": 193685,
+    "Dockerfile": 5673,
+    "PHP": 4364,
+    "Makefile": 814,
+    "Shell": 55
+  },
+  "size": 204591
+}

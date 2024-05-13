@@ -1,0 +1,15 @@
+{
+  "commit": "61bdbb3a15349988554cef1b85b339c7653bb085",
+  "repo_url": "https://github.com/paritytech/frontier",
+  "date": "2021-08-08T13:18:38",
+  "languages": {
+    "Rust": 398778,
+    "TypeScript": 120428,
+    "JavaScript": 12523,
+    "Solidity": 1670,
+    "Dockerfile": 1040,
+    "Nix": 728,
+    "Shell": 649
+  },
+  "size": 535816
+}

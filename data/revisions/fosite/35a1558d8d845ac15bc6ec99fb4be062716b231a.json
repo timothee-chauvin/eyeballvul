@@ -1,0 +1,11 @@
+{
+  "commit": "35a1558d8d845ac15bc6ec99fb4be062716b231a",
+  "repo_url": "https://github.com/ory/fosite",
+  "date": "2020-03-26T18:57:00",
+  "languages": {
+    "Go": 695462,
+    "Shell": 3725,
+    "Makefile": 80
+  },
+  "size": 699267
+}

@@ -1,0 +1,23 @@
+{
+  "commit": "9bd8781f32a151900feb2345580b858d6a1c0229",
+  "repo_url": "https://github.com/apache/inlong",
+  "date": "2023-01-10T11:47:03",
+  "languages": {
+    "Java": 17431601,
+    "JavaScript": 1162088,
+    "C++": 764911,
+    "TypeScript": 631369,
+    "Go": 239308,
+    "Shell": 133367,
+    "CSS": 69199,
+    "Scala": 22449,
+    "CMake": 21133,
+    "Python": 20571,
+    "Dockerfile": 16753,
+    "Less": 13921,
+    "Batchfile": 7137,
+    "Smarty": 5418,
+    "HTML": 3648
+  },
+  "size": 20542873
+}

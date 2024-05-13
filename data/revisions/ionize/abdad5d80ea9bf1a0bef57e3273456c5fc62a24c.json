@@ -1,0 +1,13 @@
+{
+  "commit": "abdad5d80ea9bf1a0bef57e3273456c5fc62a24c",
+  "repo_url": "https://github.com/ionize/ionize",
+  "date": "2016-02-10T16:22:18",
+  "languages": {
+    "PHP": 5332235,
+    "JavaScript": 2206425,
+    "CSS": 253657,
+    "HTML": 83148,
+    "Hack": 34022
+  },
+  "size": 7909487
+}

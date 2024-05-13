@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2023-1",
+  "published": "2023-02-17T00:00:00",
+  "modified": "2023-12-06T01:02:51.879638",
+  "details": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+  "summary": "urlparse does not correctly handle schemes",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

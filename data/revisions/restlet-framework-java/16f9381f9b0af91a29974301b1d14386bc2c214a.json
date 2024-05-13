@@ -1,0 +1,21 @@
+{
+  "commit": "16f9381f9b0af91a29974301b1d14386bc2c214a",
+  "repo_url": "https://github.com/restlet/restlet-framework-java",
+  "date": "2017-05-28T14:35:44",
+  "languages": {
+    "Java": 11871388,
+    "HTML": 9891836,
+    "XSLT": 162603,
+    "CSS": 82109,
+    "NSIS": 67191,
+    "Shell": 33962,
+    "FreeMarker": 24292,
+    "RAML": 14207,
+    "JavaScript": 11806,
+    "Rich Text Format": 7547,
+    "Batchfile": 4799,
+    "PLSQL": 3741,
+    "Velocity Template Language": 373
+  },
+  "size": 22175854
+}

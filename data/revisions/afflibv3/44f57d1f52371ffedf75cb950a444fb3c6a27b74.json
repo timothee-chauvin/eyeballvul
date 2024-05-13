@@ -1,0 +1,17 @@
+{
+  "commit": "44f57d1f52371ffedf75cb950a444fb3c6a27b74",
+  "repo_url": "https://github.com/sshock/afflibv3",
+  "date": "2017-06-24T00:57:09",
+  "languages": {
+    "C++": 725719,
+    "C": 569962,
+    "Shell": 23384,
+    "Makefile": 22391,
+    "M4": 19061,
+    "HTML": 15193,
+    "Python": 7140,
+    "Cython": 3134,
+    "Batchfile": 41
+  },
+  "size": 1386025
+}

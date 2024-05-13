@@ -1,0 +1,26 @@
+{
+  "commit": "b448629688bb65817de7143ef6cdeaef9553d94b",
+  "repo_url": "https://github.com/maharaproject/mahara",
+  "date": "2017-10-30T07:25:39",
+  "languages": {
+    "PHP": 19022610,
+    "JavaScript": 6135299,
+    "Smarty": 895887,
+    "SCSS": 686343,
+    "HTML": 531053,
+    "Gherkin": 262891,
+    "CSS": 144208,
+    "Ruby": 60631,
+    "Sass": 28330,
+    "XSLT": 27654,
+    "Roff": 26527,
+    "Shell": 13140,
+    "Stylus": 7850,
+    "Makefile": 5610,
+    "Perl": 4492,
+    "sed": 3149,
+    "Python": 2442,
+    "Slim": 1324
+  },
+  "size": 27859440
+}

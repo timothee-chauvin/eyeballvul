@@ -1,0 +1,13 @@
+{
+  "commit": "62c5a825ff2beaa63080ce5045a2b5c5c5c867e9",
+  "repo_url": "https://github.com/yadifa/yadifa",
+  "date": "2017-04-20T12:51:11",
+  "languages": {
+    "C": 6019868,
+    "Shell": 2647605,
+    "Makefile": 460330,
+    "M4": 85964,
+    "C++": 55247
+  },
+  "size": 9269014
+}

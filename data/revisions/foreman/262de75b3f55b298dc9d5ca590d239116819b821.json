@@ -1,0 +1,17 @@
+{
+  "commit": "262de75b3f55b298dc9d5ca590d239116819b821",
+  "repo_url": "https://github.com/theforeman/foreman",
+  "date": "2019-02-12T14:15:46",
+  "languages": {
+    "Ruby": 4684925,
+    "JavaScript": 582631,
+    "HTML": 581550,
+    "Python": 55812,
+    "SCSS": 44137,
+    "Shell": 26197,
+    "CSS": 2226,
+    "Makefile": 1697,
+    "Procfile": 577
+  },
+  "size": 5979752
+}

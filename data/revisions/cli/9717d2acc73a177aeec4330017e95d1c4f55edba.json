@@ -1,0 +1,22 @@
+{
+  "commit": "9717d2acc73a177aeec4330017e95d1c4f55edba",
+  "repo_url": "https://github.com/snyk/cli",
+  "date": "2022-08-31T16:27:42",
+  "languages": {
+    "TypeScript": 2311989,
+    "JavaScript": 141663,
+    "Go": 106701,
+    "Shell": 53044,
+    "Makefile": 15328,
+    "Roff": 12458,
+    "Ruby": 5097,
+    "C#": 1065,
+    "HCL": 662,
+    "Python": 505,
+    "Dockerfile": 492,
+    "Scala": 475,
+    "Batchfile": 189,
+    "Elixir": 8
+  },
+  "size": 2649676
+}

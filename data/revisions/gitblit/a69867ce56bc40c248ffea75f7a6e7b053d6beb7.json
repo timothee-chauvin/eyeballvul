@@ -1,0 +1,19 @@
+{
+  "commit": "a69867ce56bc40c248ffea75f7a6e7b053d6beb7",
+  "repo_url": "https://github.com/gitblit-org/gitblit",
+  "date": "2022-02-05T15:27:55",
+  "languages": {
+    "Java": 4207087,
+    "HTML": 257823,
+    "Groovy": 72514,
+    "CSS": 69708,
+    "JavaScript": 61097,
+    "Python": 25169,
+    "Less": 13788,
+    "Shell": 12666,
+    "FreeMarker": 5681,
+    "Batchfile": 4425,
+    "Awk": 2180
+  },
+  "size": 4732138
+}

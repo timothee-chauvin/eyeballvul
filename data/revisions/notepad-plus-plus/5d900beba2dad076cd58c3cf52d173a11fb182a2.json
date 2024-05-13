@@ -1,0 +1,28 @@
+{
+  "commit": "5d900beba2dad076cd58c3cf52d173a11fb182a2",
+  "repo_url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+  "date": "2013-09-29T08:27:23",
+  "languages": {
+    "C++": 5493353,
+    "HTML": 831950,
+    "C": 261550,
+    "Objective-C++": 226147,
+    "Python": 145760,
+    "Makefile": 82036,
+    "NSIS": 63033,
+    "PostScript": 35071,
+    "Objective-C": 21200,
+    "Batchfile": 13634,
+    "QMake": 8714,
+    "CMake": 6606,
+    "Shell": 1869,
+    "D": 553,
+    "Visual Basic .NET": 259,
+    "Classic ASP": 133,
+    "Lua": 127,
+    "PHP": 105,
+    "Perl": 75,
+    "Ruby": 68
+  },
+  "size": 7192243
+}

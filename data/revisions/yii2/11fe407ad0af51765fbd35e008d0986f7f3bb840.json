@@ -1,0 +1,17 @@
+{
+  "commit": "11fe407ad0af51765fbd35e008d0986f7f3bb840",
+  "repo_url": "https://github.com/yiisoft/yii2",
+  "date": "2016-10-20T12:02:50",
+  "languages": {
+    "PHP": 5084007,
+    "JavaScript": 74146,
+    "PLSQL": 15645,
+    "TSQL": 11756,
+    "Hack": 4074,
+    "Shell": 3125,
+    "Batchfile": 1085,
+    "Ruby": 207,
+    "CSS": 20
+  },
+  "size": 5194065
+}

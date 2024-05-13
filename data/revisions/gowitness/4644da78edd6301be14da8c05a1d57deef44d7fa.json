@@ -1,0 +1,12 @@
+{
+  "commit": "4644da78edd6301be14da8c05a1d57deef44d7fa",
+  "repo_url": "https://github.com/sensepost/gowitness",
+  "date": "2021-05-18T08:18:20",
+  "languages": {
+    "Go": 57371,
+    "HTML": 17690,
+    "Makefile": 1717,
+    "Dockerfile": 554
+  },
+  "size": 77332
+}

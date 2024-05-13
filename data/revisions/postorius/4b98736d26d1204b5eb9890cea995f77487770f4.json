@@ -1,0 +1,14 @@
+{
+  "commit": "4b98736d26d1204b5eb9890cea995f77487770f4",
+  "repo_url": "https://gitlab.com/mailman/postorius",
+  "date": "2021-02-03T01:37:21",
+  "languages": {
+    "Python": 558193,
+    "HTML": 77023,
+    "JavaScript": 11523,
+    "Makefile": 4606,
+    "CSS": 1941,
+    "Shell": 814
+  },
+  "size": 654100
+}

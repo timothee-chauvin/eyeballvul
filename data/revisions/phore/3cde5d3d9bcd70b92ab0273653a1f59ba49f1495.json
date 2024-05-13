@@ -1,0 +1,22 @@
+{
+  "commit": "3cde5d3d9bcd70b92ab0273653a1f59ba49f1495",
+  "repo_url": "https://github.com/phoreproject/phore",
+  "date": "2018-07-28T04:24:22",
+  "languages": {
+    "C++": 5662082,
+    "C": 1020482,
+    "Python": 415863,
+    "M4": 180423,
+    "Makefile": 106721,
+    "HTML": 50621,
+    "CSS": 44800,
+    "Shell": 42155,
+    "QMake": 26821,
+    "Roff": 17396,
+    "Assembly": 7639,
+    "Objective-C++": 6829,
+    "Java": 2100,
+    "Dockerfile": 652
+  },
+  "size": 7584584
+}

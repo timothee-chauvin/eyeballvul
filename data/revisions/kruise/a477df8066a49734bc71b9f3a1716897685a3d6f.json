@@ -1,0 +1,12 @@
+{
+  "commit": "a477df8066a49734bc71b9f3a1716897685a3d6f",
+  "repo_url": "https://github.com/openkruise/kruise",
+  "date": "2023-09-01T01:50:01",
+  "languages": {
+    "Go": 4606015,
+    "Shell": 13791,
+    "Makefile": 6610,
+    "Dockerfile": 798
+  },
+  "size": 4627214
+}

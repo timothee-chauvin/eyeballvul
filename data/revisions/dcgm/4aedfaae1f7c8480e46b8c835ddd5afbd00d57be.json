@@ -1,0 +1,17 @@
+{
+  "commit": "4aedfaae1f7c8480e46b8c835ddd5afbd00d57be",
+  "repo_url": "https://github.com/nvidia/dcgm",
+  "date": "2023-02-16T22:22:44",
+  "languages": {
+    "C++": 5747788,
+    "C": 2024161,
+    "Python": 1608777,
+    "CMake": 174855,
+    "Shell": 82675,
+    "Cuda": 35434,
+    "Dockerfile": 5098,
+    "Awk": 1929,
+    "Makefile": 1831
+  },
+  "size": 9682548
+}

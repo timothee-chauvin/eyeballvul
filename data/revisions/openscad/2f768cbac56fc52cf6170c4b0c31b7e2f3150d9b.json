@@ -1,0 +1,25 @@
+{
+  "commit": "2f768cbac56fc52cf6170c4b0c31b7e2f3150d9b",
+  "repo_url": "https://github.com/openscad/openscad",
+  "date": "2020-12-06T17:31:15",
+  "languages": {
+    "C++": 2298555,
+    "C": 247544,
+    "Shell": 159816,
+    "CMake": 126300,
+    "Python": 86888,
+    "QMake": 50731,
+    "NSIS": 40445,
+    "JavaScript": 36226,
+    "HTML": 26826,
+    "Yacc": 24740,
+    "Lex": 12849,
+    "Emacs Lisp": 9485,
+    "Objective-C++": 9288,
+    "CSS": 5120,
+    "OpenSCAD": 1459,
+    "Makefile": 1370,
+    "Batchfile": 359
+  },
+  "size": 3138001
+}

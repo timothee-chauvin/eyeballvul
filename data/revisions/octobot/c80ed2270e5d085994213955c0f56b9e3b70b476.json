@@ -1,0 +1,14 @@
+{
+  "commit": "c80ed2270e5d085994213955c0f56b9e3b70b476",
+  "repo_url": "https://github.com/drakkar-software/octobot",
+  "date": "2021-11-23T08:44:59",
+  "languages": {
+    "Python": 395575,
+    "Cython": 37258,
+    "Roff": 3350,
+    "Dockerfile": 1802,
+    "Makefile": 1059,
+    "Shell": 484
+  },
+  "size": 439528
+}

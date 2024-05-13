@@ -1,0 +1,11 @@
+{
+  "commit": "d2f0cca26fd8ec07051493bb8e0216413f69b605",
+  "repo_url": "https://github.com/nextcloud/files_accesscontrol",
+  "date": "2021-10-14T13:16:11",
+  "languages": {
+    "PHP": 28439,
+    "JavaScript": 10971,
+    "Makefile": 1431
+  },
+  "size": 40841
+}

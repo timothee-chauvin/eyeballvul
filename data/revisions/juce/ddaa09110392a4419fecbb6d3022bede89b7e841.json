@@ -1,0 +1,17 @@
+{
+  "commit": "ddaa09110392a4419fecbb6d3022bede89b7e841",
+  "repo_url": "https://github.com/juce-framework/juce",
+  "date": "2021-12-20T11:16:43",
+  "languages": {
+    "C++": 27312514,
+    "C": 6111566,
+    "CMake": 1193308,
+    "Objective-C++": 1003297,
+    "Java": 126400,
+    "Makefile": 71150,
+    "Objective-C": 29326,
+    "Rez": 5181,
+    "R": 2698
+  },
+  "size": 35855440
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2016-4",
+  "published": "2016-09-01T00:00:00",
+  "modified": "2023-11-08T03:58:24.160620",
+  "details": "The DES and Triple DES ciphers, as used in the TLS, SSH, and IPSec protocols and other protocols and products, have a birthday bound of approximately four billion blocks, which makes it easier for remote attackers to obtain cleartext data via a birthday attack against a long-duration encrypted session, as demonstrated by an HTTPS session using Triple DES in CBC mode, aka a \"Sweet32\" attack.",
+  "summary": "Sweet32 attack (DES, 3DES)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

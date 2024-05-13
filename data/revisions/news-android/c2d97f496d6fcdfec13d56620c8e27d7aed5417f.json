@@ -1,0 +1,13 @@
+{
+  "commit": "c2d97f496d6fcdfec13d56620c8e27d7aed5417f",
+  "repo_url": "https://github.com/nextcloud/news-android",
+  "date": "2021-06-27T17:01:53",
+  "languages": {
+    "Java": 873044,
+    "CSS": 4204,
+    "Dockerfile": 699,
+    "Shell": 301,
+    "AIDL": 71
+  },
+  "size": 878319
+}

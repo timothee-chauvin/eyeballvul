@@ -1,0 +1,11 @@
+{
+  "commit": "60fdb838e0bb2d8f32ba51129552c83b55acd2a7",
+  "repo_url": "https://github.com/cvxopt/cvxopt",
+  "date": "2021-02-18T20:21:32",
+  "languages": {
+    "C": 918232,
+    "Python": 585622,
+    "JetBrains MPS": 48147
+  },
+  "size": 1552001
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "f60cffe762acce881b116b3959c318a90ce68bc4",
+  "repo_url": "https://github.com/xpressengine/xpressengine",
+  "date": "2021-07-22T04:50:42",
+  "languages": {
+    "PHP": 3608816,
+    "HTML": 1510152,
+    "Blade": 574573,
+    "Vue": 82007
+  },
+  "size": 5775548
+}

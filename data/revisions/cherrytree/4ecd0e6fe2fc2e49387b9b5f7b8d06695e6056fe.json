@@ -1,0 +1,22 @@
+{
+  "commit": "4ecd0e6fe2fc2e49387b9b5f7b8d06695e6056fe",
+  "repo_url": "https://github.com/giuspen/cherrytree",
+  "date": "2021-01-24T22:14:10",
+  "languages": {
+    "C++": 3462782,
+    "Python": 1176957,
+    "C": 502221,
+    "Makefile": 22741,
+    "CMake": 21796,
+    "HTML": 20783,
+    "Inno Setup": 11993,
+    "Shell": 9511,
+    "CSS": 9077,
+    "JavaScript": 3599,
+    "Roff": 1505,
+    "M4": 1187,
+    "Dockerfile": 752,
+    "QMake": 318
+  },
+  "size": 5245222
+}

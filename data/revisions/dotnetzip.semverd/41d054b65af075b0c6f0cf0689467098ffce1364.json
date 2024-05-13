@@ -1,0 +1,24 @@
+{
+  "commit": "41d054b65af075b0c6f0cf0689467098ffce1364",
+  "repo_url": "https://github.com/haf/dotnetzip.semverd",
+  "date": "2014-06-15T18:15:50",
+  "languages": {
+    "C#": 3351742,
+    "Rich Text Format": 938808,
+    "HTML": 167669,
+    "ASP.NET": 46513,
+    "Visual Basic .NET": 42700,
+    "Smalltalk": 35778,
+    "JavaScript": 27155,
+    "Batchfile": 26292,
+    "VBScript": 19601,
+    "Ruby": 13511,
+    "PowerShell": 9266,
+    "Classic ASP": 6045,
+    "C++": 4789,
+    "Makefile": 1120,
+    "PHP": 1017,
+    "Perl": 554
+  },
+  "size": 4692560
+}

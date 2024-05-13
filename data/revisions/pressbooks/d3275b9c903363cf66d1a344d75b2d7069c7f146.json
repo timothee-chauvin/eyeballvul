@@ -1,0 +1,17 @@
+{
+  "commit": "d3275b9c903363cf66d1a344d75b2d7069c7f146",
+  "repo_url": "https://github.com/pressbooks/pressbooks",
+  "date": "2020-11-17T22:59:27",
+  "languages": {
+    "PHP": 2260364,
+    "XSLT": 452218,
+    "JavaScript": 98365,
+    "HTML": 78948,
+    "PostScript": 60562,
+    "SCSS": 58501,
+    "CSS": 49950,
+    "Blade": 14165,
+    "Shell": 5174
+  },
+  "size": 3078247
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "20104e9b2e51f9fd1a94ff734fa402563760f6a5",
+  "repo_url": "https://github.com/zammad/zammad",
+  "date": "2019-02-14T07:40:32",
+  "languages": {
+    "Ruby": 5688140,
+    "JavaScript": 1591199,
+    "CoffeeScript": 1454493,
+    "HTML": 193791,
+    "SCSS": 179399,
+    "Shell": 58558,
+    "CSS": 36196,
+    "PHP": 7740,
+    "Procfile": 270
+  },
+  "size": 9209786
+}

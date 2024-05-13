@@ -1,0 +1,11 @@
+{
+  "commit": "2b3eb35a9f2ad00afd09e26e4e2a988baac4dbaf",
+  "repo_url": "https://github.com/matanui159/replaysorcery",
+  "date": "2021-01-24T03:17:13",
+  "languages": {
+    "C": 130568,
+    "CMake": 5030,
+    "Shell": 913
+  },
+  "size": 136511
+}

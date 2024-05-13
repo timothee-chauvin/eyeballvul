@@ -1,0 +1,12 @@
+{
+  "commit": "9bc7e48d4a76a44616cad49d954951faffd6edf2",
+  "repo_url": "https://github.com/pimcore/perspective-editor",
+  "date": "2022-10-27T07:26:34",
+  "languages": {
+    "JavaScript": 85366,
+    "PHP": 54232,
+    "CSS": 773,
+    "Shell": 556
+  },
+  "size": 140927
+}

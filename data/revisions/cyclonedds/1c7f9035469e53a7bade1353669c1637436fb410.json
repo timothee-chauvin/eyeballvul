@@ -1,0 +1,18 @@
+{
+  "commit": "1c7f9035469e53a7bade1353669c1637436fb410",
+  "repo_url": "https://github.com/eclipse-cyclonedds/cyclonedds",
+  "date": "2019-02-19T09:27:17",
+  "languages": {
+    "C": 4104874,
+    "Java": 484630,
+    "CMake": 117366,
+    "GAP": 29544,
+    "ANTLR": 18559,
+    "Shell": 16159,
+    "StringTemplate": 11322,
+    "C++": 11111,
+    "Perl": 2667,
+    "Makefile": 1692
+  },
+  "size": 4797924
+}

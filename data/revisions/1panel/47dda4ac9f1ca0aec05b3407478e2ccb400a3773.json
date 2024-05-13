@@ -1,0 +1,18 @@
+{
+  "commit": "47dda4ac9f1ca0aec05b3407478e2ccb400a3773",
+  "repo_url": "https://github.com/1panel-dev/1panel",
+  "date": "2023-06-13T08:32:12",
+  "languages": {
+    "Go": 1900530,
+    "Vue": 1327840,
+    "SCSS": 24650,
+    "JavaScript": 9317,
+    "HTML": 4115,
+    "CSS": 2600,
+    "Makefile": 1292,
+    "Dockerfile": 670,
+    "PHP": 511,
+    "Shell": 450
+  },
+  "size": 3271975
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "d9fd80c497da30b4fe47201a9b4ed86b04e2e42d",
+  "repo_url": "https://github.com/hsimpson/vscode-glsllint",
+  "date": "2020-11-30T21:12:25",
+  "languages": {
+    "TypeScript": 22669,
+    "GLSL": 5417,
+    "JavaScript": 3349,
+    "Elm": 2764,
+    "C++": 1030,
+    "HLSL": 442
+  },
+  "size": 35671
+}

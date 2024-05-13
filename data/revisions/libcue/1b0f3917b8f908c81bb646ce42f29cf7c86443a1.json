@@ -1,0 +1,12 @@
+{
+  "commit": "1b0f3917b8f908c81bb646ce42f29cf7c86443a1",
+  "repo_url": "https://github.com/lipnitsk/libcue",
+  "date": "2018-05-02T00:51:51",
+  "languages": {
+    "C": 45945,
+    "Yacc": 6523,
+    "Lex": 4448,
+    "CMake": 3095
+  },
+  "size": 60011
+}

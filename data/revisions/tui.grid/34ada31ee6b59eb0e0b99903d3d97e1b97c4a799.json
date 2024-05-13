@@ -1,0 +1,13 @@
+{
+  "commit": "34ada31ee6b59eb0e0b99903d3d97e1b97c4a799",
+  "repo_url": "https://github.com/nhn/tui.grid",
+  "date": "2022-05-27T08:42:18",
+  "languages": {
+    "TypeScript": 1808640,
+    "JavaScript": 765608,
+    "CSS": 93229,
+    "HTML": 79310,
+    "Vue": 6661
+  },
+  "size": 2753448
+}

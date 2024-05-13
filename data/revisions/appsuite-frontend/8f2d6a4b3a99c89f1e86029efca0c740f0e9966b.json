@@ -1,0 +1,19 @@
+{
+  "commit": "8f2d6a4b3a99c89f1e86029efca0c740f0e9966b",
+  "repo_url": "https://github.com/open-xchange/appsuite-frontend",
+  "date": "2020-10-06T07:54:17",
+  "languages": {
+    "HTML": 28944596,
+    "JavaScript": 10300247,
+    "Less": 708409,
+    "Java": 48366,
+    "Rich Text Format": 39560,
+    "CSS": 9663,
+    "Shell": 8370,
+    "Handlebars": 3392,
+    "Makefile": 2034,
+    "EJS": 1075,
+    "Dockerfile": 162
+  },
+  "size": 40065874
+}

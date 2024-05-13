@@ -1,0 +1,12 @@
+{
+  "commit": "a03e0fe1465773634ed523d8d8e5d8316a65848e",
+  "repo_url": "https://github.com/tridentli/pitchfork",
+  "date": "2017-02-10T06:28:45",
+  "languages": {
+    "Go": 578726,
+    "CSS": 21674,
+    "JavaScript": 16834,
+    "Makefile": 1401
+  },
+  "size": 618635
+}

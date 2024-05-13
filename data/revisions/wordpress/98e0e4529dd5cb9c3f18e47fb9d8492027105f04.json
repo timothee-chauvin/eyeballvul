@@ -1,0 +1,11 @@
+{
+  "commit": "98e0e4529dd5cb9c3f18e47fb9d8492027105f04",
+  "repo_url": "https://github.com/plausible/wordpress",
+  "date": "2021-06-08T18:37:52",
+  "languages": {
+    "PHP": 27477,
+    "JavaScript": 7012,
+    "SCSS": 4822
+  },
+  "size": 39311
+}

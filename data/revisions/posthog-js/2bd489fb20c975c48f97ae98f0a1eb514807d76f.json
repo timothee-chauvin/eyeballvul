@@ -1,0 +1,13 @@
+{
+  "commit": "2bd489fb20c975c48f97ae98f0a1eb514807d76f",
+  "repo_url": "https://github.com/posthog/posthog-js",
+  "date": "2023-05-17T10:22:27",
+  "languages": {
+    "JavaScript": 318427,
+    "TypeScript": 316034,
+    "HTML": 18227,
+    "Vue": 688,
+    "CSS": 168
+  },
+  "size": 653544
+}

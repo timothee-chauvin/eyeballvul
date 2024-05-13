@@ -1,0 +1,18 @@
+{
+  "commit": "edabf58e7c0a4c33214a6dc17f6877d7276853b1",
+  "repo_url": "https://github.com/otrs/otrs",
+  "date": "2013-11-07T14:20:52",
+  "languages": {
+    "Perl": 29309352,
+    "JavaScript": 605589,
+    "CSS": 261903,
+    "PLSQL": 88280,
+    "Shell": 42594,
+    "TSQL": 8369,
+    "HTML": 4811,
+    "Gherkin": 2125,
+    "D": 1726,
+    "Makefile": 1110
+  },
+  "size": 30325859
+}

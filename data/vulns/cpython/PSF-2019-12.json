@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2019-12",
+  "published": "2019-03-23T17:07:08",
+  "modified": "2023-11-08T04:01:48.319911",
+  "details": "urllib in Python 2.x through 2.7.16 supports the local_file: scheme, which makes it easier for remote attackers to bypass protection mechanisms that blacklist file: URIs, as demonstrated by triggering a urllib.urlopen('local_file:///etc/passwd') call.",
+  "summary": "urllib module local_file:// scheme",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

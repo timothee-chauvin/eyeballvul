@@ -1,0 +1,15 @@
+{
+  "commit": "853ed9a950cc3b70b57be3deb6d20c131c0cbfe3",
+  "repo_url": "https://github.com/makedeb/mprweb",
+  "date": "2020-03-27T12:51:15",
+  "languages": {
+    "PHP": 381657,
+    "Python": 112809,
+    "Shell": 92617,
+    "CSS": 38439,
+    "Makefile": 2288,
+    "HTML": 1348,
+    "Mako": 494
+  },
+  "size": 629652
+}

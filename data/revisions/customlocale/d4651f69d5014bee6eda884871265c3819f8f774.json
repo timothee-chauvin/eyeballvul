@@ -1,0 +1,12 @@
+{
+  "commit": "d4651f69d5014bee6eda884871265c3819f8f774",
+  "repo_url": "https://github.com/pkp/customlocale",
+  "date": "2023-04-14T23:57:41",
+  "languages": {
+    "PHP": 26607,
+    "Smarty": 6982,
+    "JavaScript": 6076,
+    "CSS": 647
+  },
+  "size": 40312
+}

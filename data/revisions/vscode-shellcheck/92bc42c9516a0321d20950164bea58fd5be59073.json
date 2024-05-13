@@ -1,0 +1,10 @@
+{
+  "commit": "92bc42c9516a0321d20950164bea58fd5be59073",
+  "repo_url": "https://github.com/timonwong/vscode-shellcheck",
+  "date": "2021-03-10T14:58:13",
+  "languages": {
+    "TypeScript": 36441,
+    "JavaScript": 7287
+  },
+  "size": 43728
+}

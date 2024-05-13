@@ -1,0 +1,10 @@
+{
+  "commit": "e908e81dee05b073316f5260055d979c84f478e7",
+  "repo_url": "https://github.com/dramforever/vscode-ghc-simple",
+  "date": "2021-03-23T07:00:53",
+  "languages": {
+    "TypeScript": 75345,
+    "Nix": 226
+  },
+  "size": 75571
+}

@@ -1,0 +1,29 @@
+{
+  "commit": "161e1f22b8a288f88efa40590faab1bc4c2d86a9",
+  "repo_url": "https://github.com/qemu/qemu",
+  "date": "2023-04-23T10:06:20",
+  "languages": {
+    "C": 67766801,
+    "C++": 10045163,
+    "Python": 3303786,
+    "Shell": 1362832,
+    "Assembly": 434234,
+    "Meson": 391623,
+    "Haxe": 327434,
+    "Perl": 218975,
+    "Objective-C": 108583,
+    "Makefile": 95429,
+    "SourcePawn": 64629,
+    "POV-Ray SDL": 57289,
+    "SmPL": 28545,
+    "Pawn": 16760,
+    "NASL": 7703,
+    "NSIS": 6906,
+    "Dockerfile": 1577,
+    "GLSL": 588,
+    "GDB": 470,
+    "Vim Script": 220,
+    "Emacs Lisp": 75
+  },
+  "size": 84239622
+}

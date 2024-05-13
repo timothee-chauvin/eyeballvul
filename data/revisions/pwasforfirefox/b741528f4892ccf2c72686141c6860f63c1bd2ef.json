@@ -1,0 +1,19 @@
+{
+  "commit": "b741528f4892ccf2c72686141c6860f63c1bd2ef",
+  "repo_url": "https://github.com/filips123/pwasforfirefox",
+  "date": "2024-03-20T16:31:24",
+  "languages": {
+    "JavaScript": 238747,
+    "Rust": 206500,
+    "HTML": 71543,
+    "CSS": 11132,
+    "Shell": 10848,
+    "Fluent": 7404,
+    "SCSS": 6534,
+    "Scheme": 955,
+    "Handlebars": 581,
+    "PowerShell": 572,
+    "NSIS": 514
+  },
+  "size": 555330
+}

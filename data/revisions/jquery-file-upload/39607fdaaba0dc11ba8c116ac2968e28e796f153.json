@@ -1,0 +1,15 @@
+{
+  "commit": "39607fdaaba0dc11ba8c116ac2968e28e796f153",
+  "repo_url": "https://github.com/blueimp/jquery-file-upload",
+  "date": "2018-06-19T07:33:35",
+  "languages": {
+    "JavaScript": 72608,
+    "HTML": 65173,
+    "PHP": 56786,
+    "Go": 8964,
+    "Python": 7574,
+    "CSS": 4357,
+    "Dockerfile": 994
+  },
+  "size": 216456
+}

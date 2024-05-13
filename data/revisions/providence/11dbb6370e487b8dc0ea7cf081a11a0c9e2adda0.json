@@ -1,0 +1,20 @@
+{
+  "commit": "11dbb6370e487b8dc0ea7cf081a11a0c9e2adda0",
+  "repo_url": "https://github.com/collectiveaccess/providence",
+  "date": "2021-11-04T04:14:42",
+  "languages": {
+    "PHP": 19101809,
+    "JavaScript": 6953265,
+    "CSS": 600857,
+    "TypeScript": 394844,
+    "HTML": 319372,
+    "Less": 187000,
+    "Pascal": 44271,
+    "Smarty": 25174,
+    "Shell": 12251,
+    "Ruby": 9465,
+    "SCSS": 8624,
+    "Python": 648
+  },
+  "size": 27657580
+}

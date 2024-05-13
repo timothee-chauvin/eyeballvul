@@ -1,0 +1,11 @@
+{
+  "commit": "2edc8e02dbf4e500f020342fb9bd956215dd6f01",
+  "repo_url": "https://github.com/allegro/bigflow",
+  "date": "2023-01-16T15:21:24",
+  "languages": {
+    "Python": 502033,
+    "Jinja": 11557,
+    "Dockerfile": 1790
+  },
+  "size": 515380
+}

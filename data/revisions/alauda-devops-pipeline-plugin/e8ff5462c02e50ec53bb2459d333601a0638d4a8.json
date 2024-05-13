@@ -1,0 +1,13 @@
+{
+  "commit": "e8ff5462c02e50ec53bb2459d333601a0638d4a8",
+  "repo_url": "https://github.com/alauda/alauda-devops-pipeline-plugin",
+  "date": "2019-09-24T13:36:46",
+  "languages": {
+    "Groovy": 143938,
+    "Java": 127053,
+    "Shell": 4364,
+    "HTML": 2438,
+    "Dockerfile": 111
+  },
+  "size": 277904
+}

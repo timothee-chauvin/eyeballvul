@@ -1,0 +1,16 @@
+{
+  "commit": "d64e97ab6b1264d15193ca398a3225d8c79832df",
+  "repo_url": "https://github.com/helpyio/helpy",
+  "date": "2018-08-29T20:16:31",
+  "languages": {
+    "Ruby": 606415,
+    "HTML": 336823,
+    "JavaScript": 97417,
+    "SCSS": 93566,
+    "CSS": 4484,
+    "Dockerfile": 1619,
+    "Shell": 762,
+    "Procfile": 63
+  },
+  "size": 1141149
+}

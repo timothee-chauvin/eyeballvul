@@ -1,0 +1,15 @@
+{
+  "commit": "5aa34ac4e457a49b83f24a2969593c495f3ed9ad",
+  "repo_url": "https://github.com/ttimot24/horizontcms",
+  "date": "2020-07-13T09:46:13",
+  "languages": {
+    "PHP": 336870,
+    "Blade": 147892,
+    "JavaScript": 119266,
+    "HTML": 11735,
+    "Hack": 633,
+    "Vue": 559,
+    "Shell": 534
+  },
+  "size": 617489
+}

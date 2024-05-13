@@ -1,0 +1,13 @@
+{
+  "commit": "68dfdfca0a294ddf7505f17b95fca0c0c51901bd",
+  "repo_url": "https://github.com/spotify/luigi",
+  "date": "2018-09-28T07:29:43",
+  "languages": {
+    "Python": 1928971,
+    "JavaScript": 170555,
+    "HTML": 41976,
+    "CSS": 5051,
+    "Shell": 2627
+  },
+  "size": 2149180
+}

@@ -1,0 +1,21 @@
+{
+  "commit": "8004e3f2c6c27e3ce0ae440198a3f2c3735da492",
+  "repo_url": "https://github.com/openwrt/openwrt",
+  "date": "2020-01-06T20:50:22",
+  "languages": {
+    "C": 7679240,
+    "Makefile": 1953945,
+    "Shell": 951595,
+    "Roff": 425891,
+    "Perl": 260735,
+    "Assembly": 209560,
+    "M4": 149856,
+    "C++": 65368,
+    "Python": 18826,
+    "Yacc": 16062,
+    "Lex": 8026,
+    "Awk": 2778,
+    "CMake": 1581
+  },
+  "size": 11743463
+}

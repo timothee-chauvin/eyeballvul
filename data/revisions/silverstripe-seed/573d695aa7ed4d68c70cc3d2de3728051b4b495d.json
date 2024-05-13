@@ -1,0 +1,12 @@
+{
+  "commit": "573d695aa7ed4d68c70cc3d2de3728051b4b495d",
+  "repo_url": "https://github.com/symbiote/silverstripe-seed",
+  "date": "2017-02-15T05:09:32",
+  "languages": {
+    "PHP": 21816,
+    "Scheme": 1113,
+    "JavaScript": 474,
+    "CSS": 57
+  },
+  "size": 23460
+}

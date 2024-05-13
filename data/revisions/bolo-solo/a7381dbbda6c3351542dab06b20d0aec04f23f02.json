@@ -1,0 +1,16 @@
+{
+  "commit": "a7381dbbda6c3351542dab06b20d0aec04f23f02",
+  "repo_url": "https://github.com/adlered/bolo-solo",
+  "date": "2022-05-28T17:42:54",
+  "languages": {
+    "Java": 1257016,
+    "FreeMarker": 921081,
+    "JavaScript": 847941,
+    "SCSS": 399579,
+    "CSS": 160746,
+    "Smarty": 815,
+    "Dockerfile": 543,
+    "Shell": 166
+  },
+  "size": 3587887
+}

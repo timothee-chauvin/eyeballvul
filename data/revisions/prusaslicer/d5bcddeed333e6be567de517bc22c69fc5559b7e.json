@@ -1,0 +1,28 @@
+{
+  "commit": "d5bcddeed333e6be567de517bc22c69fc5559b7e",
+  "repo_url": "https://github.com/prusa3d/prusaslicer",
+  "date": "2020-03-21T10:55:51",
+  "languages": {
+    "C++": 21149608,
+    "C": 7431869,
+    "HTML": 6973798,
+    "Perl": 369714,
+    "JavaScript": 361260,
+    "CMake": 204346,
+    "Roff": 82055,
+    "Yacc": 35701,
+    "Makefile": 25507,
+    "QMake": 25187,
+    "XSLT": 20596,
+    "CSS": 20527,
+    "Objective-C++": 16631,
+    "M4": 15165,
+    "Lex": 11133,
+    "GLSL": 8380,
+    "Shell": 2077,
+    "Batchfile": 1096,
+    "BitBake": 368,
+    "Objective-C": 247
+  },
+  "size": 36755265
+}

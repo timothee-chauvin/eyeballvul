@@ -1,0 +1,11 @@
+{
+  "commit": "69079df98babbc379354964f821fd3eb79e201b2",
+  "repo_url": "https://github.com/jenkinsci/pmd-plugin",
+  "date": "2017-07-16T19:17:59",
+  "languages": {
+    "Java": 78034,
+    "HTML": 4022,
+    "Shell": 415
+  },
+  "size": 82471
+}

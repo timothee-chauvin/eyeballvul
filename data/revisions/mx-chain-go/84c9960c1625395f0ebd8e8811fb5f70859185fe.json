@@ -1,0 +1,12 @@
+{
+  "commit": "84c9960c1625395f0ebd8e8811fb5f70859185fe",
+  "repo_url": "https://github.com/multiversx/mx-chain-go",
+  "date": "2022-07-04T14:23:06",
+  "languages": {
+    "Go": 15485863,
+    "Shell": 47390,
+    "Makefile": 2889,
+    "Dockerfile": 2517
+  },
+  "size": 15538659
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "b96922c28c89523fbadc83d8d4e862cbfba45489",
+  "repo_url": "https://github.com/jenkinsci/metrics-plugin",
+  "date": "2021-06-11T13:42:24",
+  "languages": {
+    "Java": 281126,
+    "HTML": 3349,
+    "Shell": 537
+  },
+  "size": 285012
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "c144d0a69d156c4079d96222aca2f7ad81f0d721",
+  "repo_url": "https://github.com/vernemq/vernemq",
+  "date": "2021-05-05T06:51:32",
+  "languages": {
+    "Erlang": 2353212,
+    "Lua": 60132,
+    "Shell": 28550,
+    "C": 11491,
+    "HTML": 9743,
+    "JavaScript": 8892,
+    "CSS": 1722,
+    "Makefile": 1157,
+    "Python": 1141
+  },
+  "size": 2476040
+}

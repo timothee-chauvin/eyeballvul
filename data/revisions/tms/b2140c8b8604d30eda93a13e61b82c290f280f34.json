@@ -1,0 +1,16 @@
+{
+  "commit": "b2140c8b8604d30eda93a13e61b82c290f280f34",
+  "repo_url": "https://github.com/xiweicheng/tms",
+  "date": "2021-04-24T02:51:42",
+  "languages": {
+    "JavaScript": 2869447,
+    "CSS": 1826473,
+    "Java": 989305,
+    "HTML": 699519,
+    "SCSS": 22768,
+    "Less": 6354,
+    "Shell": 2853,
+    "Dockerfile": 520
+  },
+  "size": 6417239
+}

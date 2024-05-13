@@ -1,0 +1,12 @@
+{
+  "commit": "16f51b102d1afdac5a856d3e0c6a7a006d7435d9",
+  "repo_url": "https://github.com/edx/recommenderxblock",
+  "date": "2017-12-21T20:03:36",
+  "languages": {
+    "JavaScript": 66500,
+    "Python": 49900,
+    "CSS": 27506,
+    "HTML": 20049
+  },
+  "size": 163955
+}

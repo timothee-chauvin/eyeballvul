@@ -1,0 +1,15 @@
+{
+  "commit": "4960efb43a9f2f81027022c3d2edbc2cca36ac34",
+  "repo_url": "https://github.com/hummerrisk/hummerrisk",
+  "date": "2023-09-11T03:06:24",
+  "languages": {
+    "Java": 8626747,
+    "Vue": 3325659,
+    "JavaScript": 868362,
+    "CSS": 21942,
+    "HTML": 9947,
+    "Dockerfile": 6539,
+    "Less": 148
+  },
+  "size": 12859344
+}

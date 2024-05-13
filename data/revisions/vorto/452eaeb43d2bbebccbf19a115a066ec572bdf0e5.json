@@ -1,0 +1,15 @@
+{
+  "commit": "452eaeb43d2bbebccbf19a115a066ec572bdf0e5",
+  "repo_url": "https://github.com/eclipse/vorto",
+  "date": "2019-04-26T09:28:18",
+  "languages": {
+    "Java": 1484994,
+    "Xtend": 418915,
+    "HTML": 23017,
+    "Python": 6753,
+    "Shell": 5476,
+    "JavaScript": 3439,
+    "FreeMarker": 1460
+  },
+  "size": 1944054
+}

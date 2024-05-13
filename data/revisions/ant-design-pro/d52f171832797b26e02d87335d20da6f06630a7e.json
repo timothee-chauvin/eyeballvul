@@ -1,0 +1,13 @@
+{
+  "commit": "d52f171832797b26e02d87335d20da6f06630a7e",
+  "repo_url": "https://github.com/ant-design/ant-design-pro",
+  "date": "2019-06-06T10:26:40",
+  "languages": {
+    "JavaScript": 133743,
+    "TypeScript": 113572,
+    "Less": 8959,
+    "EJS": 4677,
+    "Dockerfile": 161
+  },
+  "size": 261112
+}

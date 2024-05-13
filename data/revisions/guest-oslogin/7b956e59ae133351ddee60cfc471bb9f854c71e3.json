@@ -1,0 +1,12 @@
+{
+  "commit": "7b956e59ae133351ddee60cfc471bb9f854c71e3",
+  "repo_url": "https://github.com/googlecloudplatform/guest-oslogin",
+  "date": "2020-05-07T20:16:09",
+  "languages": {
+    "C++": 94004,
+    "Shell": 22446,
+    "C": 20712,
+    "Makefile": 6190
+  },
+  "size": 143352
+}

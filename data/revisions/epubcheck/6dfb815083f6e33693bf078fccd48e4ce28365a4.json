@@ -1,0 +1,17 @@
+{
+  "commit": "6dfb815083f6e33693bf078fccd48e4ce28365a4",
+  "repo_url": "https://github.com/idpf/epubcheck",
+  "date": "2015-10-23T13:28:22",
+  "languages": {
+    "HTML": 2809296,
+    "Java": 1395464,
+    "CSS": 293493,
+    "Python": 63880,
+    "XSLT": 7381,
+    "JavaScript": 4251,
+    "Shell": 3364,
+    "FreeMarker": 1163,
+    "Batchfile": 385
+  },
+  "size": 4578677
+}

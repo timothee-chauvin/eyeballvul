@@ -1,0 +1,12 @@
+{
+  "commit": "f53fd6e91bcacb8bb6c0ab2df1fdd9d713d5f2b5",
+  "repo_url": "https://github.com/jenkinsci/puppet-enterprise-pipeline-plugin",
+  "date": "2017-01-19T18:42:38",
+  "languages": {
+    "Java": 156031,
+    "Groovy": 3583,
+    "CSS": 2220,
+    "HTML": 167
+  },
+  "size": 162001
+}

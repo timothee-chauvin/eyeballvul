@@ -1,0 +1,16 @@
+{
+  "commit": "5560f9def7e8888568c9186ece520e80658f8917",
+  "repo_url": "https://github.com/calcom/cal.com",
+  "date": "2023-03-11T20:10:51",
+  "languages": {
+    "TypeScript": 3670759,
+    "MDX": 113730,
+    "JavaScript": 42561,
+    "HTML": 36042,
+    "CSS": 34296,
+    "Shell": 4739,
+    "PHP": 1205,
+    "Procfile": 37
+  },
+  "size": 3903369
+}

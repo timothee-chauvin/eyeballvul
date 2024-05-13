@@ -1,0 +1,22 @@
+{
+  "commit": "500c351f0db4e67cafb32fdfb3d354e09f139a55",
+  "repo_url": "https://github.com/microsoft/omi",
+  "date": "2021-09-15T05:56:58",
+  "languages": {
+    "C": 34763443,
+    "C++": 5149329,
+    "Makefile": 172760,
+    "Shell": 146024,
+    "Yacc": 105021,
+    "Lex": 21541,
+    "SourcePawn": 19042,
+    "Batchfile": 15502,
+    "Python": 10072,
+    "Pawn": 9788,
+    "Pascal": 7934,
+    "Dockerfile": 5348,
+    "sed": 2982,
+    "Assembly": 2082
+  },
+  "size": 40430868
+}

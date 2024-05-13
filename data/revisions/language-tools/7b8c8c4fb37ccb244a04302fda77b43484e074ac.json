@@ -1,0 +1,11 @@
+{
+  "commit": "7b8c8c4fb37ccb244a04302fda77b43484e074ac",
+  "repo_url": "https://github.com/prisma/language-tools",
+  "date": "2021-03-30T13:55:37",
+  "languages": {
+    "TypeScript": 188149,
+    "JavaScript": 20566,
+    "Shell": 6155
+  },
+  "size": 214870
+}

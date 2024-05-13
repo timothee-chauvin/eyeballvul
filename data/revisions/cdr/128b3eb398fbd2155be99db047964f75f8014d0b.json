@@ -1,0 +1,12 @@
+{
+  "commit": "128b3eb398fbd2155be99db047964f75f8014d0b",
+  "repo_url": "https://github.com/freepbx/cdr",
+  "date": "2022-02-14T06:27:22",
+  "languages": {
+    "PHP": 123544,
+    "JavaScript": 10130,
+    "Less": 1967,
+    "Hack": 31
+  },
+  "size": 135672
+}

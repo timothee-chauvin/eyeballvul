@@ -1,0 +1,14 @@
+{
+  "commit": "bf27bd25783eba2aa64593ff63e1031d4e179a4c",
+  "repo_url": "https://github.com/maistra/istio-operator",
+  "date": "2020-06-15T02:05:12",
+  "languages": {
+    "Go": 630644,
+    "Shell": 45904,
+    "Mustache": 25507,
+    "Smarty": 17915,
+    "Makefile": 8394,
+    "Dockerfile": 351
+  },
+  "size": 728715
+}

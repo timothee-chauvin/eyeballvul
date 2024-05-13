@@ -1,0 +1,15 @@
+{
+  "commit": "09787ecc843e70c1840581904688830e4bde0918",
+  "repo_url": "https://github.com/rasahq/rasa",
+  "date": "2021-10-08T15:41:02",
+  "languages": {
+    "Python": 4711731,
+    "Makefile": 10481,
+    "Dockerfile": 8814,
+    "HCL": 4387,
+    "Shell": 4265,
+    "HTML": 3500,
+    "Jinja": 817
+  },
+  "size": 4743995
+}

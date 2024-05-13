@@ -1,0 +1,12 @@
+{
+  "commit": "bac68edb9130d386b889d4972a2c0d38043840fc",
+  "repo_url": "https://github.com/jenkinsci/open-stf-plugin",
+  "date": "2018-08-15T08:26:44",
+  "languages": {
+    "Java": 58555,
+    "JavaScript": 4686,
+    "CSS": 1471,
+    "HTML": 1266
+  },
+  "size": 65978
+}

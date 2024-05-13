@@ -1,0 +1,18 @@
+{
+  "commit": "8757816d2c7c326cf845b1afb5fdbb98b9780b0c",
+  "repo_url": "https://github.com/itrs-group/monitor-ninja",
+  "date": "2021-02-24T16:12:30",
+  "languages": {
+    "PHP": 2729210,
+    "JavaScript": 1230016,
+    "CSS": 317630,
+    "Gherkin": 216304,
+    "Ruby": 66103,
+    "C": 16834,
+    "Shell": 6845,
+    "Makefile": 4161,
+    "HTML": 3318,
+    "Python": 2141
+  },
+  "size": 4592562
+}

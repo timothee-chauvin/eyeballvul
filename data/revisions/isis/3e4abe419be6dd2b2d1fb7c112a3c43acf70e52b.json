@@ -1,0 +1,15 @@
+{
+  "commit": "3e4abe419be6dd2b2d1fb7c112a3c43acf70e52b",
+  "repo_url": "https://github.com/apache/isis",
+  "date": "2013-05-25T21:38:39",
+  "languages": {
+    "Java": 14424678,
+    "HTML": 1872238,
+    "CSS": 246843,
+    "XSLT": 72290,
+    "JavaScript": 31018,
+    "Groovy": 26864,
+    "PHP": 25856
+  },
+  "size": 16699787
+}

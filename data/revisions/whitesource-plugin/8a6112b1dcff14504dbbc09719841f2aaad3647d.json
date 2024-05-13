@@ -1,0 +1,10 @@
+{
+  "commit": "8a6112b1dcff14504dbbc09719841f2aaad3647d",
+  "repo_url": "https://github.com/jenkinsci/whitesource-plugin",
+  "date": "2019-01-27T07:00:57",
+  "languages": {
+    "Java": 98992,
+    "HTML": 6098
+  },
+  "size": 105090
+}

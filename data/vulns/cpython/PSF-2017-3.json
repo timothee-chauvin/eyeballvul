@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2017-3",
+  "published": "2017-05-23T03:56:00",
+  "modified": "2023-11-08T03:58:38.724102",
+  "details": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.",
+  "summary": "Zlib 1.2.11",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

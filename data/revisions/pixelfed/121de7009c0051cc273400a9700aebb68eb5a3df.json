@@ -1,0 +1,13 @@
+{
+  "commit": "121de7009c0051cc273400a9700aebb68eb5a3df",
+  "repo_url": "https://github.com/pixelfed/pixelfed",
+  "date": "2022-10-05T00:01:47",
+  "languages": {
+    "PHP": 2177076,
+    "Blade": 660215,
+    "Vue": 607871,
+    "HTML": 11466,
+    "Shell": 664
+  },
+  "size": 3457292
+}

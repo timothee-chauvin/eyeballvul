@@ -1,0 +1,22 @@
+{
+  "commit": "484d8e0663b081a5df168e18fa3c6168ab1cba2a",
+  "repo_url": "https://github.com/svix/svix-webhooks",
+  "date": "2024-01-24T20:37:51",
+  "languages": {
+    "Rust": 1018155,
+    "C#": 128119,
+    "Java": 67765,
+    "Python": 59574,
+    "Kotlin": 50170,
+    "Go": 49364,
+    "TypeScript": 37325,
+    "Ruby": 27957,
+    "Jinja": 20708,
+    "PHP": 11727,
+    "JavaScript": 6090,
+    "Shell": 4605,
+    "Dockerfile": 3614,
+    "HTML": 648
+  },
+  "size": 1485821
+}

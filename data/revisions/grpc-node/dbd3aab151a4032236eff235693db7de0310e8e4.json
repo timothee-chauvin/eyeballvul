@@ -1,0 +1,17 @@
+{
+  "commit": "dbd3aab151a4032236eff235693db7de0310e8e4",
+  "repo_url": "https://github.com/grpc/grpc-node",
+  "date": "2019-09-10T20:52:45",
+  "languages": {
+    "JavaScript": 503384,
+    "TypeScript": 265869,
+    "C++": 144099,
+    "Python": 59581,
+    "Shell": 23316,
+    "Batchfile": 10031,
+    "PowerShell": 2236,
+    "CMake": 1330,
+    "Dockerfile": 1088
+  },
+  "size": 1010934
+}

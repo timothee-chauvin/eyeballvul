@@ -1,0 +1,14 @@
+{
+  "commit": "141ee538fcf4b29a36dba4f213bc2ccab5538d35",
+  "repo_url": "https://github.com/atrocore/atrocore",
+  "date": "2023-02-15T10:14:40",
+  "languages": {
+    "JavaScript": 3914410,
+    "PHP": 2690356,
+    "CSS": 1646695,
+    "SCSS": 415508,
+    "Smarty": 226011,
+    "HTML": 95355
+  },
+  "size": 8988335
+}

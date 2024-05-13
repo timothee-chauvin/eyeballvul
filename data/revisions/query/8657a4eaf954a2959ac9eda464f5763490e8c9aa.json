@@ -1,0 +1,14 @@
+{
+  "commit": "8657a4eaf954a2959ac9eda464f5763490e8c9aa",
+  "repo_url": "https://github.com/tanstack/query",
+  "date": "2024-01-27T01:20:09",
+  "languages": {
+    "TypeScript": 1898348,
+    "JavaScript": 87891,
+    "Svelte": 16508,
+    "HTML": 1917,
+    "Vue": 1552,
+    "CSS": 80
+  },
+  "size": 2006296
+}

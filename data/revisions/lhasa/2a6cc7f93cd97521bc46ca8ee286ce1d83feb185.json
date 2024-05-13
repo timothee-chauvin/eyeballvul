@@ -1,0 +1,13 @@
+{
+  "commit": "2a6cc7f93cd97521bc46ca8ee286ce1d83feb185",
+  "repo_url": "https://github.com/fragglet/lhasa",
+  "date": "2015-04-20T04:25:54",
+  "languages": {
+    "C": 334813,
+    "Shell": 79116,
+    "Python": 6392,
+    "Makefile": 4879,
+    "M4": 1867
+  },
+  "size": 427067
+}

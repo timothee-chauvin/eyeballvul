@@ -1,0 +1,14 @@
+{
+  "commit": "3e702ed9bf400b0a72534f144b8bec46ee0416cb",
+  "repo_url": "https://github.com/libsdl-org/sdl_ttf",
+  "date": "2022-01-11T10:26:00",
+  "languages": {
+    "C": 5011849,
+    "Shell": 319526,
+    "Makefile": 241912,
+    "M4": 56547,
+    "Objective-C": 52958,
+    "CMake": 4230
+  },
+  "size": 5687022
+}

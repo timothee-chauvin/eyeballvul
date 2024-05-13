@@ -1,0 +1,14 @@
+{
+  "commit": "95a9568ecedb710eafd80d704cf59ee504bb1d54",
+  "repo_url": "https://github.com/zulip/zulip-desktop",
+  "date": "2019-11-13T09:26:34",
+  "languages": {
+    "TypeScript": 204963,
+    "CSS": 24142,
+    "JavaScript": 12274,
+    "Shell": 8222,
+    "HTML": 6385,
+    "Batchfile": 1142
+  },
+  "size": 257128
+}

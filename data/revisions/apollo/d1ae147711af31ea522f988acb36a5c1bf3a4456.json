@@ -1,0 +1,15 @@
+{
+  "commit": "d1ae147711af31ea522f988acb36a5c1bf3a4456",
+  "repo_url": "https://github.com/ctripcorp/apollo",
+  "date": "2019-02-16T15:15:44",
+  "languages": {
+    "Java": 2178320,
+    "HTML": 289036,
+    "JavaScript": 281749,
+    "Shell": 24821,
+    "CSS": 12228,
+    "Dockerfile": 7161,
+    "Batchfile": 1678
+  },
+  "size": 2794993
+}

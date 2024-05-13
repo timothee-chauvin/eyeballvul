@@ -1,0 +1,14 @@
+{
+  "commit": "cd10e33273cace9b684b79314756eedf7c2b3de4",
+  "repo_url": "https://github.com/omnisharp/csharp-language-server-protocol",
+  "date": "2022-10-27T01:00:09",
+  "languages": {
+    "C#": 3755141,
+    "TypeScript": 5347,
+    "PowerShell": 2959,
+    "Shell": 2607,
+    "JavaScript": 1603,
+    "Batchfile": 207
+  },
+  "size": 3767864
+}

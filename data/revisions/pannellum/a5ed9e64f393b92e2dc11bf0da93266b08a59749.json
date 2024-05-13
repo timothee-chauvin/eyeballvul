@@ -1,0 +1,16 @@
+{
+  "commit": "a5ed9e64f393b92e2dc11bf0da93266b08a59749",
+  "repo_url": "https://github.com/mpetroff/pannellum",
+  "date": "2019-09-10T15:02:27",
+  "languages": {
+    "JavaScript": 170393,
+    "Python": 28146,
+    "CSS": 8659,
+    "HTML": 7917,
+    "TeX": 4043,
+    "Shell": 614,
+    "Dockerfile": 318,
+    "Batchfile": 17
+  },
+  "size": 220107
+}

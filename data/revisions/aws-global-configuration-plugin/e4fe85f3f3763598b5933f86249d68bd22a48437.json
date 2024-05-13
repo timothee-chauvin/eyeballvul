@@ -1,0 +1,11 @@
+{
+  "commit": "e4fe85f3f3763598b5933f86249d68bd22a48437",
+  "repo_url": "https://github.com/jenkinsci/aws-global-configuration-plugin",
+  "date": "2020-07-22T23:22:05",
+  "languages": {
+    "Java": 31346,
+    "Groovy": 1462,
+    "HTML": 344
+  },
+  "size": 33152
+}

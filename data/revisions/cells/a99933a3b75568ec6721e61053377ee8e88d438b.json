@@ -1,0 +1,19 @@
+{
+  "commit": "a99933a3b75568ec6721e61053377ee8e88d438b",
+  "repo_url": "https://github.com/pydio/cells",
+  "date": "2019-03-05T18:14:41",
+  "languages": {
+    "JavaScript": 74272242,
+    "Go": 3393039,
+    "CSS": 777785,
+    "Java": 553085,
+    "HTML": 406472,
+    "Less": 177268,
+    "PHP": 21732,
+    "Shell": 4393,
+    "Rich Text Format": 3470,
+    "Makefile": 2447,
+    "Dockerfile": 343
+  },
+  "size": 79612276
+}

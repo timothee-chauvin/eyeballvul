@@ -1,0 +1,20 @@
+{
+  "commit": "26567208fdc9da4076e05f56420caf5234719ea8",
+  "repo_url": "https://github.com/hexchat/hexchat",
+  "date": "2014-11-25T17:49:25",
+  "languages": {
+    "C": 2013865,
+    "Perl": 32963,
+    "M4": 28308,
+    "C#": 18198,
+    "C++": 10258,
+    "Makefile": 8500,
+    "Shell": 7232,
+    "Python": 3892,
+    "Batchfile": 1879,
+    "Roff": 1226,
+    "Inno Setup": 894,
+    "PowerShell": 510
+  },
+  "size": 2127725
+}

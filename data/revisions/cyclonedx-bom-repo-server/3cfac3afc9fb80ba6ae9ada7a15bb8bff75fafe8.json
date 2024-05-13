@@ -1,0 +1,11 @@
+{
+  "commit": "3cfac3afc9fb80ba6ae9ada7a15bb8bff75fafe8",
+  "repo_url": "https://github.com/cyclonedx/cyclonedx-bom-repo-server",
+  "date": "2021-12-20T02:24:31",
+  "languages": {
+    "C#": 101509,
+    "Shell": 446,
+    "Dockerfile": 135
+  },
+  "size": 102090
+}

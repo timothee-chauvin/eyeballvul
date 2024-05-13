@@ -1,0 +1,12 @@
+{
+  "commit": "7f0f9d881e0eed07564f2fe9b7935cb2733b16c2",
+  "repo_url": "https://github.com/sociomantic-tsunami/git-hub",
+  "date": "2016-07-07T12:58:26",
+  "languages": {
+    "Python": 70969,
+    "Shell": 3259,
+    "Makefile": 1683,
+    "Vim Script": 55
+  },
+  "size": 75966
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "75beed832e8cf96f199e1bac2a32656ef4537883",
+  "repo_url": "https://github.com/vuelidate/vuelidate",
+  "date": "2021-09-02T05:07:01",
+  "languages": {
+    "JavaScript": 266630,
+    "Vue": 44920,
+    "Sass": 43348,
+    "Pug": 38117,
+    "SCSS": 5379,
+    "HTML": 390
+  },
+  "size": 398784
+}

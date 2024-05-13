@@ -1,0 +1,17 @@
+{
+  "commit": "14930a09f193c72ddcda3c2f8c9000c263bb5590",
+  "repo_url": "https://github.com/xrootd/xrootd",
+  "date": "2017-01-24T15:12:20",
+  "languages": {
+    "C++": 10996503,
+    "CMake": 114091,
+    "Python": 90414,
+    "Perl": 65162,
+    "Shell": 64244,
+    "CSS": 16987,
+    "C": 16656,
+    "Makefile": 5581,
+    "HTML": 169
+  },
+  "size": 11369807
+}

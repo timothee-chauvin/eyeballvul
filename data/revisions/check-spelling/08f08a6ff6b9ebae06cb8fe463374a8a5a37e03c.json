@@ -1,0 +1,12 @@
+{
+  "commit": "08f08a6ff6b9ebae06cb8fe463374a8a5a37e03c",
+  "repo_url": "https://github.com/check-spelling/check-spelling",
+  "date": "2021-04-21T08:34:21",
+  "languages": {
+    "Shell": 41889,
+    "Perl": 11176,
+    "Dockerfile": 726,
+    "JavaScript": 483
+  },
+  "size": 54274
+}

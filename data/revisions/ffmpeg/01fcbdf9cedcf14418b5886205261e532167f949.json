@@ -1,0 +1,15 @@
+{
+  "commit": "01fcbdf9cedcf14418b5886205261e532167f949",
+  "repo_url": "https://github.com/ffmpeg/ffmpeg",
+  "date": "2012-01-27T01:09:58",
+  "languages": {
+    "C": 22622423,
+    "Assembly": 1287918,
+    "Makefile": 204623,
+    "Shell": 50916,
+    "C++": 22800,
+    "Verilog": 2641,
+    "Roff": 33
+  },
+  "size": 24191354
+}

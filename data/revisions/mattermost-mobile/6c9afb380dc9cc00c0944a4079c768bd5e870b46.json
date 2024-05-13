@@ -1,0 +1,16 @@
+{
+  "commit": "6c9afb380dc9cc00c0944a4079c768bd5e870b46",
+  "repo_url": "https://github.com/mattermost/mattermost-mobile",
+  "date": "2018-09-15T23:09:20",
+  "languages": {
+    "JavaScript": 2196602,
+    "Java": 94844,
+    "Objective-C": 76206,
+    "Ruby": 49097,
+    "Makefile": 9322,
+    "Shell": 8045,
+    "Starlark": 1738,
+    "HTML": 1640
+  },
+  "size": 2437494
+}

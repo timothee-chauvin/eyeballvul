@@ -1,0 +1,11 @@
+{
+  "commit": "b6d6fcaf49c24ec01637340d3f98d893d89ba12f",
+  "repo_url": "https://github.com/puppetlabs/mcollective-puppet-agent",
+  "date": "2017-01-20T19:47:34",
+  "languages": {
+    "Ruby": 186245,
+    "HTML": 2298,
+    "Makefile": 30
+  },
+  "size": 188573
+}

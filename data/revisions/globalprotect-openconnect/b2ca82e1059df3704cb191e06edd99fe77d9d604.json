@@ -1,0 +1,17 @@
+{
+  "commit": "b2ca82e1059df3704cb191e06edd99fe77d9d604",
+  "repo_url": "https://github.com/yuezk/globalprotect-openconnect",
+  "date": "2024-03-29T11:55:10",
+  "languages": {
+    "Rust": 143008,
+    "Makefile": 10797,
+    "C": 5659,
+    "TypeScript": 4205,
+    "Dockerfile": 2264,
+    "HTML": 922,
+    "JavaScript": 766,
+    "Shell": 177,
+    "CSS": 134
+  },
+  "size": 167932
+}

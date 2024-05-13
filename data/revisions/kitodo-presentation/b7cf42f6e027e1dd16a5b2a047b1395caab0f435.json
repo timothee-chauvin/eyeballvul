@@ -1,0 +1,12 @@
+{
+  "commit": "b7cf42f6e027e1dd16a5b2a047b1395caab0f435",
+  "repo_url": "https://github.com/kitodo/kitodo-presentation",
+  "date": "2020-07-15T15:13:51",
+  "languages": {
+    "PHP": 808943,
+    "JavaScript": 264112,
+    "XSLT": 19218,
+    "CSS": 12434
+  },
+  "size": 1104707
+}

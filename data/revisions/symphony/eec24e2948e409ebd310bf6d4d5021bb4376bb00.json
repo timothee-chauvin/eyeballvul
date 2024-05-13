@@ -1,0 +1,15 @@
+{
+  "commit": "eec24e2948e409ebd310bf6d4d5021bb4376bb00",
+  "repo_url": "https://github.com/88250/symphony",
+  "date": "2020-06-12T00:31:17",
+  "languages": {
+    "Java": 2043472,
+    "FreeMarker": 1022026,
+    "JavaScript": 332733,
+    "HTML": 251311,
+    "SCSS": 112720,
+    "CSS": 4974,
+    "Dockerfile": 492
+  },
+  "size": 3767728
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "a47f4ae3e1af678b77a217a66ebd27cbe1d2c518",
+  "repo_url": "https://github.com/croatiacontrolltd/asterix",
+  "date": "2021-05-20T12:10:57",
+  "languages": {
+    "C++": 469607,
+    "Makefile": 259573,
+    "NSIS": 124981,
+    "Python": 110464,
+    "C": 86688,
+    "M4": 80584,
+    "CMake": 71655,
+    "Batchfile": 11071,
+    "Shell": 8790
+  },
+  "size": 1223413
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "87c214f23bc4ae21b9064cf645b17179a6f40fed",
+  "repo_url": "https://github.com/kelektiv/node.bcrypt.js",
+  "date": "2020-02-27T05:44:35",
+  "languages": {
+    "C++": 41231,
+    "JavaScript": 39188,
+    "C": 4572,
+    "Python": 1304,
+    "Shell": 221,
+    "Makefile": 215
+  },
+  "size": 86731
+}

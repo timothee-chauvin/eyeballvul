@@ -1,0 +1,12 @@
+{
+  "commit": "446fe0c2545418570b7f3d1a3a23a86d7508152b",
+  "repo_url": "https://github.com/jenkinsci/azure-vm-agents-plugin",
+  "date": "2019-01-28T06:47:50",
+  "languages": {
+    "Java": 553551,
+    "HTML": 17742,
+    "PowerShell": 6225,
+    "Shell": 784
+  },
+  "size": 578302
+}

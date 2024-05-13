@@ -1,0 +1,16 @@
+{
+  "commit": "3e15c2872a6e3d0ed692865de337ec44e0308f04",
+  "repo_url": "https://github.com/snapcore/snapd",
+  "date": "2017-11-03T16:27:23",
+  "languages": {
+    "Go": 5797502,
+    "C": 345974,
+    "Shell": 123410,
+    "Makefile": 41017,
+    "Python": 19307,
+    "M4": 8772,
+    "Tcl": 1264,
+    "HTML": 980
+  },
+  "size": 6338226
+}

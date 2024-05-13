@@ -1,0 +1,15 @@
+{
+  "commit": "11ce11f9e67ef8f202d4a6df0d08bba26d0472e1",
+  "repo_url": "https://github.com/shopware/core",
+  "date": "2022-02-09T03:09:56",
+  "languages": {
+    "PHP": 19431608,
+    "Twig": 249594,
+    "Python": 6787,
+    "JavaScript": 1072,
+    "HTML": 634,
+    "SCSS": 179,
+    "CSS": 148
+  },
+  "size": 19690022
+}

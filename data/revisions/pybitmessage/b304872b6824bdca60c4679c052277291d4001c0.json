@@ -1,0 +1,14 @@
+{
+  "commit": "b304872b6824bdca60c4679c052277291d4001c0",
+  "repo_url": "https://github.com/bitmessage/pybitmessage",
+  "date": "2017-03-01T12:12:31",
+  "languages": {
+    "Python": 1356334,
+    "Shell": 14891,
+    "C": 7456,
+    "C++": 4482,
+    "Makefile": 4328,
+    "Prolog": 1938
+  },
+  "size": 1389429
+}

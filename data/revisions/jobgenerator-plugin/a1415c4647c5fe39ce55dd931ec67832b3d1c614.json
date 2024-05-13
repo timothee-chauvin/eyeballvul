@@ -1,0 +1,11 @@
+{
+  "commit": "a1415c4647c5fe39ce55dd931ec67832b3d1c614",
+  "repo_url": "https://github.com/jenkinsci/jobgenerator-plugin",
+  "date": "2014-04-13T22:51:14",
+  "languages": {
+    "Java": 100664,
+    "HTML": 16977,
+    "Groovy": 3053
+  },
+  "size": 120694
+}

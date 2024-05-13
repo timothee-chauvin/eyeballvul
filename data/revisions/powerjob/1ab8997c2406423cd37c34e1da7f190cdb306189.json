@@ -1,0 +1,12 @@
+{
+  "commit": "1ab8997c2406423cd37c34e1da7f190cdb306189",
+  "repo_url": "https://github.com/powerjob/powerjob",
+  "date": "2020-08-06T03:04:07",
+  "languages": {
+    "Java": 776495,
+    "Shell": 8768,
+    "Dockerfile": 1854,
+    "HTML": 1222
+  },
+  "size": 788339
+}

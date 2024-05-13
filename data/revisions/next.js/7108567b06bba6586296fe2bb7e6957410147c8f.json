@@ -1,0 +1,15 @@
+{
+  "commit": "7108567b06bba6586296fe2bb7e6957410147c8f",
+  "repo_url": "https://github.com/vercel/next.js",
+  "date": "2020-10-07T17:29:46",
+  "languages": {
+    "JavaScript": 2100719,
+    "TypeScript": 959441,
+    "CSS": 9852,
+    "Shell": 3140,
+    "SCSS": 3044,
+    "MDX": 174,
+    "Sass": 26
+  },
+  "size": 3076396
+}

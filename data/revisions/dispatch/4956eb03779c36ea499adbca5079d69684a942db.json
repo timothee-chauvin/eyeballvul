@@ -1,0 +1,15 @@
+{
+  "commit": "4956eb03779c36ea499adbca5079d69684a942db",
+  "repo_url": "https://github.com/netflix/dispatch",
+  "date": "2020-10-26T22:44:59",
+  "languages": {
+    "Python": 786961,
+    "Vue": 339677,
+    "JavaScript": 121014,
+    "HTML": 15356,
+    "Dockerfile": 5828,
+    "Stylus": 1748,
+    "Mako": 494
+  },
+  "size": 1271078
+}

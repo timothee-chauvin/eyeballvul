@@ -1,0 +1,12 @@
+{
+  "commit": "832c1991e49e34cf5b1b91afd62885268c88a4c4",
+  "repo_url": "https://github.com/cmderdev/cmder",
+  "date": "2016-08-15T14:40:35",
+  "languages": {
+    "PowerShell": 10765,
+    "C++": 8341,
+    "Batchfile": 3915,
+    "C": 904
+  },
+  "size": 23925
+}

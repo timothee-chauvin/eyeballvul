@@ -1,0 +1,16 @@
+{
+  "commit": "2af25aea6cfe6ac4ddac40ceddfb8c8eee17d0e6",
+  "repo_url": "https://github.com/cometbft/cometbft",
+  "date": "2023-04-26T11:01:53",
+  "languages": {
+    "Go": 3493202,
+    "TeX": 332482,
+    "TLA": 241100,
+    "Shell": 21137,
+    "Python": 18569,
+    "Makefile": 17426,
+    "Dockerfile": 6349,
+    "HTML": 785
+  },
+  "size": 4131050
+}

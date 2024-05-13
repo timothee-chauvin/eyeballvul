@@ -1,0 +1,11 @@
+{
+  "commit": "10efb871ee08eb13678fe275e2cf89b3df86542b",
+  "repo_url": "https://github.com/opencontainers/distribution-spec",
+  "date": "2021-11-10T18:32:58",
+  "languages": {
+    "Go": 70622,
+    "Makefile": 3348,
+    "Dockerfile": 677
+  },
+  "size": 74647
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "69cb534b390192cddacf96fd68ed0c3500a80b45",
+  "repo_url": "https://github.com/aquaverde/aquarius-core",
+  "date": "2015-03-25T20:03:29",
+  "languages": {
+    "PHP": 8083118,
+    "Smarty": 260646,
+    "HTML": 216283,
+    "JavaScript": 110841,
+    "SCSS": 75563,
+    "CSS": 71370,
+    "Perl": 2244,
+    "XSLT": 2135,
+    "Shell": 941,
+    "Makefile": 591
+  },
+  "size": 8823732
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "37f11d4dfb6da20d32e82f57ba8923d2b107e87d",
+  "repo_url": "https://github.com/antonreshetov/masscode",
+  "date": "2020-01-29T06:54:03",
+  "languages": {
+    "Vue": 101554,
+    "JavaScript": 76864,
+    "SCSS": 14811,
+    "EJS": 2689,
+    "Shell": 362
+  },
+  "size": 196280
+}

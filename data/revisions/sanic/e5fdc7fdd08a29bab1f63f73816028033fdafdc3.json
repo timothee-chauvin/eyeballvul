@@ -1,0 +1,12 @@
+{
+  "commit": "e5fdc7fdd08a29bab1f63f73816028033fdafdc3",
+  "repo_url": "https://github.com/channelcat/sanic",
+  "date": "2017-04-11T21:05:26",
+  "languages": {
+    "Python": 224925,
+    "Go": 482,
+    "Makefile": 108,
+    "Dockerfile": 62
+  },
+  "size": 225577
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "51a672907177558f20d664e7c196fdb0bff41c75",
+  "repo_url": "https://github.com/nervjs/taro",
+  "date": "2021-09-15T03:12:32",
+  "languages": {
+    "JavaScript": 2139936,
+    "TypeScript": 1950084,
+    "HTML": 32442,
+    "SCSS": 26960,
+    "CSS": 18859,
+    "Vue": 1574,
+    "Less": 299,
+    "Stylus": 20,
+    "Sass": 20
+  },
+  "size": 4170194
+}

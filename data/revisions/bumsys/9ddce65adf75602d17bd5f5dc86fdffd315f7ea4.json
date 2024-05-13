@@ -1,0 +1,14 @@
+{
+  "commit": "9ddce65adf75602d17bd5f5dc86fdffd315f7ea4",
+  "repo_url": "https://github.com/unilogies/bumsys",
+  "date": "2022-11-06T13:53:39",
+  "languages": {
+    "PHP": 2802315,
+    "HTML": 312250,
+    "Less": 311453,
+    "JavaScript": 29200,
+    "Hack": 4760,
+    "CSS": 2323
+  },
+  "size": 3462301
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "f1bbd60a31c9983e139137c06f5bebfed6901a97",
+  "repo_url": "https://github.com/facebook/netconsd",
+  "date": "2021-12-01T21:31:31",
+  "languages": {
+    "C": 91885,
+    "Python": 3776,
+    "C++": 3558,
+    "Makefile": 2349
+  },
+  "size": 101568
+}

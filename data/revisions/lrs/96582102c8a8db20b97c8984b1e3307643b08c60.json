@@ -1,0 +1,14 @@
+{
+  "commit": "96582102c8a8db20b97c8984b1e3307643b08c60",
+  "repo_url": "https://github.com/yetanalytics/lrs",
+  "date": "2023-11-22T17:44:47",
+  "languages": {
+    "Clojure": 461086,
+    "CSS": 3367,
+    "Makefile": 1471,
+    "Emacs Lisp": 207,
+    "JavaScript": 161,
+    "Shell": 59
+  },
+  "size": 466351
+}

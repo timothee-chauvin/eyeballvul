@@ -1,0 +1,20 @@
+{
+  "commit": "bc4463a4089169b7964fae0cde39298984a93bb0",
+  "repo_url": "https://github.com/loklak/loklak_server",
+  "date": "2017-01-19T02:43:01",
+  "languages": {
+    "Java": 1610740,
+    "HTML": 271726,
+    "JavaScript": 184488,
+    "CSS": 57242,
+    "Shell": 14907,
+    "Python": 6914,
+    "Perl": 5111,
+    "Scala": 3952,
+    "Dockerfile": 1063,
+    "Ruby": 427,
+    "Batchfile": 277,
+    "Procfile": 28
+  },
+  "size": 2156875
+}

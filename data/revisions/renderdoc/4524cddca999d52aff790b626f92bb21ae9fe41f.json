@@ -1,0 +1,23 @@
+{
+  "commit": "4524cddca999d52aff790b626f92bb21ae9fe41f",
+  "repo_url": "https://github.com/baldurk/renderdoc",
+  "date": "2023-03-31T18:56:04",
+  "languages": {
+    "C++": 36249865,
+    "C": 6598148,
+    "Python": 955816,
+    "Objective-C++": 170814,
+    "CMake": 113293,
+    "HLSL": 80784,
+    "GLSL": 58571,
+    "SWIG": 54612,
+    "Objective-C": 53935,
+    "Shell": 52775,
+    "QMake": 15225,
+    "JavaScript": 10651,
+    "Java": 2795,
+    "CSS": 1648,
+    "Dockerfile": 211
+  },
+  "size": 44419143
+}

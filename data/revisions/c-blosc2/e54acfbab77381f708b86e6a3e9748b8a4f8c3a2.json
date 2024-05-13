@@ -1,0 +1,16 @@
+{
+  "commit": "e54acfbab77381f708b86e6a3e9748b8a4f8c3a2",
+  "repo_url": "https://github.com/blosc/c-blosc2",
+  "date": "2020-04-22T07:08:55",
+  "languages": {
+    "C": 4444605,
+    "C++": 63786,
+    "CMake": 44893,
+    "Makefile": 19629,
+    "Python": 8173,
+    "Starlark": 4556,
+    "Shell": 830,
+    "Batchfile": 784
+  },
+  "size": 4587256
+}

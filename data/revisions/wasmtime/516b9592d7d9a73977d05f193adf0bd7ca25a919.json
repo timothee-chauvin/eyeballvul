@@ -1,0 +1,19 @@
+{
+  "commit": "516b9592d7d9a73977d05f193adf0bd7ca25a919",
+  "repo_url": "https://github.com/bytecodealliance/wasmtime",
+  "date": "2022-10-27T16:53:00",
+  "languages": {
+    "Rust": 10148431,
+    "WebAssembly": 1895569,
+    "Common Lisp": 1049673,
+    "C": 174774,
+    "Assembly": 8998,
+    "Shell": 8323,
+    "OCaml": 6903,
+    "CMake": 4577,
+    "Makefile": 1432,
+    "Dockerfile": 820,
+    "C++": 670
+  },
+  "size": 13300170
+}

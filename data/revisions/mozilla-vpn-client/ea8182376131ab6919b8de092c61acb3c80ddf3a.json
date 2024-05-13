@@ -1,0 +1,28 @@
+{
+  "commit": "ea8182376131ab6919b8de092c61acb3c80ddf3a",
+  "repo_url": "https://github.com/mozilla-mobile/mozilla-vpn-client",
+  "date": "2021-03-25T08:46:37",
+  "languages": {
+    "C++": 753975,
+    "QML": 245656,
+    "C": 149307,
+    "JavaScript": 88560,
+    "Shell": 84550,
+    "Objective-C++": 50203,
+    "QMake": 31203,
+    "Kotlin": 26538,
+    "Ruby": 20518,
+    "HTML": 20028,
+    "Go": 14304,
+    "Batchfile": 13138,
+    "Swift": 12989,
+    "Java": 12620,
+    "Groovy": 7925,
+    "CSS": 7301,
+    "Makefile": 4733,
+    "Python": 2985,
+    "Objective-C": 1378,
+    "Dockerfile": 70
+  },
+  "size": 1547981
+}

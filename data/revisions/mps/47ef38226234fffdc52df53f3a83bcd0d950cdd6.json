@@ -1,0 +1,19 @@
+{
+  "commit": "47ef38226234fffdc52df53f3a83bcd0d950cdd6",
+  "repo_url": "https://github.com/jetbrains/mps",
+  "date": "2019-07-07T18:33:38",
+  "languages": {
+    "JetBrains MPS": 412641792,
+    "Java": 108864240,
+    "XSLT": 213126,
+    "HTML": 49224,
+    "Batchfile": 22523,
+    "Shell": 21184,
+    "Perl": 11437,
+    "Groovy": 8410,
+    "NSIS": 4625,
+    "Python": 3087,
+    "CSS": 2660
+  },
+  "size": 521842308
+}

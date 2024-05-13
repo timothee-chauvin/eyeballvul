@@ -1,0 +1,15 @@
+{
+  "commit": "7d397d567ebd511e71523169dca18c2f966fd95c",
+  "repo_url": "https://github.com/tamlok/vnote",
+  "date": "2018-12-15T02:06:12",
+  "languages": {
+    "C++": 2617205,
+    "C": 424127,
+    "JavaScript": 185059,
+    "CSS": 62148,
+    "QMake": 11164,
+    "Shell": 4320,
+    "HTML": 3820
+  },
+  "size": 3307843
+}

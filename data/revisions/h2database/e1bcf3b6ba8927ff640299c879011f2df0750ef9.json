@@ -1,0 +1,17 @@
+{
+  "commit": "e1bcf3b6ba8927ff640299c879011f2df0750ef9",
+  "repo_url": "https://github.com/h2database/h2database",
+  "date": "2019-10-14T06:47:23",
+  "languages": {
+    "Java": 11136819,
+    "HTML": 611581,
+    "PLSQL": 203382,
+    "PLpgSQL": 28944,
+    "JavaScript": 26311,
+    "CSS": 18256,
+    "NSIS": 6422,
+    "Batchfile": 5505,
+    "Shell": 1044
+  },
+  "size": 12038264
+}

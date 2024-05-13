@@ -1,0 +1,33 @@
+{
+  "commit": "d5ccd5ecc956e665aca80f3c486f7fa46f409424",
+  "repo_url": "https://github.com/checkmk/checkmk",
+  "date": "2019-09-23T12:56:33",
+  "languages": {
+    "Python": 22414060,
+    "C++": 3506407,
+    "JavaScript": 800599,
+    "Shell": 612162,
+    "C": 480949,
+    "SCSS": 452131,
+    "Makefile": 273097,
+    "Perl": 267438,
+    "PHP": 196496,
+    "PowerShell": 116191,
+    "CSS": 114327,
+    "VBScript": 96126,
+    "Batchfile": 51554,
+    "M4": 49233,
+    "Dockerfile": 45477,
+    "Roff": 20604,
+    "C#": 11970,
+    "Fantom": 4999,
+    "Io": 2857,
+    "Standard ML": 1613,
+    "eC": 630,
+    "Edge": 554,
+    "Emacs Lisp": 520,
+    "Forth": 320,
+    "PostScript": 305
+  },
+  "size": 29520619
+}

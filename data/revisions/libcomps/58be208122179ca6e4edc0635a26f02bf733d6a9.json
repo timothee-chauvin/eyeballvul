@@ -1,0 +1,12 @@
+{
+  "commit": "58be208122179ca6e4edc0635a26f02bf733d6a9",
+  "repo_url": "https://github.com/rpm-software-management/libcomps",
+  "date": "2018-12-12T12:36:35",
+  "languages": {
+    "C": 851563,
+    "Python": 81156,
+    "CMake": 26465,
+    "Shell": 175
+  },
+  "size": 959359
+}

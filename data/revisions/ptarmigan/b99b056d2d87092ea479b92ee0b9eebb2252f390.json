@@ -1,0 +1,15 @@
+{
+  "commit": "b99b056d2d87092ea479b92ee0b9eebb2252f390",
+  "repo_url": "https://github.com/nayutaco/ptarmigan",
+  "date": "2019-04-30T23:51:41",
+  "languages": {
+    "C++": 2700350,
+    "C": 2558645,
+    "Shell": 67931,
+    "Makefile": 55552,
+    "TypeScript": 22604,
+    "Python": 12319,
+    "Java": 454
+  },
+  "size": 5417855
+}

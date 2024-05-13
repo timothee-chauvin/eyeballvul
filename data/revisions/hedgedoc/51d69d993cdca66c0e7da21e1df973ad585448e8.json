@@ -1,0 +1,14 @@
+{
+  "commit": "51d69d993cdca66c0e7da21e1df973ad585448e8",
+  "repo_url": "https://github.com/hedgedoc/hedgedoc",
+  "date": "2019-05-30T23:08:45",
+  "languages": {
+    "JavaScript": 500571,
+    "EJS": 92562,
+    "CSS": 64869,
+    "Handlebars": 8741,
+    "HTML": 5543,
+    "Shell": 1357
+  },
+  "size": 673643
+}

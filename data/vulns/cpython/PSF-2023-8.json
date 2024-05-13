@@ -1,0 +1,18 @@
+{
+  "id": "PSF-2023-8",
+  "published": "2023-08-24T00:00:00",
+  "modified": "2023-12-06T01:03:11.706966",
+  "details": "Instances of `ssl.SSLSocket` are vulnerable to a bypass of the TLS handshake and included protections (like certificate verification) and treating sent unencrypted data as if it were post-handshake TLS encrypted data.\n\nThe vulnerability is caused when a socket is connected, data is sent by the malicious peer and stored in a buffer, and then the malicious peer closes the socket within a small timing window before the other peers\u2019 TLS handshake can begin. After this sequence of events the closed socket will not immediately attempt a TLS handshake due to not being connected but will also allow the buffered data to be read as if a successful TLS handshake had occurred.\n\n### Affected usages\n\nThis vulnerability **primarily affects** HTTPS servers and other server-side protocols using TLS client authentication due to requiring reading data immediately after the handshake to be vulnerable. Operations which would fail on a closed socket (like sending data) immediately after the handshake **are not affected by this vulnerability.**\n\nBecause disconnecting the socket is a necessary step to trigger the vulnerability **there is no risk of data exfiltration or data leakage directly from the malicious TLS connection**, however the vulnerability does carry risk for modifying or deleting resources which are authenticated using only TLS client certificates.\n\nThis vulnerability **affects** clients who are reading and processing data from the server after a TLS handshake without sending any data first. Our team is unaware of a protocol that uses TLS that fits this usage pattern.\n\nThis vulnerability **does not affect** client-side HTTPS connections like pip or requests as an HTTP request must be sent before an HTTP response is read meaning the connection would already be closed by the time the client is sending an HTTP request, leading to an error.\n\nThis vulnerability **affects, but has no impact** on servers that aren\u2019t using TLS client certificate authentication as traffic to a non-authenticating TLS server loses nothing from a bypassed handshake to inject a query and close the connection as the same action could be taken by a peer using a TLS connection with a proper handshake.",
+  "summary": "Bypass TLS handshake on closed sockets",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "a58ebcc701dd6c43630df941481475ff0f615a81",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "d2340ef25721b6a72d45d4508c672c4be38c67d3",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b",
+    "f992a60014b7ca83de038fc64572a63f4eb39c74"
+  ]
+}

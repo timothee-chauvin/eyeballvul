@@ -1,0 +1,19 @@
+{
+  "commit": "580c7ebffed8b3246aa979a2a478ec7c5231c33f",
+  "repo_url": "https://github.com/bolt/core",
+  "date": "2021-01-25T11:52:21",
+  "languages": {
+    "PHP": 864719,
+    "Twig": 199651,
+    "Vue": 106929,
+    "Gherkin": 55203,
+    "SCSS": 54216,
+    "JavaScript": 29694,
+    "CSS": 10583,
+    "Makefile": 6823,
+    "Dockerfile": 3764,
+    "Shell": 664,
+    "HTML": 40
+  },
+  "size": 1332286
+}

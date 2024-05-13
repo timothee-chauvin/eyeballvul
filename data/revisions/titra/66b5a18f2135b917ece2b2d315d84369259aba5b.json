@@ -1,0 +1,14 @@
+{
+  "commit": "66b5a18f2135b917ece2b2d315d84369259aba5b",
+  "repo_url": "https://github.com/kromitgmbh/titra",
+  "date": "2022-06-05T09:29:47",
+  "languages": {
+    "JavaScript": 353818,
+    "HTML": 119629,
+    "SCSS": 30324,
+    "Cap'n Proto": 11256,
+    "Dockerfile": 1799,
+    "Shell": 664
+  },
+  "size": 517490
+}

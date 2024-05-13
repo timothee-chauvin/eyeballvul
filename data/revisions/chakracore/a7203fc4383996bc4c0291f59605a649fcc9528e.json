@@ -1,0 +1,22 @@
+{
+  "commit": "a7203fc4383996bc4c0291f59605a649fcc9528e",
+  "repo_url": "https://github.com/chakra-core/chakracore",
+  "date": "2017-02-09T23:16:50",
+  "languages": {
+    "JavaScript": 47852430,
+    "C++": 30992899,
+    "C": 5305349,
+    "WebAssembly": 1872460,
+    "Assembly": 162757,
+    "Roff": 154636,
+    "Batchfile": 85933,
+    "CMake": 62922,
+    "PowerShell": 48806,
+    "Perl": 28812,
+    "Python": 25742,
+    "Shell": 23675,
+    "Groovy": 13747,
+    "Pawn": 2093
+  },
+  "size": 86632261
+}

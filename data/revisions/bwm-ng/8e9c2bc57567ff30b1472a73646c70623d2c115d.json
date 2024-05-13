@@ -1,0 +1,14 @@
+{
+  "commit": "8e9c2bc57567ff30b1472a73646c70623d2c115d",
+  "repo_url": "https://github.com/vgropp/bwm-ng",
+  "date": "2015-07-25T11:50:45",
+  "languages": {
+    "C": 184713,
+    "M4": 32572,
+    "Roff": 10353,
+    "Shell": 4744,
+    "Makefile": 1002,
+    "CSS": 603
+  },
+  "size": 233987
+}

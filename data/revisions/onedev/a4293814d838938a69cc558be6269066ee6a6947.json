@@ -1,0 +1,15 @@
+{
+  "commit": "a4293814d838938a69cc558be6269066ee6a6947",
+  "repo_url": "https://github.com/theonedev/onedev",
+  "date": "2020-03-17T03:10:13",
+  "languages": {
+    "Java": 6181678,
+    "JavaScript": 644117,
+    "HTML": 223545,
+    "CSS": 167039,
+    "Shell": 109450,
+    "ANTLR": 38495,
+    "Dockerfile": 394
+  },
+  "size": 7364718
+}

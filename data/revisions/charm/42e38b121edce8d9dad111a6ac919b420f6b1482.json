@@ -1,0 +1,15 @@
+{
+  "commit": "42e38b121edce8d9dad111a6ac919b420f6b1482",
+  "repo_url": "https://github.com/jhuisi/charm",
+  "date": "2013-07-16T10:03:24",
+  "languages": {
+    "C": 869694,
+    "Python": 590980,
+    "C++": 74066,
+    "Shell": 37498,
+    "NSIS": 23849,
+    "Rich Text Format": 4871,
+    "Makefile": 2774
+  },
+  "size": 1603732
+}

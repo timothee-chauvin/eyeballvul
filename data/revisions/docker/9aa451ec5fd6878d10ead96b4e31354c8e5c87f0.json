@@ -1,0 +1,15 @@
+{
+  "commit": "9aa451ec5fd6878d10ead96b4e31354c8e5c87f0",
+  "repo_url": "https://github.com/docker/docker",
+  "date": "2016-06-10T09:47:14",
+  "languages": {
+    "Go": 4614256,
+    "Shell": 337568,
+    "Dockerfile": 38948,
+    "PowerShell": 5978,
+    "Makefile": 5831,
+    "C": 3811,
+    "Vim Script": 1332
+  },
+  "size": 5007724
+}

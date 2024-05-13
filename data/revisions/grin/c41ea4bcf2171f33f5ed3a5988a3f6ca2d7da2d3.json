@@ -1,0 +1,12 @@
+{
+  "commit": "c41ea4bcf2171f33f5ed3a5988a3f6ca2d7da2d3",
+  "repo_url": "https://github.com/mimblewimble/grin",
+  "date": "2019-02-01T19:17:54",
+  "languages": {
+    "Rust": 1810681,
+    "Shell": 4925,
+    "Dockerfile": 986,
+    "Nix": 495
+  },
+  "size": 1817087
+}

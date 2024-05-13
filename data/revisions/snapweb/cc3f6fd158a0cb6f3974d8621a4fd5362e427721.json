@@ -1,0 +1,15 @@
+{
+  "commit": "cc3f6fd158a0cb6f3974d8621a4fd5362e427721",
+  "repo_url": "https://github.com/snapcore/snapweb",
+  "date": "2016-07-22T10:27:52",
+  "languages": {
+    "Go": 44019,
+    "JavaScript": 42749,
+    "Handlebars": 16410,
+    "CSS": 9407,
+    "Shell": 5187,
+    "SCSS": 2197,
+    "HTML": 737
+  },
+  "size": 120706
+}

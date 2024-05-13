@@ -1,0 +1,16 @@
+{
+  "commit": "f191f1e6d64e9f2cefacc91023a2359d037fea79",
+  "repo_url": "https://github.com/quagga/quagga",
+  "date": "2015-03-02T23:50:57",
+  "languages": {
+    "C": 8136365,
+    "M4": 62153,
+    "Shell": 33375,
+    "Makefile": 28395,
+    "Perl": 15138,
+    "C++": 4114,
+    "Common Lisp": 3200,
+    "Awk": 2957
+  },
+  "size": 8285697
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "fce0b999118eb471822723c82515966046b25676",
+  "repo_url": "https://github.com/lurcher/unixodbc",
+  "date": "2018-01-02T11:16:34",
+  "languages": {
+    "C": 4303890,
+    "Shell": 1529037,
+    "Makefile": 1486839,
+    "Roff": 669503,
+    "M4": 103565,
+    "Yacc": 22924,
+    "DIGITAL Command Language": 10697
+  },
+  "size": 8126455
+}

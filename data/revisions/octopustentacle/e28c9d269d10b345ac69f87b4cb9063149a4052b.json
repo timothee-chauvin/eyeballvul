@@ -1,0 +1,14 @@
+{
+  "commit": "e28c9d269d10b345ac69f87b4cb9063149a4052b",
+  "repo_url": "https://github.com/octopusdeploy/octopustentacle",
+  "date": "2019-07-25T03:00:13",
+  "languages": {
+    "C#": 482837,
+    "Shell": 16802,
+    "PowerShell": 7911,
+    "HTML": 972,
+    "Dockerfile": 737,
+    "Batchfile": 607
+  },
+  "size": 509866
+}

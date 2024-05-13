@@ -1,0 +1,13 @@
+{
+  "commit": "d8d54278ce0ba1b1fdf083c7bf140a861bfec626",
+  "repo_url": "https://github.com/schollz/rwtxt",
+  "date": "2020-07-07T21:28:52",
+  "languages": {
+    "JavaScript": 133004,
+    "Go": 82000,
+    "CSS": 23091,
+    "Makefile": 1316,
+    "Dockerfile": 401
+  },
+  "size": 239812
+}

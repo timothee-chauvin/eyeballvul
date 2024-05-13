@@ -1,0 +1,15 @@
+{
+  "commit": "2e15670ca148569e1e29aff5058cd9cb1ca90cb6",
+  "repo_url": "https://github.com/sqlpad/sqlpad",
+  "date": "2022-03-12T01:34:31",
+  "languages": {
+    "JavaScript": 589116,
+    "TypeScript": 318736,
+    "CSS": 40005,
+    "Shell": 9914,
+    "Dockerfile": 4545,
+    "Smarty": 1842,
+    "HTML": 573
+  },
+  "size": 964731
+}

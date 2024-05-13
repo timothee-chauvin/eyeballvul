@@ -1,0 +1,14 @@
+{
+  "commit": "4498de480f368d6bf63afbfda42797172c89573b",
+  "repo_url": "https://github.com/alibaba/sentinel",
+  "date": "2021-07-05T11:59:44",
+  "languages": {
+    "Java": 3588915,
+    "JavaScript": 218918,
+    "HTML": 154939,
+    "CSS": 46183,
+    "Shell": 593,
+    "Dockerfile": 264
+  },
+  "size": 4009812
+}

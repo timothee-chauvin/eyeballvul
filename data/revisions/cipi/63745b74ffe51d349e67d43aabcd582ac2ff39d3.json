@@ -1,0 +1,11 @@
+{
+  "commit": "63745b74ffe51d349e67d43aabcd582ac2ff39d3",
+  "repo_url": "https://github.com/andreapollastri/cipi",
+  "date": "2021-12-26T16:16:36",
+  "languages": {
+    "PHP": 268132,
+    "Blade": 129804,
+    "Shell": 39915
+  },
+  "size": 437851
+}

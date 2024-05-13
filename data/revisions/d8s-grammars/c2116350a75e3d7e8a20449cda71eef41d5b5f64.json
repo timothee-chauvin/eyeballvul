@@ -1,0 +1,11 @@
+{
+  "commit": "c2116350a75e3d7e8a20449cda71eef41d5b5f64",
+  "repo_url": "https://github.com/democritus-project/d8s-grammars",
+  "date": "2021-03-16T11:11:21",
+  "languages": {
+    "Python": 27708,
+    "Shell": 377,
+    "Dockerfile": 163
+  },
+  "size": 28248
+}

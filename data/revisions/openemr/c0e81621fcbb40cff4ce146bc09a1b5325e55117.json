@@ -1,0 +1,19 @@
+{
+  "commit": "c0e81621fcbb40cff4ce146bc09a1b5325e55117",
+  "repo_url": "https://github.com/openemr/openemr",
+  "date": "2009-03-31T04:34:28",
+  "languages": {
+    "PHP": 16382158,
+    "HTML": 2005748,
+    "JavaScript": 294151,
+    "CSS": 110542,
+    "Perl": 84922,
+    "Smarty": 63337,
+    "Shell": 51842,
+    "C++": 37381,
+    "XSLT": 11258,
+    "Python": 840,
+    "Hack": 312
+  },
+  "size": 19042491
+}

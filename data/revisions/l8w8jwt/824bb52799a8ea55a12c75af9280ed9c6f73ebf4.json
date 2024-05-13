@@ -1,0 +1,12 @@
+{
+  "commit": "824bb52799a8ea55a12c75af9280ed9c6f73ebf4",
+  "repo_url": "https://github.com/glitchedpolygons/l8w8jwt",
+  "date": "2023-10-23T09:10:28",
+  "languages": {
+    "C": 246351,
+    "CMake": 38504,
+    "Shell": 3514,
+    "Batchfile": 691
+  },
+  "size": 289060
+}

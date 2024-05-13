@@ -1,0 +1,18 @@
+{
+  "commit": "3ac7bc57de87e3983382c4460985e72e4890901d",
+  "repo_url": "https://github.com/gnome/gedit",
+  "date": "2017-07-30T15:47:31",
+  "languages": {
+    "C": 1805547,
+    "Python": 381041,
+    "Makefile": 47850,
+    "Shell": 24885,
+    "M4": 23162,
+    "CSS": 6627,
+    "Roff": 2439,
+    "Perl": 2431,
+    "AppleScript": 396,
+    "Batchfile": 207
+  },
+  "size": 2294585
+}

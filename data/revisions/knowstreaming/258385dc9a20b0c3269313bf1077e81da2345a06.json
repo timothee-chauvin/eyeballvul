@@ -1,0 +1,18 @@
+{
+  "commit": "258385dc9a20b0c3269313bf1077e81da2345a06",
+  "repo_url": "https://github.com/didi/knowstreaming",
+  "date": "2023-02-24T03:12:31",
+  "languages": {
+    "Java": 2707907,
+    "TypeScript": 1189781,
+    "Less": 134156,
+    "Shell": 52970,
+    "Python": 40580,
+    "JavaScript": 29958,
+    "Makefile": 6141,
+    "Smarty": 4803,
+    "Mustache": 2758,
+    "HTML": 143
+  },
+  "size": 4169197
+}

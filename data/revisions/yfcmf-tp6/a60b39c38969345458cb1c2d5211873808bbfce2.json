@@ -1,0 +1,19 @@
+{
+  "commit": "a60b39c38969345458cb1c2d5211873808bbfce2",
+  "repo_url": "https://github.com/0377/yfcmf-tp6",
+  "date": "2022-01-05T03:58:41",
+  "languages": {
+    "JavaScript": 6302626,
+    "PHP": 794910,
+    "HTML": 754443,
+    "Less": 742453,
+    "CSS": 326260,
+    "SCSS": 30922,
+    "Smarty": 18743,
+    "TypeScript": 14670,
+    "PowerShell": 1649,
+    "Shell": 1030,
+    "Ruby": 226
+  },
+  "size": 8987932
+}

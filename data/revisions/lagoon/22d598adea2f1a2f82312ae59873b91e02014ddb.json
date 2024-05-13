@@ -1,0 +1,19 @@
+{
+  "commit": "22d598adea2f1a2f82312ae59873b91e02014ddb",
+  "repo_url": "https://github.com/amazeeio/lagoon",
+  "date": "2020-12-03T18:30:28",
+  "languages": {
+    "TypeScript": 905655,
+    "JavaScript": 538861,
+    "Shell": 455381,
+    "PHP": 255240,
+    "Dockerfile": 78252,
+    "Makefile": 56588,
+    "Mustache": 53340,
+    "Go": 23294,
+    "HTML": 3302,
+    "Python": 2118,
+    "CSS": 1074
+  },
+  "size": 2373105
+}

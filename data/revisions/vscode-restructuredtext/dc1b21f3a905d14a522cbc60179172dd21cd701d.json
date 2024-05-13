@@ -1,0 +1,13 @@
+{
+  "commit": "dc1b21f3a905d14a522cbc60179172dd21cd701d",
+  "repo_url": "https://github.com/vscode-restructuredtext/vscode-restructuredtext",
+  "date": "2021-03-04T03:49:58",
+  "languages": {
+    "TypeScript": 184920,
+    "Python": 14014,
+    "HTML": 9986,
+    "JavaScript": 780,
+    "Batchfile": 192
+  },
+  "size": 209892
+}

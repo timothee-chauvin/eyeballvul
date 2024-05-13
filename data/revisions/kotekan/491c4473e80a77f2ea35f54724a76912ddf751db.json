@@ -1,0 +1,18 @@
+{
+  "commit": "491c4473e80a77f2ea35f54724a76912ddf751db",
+  "repo_url": "https://github.com/kotekan/kotekan",
+  "date": "2023-05-17T14:23:37",
+  "languages": {
+    "C++": 2526299,
+    "Python": 685422,
+    "C": 442050,
+    "CMake": 66796,
+    "JavaScript": 29480,
+    "Cuda": 11015,
+    "Dockerfile": 7277,
+    "Shell": 4783,
+    "HTML": 3531,
+    "CSS": 3081
+  },
+  "size": 3779734
+}

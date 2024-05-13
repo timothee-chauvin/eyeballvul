@@ -1,0 +1,16 @@
+{
+  "commit": "51c110dd66ee3a0e56bb8179aaff2b95f6bb1319",
+  "repo_url": "https://github.com/nextcloud/server",
+  "date": "2017-09-13T00:08:21",
+  "languages": {
+    "PHP": 12852903,
+    "JavaScript": 7956149,
+    "Gherkin": 224438,
+    "SCSS": 129447,
+    "CSS": 66102,
+    "Shell": 64008,
+    "HTML": 59639,
+    "Perl": 5819
+  },
+  "size": 21358505
+}

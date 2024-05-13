@@ -1,0 +1,21 @@
+{
+  "commit": "5799d47bccdb3eb5655eadc0dc1bc09b703167ae",
+  "repo_url": "https://github.com/wikimedia/mediawiki",
+  "date": "2023-02-22T17:26:31",
+  "languages": {
+    "PHP": 30800259,
+    "JavaScript": 5940707,
+    "CSS": 470328,
+    "Less": 254418,
+    "PLpgSQL": 67338,
+    "HTML": 23266,
+    "Python": 14458,
+    "Mustache": 6320,
+    "Shell": 4983,
+    "Ruby": 2330,
+    "Makefile": 681,
+    "Vue": 421,
+    "Handlebars": 4
+  },
+  "size": 37585513
+}

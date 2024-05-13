@@ -1,0 +1,15 @@
+{
+  "commit": "9831f438a7cc8de3d4c1bd1fc436e78910ecf4e1",
+  "repo_url": "https://github.com/fedora-selinux/setroubleshoot",
+  "date": "2015-03-23T16:07:37",
+  "languages": {
+    "Python": 614746,
+    "Shell": 79371,
+    "C": 30931,
+    "Makefile": 7362,
+    "Roff": 6961,
+    "M4": 4921,
+    "XSLT": 1078
+  },
+  "size": 745370
+}

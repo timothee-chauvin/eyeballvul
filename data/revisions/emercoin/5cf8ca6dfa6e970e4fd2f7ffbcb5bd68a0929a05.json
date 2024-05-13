@@ -1,0 +1,21 @@
+{
+  "commit": "5cf8ca6dfa6e970e4fd2f7ffbcb5bd68a0929a05",
+  "repo_url": "https://github.com/emercoin/emercoin",
+  "date": "2018-07-25T20:54:21",
+  "languages": {
+    "C++": 5350154,
+    "Python": 1109248,
+    "C": 759109,
+    "M4": 188558,
+    "Makefile": 110824,
+    "Shell": 57377,
+    "HTML": 50622,
+    "Java": 30290,
+    "Sage": 30192,
+    "Assembly": 28456,
+    "Objective-C++": 7232,
+    "CSS": 1127,
+    "QMake": 756
+  },
+  "size": 7723945
+}

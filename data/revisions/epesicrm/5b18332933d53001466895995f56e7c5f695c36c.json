@@ -1,0 +1,16 @@
+{
+  "commit": "5b18332933d53001466895995f56e7c5f695c36c",
+  "repo_url": "https://github.com/jtylek/epesicrm",
+  "date": "2016-11-21T11:56:31",
+  "languages": {
+    "PHP": 30910167,
+    "JavaScript": 2222450,
+    "CSS": 667364,
+    "HTML": 396466,
+    "Smarty": 201940,
+    "C": 1603,
+    "Hack": 1391,
+    "Python": 728
+  },
+  "size": 34402109
+}

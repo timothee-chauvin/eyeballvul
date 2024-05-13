@@ -1,0 +1,10 @@
+{
+  "commit": "8272443c7a3d6a953cf79a3a6a80269f15b1941d",
+  "repo_url": "https://github.com/pendulum-project/ntpd-rs",
+  "date": "2023-04-17T13:16:36",
+  "languages": {
+    "Rust": 830220,
+    "Shell": 1377
+  },
+  "size": 831597
+}

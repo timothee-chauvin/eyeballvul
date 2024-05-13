@@ -1,0 +1,11 @@
+{
+  "commit": "0b5d961568a1ff42d41303db5db05bf0580a5930",
+  "repo_url": "https://github.com/asyncapi/modelina",
+  "date": "2022-11-29T12:02:54",
+  "languages": {
+    "TypeScript": 669899,
+    "Dockerfile": 853,
+    "JavaScript": 638
+  },
+  "size": 671390
+}

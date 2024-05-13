@@ -1,0 +1,20 @@
+{
+  "commit": "37fa4475e65511b7c4284f8b38990bbbbd441138",
+  "repo_url": "https://gitlab.com/nbdkit/libnbd",
+  "date": "2022-01-17T16:04:04",
+  "languages": {
+    "C": 676685,
+    "OCaml": 351007,
+    "Shell": 188464,
+    "Makefile": 76508,
+    "Go": 58396,
+    "Python": 54160,
+    "M4": 51757,
+    "Dockerfile": 30991,
+    "Perl": 16257,
+    "CSS": 2469,
+    "C++": 1320,
+    "Emacs Lisp": 208
+  },
+  "size": 1508222
+}

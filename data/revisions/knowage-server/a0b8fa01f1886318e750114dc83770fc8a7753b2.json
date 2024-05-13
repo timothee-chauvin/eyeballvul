@@ -1,0 +1,28 @@
+{
+  "commit": "a0b8fa01f1886318e750114dc83770fc8a7753b2",
+  "repo_url": "https://github.com/knowagelabs/knowage-server",
+  "date": "2022-03-10T16:38:02",
+  "languages": {
+    "Java": 32283207,
+    "JavaScript": 15887964,
+    "PLpgSQL": 10586755,
+    "HTML": 3723447,
+    "CSS": 1334917,
+    "SCSS": 1085990,
+    "Less": 402612,
+    "Vue": 334812,
+    "API Blueprint": 52282,
+    "Stylus": 31334,
+    "Batchfile": 19679,
+    "Python": 16196,
+    "TypeScript": 8100,
+    "Lex": 7821,
+    "Groovy": 4704,
+    "XSLT": 3900,
+    "R": 3553,
+    "PLSQL": 2499,
+    "TSQL": 1812,
+    "Shell": 89
+  },
+  "size": 65791673
+}

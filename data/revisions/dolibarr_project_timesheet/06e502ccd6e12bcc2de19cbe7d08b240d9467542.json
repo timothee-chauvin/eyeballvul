@@ -1,0 +1,16 @@
+{
+  "commit": "06e502ccd6e12bcc2de19cbe7d08b240d9467542",
+  "repo_url": "https://github.com/delcroip/dolibarr_project_timesheet",
+  "date": "2022-03-02T18:13:31",
+  "languages": {
+    "PHP": 696998,
+    "JavaScript": 132655,
+    "HTML": 81280,
+    "CSS": 32228,
+    "Python": 1832,
+    "Batchfile": 764,
+    "Makefile": 638,
+    "Dockerfile": 136
+  },
+  "size": 946531
+}

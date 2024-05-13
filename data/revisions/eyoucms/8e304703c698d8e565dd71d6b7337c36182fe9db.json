@@ -1,0 +1,15 @@
+{
+  "commit": "8e304703c698d8e565dd71d6b7337c36182fe9db",
+  "repo_url": "https://github.com/eyoucms/eyoucms",
+  "date": "2021-08-12T06:57:55",
+  "languages": {
+    "PHP": 7060812,
+    "HTML": 5718472,
+    "JavaScript": 3691005,
+    "CSS": 2846913,
+    "Smarty": 35464,
+    "PLpgSQL": 3807,
+    "Hack": 150
+  },
+  "size": 19356623
+}

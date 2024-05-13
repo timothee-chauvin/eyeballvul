@@ -1,0 +1,16 @@
+{
+  "commit": "f6986fc591b2045f2759a34939b22d1137fd488c",
+  "repo_url": "https://github.com/atampy25/quickentity-editor-next",
+  "date": "2023-03-05T02:00:06",
+  "languages": {
+    "JavaScript": 3605636,
+    "Svelte": 177980,
+    "TypeScript": 53448,
+    "CSS": 48220,
+    "Python": 3609,
+    "Rust": 3156,
+    "Batchfile": 1593,
+    "HTML": 411
+  },
+  "size": 3894053
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "d710cb0f3edf4a0f98dde5b4411ea103fd4b1807",
+  "repo_url": "https://github.com/lfittl/libpg_query",
+  "date": "2018-05-18T10:58:42",
+  "languages": {
+    "C": 7620517,
+    "Ruby": 43626,
+    "PLpgSQL": 12679,
+    "Makefile": 5041
+  },
+  "size": 7681863
+}

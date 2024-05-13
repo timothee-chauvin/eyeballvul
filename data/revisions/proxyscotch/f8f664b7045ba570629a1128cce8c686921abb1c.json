@@ -1,0 +1,12 @@
+{
+  "commit": "f8f664b7045ba570629a1128cce8c686921abb1c",
+  "repo_url": "https://github.com/hoppscotch/proxyscotch",
+  "date": "2020-06-09T22:37:35",
+  "languages": {
+    "Go": 53023,
+    "Shell": 9182,
+    "Inno Setup": 2205,
+    "Dockerfile": 349
+  },
+  "size": 64759
+}

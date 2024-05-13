@@ -1,0 +1,14 @@
+{
+  "commit": "7e9c978828f42c2f42f5fc7362493bfe5eea3f8d",
+  "repo_url": "https://github.com/rabbitmq/rabbitmq-server",
+  "date": "2019-10-29T21:32:34",
+  "languages": {
+    "Erlang": 3412499,
+    "Batchfile": 56818,
+    "Shell": 47544,
+    "Python": 37676,
+    "Makefile": 27511,
+    "Vim Snippet": 24801
+  },
+  "size": 3606849
+}

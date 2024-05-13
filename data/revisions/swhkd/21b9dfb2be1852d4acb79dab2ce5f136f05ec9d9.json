@@ -1,0 +1,11 @@
+{
+  "commit": "21b9dfb2be1852d4acb79dab2ce5f136f05ec9d9",
+  "repo_url": "https://github.com/waycrate/swhkd",
+  "date": "2022-03-07T14:47:23",
+  "languages": {
+    "Rust": 82385,
+    "Shell": 1955,
+    "Makefile": 1315
+  },
+  "size": 85655
+}

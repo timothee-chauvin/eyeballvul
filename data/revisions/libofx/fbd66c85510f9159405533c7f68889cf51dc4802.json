@@ -1,0 +1,15 @@
+{
+  "commit": "fbd66c85510f9159405533c7f68889cf51dc4802",
+  "repo_url": "https://github.com/libofx/libofx",
+  "date": "2016-08-14T20:23:41",
+  "languages": {
+    "C++": 286265,
+    "C": 84891,
+    "M4": 26304,
+    "Hack": 13474,
+    "Makefile": 3925,
+    "Shell": 2577,
+    "Clean": 1850
+  },
+  "size": 419286
+}

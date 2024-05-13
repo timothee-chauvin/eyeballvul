@@ -1,0 +1,16 @@
+{
+  "commit": "9df00b0a864fac2e763b7c26ba99af057202f0f3",
+  "repo_url": "https://github.com/apache/struts",
+  "date": "2013-03-28T20:51:33",
+  "languages": {
+    "Java": 9879912,
+    "JavaScript": 3966710,
+    "HTML": 999392,
+    "FreeMarker": 333336,
+    "CSS": 90606,
+    "ActionScript": 22970,
+    "XSLT": 8112,
+    "Fluent": 220
+  },
+  "size": 15301258
+}

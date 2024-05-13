@@ -1,0 +1,19 @@
+{
+  "commit": "e4d1d474ff6f3167fbb52c35966ba3360a7fa3bf",
+  "repo_url": "https://github.com/microsoft/vscode-jupyter",
+  "date": "2023-11-01T00:42:22",
+  "languages": {
+    "TypeScript": 7172589,
+    "Python": 2318620,
+    "Jupyter Notebook": 667396,
+    "JavaScript": 156915,
+    "Shell": 103064,
+    "CSS": 51899,
+    "HTML": 47632,
+    "Less": 13758,
+    "Dockerfile": 10276,
+    "Batchfile": 854,
+    "Roff": 108
+  },
+  "size": 10543111
+}

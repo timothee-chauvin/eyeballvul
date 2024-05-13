@@ -1,0 +1,13 @@
+{
+  "commit": "9695e476bcad2387a5356d430b439822f935ac6f",
+  "repo_url": "https://github.com/qcubed/qcubed",
+  "date": "2017-07-08T05:43:00",
+  "languages": {
+    "PHP": 3835751,
+    "JavaScript": 63491,
+    "CSS": 10954,
+    "Hack": 1224,
+    "Shell": 470
+  },
+  "size": 3911890
+}

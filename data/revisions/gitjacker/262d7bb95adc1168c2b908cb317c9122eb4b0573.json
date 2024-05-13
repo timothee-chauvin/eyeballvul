@@ -1,0 +1,11 @@
+{
+  "commit": "262d7bb95adc1168c2b908cb317c9122eb4b0573",
+  "repo_url": "https://github.com/liamg/gitjacker",
+  "date": "2021-02-23T21:53:20",
+  "languages": {
+    "Go": 21111,
+    "Shell": 1424,
+    "Makefile": 108
+  },
+  "size": 22643
+}

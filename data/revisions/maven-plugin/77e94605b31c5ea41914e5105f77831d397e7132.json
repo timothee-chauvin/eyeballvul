@@ -1,0 +1,12 @@
+{
+  "commit": "77e94605b31c5ea41914e5105f77831d397e7132",
+  "repo_url": "https://github.com/jenkinsci/maven-plugin",
+  "date": "2017-07-10T12:53:57",
+  "languages": {
+    "Java": 898291,
+    "HTML": 58844,
+    "Shell": 635,
+    "Groovy": 89
+  },
+  "size": 957859
+}

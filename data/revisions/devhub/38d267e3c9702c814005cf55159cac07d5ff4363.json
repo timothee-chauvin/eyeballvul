@@ -1,0 +1,18 @@
+{
+  "commit": "38d267e3c9702c814005cf55159cac07d5ff4363",
+  "repo_url": "https://github.com/devhubapp/devhub",
+  "date": "2020-12-08T17:34:15",
+  "languages": {
+    "TypeScript": 1766418,
+    "JavaScript": 30132,
+    "Ruby": 16154,
+    "CSS": 8743,
+    "Java": 7274,
+    "HTML": 4982,
+    "Objective-C": 3159,
+    "Starlark": 602,
+    "Swift": 147,
+    "C": 104
+  },
+  "size": 1837715
+}

@@ -1,0 +1,22 @@
+{
+  "commit": "3a833f748fc629d25a5af3faeef91447f4709804",
+  "repo_url": "https://github.com/python/cpython",
+  "date": "2004-11-30T01:49:18",
+  "languages": {
+    "Python": 12491106,
+    "C": 11217629,
+    "Makefile": 187121,
+    "HTML": 167784,
+    "Emacs Lisp": 141903,
+    "C++": 43181,
+    "Shell": 38741,
+    "Objective-C": 28020,
+    "Inno Setup": 18796,
+    "Roff": 12239,
+    "Vim Script": 3268,
+    "Batchfile": 3127,
+    "Perl": 2369,
+    "Rich Text Format": 1461
+  },
+  "size": 24356745
+}

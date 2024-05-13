@@ -1,0 +1,12 @@
+{
+  "commit": "7fdf51b70f3696258a07c5f41964ba12d251f4af",
+  "repo_url": "https://github.com/facebookincubator/fizz",
+  "date": "2019-02-24T19:23:29",
+  "languages": {
+    "C++": 1466981,
+    "Python": 50344,
+    "CMake": 32365,
+    "Shell": 11013
+  },
+  "size": 1560703
+}

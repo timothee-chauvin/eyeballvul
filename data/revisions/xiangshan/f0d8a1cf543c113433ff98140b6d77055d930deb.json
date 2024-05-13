@@ -1,0 +1,13 @@
+{
+  "commit": "f0d8a1cf543c113433ff98140b6d77055d930deb",
+  "repo_url": "https://github.com/openxiangshan/xiangshan",
+  "date": "2023-02-05T01:04:58",
+  "languages": {
+    "Scala": 1846344,
+    "Python": 103082,
+    "Makefile": 9393,
+    "Shell": 8670,
+    "C": 7579
+  },
+  "size": 1975068
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "cf1ee65b49c429a6849db846d4739852c4bc6dea",
+  "repo_url": "https://github.com/ghostlander/phoenixcoin",
+  "date": "2014-07-27T12:05:13",
+  "languages": {
+    "C++": 1457414,
+    "C": 50723,
+    "Assembly": 15630,
+    "QMake": 11555,
+    "Makefile": 3636,
+    "Objective-C++": 3020,
+    "Python": 1002,
+    "Shell": 793
+  },
+  "size": 1543773
+}

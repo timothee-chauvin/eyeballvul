@@ -1,0 +1,15 @@
+{
+  "commit": "bbb86aef38b36cf41e1f80074f6c331e9b2a6197",
+  "repo_url": "https://github.com/omeka/omeka",
+  "date": "2018-02-15T01:42:35",
+  "languages": {
+    "PHP": 19743744,
+    "CSS": 126334,
+    "JavaScript": 57770,
+    "HTML": 4259,
+    "TSQL": 1167,
+    "Batchfile": 1036,
+    "PowerShell": 1028
+  },
+  "size": 19935338
+}

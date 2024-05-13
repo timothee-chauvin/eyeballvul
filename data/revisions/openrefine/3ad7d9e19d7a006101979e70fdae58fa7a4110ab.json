@@ -1,0 +1,16 @@
+{
+  "commit": "3ad7d9e19d7a006101979e70fdae58fa7a4110ab",
+  "repo_url": "https://github.com/openrefine/openrefine",
+  "date": "2018-11-07T12:46:15",
+  "languages": {
+    "Java": 4207484,
+    "JavaScript": 864147,
+    "HTML": 132619,
+    "Less": 121798,
+    "CSS": 54600,
+    "Shell": 26389,
+    "Batchfile": 6880,
+    "Ruby": 2559
+  },
+  "size": 5416476
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "4098884581a02661ba838586a028ba0c9898a0ec",
+  "repo_url": "https://github.com/laverdet/isolated-vm",
+  "date": "2021-01-24T18:51:06",
+  "languages": {
+    "C++": 339999,
+    "JavaScript": 69874,
+    "Python": 3550,
+    "C": 1064
+  },
+  "size": 414487
+}

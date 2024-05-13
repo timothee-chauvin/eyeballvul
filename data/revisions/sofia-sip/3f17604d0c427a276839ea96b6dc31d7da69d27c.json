@@ -1,0 +1,19 @@
+{
+  "commit": "3f17604d0c427a276839ea96b6dc31d7da69d27c",
+  "repo_url": "https://github.com/freeswitch/sofia-sip",
+  "date": "2023-02-20T16:19:29",
+  "languages": {
+    "C": 6800309,
+    "M4": 58588,
+    "Makefile": 58579,
+    "HTML": 37198,
+    "Shell": 34332,
+    "Awk": 23946,
+    "Batchfile": 17898,
+    "sed": 11551,
+    "C++": 4338,
+    "Perl": 2837,
+    "DIGITAL Command Language": 2203
+  },
+  "size": 7051779
+}

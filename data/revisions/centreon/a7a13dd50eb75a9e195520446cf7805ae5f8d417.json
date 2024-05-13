@@ -1,0 +1,23 @@
+{
+  "commit": "a7a13dd50eb75a9e195520446cf7805ae5f8d417",
+  "repo_url": "https://github.com/centreon/centreon",
+  "date": "2023-03-15T13:10:23",
+  "languages": {
+    "PHP": 13904330,
+    "Perl": 1797540,
+    "HTML": 1273804,
+    "JavaScript": 1021898,
+    "TypeScript": 982544,
+    "Shell": 458184,
+    "XSLT": 124006,
+    "Gherkin": 117099,
+    "CSS": 116371,
+    "SCSS": 43146,
+    "Smarty": 42048,
+    "Python": 32748,
+    "Makefile": 22352,
+    "NewLisp": 621,
+    "Raku": 122
+  },
+  "size": 19936813
+}

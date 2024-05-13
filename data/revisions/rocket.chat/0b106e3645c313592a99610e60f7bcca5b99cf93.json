@@ -1,0 +1,19 @@
+{
+  "commit": "0b106e3645c313592a99610e60f7bcca5b99cf93",
+  "repo_url": "https://github.com/rocketchat/rocket.chat",
+  "date": "2022-06-09T02:20:05",
+  "languages": {
+    "JavaScript": 5560422,
+    "TypeScript": 4419359,
+    "CSS": 687050,
+    "HTML": 359262,
+    "SCSS": 50603,
+    "Shell": 22654,
+    "Dockerfile": 6174,
+    "EJS": 2036,
+    "Smarty": 1052,
+    "Batchfile": 549,
+    "Handlebars": 463
+  },
+  "size": 11109624
+}

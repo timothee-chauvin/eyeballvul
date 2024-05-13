@@ -1,0 +1,20 @@
+{
+  "commit": "74093403620ed7f816b46fd8a4c6ec61d6df2bae",
+  "repo_url": "https://github.com/libredwg/libredwg",
+  "date": "2018-07-04T19:22:18",
+  "languages": {
+    "C": 1952751,
+    "M4": 88191,
+    "Makefile": 29658,
+    "Shell": 28525,
+    "Python": 11640,
+    "SWIG": 11159,
+    "Roff": 9830,
+    "Perl": 3487,
+    "Batchfile": 1877,
+    "Common Lisp": 1837,
+    "HTML": 842,
+    "XS": 97
+  },
+  "size": 2139894
+}

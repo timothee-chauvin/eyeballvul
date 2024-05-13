@@ -1,0 +1,11 @@
+{
+  "commit": "aa81dfcb49de86a35e16f6e132827932daa4ce38",
+  "repo_url": "https://github.com/elastic/apm-agent-ruby",
+  "date": "2019-05-29T17:31:38",
+  "languages": {
+    "Ruby": 303830,
+    "Shell": 2585,
+    "Dockerfile": 299
+  },
+  "size": 306714
+}

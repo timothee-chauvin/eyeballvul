@@ -1,0 +1,12 @@
+{
+  "commit": "b64bdc31943c3eb862efadef32586f96fbf787f5",
+  "repo_url": "https://github.com/simonsmith/cypress-image-snapshot",
+  "date": "2023-07-26T11:21:20",
+  "languages": {
+    "TypeScript": 13129,
+    "HTML": 8204,
+    "CSS": 5226,
+    "Dockerfile": 318
+  },
+  "size": 26877
+}

@@ -1,0 +1,21 @@
+{
+  "commit": "b0d35f9a0985c4dd5987c51ab4007c0abae3b505",
+  "repo_url": "https://github.com/nzbget/nzbget",
+  "date": "2021-06-03T14:55:57",
+  "languages": {
+    "C++": 1989292,
+    "Objective-C": 406208,
+    "JavaScript": 370467,
+    "HTML": 145329,
+    "Python": 78004,
+    "Shell": 55515,
+    "CSS": 47972,
+    "M4": 34402,
+    "C": 26778,
+    "Makefile": 17973,
+    "Batchfile": 17790,
+    "NSIS": 8200,
+    "Rich Text Format": 1805
+  },
+  "size": 3199735
+}

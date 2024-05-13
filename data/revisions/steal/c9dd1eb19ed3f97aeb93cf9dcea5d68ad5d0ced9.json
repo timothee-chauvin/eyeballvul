@@ -1,0 +1,14 @@
+{
+  "commit": "c9dd1eb19ed3f97aeb93cf9dcea5d68ad5d0ced9",
+  "repo_url": "https://github.com/stealjs/steal",
+  "date": "2019-10-21T20:06:09",
+  "languages": {
+    "JavaScript": 6785519,
+    "HTML": 121869,
+    "Less": 292,
+    "CSS": 189,
+    "CoffeeScript": 59,
+    "Handlebars": 19
+  },
+  "size": 6907947
+}

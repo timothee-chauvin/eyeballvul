@@ -1,0 +1,15 @@
+{
+  "commit": "0ee9f2cb5bafc683fb7424d484669356c0662ac4",
+  "repo_url": "https://github.com/clippercms/clippercms",
+  "date": "2016-12-01T13:14:45",
+  "languages": {
+    "PHP": 6255093,
+    "HTML": 2584103,
+    "JavaScript": 365213,
+    "Smarty": 175207,
+    "CSS": 151337,
+    "NASL": 4533,
+    "Hack": 633
+  },
+  "size": 9536119
+}

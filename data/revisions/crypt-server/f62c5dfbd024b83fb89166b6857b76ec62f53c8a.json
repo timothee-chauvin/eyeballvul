@@ -1,0 +1,14 @@
+{
+  "commit": "f62c5dfbd024b83fb89166b6857b76ec62f53c8a",
+  "repo_url": "https://github.com/grahamgilbert/crypt-server",
+  "date": "2021-08-17T16:29:09",
+  "languages": {
+    "Python": 69843,
+    "CSS": 55426,
+    "JavaScript": 23594,
+    "HTML": 20276,
+    "Shell": 2809,
+    "Dockerfile": 1421
+  },
+  "size": 173369
+}

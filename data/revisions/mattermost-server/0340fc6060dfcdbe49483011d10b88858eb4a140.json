@@ -1,0 +1,17 @@
+{
+  "commit": "0340fc6060dfcdbe49483011d10b88858eb4a140",
+  "repo_url": "https://github.com/mattermost/mattermost-server",
+  "date": "2023-03-01T14:59:15",
+  "languages": {
+    "Go": 12644650,
+    "HTML": 450435,
+    "Makefile": 48964,
+    "Shell": 31884,
+    "CSS": 7263,
+    "Dockerfile": 3437,
+    "Rich Text Format": 2668,
+    "PLpgSQL": 2533,
+    "JavaScript": 1780
+  },
+  "size": 13193614
+}

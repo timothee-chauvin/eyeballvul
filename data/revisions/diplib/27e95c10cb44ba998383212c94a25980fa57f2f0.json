@@ -1,0 +1,17 @@
+{
+  "commit": "27e95c10cb44ba998383212c94a25980fa57f2f0",
+  "repo_url": "https://github.com/diplib/diplib",
+  "date": "2021-02-22T15:48:11",
+  "languages": {
+    "C++": 5618154,
+    "MATLAB": 1298380,
+    "CMake": 125693,
+    "Java": 23186,
+    "Python": 13913,
+    "Shell": 6682,
+    "NSIS": 5595,
+    "C": 4114,
+    "Batchfile": 3429
+  },
+  "size": 7099146
+}

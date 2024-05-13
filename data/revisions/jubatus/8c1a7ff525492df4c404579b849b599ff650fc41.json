@@ -1,0 +1,15 @@
+{
+  "commit": "8c1a7ff525492df4c404579b849b599ff650fc41",
+  "repo_url": "https://github.com/jubatus/jubatus",
+  "date": "2017-02-27T06:18:03",
+  "languages": {
+    "C++": 731443,
+    "Python": 254757,
+    "OCaml": 120495,
+    "Shell": 27927,
+    "Standard ML": 2045,
+    "Dockerfile": 727,
+    "Makefile": 502
+  },
+  "size": 1137896
+}

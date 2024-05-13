@@ -1,0 +1,15 @@
+{
+  "commit": "7ce86803168baa528db6fccc9b3af5617e56e349",
+  "repo_url": "https://github.com/jenkinsci/job-dsl-plugin",
+  "date": "2019-01-05T13:23:52",
+  "languages": {
+    "Groovy": 2127172,
+    "Java": 77003,
+    "JavaScript": 30305,
+    "HTML": 9545,
+    "Less": 8695,
+    "Handlebars": 8305,
+    "ASL": 833
+  },
+  "size": 2261858
+}

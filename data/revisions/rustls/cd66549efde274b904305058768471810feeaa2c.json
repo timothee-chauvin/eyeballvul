@@ -1,0 +1,12 @@
+{
+  "commit": "cd66549efde274b904305058768471810feeaa2c",
+  "repo_url": "https://github.com/ctz/rustls",
+  "date": "2019-04-02T19:44:10",
+  "languages": {
+    "Rust": 769972,
+    "Shell": 9025,
+    "Python": 7195,
+    "Makefile": 1803
+  },
+  "size": 787995
+}

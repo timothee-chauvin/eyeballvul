@@ -1,0 +1,13 @@
+{
+  "commit": "b4fef3478865c953d195b15e83fdd0dfc491e1f0",
+  "repo_url": "https://github.com/eclipse-leshan/leshan",
+  "date": "2023-07-21T14:14:15",
+  "languages": {
+    "Java": 4073944,
+    "Vue": 229145,
+    "JavaScript": 54259,
+    "Shell": 20312,
+    "HTML": 13933
+  },
+  "size": 4391593
+}

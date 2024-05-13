@@ -1,0 +1,15 @@
+{
+  "commit": "4a2b0169814ddb4322902459aa633bdb87db2947",
+  "repo_url": "https://github.com/amaltsev/xao-web",
+  "date": "2020-08-26T22:24:55",
+  "languages": {
+    "Perl": 811556,
+    "XS": 16318,
+    "Dockerfile": 3785,
+    "Vim Script": 2409,
+    "HTML": 1338,
+    "Makefile": 823,
+    "Shell": 90
+  },
+  "size": 836319
+}

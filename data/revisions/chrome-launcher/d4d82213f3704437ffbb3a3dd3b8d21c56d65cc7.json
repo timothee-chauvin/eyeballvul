@@ -1,0 +1,11 @@
+{
+  "commit": "d4d82213f3704437ffbb3a3dd3b8d21c56d65cc7",
+  "repo_url": "https://github.com/googlechrome/chrome-launcher",
+  "date": "2020-04-01T21:45:10",
+  "languages": {
+    "TypeScript": 37446,
+    "JavaScript": 2092,
+    "Shell": 1577
+  },
+  "size": 41115
+}

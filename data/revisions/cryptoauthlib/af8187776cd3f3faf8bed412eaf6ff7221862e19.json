@@ -1,0 +1,12 @@
+{
+  "commit": "af8187776cd3f3faf8bed412eaf6ff7221862e19",
+  "repo_url": "https://github.com/microchiptech/cryptoauthlib",
+  "date": "2019-09-03T15:09:33",
+  "languages": {
+    "C": 2440170,
+    "Python": 333662,
+    "C++": 6819,
+    "CMake": 6115
+  },
+  "size": 2786766
+}

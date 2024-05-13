@@ -1,0 +1,12 @@
+{
+  "commit": "413393f8750796ae2b8dd02fb3735d991807ddaa",
+  "repo_url": "https://github.com/ory/oathkeeper",
+  "date": "2021-05-13T11:47:48",
+  "languages": {
+    "Go": 603017,
+    "Shell": 15773,
+    "Makefile": 2319,
+    "Dockerfile": 284
+  },
+  "size": 621393
+}

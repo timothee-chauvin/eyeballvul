@@ -1,0 +1,25 @@
+{
+  "commit": "a6d4f4df45febe588c38de37641513fd576b998f",
+  "repo_url": "https://github.com/doxygen/doxygen",
+  "date": "2015-12-29T14:40:36",
+  "languages": {
+    "C++": 9773525,
+    "Lex": 1004705,
+    "JavaScript": 160782,
+    "Smarty": 130509,
+    "C": 72834,
+    "Python": 54416,
+    "CSS": 37743,
+    "CMake": 35309,
+    "Tcl": 17436,
+    "PHP": 12699,
+    "TeX": 10705,
+    "Raku": 9056,
+    "Yacc": 6642,
+    "Makefile": 3693,
+    "HTML": 2652,
+    "Objective-C": 566,
+    "Java": 169
+  },
+  "size": 11333441
+}

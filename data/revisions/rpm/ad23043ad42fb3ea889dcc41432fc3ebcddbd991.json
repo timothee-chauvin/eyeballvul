@@ -1,0 +1,16 @@
+{
+  "commit": "ad23043ad42fb3ea889dcc41432fc3ebcddbd991",
+  "repo_url": "https://github.com/rpm-software-management/rpm",
+  "date": "2015-07-24T08:10:23",
+  "languages": {
+    "C": 2237058,
+    "Shell": 69653,
+    "Perl": 64304,
+    "Makefile": 26749,
+    "M4": 24298,
+    "Python": 11320,
+    "Lua": 693,
+    "PHP": 192
+  },
+  "size": 2434267
+}

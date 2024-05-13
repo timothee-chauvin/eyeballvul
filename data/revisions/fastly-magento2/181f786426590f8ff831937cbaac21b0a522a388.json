@@ -1,0 +1,13 @@
+{
+  "commit": "181f786426590f8ff831937cbaac21b0a522a388",
+  "repo_url": "https://github.com/fastly/fastly-magento2",
+  "date": "2017-08-16T21:36:27",
+  "languages": {
+    "PHP": 269832,
+    "JavaScript": 103494,
+    "HTML": 61141,
+    "VCL": 12659,
+    "Shell": 452
+  },
+  "size": 447578
+}

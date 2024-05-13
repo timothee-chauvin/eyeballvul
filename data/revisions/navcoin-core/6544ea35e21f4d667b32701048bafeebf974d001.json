@@ -1,0 +1,22 @@
+{
+  "commit": "6544ea35e21f4d667b32701048bafeebf974d001",
+  "repo_url": "https://github.com/navcoin/navcoin-core",
+  "date": "2018-08-31T15:14:53",
+  "languages": {
+    "C++": 4963086,
+    "C": 3754867,
+    "Python": 916423,
+    "Shell": 428108,
+    "M4": 186634,
+    "Makefile": 110394,
+    "HTML": 50621,
+    "Java": 30290,
+    "Sage": 30188,
+    "Assembly": 28453,
+    "Objective-C++": 7240,
+    "Roff": 3792,
+    "QMake": 2020,
+    "CSS": 1127
+  },
+  "size": 10513243
+}

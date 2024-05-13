@@ -1,0 +1,11 @@
+{
+  "commit": "95e1579b3e2fd0f1a9cdb33dc7ef72d1d783e3a0",
+  "repo_url": "https://github.com/fonttools/fonttools",
+  "date": "2023-08-20T12:58:25",
+  "languages": {
+    "Python": 6263043,
+    "Jupyter Notebook": 3522,
+    "Makefile": 352
+  },
+  "size": 6266917
+}

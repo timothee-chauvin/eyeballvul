@@ -1,0 +1,13 @@
+{
+  "commit": "cd3c4d829b5c61a2cb512fad4637addf9bad1ac8",
+  "repo_url": "https://github.com/crossbario/autobahn-python",
+  "date": "2020-12-14T19:53:52",
+  "languages": {
+    "Python": 1970679,
+    "Jinja": 30125,
+    "Makefile": 30043,
+    "C": 17063,
+    "Shell": 5633
+  },
+  "size": 2053543
+}

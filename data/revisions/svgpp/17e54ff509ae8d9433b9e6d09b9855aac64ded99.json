@@ -1,0 +1,13 @@
+{
+  "commit": "17e54ff509ae8d9433b9e6d09b9855aac64ded99",
+  "repo_url": "https://github.com/svgpp/svgpp",
+  "date": "2017-06-14T21:35:15",
+  "languages": {
+    "C++": 936478,
+    "SourcePawn": 30525,
+    "CMake": 6742,
+    "Pawn": 2525,
+    "Python": 1470
+  },
+  "size": 977740
+}

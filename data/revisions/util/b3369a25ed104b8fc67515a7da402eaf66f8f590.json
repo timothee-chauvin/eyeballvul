@@ -1,0 +1,13 @@
+{
+  "commit": "b3369a25ed104b8fc67515a7da402eaf66f8f590",
+  "repo_url": "https://github.com/indeedeng/util",
+  "date": "2020-05-17T20:29:53",
+  "languages": {
+    "Java": 789968,
+    "C": 43539,
+    "FreeMarker": 9034,
+    "Perl": 899,
+    "Makefile": 895
+  },
+  "size": 844335
+}

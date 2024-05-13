@@ -1,0 +1,13 @@
+{
+  "commit": "022603ddf92d43d23dd3f70ad263591e24defda5",
+  "repo_url": "https://github.com/gotify/server",
+  "date": "2022-12-28T19:38:05",
+  "languages": {
+    "Go": 344300,
+    "TypeScript": 169169,
+    "Makefile": 6081,
+    "HTML": 2376,
+    "Dockerfile": 416
+  },
+  "size": 522342
+}

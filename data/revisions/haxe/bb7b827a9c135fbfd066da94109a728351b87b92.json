@@ -1,0 +1,24 @@
+{
+  "commit": "bb7b827a9c135fbfd066da94109a728351b87b92",
+  "repo_url": "https://github.com/haxefoundation/haxe",
+  "date": "2018-02-21T16:08:43",
+  "languages": {
+    "Haxe": 6139410,
+    "OCaml": 3164970,
+    "Makefile": 26413,
+    "NSIS": 15208,
+    "C++": 11938,
+    "Java": 6973,
+    "C#": 5747,
+    "HTML": 4704,
+    "Objective-C": 2224,
+    "Shell": 1914,
+    "Lua": 1762,
+    "Python": 147,
+    "C": 125,
+    "Batchfile": 90,
+    "Ruby": 65,
+    "JavaScript": 58
+  },
+  "size": 9381748
+}

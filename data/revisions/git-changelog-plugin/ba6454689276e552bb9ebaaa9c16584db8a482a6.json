@@ -1,0 +1,12 @@
+{
+  "commit": "ba6454689276e552bb9ebaaa9c16584db8a482a6",
+  "repo_url": "https://github.com/jenkinsci/git-changelog-plugin",
+  "date": "2018-05-09T14:15:16",
+  "languages": {
+    "Java": 95472,
+    "Mustache": 1882,
+    "Shell": 410,
+    "HTML": 172
+  },
+  "size": 97936
+}

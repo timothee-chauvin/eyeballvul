@@ -1,0 +1,13 @@
+{
+  "commit": "d806ab411edaf73b9f03c9e939b9dfb88db04c23",
+  "repo_url": "https://github.com/apache/archiva",
+  "date": "2014-06-25T06:49:01",
+  "languages": {
+    "Java": 5265387,
+    "CSS": 20020,
+    "JavaScript": 8571,
+    "Shell": 1129,
+    "AGS Script": 27
+  },
+  "size": 5295134
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "7b27853d7a2410d28f456608cd4c5f5322ca5839",
+  "repo_url": "https://github.com/okaycms/okay",
+  "date": "2019-07-10T13:33:10",
+  "languages": {
+    "JavaScript": 15031616,
+    "PHP": 3551142,
+    "Smarty": 1328827,
+    "HTML": 967134,
+    "CSS": 477005,
+    "Java": 295840,
+    "ActionScript": 97871,
+    "SCSS": 35278,
+    "Handlebars": 1744,
+    "Shell": 291
+  },
+  "size": 21786748
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "d704b6aa3284d2ac76d0b0daf0d561f5e21f17ab",
+  "repo_url": "https://github.com/exoplatform/chat-application",
+  "date": "2016-05-26T12:54:23",
+  "languages": {
+    "HTML": 1820806,
+    "Java": 351916,
+    "JavaScript": 297632,
+    "Less": 210836,
+    "CSS": 35481,
+    "Scala": 22324,
+    "Shell": 7581
+  },
+  "size": 2746576
+}

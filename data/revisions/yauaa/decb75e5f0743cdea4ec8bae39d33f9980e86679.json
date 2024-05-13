@@ -1,0 +1,18 @@
+{
+  "commit": "decb75e5f0743cdea4ec8bae39d33f9980e86679",
+  "repo_url": "https://github.com/nielsbasjes/yauaa",
+  "date": "2022-10-28T09:37:50",
+  "languages": {
+    "Java": 1794422,
+    "Shell": 145441,
+    "ANTLR": 45134,
+    "NASL": 11460,
+    "Dockerfile": 10259,
+    "CSS": 6258,
+    "Ruby": 3392,
+    "Makefile": 2908,
+    "Kotlin": 2310,
+    "Scala": 2221
+  },
+  "size": 2023805
+}

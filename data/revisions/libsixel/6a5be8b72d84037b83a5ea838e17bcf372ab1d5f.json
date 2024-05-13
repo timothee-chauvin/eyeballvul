@@ -1,0 +1,20 @@
+{
+  "commit": "6a5be8b72d84037b83a5ea838e17bcf372ab1d5f",
+  "repo_url": "https://github.com/saitoha/libsixel",
+  "date": "2020-01-13T17:27:00",
+  "languages": {
+    "C": 985040,
+    "Shell": 394959,
+    "Makefile": 223455,
+    "M4": 44300,
+    "Python": 42303,
+    "C++": 39366,
+    "Roff": 16887,
+    "Perl": 4810,
+    "XS": 4266,
+    "Ruby": 2172,
+    "PHP": 797,
+    "JavaScript": 198
+  },
+  "size": 1758553
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "631cd78909f697a6d6383eca7205bd247374467f",
+  "repo_url": "https://github.com/kitesky/kitecms",
+  "date": "2019-06-30T02:18:07",
+  "languages": {
+    "PHP": 1876025,
+    "JavaScript": 903632,
+    "HTML": 754706,
+    "CSS": 356175,
+    "Smarty": 31230,
+    "PLpgSQL": 4956,
+    "SCSS": 4758,
+    "Less": 4058
+  },
+  "size": 3935540
+}

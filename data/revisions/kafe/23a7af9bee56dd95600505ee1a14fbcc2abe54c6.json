@@ -1,0 +1,12 @@
+{
+  "commit": "23a7af9bee56dd95600505ee1a14fbcc2abe54c6",
+  "repo_url": "https://github.com/absolunet/kafe",
+  "date": "2019-12-09T19:18:07",
+  "languages": {
+    "JavaScript": 200432,
+    "Less": 30197,
+    "CSS": 12239,
+    "Handlebars": 5475
+  },
+  "size": 248343
+}

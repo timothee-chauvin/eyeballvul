@@ -1,0 +1,22 @@
+{
+  "commit": "d49b4862244d9359c046bd04d48237591516cb6a",
+  "repo_url": "https://github.com/ripple/rippled",
+  "date": "2022-01-13T02:54:06",
+  "languages": {
+    "C++": 11202547,
+    "C": 4075179,
+    "CMake": 270383,
+    "Shell": 64656,
+    "JavaScript": 34939,
+    "Java": 30290,
+    "Sage": 30192,
+    "Assembly": 28456,
+    "M4": 25931,
+    "Python": 20470,
+    "Makefile": 7004,
+    "PHP": 3641,
+    "Dockerfile": 2438,
+    "BitBake": 339
+  },
+  "size": 15796465
+}

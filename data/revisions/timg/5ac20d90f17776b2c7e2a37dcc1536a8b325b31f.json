@@ -1,0 +1,11 @@
+{
+  "commit": "5ac20d90f17776b2c7e2a37dcc1536a8b325b31f",
+  "repo_url": "https://github.com/hzeller/timg",
+  "date": "2022-02-21T18:07:46",
+  "languages": {
+    "C++": 227051,
+    "CMake": 17841,
+    "Nix": 753
+  },
+  "size": 245645
+}

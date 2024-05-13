@@ -1,0 +1,13 @@
+{
+  "commit": "1e6de8e88876b526f84b677e4e6859f6f5b27c95",
+  "repo_url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+  "date": "2021-11-30T16:14:01",
+  "languages": {
+    "Java": 3434781,
+    "Kotlin": 284476,
+    "Cypher": 40524,
+    "HTML": 34080,
+    "ANTLR": 1365
+  },
+  "size": 3795226
+}

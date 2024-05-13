@@ -1,0 +1,14 @@
+{
+  "commit": "c5223f04ad50ca595dd88c8daa98c7048bcbdffb",
+  "repo_url": "https://github.com/pluginsglpi/formcreator",
+  "date": "2023-03-24T09:28:40",
+  "languages": {
+    "PHP": 2298203,
+    "Twig": 132564,
+    "JavaScript": 68706,
+    "SCSS": 21485,
+    "Shell": 18212,
+    "CSS": 6254
+  },
+  "size": 2545424
+}

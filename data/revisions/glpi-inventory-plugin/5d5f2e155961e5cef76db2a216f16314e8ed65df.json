@@ -1,0 +1,17 @@
+{
+  "commit": "5d5f2e155961e5cef76db2a216f16314e8ed65df",
+  "repo_url": "https://github.com/glpi-project/glpi-inventory-plugin",
+  "date": "2022-05-31T10:48:48",
+  "languages": {
+    "PHP": 2061711,
+    "JavaScript": 1272724,
+    "CSS": 59089,
+    "HTML": 21202,
+    "Twig": 10377,
+    "Mustache": 6466,
+    "Shell": 5235,
+    "Ruby": 4346,
+    "Perl": 1741
+  },
+  "size": 3442891
+}

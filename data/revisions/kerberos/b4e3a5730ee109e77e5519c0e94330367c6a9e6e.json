@@ -1,0 +1,12 @@
+{
+  "commit": "b4e3a5730ee109e77e5519c0e94330367c6a9e6e",
+  "repo_url": "https://github.com/mongodb-js/kerberos",
+  "date": "2018-05-30T14:11:05",
+  "languages": {
+    "C++": 107028,
+    "C": 60819,
+    "JavaScript": 31237,
+    "Python": 1449
+  },
+  "size": 200533
+}

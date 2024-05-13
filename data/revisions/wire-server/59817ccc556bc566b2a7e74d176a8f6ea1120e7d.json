@@ -1,0 +1,22 @@
+{
+  "commit": "59817ccc556bc566b2a7e74d176a8f6ea1120e7d",
+  "repo_url": "https://github.com/wireapp/wire-server",
+  "date": "2021-03-02T09:34:03",
+  "languages": {
+    "Haskell": 4858989,
+    "HTML": 1148732,
+    "Shell": 88791,
+    "Makefile": 86967,
+    "Rust": 34130,
+    "Smarty": 14540,
+    "Mustache": 13057,
+    "C": 11875,
+    "Nix": 9891,
+    "jq": 9855,
+    "Dockerfile": 7002,
+    "Python": 3638,
+    "JavaScript": 1883,
+    "Ruby": 1146
+  },
+  "size": 6290496
+}

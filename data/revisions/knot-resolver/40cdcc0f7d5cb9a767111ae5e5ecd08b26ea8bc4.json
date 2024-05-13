@@ -1,0 +1,22 @@
+{
+  "commit": "40cdcc0f7d5cb9a767111ae5e5ecd08b26ea8bc4",
+  "repo_url": "https://github.com/cz-nic/knot-resolver",
+  "date": "2019-04-18T16:36:15",
+  "languages": {
+    "C": 1121059,
+    "Lua": 226742,
+    "Python": 42660,
+    "Shell": 36954,
+    "Meson": 32708,
+    "JavaScript": 19216,
+    "Jinja": 17400,
+    "Dockerfile": 11557,
+    "Roff": 9878,
+    "Makefile": 5300,
+    "Go": 5126,
+    "Smarty": 2763,
+    "CSS": 635,
+    "Emacs Lisp": 217
+  },
+  "size": 1532215
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "932450f24bf53333926d1c624fcd9524d072a8c6",
+  "repo_url": "https://github.com/wagtail/wagtail",
+  "date": "2020-04-14T01:35:21",
+  "languages": {
+    "Python": 3690553,
+    "HTML": 382727,
+    "JavaScript": 267628,
+    "SCSS": 181754,
+    "Shell": 8867,
+    "CSS": 3003,
+    "Makefile": 992,
+    "Dockerfile": 703
+  },
+  "size": 4536227
+}

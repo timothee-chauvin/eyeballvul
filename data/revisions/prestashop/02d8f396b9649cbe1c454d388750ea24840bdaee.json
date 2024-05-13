@@ -1,0 +1,23 @@
+{
+  "commit": "02d8f396b9649cbe1c454d388750ea24840bdaee",
+  "repo_url": "https://github.com/prestashop/prestashop",
+  "date": "2021-11-05T09:32:19",
+  "languages": {
+    "PHP": 25095931,
+    "JavaScript": 6015754,
+    "Twig": 2622560,
+    "Smarty": 1539247,
+    "Gherkin": 1370004,
+    "SCSS": 542827,
+    "Vue": 239260,
+    "CSS": 163457,
+    "Hack": 21672,
+    "Less": 19680,
+    "Shell": 19545,
+    "HTML": 9234,
+    "Python": 6973,
+    "Dockerfile": 2623,
+    "Makefile": 88
+  },
+  "size": 37668855
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "38d3d3041e8489c312ffaa9fa6c694e072b444e8",
+  "repo_url": "https://github.com/apache/tomee",
+  "date": "2020-01-07T14:31:52",
+  "languages": {
+    "Java": 27935668,
+    "JavaScript": 84309,
+    "Groovy": 82400,
+    "HTML": 29761,
+    "Batchfile": 25806,
+    "Shell": 19619,
+    "CSS": 8127,
+    "Handlebars": 7324,
+    "Less": 4036,
+    "Makefile": 766
+  },
+  "size": 28197816
+}

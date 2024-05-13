@@ -1,0 +1,14 @@
+{
+  "commit": "c0b2b260b2c9b8c3375d51e90cd1edf552d7655a",
+  "repo_url": "https://github.com/accel-ppp/accel-ppp",
+  "date": "2015-12-04T13:26:33",
+  "languages": {
+    "C": 1776264,
+    "Roff": 31150,
+    "CMake": 17024,
+    "Shell": 5539,
+    "Python": 1190,
+    "Makefile": 120
+  },
+  "size": 1831287
+}

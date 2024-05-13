@@ -1,0 +1,15 @@
+{
+  "commit": "6b1a64060ba08079991c98b71fc6e3abc201ed31",
+  "repo_url": "https://github.com/telerik/kendo-ui-core",
+  "date": "2018-02-21T12:43:59",
+  "languages": {
+    "JavaScript": 9328564,
+    "Less": 1282143,
+    "CSS": 80178,
+    "Ruby": 42853,
+    "HTML": 24373,
+    "Shell": 13410,
+    "Batchfile": 198
+  },
+  "size": 10771719
+}

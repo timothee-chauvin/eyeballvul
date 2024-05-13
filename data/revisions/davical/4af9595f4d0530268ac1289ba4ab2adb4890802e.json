@@ -1,0 +1,16 @@
+{
+  "commit": "4af9595f4d0530268ac1289ba4ab2adb4890802e",
+  "repo_url": "https://gitlab.com/davical-project/davical",
+  "date": "2019-01-30T21:53:08",
+  "languages": {
+    "PHP": 1073190,
+    "PLpgSQL": 203522,
+    "Perl": 176839,
+    "Shell": 21225,
+    "CSS": 8671,
+    "Batchfile": 5850,
+    "Makefile": 2548,
+    "JavaScript": 1686
+  },
+  "size": 1493531
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "7f08ace4f1305de7f3b1b0e2f765911957226bd4",
+  "repo_url": "https://github.com/rust-lang/cargo",
+  "date": "2021-11-24T17:54:39",
+  "languages": {
+    "Rust": 5174079,
+    "Roff": 268902,
+    "JavaScript": 13954,
+    "Shell": 11798,
+    "Python": 1428
+  },
+  "size": 5470161
+}

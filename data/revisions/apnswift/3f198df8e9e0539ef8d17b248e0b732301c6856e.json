@@ -1,0 +1,12 @@
+{
+  "commit": "3f198df8e9e0539ef8d17b248e0b732301c6856e",
+  "repo_url": "https://github.com/kylebrowning/apnswift",
+  "date": "2019-07-06T17:24:50",
+  "languages": {
+    "Swift": 51815,
+    "Shell": 1831,
+    "C": 222,
+    "Dockerfile": 192
+  },
+  "size": 54060
+}

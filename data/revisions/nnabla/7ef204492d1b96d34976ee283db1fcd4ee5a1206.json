@@ -1,0 +1,17 @@
+{
+  "commit": "7ef204492d1b96d34976ee283db1fcd4ee5a1206",
+  "repo_url": "https://github.com/sony/nnabla",
+  "date": "2019-03-20T06:59:40",
+  "languages": {
+    "Python": 1642712,
+    "C++": 1378543,
+    "Jupyter Notebook": 131414,
+    "Cython": 95309,
+    "CMake": 23048,
+    "Makefile": 20120,
+    "Batchfile": 13209,
+    "Dockerfile": 2822,
+    "Shell": 1276
+  },
+  "size": 3308453
+}

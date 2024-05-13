@@ -1,0 +1,13 @@
+{
+  "commit": "58568f03362fd5314e4353667f9f1a812e896aa2",
+  "repo_url": "https://github.com/memorysafety/sudo-rs",
+  "date": "2023-08-29T11:29:30",
+  "languages": {
+    "Rust": 978832,
+    "Shell": 9248,
+    "Dockerfile": 1314,
+    "Makefile": 624,
+    "C": 226
+  },
+  "size": 990244
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "bb96560053991e2515a6d3612aeaa58b6aacaebd",
+  "repo_url": "https://github.com/twitter/twitter-kit-ios",
+  "date": "2018-07-13T22:31:59",
+  "languages": {
+    "Objective-C": 2471591,
+    "Swift": 94843,
+    "C": 81147,
+    "Ruby": 3708,
+    "Shell": 3142
+  },
+  "size": 2654431
+}

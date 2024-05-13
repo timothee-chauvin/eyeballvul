@@ -1,0 +1,17 @@
+{
+  "commit": "1d06e0e9a1f217ccbb48d0d63c89d3177d868fcb",
+  "repo_url": "https://github.com/wasmcloud/wasmcloud-otp",
+  "date": "2022-01-18T15:38:18",
+  "languages": {
+    "Elixir": 265194,
+    "Rust": 34486,
+    "HTML": 24414,
+    "CSS": 10310,
+    "Dockerfile": 4394,
+    "Makefile": 4301,
+    "JavaScript": 3007,
+    "SCSS": 2304,
+    "Smarty": 1894
+  },
+  "size": 350304
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "cd8f8a78420fa4ee315052513ef926c81c6ae74d",
+  "repo_url": "https://github.com/mozilla/geckodriver",
+  "date": "2019-03-05T13:18:07",
+  "languages": {
+    "Rust": 122369,
+    "Python": 4391,
+    "Shell": 4150,
+    "Dockerfile": 101
+  },
+  "size": 131011
+}

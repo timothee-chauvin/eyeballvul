@@ -1,0 +1,15 @@
+{
+  "commit": "7c6bdc1019dbfa1c59667dd6ba0cacf30774b41b",
+  "repo_url": "https://github.com/getzola/zola",
+  "date": "2023-03-19T19:36:25",
+  "languages": {
+    "Rust": 726086,
+    "HTML": 13683,
+    "Python": 5104,
+    "Dockerfile": 364,
+    "SCSS": 155,
+    "CSS": 35,
+    "JavaScript": 17
+  },
+  "size": 745444
+}

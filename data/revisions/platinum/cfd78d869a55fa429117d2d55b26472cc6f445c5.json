@@ -1,0 +1,17 @@
+{
+  "commit": "cfd78d869a55fa429117d2d55b26472cc6f445c5",
+  "repo_url": "https://github.com/plutinosoft/platinum",
+  "date": "2017-12-11T01:04:43",
+  "languages": {
+    "C++": 1903992,
+    "Objective-C": 32868,
+    "Objective-C++": 27011,
+    "C#": 12898,
+    "Python": 11370,
+    "C": 10395,
+    "Shell": 4128,
+    "Makefile": 3961,
+    "Java": 1749
+  },
+  "size": 2008372
+}

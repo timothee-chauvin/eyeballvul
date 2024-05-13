@@ -1,0 +1,13 @@
+{
+  "commit": "e94aeebdeed26c840d96c33a02126f523d7b226a",
+  "repo_url": "https://github.com/cloudfoundry/bosh-cli",
+  "date": "2018-01-08T23:46:53",
+  "languages": {
+    "Go": 3100211,
+    "Shell": 17783,
+    "PowerShell": 1688,
+    "Dockerfile": 1348,
+    "Roff": 403
+  },
+  "size": 3121433
+}

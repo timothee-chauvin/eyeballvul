@@ -1,0 +1,19 @@
+{
+  "commit": "5924d4223e2b7238607749d977c0a878fe33cdbc",
+  "repo_url": "https://github.com/libproxy/libproxy",
+  "date": "2017-05-11T09:33:33",
+  "languages": {
+    "C++": 158428,
+    "CMake": 49053,
+    "C": 16293,
+    "Python": 5137,
+    "C#": 3997,
+    "Perl": 2622,
+    "XS": 1079,
+    "Vala": 333,
+    "SWIG": 315,
+    "Ruby": 270,
+    "Shell": 22
+  },
+  "size": 237549
+}

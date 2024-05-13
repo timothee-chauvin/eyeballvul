@@ -1,0 +1,15 @@
+{
+  "commit": "15cf5f89a054110d5dbbfeb6aa6e57d29461b3c6",
+  "repo_url": "https://github.com/andrewsauder/as",
+  "date": "2020-05-20T14:48:31",
+  "languages": {
+    "PHP": 13732767,
+    "HTML": 257865,
+    "CSS": 119480,
+    "JavaScript": 39770,
+    "PowerShell": 24061,
+    "Shell": 4442,
+    "Hack": 1658
+  },
+  "size": 14180043
+}

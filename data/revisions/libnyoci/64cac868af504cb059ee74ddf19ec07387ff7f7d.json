@@ -1,0 +1,15 @@
+{
+  "commit": "64cac868af504cb059ee74ddf19ec07387ff7f7d",
+  "repo_url": "https://github.com/darconeous/libnyoci",
+  "date": "2017-04-02T19:40:03",
+  "languages": {
+    "C": 559031,
+    "Makefile": 436315,
+    "Shell": 389399,
+    "M4": 14245,
+    "Ruby": 856,
+    "Dockerfile": 284,
+    "GDB": 128
+  },
+  "size": 1400258
+}

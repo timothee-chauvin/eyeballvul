@@ -1,0 +1,17 @@
+{
+  "commit": "18f3032ab5a709312acd6b3ea67baf4372e2eb4a",
+  "repo_url": "https://github.com/builderio/qwik",
+  "date": "2022-12-17T18:30:31",
+  "languages": {
+    "TypeScript": 1892562,
+    "JavaScript": 778337,
+    "MDX": 358873,
+    "Rust": 206018,
+    "CSS": 93141,
+    "HTML": 1071,
+    "Dockerfile": 876,
+    "Makefile": 740,
+    "Shell": 73
+  },
+  "size": 3331691
+}

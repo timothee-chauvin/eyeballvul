@@ -1,0 +1,15 @@
+{
+  "id": "PSF-2021-3",
+  "published": "2021-01-19T00:00:00",
+  "modified": "2023-12-06T01:01:12.598113",
+  "details": "Python 3.x through 3.9.1 has a buffer overflow in PyCArg_repr in _ctypes/callproc.c, which may lead to remote code execution in certain Python applications that accept floating-point numbers as untrusted input, as demonstrated by a 1e300 argument to c_double.from_param. This occurs because sprintf is used unsafely.",
+  "summary": "ctypes: Buffer overflow in PyCArg_repr",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

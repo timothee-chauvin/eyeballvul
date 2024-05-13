@@ -1,0 +1,23 @@
+{
+  "commit": "ed1a93c029457fa083b68087c1f591f3495887c3",
+  "repo_url": "https://github.com/xelerance/openswan",
+  "date": "2017-08-03T18:43:16",
+  "languages": {
+    "C": 6051909,
+    "Roff": 432797,
+    "Makefile": 322670,
+    "Shell": 267858,
+    "Assembly": 107576,
+    "Perl": 99486,
+    "Objective-C": 68126,
+    "C++": 45701,
+    "Python": 32947,
+    "Yacc": 22496,
+    "SWIG": 17177,
+    "Lex": 14941,
+    "sed": 2389,
+    "GDB": 952,
+    "Emacs Lisp": 117
+  },
+  "size": 7487142
+}

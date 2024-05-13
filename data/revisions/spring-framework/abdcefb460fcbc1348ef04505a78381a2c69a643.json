@@ -1,0 +1,20 @@
+{
+  "commit": "abdcefb460fcbc1348ef04505a78381a2c69a643",
+  "repo_url": "https://github.com/spring-projects/spring-framework",
+  "date": "2012-12-13T16:35:15",
+  "languages": {
+    "Java": 26465763,
+    "HTML": 45860,
+    "AspectJ": 44996,
+    "FreeMarker": 15733,
+    "Groovy": 7558,
+    "GAP": 6137,
+    "Batchfile": 4140,
+    "Shell": 3440,
+    "XSLT": 2945,
+    "Ruby": 623,
+    "JavaScript": 234,
+    "CSS": 120
+  },
+  "size": 26597549
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "18987f7b3c6ea3ac4c92d7dc76954c4ee5a2073b",
+  "repo_url": "https://github.com/nextcloud/ios",
+  "date": "2022-12-19T13:17:57",
+  "languages": {
+    "Swift": 2038373,
+    "Objective-C": 288241,
+    "Rich Text Format": 3449
+  },
+  "size": 2330063
+}

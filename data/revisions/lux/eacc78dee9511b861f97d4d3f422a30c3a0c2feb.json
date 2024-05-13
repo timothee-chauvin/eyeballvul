@@ -1,0 +1,28 @@
+{
+  "commit": "eacc78dee9511b861f97d4d3f422a30c3a0c2feb",
+  "repo_url": "https://github.com/lux-core/lux",
+  "date": "2018-08-10T19:35:00",
+  "languages": {
+    "C++": 14275525,
+    "C": 1313297,
+    "Shell": 596141,
+    "Python": 554582,
+    "M4": 198717,
+    "CMake": 154980,
+    "Assembly": 141960,
+    "Makefile": 138309,
+    "HTML": 50621,
+    "CSS": 47164,
+    "Java": 30290,
+    "Sage": 30192,
+    "QMake": 26174,
+    "Roff": 17806,
+    "Solidity": 16214,
+    "Batchfile": 11292,
+    "Objective-C++": 7273,
+    "Dockerfile": 4322,
+    "OpenEdge ABL": 1767,
+    "Perl": 1676
+  },
+  "size": 17618302
+}

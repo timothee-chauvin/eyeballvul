@@ -1,0 +1,22 @@
+{
+  "commit": "3c0afbafa50dd1e66f385e091fa49c873405faa8",
+  "repo_url": "https://github.com/gitpod-io/gitpod",
+  "date": "2021-01-06T10:44:00",
+  "languages": {
+    "TypeScript": 2404904,
+    "Go": 1733163,
+    "JavaScript": 527374,
+    "HCL": 96087,
+    "Shell": 55776,
+    "CSS": 38390,
+    "Dockerfile": 35529,
+    "HTML": 33605,
+    "Lua": 30891,
+    "Mustache": 14364,
+    "Smarty": 9372,
+    "C++": 9123,
+    "Makefile": 1297,
+    "Python": 382
+  },
+  "size": 4990257
+}

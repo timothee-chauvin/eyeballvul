@@ -1,0 +1,11 @@
+{
+  "commit": "284d9162b9903c1828aa13ab56420c1183c49d40",
+  "repo_url": "https://github.com/projen/projen",
+  "date": "2021-03-09T06:37:56",
+  "languages": {
+    "TypeScript": 542511,
+    "JavaScript": 9922,
+    "Shell": 425
+  },
+  "size": 552858
+}

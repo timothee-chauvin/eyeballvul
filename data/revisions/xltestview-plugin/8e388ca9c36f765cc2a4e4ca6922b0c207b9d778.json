@@ -1,0 +1,11 @@
+{
+  "commit": "8e388ca9c36f765cc2a4e4ca6922b0c207b9d778",
+  "repo_url": "https://github.com/jenkinsci/xltestview-plugin",
+  "date": "2016-08-03T13:34:01",
+  "languages": {
+    "Java": 63724,
+    "Groovy": 27200,
+    "HTML": 1563
+  },
+  "size": 92487
+}

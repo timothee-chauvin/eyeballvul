@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2008-5",
+  "published": "2008-08-01T14:00:00",
+  "modified": "2023-11-08T03:56:50.879305",
+  "details": "Integer overflow in _hashopenssl.c in the hashlib module in Python 2.5.2 and earlier might allow context-dependent attackers to defeat cryptographic digests, related to \"partial hashlib hashing of data exceeding 4GB.\"",
+  "summary": "Multiple integer overflows (Apple)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

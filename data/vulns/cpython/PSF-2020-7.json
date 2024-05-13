@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2020-7",
+  "published": "2020-01-28T18:35:58",
+  "modified": "2023-12-06T01:00:40.900098",
+  "details": "In Python (CPython) 3.6 through 3.6.10, 3.7 through 3.7.6, and 3.8 through 3.8.1, an insecure dependency load upon launch on Windows 7 may result in an attacker's copy of api-ms-win-core-path-l1-1-0.dll being loaded and used instead of the system's copy. Windows 8 and later are unaffected.",
+  "summary": "CVE-2020-8315: Unsafe DLL loading in getpathp.c on Windows 7",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

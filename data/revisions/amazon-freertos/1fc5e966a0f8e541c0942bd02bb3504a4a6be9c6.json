@@ -1,0 +1,15 @@
+{
+  "commit": "1fc5e966a0f8e541c0942bd02bb3504a4a6be9c6",
+  "repo_url": "https://github.com/aws/amazon-freertos",
+  "date": "2018-08-10T23:18:02",
+  "languages": {
+    "C": 10394657,
+    "Assembly": 276996,
+    "Makefile": 45738,
+    "Go": 5810,
+    "HTML": 5357,
+    "Batchfile": 2765,
+    "Python": 1691
+  },
+  "size": 10733014
+}

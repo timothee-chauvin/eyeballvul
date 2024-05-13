@@ -1,0 +1,10 @@
+{
+  "commit": "16a41c377819fb57d8ecfbe2a65907a9de3fc17d",
+  "repo_url": "https://github.com/jenkinsci/cloud-stats-plugin",
+  "date": "2021-01-13T08:22:03",
+  "languages": {
+    "Java": 159512,
+    "Groovy": 13201
+  },
+  "size": 172713
+}

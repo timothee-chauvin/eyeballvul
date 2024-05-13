@@ -1,0 +1,11 @@
+{
+  "commit": "08b258f4dbe7228ac7236f5b0f9d1a5f3c64f14f",
+  "repo_url": "https://github.com/kanidm/concread",
+  "date": "2020-10-18T03:01:04",
+  "languages": {
+    "Rust": 668348,
+    "Shell": 78,
+    "Makefile": 52
+  },
+  "size": 668478
+}

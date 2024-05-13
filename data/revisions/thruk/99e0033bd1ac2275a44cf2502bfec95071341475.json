@@ -1,0 +1,16 @@
+{
+  "commit": "99e0033bd1ac2275a44cf2502bfec95071341475",
+  "repo_url": "https://github.com/sni/thruk",
+  "date": "2023-05-24T12:13:18",
+  "languages": {
+    "Perl": 3827515,
+    "JavaScript": 1379487,
+    "Shell": 160392,
+    "CSS": 78153,
+    "Makefile": 20596,
+    "Dockerfile": 11354,
+    "Raku": 554,
+    "HTML": 359
+  },
+  "size": 5478410
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "f224ab2eeb648a818eb20687d7150a285442c907",
+  "repo_url": "https://github.com/protobuf-c/protobuf-c",
+  "date": "2021-05-19T00:45:28",
+  "languages": {
+    "C++": 236473,
+    "C": 221369,
+    "M4": 43978,
+    "Makefile": 12052,
+    "CMake": 8641,
+    "Shell": 1799
+  },
+  "size": 524312
+}

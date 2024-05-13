@@ -1,0 +1,12 @@
+{
+  "commit": "5056fa9d50478a14af3c9925c12ca02318659d3e",
+  "repo_url": "https://github.com/gradle/gradle-build-action",
+  "date": "2023-04-12T20:15:34",
+  "languages": {
+    "TypeScript": 74583,
+    "Groovy": 18426,
+    "JavaScript": 208,
+    "Java": 196
+  },
+  "size": 93413
+}

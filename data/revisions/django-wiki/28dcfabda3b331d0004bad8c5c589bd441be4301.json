@@ -1,0 +1,14 @@
+{
+  "commit": "28dcfabda3b331d0004bad8c5c589bd441be4301",
+  "repo_url": "https://github.com/django-wiki/django-wiki",
+  "date": "2021-10-25T22:12:15",
+  "languages": {
+    "Python": 514703,
+    "SCSS": 229200,
+    "HTML": 106545,
+    "JavaScript": 45059,
+    "CSS": 14522,
+    "Makefile": 2810
+  },
+  "size": 912839
+}

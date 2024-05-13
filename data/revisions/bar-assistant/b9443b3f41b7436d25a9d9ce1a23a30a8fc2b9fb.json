@@ -1,0 +1,12 @@
+{
+  "commit": "b9443b3f41b7436d25a9d9ce1a23a30a8fc2b9fb",
+  "repo_url": "https://github.com/karlomikus/bar-assistant",
+  "date": "2023-10-30T21:02:09",
+  "languages": {
+    "PHP": 582950,
+    "Blade": 1853,
+    "Dockerfile": 1750,
+    "Shell": 1391
+  },
+  "size": 587944
+}

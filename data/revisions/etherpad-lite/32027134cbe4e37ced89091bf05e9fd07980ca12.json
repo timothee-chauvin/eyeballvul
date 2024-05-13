@@ -1,0 +1,16 @@
+{
+  "commit": "32027134cbe4e37ced89091bf05e9fd07980ca12",
+  "repo_url": "https://github.com/ether/etherpad-lite",
+  "date": "2017-11-04T16:40:13",
+  "languages": {
+    "JavaScript": 1473411,
+    "HTML": 67617,
+    "CSS": 51419,
+    "Shell": 19367,
+    "Python": 1394,
+    "Batchfile": 1067,
+    "Makefile": 631,
+    "EJS": 242
+  },
+  "size": 1615148
+}

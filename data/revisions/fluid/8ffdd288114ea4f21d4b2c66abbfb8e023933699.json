@@ -1,0 +1,14 @@
+{
+  "commit": "8ffdd288114ea4f21d4b2c66abbfb8e023933699",
+  "repo_url": "https://github.com/fluid-cloudnative/fluid",
+  "date": "2022-09-03T21:05:57",
+  "languages": {
+    "Go": 3439796,
+    "Shell": 51828,
+    "Mustache": 43904,
+    "Makefile": 13986,
+    "Smarty": 3221,
+    "Dockerfile": 996
+  },
+  "size": 3553731
+}

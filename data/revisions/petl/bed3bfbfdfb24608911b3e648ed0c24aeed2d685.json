@@ -1,0 +1,11 @@
+{
+  "commit": "bed3bfbfdfb24608911b3e648ed0c24aeed2d685",
+  "repo_url": "https://github.com/petl-developers/petl",
+  "date": "2020-09-25T00:49:18",
+  "languages": {
+    "Python": 971112,
+    "Jupyter Notebook": 146738,
+    "Batchfile": 1823
+  },
+  "size": 1119673
+}

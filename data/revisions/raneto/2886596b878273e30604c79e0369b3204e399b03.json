@@ -1,0 +1,13 @@
+{
+  "commit": "2886596b878273e30604c79e0369b3204e399b03",
+  "repo_url": "https://github.com/gilbitron/raneto",
+  "date": "2021-03-28T17:55:20",
+  "languages": {
+    "JavaScript": 329644,
+    "CSS": 66956,
+    "HTML": 21553,
+    "Makefile": 775,
+    "Dockerfile": 181
+  },
+  "size": 419109
+}

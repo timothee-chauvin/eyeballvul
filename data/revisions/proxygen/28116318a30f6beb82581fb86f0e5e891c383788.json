@@ -1,0 +1,14 @@
+{
+  "commit": "28116318a30f6beb82581fb86f0e5e891c383788",
+  "repo_url": "https://github.com/facebook/proxygen",
+  "date": "2017-03-25T20:56:24",
+  "languages": {
+    "C++": 1867178,
+    "M4": 39790,
+    "Python": 39730,
+    "Makefile": 12266,
+    "Shell": 7010,
+    "C": 1477
+  },
+  "size": 1967451
+}

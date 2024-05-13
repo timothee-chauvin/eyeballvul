@@ -1,0 +1,14 @@
+{
+  "commit": "9e25ec56c9adbead087a0e7768864d7960eb8b07",
+  "repo_url": "https://github.com/swagger-api/swagger-ui",
+  "date": "2013-08-19T18:40:19",
+  "languages": {
+    "JavaScript": 247024,
+    "CSS": 53300,
+    "CoffeeScript": 22104,
+    "Handlebars": 9260,
+    "HTML": 3959,
+    "Sass": 1312
+  },
+  "size": 336959
+}

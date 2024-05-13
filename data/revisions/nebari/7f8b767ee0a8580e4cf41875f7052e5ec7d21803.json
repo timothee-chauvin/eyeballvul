@@ -1,0 +1,17 @@
+{
+  "commit": "7f8b767ee0a8580e4cf41875f7052e5ec7d21803",
+  "repo_url": "https://github.com/nebari-dev/nebari",
+  "date": "2024-04-20T17:40:58",
+  "languages": {
+    "Python": 563499,
+    "HCL": 316925,
+    "HTML": 46502,
+    "Shell": 18636,
+    "Jupyter Notebook": 4959,
+    "JavaScript": 4951,
+    "Smarty": 4357,
+    "Nix": 2041,
+    "Makefile": 634
+  },
+  "size": 962504
+}

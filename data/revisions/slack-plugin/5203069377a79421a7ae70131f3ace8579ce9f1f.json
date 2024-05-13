@@ -1,0 +1,11 @@
+{
+  "commit": "5203069377a79421a7ae70131f3ace8579ce9f1f",
+  "repo_url": "https://github.com/jenkinsci/slack-plugin",
+  "date": "2019-03-16T20:02:47",
+  "languages": {
+    "Java": 173506,
+    "HTML": 8091,
+    "Groovy": 359
+  },
+  "size": 181956
+}

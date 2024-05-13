@@ -1,0 +1,12 @@
+{
+  "commit": "f8186add92dd5f0ca2f6a1cda10bc0ece3730f86",
+  "repo_url": "https://github.com/matrix-org/matrix-js-sdk",
+  "date": "2021-08-31T12:29:19",
+  "languages": {
+    "TypeScript": 1733799,
+    "JavaScript": 932123,
+    "Shell": 13164,
+    "Python": 395
+  },
+  "size": 2679481
+}

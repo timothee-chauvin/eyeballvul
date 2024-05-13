@@ -1,0 +1,16 @@
+{
+  "commit": "d495c27284ce62c5b39ecc3d0866eb9965caf098",
+  "repo_url": "https://github.com/elastic/apm-agent-python",
+  "date": "2019-07-31T18:57:31",
+  "languages": {
+    "Python": 1007455,
+    "C": 81870,
+    "Shell": 9943,
+    "Groovy": 5348,
+    "Dockerfile": 2138,
+    "Batchfile": 833,
+    "Makefile": 583,
+    "HTML": 377
+  },
+  "size": 1108547
+}

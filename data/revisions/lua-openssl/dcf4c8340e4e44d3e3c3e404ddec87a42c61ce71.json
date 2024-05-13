@@ -1,0 +1,13 @@
+{
+  "commit": "dcf4c8340e4e44d3e3c3e404ddec87a42c61ce71",
+  "repo_url": "https://github.com/zhaozg/lua-openssl",
+  "date": "2019-11-29T01:40:11",
+  "languages": {
+    "C": 615227,
+    "Lua": 252892,
+    "Shell": 6826,
+    "CMake": 4857,
+    "Makefile": 3812
+  },
+  "size": 883614
+}

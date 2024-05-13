@@ -1,0 +1,14 @@
+{
+  "commit": "b8d808d2239b3d9d20ca52668ed67b9fba376982",
+  "repo_url": "https://github.com/jazzband/django-debug-toolbar",
+  "date": "2020-09-24T16:02:43",
+  "languages": {
+    "Python": 192177,
+    "HTML": 31084,
+    "JavaScript": 15980,
+    "CSS": 11504,
+    "Makefile": 1420,
+    "Jinja": 88
+  },
+  "size": 252253
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "0743daa83647f12ff31b84d07113d2c24c27b924",
+  "repo_url": "https://github.com/codecov/codecov-python",
+  "date": "2018-01-29T15:52:17",
+  "languages": {
+    "Python": 63389,
+    "Makefile": 796
+  },
+  "size": 64185
+}

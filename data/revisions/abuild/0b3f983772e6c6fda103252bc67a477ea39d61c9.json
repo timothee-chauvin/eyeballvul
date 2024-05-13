@@ -1,0 +1,14 @@
+{
+  "commit": "0b3f983772e6c6fda103252bc67a477ea39d61c9",
+  "repo_url": "https://github.com/alpinelinux/abuild",
+  "date": "2019-06-14T12:13:23",
+  "languages": {
+    "Shell": 110016,
+    "Roff": 22239,
+    "C": 18782,
+    "Perl": 16473,
+    "Ruby": 9025,
+    "Makefile": 3379
+  },
+  "size": 179914
+}

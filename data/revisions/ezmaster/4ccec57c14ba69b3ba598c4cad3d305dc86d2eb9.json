@@ -1,0 +1,15 @@
+{
+  "commit": "4ccec57c14ba69b3ba598c4cad3d305dc86d2eb9",
+  "repo_url": "https://github.com/inist-cnrs/ezmaster",
+  "date": "2019-10-07T12:07:47",
+  "languages": {
+    "JavaScript": 194015,
+    "CSS": 10835,
+    "Shell": 6047,
+    "Dockerfile": 3080,
+    "Makefile": 2877,
+    "HTML": 2202,
+    "Smarty": 2074
+  },
+  "size": 221130
+}

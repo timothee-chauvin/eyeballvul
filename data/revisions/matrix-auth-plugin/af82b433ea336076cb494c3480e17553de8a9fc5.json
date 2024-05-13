@@ -1,0 +1,12 @@
+{
+  "commit": "af82b433ea336076cb494c3480e17553de8a9fc5",
+  "repo_url": "https://github.com/jenkinsci/matrix-auth-plugin",
+  "date": "2020-05-08T16:07:31",
+  "languages": {
+    "Java": 162151,
+    "HTML": 14090,
+    "CSS": 2073,
+    "Groovy": 2019
+  },
+  "size": 180333
+}

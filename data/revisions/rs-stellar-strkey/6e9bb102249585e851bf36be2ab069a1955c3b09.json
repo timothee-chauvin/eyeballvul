@@ -1,0 +1,10 @@
+{
+  "commit": "6e9bb102249585e851bf36be2ab069a1955c3b09",
+  "repo_url": "https://github.com/stellar/rs-stellar-strkey",
+  "date": "2023-01-03T19:05:01",
+  "languages": {
+    "Rust": 29970,
+    "Makefile": 235
+  },
+  "size": 30205
+}

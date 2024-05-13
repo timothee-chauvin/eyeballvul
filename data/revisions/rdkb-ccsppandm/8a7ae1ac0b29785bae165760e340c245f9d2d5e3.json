@@ -1,0 +1,12 @@
+{
+  "commit": "8a7ae1ac0b29785bae165760e340c245f9d2d5e3",
+  "repo_url": "https://github.com/rdkcmf/rdkb-ccsppandm",
+  "date": "2018-11-02T10:26:42",
+  "languages": {
+    "C": 16697179,
+    "Shell": 73952,
+    "Makefile": 63868,
+    "M4": 4981
+  },
+  "size": 16839980
+}

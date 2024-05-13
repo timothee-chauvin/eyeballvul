@@ -1,0 +1,19 @@
+{
+  "commit": "b2647f4d070b3c26cbb7d235707f23a9c69b0117",
+  "repo_url": "https://github.com/enhavo/enhavo",
+  "date": "2018-01-17T14:26:45",
+  "languages": {
+    "PHP": 1548085,
+    "HTML": 263596,
+    "JavaScript": 170607,
+    "Twig": 165531,
+    "SCSS": 158889,
+    "CSS": 54333,
+    "TypeScript": 38099,
+    "Gherkin": 11349,
+    "Dockerfile": 3147,
+    "Shell": 80,
+    "Ruby": 73
+  },
+  "size": 2413789
+}

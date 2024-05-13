@@ -1,0 +1,12 @@
+{
+  "commit": "37497fff04c11b70bfcdb3ad8f2adca7c98941ce",
+  "repo_url": "https://github.com/seriyps/mtproto_proxy",
+  "date": "2022-11-23T00:44:16",
+  "languages": {
+    "Erlang": 277651,
+    "Shell": 3277,
+    "Makefile": 1687,
+    "Dockerfile": 853
+  },
+  "size": 283468
+}

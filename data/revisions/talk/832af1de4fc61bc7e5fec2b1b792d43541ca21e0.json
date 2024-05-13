@@ -1,0 +1,14 @@
+{
+  "commit": "832af1de4fc61bc7e5fec2b1b792d43541ca21e0",
+  "repo_url": "https://github.com/coralproject/talk",
+  "date": "2021-02-02T21:43:51",
+  "languages": {
+    "JavaScript": 1919905,
+    "CSS": 149190,
+    "Nunjucks": 35998,
+    "EJS": 2780,
+    "Shell": 2762,
+    "Dockerfile": 664
+  },
+  "size": 2111299
+}

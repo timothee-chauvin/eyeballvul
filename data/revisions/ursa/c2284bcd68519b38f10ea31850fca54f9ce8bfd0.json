@@ -1,0 +1,11 @@
+{
+  "commit": "c2284bcd68519b38f10ea31850fca54f9ce8bfd0",
+  "repo_url": "https://github.com/hyperledger/ursa",
+  "date": "2019-10-01T14:04:01",
+  "languages": {
+    "Rust": 1441160,
+    "Dockerfile": 2974,
+    "C": 2230
+  },
+  "size": 1446364
+}

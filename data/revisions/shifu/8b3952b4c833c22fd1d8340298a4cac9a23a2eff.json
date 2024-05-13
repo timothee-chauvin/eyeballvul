@@ -1,0 +1,12 @@
+{
+  "commit": "8b3952b4c833c22fd1d8340298a4cac9a23a2eff",
+  "repo_url": "https://github.com/shifuml/shifu",
+  "date": "2019-04-03T09:13:53",
+  "languages": {
+    "Java": 4130282,
+    "Python": 163544,
+    "PigLatin": 44196,
+    "Shell": 18106
+  },
+  "size": 4356128
+}

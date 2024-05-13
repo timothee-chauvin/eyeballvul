@@ -1,0 +1,16 @@
+{
+  "commit": "c779be9c05a68862d60ddf6c2ba9e21640a5b9e1",
+  "repo_url": "https://github.com/ucfopen/materia",
+  "date": "2022-01-03T19:55:34",
+  "languages": {
+    "PHP": 704982,
+    "Hack": 53874,
+    "Shell": 16849,
+    "JavaScript": 8230,
+    "CSS": 4923,
+    "Dockerfile": 4761,
+    "HTML": 3761,
+    "Procfile": 48
+  },
+  "size": 797428
+}

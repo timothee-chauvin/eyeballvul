@@ -1,0 +1,14 @@
+{
+  "commit": "46944bf9bff6642eb8eb26d4fceb211a65deede3",
+  "repo_url": "https://github.com/phppgadmin/phppgadmin",
+  "date": "2019-12-09T06:45:24",
+  "languages": {
+    "PHP": 3069164,
+    "JavaScript": 788649,
+    "HTML": 211032,
+    "CSS": 29334,
+    "Shell": 1715,
+    "PLpgSQL": 1607
+  },
+  "size": 4101501
+}

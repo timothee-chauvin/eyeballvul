@@ -1,0 +1,13 @@
+{
+  "commit": "507425b5003a992f474ab7806c8e86a1bff045ea",
+  "repo_url": "https://github.com/jenkinsci/credentials-binding-plugin",
+  "date": "2018-01-17T18:13:56",
+  "languages": {
+    "Java": 136413,
+    "HTML": 8841,
+    "Shell": 1117,
+    "Groovy": 565,
+    "Batchfile": 496
+  },
+  "size": 147432
+}

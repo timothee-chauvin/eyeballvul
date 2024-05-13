@@ -1,0 +1,13 @@
+{
+  "commit": "a05dd448abc1e4a219dfc19cc77ad6a310198d90",
+  "repo_url": "https://github.com/oneapi-src/onevpl-intel-gpu",
+  "date": "2022-12-02T02:52:40",
+  "languages": {
+    "C++": 22816979,
+    "C": 1736906,
+    "Assembly": 575675,
+    "Roff": 195792,
+    "CMake": 124603
+  },
+  "size": 25449955
+}

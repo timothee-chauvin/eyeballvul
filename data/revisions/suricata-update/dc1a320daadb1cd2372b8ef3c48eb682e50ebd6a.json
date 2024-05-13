@@ -1,0 +1,12 @@
+{
+  "commit": "dc1a320daadb1cd2372b8ef3c48eb682e50ebd6a",
+  "repo_url": "https://github.com/oisf/suricata-update",
+  "date": "2018-01-19T20:42:10",
+  "languages": {
+    "Python": 244025,
+    "Shell": 2682,
+    "Makefile": 1068,
+    "Dockerfile": 947
+  },
+  "size": 248722
+}

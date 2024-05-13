@@ -1,0 +1,15 @@
+{
+  "commit": "7a32743e1bdcb0df5e00868f0545b0bbdbed69f9",
+  "repo_url": "https://github.com/aerospike/aerospike-client-nodejs",
+  "date": "2016-10-10T09:08:42",
+  "languages": {
+    "JavaScript": 497337,
+    "C++": 324086,
+    "Shell": 15316,
+    "C": 7942,
+    "Python": 3443,
+    "Makefile": 2003,
+    "Lua": 828
+  },
+  "size": 850955
+}

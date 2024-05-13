@@ -1,0 +1,13 @@
+{
+  "commit": "c93ff685eec319bb11198df6225f5da59b36a7b7",
+  "repo_url": "https://github.com/jenkinsci/jms-messaging-plugin",
+  "date": "2018-06-21T00:39:55",
+  "languages": {
+    "Java": 372394,
+    "HTML": 9572,
+    "Python": 5495,
+    "Dockerfile": 3559,
+    "Shell": 2756
+  },
+  "size": 393776
+}

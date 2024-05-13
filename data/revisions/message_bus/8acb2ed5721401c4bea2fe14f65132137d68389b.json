@@ -1,0 +1,11 @@
+{
+  "commit": "8acb2ed5721401c4bea2fe14f65132137d68389b",
+  "repo_url": "https://github.com/discourse/message_bus",
+  "date": "2021-05-31T08:38:51",
+  "languages": {
+    "Ruby": 201133,
+    "JavaScript": 24459,
+    "Dockerfile": 463
+  },
+  "size": 226055
+}

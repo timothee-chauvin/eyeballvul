@@ -1,0 +1,15 @@
+{
+  "commit": "a434241bc255c3391bc61c1c01f129f685bec7fe",
+  "repo_url": "https://github.com/greenbone/gsa",
+  "date": "2019-07-17T13:45:39",
+  "languages": {
+    "JavaScript": 4444414,
+    "C": 968858,
+    "CMake": 97326,
+    "Python": 7353,
+    "HTML": 3582,
+    "Roff": 3051,
+    "Shell": 1434
+  },
+  "size": 5526018
+}

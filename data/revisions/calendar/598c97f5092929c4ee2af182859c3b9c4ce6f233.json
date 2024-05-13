@@ -1,0 +1,14 @@
+{
+  "commit": "598c97f5092929c4ee2af182859c3b9c4ce6f233",
+  "repo_url": "https://github.com/nextcloud/calendar",
+  "date": "2017-12-08T13:11:00",
+  "languages": {
+    "JavaScript": 1238459,
+    "PHP": 157677,
+    "CSS": 28695,
+    "Python": 12743,
+    "Makefile": 5706,
+    "HTML": 534
+  },
+  "size": 1443814
+}

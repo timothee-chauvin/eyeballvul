@@ -1,0 +1,13 @@
+{
+  "commit": "a10af855abdd444df5e464187c15e1c81fa18d4d",
+  "repo_url": "https://github.com/containers/bubblewrap",
+  "date": "2016-12-19T09:19:53",
+  "languages": {
+    "C": 97694,
+    "M4": 14264,
+    "Makefile": 12123,
+    "Shell": 4350,
+    "Emacs Lisp": 63
+  },
+  "size": 128494
+}

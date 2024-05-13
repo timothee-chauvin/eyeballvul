@@ -1,0 +1,13 @@
+{
+  "commit": "881d11cafdbc5ac1f18f795041eef4ff30a0c37c",
+  "repo_url": "https://github.com/uninett/mod_auth_mellon",
+  "date": "2019-02-11T07:26:56",
+  "languages": {
+    "C": 419766,
+    "M4": 3669,
+    "Shell": 2696,
+    "Makefile": 1933,
+    "Emacs Lisp": 76
+  },
+  "size": 428140
+}

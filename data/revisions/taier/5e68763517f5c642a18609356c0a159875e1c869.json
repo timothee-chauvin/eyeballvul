@@ -1,0 +1,18 @@
+{
+  "commit": "5e68763517f5c642a18609356c0a159875e1c869",
+  "repo_url": "https://github.com/dtstack/taier",
+  "date": "2022-11-02T08:17:25",
+  "languages": {
+    "Java": 9852170,
+    "TypeScript": 1572812,
+    "CSS": 713033,
+    "PLpgSQL": 469685,
+    "Scala": 85975,
+    "SCSS": 62545,
+    "JavaScript": 36259,
+    "Shell": 5398,
+    "Dockerfile": 2242,
+    "Mustache": 241
+  },
+  "size": 12800360
+}

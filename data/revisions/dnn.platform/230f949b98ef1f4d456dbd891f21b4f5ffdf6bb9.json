@@ -1,0 +1,20 @@
+{
+  "commit": "230f949b98ef1f4d456dbd891f21b4f5ffdf6bb9",
+  "repo_url": "https://github.com/dnnsoftware/dnn.platform",
+  "date": "2018-03-21T09:09:21",
+  "languages": {
+    "C#": 20218311,
+    "JavaScript": 3824347,
+    "CSS": 903013,
+    "ASP.NET": 565632,
+    "HTML": 479437,
+    "Visual Basic .NET": 139321,
+    "TSQL": 127572,
+    "XSLT": 10488,
+    "Less": 5526,
+    "Batchfile": 2674,
+    "Smalltalk": 2410,
+    "PowerShell": 2157
+  },
+  "size": 26280888
+}

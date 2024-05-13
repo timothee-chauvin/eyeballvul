@@ -1,0 +1,13 @@
+{
+  "commit": "26f3a5ae9f88e5bf47c93ea0df18efb909b6aced",
+  "repo_url": "https://github.com/openmrs/openmrs-module-adminui",
+  "date": "2020-10-20T15:22:42",
+  "languages": {
+    "Groovy": 151509,
+    "Java": 121593,
+    "JavaScript": 81375,
+    "SCSS": 2424,
+    "Ruby": 921
+  },
+  "size": 357822
+}

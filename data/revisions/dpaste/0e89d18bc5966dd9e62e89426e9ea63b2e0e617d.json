@@ -1,0 +1,14 @@
+{
+  "commit": "0e89d18bc5966dd9e62e89426e9ea63b2e0e617d",
+  "repo_url": "https://github.com/darrenofficial/dpaste",
+  "date": "2022-06-02T17:35:20",
+  "languages": {
+    "Python": 91290,
+    "SCSS": 17129,
+    "HTML": 11624,
+    "JavaScript": 4959,
+    "Makefile": 2169,
+    "Dockerfile": 1505
+  },
+  "size": 128676
+}

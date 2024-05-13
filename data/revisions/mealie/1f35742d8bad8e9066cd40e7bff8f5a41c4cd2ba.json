@@ -1,0 +1,14 @@
+{
+  "commit": "1f35742d8bad8e9066cd40e7bff8f5a41c4cd2ba",
+  "repo_url": "https://github.com/mealie-recipes/mealie",
+  "date": "2021-04-20T19:57:16",
+  "languages": {
+    "Vue": 222018,
+    "Python": 203956,
+    "JavaScript": 40828,
+    "Makefile": 2196,
+    "Dockerfile": 1661,
+    "Shell": 730
+  },
+  "size": 471389
+}

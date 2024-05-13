@@ -1,0 +1,17 @@
+{
+  "commit": "ec1a47cc800a465ac89811316ea9ca1cd2889cc3",
+  "repo_url": "https://github.com/readthedocs/readthedocs.org",
+  "date": "2019-05-30T18:12:27",
+  "languages": {
+    "Python": 1843143,
+    "JavaScript": 431128,
+    "HTML": 197547,
+    "CSS": 66224,
+    "Makefile": 4594,
+    "Batchfile": 4515,
+    "Shell": 349,
+    "Less": 328,
+    "Handlebars": 175
+  },
+  "size": 2548003
+}

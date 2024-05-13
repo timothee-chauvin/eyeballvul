@@ -1,0 +1,11 @@
+{
+  "commit": "13293140eaa6c2896d17c3fb2b62f780b5331ffb",
+  "repo_url": "https://github.com/opensuse/obs-service-tar_scm",
+  "date": "2018-07-03T11:18:29",
+  "languages": {
+    "Python": 176038,
+    "Makefile": 5103,
+    "Shell": 734
+  },
+  "size": 181875
+}

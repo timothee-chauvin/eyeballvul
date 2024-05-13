@@ -1,0 +1,13 @@
+{
+  "commit": "b5abf2f64fab916e97c8be15309aff7135a1d768",
+  "repo_url": "https://github.com/rmagick/rmagick",
+  "date": "2023-03-12T18:44:32",
+  "languages": {
+    "C": 957105,
+    "Ruby": 532617,
+    "Shell": 5285,
+    "Gnuplot": 492,
+    "Dockerfile": 206
+  },
+  "size": 1495705
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "3e0705528bb8322f67b1b9d2a2476f5294ae0ca8",
+  "repo_url": "https://github.com/ntop/ntopng",
+  "date": "2016-06-27T12:12:56",
+  "languages": {
+    "Lua": 1176626,
+    "C++": 1076219,
+    "C": 96330,
+    "NASL": 45866,
+    "Roff": 17572,
+    "Makefile": 14228,
+    "Shell": 9760,
+    "HTML": 7477,
+    "CSS": 7309,
+    "Ruby": 1143
+  },
+  "size": 2452530
+}

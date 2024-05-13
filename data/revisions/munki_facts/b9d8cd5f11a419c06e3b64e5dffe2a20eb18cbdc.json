@@ -1,0 +1,12 @@
+{
+  "commit": "b9d8cd5f11a419c06e3b64e5dffe2a20eb18cbdc",
+  "repo_url": "https://github.com/munkireport/munki_facts",
+  "date": "2020-03-04T20:56:48",
+  "languages": {
+    "PHP": 9046,
+    "Hack": 2208,
+    "Python": 1827,
+    "Shell": 832
+  },
+  "size": 13913
+}

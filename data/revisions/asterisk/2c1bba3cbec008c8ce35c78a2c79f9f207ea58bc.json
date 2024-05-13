@@ -1,0 +1,28 @@
+{
+  "commit": "2c1bba3cbec008c8ce35c78a2c79f9f207ea58bc",
+  "repo_url": "https://github.com/asterisk/asterisk",
+  "date": "2020-10-19T18:31:06",
+  "languages": {
+    "C": 38491204,
+    "Python": 313959,
+    "Shell": 250892,
+    "HTML": 221995,
+    "M4": 166340,
+    "Makefile": 139062,
+    "Perl": 114007,
+    "C++": 87706,
+    "Yacc": 64828,
+    "PLpgSQL": 49180,
+    "Mustache": 31695,
+    "Lex": 26100,
+    "Vim Script": 11793,
+    "Roff": 10447,
+    "JavaScript": 7906,
+    "Tcl": 4197,
+    "PHP": 2106,
+    "Mako": 1730,
+    "CSS": 1031,
+    "Awk": 642
+  },
+  "size": 39996820
+}

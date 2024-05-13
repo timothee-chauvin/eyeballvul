@@ -1,0 +1,12 @@
+{
+  "commit": "9ff4049e7bb0df398107abd0b2dbe1b6110e2f85",
+  "repo_url": "https://github.com/rpodgorny/uptimed",
+  "date": "2021-10-13T08:22:35",
+  "languages": {
+    "C": 112732,
+    "Shell": 3435,
+    "M4": 2307,
+    "Makefile": 1559
+  },
+  "size": 120033
+}

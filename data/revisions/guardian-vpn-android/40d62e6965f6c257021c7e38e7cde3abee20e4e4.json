@@ -1,0 +1,12 @@
+{
+  "commit": "40d62e6965f6c257021c7e38e7cde3abee20e4e4",
+  "repo_url": "https://github.com/mozilla-mobile/guardian-vpn-android",
+  "date": "2020-07-28T05:15:57",
+  "languages": {
+    "Kotlin": 309345,
+    "Fluent": 20344,
+    "Python": 2670,
+    "Shell": 441
+  },
+  "size": 332800
+}

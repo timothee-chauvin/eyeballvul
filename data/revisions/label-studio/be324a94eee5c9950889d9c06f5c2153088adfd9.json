@@ -1,0 +1,17 @@
+{
+  "commit": "be324a94eee5c9950889d9c06f5c2153088adfd9",
+  "repo_url": "https://github.com/heartexlabs/label-studio",
+  "date": "2022-06-16T14:21:53",
+  "languages": {
+    "Python": 1219565,
+    "JavaScript": 327713,
+    "Stylus": 63586,
+    "CSS": 40283,
+    "TypeScript": 34486,
+    "HTML": 34317,
+    "Shell": 7583,
+    "Dockerfile": 1630,
+    "Makefile": 1100
+  },
+  "size": 1730263
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "852bb4782a28ad72a9dcb7b337a8b8876a87cbf1",
+  "repo_url": "https://github.com/parse-community/parse-server",
+  "date": "2022-03-24T18:23:57",
+  "languages": {
+    "JavaScript": 3880840,
+    "HTML": 25876,
+    "Shell": 6846,
+    "Handlebars": 2113,
+    "Dockerfile": 1166
+  },
+  "size": 3916841
+}

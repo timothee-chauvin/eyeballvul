@@ -1,0 +1,14 @@
+{
+  "commit": "8afbd704895ed41113e73b838f83f0658c13dc09",
+  "repo_url": "https://github.com/harvesthq/chosen",
+  "date": "2018-06-06T19:40:09",
+  "languages": {
+    "HTML": 185210,
+    "CoffeeScript": 94016,
+    "SCSS": 9648,
+    "CSS": 8683,
+    "Shell": 1106,
+    "JavaScript": 977
+  },
+  "size": 299640
+}

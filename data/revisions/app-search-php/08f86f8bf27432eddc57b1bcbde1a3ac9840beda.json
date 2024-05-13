@@ -1,0 +1,12 @@
+{
+  "commit": "08f86f8bf27432eddc57b1bcbde1a3ac9840beda",
+  "repo_url": "https://github.com/elastic/app-search-php",
+  "date": "2020-02-12T15:47:19",
+  "languages": {
+    "PHP": 114396,
+    "Mustache": 5402,
+    "Shell": 655,
+    "Dockerfile": 425
+  },
+  "size": 120878
+}

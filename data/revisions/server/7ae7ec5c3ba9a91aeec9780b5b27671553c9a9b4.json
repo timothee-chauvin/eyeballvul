@@ -1,0 +1,12 @@
+{
+  "commit": "7ae7ec5c3ba9a91aeec9780b5b27671553c9a9b4",
+  "repo_url": "https://github.com/sitefusion/server",
+  "date": "2016-01-22T13:39:11",
+  "languages": {
+    "PHP": 611934,
+    "JavaScript": 284602,
+    "HTML": 7237,
+    "Smarty": 3029
+  },
+  "size": 906802
+}

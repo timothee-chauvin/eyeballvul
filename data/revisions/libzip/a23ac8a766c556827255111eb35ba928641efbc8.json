@@ -1,0 +1,16 @@
+{
+  "commit": "a23ac8a766c556827255111eb35ba928641efbc8",
+  "repo_url": "https://github.com/nih-at/libzip",
+  "date": "2017-02-19T10:57:39",
+  "languages": {
+    "C": 707636,
+    "C++": 30097,
+    "Perl": 29493,
+    "CMake": 15701,
+    "Makefile": 13355,
+    "Shell": 7666,
+    "Batchfile": 7156,
+    "M4": 5664
+  },
+  "size": 816768
+}

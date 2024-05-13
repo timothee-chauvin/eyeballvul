@@ -1,0 +1,16 @@
+{
+  "commit": "0e58e16936c3e0d98e43efec7ec17d25e82425a7",
+  "repo_url": "https://github.com/karelzak/util-linux",
+  "date": "2015-08-24T10:38:48",
+  "languages": {
+    "C": 3839938,
+    "Roff": 642036,
+    "Shell": 358819,
+    "M4": 77263,
+    "Berry": 57145,
+    "Makefile": 27275,
+    "Python": 8511,
+    "Perl": 529
+  },
+  "size": 5011516
+}

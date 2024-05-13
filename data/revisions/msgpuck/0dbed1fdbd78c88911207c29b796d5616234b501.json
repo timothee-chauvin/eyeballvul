@@ -1,0 +1,11 @@
+{
+  "commit": "0dbed1fdbd78c88911207c29b796d5616234b501",
+  "repo_url": "https://github.com/tarantool/msgpuck",
+  "date": "2016-08-09T19:34:32",
+  "languages": {
+    "C": 98324,
+    "CMake": 2862,
+    "Makefile": 1497
+  },
+  "size": 102683
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "db86d353a8ee79beae4d743a9f9cc099e59ae578",
+  "repo_url": "https://github.com/psd-tools/psd-tools",
+  "date": "2020-03-10T07:18:13",
+  "languages": {
+    "Python": 556789,
+    "Cython": 3067
+  },
+  "size": 559856
+}

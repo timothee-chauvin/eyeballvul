@@ -1,0 +1,14 @@
+{
+  "commit": "ae0b9423453a50b2ae71cd8ac20faa8e33a6799a",
+  "repo_url": "https://github.com/phpcollab/phpcollab",
+  "date": "2015-07-02T03:38:11",
+  "languages": {
+    "PHP": 3516701,
+    "JavaScript": 512445,
+    "CSS": 96189,
+    "HTML": 87573,
+    "Perl": 5784,
+    "Hack": 43
+  },
+  "size": 4218735
+}

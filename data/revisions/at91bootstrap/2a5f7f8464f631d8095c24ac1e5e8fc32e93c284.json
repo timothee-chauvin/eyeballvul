@@ -1,0 +1,18 @@
+{
+  "commit": "2a5f7f8464f631d8095c24ac1e5e8fc32e93c284",
+  "repo_url": "https://github.com/linux4sam/at91bootstrap",
+  "date": "2020-01-13T15:40:52",
+  "languages": {
+    "C": 1967915,
+    "C++": 52299,
+    "Makefile": 38577,
+    "Assembly": 18121,
+    "Yacc": 14906,
+    "Perl": 8471,
+    "Shell": 6793,
+    "Lex": 6540,
+    "Python": 6174,
+    "Emacs Lisp": 189
+  },
+  "size": 2119985
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "d44d7ab3ca8db23dc9c12b69beb9dc579a2e34b8",
+  "repo_url": "https://github.com/plataformatec/simple_form",
+  "date": "2018-11-22T22:15:06",
+  "languages": {
+    "Ruby": 382263,
+    "HTML": 497,
+    "Haml": 408,
+    "Slim": 373
+  },
+  "size": 383541
+}

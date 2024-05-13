@@ -1,0 +1,20 @@
+{
+  "commit": "aa0af3f601bad55294ec241009293c60bbb3dce3",
+  "repo_url": "https://github.com/morpheus65535/bazarr",
+  "date": "2023-09-15T21:03:29",
+  "languages": {
+    "Python": 39457953,
+    "TypeScript": 453776,
+    "Cython": 55626,
+    "C": 51512,
+    "Mako": 19590,
+    "C++": 14846,
+    "JavaScript": 10746,
+    "HTML": 9240,
+    "Roff": 7997,
+    "CSS": 6856,
+    "Shell": 1543,
+    "Handlebars": 658
+  },
+  "size": 40090343
+}

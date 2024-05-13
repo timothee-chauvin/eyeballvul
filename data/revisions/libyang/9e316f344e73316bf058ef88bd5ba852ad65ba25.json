@@ -1,0 +1,21 @@
+{
+  "commit": "9e316f344e73316bf058ef88bd5ba852ad65ba25",
+  "repo_url": "https://github.com/cesnet/libyang",
+  "date": "2019-01-16T08:18:18",
+  "languages": {
+    "C": 5129548,
+    "C++": 238095,
+    "Python": 72462,
+    "Java": 59665,
+    "CMake": 47997,
+    "SWIG": 24401,
+    "Lex": 12026,
+    "Roff": 9829,
+    "XSLT": 8488,
+    "Shell": 5238,
+    "Dockerfile": 3775,
+    "Makefile": 2002,
+    "JavaScript": 176
+  },
+  "size": 5613702
+}

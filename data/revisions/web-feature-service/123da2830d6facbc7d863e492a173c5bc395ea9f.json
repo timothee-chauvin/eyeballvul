@@ -1,0 +1,14 @@
+{
+  "commit": "123da2830d6facbc7d863e492a173c5bc395ea9f",
+  "repo_url": "https://github.com/3dcitydb/web-feature-service",
+  "date": "2022-05-23T15:27:16",
+  "languages": {
+    "Java": 1358647,
+    "JavaScript": 428938,
+    "CSS": 11156,
+    "HTML": 3452,
+    "Dockerfile": 1995,
+    "Shell": 738
+  },
+  "size": 1804926
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "e70b9e80f1f188aa1f12e2a26f8834a9341fb984",
+  "repo_url": "https://github.com/instedd/pollit",
+  "date": "2016-04-27T18:27:25",
+  "languages": {
+    "JavaScript": 1020531,
+    "Ruby": 321215,
+    "Haml": 71429,
+    "HTML": 35482,
+    "CoffeeScript": 12604,
+    "SCSS": 9303,
+    "Dockerfile": 529,
+    "CSS": 451,
+    "Shell": 419,
+    "Procfile": 94
+  },
+  "size": 1472057
+}

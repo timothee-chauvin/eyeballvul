@@ -1,0 +1,16 @@
+{
+  "commit": "01bde6294057b704ead324d80ab666acf47e8c75",
+  "repo_url": "https://github.com/fastly/js-compute-runtime",
+  "date": "2022-09-20T16:49:11",
+  "languages": {
+    "C++": 428006,
+    "JavaScript": 227809,
+    "C": 18821,
+    "Rust": 17820,
+    "TypeScript": 11695,
+    "Shell": 6064,
+    "Makefile": 3249,
+    "HTML": 3095
+  },
+  "size": 716559
+}

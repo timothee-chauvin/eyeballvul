@@ -1,0 +1,15 @@
+{
+  "commit": "865e76adf86fb38380220a3b760aa92ba5407c60",
+  "repo_url": "https://github.com/vmware/open-vm-tools",
+  "date": "2023-08-31T14:38:59",
+  "languages": {
+    "C": 10550422,
+    "C++": 659232,
+    "Makefile": 190600,
+    "Shell": 140495,
+    "M4": 71817,
+    "RPC": 22392,
+    "Starlark": 8805
+  },
+  "size": 11643763
+}

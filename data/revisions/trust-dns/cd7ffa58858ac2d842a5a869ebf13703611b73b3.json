@@ -1,0 +1,11 @@
+{
+  "commit": "cd7ffa58858ac2d842a5a869ebf13703611b73b3",
+  "repo_url": "https://github.com/bluejekyll/trust-dns",
+  "date": "2019-12-06T16:47:09",
+  "languages": {
+    "Rust": 2291215,
+    "Shell": 16679,
+    "Batchfile": 3900
+  },
+  "size": 2311794
+}

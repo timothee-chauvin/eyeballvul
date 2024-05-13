@@ -1,0 +1,12 @@
+{
+  "commit": "df00e42bbac60253fd311165b0765cca19e4b097",
+  "repo_url": "https://github.com/jenkinsci/kubernetes-cd-plugin",
+  "date": "2020-10-27T03:23:31",
+  "languages": {
+    "Java": 353719,
+    "HTML": 7868,
+    "Groovy": 1798,
+    "JavaScript": 1330
+  },
+  "size": 364715
+}

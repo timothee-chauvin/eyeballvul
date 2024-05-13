@@ -1,0 +1,15 @@
+{
+  "commit": "7bcb67b06ea755d438e91f5c143d20531497e286",
+  "repo_url": "https://github.com/node-opcua/node-opcua",
+  "date": "2022-05-10T20:21:35",
+  "languages": {
+    "TypeScript": 8411888,
+    "JavaScript": 2462644,
+    "XSLT": 5379,
+    "Shell": 4981,
+    "Batchfile": 2147,
+    "Makefile": 2121,
+    "Dockerfile": 460
+  },
+  "size": 10889620
+}

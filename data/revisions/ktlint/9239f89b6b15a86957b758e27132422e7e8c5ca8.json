@@ -1,0 +1,13 @@
+{
+  "commit": "9239f89b6b15a86957b758e27132422e7e8c5ca8",
+  "repo_url": "https://github.com/pinterest/ktlint",
+  "date": "2018-10-02T19:09:31",
+  "languages": {
+    "Kotlin": 291242,
+    "Python": 6875,
+    "Ruby": 3780,
+    "Shell": 3326,
+    "Batchfile": 3012
+  },
+  "size": 308235
+}

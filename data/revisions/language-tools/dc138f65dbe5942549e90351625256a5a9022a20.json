@@ -1,0 +1,12 @@
+{
+  "commit": "dc138f65dbe5942549e90351625256a5a9022a20",
+  "repo_url": "https://github.com/sveltejs/language-tools",
+  "date": "2021-03-19T13:22:48",
+  "languages": {
+    "TypeScript": 889741,
+    "Svelte": 46719,
+    "JavaScript": 39240,
+    "HTML": 12908
+  },
+  "size": 988608
+}

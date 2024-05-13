@@ -1,0 +1,10 @@
+{
+  "commit": "2b63f98566e514f440dba8b107ddc3adc22cba66",
+  "repo_url": "https://github.com/airbrake/airbrake-ruby",
+  "date": "2019-04-08T09:44:29",
+  "languages": {
+    "Ruby": 289838,
+    "Go": 297
+  },
+  "size": 290135
+}

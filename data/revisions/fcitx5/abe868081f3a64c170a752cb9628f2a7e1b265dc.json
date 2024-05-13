@@ -1,0 +1,13 @@
+{
+  "commit": "abe868081f3a64c170a752cb9628f2a7e1b265dc",
+  "repo_url": "https://github.com/fcitx/fcitx5",
+  "date": "2021-05-04T15:20:30",
+  "languages": {
+    "C++": 1844083,
+    "C": 361543,
+    "CMake": 81043,
+    "Shell": 61306,
+    "Python": 28275
+  },
+  "size": 2376250
+}

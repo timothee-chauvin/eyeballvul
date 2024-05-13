@@ -1,0 +1,21 @@
+{
+  "commit": "ae28df5276d67b8ece45603567313ca3e851d251",
+  "repo_url": "https://github.com/purplei2p/i2pd",
+  "date": "2017-11-13T19:20:41",
+  "languages": {
+    "C++": 1456938,
+    "Java": 95180,
+    "CMake": 23357,
+    "HTML": 9467,
+    "Makefile": 9257,
+    "QMake": 9250,
+    "AIDL": 6828,
+    "Dockerfile": 4695,
+    "Batchfile": 2676,
+    "Inno Setup": 1579,
+    "Shell": 1161,
+    "C": 1047,
+    "Emacs Lisp": 67
+  },
+  "size": 1621502
+}

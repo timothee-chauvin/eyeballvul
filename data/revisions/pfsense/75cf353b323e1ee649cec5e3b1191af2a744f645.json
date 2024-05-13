@@ -1,0 +1,18 @@
+{
+  "commit": "75cf353b323e1ee649cec5e3b1191af2a744f645",
+  "repo_url": "https://github.com/pfsense/pfsense",
+  "date": "2014-09-17T10:27:39",
+  "languages": {
+    "PHP": 6499844,
+    "CSS": 612653,
+    "JavaScript": 583263,
+    "Shell": 341919,
+    "Max": 130191,
+    "CoffeeScript": 40936,
+    "1C Enterprise": 28793,
+    "HTML": 7537,
+    "Roff": 4696,
+    "Makefile": 3049
+  },
+  "size": 8252881
+}

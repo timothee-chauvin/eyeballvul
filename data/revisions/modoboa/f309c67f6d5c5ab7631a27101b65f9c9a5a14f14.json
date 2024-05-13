@@ -1,0 +1,17 @@
+{
+  "commit": "f309c67f6d5c5ab7631a27101b65f9c9a5a14f14",
+  "repo_url": "https://github.com/modoboa/modoboa",
+  "date": "2022-10-27T14:54:43",
+  "languages": {
+    "Python": 1189314,
+    "Vue": 181470,
+    "JavaScript": 149665,
+    "HTML": 91375,
+    "Smarty": 10110,
+    "CSS": 10040,
+    "Makefile": 2547,
+    "SCSS": 585,
+    "Shell": 281
+  },
+  "size": 1635387
+}

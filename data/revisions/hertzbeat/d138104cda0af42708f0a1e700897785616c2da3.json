@@ -1,0 +1,17 @@
+{
+  "commit": "d138104cda0af42708f0a1e700897785616c2da3",
+  "repo_url": "https://github.com/dromara/hertzbeat",
+  "date": "2022-10-07T11:20:07",
+  "languages": {
+    "Java": 946988,
+    "Less": 303389,
+    "TypeScript": 231633,
+    "HTML": 159529,
+    "JavaScript": 38815,
+    "CSS": 22394,
+    "Shell": 9317,
+    "Batchfile": 3263,
+    "Dockerfile": 230
+  },
+  "size": 1715558
+}

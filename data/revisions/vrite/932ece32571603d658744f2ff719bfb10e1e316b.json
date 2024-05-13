@@ -1,0 +1,15 @@
+{
+  "commit": "932ece32571603d658744f2ff719bfb10e1e316b",
+  "repo_url": "https://github.com/vriteio/vrite",
+  "date": "2023-09-30T13:39:20",
+  "languages": {
+    "TypeScript": 1303896,
+    "Astro": 87623,
+    "JavaScript": 82423,
+    "SCSS": 15485,
+    "CSS": 12779,
+    "Dockerfile": 3102,
+    "HTML": 2844
+  },
+  "size": 1508152
+}

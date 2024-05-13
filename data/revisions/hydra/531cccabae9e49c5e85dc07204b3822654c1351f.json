@@ -1,0 +1,16 @@
+{
+  "commit": "531cccabae9e49c5e85dc07204b3822654c1351f",
+  "repo_url": "https://github.com/input-output-hk/hydra",
+  "date": "2023-06-30T09:18:26",
+  "languages": {
+    "Haskell": 1264557,
+    "TeX": 204017,
+    "Shell": 37872,
+    "Nix": 18979,
+    "HCL": 15842,
+    "JavaScript": 2560,
+    "HTML": 1239,
+    "CSS": 1110
+  },
+  "size": 1546176
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "3f0747a3c8d8f6e85576c605260b759ac2906c40",
+  "repo_url": "https://github.com/folio-org/raml-module-builder",
+  "date": "2019-08-12T12:58:22",
+  "languages": {
+    "JavaScript": 4803313,
+    "Java": 1443177,
+    "CSS": 239508,
+    "RAML": 26600,
+    "FreeMarker": 25189,
+    "AspectJ": 6133,
+    "PLpgSQL": 6104,
+    "HTML": 1048,
+    "Shell": 267
+  },
+  "size": 6551339
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "75b3e4e8ebd466fe19be1d7b96f076bfa1a38144",
+  "repo_url": "https://github.com/lane711/sonicjs",
+  "date": "2022-05-10T15:02:15",
+  "languages": {
+    "CSS": 3450856,
+    "HTML": 2673616,
+    "JavaScript": 2649119,
+    "Handlebars": 428681,
+    "SCSS": 195779,
+    "Dockerfile": 819,
+    "Procfile": 78
+  },
+  "size": 9398948
+}

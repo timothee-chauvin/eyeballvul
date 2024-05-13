@@ -1,0 +1,13 @@
+{
+  "commit": "00f34f49ef772271a59e0b8e70523997ad0a6581",
+  "repo_url": "https://github.com/monitorr/monitorr",
+  "date": "2018-07-03T06:46:57",
+  "languages": {
+    "PHP": 447884,
+    "JavaScript": 186944,
+    "CSS": 64975,
+    "HTML": 29183,
+    "Hack": 12354
+  },
+  "size": 741340
+}

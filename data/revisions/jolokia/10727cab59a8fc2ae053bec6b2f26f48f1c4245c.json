@@ -1,0 +1,14 @@
+{
+  "commit": "10727cab59a8fc2ae053bec6b2f26f48f1c4245c",
+  "repo_url": "https://github.com/jolokia/jolokia",
+  "date": "2018-01-23T16:31:51",
+  "languages": {
+    "Java": 1904957,
+    "JavaScript": 270670,
+    "XSLT": 35279,
+    "CSS": 28848,
+    "HTML": 9125,
+    "Shell": 981
+  },
+  "size": 2249860
+}

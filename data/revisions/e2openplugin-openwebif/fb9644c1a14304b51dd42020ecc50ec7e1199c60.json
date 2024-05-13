@@ -1,0 +1,13 @@
+{
+  "commit": "fb9644c1a14304b51dd42020ecc50ec7e1199c60",
+  "repo_url": "https://github.com/e2openplugins/e2openplugin-openwebif",
+  "date": "2017-05-13T21:00:15",
+  "languages": {
+    "Python": 341430,
+    "HTML": 225378,
+    "CSS": 158351,
+    "JavaScript": 102926,
+    "Shell": 3649
+  },
+  "size": 831734
+}

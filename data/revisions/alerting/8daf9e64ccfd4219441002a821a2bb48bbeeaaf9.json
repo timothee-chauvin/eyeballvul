@@ -1,0 +1,10 @@
+{
+  "commit": "8daf9e64ccfd4219441002a821a2bb48bbeeaaf9",
+  "repo_url": "https://github.com/opendistro-for-elasticsearch/alerting",
+  "date": "2020-12-09T03:25:05",
+  "languages": {
+    "Kotlin": 1013866,
+    "Java": 93354
+  },
+  "size": 1107220
+}

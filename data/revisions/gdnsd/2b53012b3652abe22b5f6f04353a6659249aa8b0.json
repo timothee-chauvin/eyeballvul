@@ -1,0 +1,17 @@
+{
+  "commit": "2b53012b3652abe22b5f6f04353a6659249aa8b0",
+  "repo_url": "https://github.com/gdnsd/gdnsd",
+  "date": "2019-05-05T00:34:15",
+  "languages": {
+    "C": 997362,
+    "Perl": 259127,
+    "Raku": 83984,
+    "Ragel": 67663,
+    "M4": 65945,
+    "DIGITAL Command Language": 56382,
+    "C++": 23249,
+    "Makefile": 16550,
+    "Shell": 12784
+  },
+  "size": 1583046
+}

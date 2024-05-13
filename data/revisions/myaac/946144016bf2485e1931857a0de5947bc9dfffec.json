@@ -1,0 +1,14 @@
+{
+  "commit": "946144016bf2485e1931857a0de5947bc9dfffec",
+  "repo_url": "https://github.com/slawkens/myaac",
+  "date": "2023-09-16T08:35:10",
+  "languages": {
+    "PHP": 2501595,
+    "Twig": 316016,
+    "JavaScript": 254488,
+    "CSS": 201250,
+    "HTML": 8318,
+    "Shell": 1232
+  },
+  "size": 3282899
+}

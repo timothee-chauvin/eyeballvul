@@ -1,0 +1,10 @@
+{
+  "commit": "7da449e792a0cb5fb58e192957da0940bbde3870",
+  "repo_url": "https://github.com/jenkinsci/configuration-as-code-plugin",
+  "date": "2018-02-23T10:54:01",
+  "languages": {
+    "Java": 121796,
+    "Dockerfile": 326
+  },
+  "size": 122122
+}

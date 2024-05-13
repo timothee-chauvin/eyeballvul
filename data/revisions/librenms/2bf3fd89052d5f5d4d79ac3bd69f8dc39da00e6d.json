@@ -1,0 +1,22 @@
+{
+  "commit": "2bf3fd89052d5f5d4d79ac3bd69f8dc39da00e6d",
+  "repo_url": "https://github.com/librenms/librenms",
+  "date": "2017-07-30T08:31:34",
+  "languages": {
+    "JavaScript": 7600437,
+    "PHP": 5608182,
+    "HTML": 1167077,
+    "CSS": 488878,
+    "Python": 64703,
+    "Shell": 31121,
+    "CoffeeScript": 20838,
+    "Less": 13883,
+    "Perl": 12014,
+    "Hack": 4105,
+    "Makefile": 1813,
+    "Ruby": 1172,
+    "Pug": 314,
+    "PowerShell": 149
+  },
+  "size": 15014686
+}

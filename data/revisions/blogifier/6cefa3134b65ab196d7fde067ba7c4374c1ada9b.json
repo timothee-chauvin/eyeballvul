@@ -1,0 +1,14 @@
+{
+  "commit": "6cefa3134b65ab196d7fde067ba7c4374c1ada9b",
+  "repo_url": "https://github.com/blogifierdotnet/blogifier",
+  "date": "2019-01-21T00:37:52",
+  "languages": {
+    "C#": 221185,
+    "SCSS": 183806,
+    "HTML": 100782,
+    "JavaScript": 29994,
+    "CSS": 13990,
+    "PowerShell": 6109
+  },
+  "size": 555866
+}

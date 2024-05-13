@@ -1,0 +1,10 @@
+{
+  "commit": "6db20782a52c71a48e33a9f075ba632054c0112d",
+  "repo_url": "https://github.com/docker/notary-official-images",
+  "date": "2018-11-15T11:54:55",
+  "languages": {
+    "Dockerfile": 1616,
+    "Shell": 632
+  },
+  "size": 2248
+}

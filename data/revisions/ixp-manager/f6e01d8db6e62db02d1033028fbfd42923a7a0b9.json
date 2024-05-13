@@ -1,0 +1,19 @@
+{
+  "commit": "f6e01d8db6e62db02d1033028fbfd42923a7a0b9",
+  "repo_url": "https://github.com/inex/ixp-manager",
+  "date": "2020-05-23T10:04:45",
+  "languages": {
+    "PHP": 6761395,
+    "Shell": 168081,
+    "Perl": 52991,
+    "Blade": 52170,
+    "JavaScript": 42981,
+    "Hack": 22475,
+    "CSS": 12010,
+    "SCSS": 9174,
+    "Dockerfile": 5782,
+    "Ruby": 3123,
+    "Vue": 565
+  },
+  "size": 7130747
+}

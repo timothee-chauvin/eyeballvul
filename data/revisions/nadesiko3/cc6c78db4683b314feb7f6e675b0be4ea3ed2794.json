@@ -1,0 +1,17 @@
+{
+  "commit": "cc6c78db4683b314feb7f6e675b0be4ea3ed2794",
+  "repo_url": "https://github.com/kujirahand/nadesiko3",
+  "date": "2022-09-14T01:54:30",
+  "languages": {
+    "JavaScript": 647298,
+    "TypeScript": 158075,
+    "HTML": 30102,
+    "CSS": 11622,
+    "PHP": 3109,
+    "Python": 2317,
+    "Batchfile": 2027,
+    "Shell": 910,
+    "Roff": 5
+  },
+  "size": 855465
+}

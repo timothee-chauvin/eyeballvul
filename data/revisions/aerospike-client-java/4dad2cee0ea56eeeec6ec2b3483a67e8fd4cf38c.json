@@ -1,0 +1,11 @@
+{
+  "commit": "4dad2cee0ea56eeeec6ec2b3483a67e8fd4cf38c",
+  "repo_url": "https://github.com/aerospike/aerospike-client-java",
+  "date": "2023-06-21T21:26:10",
+  "languages": {
+    "Java": 2105594,
+    "Lua": 18263,
+    "Shell": 964
+  },
+  "size": 2124821
+}

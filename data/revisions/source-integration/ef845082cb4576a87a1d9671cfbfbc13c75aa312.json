@@ -1,0 +1,12 @@
+{
+  "commit": "ef845082cb4576a87a1d9671cfbfbc13c75aa312",
+  "repo_url": "https://github.com/mantisbt-plugins/source-integration",
+  "date": "2017-03-06T09:57:49",
+  "languages": {
+    "PHP": 289910,
+    "Shell": 2300,
+    "JavaScript": 1612,
+    "CSS": 110
+  },
+  "size": 293932
+}

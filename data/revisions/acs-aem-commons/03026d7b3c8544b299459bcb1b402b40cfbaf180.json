@@ -1,0 +1,16 @@
+{
+  "commit": "03026d7b3c8544b299459bcb1b402b40cfbaf180",
+  "repo_url": "https://github.com/adobe-consulting-services/acs-aem-commons",
+  "date": "2020-11-10T19:45:48",
+  "languages": {
+    "Java": 6555355,
+    "JavaScript": 420002,
+    "HTML": 55140,
+    "Less": 41740,
+    "CSS": 22967,
+    "Groovy": 4579,
+    "Rich Text Format": 363,
+    "Shell": 354
+  },
+  "size": 7100500
+}

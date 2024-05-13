@@ -1,0 +1,10 @@
+{
+  "commit": "c6a241567e08fcf9b226814562a9a07b24265271",
+  "repo_url": "https://github.com/prometheus/exporter-toolkit",
+  "date": "2022-10-21T11:11:53",
+  "languages": {
+    "Go": 45663,
+    "Makefile": 664
+  },
+  "size": 46327
+}

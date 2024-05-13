@@ -1,0 +1,13 @@
+{
+  "commit": "45879a8c5a2222f88bcd1c0fcc0acabbddb1693f",
+  "repo_url": "https://github.com/angular/angular.js",
+  "date": "2018-05-11T08:31:53",
+  "languages": {
+    "JavaScript": 6552866,
+    "HTML": 80521,
+    "Shell": 21968,
+    "BitBake": 7222,
+    "CSS": 3638
+  },
+  "size": 6666215
+}

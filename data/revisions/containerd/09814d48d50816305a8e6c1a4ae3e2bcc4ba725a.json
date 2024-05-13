@@ -1,0 +1,12 @@
+{
+  "commit": "09814d48d50816305a8e6c1a4ae3e2bcc4ba725a",
+  "repo_url": "https://github.com/containerd/containerd",
+  "date": "2020-08-17T14:41:32",
+  "languages": {
+    "Go": 2691007,
+    "Shell": 27608,
+    "Makefile": 11074,
+    "Assembly": 595
+  },
+  "size": 2730284
+}

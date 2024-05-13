@@ -1,0 +1,17 @@
+{
+  "commit": "68824912016c0ebff2a2a0943f360f11fd5f951b",
+  "repo_url": "https://github.com/documize/community",
+  "date": "2019-11-15T18:21:56",
+  "languages": {
+    "JavaScript": 2036044,
+    "Go": 1568002,
+    "Handlebars": 357936,
+    "SCSS": 251319,
+    "HTML": 108098,
+    "CSS": 71617,
+    "Shell": 2719,
+    "Batchfile": 2498,
+    "Dockerfile": 494
+  },
+  "size": 4398727
+}

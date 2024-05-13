@@ -1,0 +1,22 @@
+{
+  "commit": "46400eb62dc39c3e2ea07e928393b79c884a6479",
+  "repo_url": "https://github.com/wikimedia/mediawiki",
+  "date": "2020-09-24T13:46:27",
+  "languages": {
+    "PHP": 24403905,
+    "JavaScript": 4087141,
+    "CSS": 370250,
+    "Less": 183978,
+    "PLpgSQL": 104437,
+    "Perl": 27998,
+    "Python": 14427,
+    "Shell": 10588,
+    "Mustache": 5491,
+    "HTML": 3384,
+    "Makefile": 2753,
+    "Ruby": 2345,
+    "Batchfile": 45,
+    "Handlebars": 4
+  },
+  "size": 29216746
+}

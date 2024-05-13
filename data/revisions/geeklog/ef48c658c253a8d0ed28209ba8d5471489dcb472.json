@@ -1,0 +1,20 @@
+{
+  "commit": "ef48c658c253a8d0ed28209ba8d5471489dcb472",
+  "repo_url": "https://github.com/geeklog-core/geeklog",
+  "date": "2022-09-27T15:50:55",
+  "languages": {
+    "PHP": 13053487,
+    "HTML": 2811147,
+    "JavaScript": 1942858,
+    "CSS": 1367405,
+    "Stylus": 389494,
+    "Java": 305368,
+    "SCSS": 13896,
+    "Go": 8967,
+    "Python": 7577,
+    "Shell": 4007,
+    "Batchfile": 3821,
+    "Smarty": 392
+  },
+  "size": 19908419
+}

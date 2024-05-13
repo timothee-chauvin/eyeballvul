@@ -1,0 +1,13 @@
+{
+  "commit": "11f66fb1ee9cc511c882a877df2f9678e7b1af86",
+  "repo_url": "https://github.com/cloudfoundry-incubator/bits-service-release",
+  "date": "2018-12-05T13:15:18",
+  "languages": {
+    "Ruby": 96826,
+    "HTML": 24810,
+    "Shell": 13441,
+    "Go": 4243,
+    "Dockerfile": 587
+  },
+  "size": 139907
+}

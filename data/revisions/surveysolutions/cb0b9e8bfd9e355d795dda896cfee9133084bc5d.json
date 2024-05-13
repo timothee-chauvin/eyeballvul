@@ -1,0 +1,22 @@
+{
+  "commit": "cb0b9e8bfd9e355d795dda896cfee9133084bc5d",
+  "repo_url": "https://github.com/surveysolutions/surveysolutions",
+  "date": "2021-09-30T14:09:21",
+  "languages": {
+    "C#": 19994929,
+    "Vue": 1397361,
+    "JavaScript": 891716,
+    "HTML": 514223,
+    "SCSS": 255792,
+    "Less": 191258,
+    "CSS": 50206,
+    "PowerShell": 32182,
+    "Stata": 10636,
+    "PLpgSQL": 4189,
+    "Smalltalk": 4060,
+    "Dockerfile": 1289,
+    "Batchfile": 385,
+    "Shell": 117
+  },
+  "size": 23348343
+}

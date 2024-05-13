@@ -1,0 +1,11 @@
+{
+  "commit": "0d34cdabfed72c60769d0b18e5262d030e3a0de2",
+  "repo_url": "https://github.com/wanglelecc/laracms",
+  "date": "2019-03-14T11:47:13",
+  "languages": {
+    "PHP": 92309,
+    "Blade": 3351,
+    "Vue": 565
+  },
+  "size": 96225
+}

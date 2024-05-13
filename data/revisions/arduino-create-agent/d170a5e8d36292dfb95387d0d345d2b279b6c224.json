@@ -1,0 +1,11 @@
+{
+  "commit": "d170a5e8d36292dfb95387d0d345d2b279b6c224",
+  "repo_url": "https://github.com/arduino/arduino-create-agent",
+  "date": "2023-07-03T08:56:45",
+  "languages": {
+    "Go": 240594,
+    "Python": 15796,
+    "HTML": 6656
+  },
+  "size": 263046
+}

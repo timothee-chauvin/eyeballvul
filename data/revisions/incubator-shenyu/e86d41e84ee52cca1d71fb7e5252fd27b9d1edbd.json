@@ -1,0 +1,14 @@
+{
+  "commit": "e86d41e84ee52cca1d71fb7e5252fd27b9d1edbd",
+  "repo_url": "https://github.com/apache/incubator-shenyu",
+  "date": "2021-04-02T09:46:16",
+  "languages": {
+    "Java": 3164946,
+    "Lua": 12841,
+    "Shell": 8010,
+    "Batchfile": 4250,
+    "Dockerfile": 2390,
+    "HTML": 582
+  },
+  "size": 3193019
+}

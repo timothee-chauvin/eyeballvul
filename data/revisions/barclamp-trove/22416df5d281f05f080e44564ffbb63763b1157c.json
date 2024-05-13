@@ -1,0 +1,14 @@
+{
+  "commit": "22416df5d281f05f080e44564ffbb63763b1157c",
+  "repo_url": "https://github.com/crowbar/barclamp-trove",
+  "date": "2015-02-03T14:38:36",
+  "languages": {
+    "HTML": 299230,
+    "Ruby": 267938,
+    "CSS": 23546,
+    "JavaScript": 12746,
+    "Shell": 534,
+    "Haml": 436
+  },
+  "size": 604430
+}

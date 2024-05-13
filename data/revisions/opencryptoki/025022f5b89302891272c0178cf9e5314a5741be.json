@@ -1,0 +1,17 @@
+{
+  "commit": "025022f5b89302891272c0178cf9e5314a5741be",
+  "repo_url": "https://github.com/opencryptoki/opencryptoki",
+  "date": "2021-03-31T08:05:05",
+  "languages": {
+    "C": 7604609,
+    "Perl": 45895,
+    "Makefile": 44168,
+    "Shell": 40091,
+    "M4": 18613,
+    "Yacc": 11621,
+    "GDB": 5453,
+    "Lex": 3015,
+    "C++": 722
+  },
+  "size": 7774187
+}

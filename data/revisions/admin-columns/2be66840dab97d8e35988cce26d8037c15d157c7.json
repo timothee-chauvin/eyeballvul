@@ -1,0 +1,13 @@
+{
+  "commit": "2be66840dab97d8e35988cce26d8037c15d157c7",
+  "repo_url": "https://github.com/codepress/admin-columns",
+  "date": "2019-08-21T12:00:35",
+  "languages": {
+    "PHP": 488817,
+    "SCSS": 87045,
+    "JavaScript": 60251,
+    "Shell": 903,
+    "Nunjucks": 872
+  },
+  "size": 637888
+}

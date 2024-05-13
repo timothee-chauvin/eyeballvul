@@ -1,0 +1,24 @@
+{
+  "commit": "3db718799fe42796475e90a7a95df6a3100c53d5",
+  "repo_url": "https://github.com/alliedmodders/amxmodx",
+  "date": "2013-02-14T08:51:48",
+  "languages": {
+    "C": 5399723,
+    "C++": 3755130,
+    "Pascal": 1879908,
+    "Pawn": 734477,
+    "SourcePawn": 338477,
+    "Assembly": 117665,
+    "Makefile": 74290,
+    "C#": 66790,
+    "NSIS": 56036,
+    "HTML": 49581,
+    "Perl": 8803,
+    "Smarty": 7431,
+    "CMake": 1672,
+    "CSS": 1543,
+    "Shell": 559,
+    "Batchfile": 525
+  },
+  "size": 12492610
+}

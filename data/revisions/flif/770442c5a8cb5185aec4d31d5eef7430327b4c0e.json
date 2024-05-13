@@ -1,0 +1,16 @@
+{
+  "commit": "770442c5a8cb5185aec4d31d5eef7430327b4c0e",
+  "repo_url": "https://github.com/flif-hub/flif",
+  "date": "2017-04-28T15:46:54",
+  "languages": {
+    "C++": 560504,
+    "C": 392626,
+    "Shell": 12640,
+    "Makefile": 12056,
+    "Batchfile": 6051,
+    "CMake": 4713,
+    "Python": 3788,
+    "PowerShell": 2224
+  },
+  "size": 994602
+}

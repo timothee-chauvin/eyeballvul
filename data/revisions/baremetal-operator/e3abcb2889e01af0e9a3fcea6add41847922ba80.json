@@ -1,0 +1,14 @@
+{
+  "commit": "e3abcb2889e01af0e9a3fcea6add41847922ba80",
+  "repo_url": "https://github.com/metal3-io/baremetal-operator",
+  "date": "2023-04-25T08:13:14",
+  "languages": {
+    "Go": 888674,
+    "Shell": 37235,
+    "Makefile": 10385,
+    "Python": 6544,
+    "Smarty": 2198,
+    "Dockerfile": 1601
+  },
+  "size": 946637
+}

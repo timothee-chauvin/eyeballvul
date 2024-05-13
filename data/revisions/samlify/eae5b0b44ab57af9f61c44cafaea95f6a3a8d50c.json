@@ -1,0 +1,12 @@
+{
+  "commit": "eae5b0b44ab57af9f61c44cafaea95f6a3a8d50c",
+  "repo_url": "https://github.com/tngan/samlify",
+  "date": "2017-08-11T14:48:53",
+  "languages": {
+    "TypeScript": 190886,
+    "JavaScript": 459,
+    "Shell": 430,
+    "Makefile": 326
+  },
+  "size": 192101
+}

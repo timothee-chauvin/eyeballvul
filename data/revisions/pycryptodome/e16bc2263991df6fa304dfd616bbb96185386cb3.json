@@ -1,0 +1,14 @@
+{
+  "commit": "e16bc2263991df6fa304dfd616bbb96185386cb3",
+  "repo_url": "https://github.com/legrandin/pycryptodome",
+  "date": "2018-08-12T13:27:59",
+  "languages": {
+    "Python": 1708420,
+    "C": 661829,
+    "Shell": 5953,
+    "Batchfile": 3124,
+    "PowerShell": 2785,
+    "Makefile": 1944
+  },
+  "size": 2384055
+}

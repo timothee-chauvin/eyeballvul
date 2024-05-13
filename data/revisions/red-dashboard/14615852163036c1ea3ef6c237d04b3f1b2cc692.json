@@ -1,0 +1,15 @@
+{
+  "commit": "14615852163036c1ea3ef6c237d04b3f1b2cc692",
+  "repo_url": "https://github.com/cog-creators/red-dashboard",
+  "date": "2020-10-05T16:04:54",
+  "languages": {
+    "CSS": 438577,
+    "SCSS": 399381,
+    "HTML": 145303,
+    "Python": 51766,
+    "JavaScript": 6934,
+    "Batchfile": 740,
+    "Makefile": 617
+  },
+  "size": 1043318
+}

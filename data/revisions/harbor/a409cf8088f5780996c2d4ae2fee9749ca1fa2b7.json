@@ -1,0 +1,22 @@
+{
+  "commit": "a409cf8088f5780996c2d4ae2fee9749ca1fa2b7",
+  "repo_url": "https://github.com/goharbor/harbor",
+  "date": "2017-11-21T15:47:45",
+  "languages": {
+    "Go": 1057325,
+    "TypeScript": 728377,
+    "RobotFramework": 182044,
+    "Python": 172524,
+    "HTML": 90496,
+    "Shell": 68837,
+    "Makefile": 22285,
+    "CSS": 14915,
+    "Dockerfile": 10082,
+    "JavaScript": 8065,
+    "Smarty": 6824,
+    "Standard ML": 3773,
+    "Mako": 494,
+    "SCSS": 295
+  },
+  "size": 2366336
+}

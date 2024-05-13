@@ -1,0 +1,12 @@
+{
+  "commit": "beb7d195c6acb02662ee1a7c6763a27ae5bc1215",
+  "repo_url": "https://github.com/filegator/filegator",
+  "date": "2022-02-18T16:04:38",
+  "languages": {
+    "PHP": 234023,
+    "JavaScript": 98539,
+    "Vue": 55149,
+    "Dockerfile": 1200
+  },
+  "size": 388911
+}

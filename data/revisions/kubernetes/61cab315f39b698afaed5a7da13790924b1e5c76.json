@@ -1,0 +1,19 @@
+{
+  "commit": "61cab315f39b698afaed5a7da13790924b1e5c76",
+  "repo_url": "https://github.com/openshift/kubernetes",
+  "date": "2018-10-09T14:11:56",
+  "languages": {
+    "Go": 37471795,
+    "Starlark": 2668383,
+    "Shell": 1454404,
+    "HTML": 1199467,
+    "Python": 153445,
+    "Makefile": 75663,
+    "Dockerfile": 55004,
+    "C": 2840,
+    "Ruby": 1780,
+    "sed": 1148,
+    "Jinja": 91
+  },
+  "size": 43084020
+}

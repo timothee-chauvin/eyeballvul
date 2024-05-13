@@ -1,0 +1,11 @@
+{
+  "commit": "dc70f818eed6c7347fa358cdb195f1e3534d8f63",
+  "repo_url": "https://github.com/imbrn/v8n",
+  "date": "2022-06-28T12:29:09",
+  "languages": {
+    "JavaScript": 66529,
+    "TypeScript": 1127,
+    "Shell": 328
+  },
+  "size": 67984
+}

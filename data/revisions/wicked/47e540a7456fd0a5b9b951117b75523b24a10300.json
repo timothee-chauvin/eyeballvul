@@ -1,0 +1,12 @@
+{
+  "commit": "47e540a7456fd0a5b9b951117b75523b24a10300",
+  "repo_url": "https://github.com/opensuse/wicked",
+  "date": "2019-08-14T16:25:26",
+  "languages": {
+    "C": 4486465,
+    "Shell": 55177,
+    "Makefile": 19856,
+    "M4": 12811
+  },
+  "size": 4574309
+}

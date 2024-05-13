@@ -1,0 +1,13 @@
+{
+  "commit": "e621175927767972831c943e34c216c86b59f086",
+  "repo_url": "https://github.com/v2fly/v2ray-core",
+  "date": "2021-10-02T16:07:52",
+  "languages": {
+    "Go": 1706170,
+    "Shell": 5220,
+    "Assembly": 752,
+    "Makefile": 588,
+    "HTML": 185
+  },
+  "size": 1712915
+}

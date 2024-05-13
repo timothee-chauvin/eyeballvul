@@ -1,0 +1,17 @@
+{
+  "commit": "605d10ef5d68181b2c516dc857fdc3c8575539cd",
+  "repo_url": "https://github.com/linkedin/oncall",
+  "date": "2021-01-29T19:43:00",
+  "languages": {
+    "Python": 495291,
+    "JavaScript": 456494,
+    "HTML": 111406,
+    "CSS": 58228,
+    "Shell": 1558,
+    "Dockerfile": 1343,
+    "Smarty": 704,
+    "Makefile": 400,
+    "Procfile": 183
+  },
+  "size": 1125607
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "e5cccb467dee64a2b72faae467706a5e5ff2badb",
+  "repo_url": "https://github.com/stdonato/glpi-dashboard",
+  "date": "2019-05-28T23:29:40",
+  "languages": {
+    "PHP": 6306270,
+    "JavaScript": 1906940,
+    "CSS": 992285,
+    "Less": 24798,
+    "SCSS": 13889,
+    "HTML": 1877,
+    "Hack": 420
+  },
+  "size": 9246479
+}

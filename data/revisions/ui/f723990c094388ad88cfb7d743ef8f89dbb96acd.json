@@ -1,0 +1,16 @@
+{
+  "commit": "f723990c094388ad88cfb7d743ef8f89dbb96acd",
+  "repo_url": "https://github.com/freetakteam/ui",
+  "date": "2021-12-25T23:13:33",
+  "languages": {
+    "Python": 514466,
+    "CSS": 454525,
+    "SCSS": 376840,
+    "JavaScript": 213102,
+    "HTML": 207152,
+    "C": 25044,
+    "Mako": 494,
+    "Procfile": 36
+  },
+  "size": 1791659
+}

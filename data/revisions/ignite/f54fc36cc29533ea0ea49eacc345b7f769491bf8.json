@@ -1,0 +1,19 @@
+{
+  "commit": "f54fc36cc29533ea0ea49eacc345b7f769491bf8",
+  "repo_url": "https://github.com/apache/ignite",
+  "date": "2015-03-14T12:57:52",
+  "languages": {
+    "Java": 17518927,
+    "Scala": 610827,
+    "Shell": 377405,
+    "HTML": 236606,
+    "Makefile": 62507,
+    "Batchfile": 30649,
+    "C++": 28098,
+    "CSS": 17519,
+    "PHP": 11079,
+    "JavaScript": 1085,
+    "M4": 623
+  },
+  "size": 18895325
+}

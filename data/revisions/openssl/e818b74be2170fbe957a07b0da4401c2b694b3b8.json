@@ -1,0 +1,23 @@
+{
+  "commit": "e818b74be2170fbe957a07b0da4401c2b694b3b8",
+  "repo_url": "https://github.com/openssl/openssl",
+  "date": "2019-12-20T13:09:21",
+  "languages": {
+    "C": 15173512,
+    "Perl": 3309453,
+    "Makefile": 736511,
+    "Assembly": 337688,
+    "DIGITAL Command Language": 320041,
+    "C++": 145386,
+    "Shell": 130597,
+    "M4": 49030,
+    "Batchfile": 48149,
+    "Raku": 34072,
+    "Prolog": 29177,
+    "eC": 4384,
+    "XS": 4319,
+    "Scheme": 4249,
+    "Roff": 5
+  },
+  "size": 20326573
+}

@@ -1,0 +1,31 @@
+{
+  "commit": "03907ee1b9e938b9ce87f4d781c905c2a41592c2",
+  "repo_url": "https://github.com/openbmc/openbmc",
+  "date": "2022-05-01T17:07:42",
+  "languages": {
+    "BitBake": 7341893,
+    "Python": 6468897,
+    "HTML": 1442878,
+    "Shell": 1141901,
+    "Roff": 976088,
+    "C": 736063,
+    "Perl": 293179,
+    "JavaScript": 230292,
+    "M4": 152625,
+    "Makefile": 37259,
+    "Vim Script": 20929,
+    "CSS": 19483,
+    "NASL": 7129,
+    "CMake": 6880,
+    "XSLT": 3327,
+    "Dockerfile": 2015,
+    "Lua": 1521,
+    "PHP": 1163,
+    "sed": 638,
+    "Awk": 158,
+    "Assembly": 151,
+    "C++": 104,
+    "Fortran": 75
+  },
+  "size": 18884648
+}

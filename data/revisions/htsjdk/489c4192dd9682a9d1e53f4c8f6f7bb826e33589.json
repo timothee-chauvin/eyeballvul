@@ -1,0 +1,13 @@
+{
+  "commit": "489c4192dd9682a9d1e53f4c8f6f7bb826e33589",
+  "repo_url": "https://github.com/samtools/htsjdk",
+  "date": "2022-06-03T21:46:58",
+  "languages": {
+    "Java": 7938558,
+    "Scala": 13128,
+    "Python": 2076,
+    "Shell": 1581,
+    "JavaScript": 964
+  },
+  "size": 7956307
+}

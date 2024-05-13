@@ -1,0 +1,12 @@
+{
+  "commit": "e36f2ec59c260e97a9fb832d4e83faadd588ff4a",
+  "repo_url": "https://github.com/eclipse/paho.mqtt.java",
+  "date": "2017-08-04T10:31:41",
+  "languages": {
+    "Java": 1655944,
+    "HTML": 52511,
+    "Shell": 342,
+    "Dockerfile": 123
+  },
+  "size": 1708920
+}

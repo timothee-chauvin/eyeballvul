@@ -1,0 +1,19 @@
+{
+  "commit": "79a8e37adb7dd48093779bd3657142e607bdd2d9",
+  "repo_url": "https://github.com/codenameone/codenameone",
+  "date": "2022-04-21T12:15:22",
+  "languages": {
+    "Java": 26059805,
+    "C#": 1923833,
+    "Objective-C": 1147000,
+    "C": 270988,
+    "HTML": 254778,
+    "C++": 73666,
+    "Shell": 17970,
+    "JavaScript": 4054,
+    "PHP": 2999,
+    "CSS": 2285,
+    "Batchfile": 222
+  },
+  "size": 29757600
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "a9bacad749e5369b8d748809fcea380d77a5fa35",
+  "repo_url": "https://github.com/neoraider/fastd",
+  "date": "2020-10-10T16:31:22",
+  "languages": {
+    "Assembly": 530118,
+    "C": 439585,
+    "Meson": 14772,
+    "Yacc": 14490
+  },
+  "size": 998965
+}

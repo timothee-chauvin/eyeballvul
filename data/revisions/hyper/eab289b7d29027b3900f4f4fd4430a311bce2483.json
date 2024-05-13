@@ -1,0 +1,11 @@
+{
+  "commit": "eab289b7d29027b3900f4f4fd4430a311bce2483",
+  "repo_url": "https://github.com/hyperium/hyper",
+  "date": "2016-05-05T21:30:34",
+  "languages": {
+    "Rust": 501690,
+    "Shell": 856,
+    "HTML": 74
+  },
+  "size": 502620
+}

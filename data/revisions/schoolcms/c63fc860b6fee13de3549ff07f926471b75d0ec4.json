@@ -1,0 +1,16 @@
+{
+  "commit": "c63fc860b6fee13de3549ff07f926471b75d0ec4",
+  "repo_url": "https://github.com/gongfuxiang/schoolcms",
+  "date": "2017-05-11T10:06:50",
+  "languages": {
+    "PHP": 1927778,
+    "JavaScript": 1526949,
+    "CSS": 510652,
+    "HTML": 454864,
+    "PLpgSQL": 142174,
+    "SCSS": 67969,
+    "Less": 67102,
+    "Smarty": 8471
+  },
+  "size": 4705959
+}

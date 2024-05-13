@@ -1,0 +1,13 @@
+{
+  "commit": "7c293966eaa3a49c5390f98a5e7f57c136e7faaa",
+  "repo_url": "https://github.com/alphagov/tech-docs-gem",
+  "date": "2022-12-22T12:00:44",
+  "languages": {
+    "JavaScript": 95102,
+    "Ruby": 93617,
+    "SCSS": 24822,
+    "HTML": 17723,
+    "CSS": 84
+  },
+  "size": 231348
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "2006f3e1a71645886d1bd2eeb1d39f9c19f6fe33",
+  "repo_url": "https://github.com/getgridea/gridea",
+  "date": "2019-04-14T10:21:39",
+  "languages": {
+    "Less": 180602,
+    "TypeScript": 74960,
+    "Vue": 70872,
+    "EJS": 43212,
+    "JavaScript": 8670,
+    "HTML": 945
+  },
+  "size": 379261
+}

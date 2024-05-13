@@ -1,0 +1,14 @@
+{
+  "commit": "f4e14ab5e12187cb2cf1ddbdc0ee5555aead3f72",
+  "repo_url": "https://github.com/sctplab/usrsctp",
+  "date": "2016-04-08T14:14:31",
+  "languages": {
+    "C": 2927439,
+    "TeX": 57163,
+    "CMake": 17113,
+    "Makefile": 8516,
+    "M4": 6455,
+    "Shell": 2124
+  },
+  "size": 3018810
+}

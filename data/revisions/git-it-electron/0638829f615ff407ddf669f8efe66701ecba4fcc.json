@@ -1,0 +1,30 @@
+{
+  "commit": "0638829f615ff407ddf669f8efe66701ecba4fcc",
+  "repo_url": "https://github.com/jlord/git-it-electron",
+  "date": "2018-09-25T02:35:14",
+  "languages": {
+    "Perl": 16584177,
+    "HTML": 11132816,
+    "Vim Script": 8078247,
+    "Tcl": 2249391,
+    "Raku": 2211355,
+    "Shell": 522731,
+    "JavaScript": 135838,
+    "Python": 125135,
+    "PostScript": 64070,
+    "Prolog": 62866,
+    "CSS": 41825,
+    "NewLisp": 37316,
+    "Ruby": 36023,
+    "Emacs Lisp": 30222,
+    "SystemVerilog": 27798,
+    "Smalltalk": 25677,
+    "AL": 13449,
+    "Roff": 4264,
+    "Batchfile": 4138,
+    "Handlebars": 1527,
+    "Awk": 484,
+    "Makefile": 111
+  },
+  "size": 41389460
+}

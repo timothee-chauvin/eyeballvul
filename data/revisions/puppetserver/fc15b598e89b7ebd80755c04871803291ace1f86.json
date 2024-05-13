@@ -1,0 +1,17 @@
+{
+  "commit": "fc15b598e89b7ebd80755c04871803291ace1f86",
+  "repo_url": "https://github.com/puppetlabs/puppetserver",
+  "date": "2019-03-22T21:28:20",
+  "languages": {
+    "Clojure": 954548,
+    "Ruby": 206586,
+    "Shell": 38520,
+    "Java": 17175,
+    "Makefile": 9783,
+    "Dockerfile": 4390,
+    "PowerShell": 3349,
+    "Puppet": 622,
+    "HTML": 290
+  },
+  "size": 1235263
+}

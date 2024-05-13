@@ -1,0 +1,13 @@
+{
+  "commit": "f8529962055b0e7bde23e429f5072ff758089dee",
+  "repo_url": "https://github.com/cauldrondevelopmentllc/cbang",
+  "date": "2020-06-26T07:16:25",
+  "languages": {
+    "C++": 11895032,
+    "C": 10876518,
+    "Python": 208238,
+    "Shell": 1078,
+    "Dockerfile": 428
+  },
+  "size": 22981294
+}

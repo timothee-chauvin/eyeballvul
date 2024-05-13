@@ -1,0 +1,21 @@
+{
+  "commit": "0be840b60d5ffaf974f70f7dd9cbb67023af3b65",
+  "repo_url": "https://github.com/submitty/submitty",
+  "date": "2020-04-27T00:59:18",
+  "languages": {
+    "PHP": 2320116,
+    "Python": 1153653,
+    "Twig": 801839,
+    "HTML": 799796,
+    "C++": 738650,
+    "JavaScript": 486370,
+    "Shell": 184532,
+    "CSS": 120313,
+    "PLpgSQL": 58669,
+    "TeX": 21960,
+    "C": 6589,
+    "Java": 3828,
+    "CMake": 1450
+  },
+  "size": 6697765
+}

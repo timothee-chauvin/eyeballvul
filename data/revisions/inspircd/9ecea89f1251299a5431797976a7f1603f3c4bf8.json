@@ -1,0 +1,16 @@
+{
+  "commit": "9ecea89f1251299a5431797976a7f1603f3c4bf8",
+  "repo_url": "https://github.com/inspircd/inspircd",
+  "date": "2021-02-26T07:00:33",
+  "languages": {
+    "C++": 2818222,
+    "Perl": 71777,
+    "Makefile": 12764,
+    "C": 12359,
+    "CMake": 8198,
+    "Roff": 5815,
+    "Batchfile": 425,
+    "Shell": 32
+  },
+  "size": 2929592
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "5fbac9001dedbef39d1402f1ec3a7539944c679c",
+  "repo_url": "https://github.com/jakubgarfield/bonobo-git-server",
+  "date": "2017-05-15T10:04:04",
+  "languages": {
+    "C#": 671705,
+    "Tcl": 344984,
+    "CSS": 230393,
+    "HTML": 86350,
+    "Perl": 11376,
+    "Shell": 9549,
+    "JavaScript": 978,
+    "ASP.NET": 108
+  },
+  "size": 1355443
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "c29f25a287002e41d2208301763268089551ec95",
+  "repo_url": "https://github.com/devspace-cloud/devspace",
+  "date": "2020-06-18T23:27:54",
+  "languages": {
+    "Go": 2011487,
+    "PostScript": 176394,
+    "TypeScript": 137976,
+    "Shell": 93073,
+    "SCSS": 59632,
+    "JavaScript": 53453,
+    "HTML": 3105,
+    "Dockerfile": 473
+  },
+  "size": 2535593
+}

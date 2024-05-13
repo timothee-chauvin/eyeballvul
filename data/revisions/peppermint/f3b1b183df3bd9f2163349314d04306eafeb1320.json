@@ -1,0 +1,13 @@
+{
+  "commit": "f3b1b183df3bd9f2163349314d04306eafeb1320",
+  "repo_url": "https://github.com/peppermint-lab/peppermint",
+  "date": "2022-02-10T00:19:45",
+  "languages": {
+    "JavaScript": 255703,
+    "Dockerfile": 1764,
+    "TypeScript": 307,
+    "Shell": 81,
+    "CSS": 59
+  },
+  "size": 257914
+}

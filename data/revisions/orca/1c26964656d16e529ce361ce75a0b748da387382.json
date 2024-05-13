@@ -1,0 +1,13 @@
+{
+  "commit": "1c26964656d16e529ce361ce75a0b748da387382",
+  "repo_url": "https://github.com/spinnaker/orca",
+  "date": "2020-06-06T04:46:16",
+  "languages": {
+    "Groovy": 2994426,
+    "Java": 2085062,
+    "Kotlin": 1140637,
+    "Shell": 459,
+    "Slim": 297
+  },
+  "size": 6220881
+}

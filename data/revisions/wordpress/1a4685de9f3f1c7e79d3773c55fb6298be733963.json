@@ -1,0 +1,12 @@
+{
+  "commit": "1a4685de9f3f1c7e79d3773c55fb6298be733963",
+  "repo_url": "https://github.com/wordpress/wordpress",
+  "date": "2018-08-02T21:33:13",
+  "languages": {
+    "PHP": 11889292,
+    "JavaScript": 4758147,
+    "CSS": 2289605,
+    "SCSS": 17166
+  },
+  "size": 18954210
+}

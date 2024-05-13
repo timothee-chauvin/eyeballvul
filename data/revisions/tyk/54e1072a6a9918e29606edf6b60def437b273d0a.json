@@ -1,0 +1,20 @@
+{
+  "commit": "54e1072a6a9918e29606edf6b60def437b273d0a",
+  "repo_url": "https://github.com/tyktechnologies/tyk",
+  "date": "2023-06-30T14:51:35",
+  "languages": {
+    "Go": 3173039,
+    "Shell": 56119,
+    "Python": 25437,
+    "JavaScript": 10687,
+    "Java": 9633,
+    "HCL": 6591,
+    "Dockerfile": 5571,
+    "Lua": 3803,
+    "Ruby": 3315,
+    "Makefile": 2299,
+    "C": 1989,
+    "HTML": 1862
+  },
+  "size": 3300345
+}

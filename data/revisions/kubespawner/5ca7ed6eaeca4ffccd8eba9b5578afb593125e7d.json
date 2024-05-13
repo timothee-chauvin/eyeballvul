@@ -1,0 +1,10 @@
+{
+  "commit": "5ca7ed6eaeca4ffccd8eba9b5578afb593125e7d",
+  "repo_url": "https://github.com/jupyterhub/kubespawner",
+  "date": "2019-11-29T21:53:26",
+  "languages": {
+    "Python": 193091,
+    "Shell": 1350
+  },
+  "size": 194441
+}

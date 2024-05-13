@@ -1,0 +1,14 @@
+{
+  "commit": "b61a0cdcd640833e4ffec9be97ce2cd4132677ce",
+  "repo_url": "https://github.com/dynacase-labs/dynacase-webdesk",
+  "date": "2014-01-15T10:09:48",
+  "languages": {
+    "PHP": 70020,
+    "Python": 58156,
+    "JavaScript": 36081,
+    "Shell": 28667,
+    "CSS": 9127,
+    "Makefile": 5645
+  },
+  "size": 207696
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "f661ba8a6b5b0114f36bf7256bcc8227917ea363",
+  "repo_url": "https://github.com/mailtrain-org/mailtrain",
+  "date": "2018-09-27T16:34:30",
+  "languages": {
+    "JavaScript": 1053007,
+    "Handlebars": 402680,
+    "HTML": 109582,
+    "Shell": 18209,
+    "CSS": 7022,
+    "Dockerfile": 515
+  },
+  "size": 1591015
+}

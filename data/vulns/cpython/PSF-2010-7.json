@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2010-7",
+  "published": "2010-10-19T19:00:00",
+  "modified": "2023-11-08T03:56:57.125180",
+  "details": "Multiple race conditions in smtpd.py in the smtpd module in Python 2.6, 2.7, 3.1, and 3.2 alpha allow remote attackers to cause a denial of service (daemon outage) by establishing and then immediately closing a TCP connection, leading to the accept function having an unexpected return value of None, an unexpected value of None for the address, or an ECONNABORTED, EAGAIN, or EWOULDBLOCK error, or the getpeername function having an ENOTCONN error, a related issue to CVE-2010-3492.",
+  "summary": "smtpd accept bug and race condition",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

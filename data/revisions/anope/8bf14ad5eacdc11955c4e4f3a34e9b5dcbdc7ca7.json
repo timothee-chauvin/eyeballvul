@@ -1,0 +1,17 @@
+{
+  "commit": "8bf14ad5eacdc11955c4e4f3a34e9b5dcbdc7ca7",
+  "repo_url": "https://github.com/anope/anope",
+  "date": "2023-08-06T11:58:38",
+  "languages": {
+    "C++": 2407636,
+    "CMake": 82102,
+    "C": 33223,
+    "HTML": 31555,
+    "Shell": 18400,
+    "C#": 12380,
+    "Perl": 5444,
+    "CSS": 3113,
+    "Batchfile": 40
+  },
+  "size": 2593893
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "6a7f8f3963166b1ed7334d6f4457eec803a18ab2",
+  "repo_url": "https://github.com/opensuse/travel-support-program",
+  "date": "2019-10-31T16:28:48",
+  "languages": {
+    "Ruby": 393680,
+    "Haml": 70824,
+    "CSS": 12420,
+    "JavaScript": 10525,
+    "Less": 7775,
+    "HTML": 6322,
+    "CoffeeScript": 4184,
+    "Dockerfile": 715
+  },
+  "size": 506445
+}

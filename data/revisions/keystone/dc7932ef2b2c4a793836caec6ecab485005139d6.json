@@ -1,0 +1,27 @@
+{
+  "commit": "dc7932ef2b2c4a793836caec6ecab485005139d6",
+  "repo_url": "https://github.com/keystone-engine/keystone",
+  "date": "2020-06-21T12:03:54",
+  "languages": {
+    "C++": 20238031,
+    "NASL": 2835510,
+    "OCaml": 240863,
+    "CMake": 184053,
+    "Python": 183025,
+    "C": 165856,
+    "Java": 61332,
+    "Assembly": 36634,
+    "Visual Basic 6.0": 30700,
+    "C#": 30296,
+    "Haskell": 16010,
+    "Rust": 13405,
+    "Shell": 11348,
+    "Go": 10059,
+    "JavaScript": 9177,
+    "PowerShell": 8181,
+    "Ruby": 7242,
+    "Makefile": 6865,
+    "Batchfile": 2116
+  },
+  "size": 24090703
+}

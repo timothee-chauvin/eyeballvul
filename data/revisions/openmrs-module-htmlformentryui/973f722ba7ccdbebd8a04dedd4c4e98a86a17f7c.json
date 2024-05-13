@@ -1,0 +1,14 @@
+{
+  "commit": "973f722ba7ccdbebd8a04dedd4c4e98a86a17f7c",
+  "repo_url": "https://github.com/openmrs/openmrs-module-htmlformentryui",
+  "date": "2020-06-02T19:01:42",
+  "languages": {
+    "Java": 152708,
+    "JavaScript": 83260,
+    "Groovy": 30487,
+    "Ruby": 921,
+    "SCSS": 272,
+    "CSS": 85
+  },
+  "size": 267733
+}

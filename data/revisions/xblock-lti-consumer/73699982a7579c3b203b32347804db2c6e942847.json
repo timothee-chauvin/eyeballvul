@@ -1,0 +1,13 @@
+{
+  "commit": "73699982a7579c3b203b32347804db2c6e942847",
+  "repo_url": "https://github.com/openedx/xblock-lti-consumer",
+  "date": "2023-01-10T21:15:32",
+  "languages": {
+    "Python": 688772,
+    "JavaScript": 16153,
+    "HTML": 12977,
+    "SCSS": 4751,
+    "Makefile": 3565
+  },
+  "size": 726218
+}

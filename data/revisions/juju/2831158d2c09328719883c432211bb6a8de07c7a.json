@@ -1,0 +1,16 @@
+{
+  "commit": "2831158d2c09328719883c432211bb6a8de07c7a",
+  "repo_url": "https://github.com/juju/juju",
+  "date": "2017-02-17T14:49:14",
+  "languages": {
+    "Go": 20551034,
+    "Python": 28431,
+    "PowerShell": 11694,
+    "C#": 11252,
+    "Inno Setup": 8900,
+    "Shell": 6476,
+    "Makefile": 3764,
+    "C": 152
+  },
+  "size": 20621703
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "c1e179c6de0ed131f2d1201579813ac1edeaf4a6",
+  "repo_url": "https://github.com/namelessmc/nameless",
+  "date": "2022-08-06T10:27:36",
+  "languages": {
+    "PHP": 1918240,
+    "Smarty": 871003,
+    "CSS": 51404,
+    "JavaScript": 25362,
+    "HTML": 2462
+  },
+  "size": 2868471
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "c4ffade2cbf9943ac0f2f1be6e94a207fbc98ba5",
+  "repo_url": "https://github.com/consensys/discovery",
+  "date": "2021-03-10T23:55:28",
+  "languages": {
+    "Java": 559679,
+    "Go": 2970,
+    "Shell": 777,
+    "Dockerfile": 657
+  },
+  "size": 564083
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "01a53b4709001afd188f6c79d6787a92d9dcc078",
+  "repo_url": "https://github.com/raydac/netbeans-mmd-plugin",
+  "date": "2018-05-01T11:39:14",
+  "languages": {
+    "Java": 2303722,
+    "Mermaid": 46771,
+    "Shell": 1345,
+    "HTML": 316
+  },
+  "size": 2352154
+}

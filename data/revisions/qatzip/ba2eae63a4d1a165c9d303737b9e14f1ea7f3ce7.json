@@ -1,0 +1,12 @@
+{
+  "commit": "ba2eae63a4d1a165c9d303737b9e14f1ea7f3ce7",
+  "repo_url": "https://github.com/intel/qatzip",
+  "date": "2022-04-28T11:32:15",
+  "languages": {
+    "C": 525563,
+    "Shell": 12473,
+    "Makefile": 11411,
+    "M4": 8671
+  },
+  "size": 558118
+}

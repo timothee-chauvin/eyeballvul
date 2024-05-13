@@ -1,0 +1,12 @@
+{
+  "commit": "39d5ae81a07bc0caa81d2064d3653f54fd8da3b1",
+  "repo_url": "https://github.com/cifsd-team/ksmbd",
+  "date": "2021-09-07T02:50:37",
+  "languages": {
+    "C": 1291755,
+    "Shell": 4025,
+    "Makefile": 1957,
+    "Perl": 1297
+  },
+  "size": 1299034
+}

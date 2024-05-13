@@ -1,0 +1,32 @@
+{
+  "commit": "561a3c5f804089601c1b83776bbae46ad1ee5d0c",
+  "repo_url": "https://github.com/bareos/bareos",
+  "date": "2021-12-21T11:00:50",
+  "languages": {
+    "C++": 7605382,
+    "C": 3869660,
+    "JavaScript": 2677476,
+    "Python": 963044,
+    "Shell": 431196,
+    "CMake": 379924,
+    "PHP": 378012,
+    "HTML": 258211,
+    "RPC": 120231,
+    "Assembly": 88870,
+    "NSIS": 76459,
+    "Roff": 47802,
+    "CSS": 34402,
+    "PLpgSQL": 29855,
+    "Yacc": 20990,
+    "Makefile": 19160,
+    "M4": 14388,
+    "TeX": 12112,
+    "Perl": 7184,
+    "Vim Script": 6552,
+    "Batchfile": 3621,
+    "QMake": 1227,
+    "sed": 341,
+    "GDB": 336
+  },
+  "size": 17046435
+}

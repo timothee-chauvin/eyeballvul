@@ -1,0 +1,12 @@
+{
+  "commit": "0e348a825db7367fc6625f573343563bd93423ce",
+  "repo_url": "https://github.com/jenkinsci/dashboard-view-plugin",
+  "date": "2019-08-05T22:36:38",
+  "languages": {
+    "Java": 65822,
+    "JavaScript": 1966,
+    "HTML": 1095,
+    "CSS": 140
+  },
+  "size": 69023
+}

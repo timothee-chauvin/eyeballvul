@@ -1,0 +1,22 @@
+{
+  "commit": "cb0a053f47173556f193c2d996262d8c6aaac9bb",
+  "repo_url": "https://github.com/gpac/gpac",
+  "date": "2015-01-20T11:56:44",
+  "languages": {
+    "C": 21471389,
+    "C++": 2771119,
+    "JavaScript": 598322,
+    "Java": 132862,
+    "Makefile": 129563,
+    "XSLT": 32850,
+    "NSIS": 27519,
+    "Shell": 19868,
+    "Objective-C": 15031,
+    "Rez": 13726,
+    "Assembly": 12073,
+    "Batchfile": 7597,
+    "HTML": 4288,
+    "CSS": 1796
+  },
+  "size": 25238003
+}

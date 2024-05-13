@@ -1,0 +1,17 @@
+{
+  "commit": "258fab7cdd551f2cf251ed0348f0ad7289aee789",
+  "repo_url": "https://github.com/prometheus/alertmanager",
+  "date": "2022-12-22T14:24:19",
+  "languages": {
+    "Go": 1078922,
+    "Elm": 223427,
+    "HTML": 11972,
+    "Makefile": 5450,
+    "CSS": 2085,
+    "Shell": 1648,
+    "Dockerfile": 1223,
+    "JavaScript": 1101,
+    "Procfile": 621
+  },
+  "size": 1326449
+}

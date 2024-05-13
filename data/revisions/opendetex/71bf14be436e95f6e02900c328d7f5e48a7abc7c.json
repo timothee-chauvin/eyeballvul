@@ -1,0 +1,15 @@
+{
+  "commit": "71bf14be436e95f6e02900c328d7f5e48a7abc7c",
+  "repo_url": "https://github.com/pkubowicz/opendetex",
+  "date": "2019-01-29T18:22:30",
+  "languages": {
+    "Lex": 27453,
+    "Roff": 4272,
+    "Makefile": 4024,
+    "C": 3202,
+    "TeX": 3087,
+    "Perl": 1679,
+    "Shell": 141
+  },
+  "size": 43858
+}

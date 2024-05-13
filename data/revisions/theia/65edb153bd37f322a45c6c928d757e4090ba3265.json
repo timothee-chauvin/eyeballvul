@@ -1,0 +1,17 @@
+{
+  "commit": "65edb153bd37f322a45c6c928d757e4090ba3265",
+  "repo_url": "https://github.com/eclipse-theia/theia",
+  "date": "2020-12-08T19:57:32",
+  "languages": {
+    "TypeScript": 7928359,
+    "CSS": 235206,
+    "JavaScript": 101766,
+    "C": 11981,
+    "Shell": 935,
+    "Dockerfile": 750,
+    "HTML": 726,
+    "Python": 672,
+    "Batchfile": 357
+  },
+  "size": 8280752
+}

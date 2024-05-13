@@ -1,0 +1,14 @@
+{
+  "commit": "b2048fab5c94162bebfe39e55088d9bbb756f5e2",
+  "repo_url": "https://github.com/rozbb/readtomyshoe",
+  "date": "2022-09-12T07:44:26",
+  "languages": {
+    "Rust": 144614,
+    "CSS": 3259,
+    "Dockerfile": 2185,
+    "JavaScript": 2176,
+    "Shell": 1969,
+    "HTML": 1064
+  },
+  "size": 155267
+}

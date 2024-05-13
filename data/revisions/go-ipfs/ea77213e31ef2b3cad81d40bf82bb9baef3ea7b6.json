@@ -1,0 +1,14 @@
+{
+  "commit": "ea77213e31ef2b3cad81d40bf82bb9baef3ea7b6",
+  "repo_url": "https://github.com/ipfs/go-ipfs",
+  "date": "2020-09-22T20:41:25",
+  "languages": {
+    "Go": 1000201,
+    "Shell": 516193,
+    "Makefile": 20734,
+    "Dockerfile": 4636,
+    "Python": 788,
+    "PureBasic": 29
+  },
+  "size": 1542581
+}

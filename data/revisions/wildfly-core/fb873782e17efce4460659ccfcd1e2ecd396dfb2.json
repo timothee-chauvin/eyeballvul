@@ -1,0 +1,15 @@
+{
+  "commit": "fb873782e17efce4460659ccfcd1e2ecd396dfb2",
+  "repo_url": "https://github.com/wildfly/wildfly-core",
+  "date": "2018-02-28T20:40:08",
+  "languages": {
+    "Java": 32570328,
+    "HTML": 110382,
+    "Shell": 52870,
+    "Batchfile": 45886,
+    "XSLT": 37422,
+    "PowerShell": 23211,
+    "CSS": 2236
+  },
+  "size": 32842335
+}

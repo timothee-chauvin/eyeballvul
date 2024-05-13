@@ -1,0 +1,21 @@
+{
+  "commit": "581db5276d9e78ad7997d3d438f19d3c722d793a",
+  "repo_url": "https://github.com/rundeck/rundeck",
+  "date": "2019-01-14T22:17:35",
+  "languages": {
+    "Groovy": 8132755,
+    "Java": 4291970,
+    "CSS": 1230036,
+    "JavaScript": 1125273,
+    "Shell": 588628,
+    "SCSS": 493243,
+    "Less": 275935,
+    "TypeScript": 42869,
+    "Vue": 31737,
+    "Dockerfile": 12563,
+    "Makefile": 7776,
+    "Batchfile": 6806,
+    "HTML": 1965
+  },
+  "size": 16241556
+}

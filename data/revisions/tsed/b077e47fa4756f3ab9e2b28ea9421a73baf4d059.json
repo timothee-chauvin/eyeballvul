@@ -1,0 +1,12 @@
+{
+  "commit": "b077e47fa4756f3ab9e2b28ea9421a73baf4d059",
+  "repo_url": "https://github.com/typedproject/tsed",
+  "date": "2020-10-07T06:06:17",
+  "languages": {
+    "TypeScript": 1832566,
+    "JavaScript": 8855,
+    "EJS": 3810,
+    "HTML": 2516
+  },
+  "size": 1847747
+}

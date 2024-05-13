@@ -1,0 +1,18 @@
+{
+  "commit": "f855aa038373e729951e231d5f4686f80fa85ea3",
+  "repo_url": "https://github.com/evilnet/nefarious2",
+  "date": "2013-12-12T18:46:22",
+  "languages": {
+    "C": 2778126,
+    "Makefile": 75408,
+    "Perl": 58471,
+    "Shell": 54184,
+    "Yacc": 42701,
+    "Batchfile": 30958,
+    "C++": 25883,
+    "M4": 7019,
+    "Lex": 6940,
+    "Python": 2310
+  },
+  "size": 3082000
+}

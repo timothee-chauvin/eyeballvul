@@ -1,0 +1,20 @@
+{
+  "commit": "13d7488719b020059f4c22cca9e36336ebfe9cb1",
+  "repo_url": "https://github.com/dfirkuiper/kuiper",
+  "date": "2023-02-03T14:20:06",
+  "languages": {
+    "JavaScript": 4140204,
+    "Python": 3013626,
+    "HTML": 2283046,
+    "CSS": 566557,
+    "Less": 81547,
+    "Shell": 16964,
+    "SCSS": 11045,
+    "PHP": 3916,
+    "Dockerfile": 3686,
+    "Batchfile": 1595,
+    "Makefile": 1548,
+    "PowerShell": 162
+  },
+  "size": 10123896
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "01bfe30e2185215f3f89626efe6d305afc1e1396",
+  "repo_url": "https://github.com/pretalx/pretalx",
+  "date": "2021-12-26T00:08:54",
+  "languages": {
+    "Python": 1638549,
+    "JavaScript": 1343074,
+    "SCSS": 411139,
+    "HTML": 402059,
+    "CSS": 13972
+  },
+  "size": 3808793
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "d2a12619cfd0a52af4d3c41a8df76e1ecdac2c54",
+  "repo_url": "https://github.com/livehelperchat/livehelperchat",
+  "date": "2014-07-22T17:25:12",
+  "languages": {
+    "PHP": 10108338,
+    "JavaScript": 343555,
+    "CSS": 291518,
+    "Shell": 5668,
+    "Roff": 328,
+    "Hack": 306,
+    "Python": 202
+  },
+  "size": 10749915
+}

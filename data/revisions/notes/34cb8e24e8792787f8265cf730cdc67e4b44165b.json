@@ -1,0 +1,13 @@
+{
+  "commit": "34cb8e24e8792787f8265cf730cdc67e4b44165b",
+  "repo_url": "https://github.com/nextcloud/notes",
+  "date": "2023-05-25T09:02:39",
+  "languages": {
+    "JavaScript": 425411,
+    "PHP": 115279,
+    "Vue": 76004,
+    "Makefile": 3173,
+    "CSS": 1692
+  },
+  "size": 621559
+}

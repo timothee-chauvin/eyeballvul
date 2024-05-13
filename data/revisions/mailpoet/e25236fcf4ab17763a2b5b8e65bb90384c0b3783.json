@@ -1,0 +1,16 @@
+{
+  "commit": "e25236fcf4ab17763a2b5b8e65bb90384c0b3783",
+  "repo_url": "https://github.com/mailpoet/mailpoet",
+  "date": "2019-04-08T18:02:41",
+  "languages": {
+    "PHP": 5088930,
+    "JavaScript": 920602,
+    "HTML": 297197,
+    "SCSS": 179424,
+    "Handlebars": 159104,
+    "Shell": 13717,
+    "CSS": 2180,
+    "Dockerfile": 483
+  },
+  "size": 6661637
+}

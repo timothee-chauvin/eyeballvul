@@ -1,0 +1,14 @@
+{
+  "commit": "f3eb010bfea94fbea50c65b039987d7c5b856e4e",
+  "repo_url": "https://github.com/mavlink/mavlink",
+  "date": "2012-02-21T01:25:26",
+  "languages": {
+    "Python": 716353,
+    "C": 209706,
+    "CMake": 18908,
+    "C++": 6276,
+    "Makefile": 1475,
+    "Shell": 659
+  },
+  "size": 953377
+}

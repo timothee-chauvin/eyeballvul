@@ -1,0 +1,18 @@
+{
+  "commit": "3ce57b50c9754bca39fabd1eaa1b69f0bbe223f9",
+  "repo_url": "https://github.com/e2guardian/e2guardian",
+  "date": "2021-04-07T15:56:40",
+  "languages": {
+    "HTML": 1762582,
+    "C++": 1228281,
+    "M4": 36273,
+    "Makefile": 17534,
+    "Gherkin": 13296,
+    "Logos": 9050,
+    "Shell": 7395,
+    "Roff": 6446,
+    "Dockerfile": 2619,
+    "Perl": 2601
+  },
+  "size": 3086077
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "b9b65b410aa7912b5fc83db6f97b8118680fb3be",
+  "repo_url": "https://github.com/mrousavy/react-native-mmkv",
+  "date": "2023-08-25T08:34:32",
+  "languages": {
+    "C++": 35309,
+    "TypeScript": 26294,
+    "Objective-C++": 25958,
+    "Java": 5487,
+    "Objective-C": 3766,
+    "Ruby": 2826,
+    "JavaScript": 1516,
+    "CMake": 1023,
+    "C": 103,
+    "Swift": 56
+  },
+  "size": 102338
+}

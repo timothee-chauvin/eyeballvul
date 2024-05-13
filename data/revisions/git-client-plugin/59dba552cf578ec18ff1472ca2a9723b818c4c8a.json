@@ -1,0 +1,11 @@
+{
+  "commit": "59dba552cf578ec18ff1472ca2a9723b818c4c8a",
+  "repo_url": "https://github.com/jenkinsci/git-client-plugin",
+  "date": "2017-04-20T14:49:52",
+  "languages": {
+    "Java": 900407,
+    "Shell": 5061,
+    "HTML": 1271
+  },
+  "size": 906739
+}

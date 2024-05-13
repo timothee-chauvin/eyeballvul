@@ -1,0 +1,14 @@
+{
+  "commit": "83d6c6d2f7e4a81dc9cf5258cf6f2197e502e309",
+  "repo_url": "https://github.com/puppetlabs/bolt",
+  "date": "2022-06-16T17:50:50",
+  "languages": {
+    "Ruby": 2398674,
+    "Shell": 30106,
+    "PowerShell": 21176,
+    "Puppet": 14090,
+    "HTML": 9500,
+    "Dockerfile": 1484
+  },
+  "size": 2475030
+}

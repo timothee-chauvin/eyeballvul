@@ -1,0 +1,11 @@
+{
+  "commit": "876099f3c66033f3de11d79f63814766b1021dbe",
+  "repo_url": "https://github.com/hardysimpson/zlog",
+  "date": "2020-05-06T10:10:44",
+  "languages": {
+    "C": 240654,
+    "Makefile": 8261,
+    "Shell": 594
+  },
+  "size": 249509
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "58b17bd5bddf29236f17d6ccb63c582b9e97ea53",
+  "repo_url": "https://github.com/shokoanime/shokoserver",
+  "date": "2023-04-02T18:04:05",
+  "languages": {
+    "C#": 4237066,
+    "Assembly": 419599,
+    "C++": 71866,
+    "Perl": 22351,
+    "Inno Setup": 5654,
+    "Smalltalk": 2644,
+    "HTML": 2392,
+    "C": 1836,
+    "Shell": 1790,
+    "Dockerfile": 1643,
+    "Batchfile": 225
+  },
+  "size": 4767066
+}

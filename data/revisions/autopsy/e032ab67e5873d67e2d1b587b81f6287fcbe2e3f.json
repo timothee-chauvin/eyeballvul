@@ -1,0 +1,13 @@
+{
+  "commit": "e032ab67e5873d67e2d1b587b81f6287fcbe2e3f",
+  "repo_url": "https://github.com/sleuthkit/autopsy",
+  "date": "2018-10-15T03:54:27",
+  "languages": {
+    "Java": 11369846,
+    "Python": 296730,
+    "Shell": 9705,
+    "HTML": 9644,
+    "CSS": 4467
+  },
+  "size": 11690392
+}

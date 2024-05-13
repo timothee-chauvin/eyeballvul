@@ -1,0 +1,16 @@
+{
+  "commit": "a9a513f9ec0949bf5b7ece2954719739dc71dc6d",
+  "repo_url": "https://github.com/concerto/concerto",
+  "date": "2017-12-31T21:32:33",
+  "languages": {
+    "Ruby": 485790,
+    "HTML": 303064,
+    "JavaScript": 55030,
+    "SCSS": 12083,
+    "Shell": 6839,
+    "Dockerfile": 1431,
+    "CSS": 815,
+    "Procfile": 76
+  },
+  "size": 865128
+}

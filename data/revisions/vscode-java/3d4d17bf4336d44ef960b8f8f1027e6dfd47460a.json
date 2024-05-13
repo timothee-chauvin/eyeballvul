@@ -1,0 +1,11 @@
+{
+  "commit": "3d4d17bf4336d44ef960b8f8f1027e6dfd47460a",
+  "repo_url": "https://github.com/redhat-developer/vscode-java",
+  "date": "2020-04-16T11:35:46",
+  "languages": {
+    "TypeScript": 154564,
+    "Java": 4026,
+    "JavaScript": 3237
+  },
+  "size": 161827
+}

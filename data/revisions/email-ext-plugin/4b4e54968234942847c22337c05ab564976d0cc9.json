@@ -1,0 +1,13 @@
+{
+  "commit": "4b4e54968234942847c22337c05ab564976d0cc9",
+  "repo_url": "https://github.com/jenkinsci/email-ext-plugin",
+  "date": "2017-02-18T03:43:12",
+  "languages": {
+    "Java": 492182,
+    "HTML": 40718,
+    "Groovy": 37083,
+    "JavaScript": 4194,
+    "Python": 1784
+  },
+  "size": 575961
+}

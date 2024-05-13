@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2020-4",
+  "published": "2020-07-04T22:54:00",
+  "modified": "2023-12-06T01:00:17.906682",
+  "details": "In Python 3.6 through 3.6.10, 3.7 through 3.7.8, 3.8 through 3.8.4rc1, and 3.9 through 3.9.0b4 on Windows, a Trojan horse python3.dll might be used in cases where CPython is embedded in a native application. This occurs because python3X.dll may use an invalid search path for python3.dll loading (after Py_SetPath has been used). NOTE: this issue CANNOT occur when using python.exe from a standard (non-embedded) Python installation on Windows.",
+  "summary": "Py_SetPath(): _Py_CheckPython3 uses uninitialized DLL path",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

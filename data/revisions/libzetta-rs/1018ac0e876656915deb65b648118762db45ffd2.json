@@ -1,0 +1,11 @@
+{
+  "commit": "1018ac0e876656915deb65b648118762db45ffd2",
+  "repo_url": "https://github.com/inner-heaven/libzetta-rs",
+  "date": "2019-08-12T22:03:52",
+  "languages": {
+    "Rust": 168462,
+    "C": 1789,
+    "Shell": 424
+  },
+  "size": 170675
+}

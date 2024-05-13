@@ -1,0 +1,11 @@
+{
+  "commit": "6a3446d0cf1875384f98dfda5154a5a022f74f53",
+  "repo_url": "https://github.com/denoland/deno_std",
+  "date": "2021-02-12T15:54:35",
+  "languages": {
+    "TypeScript": 1946282,
+    "JavaScript": 5097,
+    "Rust": 1750
+  },
+  "size": 1953129
+}

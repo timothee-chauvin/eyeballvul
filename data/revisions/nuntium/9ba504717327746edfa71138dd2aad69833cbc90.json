@@ -1,0 +1,17 @@
+{
+  "commit": "9ba504717327746edfa71138dd2aad69833cbc90",
+  "repo_url": "https://github.com/instedd/nuntium",
+  "date": "2021-10-19T21:35:45",
+  "languages": {
+    "Ruby": 1185754,
+    "HTML": 76786,
+    "JavaScript": 30370,
+    "Slim": 24075,
+    "CSS": 5492,
+    "CoffeeScript": 2476,
+    "Dockerfile": 2128,
+    "Shell": 1616,
+    "Procfile": 496
+  },
+  "size": 1329193
+}

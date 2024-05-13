@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2010-3",
+  "published": "2010-05-27T19:00:00",
+  "modified": "2023-11-08T03:56:55.720759",
+  "details": "Multiple buffer overflows in the RLE decoder in the rgbimg module in Python 2.5 allow remote attackers to have an unspecified impact via an image file containing crafted data that triggers improper processing within the (1) longimagedata or (2) expandrow function.",
+  "summary": "rgbimg and imageop overflows",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

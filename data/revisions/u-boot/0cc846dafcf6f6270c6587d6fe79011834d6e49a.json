@@ -1,0 +1,28 @@
+{
+  "commit": "0cc846dafcf6f6270c6587d6fe79011834d6e49a",
+  "repo_url": "https://github.com/u-boot/u-boot",
+  "date": "2022-07-04T12:18:33",
+  "languages": {
+    "C": 83746434,
+    "Python": 2485394,
+    "Assembly": 872360,
+    "Makefile": 554057,
+    "Perl": 406878,
+    "ASL": 148252,
+    "Shell": 131107,
+    "C++": 87389,
+    "Yacc": 27522,
+    "SmPL": 19159,
+    "Lex": 15484,
+    "Dockerfile": 9052,
+    "POV-Ray SDL": 8357,
+    "Batchfile": 7381,
+    "Roff": 4220,
+    "GDB": 3642,
+    "Awk": 2609,
+    "sed": 1886,
+    "CSS": 1391,
+    "Tcl": 963
+  },
+  "size": 88533537
+}

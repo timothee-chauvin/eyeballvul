@@ -1,0 +1,19 @@
+{
+  "commit": "cff4868b6d11f1c9e296fea8ca1da1224bde7f39",
+  "repo_url": "https://github.com/saschahauer/barebox",
+  "date": "2020-05-13T07:48:18",
+  "languages": {
+    "C": 25963253,
+    "Assembly": 368333,
+    "Perl": 250253,
+    "Python": 246020,
+    "Makefile": 200187,
+    "Shell": 136301,
+    "C++": 128938,
+    "Yacc": 26185,
+    "Lex": 15616,
+    "Awk": 2078,
+    "SmPL": 816
+  },
+  "size": 27337980
+}

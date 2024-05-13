@@ -1,0 +1,11 @@
+{
+  "commit": "6934feb751861b93a4cb8ceaa1c2db727bb08592",
+  "repo_url": "https://github.com/pgaudit/set_user",
+  "date": "2020-09-21T14:43:36",
+  "languages": {
+    "C": 22362,
+    "PLpgSQL": 4155,
+    "Makefile": 821
+  },
+  "size": 27338
+}

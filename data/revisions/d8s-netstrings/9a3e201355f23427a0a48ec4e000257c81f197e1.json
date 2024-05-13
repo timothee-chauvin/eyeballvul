@@ -1,0 +1,11 @@
+{
+  "commit": "9a3e201355f23427a0a48ec4e000257c81f197e1",
+  "repo_url": "https://github.com/democritus-project/d8s-netstrings",
+  "date": "2021-03-16T11:11:40",
+  "languages": {
+    "Python": 10364,
+    "Shell": 391,
+    "Dockerfile": 163
+  },
+  "size": 10918
+}

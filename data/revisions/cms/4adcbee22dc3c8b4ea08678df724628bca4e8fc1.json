@@ -1,0 +1,19 @@
+{
+  "commit": "4adcbee22dc3c8b4ea08678df724628bca4e8fc1",
+  "repo_url": "https://github.com/craftcms/cms",
+  "date": "2023-03-21T21:20:34",
+  "languages": {
+    "PHP": 8384090,
+    "JavaScript": 1520610,
+    "Twig": 484986,
+    "SCSS": 260263,
+    "Vue": 211013,
+    "TypeScript": 26663,
+    "Smarty": 2123,
+    "HTML": 623,
+    "PLpgSQL": 477,
+    "Shell": 174,
+    "CSS": 16
+  },
+  "size": 10891038
+}

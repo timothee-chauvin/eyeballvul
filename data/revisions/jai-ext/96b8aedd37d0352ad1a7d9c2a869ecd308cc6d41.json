@@ -1,0 +1,13 @@
+{
+  "commit": "96b8aedd37d0352ad1a7d9c2a869ecd308cc6d41",
+  "repo_url": "https://github.com/geosolutions-it/jai-ext",
+  "date": "2021-10-07T16:06:05",
+  "languages": {
+    "Java": 9097275,
+    "ANTLR": 9363,
+    "Python": 7598,
+    "Makefile": 4605,
+    "Batchfile": 4526
+  },
+  "size": 9123367
+}

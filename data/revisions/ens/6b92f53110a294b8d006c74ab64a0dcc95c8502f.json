@@ -1,0 +1,11 @@
+{
+  "commit": "6b92f53110a294b8d006c74ab64a0dcc95c8502f",
+  "repo_url": "https://github.com/ensdomains/ens",
+  "date": "2019-01-07T13:57:51",
+  "languages": {
+    "JavaScript": 61773,
+    "Solidity": 35308,
+    "Dockerfile": 444
+  },
+  "size": 97525
+}

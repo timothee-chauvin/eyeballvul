@@ -1,0 +1,17 @@
+{
+  "commit": "c63625ab1a27c710e7652cf196f4c235a9311ca7",
+  "repo_url": "https://github.com/forkcms/forkcms",
+  "date": "2017-10-18T14:48:46",
+  "languages": {
+    "PHP": 3042122,
+    "Twig": 677528,
+    "JavaScript": 606432,
+    "HTML": 322817,
+    "SCSS": 138748,
+    "CSS": 53735,
+    "Smarty": 5794,
+    "Dockerfile": 1685,
+    "Shell": 797
+  },
+  "size": 4849658
+}

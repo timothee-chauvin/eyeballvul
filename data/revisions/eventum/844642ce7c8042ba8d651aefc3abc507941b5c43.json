@@ -1,0 +1,16 @@
+{
+  "commit": "844642ce7c8042ba8d651aefc3abc507941b5c43",
+  "repo_url": "https://github.com/eventum/eventum",
+  "date": "2017-11-24T19:18:05",
+  "languages": {
+    "PHP": 2574095,
+    "HTML": 697323,
+    "JavaScript": 80002,
+    "CSS": 21667,
+    "Shell": 17132,
+    "Makefile": 8144,
+    "Perl": 1242,
+    "Ruby": 497
+  },
+  "size": 3400102
+}

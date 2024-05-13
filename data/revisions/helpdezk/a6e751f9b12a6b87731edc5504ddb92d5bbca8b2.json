@@ -1,0 +1,20 @@
+{
+  "commit": "a6e751f9b12a6b87731edc5504ddb92d5bbca8b2",
+  "repo_url": "https://github.com/albandes/helpdezk",
+  "date": "2016-09-13T20:17:56",
+  "languages": {
+    "PHP": 10068249,
+    "JavaScript": 6715060,
+    "HTML": 3385669,
+    "CSS": 651381,
+    "ActionScript": 31900,
+    "Classic ASP": 29862,
+    "XSLT": 28086,
+    "Hack": 11509,
+    "Smarty": 9528,
+    "Shell": 6990,
+    "PLSQL": 4183,
+    "Makefile": 1638
+  },
+  "size": 20944055
+}

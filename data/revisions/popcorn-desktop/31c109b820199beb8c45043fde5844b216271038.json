@@ -1,0 +1,15 @@
+{
+  "commit": "31c109b820199beb8c45043fde5844b216271038",
+  "repo_url": "https://github.com/popcorn-official/popcorn-desktop",
+  "date": "2022-03-02T18:31:37",
+  "languages": {
+    "JavaScript": 743702,
+    "Stylus": 222839,
+    "Smarty": 135023,
+    "HTML": 8156,
+    "Shell": 5805,
+    "Ruby": 1546,
+    "CSS": 905
+  },
+  "size": 1117976
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "d149636f502f5774ae1a8fb4c554b122674393b2",
+  "repo_url": "https://github.com/libass/libass",
+  "date": "2020-10-27T04:08:29",
+  "languages": {
+    "C": 678731,
+    "Assembly": 109554,
+    "M4": 9444,
+    "Makefile": 3187,
+    "Shell": 53
+  },
+  "size": 800969
+}

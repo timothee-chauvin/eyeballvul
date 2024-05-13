@@ -1,0 +1,13 @@
+{
+  "commit": "b0a09bde9a9d4164bee4f28cd047fa843f42a7a9",
+  "repo_url": "https://github.com/handsontable/handsontable",
+  "date": "2021-07-28T10:23:21",
+  "languages": {
+    "JavaScript": 7575405,
+    "TypeScript": 303251,
+    "CSS": 28791,
+    "Vue": 18961,
+    "EJS": 1079
+  },
+  "size": 7927487
+}

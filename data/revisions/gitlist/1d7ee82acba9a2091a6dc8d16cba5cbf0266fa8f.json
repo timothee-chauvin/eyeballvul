@@ -1,0 +1,14 @@
+{
+  "commit": "1d7ee82acba9a2091a6dc8d16cba5cbf0266fa8f",
+  "repo_url": "https://github.com/klaussilveira/gitlist",
+  "date": "2017-08-22T15:22:51",
+  "languages": {
+    "Less": 143850,
+    "JavaScript": 141345,
+    "PHP": 91019,
+    "Twig": 61087,
+    "Makefile": 4611,
+    "CSS": 1495
+  },
+  "size": 443407
+}

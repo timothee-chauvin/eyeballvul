@@ -1,0 +1,24 @@
+{
+  "commit": "baf762694bcb7f833219a3a85c666d5192aa10d8",
+  "repo_url": "https://github.com/opendds/opendds",
+  "date": "2021-08-24T21:27:45",
+  "languages": {
+    "C++": 13663383,
+    "Java": 1646299,
+    "Perl": 829766,
+    "HTML": 569983,
+    "XSLT": 143990,
+    "C": 66792,
+    "CMake": 56722,
+    "CSS": 42770,
+    "Shell": 31990,
+    "Ruby": 8956,
+    "Python": 7810,
+    "Makefile": 3354,
+    "Dockerfile": 2812,
+    "Batchfile": 2237,
+    "sed": 1278,
+    "Awk": 340
+  },
+  "size": 17078482
+}

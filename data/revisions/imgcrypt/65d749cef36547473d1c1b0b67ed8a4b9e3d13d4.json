@@ -1,0 +1,11 @@
+{
+  "commit": "65d749cef36547473d1c1b0b67ed8a4b9e3d13d4",
+  "repo_url": "https://github.com/containerd/imgcrypt",
+  "date": "2021-12-14T20:22:10",
+  "languages": {
+    "Go": 147552,
+    "Shell": 59912,
+    "Makefile": 1599
+  },
+  "size": 209063
+}

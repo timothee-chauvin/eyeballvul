@@ -1,0 +1,15 @@
+{
+  "commit": "e8958cb8ae59223ed957127308156ca1aebab7e4",
+  "repo_url": "https://github.com/jcupitt/libvips",
+  "date": "2018-01-31T20:45:14",
+  "languages": {
+    "C": 4599567,
+    "C++": 586771,
+    "Python": 76448,
+    "M4": 71854,
+    "Shell": 30978,
+    "Makefile": 21926,
+    "SWIG": 12185
+  },
+  "size": 5399729
+}

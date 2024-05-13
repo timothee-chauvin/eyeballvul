@@ -1,0 +1,11 @@
+{
+  "commit": "224cc6a28ddfcf4d1a184a25d10833cf153e3bda",
+  "repo_url": "https://github.com/electron/packager",
+  "date": "2024-03-27T23:08:23",
+  "languages": {
+    "TypeScript": 101700,
+    "JavaScript": 97378,
+    "Shell": 1657
+  },
+  "size": 200735
+}

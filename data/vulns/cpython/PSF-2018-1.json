@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2018-1",
+  "published": "2018-06-11T21:00:00",
+  "modified": "2023-11-08T03:58:37.629729",
+  "details": "An integer overflow during the parsing of XML using the Expat library. This vulnerability affects Firefox < 50.",
+  "summary": "Expat 2.2.1",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

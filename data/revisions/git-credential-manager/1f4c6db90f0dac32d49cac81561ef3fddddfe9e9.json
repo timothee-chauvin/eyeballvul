@@ -1,0 +1,14 @@
+{
+  "commit": "1f4c6db90f0dac32d49cac81561ef3fddddfe9e9",
+  "repo_url": "https://github.com/git-ecosystem/git-credential-manager",
+  "date": "2020-11-02T16:51:52",
+  "languages": {
+    "C#": 1019399,
+    "Objective-C": 21026,
+    "Shell": 18989,
+    "Inno Setup": 5759,
+    "HTML": 3140,
+    "Ruby": 97
+  },
+  "size": 1068410
+}

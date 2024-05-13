@@ -1,0 +1,16 @@
+{
+  "commit": "2774126db6c258807d95921936eb13af07047d97",
+  "repo_url": "https://github.com/spesmilo/electrum",
+  "date": "2017-11-01T21:44:13",
+  "languages": {
+    "Python": 1480551,
+    "kvlang": 63583,
+    "Shell": 8584,
+    "NSIS": 7125,
+    "HTML": 3867,
+    "GLSL": 849,
+    "Makefile": 837,
+    "PHP": 404
+  },
+  "size": 1565800
+}

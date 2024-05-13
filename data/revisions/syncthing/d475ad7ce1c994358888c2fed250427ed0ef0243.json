@@ -1,0 +1,14 @@
+{
+  "commit": "d475ad7ce1c994358888c2fed250427ed0ef0243",
+  "repo_url": "https://github.com/syncthing/syncthing",
+  "date": "2017-07-13T06:55:12",
+  "languages": {
+    "Go": 1537146,
+    "HTML": 127279,
+    "JavaScript": 101172,
+    "CSS": 16970,
+    "Shell": 8306,
+    "Batchfile": 1435
+  },
+  "size": 1792308
+}

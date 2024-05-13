@@ -1,0 +1,24 @@
+{
+  "commit": "dca9ff8594e23f070d67d7638d108082c25d583c",
+  "repo_url": "https://github.com/openidentityplatform/openam",
+  "date": "2022-06-03T17:26:32",
+  "languages": {
+    "Java": 83928819,
+    "JavaScript": 1663080,
+    "CSS": 978917,
+    "HTML": 489817,
+    "C#": 376152,
+    "C": 149088,
+    "Less": 65468,
+    "Shell": 56790,
+    "ASP.NET": 49465,
+    "XSLT": 36874,
+    "Perl": 28015,
+    "Batchfile": 27584,
+    "FreeMarker": 22599,
+    "Groovy": 11042,
+    "Dockerfile": 1942,
+    "Makefile": 727
+  },
+  "size": 87886379
+}

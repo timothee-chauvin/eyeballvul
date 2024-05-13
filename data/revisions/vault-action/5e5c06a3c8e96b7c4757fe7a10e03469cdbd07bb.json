@@ -1,0 +1,10 @@
+{
+  "commit": "5e5c06a3c8e96b7c4757fe7a10e03469cdbd07bb",
+  "repo_url": "https://github.com/hashicorp/vault-action",
+  "date": "2021-01-21T19:45:22",
+  "languages": {
+    "JavaScript": 47001,
+    "HCL": 325
+  },
+  "size": 47326
+}

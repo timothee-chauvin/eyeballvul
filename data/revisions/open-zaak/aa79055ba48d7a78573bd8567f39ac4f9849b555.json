@@ -1,0 +1,15 @@
+{
+  "commit": "aa79055ba48d7a78573bd8567f39ac4f9849b555",
+  "repo_url": "https://github.com/open-zaak/open-zaak",
+  "date": "2020-11-09T18:48:44",
+  "languages": {
+    "Python": 2770986,
+    "HTML": 55973,
+    "JavaScript": 53998,
+    "SCSS": 12778,
+    "Shell": 12644,
+    "Dockerfile": 2398,
+    "Batchfile": 1595
+  },
+  "size": 2910372
+}

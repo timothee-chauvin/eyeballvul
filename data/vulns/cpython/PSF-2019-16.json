@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2019-16",
+  "published": "2019-12-17T00:00:00",
+  "modified": "2023-09-18T01:59:10.881286",
+  "details": "It is possible to inject email headers using CR or LF character.\n\nThe fix disallows CR and LF characters in ``email.headerregistry.Address``\narguments to guard against header injection attacks.\n",
+  "summary": "Email header injection in Address objects",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

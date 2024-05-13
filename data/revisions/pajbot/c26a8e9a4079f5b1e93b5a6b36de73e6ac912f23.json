@@ -1,0 +1,16 @@
+{
+  "commit": "c26a8e9a4079f5b1e93b5a6b36de73e6ac912f23",
+  "repo_url": "https://github.com/pajbot/pajbot",
+  "date": "2021-04-04T14:07:01",
+  "languages": {
+    "Python": 1131814,
+    "JavaScript": 179036,
+    "HTML": 131076,
+    "SCSS": 9905,
+    "CSS": 5939,
+    "Sass": 3998,
+    "Shell": 2726,
+    "PLpgSQL": 1891
+  },
+  "size": 1466385
+}

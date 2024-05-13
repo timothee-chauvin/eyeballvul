@@ -1,0 +1,18 @@
+{
+  "commit": "cb03ca8166cb9d6d8e63db43664b4a2126ea43b4",
+  "repo_url": "https://github.com/apache/dolphinscheduler",
+  "date": "2022-09-22T08:10:17",
+  "languages": {
+    "Java": 7181054,
+    "TypeScript": 1622357,
+    "Python": 369848,
+    "SCSS": 66012,
+    "PLpgSQL": 48862,
+    "Shell": 32827,
+    "Smarty": 8485,
+    "Dockerfile": 6804,
+    "Batchfile": 1677,
+    "Makefile": 1647
+  },
+  "size": 9339573
+}

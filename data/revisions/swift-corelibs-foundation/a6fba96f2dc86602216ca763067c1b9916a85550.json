@@ -1,0 +1,18 @@
+{
+  "commit": "a6fba96f2dc86602216ca763067c1b9916a85550",
+  "repo_url": "https://github.com/apple/swift-corelibs-foundation",
+  "date": "2022-11-30T17:27:25",
+  "languages": {
+    "Swift": 8021712,
+    "C": 7679608,
+    "C++": 2739538,
+    "Python": 98250,
+    "CMake": 62830,
+    "Objective-C": 61124,
+    "Shell": 11744,
+    "XSLT": 3281,
+    "Assembly": 3045,
+    "Objective-C++": 1628
+  },
+  "size": 18682760
+}

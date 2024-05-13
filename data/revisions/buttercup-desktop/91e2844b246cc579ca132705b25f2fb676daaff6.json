@@ -1,0 +1,13 @@
+{
+  "commit": "91e2844b246cc579ca132705b25f2fb676daaff6",
+  "repo_url": "https://github.com/buttercup/buttercup-desktop",
+  "date": "2023-06-02T18:32:43",
+  "languages": {
+    "TypeScript": 262187,
+    "JavaScript": 6554,
+    "NSIS": 478,
+    "Pug": 350,
+    "Sass": 231
+  },
+  "size": 269800
+}

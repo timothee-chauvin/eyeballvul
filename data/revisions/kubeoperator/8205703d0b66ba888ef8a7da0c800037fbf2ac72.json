@@ -1,0 +1,12 @@
+{
+  "commit": "8205703d0b66ba888ef8a7da0c800037fbf2ac72",
+  "repo_url": "https://github.com/kubeoperator/kubeoperator",
+  "date": "2023-01-05T06:35:07",
+  "languages": {
+    "Go": 1250307,
+    "Dockerfile": 2225,
+    "HTML": 1453,
+    "Makefile": 1071
+  },
+  "size": 1255056
+}

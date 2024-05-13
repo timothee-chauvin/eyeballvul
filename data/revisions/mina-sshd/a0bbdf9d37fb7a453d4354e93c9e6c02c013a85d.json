@@ -1,0 +1,13 @@
+{
+  "commit": "a0bbdf9d37fb7a453d4354e93c9e6c02c013a85d",
+  "repo_url": "https://github.com/apache/mina-sshd",
+  "date": "2020-12-07T16:52:59",
+  "languages": {
+    "Java": 7512597,
+    "Shell": 34849,
+    "Batchfile": 15035,
+    "Python": 11690,
+    "HTML": 6129
+  },
+  "size": 7580300
+}

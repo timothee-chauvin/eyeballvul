@@ -1,0 +1,15 @@
+{
+  "commit": "538dc7ad6856f47b860a79b870ddf7db852ecbca",
+  "repo_url": "https://github.com/pkp/pkp-lib",
+  "date": "2020-12-07T23:24:00",
+  "languages": {
+    "PHP": 4881038,
+    "JavaScript": 634211,
+    "Smarty": 452948,
+    "Less": 87829,
+    "XSLT": 24565,
+    "Shell": 19039,
+    "Hack": 353
+  },
+  "size": 6099983
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "a01b35ff5e60f03cff7c0587694846141142e428",
+  "repo_url": "https://github.com/occlum/occlum",
+  "date": "2021-11-08T11:15:00",
+  "languages": {
+    "Rust": 1137408,
+    "C": 454506,
+    "Makefile": 70977,
+    "Shell": 37800,
+    "C++": 16142,
+    "Assembly": 7272,
+    "Roff": 5386
+  },
+  "size": 1729491
+}

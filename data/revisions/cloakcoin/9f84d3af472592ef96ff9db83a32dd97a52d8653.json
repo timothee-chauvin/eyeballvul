@@ -1,0 +1,27 @@
+{
+  "commit": "9f84d3af472592ef96ff9db83a32dd97a52d8653",
+  "repo_url": "https://github.com/cloakproject/cloakcoin",
+  "date": "2018-10-06T07:11:34",
+  "languages": {
+    "C": 9547264,
+    "C++": 3148847,
+    "Assembly": 109711,
+    "HTML": 51522,
+    "Python": 47092,
+    "Makefile": 44612,
+    "Java": 37297,
+    "Sage": 30192,
+    "M4": 25834,
+    "QMake": 23648,
+    "Shell": 22401,
+    "CMake": 6342,
+    "NSIS": 6041,
+    "Objective-C++": 3537,
+    "Roff": 2772,
+    "Inno Setup": 1515,
+    "CSS": 1127,
+    "Objective-C": 858,
+    "Batchfile": 695
+  },
+  "size": 13111307
+}

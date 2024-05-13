@@ -1,0 +1,14 @@
+{
+  "commit": "08832629f2b3b85a53dc38fb8d9711328868286a",
+  "repo_url": "https://github.com/apache/calcite-avatica",
+  "date": "2022-05-04T23:04:51",
+  "languages": {
+    "Java": 2097398,
+    "SCSS": 36560,
+    "HTML": 22222,
+    "Shell": 15370,
+    "Dockerfile": 6500,
+    "Ruby": 6309
+  },
+  "size": 2184359
+}

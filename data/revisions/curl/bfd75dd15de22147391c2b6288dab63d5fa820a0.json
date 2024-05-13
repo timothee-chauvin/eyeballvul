@@ -1,0 +1,10 @@
+{
+  "commit": "bfd75dd15de22147391c2b6288dab63d5fa820a0",
+  "repo_url": "https://github.com/php-mod/curl",
+  "date": "2021-01-21T10:43:30",
+  "languages": {
+    "PHP": 30762,
+    "Dockerfile": 211
+  },
+  "size": 30973
+}

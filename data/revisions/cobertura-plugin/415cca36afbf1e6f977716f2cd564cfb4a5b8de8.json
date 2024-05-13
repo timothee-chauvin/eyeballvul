@@ -1,0 +1,11 @@
+{
+  "commit": "415cca36afbf1e6f977716f2cd564cfb4a5b8de8",
+  "repo_url": "https://github.com/jenkinsci/cobertura-plugin",
+  "date": "2019-10-10T02:26:36",
+  "languages": {
+    "Java": 233279,
+    "XSLT": 2318,
+    "CSS": 2087
+  },
+  "size": 237684
+}

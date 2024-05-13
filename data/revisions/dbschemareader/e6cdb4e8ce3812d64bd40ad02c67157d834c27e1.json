@@ -1,0 +1,12 @@
+{
+  "commit": "e6cdb4e8ce3812d64bd40ad02c67157d834c27e1",
+  "repo_url": "https://github.com/martinjw/dbschemareader",
+  "date": "2020-06-18T18:55:16",
+  "languages": {
+    "C#": 2230208,
+    "PLpgSQL": 38171,
+    "TSQL": 27084,
+    "Batchfile": 736
+  },
+  "size": 2296199
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "3a98d9708ecffa00d124ce9602394223f4a5bf29",
+  "repo_url": "https://github.com/ompl/ompl",
+  "date": "2020-06-02T18:39:48",
+  "languages": {
+    "C++": 4775181,
+    "Python": 206201,
+    "CMake": 59697,
+    "R": 45778,
+    "C": 8861,
+    "Shell": 7900,
+    "Dockerfile": 6158,
+    "CSS": 1789,
+    "JavaScript": 766
+  },
+  "size": 5112331
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "d0e686579398ac037b2c7de001c66dc93c5f085d",
+  "repo_url": "https://github.com/inter-mediator/inter-mediator",
+  "date": "2016-10-13T04:25:15",
+  "languages": {
+    "PHP": 4296454,
+    "JavaScript": 619819,
+    "Ruby": 87139,
+    "HTML": 52518,
+    "Shell": 21869,
+    "Java": 14564,
+    "Rich Text Format": 5504,
+    "CSS": 4608,
+    "Dockerfile": 242
+  },
+  "size": 5102717
+}

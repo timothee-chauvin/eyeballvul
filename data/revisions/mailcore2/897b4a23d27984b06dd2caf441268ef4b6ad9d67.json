@@ -1,0 +1,19 @@
+{
+  "commit": "897b4a23d27984b06dd2caf441268ef4b6ad9d67",
+  "repo_url": "https://github.com/canarymail/mailcore2",
+  "date": "2016-02-01T15:22:01",
+  "languages": {
+    "C++": 1761512,
+    "C": 1193365,
+    "Objective-C": 543851,
+    "Objective-C++": 272976,
+    "Java": 127438,
+    "CMake": 27993,
+    "Shell": 23124,
+    "Makefile": 5062,
+    "DIGITAL Command Language": 901,
+    "JavaScript": 707,
+    "Batchfile": 151
+  },
+  "size": 3957080
+}

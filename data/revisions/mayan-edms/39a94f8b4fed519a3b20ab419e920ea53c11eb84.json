@@ -1,0 +1,17 @@
+{
+  "commit": "39a94f8b4fed519a3b20ab419e920ea53c11eb84",
+  "repo_url": "https://gitlab.com/mayan-edms/mayan-edms",
+  "date": "2018-07-08T06:40:07",
+  "languages": {
+    "Python": 2673853,
+    "JavaScript": 421300,
+    "PHP": 92470,
+    "HTML": 91742,
+    "CSS": 88236,
+    "Less": 21211,
+    "Shell": 16188,
+    "Makefile": 13128,
+    "Dockerfile": 7621
+  },
+  "size": 3425749
+}

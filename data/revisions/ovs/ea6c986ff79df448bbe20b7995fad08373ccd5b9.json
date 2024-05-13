@@ -1,0 +1,20 @@
+{
+  "commit": "ea6c986ff79df448bbe20b7995fad08373ccd5b9",
+  "repo_url": "https://github.com/openvswitch/ovs",
+  "date": "2022-12-01T16:19:28",
+  "languages": {
+    "C": 13707679,
+    "Python": 1078098,
+    "Roff": 298851,
+    "Shell": 207836,
+    "M4": 112069,
+    "Makefile": 100608,
+    "C++": 75110,
+    "JavaScript": 7350,
+    "PowerShell": 5683,
+    "Ruby": 1565,
+    "Dockerfile": 569,
+    "Batchfile": 85
+  },
+  "size": 15595503
+}

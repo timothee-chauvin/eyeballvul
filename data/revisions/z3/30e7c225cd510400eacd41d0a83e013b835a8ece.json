@@ -1,0 +1,20 @@
+{
+  "commit": "30e7c225cd510400eacd41d0a83e013b835a8ece",
+  "repo_url": "https://github.com/z3prover/z3",
+  "date": "2019-11-19T20:58:44",
+  "languages": {
+    "C++": 18743712,
+    "Python": 714812,
+    "C#": 500393,
+    "C": 379278,
+    "Java": 369122,
+    "OCaml": 213956,
+    "CMake": 157390,
+    "SMT": 30234,
+    "Shell": 30015,
+    "Dockerfile": 7736,
+    "Batchfile": 2810,
+    "Makefile": 103
+  },
+  "size": 21149561
+}

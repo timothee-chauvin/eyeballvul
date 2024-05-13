@@ -1,0 +1,16 @@
+{
+  "commit": "27be59b9730062b9f0a7ddbd8cc411755c306cae",
+  "repo_url": "https://github.com/floodlight/floodlight",
+  "date": "2016-02-05T13:03:37",
+  "languages": {
+    "Java": 3940263,
+    "JavaScript": 55112,
+    "Python": 32743,
+    "HTML": 10186,
+    "Thrift": 7114,
+    "Shell": 5610,
+    "Makefile": 426,
+    "CSS": 181
+  },
+  "size": 4051635
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "f94d0d9b82368213acfe0029a0dc5df78bbd68c2",
+  "repo_url": "https://github.com/sap/infrabox",
+  "date": "2019-07-25T07:44:10",
+  "languages": {
+    "Python": 551018,
+    "Go": 309536,
+    "Vue": 214408,
+    "JavaScript": 72045,
+    "Open Policy Agent": 37035,
+    "Shell": 20368,
+    "Dockerfile": 18957,
+    "Smarty": 15637,
+    "PLpgSQL": 13810,
+    "CSS": 7004,
+    "Mustache": 4369,
+    "HTML": 4366
+  },
+  "size": 1268553
+}

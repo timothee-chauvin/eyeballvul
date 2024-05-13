@@ -1,0 +1,18 @@
+{
+  "commit": "dfba4fd24a4e790bb4156e9347d5ec947101080d",
+  "repo_url": "https://github.com/spiderlabs/modsecurity",
+  "date": "2022-09-07T20:36:13",
+  "languages": {
+    "C": 2077368,
+    "Perl": 955320,
+    "C++": 72139,
+    "M4": 52456,
+    "Batchfile": 22270,
+    "Makefile": 15499,
+    "Shell": 6343,
+    "Lua": 1510,
+    "Raku": 705,
+    "HTML": 6
+  },
+  "size": 3203616
+}

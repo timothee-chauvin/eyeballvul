@@ -1,0 +1,16 @@
+{
+  "commit": "b1c6d26a0f2f9386a70e321b90b63b8722a16b4a",
+  "repo_url": "https://github.com/flipped-aurora/gin-vue-admin",
+  "date": "2021-10-13T06:43:35",
+  "languages": {
+    "Go": 524998,
+    "Vue": 260163,
+    "JavaScript": 70814,
+    "SCSS": 39144,
+    "Smarty": 30379,
+    "HTML": 5031,
+    "Dockerfile": 888,
+    "CSS": 70
+  },
+  "size": 931487
+}

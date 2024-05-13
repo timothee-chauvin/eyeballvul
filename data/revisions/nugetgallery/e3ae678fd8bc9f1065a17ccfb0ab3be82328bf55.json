@@ -1,0 +1,17 @@
+{
+  "commit": "e3ae678fd8bc9f1065a17ccfb0ab3be82328bf55",
+  "repo_url": "https://github.com/nuget/nugetgallery",
+  "date": "2019-06-24T20:59:35",
+  "languages": {
+    "C#": 7056341,
+    "JavaScript": 786991,
+    "HTML": 681404,
+    "CSS": 544705,
+    "Less": 233802,
+    "PowerShell": 37681,
+    "ASP.NET": 31768,
+    "TSQL": 15654,
+    "Batchfile": 202
+  },
+  "size": 9388548
+}

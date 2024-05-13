@@ -1,0 +1,21 @@
+{
+  "commit": "efca5eeef5ab79df88914c7be2c287317cd10234",
+  "repo_url": "https://github.com/trustwallet/wallet-core",
+  "date": "2022-11-14T13:06:44",
+  "languages": {
+    "C++": 3972243,
+    "C": 1694104,
+    "Swift": 574200,
+    "Kotlin": 329942,
+    "HTML": 77278,
+    "Ruby": 63674,
+    "CMake": 60936,
+    "TypeScript": 44409,
+    "Shell": 31489,
+    "Python": 31471,
+    "Dockerfile": 3132,
+    "Java": 2131,
+    "Objective-C": 689
+  },
+  "size": 6885698
+}

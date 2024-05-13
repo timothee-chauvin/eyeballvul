@@ -1,0 +1,23 @@
+{
+  "commit": "2ba59bf969e94a0544e73e501d876722790f7a89",
+  "repo_url": "https://github.com/siliconlabs/gecko_sdk",
+  "date": "2023-07-27T19:53:43",
+  "languages": {
+    "C": 657431778,
+    "Python": 85175002,
+    "ZAP": 3167129,
+    "Assembly": 2721530,
+    "Jinja": 541712,
+    "C++": 298741,
+    "HTML": 184240,
+    "Makefile": 123768,
+    "Lua": 100476,
+    "Shell": 66870,
+    "CMake": 38524,
+    "Batchfile": 28751,
+    "PowerShell": 6589,
+    "CSS": 2244,
+    "Dockerfile": 1618
+  },
+  "size": 749888972
+}

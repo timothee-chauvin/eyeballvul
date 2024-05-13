@@ -1,0 +1,16 @@
+{
+  "commit": "fe1c4352fe434e01329051672c19d1b9c55ca2d0",
+  "repo_url": "https://github.com/kairosdb/kairosdb",
+  "date": "2018-11-10T03:54:17",
+  "languages": {
+    "Java": 1664804,
+    "JavaScript": 634003,
+    "HTML": 217296,
+    "Groovy": 21305,
+    "CSS": 13426,
+    "Python": 8846,
+    "Shell": 7217,
+    "Batchfile": 829
+  },
+  "size": 2567726
+}

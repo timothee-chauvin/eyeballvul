@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2016-7",
+  "published": "2016-09-02T14:00:00",
+  "modified": "2023-11-08T03:58:31.510088",
+  "details": "Integer overflow in the get_data function in zipimport.c in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 allows remote attackers to have unspecified impact via a negative data size value, which triggers a heap-based buffer overflow.",
+  "summary": "zipimporter overflow",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

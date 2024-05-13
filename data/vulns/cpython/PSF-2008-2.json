@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2008-2",
+  "published": "2008-04-10T19:00:00",
+  "modified": "2023-11-08T03:56:50.635551",
+  "details": "Integer signedness error in the zlib extension module in Python 2.5.2 and earlier allows remote attackers to execute arbitrary code via a negative signed integer, which triggers insufficient memory allocation and a buffer overflow.",
+  "summary": "Multiple integer overflows (Apple)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

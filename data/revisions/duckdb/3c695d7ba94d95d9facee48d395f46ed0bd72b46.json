@@ -1,0 +1,20 @@
+{
+  "commit": "3c695d7ba94d95d9facee48d395f46ed0bd72b46",
+  "repo_url": "https://github.com/duckdb/duckdb",
+  "date": "2023-11-13T18:58:24",
+  "languages": {
+    "C++": 33624269,
+    "C": 1762391,
+    "Python": 1426745,
+    "Java": 387130,
+    "Swift": 282562,
+    "Julia": 250635,
+    "CMake": 147615,
+    "Shell": 26253,
+    "Makefile": 14649,
+    "JavaScript": 12990,
+    "R": 1693,
+    "CSS": 182
+  },
+  "size": 37937114
+}

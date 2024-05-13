@@ -1,0 +1,14 @@
+{
+  "commit": "ba41590414018ceb01a3bb62276745918db3839d",
+  "repo_url": "https://github.com/daylightstudio/fuel-cms",
+  "date": "2017-03-18T05:13:14",
+  "languages": {
+    "PHP": 5421381,
+    "JavaScript": 458805,
+    "CSS": 103254,
+    "Hack": 21163,
+    "HTML": 10481,
+    "Smarty": 2182
+  },
+  "size": 6017266
+}

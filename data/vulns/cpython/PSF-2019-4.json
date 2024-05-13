@@ -1,0 +1,16 @@
+{
+  "id": "PSF-2019-4",
+  "published": "2019-06-19T22:07:57",
+  "modified": "2024-03-11T12:56:44.797398",
+  "details": "BZ2_decompress in decompress.c in bzip2 through 1.0.6 has an out-of-bounds write when there are many selectors.",
+  "summary": "Windows: vulnerable bzip2 1.0.6",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "a58ebcc701dd6c43630df941481475ff0f615a81",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

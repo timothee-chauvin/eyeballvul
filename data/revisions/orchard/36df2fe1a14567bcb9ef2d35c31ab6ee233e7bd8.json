@@ -1,0 +1,21 @@
+{
+  "commit": "36df2fe1a14567bcb9ef2d35c31ab6ee233e7bd8",
+  "repo_url": "https://github.com/orchardcms/orchard",
+  "date": "2016-03-15T17:46:17",
+  "languages": {
+    "C#": 8135667,
+    "JavaScript": 7654943,
+    "HTML": 1031955,
+    "CSS": 331290,
+    "Rich Text Format": 171908,
+    "Less": 142628,
+    "XSLT": 119918,
+    "Gherkin": 89103,
+    "TypeScript": 51237,
+    "Batchfile": 7589,
+    "C": 4755,
+    "ASP.NET": 1401,
+    "TSQL": 595
+  },
+  "size": 17742989
+}

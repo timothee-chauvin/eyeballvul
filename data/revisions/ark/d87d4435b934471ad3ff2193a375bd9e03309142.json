@@ -1,0 +1,12 @@
+{
+  "commit": "d87d4435b934471ad3ff2193a375bd9e03309142",
+  "repo_url": "https://github.com/kde/ark",
+  "date": "2016-12-06T19:58:22",
+  "languages": {
+    "C++": 856214,
+    "CMake": 64801,
+    "C": 10513,
+    "Shell": 551
+  },
+  "size": 932079
+}

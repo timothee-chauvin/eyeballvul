@@ -1,0 +1,12 @@
+{
+  "commit": "b3372233ee509676ab4408f049549c1020cff7a1",
+  "repo_url": "https://github.com/gnome/grilo",
+  "date": "2020-09-02T11:13:35",
+  "languages": {
+    "C": 876660,
+    "Python": 32060,
+    "Meson": 16069,
+    "Vala": 5470
+  },
+  "size": 930259
+}

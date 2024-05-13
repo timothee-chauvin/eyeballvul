@@ -1,0 +1,12 @@
+{
+  "commit": "c73c09c3904ce6a210970374bd1bc507ef1f8cc2",
+  "repo_url": "https://github.com/golang/net",
+  "date": "2023-07-05T14:20:15",
+  "languages": {
+    "Go": 3328395,
+    "Assembly": 1784,
+    "Dockerfile": 1486,
+    "Makefile": 44
+  },
+  "size": 3331709
+}

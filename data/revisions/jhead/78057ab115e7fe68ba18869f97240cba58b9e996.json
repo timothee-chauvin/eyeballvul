@@ -1,0 +1,15 @@
+{
+  "commit": "78057ab115e7fe68ba18869f97240cba58b9e996",
+  "repo_url": "https://github.com/matthias-wandel/jhead",
+  "date": "2021-04-14T12:02:45",
+  "languages": {
+    "C": 206470,
+    "HTML": 24454,
+    "Roff": 16098,
+    "Shell": 8171,
+    "Python": 1495,
+    "Makefile": 601,
+    "Batchfile": 23
+  },
+  "size": 257312
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "cbdd34e96961a0be2adff9db050b8d50b13e5b0d",
+  "repo_url": "https://github.com/tikv/tikv",
+  "date": "2022-10-14T11:49:52",
+  "languages": {
+    "Rust": 13899687,
+    "Makefile": 15710,
+    "Shell": 10621,
+    "Python": 8323,
+    "C": 6514,
+    "Dockerfile": 3726
+  },
+  "size": 13944581
+}

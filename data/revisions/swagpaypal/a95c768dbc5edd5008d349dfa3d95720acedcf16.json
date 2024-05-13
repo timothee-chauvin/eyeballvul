@@ -1,0 +1,15 @@
+{
+  "commit": "a95c768dbc5edd5008d349dfa3d95720acedcf16",
+  "repo_url": "https://github.com/shopware/swagpaypal",
+  "date": "2023-01-12T07:41:34",
+  "languages": {
+    "PHP": 2864293,
+    "JavaScript": 332830,
+    "Twig": 298863,
+    "SCSS": 24600,
+    "Makefile": 2889,
+    "HTML": 2821,
+    "Shell": 2528
+  },
+  "size": 3528824
+}

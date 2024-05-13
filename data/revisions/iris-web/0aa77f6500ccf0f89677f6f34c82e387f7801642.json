@@ -1,0 +1,16 @@
+{
+  "commit": "0aa77f6500ccf0f89677f6f34c82e387f7801642",
+  "repo_url": "https://github.com/dfir-iris/iris-web",
+  "date": "2023-05-22T19:48:11",
+  "languages": {
+    "JavaScript": 15118341,
+    "Python": 1146501,
+    "CSS": 617368,
+    "HTML": 592518,
+    "SCSS": 352076,
+    "Dockerfile": 5065,
+    "Shell": 4835,
+    "Mako": 494
+  },
+  "size": 17837198
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "38f9fb91ef36e31a3faffbd15a80c8398c328f2a",
+  "repo_url": "https://github.com/zikula/core",
+  "date": "2016-03-27T17:38:10",
+  "languages": {
+    "PHP": 6628497,
+    "JavaScript": 4423794,
+    "Smarty": 739582,
+    "CSS": 503507,
+    "Twig": 172433,
+    "HTML": 170810,
+    "SCSS": 95336,
+    "Ruby": 7653,
+    "Shell": 4463
+  },
+  "size": 12746075
+}

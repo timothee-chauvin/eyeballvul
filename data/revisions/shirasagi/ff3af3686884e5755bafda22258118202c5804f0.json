@@ -1,0 +1,15 @@
+{
+  "commit": "ff3af3686884e5755bafda22258118202c5804f0",
+  "repo_url": "https://github.com/shirasagi/shirasagi",
+  "date": "2017-12-28T08:48:01",
+  "languages": {
+    "Ruby": 4963646,
+    "JavaScript": 4851131,
+    "HTML": 2140903,
+    "SCSS": 382349,
+    "CSS": 83002,
+    "CoffeeScript": 27243,
+    "Shell": 18459
+  },
+  "size": 12466733
+}

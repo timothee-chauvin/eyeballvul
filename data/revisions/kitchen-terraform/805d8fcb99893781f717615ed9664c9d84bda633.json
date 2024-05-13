@@ -1,0 +1,15 @@
+{
+  "commit": "805d8fcb99893781f717615ed9664c9d84bda633",
+  "repo_url": "https://github.com/newcontext-oss/kitchen-terraform",
+  "date": "2023-04-09T17:34:56",
+  "languages": {
+    "Ruby": 443946,
+    "SCSS": 147919,
+    "HTML": 93667,
+    "HCL": 14785,
+    "Dockerfile": 3162,
+    "Shell": 364,
+    "JavaScript": 32
+  },
+  "size": 703875
+}

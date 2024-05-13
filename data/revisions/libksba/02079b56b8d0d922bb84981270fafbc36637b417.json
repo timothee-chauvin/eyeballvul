@@ -1,0 +1,15 @@
+{
+  "commit": "02079b56b8d0d922bb84981270fafbc36637b417",
+  "repo_url": "https://github.com/gpg/libksba",
+  "date": "2014-11-25T11:33:54",
+  "languages": {
+    "C": 758819,
+    "Shell": 363027,
+    "TeX": 284083,
+    "M4": 37541,
+    "Yacc": 29138,
+    "Makefile": 9856,
+    "Awk": 1848
+  },
+  "size": 1484312
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "67e389964131d55d65cd14b4eb32d57a47312695",
+  "repo_url": "https://github.com/cloudevents/sdk-go",
+  "date": "2024-02-21T15:24:26",
+  "languages": {
+    "Go": 1094987,
+    "Shell": 10820,
+    "Gnuplot": 9243,
+    "ANTLR": 3954
+  },
+  "size": 1119004
+}

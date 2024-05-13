@@ -1,0 +1,14 @@
+{
+  "commit": "d1aef8d5e1c7fec896c604d45f8c37565b68aa0d",
+  "repo_url": "https://github.com/george518/ppgo_job",
+  "date": "2019-07-17T14:49:47",
+  "languages": {
+    "Go": 1345705,
+    "PLpgSQL": 252150,
+    "Less": 20352,
+    "Shell": 6227,
+    "Dockerfile": 1103,
+    "Batchfile": 778
+  },
+  "size": 1626315
+}

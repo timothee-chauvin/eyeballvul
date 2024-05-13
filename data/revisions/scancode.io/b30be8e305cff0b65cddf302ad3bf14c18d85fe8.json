@@ -1,0 +1,14 @@
+{
+  "commit": "b30be8e305cff0b65cddf302ad3bf14c18d85fe8",
+  "repo_url": "https://github.com/nexb/scancode.io",
+  "date": "2023-08-02T20:05:58",
+  "languages": {
+    "Python": 1128138,
+    "HTML": 203458,
+    "JavaScript": 12871,
+    "Makefile": 5767,
+    "Dockerfile": 3290,
+    "Java": 1009
+  },
+  "size": 1354533
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "51241fa872e9ff95910e196cf3d7bc55d963c568",
+  "repo_url": "https://github.com/bilde2910/hauk",
+  "date": "2020-03-24T17:58:40",
+  "languages": {
+    "Java": 347648,
+    "PHP": 88266,
+    "JavaScript": 37307,
+    "CSS": 20485,
+    "Shell": 6392,
+    "HTML": 5959,
+    "Dockerfile": 522
+  },
+  "size": 506579
+}

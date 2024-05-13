@@ -1,0 +1,15 @@
+{
+  "commit": "0a63a7707741d056d9b52ac9e338a0222e7359f6",
+  "repo_url": "https://github.com/jenkinsci/sonarqube-plugin",
+  "date": "2018-07-25T12:59:30",
+  "languages": {
+    "Java": 460341,
+    "HTML": 17281,
+    "C#": 3902,
+    "Shell": 1618,
+    "CSS": 1044,
+    "JavaScript": 267,
+    "Batchfile": 259
+  },
+  "size": 484712
+}

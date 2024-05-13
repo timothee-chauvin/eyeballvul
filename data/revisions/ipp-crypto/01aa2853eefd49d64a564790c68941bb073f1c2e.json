@@ -1,0 +1,13 @@
+{
+  "commit": "01aa2853eefd49d64a564790c68941bb073f1c2e",
+  "repo_url": "https://github.com/intel/ipp-crypto",
+  "date": "2018-07-20T13:31:07",
+  "languages": {
+    "Assembly": 84158574,
+    "C": 8046910,
+    "C++": 218316,
+    "CMake": 52795,
+    "Python": 41706
+  },
+  "size": 92518301
+}

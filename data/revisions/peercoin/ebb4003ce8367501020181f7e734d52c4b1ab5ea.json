@@ -1,0 +1,23 @@
+{
+  "commit": "ebb4003ce8367501020181f7e734d52c4b1ab5ea",
+  "repo_url": "https://github.com/peercoin/peercoin",
+  "date": "2018-09-05T12:48:57",
+  "languages": {
+    "C++": 2781165,
+    "M4": 119153,
+    "Python": 62838,
+    "HTML": 50615,
+    "Shell": 34115,
+    "C": 33915,
+    "Makefile": 29325,
+    "Roff": 23993,
+    "Ruby": 17083,
+    "QMake": 15820,
+    "Objective-C++": 5714,
+    "Gherkin": 3758,
+    "Dockerfile": 2788,
+    "CSS": 1127,
+    "Objective-C": 858
+  },
+  "size": 3182267
+}

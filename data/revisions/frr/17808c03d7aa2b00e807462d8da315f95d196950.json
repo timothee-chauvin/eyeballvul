@@ -1,0 +1,22 @@
+{
+  "commit": "17808c03d7aa2b00e807462d8da315f95d196950",
+  "repo_url": "https://github.com/frrouting/frr",
+  "date": "2018-08-30T16:11:10",
+  "languages": {
+    "C": 14003001,
+    "Perl": 207778,
+    "M4": 104515,
+    "Python": 103417,
+    "Shell": 73630,
+    "Makefile": 49582,
+    "Roff": 26530,
+    "Yacc": 11494,
+    "Lex": 10300,
+    "SmPL": 5056,
+    "C++": 4192,
+    "Common Lisp": 3200,
+    "Dockerfile": 1635,
+    "Emacs Lisp": 226
+  },
+  "size": 14604556
+}

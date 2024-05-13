@@ -1,0 +1,18 @@
+{
+  "commit": "d631ecff4affa52085416f4c12a485813d82e5fa",
+  "repo_url": "https://github.com/jamesagnew/hapi-fhir",
+  "date": "2020-05-12T15:49:18",
+  "languages": {
+    "Java": 19987747,
+    "HTML": 242371,
+    "Ruby": 230674,
+    "Shell": 46254,
+    "JavaScript": 32069,
+    "GAP": 25037,
+    "CSS": 6475,
+    "Kotlin": 3934,
+    "Batchfile": 3861,
+    "Dockerfile": 130
+  },
+  "size": 20578552
+}

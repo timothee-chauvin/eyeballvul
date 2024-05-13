@@ -1,0 +1,13 @@
+{
+  "commit": "1bbaebbc90ac159cb54f3b89790cfd4017a31ccc",
+  "repo_url": "https://github.com/clastix/capsule",
+  "date": "2022-01-11T09:35:29",
+  "languages": {
+    "Go": 462020,
+    "Shell": 11619,
+    "Makefile": 8139,
+    "Smarty": 3539,
+    "Dockerfile": 1158
+  },
+  "size": 486475
+}

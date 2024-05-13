@@ -1,0 +1,12 @@
+{
+  "commit": "88dcc9c8733b6803cfb8d0d3445b76232042c7b6",
+  "repo_url": "https://github.com/webp-sh/webp_server_go",
+  "date": "2021-12-12T08:38:47",
+  "languages": {
+    "Go": 40131,
+    "Dockerfile": 674,
+    "Makefile": 424,
+    "Shell": 397
+  },
+  "size": 41626
+}

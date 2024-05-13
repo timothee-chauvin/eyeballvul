@@ -1,0 +1,11 @@
+{
+  "commit": "4f670cc7d7ad3a7a27ac3ed5e6c5ddf20956654b",
+  "repo_url": "https://github.com/zlib-ng/minizip-ng",
+  "date": "2023-10-26T17:06:19",
+  "languages": {
+    "C": 575712,
+    "C++": 47664,
+    "CMake": 47071
+  },
+  "size": 670447
+}

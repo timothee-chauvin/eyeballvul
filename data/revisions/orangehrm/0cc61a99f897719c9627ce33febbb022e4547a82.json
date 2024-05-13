@@ -1,0 +1,20 @@
+{
+  "commit": "0cc61a99f897719c9627ce33febbb022e4547a82",
+  "repo_url": "https://github.com/orangehrm/orangehrm",
+  "date": "2019-04-30T12:07:04",
+  "languages": {
+    "PHP": 9229270,
+    "JavaScript": 1266521,
+    "CSS": 180181,
+    "NSIS": 125227,
+    "XSLT": 79003,
+    "Hack": 73681,
+    "HTML": 38867,
+    "Shell": 6780,
+    "VBScript": 3178,
+    "Batchfile": 1816,
+    "Dockerfile": 1721,
+    "Makefile": 285
+  },
+  "size": 11006530
+}

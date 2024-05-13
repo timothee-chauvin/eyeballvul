@@ -1,0 +1,12 @@
+{
+  "commit": "3505bde58ec82f15e920298813d37476242793bb",
+  "repo_url": "https://github.com/jashkenas/backbone",
+  "date": "2010-12-01T18:27:10",
+  "languages": {
+    "HTML": 74785,
+    "JavaScript": 59215,
+    "Ruby": 1192,
+    "CoffeeScript": 872
+  },
+  "size": 136064
+}

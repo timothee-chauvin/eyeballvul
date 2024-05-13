@@ -1,0 +1,11 @@
+{
+  "commit": "1fec8f669d9dc965d12f108097f8d78e638b584a",
+  "repo_url": "https://github.com/michaelforney/samurai",
+  "date": "2019-07-10T03:39:53",
+  "languages": {
+    "C": 69230,
+    "Roff": 2646,
+    "Makefile": 519
+  },
+  "size": 72395
+}

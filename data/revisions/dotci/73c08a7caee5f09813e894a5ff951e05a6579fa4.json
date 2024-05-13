@@ -1,0 +1,16 @@
+{
+  "commit": "73c08a7caee5f09813e894a5ff951e05a6579fa4",
+  "repo_url": "https://github.com/groupon/dotci",
+  "date": "2018-02-05T22:19:42",
+  "languages": {
+    "Java": 691958,
+    "JavaScript": 638122,
+    "CSS": 27217,
+    "Groovy": 10470,
+    "HTML": 8596,
+    "Less": 3016,
+    "Dockerfile": 1072,
+    "Makefile": 192
+  },
+  "size": 1380643
+}

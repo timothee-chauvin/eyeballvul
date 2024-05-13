@@ -1,0 +1,17 @@
+{
+  "commit": "2b4b05be693fdbc9b9a06cc016c7dad8c08fab4c",
+  "repo_url": "https://github.com/cobub/razor",
+  "date": "2015-09-16T09:01:10",
+  "languages": {
+    "PHP": 3920101,
+    "JavaScript": 638956,
+    "CSS": 218190,
+    "Objective-C": 192935,
+    "HTML": 145999,
+    "Java": 130781,
+    "C#": 112203,
+    "C": 2641,
+    "Makefile": 467
+  },
+  "size": 5362273
+}

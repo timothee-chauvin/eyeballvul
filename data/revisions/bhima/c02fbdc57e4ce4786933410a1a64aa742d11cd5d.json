@@ -1,0 +1,15 @@
+{
+  "commit": "c02fbdc57e4ce4786933410a1a64aa742d11cd5d",
+  "repo_url": "https://github.com/ima-worldhealth/bhima",
+  "date": "2022-12-28T17:45:29",
+  "languages": {
+    "JavaScript": 5220438,
+    "HTML": 1591088,
+    "Handlebars": 446902,
+    "CSS": 40820,
+    "Shell": 20309,
+    "Less": 13414,
+    "Dockerfile": 1481
+  },
+  "size": 7334452
+}

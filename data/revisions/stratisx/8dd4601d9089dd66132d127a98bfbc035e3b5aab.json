@@ -1,0 +1,21 @@
+{
+  "commit": "8dd4601d9089dd66132d127a98bfbc035e3b5aab",
+  "repo_url": "https://github.com/stratisproject/stratisx",
+  "date": "2018-07-16T16:35:10",
+  "languages": {
+    "C": 3004380,
+    "C++": 2534193,
+    "Python": 54355,
+    "Assembly": 51312,
+    "HTML": 50620,
+    "QMake": 14747,
+    "Roff": 12634,
+    "Makefile": 12628,
+    "Shell": 11282,
+    "Objective-C++": 6109,
+    "NSIS": 6077,
+    "CSS": 1127,
+    "Objective-C": 858
+  },
+  "size": 5760322
+}

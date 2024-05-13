@@ -1,0 +1,15 @@
+{
+  "commit": "d41a8d8fcbc6c4503715fa9c59803c25d1d758d4",
+  "repo_url": "https://github.com/neos/neos",
+  "date": "2022-04-06T11:25:13",
+  "languages": {
+    "PHP": 1447624,
+    "CSS": 992182,
+    "SCSS": 490787,
+    "HTML": 165472,
+    "JavaScript": 33127,
+    "Gherkin": 28956,
+    "TypeScript": 27479
+  },
+  "size": 3185627
+}

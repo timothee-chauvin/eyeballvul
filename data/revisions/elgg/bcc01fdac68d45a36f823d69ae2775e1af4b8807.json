@@ -1,0 +1,14 @@
+{
+  "commit": "bcc01fdac68d45a36f823d69ae2775e1af4b8807",
+  "repo_url": "https://github.com/elgg/elgg",
+  "date": "2019-04-03T15:30:03",
+  "languages": {
+    "PHP": 5689413,
+    "JavaScript": 125968,
+    "HTML": 30000,
+    "Hack": 9596,
+    "CSS": 9308,
+    "Shell": 1127
+  },
+  "size": 5865412
+}

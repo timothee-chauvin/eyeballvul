@@ -1,0 +1,14 @@
+{
+  "commit": "c00683d73916e39f01b0d418f686c8b5c379159c",
+  "repo_url": "https://github.com/intel/hyperscan",
+  "date": "2020-05-25T14:30:57",
+  "languages": {
+    "C++": 6874627,
+    "C": 1997067,
+    "Ragel": 95118,
+    "CMake": 75064,
+    "Python": 25615,
+    "Shell": 933
+  },
+  "size": 9068424
+}

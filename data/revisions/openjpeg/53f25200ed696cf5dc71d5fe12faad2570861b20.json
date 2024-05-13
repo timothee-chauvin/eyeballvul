@@ -1,0 +1,16 @@
+{
+  "commit": "53f25200ed696cf5dc71d5fe12faad2570861b20",
+  "repo_url": "https://github.com/uclouvain/openjpeg",
+  "date": "2016-07-05T14:54:17",
+  "languages": {
+    "C": 4041193,
+    "C++": 313587,
+    "CMake": 114991,
+    "Java": 94654,
+    "Tcl": 28629,
+    "Shell": 20051,
+    "HTML": 14730,
+    "Inno Setup": 1876
+  },
+  "size": 4629711
+}

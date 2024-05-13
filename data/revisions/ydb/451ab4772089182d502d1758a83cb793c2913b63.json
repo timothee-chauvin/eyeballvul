@@ -1,0 +1,17 @@
+{
+  "commit": "451ab4772089182d502d1758a83cb793c2913b63",
+  "repo_url": "https://gitlab.com/yottadb/db/ydb",
+  "date": "2021-02-15T16:20:54",
+  "languages": {
+    "C": 16379536,
+    "M": 10505684,
+    "Shell": 351746,
+    "Assembly": 265809,
+    "CMake": 42085,
+    "Awk": 11663,
+    "Makefile": 9316,
+    "sed": 2886,
+    "XC": 216
+  },
+  "size": 27568941
+}

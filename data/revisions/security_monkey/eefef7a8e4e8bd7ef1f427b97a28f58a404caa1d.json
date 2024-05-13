@@ -1,0 +1,15 @@
+{
+  "commit": "eefef7a8e4e8bd7ef1f427b97a28f58a404caa1d",
+  "repo_url": "https://github.com/netflix/security_monkey",
+  "date": "2016-09-23T22:59:11",
+  "languages": {
+    "Python": 781680,
+    "Dart": 97417,
+    "HTML": 89631,
+    "Shell": 22960,
+    "CSS": 22599,
+    "JavaScript": 11182,
+    "Mako": 412
+  },
+  "size": 1025881
+}

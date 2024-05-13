@@ -1,0 +1,17 @@
+{
+  "commit": "2c98271103539fbe46b37b9f8c2746bc7188b9c8",
+  "repo_url": "https://github.com/transloadit/uppy",
+  "date": "2020-02-14T22:17:48",
+  "languages": {
+    "JavaScript": 1100702,
+    "HTML": 308804,
+    "SCSS": 102211,
+    "EJS": 45926,
+    "Shell": 14724,
+    "TypeScript": 11576,
+    "Makefile": 2843,
+    "CSS": 2539,
+    "Dockerfile": 584
+  },
+  "size": 1589909
+}

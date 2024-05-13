@@ -1,0 +1,16 @@
+{
+  "commit": "3a48d5fef76dd4f6245293d6bb57d78ff9c0047e",
+  "repo_url": "https://github.com/dbeaver/dbeaver",
+  "date": "2021-08-12T11:00:03",
+  "languages": {
+    "Java": 21822999,
+    "JavaScript": 139972,
+    "C++": 63113,
+    "CSS": 18863,
+    "HTML": 8131,
+    "XSLT": 8047,
+    "Batchfile": 2837,
+    "Shell": 202
+  },
+  "size": 22064164
+}

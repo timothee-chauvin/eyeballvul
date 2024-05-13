@@ -1,0 +1,15 @@
+{
+  "id": "PSF-2021-5",
+  "published": "2021-02-21T00:00:00",
+  "modified": "2023-09-18T01:57:02.554966",
+  "details": "The IPv4 address value returned from the server in response to the PASV\ncommand should not be trusted. This prevents a malicious FTP server from\nusing the response to probe IPv4 address and port combinations on the\nclient network.\n\nInstead of using the returned address, we use the IP address we're already\nconnected to. This is the strategy other ftp clients adopted, and matches\nthe only strategy available for the modern IPv6 EPSV command where the\nserver response must return a port number and nothing else.\n",
+  "summary": "ftplib should not use the host from the PASV response",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

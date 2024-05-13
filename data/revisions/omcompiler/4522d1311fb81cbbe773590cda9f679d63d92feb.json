@@ -1,0 +1,26 @@
+{
+  "commit": "4522d1311fb81cbbe773590cda9f679d63d92feb",
+  "repo_url": "https://github.com/openmodelica/omcompiler",
+  "date": "2017-08-23T21:57:18",
+  "languages": {
+    "Motoko": 15993569,
+    "C++": 8108333,
+    "C": 3566152,
+    "Smarty": 2595533,
+    "Modelica": 664730,
+    "GAP": 286074,
+    "CMake": 175090,
+    "Java": 148059,
+    "Python": 63096,
+    "XSLT": 44472,
+    "M4": 43827,
+    "Makefile": 25617,
+    "Lex": 16416,
+    "Batchfile": 5516,
+    "StringTemplate": 4887,
+    "Shell": 3892,
+    "Perl": 2476,
+    "JavaScript": 1649
+  },
+  "size": 31749388
+}

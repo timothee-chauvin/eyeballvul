@@ -1,0 +1,12 @@
+{
+  "commit": "8f20a18bb8a8c026bef7ce5ad66e7d8e198426df",
+  "repo_url": "https://github.com/aaubry/yamldotnet",
+  "date": "2018-06-13T21:25:00",
+  "languages": {
+    "C#": 1160578,
+    "PowerShell": 6333,
+    "Shell": 3461,
+    "Dockerfile": 1737
+  },
+  "size": 1172109
+}

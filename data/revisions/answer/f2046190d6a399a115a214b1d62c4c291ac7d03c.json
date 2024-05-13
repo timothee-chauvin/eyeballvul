@@ -1,0 +1,18 @@
+{
+  "commit": "f2046190d6a399a115a214b1d62c4c291ac7d03c",
+  "repo_url": "https://github.com/answerdev/answer",
+  "date": "2023-01-16T02:57:46",
+  "languages": {
+    "Go": 926959,
+    "TypeScript": 636082,
+    "HTML": 30688,
+    "SCSS": 12461,
+    "JavaScript": 5484,
+    "Dockerfile": 1460,
+    "Smarty": 1438,
+    "Makefile": 1126,
+    "Shell": 439,
+    "CSS": 116
+  },
+  "size": 1616253
+}

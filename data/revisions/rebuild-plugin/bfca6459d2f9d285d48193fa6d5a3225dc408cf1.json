@@ -1,0 +1,11 @@
+{
+  "commit": "bfca6459d2f9d285d48193fa6d5a3225dc408cf1",
+  "repo_url": "https://github.com/jenkinsci/rebuild-plugin",
+  "date": "2018-03-28T19:24:22",
+  "languages": {
+    "Java": 62817,
+    "HTML": 528,
+    "Groovy": 463
+  },
+  "size": 63808
+}

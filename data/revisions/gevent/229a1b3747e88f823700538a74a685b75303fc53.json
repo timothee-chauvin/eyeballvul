@@ -1,0 +1,14 @@
+{
+  "commit": "229a1b3747e88f823700538a74a685b75303fc53",
+  "repo_url": "https://github.com/gevent/gevent",
+  "date": "2023-07-11T15:34:08",
+  "languages": {
+    "Python": 7234090,
+    "Cython": 108212,
+    "C": 54603,
+    "Shell": 20894,
+    "PowerShell": 7195,
+    "Batchfile": 3366
+  },
+  "size": 7428360
+}

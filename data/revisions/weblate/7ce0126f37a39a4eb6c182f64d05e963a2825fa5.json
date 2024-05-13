@@ -1,0 +1,14 @@
+{
+  "commit": "7ce0126f37a39a4eb6c182f64d05e963a2825fa5",
+  "repo_url": "https://github.com/weblateorg/weblate",
+  "date": "2016-12-15T13:06:08",
+  "languages": {
+    "Python": 1741247,
+    "JavaScript": 274974,
+    "HTML": 204102,
+    "Shell": 21476,
+    "CSS": 10721,
+    "PHP": 121
+  },
+  "size": 2252641
+}

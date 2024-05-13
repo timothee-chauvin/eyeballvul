@@ -1,0 +1,14 @@
+{
+  "commit": "d9806033899a9a19fa24976dd2587fb3b3bdb7e0",
+  "repo_url": "https://github.com/zediious/raptor-web",
+  "date": "2023-11-23T19:14:06",
+  "languages": {
+    "Python": 316608,
+    "HTML": 119102,
+    "JavaScript": 7751,
+    "SCSS": 6345,
+    "Shell": 712,
+    "Dockerfile": 589
+  },
+  "size": 451107
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "7ab80428d887cd7fb1c65d45bb0fe4742c9068a0",
+  "repo_url": "https://github.com/yabhq/quarx",
+  "date": "2017-09-21T04:09:31",
+  "languages": {
+    "JavaScript": 668437,
+    "SCSS": 573817,
+    "PHP": 328446,
+    "Blade": 164538,
+    "CSS": 81208,
+    "Less": 30476
+  },
+  "size": 1846922
+}

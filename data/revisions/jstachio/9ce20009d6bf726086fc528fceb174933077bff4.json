@@ -1,0 +1,12 @@
+{
+  "commit": "9ce20009d6bf726086fc528fceb174933077bff4",
+  "repo_url": "https://github.com/jstachio/jstachio",
+  "date": "2023-05-25T13:40:34",
+  "languages": {
+    "Java": 996484,
+    "Mustache": 9938,
+    "Shell": 1092,
+    "Ruby": 860
+  },
+  "size": 1008374
+}

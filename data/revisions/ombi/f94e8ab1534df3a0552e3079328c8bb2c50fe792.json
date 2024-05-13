@@ -1,0 +1,15 @@
+{
+  "commit": "f94e8ab1534df3a0552e3079328c8bb2c50fe792",
+  "repo_url": "https://github.com/ombi-app/ombi",
+  "date": "2023-05-09T10:06:16",
+  "languages": {
+    "C#": 2890416,
+    "TypeScript": 773979,
+    "HTML": 478799,
+    "SCSS": 78939,
+    "JavaScript": 76164,
+    "CSS": 32449,
+    "Makefile": 311
+  },
+  "size": 4331057
+}

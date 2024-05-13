@@ -1,0 +1,18 @@
+{
+  "commit": "6eb15d78379b37ce1793c1a53c12fa31e435a042",
+  "repo_url": "https://github.com/dherault/serverless-offline",
+  "date": "2021-07-28T09:33:19",
+  "languages": {
+    "JavaScript": 413049,
+    "Python": 5108,
+    "Shell": 3692,
+    "Ruby": 3127,
+    "TypeScript": 1125,
+    "Scala": 1032,
+    "Groovy": 964,
+    "Kotlin": 868,
+    "Go": 386,
+    "Makefile": 142
+  },
+  "size": 429493
+}

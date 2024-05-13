@@ -1,0 +1,16 @@
+{
+  "commit": "37192851cae922d9db4812d18d9c8853dd2eda7a",
+  "repo_url": "https://github.com/fatcerberus/minisphere",
+  "date": "2018-06-05T04:44:22",
+  "languages": {
+    "C": 2362840,
+    "JavaScript": 263740,
+    "C#": 70385,
+    "Roff": 15969,
+    "Inno Setup": 9596,
+    "GLSL": 8063,
+    "Makefile": 5115,
+    "Batchfile": 72
+  },
+  "size": 2735780
+}

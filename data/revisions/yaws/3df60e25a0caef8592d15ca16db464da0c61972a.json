@@ -1,0 +1,22 @@
+{
+  "commit": "3df60e25a0caef8592d15ca16db464da0c61972a",
+  "repo_url": "https://github.com/erlyaws/yaws",
+  "date": "2018-06-26T09:05:32",
+  "languages": {
+    "Erlang": 1958918,
+    "Shell": 83410,
+    "C": 50926,
+    "JavaScript": 28450,
+    "Makefile": 28331,
+    "M4": 26542,
+    "HTML": 19030,
+    "CSS": 4981,
+    "Emacs Lisp": 4780,
+    "Batchfile": 4240,
+    "Java": 3597,
+    "Roff": 994,
+    "Python": 87,
+    "PHP": 28
+  },
+  "size": 2214314
+}

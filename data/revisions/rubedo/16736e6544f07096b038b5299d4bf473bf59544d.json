@@ -1,0 +1,14 @@
+{
+  "commit": "16736e6544f07096b038b5299d4bf473bf59544d",
+  "repo_url": "https://github.com/webtales/rubedo",
+  "date": "2016-09-28T12:20:42",
+  "languages": {
+    "PHP": 2294197,
+    "HTML": 82620,
+    "Twig": 7241,
+    "Shell": 2491,
+    "Dockerfile": 1138,
+    "Batchfile": 768
+  },
+  "size": 2388455
+}

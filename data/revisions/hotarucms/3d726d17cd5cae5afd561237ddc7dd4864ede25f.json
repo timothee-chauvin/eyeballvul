@@ -1,0 +1,13 @@
+{
+  "commit": "3d726d17cd5cae5afd561237ddc7dd4864ede25f",
+  "repo_url": "https://github.com/hotarucms/hotarucms",
+  "date": "2014-12-31T01:25:46",
+  "languages": {
+    "PHP": 2218554,
+    "CSS": 172430,
+    "JavaScript": 18711,
+    "HTML": 7115,
+    "Hack": 473
+  },
+  "size": 2417283
+}

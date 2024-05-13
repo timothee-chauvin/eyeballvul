@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2017-9",
+  "published": "2017-05-29T00:00:00",
+  "modified": "2023-09-18T01:59:34.359024",
+  "details": "The urllib module doesn't parse correctly password containing the ``#``\ncharacter.\n",
+  "summary": "bpo-30500: urllib connects to a wrong host",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

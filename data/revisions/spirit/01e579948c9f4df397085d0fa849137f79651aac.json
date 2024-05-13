@@ -1,0 +1,15 @@
+{
+  "commit": "01e579948c9f4df397085d0fa849137f79651aac",
+  "repo_url": "https://github.com/nitely/spirit",
+  "date": "2021-01-08T11:48:40",
+  "languages": {
+    "Python": 851882,
+    "CSS": 207949,
+    "HTML": 171485,
+    "CoffeeScript": 105109,
+    "SCSS": 94771,
+    "JavaScript": 2759,
+    "Makefile": 709
+  },
+  "size": 1434664
+}

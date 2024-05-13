@@ -1,0 +1,21 @@
+{
+  "commit": "bf97bfe3ab193a942754ed16e42972295701c029",
+  "repo_url": "https://github.com/zeek/zeek",
+  "date": "2018-12-19T16:35:06",
+  "languages": {
+    "Zeek": 3718319,
+    "C++": 3370486,
+    "JavaScript": 687343,
+    "C": 179351,
+    "Standard ML": 119935,
+    "CMake": 53970,
+    "Yacc": 46338,
+    "Lex": 34654,
+    "GLSL": 33057,
+    "Shell": 32312,
+    "Roff": 26286,
+    "Python": 7074,
+    "Makefile": 4331
+  },
+  "size": 8313456
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "72acdb43ffe5fe78afa599e9cc71886a703829da",
+  "repo_url": "https://github.com/pingcap/tidb",
+  "date": "2021-09-02T06:12:15",
+  "languages": {
+    "Go": 23010279,
+    "Shell": 320591,
+    "TypeScript": 61875,
+    "Makefile": 15104,
+    "PowerShell": 11548,
+    "Ragel": 3678,
+    "Dockerfile": 2082,
+    "JavaScript": 900,
+    "HTML": 420
+  },
+  "size": 23426477
+}

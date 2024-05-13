@@ -1,0 +1,15 @@
+{
+  "commit": "0c351e0378d893fad8b3e1a5f8ecddbc676de63a",
+  "repo_url": "https://gitlab.com/marsat/ctparental",
+  "date": "2021-07-14T06:37:28",
+  "languages": {
+    "Shell": 211265,
+    "PHP": 80296,
+    "Perl": 15582,
+    "HTML": 7757,
+    "CSS": 3675,
+    "JavaScript": 968,
+    "Hack": 103
+  },
+  "size": 319646
+}

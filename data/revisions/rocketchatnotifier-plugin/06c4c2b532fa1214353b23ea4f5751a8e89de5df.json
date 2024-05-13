@@ -1,0 +1,12 @@
+{
+  "commit": "06c4c2b532fa1214353b23ea4f5751a8e89de5df",
+  "repo_url": "https://github.com/jenkinsci/rocketchatnotifier-plugin",
+  "date": "2019-01-26T06:18:58",
+  "languages": {
+    "Java": 138268,
+    "Shell": 1416,
+    "Groovy": 1126,
+    "HTML": 612
+  },
+  "size": 141422
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "80a4a094afa862ee730e8a948358a49e9735b521",
+  "repo_url": "https://github.com/arc53/docsgpt",
+  "date": "2024-03-14T11:37:33",
+  "languages": {
+    "Python": 215252,
+    "TypeScript": 141736,
+    "JavaScript": 11219,
+    "CSS": 7412,
+    "HTML": 5749,
+    "Shell": 3798,
+    "Dockerfile": 1245
+  },
+  "size": 386411
+}

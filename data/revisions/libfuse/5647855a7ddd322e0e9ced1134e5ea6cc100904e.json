@@ -1,0 +1,13 @@
+{
+  "commit": "5647855a7ddd322e0e9ced1134e5ea6cc100904e",
+  "repo_url": "https://github.com/libfuse/libfuse",
+  "date": "2005-06-02T10:29:00",
+  "languages": {
+    "C": 274149,
+    "M4": 3472,
+    "Makefile": 3294,
+    "Shell": 651,
+    "Roff": 191
+  },
+  "size": 281757
+}

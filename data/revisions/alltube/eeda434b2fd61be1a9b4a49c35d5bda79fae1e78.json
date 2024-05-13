@@ -1,0 +1,14 @@
+{
+  "commit": "eeda434b2fd61be1a9b4a49c35d5bda79fae1e78",
+  "repo_url": "https://github.com/rudloff/alltube",
+  "date": "2021-04-20T21:16:45",
+  "languages": {
+    "PHP": 139066,
+    "Smarty": 15827,
+    "CSS": 12855,
+    "Dockerfile": 519,
+    "Shell": 130,
+    "Procfile": 35
+  },
+  "size": 168432
+}

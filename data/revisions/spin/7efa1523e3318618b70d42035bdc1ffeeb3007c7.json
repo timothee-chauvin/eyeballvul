@@ -1,0 +1,12 @@
+{
+  "commit": "7efa1523e3318618b70d42035bdc1ffeeb3007c7",
+  "repo_url": "https://github.com/nimble-code/spin",
+  "date": "2019-12-03T20:46:44",
+  "languages": {
+    "C": 1080667,
+    "Shell": 225854,
+    "Yacc": 30125,
+    "Makefile": 2048
+  },
+  "size": 1338694
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "726a77cea248472f170a0feb67b0322c092a9650",
+  "repo_url": "https://github.com/suse/cryptctl",
+  "date": "2017-05-11T13:49:46",
+  "languages": {
+    "Go": 319523,
+    "Roff": 9712
+  },
+  "size": 329235
+}

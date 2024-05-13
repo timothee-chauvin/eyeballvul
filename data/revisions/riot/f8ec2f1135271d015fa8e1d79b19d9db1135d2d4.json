@@ -1,0 +1,19 @@
+{
+  "commit": "f8ec2f1135271d015fa8e1d79b19d9db1135d2d4",
+  "repo_url": "https://github.com/riot-os/riot",
+  "date": "2016-11-01T15:05:09",
+  "languages": {
+    "C": 36142888,
+    "Makefile": 101299,
+    "C++": 61723,
+    "Python": 51962,
+    "Assembly": 14065,
+    "Shell": 5346,
+    "Perl": 3077,
+    "Gnuplot": 492,
+    "GDB": 250,
+    "Vim Snippet": 193,
+    "Batchfile": 186
+  },
+  "size": 36381481
+}

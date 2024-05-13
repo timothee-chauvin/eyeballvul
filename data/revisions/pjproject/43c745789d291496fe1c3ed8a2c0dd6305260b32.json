@@ -1,0 +1,28 @@
+{
+  "commit": "43c745789d291496fe1c3ed8a2c0dd6305260b32",
+  "repo_url": "https://github.com/pjsip/pjproject",
+  "date": "2022-11-24T05:24:24",
+  "languages": {
+    "C": 14565009,
+    "C++": 1580068,
+    "Python": 545210,
+    "Shell": 367991,
+    "Objective-C": 278139,
+    "Makefile": 112940,
+    "Java": 109154,
+    "C#": 86315,
+    "Mathematica": 85777,
+    "Swift": 30160,
+    "Assembly": 26685,
+    "CSS": 21213,
+    "SWIG": 12702,
+    "Kotlin": 5326,
+    "Objective-C++": 3462,
+    "HTML": 3320,
+    "QMake": 3193,
+    "Batchfile": 2082,
+    "QML": 1121,
+    "Pan": 288
+  },
+  "size": 17840155
+}

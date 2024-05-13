@@ -1,0 +1,17 @@
+{
+  "commit": "2c15a70bffa47fc90e601e3eddc59d024969d9ca",
+  "repo_url": "https://github.com/jsreport/jsreport",
+  "date": "2023-04-05T17:45:11",
+  "languages": {
+    "JavaScript": 6764696,
+    "Python": 69815,
+    "CSS": 63056,
+    "Handlebars": 22846,
+    "HTML": 19681,
+    "Dockerfile": 5658,
+    "XSLT": 2505,
+    "Shell": 2442,
+    "Less": 98
+  },
+  "size": 6950797
+}

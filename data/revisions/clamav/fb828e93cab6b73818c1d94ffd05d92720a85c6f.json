@@ -1,0 +1,23 @@
+{
+  "commit": "fb828e93cab6b73818c1d94ffd05d92720a85c6f",
+  "repo_url": "https://github.com/cisco-talos/clamav",
+  "date": "2022-01-10T23:09:48",
+  "languages": {
+    "C": 8923267,
+    "C++": 1022561,
+    "CMake": 205478,
+    "Python": 110904,
+    "SWIG": 95791,
+    "Yacc": 45707,
+    "HTML": 24534,
+    "Shell": 18457,
+    "Lex": 16761,
+    "Objective-C": 12874,
+    "Makefile": 8922,
+    "Perl": 5415,
+    "M4": 4809,
+    "Dockerfile": 3658,
+    "GDB": 310
+  },
+  "size": 10499448
+}

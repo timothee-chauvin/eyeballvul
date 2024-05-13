@@ -1,0 +1,14 @@
+{
+  "commit": "845d2a3a31552e79872052a3c293807224164be5",
+  "repo_url": "https://github.com/streamaserver/streama",
+  "date": "2021-02-28T22:36:40",
+  "languages": {
+    "JavaScript": 1351262,
+    "Groovy": 268749,
+    "HTML": 184023,
+    "SCSS": 148128,
+    "CSS": 121343,
+    "Dockerfile": 535
+  },
+  "size": 2074040
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "88967f658663654a67f1cda93ca6f99de1f7c91f",
+  "repo_url": "https://github.com/jgarzik/univalue",
+  "date": "2018-09-01T01:32:32",
+  "languages": {
+    "C++": 55998,
+    "Makefile": 3447,
+    "C": 2162,
+    "M4": 2160,
+    "Shell": 214
+  },
+  "size": 63981
+}

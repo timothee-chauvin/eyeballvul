@@ -1,0 +1,12 @@
+{
+  "commit": "7e693a23f7fb7120f85995d3c922814495be30db",
+  "repo_url": "https://github.com/alanxz/rabbitmq-c",
+  "date": "2018-05-08T07:37:52",
+  "languages": {
+    "C": 569486,
+    "CMake": 40017,
+    "Python": 31897,
+    "Shell": 2007
+  },
+  "size": 643407
+}

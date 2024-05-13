@@ -1,0 +1,13 @@
+{
+  "commit": "387fd9fd5d60f083858ec8b22c55c9fac7329c39",
+  "repo_url": "https://github.com/jenkinsci/role-strategy-plugin",
+  "date": "2017-06-02T20:50:06",
+  "languages": {
+    "Java": 130326,
+    "HTML": 6202,
+    "JavaScript": 2460,
+    "CSS": 1511,
+    "Groovy": 218
+  },
+  "size": 140717
+}

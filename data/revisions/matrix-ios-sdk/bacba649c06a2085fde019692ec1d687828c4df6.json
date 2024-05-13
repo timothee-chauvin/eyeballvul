@@ -1,0 +1,15 @@
+{
+  "commit": "bacba649c06a2085fde019692ec1d687828c4df6",
+  "repo_url": "https://github.com/matrix-org/matrix-ios-sdk",
+  "date": "2022-09-07T10:43:10",
+  "languages": {
+    "Objective-C": 5718726,
+    "Swift": 1335318,
+    "C": 13040,
+    "Ruby": 7727,
+    "Python": 7499,
+    "Shell": 3767,
+    "Jinja": 2085
+  },
+  "size": 7088162
+}

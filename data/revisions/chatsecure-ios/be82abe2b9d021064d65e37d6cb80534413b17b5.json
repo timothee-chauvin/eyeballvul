@@ -1,0 +1,13 @@
+{
+  "commit": "be82abe2b9d021064d65e37d6cb80534413b17b5",
+  "repo_url": "https://github.com/chatsecure/chatsecure-ios",
+  "date": "2017-01-07T19:29:31",
+  "languages": {
+    "Objective-C": 1102072,
+    "Swift": 272159,
+    "C": 30362,
+    "Ruby": 5968,
+    "Python": 4887
+  },
+  "size": 1415448
+}

@@ -1,0 +1,22 @@
+{
+  "commit": "bb844669c144810fac8c51e0a829095305406e23",
+  "repo_url": "https://github.com/neblioteam/neblio",
+  "date": "2018-07-07T04:14:02",
+  "languages": {
+    "C++": 6256087,
+    "Python": 497279,
+    "C": 54709,
+    "Assembly": 51312,
+    "HTML": 50620,
+    "Shell": 35923,
+    "Makefile": 30594,
+    "CMake": 29766,
+    "M4": 25387,
+    "QMake": 18588,
+    "Roff": 12553,
+    "Objective-C++": 5983,
+    "NSIS": 5914,
+    "CSS": 1127
+  },
+  "size": 7075842
+}

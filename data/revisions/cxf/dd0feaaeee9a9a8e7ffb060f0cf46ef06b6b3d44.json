@@ -1,0 +1,21 @@
+{
+  "commit": "dd0feaaeee9a9a8e7ffb060f0cf46ef06b6b3d44",
+  "repo_url": "https://github.com/apache/cxf",
+  "date": "2020-08-20T14:30:25",
+  "languages": {
+    "Java": 38607426,
+    "JavaScript": 104816,
+    "XSLT": 103318,
+    "Shell": 60112,
+    "HTML": 53454,
+    "Batchfile": 36090,
+    "GAP": 20125,
+    "Perl": 6602,
+    "Rich Text Format": 3410,
+    "Groovy": 3049,
+    "Ruby": 951,
+    "Dockerfile": 780,
+    "CSS": 367
+  },
+  "size": 39000500
+}

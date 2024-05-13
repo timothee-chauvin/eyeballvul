@@ -1,0 +1,13 @@
+{
+  "commit": "e140ef95c7f1c5d065b73edc2fd7b8ed5999dde8",
+  "repo_url": "https://github.com/googlecloudplatform/iot-device-sdk-embedded-c",
+  "date": "2020-02-04T15:45:39",
+  "languages": {
+    "C": 1402301,
+    "Makefile": 68182,
+    "C++": 63784,
+    "Shell": 9685,
+    "Python": 7627
+  },
+  "size": 1551579
+}

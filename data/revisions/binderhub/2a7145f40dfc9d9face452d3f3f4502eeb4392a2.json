@@ -1,0 +1,15 @@
+{
+  "commit": "2a7145f40dfc9d9face452d3f3f4502eeb4392a2",
+  "repo_url": "https://github.com/jupyterhub/binderhub",
+  "date": "2019-11-27T07:36:41",
+  "languages": {
+    "Python": 276208,
+    "JavaScript": 18194,
+    "HTML": 15498,
+    "CSS": 7065,
+    "Shell": 6200,
+    "Dockerfile": 1739,
+    "Mustache": 1249
+  },
+  "size": 326153
+}

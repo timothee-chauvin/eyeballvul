@@ -1,0 +1,17 @@
+{
+  "commit": "be85d092c40db8ccc1bd95457a3f6d08eeaf7403",
+  "repo_url": "https://github.com/projectacrn/acrn-hypervisor",
+  "date": "2020-09-30T01:50:57",
+  "languages": {
+    "C": 3914660,
+    "Python": 488622,
+    "ASL": 206056,
+    "Makefile": 72137,
+    "HTML": 70940,
+    "Shell": 64224,
+    "JavaScript": 44145,
+    "Assembly": 38674,
+    "CSS": 116
+  },
+  "size": 4899574
+}

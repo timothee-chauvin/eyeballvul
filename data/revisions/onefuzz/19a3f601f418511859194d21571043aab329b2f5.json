@@ -1,0 +1,16 @@
+{
+  "commit": "19a3f601f418511859194d21571043aab329b2f5",
+  "repo_url": "https://github.com/microsoft/onefuzz",
+  "date": "2021-08-02T16:46:57",
+  "languages": {
+    "Rust": 1073869,
+    "Python": 896695,
+    "Shell": 20912,
+    "C": 15426,
+    "PowerShell": 12811,
+    "Makefile": 4365,
+    "JavaScript": 4364,
+    "C#": 607
+  },
+  "size": 2029049
+}

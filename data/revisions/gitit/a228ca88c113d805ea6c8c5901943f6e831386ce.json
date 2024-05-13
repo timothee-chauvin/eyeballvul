@@ -1,0 +1,17 @@
+{
+  "commit": "a228ca88c113d805ea6c8c5901943f6e831386ce",
+  "repo_url": "https://github.com/jgm/gitit",
+  "date": "2021-08-12T18:53:32",
+  "languages": {
+    "Haskell": 287958,
+    "JavaScript": 100494,
+    "CSS": 20160,
+    "StringTemplate": 5048,
+    "Roff": 3779,
+    "Shell": 2052,
+    "TeX": 1747,
+    "HTML": 1090,
+    "Makefile": 123
+  },
+  "size": 422451
+}

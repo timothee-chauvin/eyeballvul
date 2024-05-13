@@ -1,0 +1,15 @@
+{
+  "commit": "29c2596b462c4db301db3102aaaba7b9cbcdec1d",
+  "repo_url": "https://github.com/gwsw/less",
+  "date": "2022-06-14T17:43:20",
+  "languages": {
+    "C": 711790,
+    "M4": 23103,
+    "Perl": 7492,
+    "Makefile": 4255,
+    "Shell": 2835,
+    "Python": 1823,
+    "Awk": 158
+  },
+  "size": 751456
+}

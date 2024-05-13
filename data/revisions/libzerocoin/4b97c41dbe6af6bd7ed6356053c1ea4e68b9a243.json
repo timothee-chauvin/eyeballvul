@@ -1,0 +1,11 @@
+{
+  "commit": "4b97c41dbe6af6bd7ed6356053c1ea4e68b9a243",
+  "repo_url": "https://github.com/zerocoin/libzerocoin",
+  "date": "2013-07-12T00:04:17",
+  "languages": {
+    "C++": 241578,
+    "Makefile": 4497,
+    "C": 2350
+  },
+  "size": 248425
+}

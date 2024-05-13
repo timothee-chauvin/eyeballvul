@@ -1,0 +1,16 @@
+{
+  "commit": "eddbb3c7d6f175b35c8f0795bf77e20d985afd98",
+  "repo_url": "https://github.com/identityserver/identityserver3",
+  "date": "2016-09-01T15:40:27",
+  "languages": {
+    "C#": 2252754,
+    "JavaScript": 1165559,
+    "CSS": 263957,
+    "Less": 165469,
+    "HTML": 18074,
+    "PowerShell": 4089,
+    "Smalltalk": 226,
+    "Batchfile": 106
+  },
+  "size": 3870234
+}

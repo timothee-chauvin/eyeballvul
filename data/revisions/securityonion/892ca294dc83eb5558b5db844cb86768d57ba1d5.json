@@ -1,0 +1,15 @@
+{
+  "commit": "892ca294dc83eb5558b5db844cb86768d57ba1d5",
+  "repo_url": "https://github.com/security-onion-solutions/securityonion",
+  "date": "2020-10-26T14:17:23",
+  "languages": {
+    "Shell": 686330,
+    "SaltStack": 166526,
+    "Jinja": 40158,
+    "Python": 24095,
+    "YARA": 16129,
+    "Zeek": 9037,
+    "HTML": 376
+  },
+  "size": 942651
+}

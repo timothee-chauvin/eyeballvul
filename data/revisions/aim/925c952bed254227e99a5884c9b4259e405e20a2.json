@@ -1,0 +1,17 @@
+{
+  "commit": "925c952bed254227e99a5884c9b4259e405e20a2",
+  "repo_url": "https://github.com/aimhubio/aim",
+  "date": "2021-11-18T06:15:00",
+  "languages": {
+    "TypeScript": 782124,
+    "Python": 370456,
+    "SCSS": 106526,
+    "Cython": 14641,
+    "JavaScript": 3988,
+    "HTML": 2859,
+    "C": 1404,
+    "Mako": 988,
+    "Shell": 565
+  },
+  "size": 1283551
+}

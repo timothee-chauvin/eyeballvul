@@ -1,0 +1,19 @@
+{
+  "commit": "c53778ff53a73ad2d676602f5dc7019566be5058",
+  "repo_url": "https://github.com/glennrp/libpng",
+  "date": "2013-02-14T04:53:57",
+  "languages": {
+    "C": 2256071,
+    "Roff": 267470,
+    "Makefile": 37696,
+    "Awk": 32131,
+    "Shell": 26133,
+    "CMake": 13757,
+    "DIGITAL Command Language": 10898,
+    "M4": 8425,
+    "Assembly": 7411,
+    "Batchfile": 3582,
+    "Module Management System": 2255
+  },
+  "size": 2665829
+}

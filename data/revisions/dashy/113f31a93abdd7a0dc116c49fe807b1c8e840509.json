@@ -1,0 +1,16 @@
+{
+  "commit": "113f31a93abdd7a0dc116c49fe807b1c8e840509",
+  "repo_url": "https://github.com/lissy93/dashy",
+  "date": "2022-07-01T18:00:33",
+  "languages": {
+    "Vue": 619854,
+    "JavaScript": 156841,
+    "SCSS": 78933,
+    "HTML": 10592,
+    "CSS": 1976,
+    "Dockerfile": 1467,
+    "Shell": 310,
+    "Procfile": 30
+  },
+  "size": 870003
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "c9aeb1badf2b350de559e9a0c7ac619776a05d2d",
+  "repo_url": "https://github.com/flask-admin/flask-admin",
+  "date": "2018-08-27T05:11:42",
+  "languages": {
+    "Python": 696341,
+    "HTML": 101864,
+    "JavaScript": 33048,
+    "CSS": 6792,
+    "Makefile": 5587,
+    "Shell": 1437,
+    "Batchfile": 120
+  },
+  "size": 845189
+}

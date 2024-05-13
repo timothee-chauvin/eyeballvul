@@ -1,0 +1,18 @@
+{
+  "commit": "e512022c8157e77ef85ebb7f5b51d3f3c87ae6a2",
+  "repo_url": "https://github.com/codenotary/immudb",
+  "date": "2022-11-16T10:09:02",
+  "languages": {
+    "Go": 3725051,
+    "Shell": 46997,
+    "Yacc": 14226,
+    "Makefile": 11419,
+    "Dockerfile": 8192,
+    "Roff": 3622,
+    "Python": 2239,
+    "Smarty": 2120,
+    "HTML": 1044,
+    "JavaScript": 583
+  },
+  "size": 3815493
+}

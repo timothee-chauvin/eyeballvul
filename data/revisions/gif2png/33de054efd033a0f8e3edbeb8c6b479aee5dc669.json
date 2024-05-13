@@ -1,0 +1,14 @@
+{
+  "commit": "33de054efd033a0f8e3edbeb8c6b479aee5dc669",
+  "repo_url": "https://gitlab.com/esr/gif2png",
+  "date": "2019-03-21T12:17:26",
+  "languages": {
+    "C": 54514,
+    "Python": 11340,
+    "CSS": 3615,
+    "Makefile": 3124,
+    "JavaScript": 1932,
+    "HTML": 265
+  },
+  "size": 74790
+}

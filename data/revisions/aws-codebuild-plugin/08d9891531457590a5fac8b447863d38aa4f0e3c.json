@@ -1,0 +1,10 @@
+{
+  "commit": "08d9891531457590a5fac8b447863d38aa4f0e3c",
+  "repo_url": "https://github.com/jenkinsci/aws-codebuild-plugin",
+  "date": "2018-06-19T22:27:01",
+  "languages": {
+    "Java": 212011,
+    "HTML": 33052
+  },
+  "size": 245063
+}

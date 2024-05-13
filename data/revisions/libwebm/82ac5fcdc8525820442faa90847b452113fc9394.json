@@ -1,0 +1,12 @@
+{
+  "commit": "82ac5fcdc8525820442faa90847b452113fc9394",
+  "repo_url": "https://github.com/webmproject/libwebm",
+  "date": "2015-12-09T16:12:34",
+  "languages": {
+    "C++": 504200,
+    "Shell": 6803,
+    "CMake": 3619,
+    "Makefile": 276
+  },
+  "size": 514898
+}

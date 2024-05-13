@@ -1,0 +1,13 @@
+{
+  "commit": "e725c9cc5112891c7e68e4755189eae6f4409310",
+  "repo_url": "https://github.com/musicplayerdaemon/ncmpc",
+  "date": "2017-11-05T16:32:50",
+  "languages": {
+    "C": 487060,
+    "Meson": 12445,
+    "Python": 1934,
+    "Ruby": 1762,
+    "Shell": 1065
+  },
+  "size": 504266
+}

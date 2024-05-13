@@ -1,0 +1,17 @@
+{
+  "commit": "5fd10622912fb98c08e6206eec64ba78cae64b89",
+  "repo_url": "https://github.com/lucyparsons/openoversight",
+  "date": "2021-02-28T21:46:00",
+  "languages": {
+    "Python": 515230,
+    "JavaScript": 285208,
+    "SCSS": 220839,
+    "HTML": 150392,
+    "CSS": 39519,
+    "Makefile": 2471,
+    "Dockerfile": 1611,
+    "Mako": 494,
+    "Shell": 187
+  },
+  "size": 1215951
+}

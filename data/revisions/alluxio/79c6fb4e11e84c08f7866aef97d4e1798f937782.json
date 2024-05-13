@@ -1,0 +1,18 @@
+{
+  "commit": "79c6fb4e11e84c08f7866aef97d4e1798f937782",
+  "repo_url": "https://github.com/alluxio/alluxio",
+  "date": "2018-03-27T19:20:33",
+  "languages": {
+    "Java": 6809608,
+    "Shell": 107669,
+    "Thrift": 41159,
+    "Ruby": 16212,
+    "Go": 14793,
+    "Python": 11471,
+    "Roff": 5797,
+    "JavaScript": 1079,
+    "Dockerfile": 974,
+    "HTML": 599
+  },
+  "size": 7009361
+}

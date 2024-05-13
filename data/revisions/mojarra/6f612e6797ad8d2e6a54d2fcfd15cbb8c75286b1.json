@@ -1,0 +1,15 @@
+{
+  "commit": "6f612e6797ad8d2e6a54d2fcfd15cbb8c75286b1",
+  "repo_url": "https://github.com/eclipse-ee4j/mojarra",
+  "date": "2018-04-16T06:18:46",
+  "languages": {
+    "Java": 15517958,
+    "HTML": 3533524,
+    "JavaScript": 289143,
+    "CSS": 148430,
+    "XSLT": 108434,
+    "Shell": 11579,
+    "Batchfile": 7019
+  },
+  "size": 19616087
+}

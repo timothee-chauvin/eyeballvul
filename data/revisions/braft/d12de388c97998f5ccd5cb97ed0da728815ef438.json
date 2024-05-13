@@ -1,0 +1,13 @@
+{
+  "commit": "d12de388c97998f5ccd5cb97ed0da728815ef438",
+  "repo_url": "https://github.com/baidu/braft",
+  "date": "2021-04-26T07:17:43",
+  "languages": {
+    "C++": 1241153,
+    "Shell": 51472,
+    "CMake": 26913,
+    "Clojure": 14971,
+    "Starlark": 4016
+  },
+  "size": 1338525
+}

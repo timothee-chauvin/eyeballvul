@@ -1,0 +1,16 @@
+{
+  "commit": "46d5063d69d0264ccb200c50ae26b03d64ccd85e",
+  "repo_url": "https://github.com/syoyo/tinyexr",
+  "date": "2016-07-08T05:50:29",
+  "languages": {
+    "C++": 843549,
+    "Python": 25234,
+    "Makefile": 1083,
+    "Lua": 959,
+    "CMake": 339,
+    "Batchfile": 333,
+    "C": 283,
+    "Shell": 279
+  },
+  "size": 872059
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "836b974c67a6e0213f68eca4dc18a2d25494907b",
+  "repo_url": "https://github.com/python-social-auth/social-app-django",
+  "date": "2023-10-17T07:39:35",
+  "languages": {
+    "Python": 78159,
+    "Shell": 2238,
+    "Dockerfile": 1121,
+    "Makefile": 331,
+    "HTML": 4
+  },
+  "size": 81853
+}

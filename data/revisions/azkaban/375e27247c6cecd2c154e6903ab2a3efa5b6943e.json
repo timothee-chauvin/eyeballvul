@@ -1,0 +1,18 @@
+{
+  "commit": "375e27247c6cecd2c154e6903ab2a3efa5b6943e",
+  "repo_url": "https://github.com/azkaban/azkaban",
+  "date": "2020-03-16T06:04:57",
+  "languages": {
+    "Java": 4097437,
+    "JavaScript": 614184,
+    "Less": 26519,
+    "CSS": 23622,
+    "Shell": 9651,
+    "HTML": 6261,
+    "C": 3976,
+    "Python": 2187,
+    "PigLatin": 380,
+    "HiveQL": 308
+  },
+  "size": 4784525
+}

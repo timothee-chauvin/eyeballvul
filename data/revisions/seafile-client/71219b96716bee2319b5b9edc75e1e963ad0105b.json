@@ -1,0 +1,16 @@
+{
+  "commit": "71219b96716bee2319b5b9edc75e1e963ad0105b",
+  "repo_url": "https://github.com/haiwen/seafile-client",
+  "date": "2020-06-02T08:44:36",
+  "languages": {
+    "C++": 1454308,
+    "Objective-C++": 65124,
+    "CMake": 31654,
+    "CSS": 13875,
+    "C": 13309,
+    "Python": 11834,
+    "Shell": 7862,
+    "Objective-C": 3000
+  },
+  "size": 1600966
+}

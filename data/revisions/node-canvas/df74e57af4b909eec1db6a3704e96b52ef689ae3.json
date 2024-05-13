@@ -1,0 +1,15 @@
+{
+  "commit": "df74e57af4b909eec1db6a3704e96b52ef689ae3",
+  "repo_url": "https://github.com/automattic/node-canvas",
+  "date": "2017-12-21T00:52:59",
+  "languages": {
+    "C++": 156981,
+    "JavaScript": 121293,
+    "C": 12613,
+    "Python": 4874,
+    "Shell": 1207,
+    "Pug": 604,
+    "CSS": 516
+  },
+  "size": 298088
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "31fbdd515cea4cc9ee20f9995b751eac96da5a09",
+  "repo_url": "https://github.com/minio/console",
+  "date": "2021-11-09T02:44:57",
+  "languages": {
+    "TypeScript": 2030801,
+    "Go": 1076655,
+    "CSS": 21511,
+    "HTML": 5802,
+    "Shell": 4753,
+    "Makefile": 3264,
+    "Dockerfile": 1007,
+    "JavaScript": 312
+  },
+  "size": 3144105
+}

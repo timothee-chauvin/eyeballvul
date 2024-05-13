@@ -1,0 +1,13 @@
+{
+  "commit": "2611d11da12c89f1ac6c20afb98acaa2d42e0ea0",
+  "repo_url": "https://github.com/wal-g/wal-g",
+  "date": "2021-05-28T17:42:58",
+  "languages": {
+    "Go": 1326774,
+    "Shell": 114559,
+    "Dockerfile": 15143,
+    "Makefile": 9478,
+    "Gherkin": 7762
+  },
+  "size": 1473716
+}

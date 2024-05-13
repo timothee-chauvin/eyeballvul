@@ -1,0 +1,14 @@
+{
+  "commit": "34b8a18fe5d4de795851defe34b3ad3e1f43532b",
+  "repo_url": "https://github.com/rdesktop/rdesktop",
+  "date": "2019-01-02T14:06:18",
+  "languages": {
+    "C": 982596,
+    "C++": 120852,
+    "M4": 25846,
+    "Shell": 5772,
+    "Makefile": 5114,
+    "Python": 2995
+  },
+  "size": 1143175
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "71bbbee0752781a65d7f9dde198d58f97ddec097",
+  "repo_url": "https://github.com/dexidp/dex",
+  "date": "2020-11-05T14:53:54",
+  "languages": {
+    "Go": 809444,
+    "CSS": 5979,
+    "HTML": 5321,
+    "Makefile": 2747,
+    "Shell": 2315,
+    "Dockerfile": 950
+  },
+  "size": 826756
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "44c1f8d15e08210353bcbaceb635dbcba05e5da1",
+  "repo_url": "https://github.com/certcc/vince",
+  "date": "2022-05-13T18:23:59",
+  "languages": {
+    "Python": 4423183,
+    "JavaScript": 1513434,
+    "HTML": 985457,
+    "CSS": 340444,
+    "Shell": 2393
+  },
+  "size": 7264911
+}

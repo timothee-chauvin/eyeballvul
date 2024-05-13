@@ -1,0 +1,16 @@
+{
+  "commit": "25c753f2697e6d7228249b95dff9514c135bd04d",
+  "repo_url": "https://github.com/quokkaproject/quokka",
+  "date": "2018-02-06T23:33:56",
+  "languages": {
+    "CSS": 331290,
+    "HTML": 239138,
+    "Python": 164543,
+    "JavaScript": 87788,
+    "Less": 9020,
+    "Makefile": 1068,
+    "Dockerfile": 416,
+    "Jinja": 215
+  },
+  "size": 833478
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "e8f7ff30be989886511281c4e02167ce6fa60de5",
+  "repo_url": "https://github.com/snowflakedb/snowflake-connector-net",
+  "date": "2022-09-30T23:18:46",
+  "languages": {
+    "C#": 888190,
+    "Batchfile": 313
+  },
+  "size": 888503
+}

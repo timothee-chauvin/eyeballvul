@@ -1,0 +1,17 @@
+{
+  "commit": "7ded6b5d243fee3f56c978fc37638f9691e8dfec",
+  "repo_url": "https://github.com/cmusatyalab/opendiamond",
+  "date": "2020-08-10T18:13:12",
+  "languages": {
+    "Python": 507098,
+    "C": 32958,
+    "HTML": 19731,
+    "XSLT": 10972,
+    "Makefile": 6116,
+    "JavaScript": 4458,
+    "M4": 2283,
+    "CSS": 1486,
+    "Shell": 1063
+  },
+  "size": 586165
+}

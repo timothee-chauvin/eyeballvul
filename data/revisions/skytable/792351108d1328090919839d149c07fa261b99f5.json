@@ -1,0 +1,12 @@
+{
+  "commit": "792351108d1328090919839d149c07fa261b99f5",
+  "repo_url": "https://github.com/skytable/skytable",
+  "date": "2020-11-19T05:04:21",
+  "languages": {
+    "Rust": 235411,
+    "Shell": 2128,
+    "C": 1541,
+    "Dockerfile": 512
+  },
+  "size": 239592
+}

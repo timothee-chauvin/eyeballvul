@@ -1,0 +1,11 @@
+{
+  "commit": "fc62093717722ba9817d331d830b95001542308a",
+  "repo_url": "https://github.com/westerndigitalcorporation/sweet-b",
+  "date": "2020-09-02T21:05:18",
+  "languages": {
+    "C": 448792,
+    "Assembly": 17682,
+    "CMake": 6963
+  },
+  "size": 473437
+}

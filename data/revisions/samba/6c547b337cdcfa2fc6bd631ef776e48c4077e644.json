@@ -1,0 +1,29 @@
+{
+  "commit": "6c547b337cdcfa2fc6bd631ef776e48c4077e644",
+  "repo_url": "https://github.com/samba-team/samba",
+  "date": "2016-01-26T14:58:13",
+  "languages": {
+    "C": 53556786,
+    "Python": 4383526,
+    "Shell": 1022758,
+    "Perl": 832535,
+    "XSLT": 71257,
+    "Yacc": 66981,
+    "HTML": 46825,
+    "Makefile": 22617,
+    "Lex": 16233,
+    "TeX": 12121,
+    "SWIG": 10819,
+    "Raku": 7297,
+    "Roff": 4524,
+    "Batchfile": 2916,
+    "sed": 2625,
+    "Awk": 2592,
+    "M4": 2517,
+    "PHP": 1060,
+    "CSS": 873,
+    "VBScript": 308,
+    "RPC": 284
+  },
+  "size": 60067454
+}

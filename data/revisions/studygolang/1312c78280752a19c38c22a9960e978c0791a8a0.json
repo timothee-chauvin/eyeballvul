@@ -1,0 +1,14 @@
+{
+  "commit": "1312c78280752a19c38c22a9960e978c0791a8a0",
+  "repo_url": "https://github.com/studygolang/studygolang",
+  "date": "2014-08-14T05:27:10",
+  "languages": {
+    "JavaScript": 193983,
+    "Go": 188088,
+    "HTML": 143764,
+    "CSS": 20500,
+    "Batchfile": 1466,
+    "Shell": 1254
+  },
+  "size": 549055
+}

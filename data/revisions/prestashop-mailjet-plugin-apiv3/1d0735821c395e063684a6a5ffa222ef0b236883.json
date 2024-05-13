@@ -1,0 +1,12 @@
+{
+  "commit": "1d0735821c395e063684a6a5ffa222ef0b236883",
+  "repo_url": "https://github.com/mailjet/prestashop-mailjet-plugin-apiv3",
+  "date": "2022-06-30T17:30:56",
+  "languages": {
+    "PHP": 819689,
+    "Smarty": 109230,
+    "JavaScript": 52285,
+    "CSS": 22459
+  },
+  "size": 1003663
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "e1901b71c6414c510f10f4cc30c0a05600e55ed1",
+  "repo_url": "https://github.com/skvadrik/re2c",
+  "date": "2019-12-14T11:43:05",
+  "languages": {
+    "C": 20471896,
+    "C++": 5215823,
+    "Roff": 92965,
+    "Haskell": 54474,
+    "Shell": 26421,
+    "Makefile": 13536,
+    "M4": 4545
+  },
+  "size": 25879660
+}

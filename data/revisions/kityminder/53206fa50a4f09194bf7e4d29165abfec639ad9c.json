@@ -1,0 +1,15 @@
+{
+  "commit": "53206fa50a4f09194bf7e4d29165abfec639ad9c",
+  "repo_url": "https://github.com/fex-team/kityminder",
+  "date": "2015-04-08T13:16:31",
+  "languages": {
+    "JavaScript": 1058643,
+    "PHP": 1001579,
+    "Less": 89026,
+    "HTML": 30200,
+    "CSS": 8942,
+    "Smarty": 3929,
+    "Batchfile": 724
+  },
+  "size": 2193043
+}

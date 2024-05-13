@@ -1,0 +1,15 @@
+{
+  "commit": "feca7779f5985391431200d44fe09f843bd1cce5",
+  "repo_url": "https://github.com/techsmith/mp4v2",
+  "date": "2014-04-24T18:47:24",
+  "languages": {
+    "C++": 1471512,
+    "Shell": 287267,
+    "C": 145427,
+    "Makefile": 73272,
+    "Python": 15784,
+    "M4": 14445,
+    "Batchfile": 4532
+  },
+  "size": 2012239
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "234d4379c4279fe15717bd863de3b4f1f400fdd5",
+  "repo_url": "https://github.com/cskefu/cskefu",
+  "date": "2021-02-20T08:47:41",
+  "languages": {
+    "JavaScript": 3686917,
+    "Java": 3465077,
+    "Pug": 1337763,
+    "HTML": 500616,
+    "CSS": 329731,
+    "Shell": 31764,
+    "Smarty": 11192,
+    "PHP": 3831,
+    "Dockerfile": 1632
+  },
+  "size": 9368523
+}

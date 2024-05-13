@@ -1,0 +1,17 @@
+{
+  "commit": "94bf7c94844c5fad4104469038a6d108aece9248",
+  "repo_url": "https://github.com/juniper/libslax",
+  "date": "2017-05-12T15:30:10",
+  "languages": {
+    "C": 1017763,
+    "XSLT": 164131,
+    "Yacc": 80545,
+    "Makefile": 49262,
+    "M4": 21454,
+    "Shell": 16686,
+    "Roff": 11733,
+    "Perl": 794,
+    "XS": 432
+  },
+  "size": 1362800
+}

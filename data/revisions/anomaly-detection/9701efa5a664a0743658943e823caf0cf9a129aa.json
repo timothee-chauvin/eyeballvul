@@ -1,0 +1,12 @@
+{
+  "commit": "9701efa5a664a0743658943e823caf0cf9a129aa",
+  "repo_url": "https://github.com/opensearch-project/anomaly-detection",
+  "date": "2022-06-29T17:55:00",
+  "languages": {
+    "Java": 4270797,
+    "Groovy": 20825,
+    "Python": 12190,
+    "Shell": 2885
+  },
+  "size": 4306697
+}

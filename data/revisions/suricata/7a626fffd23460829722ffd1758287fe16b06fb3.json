@@ -1,0 +1,17 @@
+{
+  "commit": "7a626fffd23460829722ffd1758287fe16b06fb3",
+  "repo_url": "https://github.com/oisf/suricata",
+  "date": "2021-03-01T15:56:01",
+  "languages": {
+    "C": 15920074,
+    "Rust": 1612343,
+    "M4": 134647,
+    "Python": 128470,
+    "Perl": 36751,
+    "Shell": 35530,
+    "Makefile": 34968,
+    "SmPL": 5647,
+    "Lua": 1590
+  },
+  "size": 17910020
+}

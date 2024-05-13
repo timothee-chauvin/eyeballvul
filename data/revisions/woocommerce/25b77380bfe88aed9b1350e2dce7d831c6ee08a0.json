@@ -1,0 +1,14 @@
+{
+  "commit": "25b77380bfe88aed9b1350e2dce7d831c6ee08a0",
+  "repo_url": "https://github.com/multisafepay/woocommerce",
+  "date": "2022-05-25T07:29:08",
+  "languages": {
+    "PHP": 333588,
+    "JavaScript": 9830,
+    "Shell": 7748,
+    "CSS": 4809,
+    "Makefile": 3186,
+    "Dockerfile": 1822
+  },
+  "size": 360983
+}

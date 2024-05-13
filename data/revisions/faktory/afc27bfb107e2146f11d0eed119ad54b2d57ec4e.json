@@ -1,0 +1,14 @@
+{
+  "commit": "afc27bfb107e2146f11d0eed119ad54b2d57ec4e",
+  "repo_url": "https://github.com/contribsys/faktory",
+  "date": "2023-05-09T16:26:50",
+  "languages": {
+    "Go": 354693,
+    "CSS": 41659,
+    "Ruby": 7439,
+    "Makefile": 6933,
+    "Shell": 5129,
+    "Dockerfile": 293
+  },
+  "size": 416146
+}

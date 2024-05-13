@@ -1,0 +1,14 @@
+{
+  "commit": "e620479cc83ab44b3b2cf29fc13c26f8e9f4953a",
+  "repo_url": "https://github.com/home-assistant/core",
+  "date": "2017-10-23T15:40:58",
+  "languages": {
+    "Python": 8059622,
+    "HTML": 1793696,
+    "JavaScript": 15192,
+    "Shell": 14626,
+    "CSS": 13788,
+    "Dockerfile": 1062
+  },
+  "size": 9897986
+}

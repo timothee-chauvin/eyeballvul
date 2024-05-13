@@ -1,0 +1,13 @@
+{
+  "commit": "bd0f0c1a3bed37d5d9be60fb559457c677df25cd",
+  "repo_url": "https://github.com/ibmdb/node-ibm_db",
+  "date": "2016-07-08T07:15:08",
+  "languages": {
+    "JavaScript": 173655,
+    "C++": 147008,
+    "C": 26534,
+    "Python": 3569,
+    "Shell": 1087
+  },
+  "size": 351853
+}

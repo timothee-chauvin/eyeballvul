@@ -1,0 +1,11 @@
+{
+  "commit": "e5384bb2c98f09f3f69aff0a75970c1b514e4765",
+  "repo_url": "https://github.com/jenkinsci/dry-plugin",
+  "date": "2017-07-16T19:05:16",
+  "languages": {
+    "Java": 141305,
+    "HTML": 4630,
+    "Shell": 679
+  },
+  "size": 146614
+}

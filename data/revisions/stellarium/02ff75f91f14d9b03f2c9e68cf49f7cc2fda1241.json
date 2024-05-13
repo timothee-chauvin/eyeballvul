@@ -1,0 +1,26 @@
+{
+  "commit": "02ff75f91f14d9b03f2c9e68cf49f7cc2fda1241",
+  "repo_url": "https://github.com/stellarium/stellarium",
+  "date": "2022-12-25T14:35:26",
+  "languages": {
+    "C++": 9717264,
+    "C": 6525456,
+    "GLSL": 3906106,
+    "TeX": 1583454,
+    "CMake": 412346,
+    "JavaScript": 242091,
+    "Inno Setup": 180162,
+    "HTML": 141844,
+    "Python": 74827,
+    "CSS": 49585,
+    "Perl": 44884,
+    "NASL": 16574,
+    "Makefile": 13722,
+    "Shell": 11623,
+    "EJS": 3758,
+    "QMake": 3518,
+    "PostScript": 1093,
+    "Dockerfile": 410
+  },
+  "size": 22928717
+}

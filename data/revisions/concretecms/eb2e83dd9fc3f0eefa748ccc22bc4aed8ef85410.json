@@ -1,0 +1,17 @@
+{
+  "commit": "eb2e83dd9fc3f0eefa748ccc22bc4aed8ef85410",
+  "repo_url": "https://github.com/concretecms/concretecms",
+  "date": "2021-03-17T21:36:06",
+  "languages": {
+    "PHP": 12616570,
+    "JavaScript": 1448131,
+    "Less": 273199,
+    "CSS": 34599,
+    "PowerShell": 4292,
+    "Shell": 2489,
+    "Vue": 2254,
+    "Hack": 45,
+    "Batchfile": 37
+  },
+  "size": 14381616
+}

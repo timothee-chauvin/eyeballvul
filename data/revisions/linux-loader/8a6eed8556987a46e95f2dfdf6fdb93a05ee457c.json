@@ -1,0 +1,10 @@
+{
+  "commit": "8a6eed8556987a46e95f2dfdf6fdb93a05ee457c",
+  "repo_url": "https://github.com/rust-vmm/linux-loader",
+  "date": "2022-11-14T15:35:45",
+  "languages": {
+    "Rust": 285682,
+    "Shell": 586
+  },
+  "size": 286268
+}

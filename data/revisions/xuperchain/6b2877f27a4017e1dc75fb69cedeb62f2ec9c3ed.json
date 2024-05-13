@@ -1,0 +1,17 @@
+{
+  "commit": "6b2877f27a4017e1dc75fb69cedeb62f2ec9c3ed",
+  "repo_url": "https://github.com/xuperchain/xuperchain",
+  "date": "2020-03-01T09:37:58",
+  "languages": {
+    "Go": 2091402,
+    "C++": 2058173,
+    "C": 30611,
+    "Shell": 18876,
+    "JavaScript": 10647,
+    "Python": 4956,
+    "Makefile": 2683,
+    "Dockerfile": 299,
+    "Assembly": 135
+  },
+  "size": 4217782
+}

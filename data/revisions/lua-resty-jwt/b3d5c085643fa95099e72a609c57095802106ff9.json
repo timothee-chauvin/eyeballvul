@@ -1,0 +1,12 @@
+{
+  "commit": "b3d5c085643fa95099e72a609c57095802106ff9",
+  "repo_url": "https://github.com/cdbattags/lua-resty-jwt",
+  "date": "2021-01-20T21:53:57",
+  "languages": {
+    "Perl": 204112,
+    "Lua": 71960,
+    "Shell": 905,
+    "Makefile": 86
+  },
+  "size": 277063
+}

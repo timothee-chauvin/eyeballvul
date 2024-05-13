@@ -1,0 +1,11 @@
+{
+  "commit": "7526dca133db0dff4a50bf8bea42cf13ad702bca",
+  "repo_url": "https://github.com/gookit/goutil",
+  "date": "2022-10-16T14:21:18",
+  "languages": {
+    "Go": 585309,
+    "Makefile": 1102,
+    "Smarty": 407
+  },
+  "size": 586818
+}

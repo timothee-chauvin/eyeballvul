@@ -1,0 +1,14 @@
+{
+  "commit": "be79dccbb8a4254f7b8689dc5e0fb1103552bc69",
+  "repo_url": "https://github.com/sitecore/sitecore.rocks",
+  "date": "2019-03-27T15:28:05",
+  "languages": {
+    "C#": 7671890,
+    "Rich Text Format": 106576,
+    "ASP.NET": 3278,
+    "Batchfile": 2360,
+    "XSLT": 2125,
+    "JavaScript": 223
+  },
+  "size": 7786452
+}

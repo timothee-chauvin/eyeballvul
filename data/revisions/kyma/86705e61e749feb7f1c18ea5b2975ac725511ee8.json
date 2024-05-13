@@ -1,0 +1,18 @@
+{
+  "commit": "86705e61e749feb7f1c18ea5b2975ac725511ee8",
+  "repo_url": "https://github.com/kyma-project/kyma",
+  "date": "2021-06-30T14:31:33",
+  "languages": {
+    "Go": 6807214,
+    "Shell": 221465,
+    "JavaScript": 141781,
+    "Mustache": 108976,
+    "Smarty": 70288,
+    "Dockerfile": 53703,
+    "Makefile": 48588,
+    "Python": 6888,
+    "HTML": 3664,
+    "CSS": 1152
+  },
+  "size": 7463719
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "fca8b79b57014caba1d6850d1371025f02a17fd9",
+  "repo_url": "https://github.com/squid-cache/squid",
+  "date": "2022-06-05T22:11:52",
+  "languages": {
+    "C++": 8282041,
+    "C": 1027075,
+    "M4": 267509,
+    "Makefile": 163984,
+    "Perl": 104587,
+    "Roff": 93631,
+    "Shell": 65537,
+    "Awk": 7110,
+    "HTML": 2381,
+    "CSS": 1800,
+    "sed": 311
+  },
+  "size": 10015966
+}

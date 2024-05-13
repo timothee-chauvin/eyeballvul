@@ -1,0 +1,14 @@
+{
+  "commit": "fd0cb3bce4314b3fae855f70762c5a76c120dc8d",
+  "repo_url": "https://github.com/haraka/haraka",
+  "date": "2016-07-20T23:07:02",
+  "languages": {
+    "JavaScript": 1332857,
+    "Shell": 7294,
+    "HTML": 4819,
+    "CSS": 4475,
+    "Perl": 1852,
+    "Dockerfile": 1659
+  },
+  "size": 1352956
+}

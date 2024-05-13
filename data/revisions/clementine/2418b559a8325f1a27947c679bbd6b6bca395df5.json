@@ -1,0 +1,17 @@
+{
+  "commit": "2418b559a8325f1a27947c679bbd6b6bca395df5",
+  "repo_url": "https://github.com/clementine-player/clementine",
+  "date": "2016-04-19T15:08:35",
+  "languages": {
+    "C++": 4287443,
+    "CMake": 91049,
+    "Objective-C++": 65965,
+    "C": 25875,
+    "JavaScript": 19774,
+    "Objective-C": 17873,
+    "CSS": 2450,
+    "PLSQL": 1602,
+    "HTML": 881
+  },
+  "size": 4512912
+}

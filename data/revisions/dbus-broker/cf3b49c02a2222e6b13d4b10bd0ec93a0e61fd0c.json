@@ -1,0 +1,12 @@
+{
+  "commit": "cf3b49c02a2222e6b13d4b10bd0ec93a0e61fd0c",
+  "repo_url": "https://github.com/bus1/dbus-broker",
+  "date": "2022-05-10T09:35:53",
+  "languages": {
+    "C": 1156660,
+    "Meson": 12611,
+    "Makefile": 1542,
+    "Shell": 97
+  },
+  "size": 1170910
+}

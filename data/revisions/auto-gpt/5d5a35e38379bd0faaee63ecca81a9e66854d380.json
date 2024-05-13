@@ -1,0 +1,13 @@
+{
+  "commit": "5d5a35e38379bd0faaee63ecca81a9e66854d380",
+  "repo_url": "https://github.com/significant-gravitas/auto-gpt",
+  "date": "2023-06-27T07:40:24",
+  "languages": {
+    "Python": 467008,
+    "Dockerfile": 1678,
+    "Shell": 917,
+    "JavaScript": 804,
+    "Batchfile": 532
+  },
+  "size": 470939
+}

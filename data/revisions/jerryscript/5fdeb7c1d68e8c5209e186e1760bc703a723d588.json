@@ -1,0 +1,19 @@
+{
+  "commit": "5fdeb7c1d68e8c5209e186e1760bc703a723d588",
+  "repo_url": "https://github.com/jerryscript-project/jerryscript",
+  "date": "2020-02-07T17:20:39",
+  "languages": {
+    "C": 4728543,
+    "JavaScript": 2304201,
+    "Python": 215262,
+    "C++": 62837,
+    "CMake": 58961,
+    "Tcl": 47435,
+    "Shell": 47305,
+    "Makefile": 12683,
+    "Assembly": 3218,
+    "Batchfile": 2634,
+    "Riot": 2201
+  },
+  "size": 7485280
+}

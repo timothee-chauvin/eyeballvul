@@ -1,0 +1,32 @@
+{
+  "commit": "cc050e40eb55f6c9f1aa08c00c1689f657747afb",
+  "repo_url": "https://github.com/apache/hive",
+  "date": "2022-03-08T19:39:27",
+  "languages": {
+    "Java": 46079128,
+    "HiveQL": 6288221,
+    "Python": 402014,
+    "Perl": 319842,
+    "PLpgSQL": 294996,
+    "Shell": 293336,
+    "q": 196120,
+    "GAP": 170170,
+    "PHP": 148097,
+    "Thrift": 128446,
+    "C++": 85338,
+    "HTML": 58591,
+    "ANTLR": 54333,
+    "C": 28218,
+    "JavaScript": 25851,
+    "XSLT": 20199,
+    "PigLatin": 12333,
+    "TSQL": 11608,
+    "Roff": 5379,
+    "CSS": 4263,
+    "ReScript": 3460,
+    "M4": 2276,
+    "SQLPL": 1190,
+    "Batchfile": 845
+  },
+  "size": 54634254
+}

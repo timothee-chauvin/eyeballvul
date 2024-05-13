@@ -1,0 +1,12 @@
+{
+  "commit": "05c3346ce8a7c6dfb389cda556c29245ff14a033",
+  "repo_url": "https://github.com/jenkinsci/valgrind-plugin",
+  "date": "2018-03-06T18:06:56",
+  "languages": {
+    "Java": 148997,
+    "HTML": 536,
+    "Shell": 382,
+    "Batchfile": 220
+  },
+  "size": 150135
+}

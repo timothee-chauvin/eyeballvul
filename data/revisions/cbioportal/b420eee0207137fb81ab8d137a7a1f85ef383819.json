@@ -1,0 +1,19 @@
+{
+  "commit": "b420eee0207137fb81ab8d137a7a1f85ef383819",
+  "repo_url": "https://github.com/cbioportal/cbioportal",
+  "date": "2021-07-20T14:29:58",
+  "languages": {
+    "Java": 7396517,
+    "Python": 647171,
+    "HTML": 517801,
+    "JavaScript": 174065,
+    "ActionScript": 106556,
+    "Shell": 58640,
+    "Perl": 48796,
+    "GAP": 27065,
+    "Jinja": 9282,
+    "Dockerfile": 4976,
+    "Procfile": 149
+  },
+  "size": 8991018
+}

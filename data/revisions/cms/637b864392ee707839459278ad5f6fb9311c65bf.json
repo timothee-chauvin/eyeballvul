@@ -1,0 +1,13 @@
+{
+  "commit": "637b864392ee707839459278ad5f6fb9311c65bf",
+  "repo_url": "https://github.com/gleez/cms",
+  "date": "2015-06-14T13:45:14",
+  "languages": {
+    "PHP": 2926374,
+    "JavaScript": 484514,
+    "CSS": 134985,
+    "Hack": 25991,
+    "Shell": 1670
+  },
+  "size": 3573534
+}

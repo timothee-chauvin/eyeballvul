@@ -1,0 +1,13 @@
+{
+  "commit": "34db9d12626abb316341c19f03c034206cce44bb",
+  "repo_url": "https://github.com/cilium/cilium-cli",
+  "date": "2023-03-03T12:53:52",
+  "languages": {
+    "Go": 732831,
+    "HTML": 3439,
+    "Makefile": 2583,
+    "Dockerfile": 728,
+    "Shell": 85
+  },
+  "size": 739666
+}

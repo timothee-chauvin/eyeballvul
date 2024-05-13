@@ -1,0 +1,15 @@
+{
+  "commit": "18ce4aa2dc3c98d0e550f6b024b5b83a2ddc8d59",
+  "repo_url": "https://github.com/cloudfoundry/bosh",
+  "date": "2019-05-24T18:09:39",
+  "languages": {
+    "Ruby": 7550388,
+    "Shell": 120650,
+    "HTML": 63498,
+    "Go": 39397,
+    "Dockerfile": 10769,
+    "HCL": 9586,
+    "Vim Script": 111
+  },
+  "size": 7794399
+}

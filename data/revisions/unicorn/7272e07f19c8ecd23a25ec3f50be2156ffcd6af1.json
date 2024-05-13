@@ -1,0 +1,12 @@
+{
+  "commit": "7272e07f19c8ecd23a25ec3f50be2156ffcd6af1",
+  "repo_url": "https://github.com/w3c/unicorn",
+  "date": "2010-07-27T14:34:45",
+  "languages": {
+    "Java": 374070,
+    "JavaScript": 21983,
+    "CSS": 19650,
+    "HTML": 4312
+  },
+  "size": 420015
+}

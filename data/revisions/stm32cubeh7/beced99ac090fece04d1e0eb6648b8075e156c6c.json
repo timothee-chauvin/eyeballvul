@@ -1,0 +1,17 @@
+{
+  "commit": "beced99ac090fece04d1e0eb6648b8075e156c6c",
+  "repo_url": "https://github.com/stmicroelectronics/stm32cubeh7",
+  "date": "2020-07-29T16:11:49",
+  "languages": {
+    "C++": 1404571939,
+    "C": 816940392,
+    "Assembly": 111191727,
+    "HTML": 28358878,
+    "JavaScript": 1750196,
+    "CSS": 634938,
+    "Makefile": 328501,
+    "Batchfile": 26369,
+    "Python": 21070
+  },
+  "size": 2363824010
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "9e35cae25f5c6226c30c7d9b03987005affb2888",
+  "repo_url": "https://github.com/owasp/nodegoat",
+  "date": "2019-08-03T13:31:12",
+  "languages": {
+    "HTML": 141901,
+    "JavaScript": 91787,
+    "Dockerfile": 586,
+    "Procfile": 48
+  },
+  "size": 234322
+}

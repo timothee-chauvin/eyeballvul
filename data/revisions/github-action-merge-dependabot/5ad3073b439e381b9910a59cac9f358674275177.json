@@ -1,0 +1,10 @@
+{
+  "commit": "5ad3073b439e381b9910a59cac9f358674275177",
+  "repo_url": "https://github.com/fastify/github-action-merge-dependabot",
+  "date": "2022-05-23T11:20:09",
+  "languages": {
+    "JavaScript": 41523,
+    "Shell": 72
+  },
+  "size": 41595
+}

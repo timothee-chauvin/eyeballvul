@@ -1,0 +1,29 @@
+{
+  "commit": "d895b0f1f543c61eb03adddad20f08655a419d4e",
+  "repo_url": "https://github.com/singular/singular",
+  "date": "2022-01-12T15:46:27",
+  "languages": {
+    "C++": 11264956,
+    "Scilab": 10871852,
+    "C": 2094795,
+    "Emacs Lisp": 530722,
+    "Java": 429036,
+    "M4": 182814,
+    "HTML": 161387,
+    "Shell": 131287,
+    "Tcl": 115037,
+    "Python": 90233,
+    "Makefile": 75964,
+    "Perl": 51664,
+    "LLVM": 43427,
+    "Yacc": 43068,
+    "CSS": 25304,
+    "TeX": 18657,
+    "Roff": 13039,
+    "Vim Script": 4156,
+    "SystemVerilog": 1913,
+    "GDB": 750,
+    "Boogie": 12
+  },
+  "size": 26150073
+}

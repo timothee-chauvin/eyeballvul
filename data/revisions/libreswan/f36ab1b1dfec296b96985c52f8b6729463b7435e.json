@@ -1,0 +1,24 @@
+{
+  "commit": "f36ab1b1dfec296b96985c52f8b6729463b7435e",
+  "repo_url": "https://github.com/libreswan/libreswan",
+  "date": "2021-08-20T19:49:44",
+  "languages": {
+    "C": 5065808,
+    "Shell": 1547181,
+    "Python": 523441,
+    "Makefile": 215415,
+    "JavaScript": 42047,
+    "sed": 33628,
+    "Roff": 32835,
+    "Yacc": 25438,
+    "Perl": 24814,
+    "Lex": 18371,
+    "Jinja": 6115,
+    "Dockerfile": 5710,
+    "Awk": 5429,
+    "HTML": 5176,
+    "CSS": 1907,
+    "GDB": 449
+  },
+  "size": 7553764
+}

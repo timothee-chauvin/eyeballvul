@@ -1,0 +1,14 @@
+{
+  "commit": "d02debf46bf934ede31d60cafe27976ec344869c",
+  "repo_url": "https://github.com/typesetter/typesetter",
+  "date": "2017-08-12T19:15:15",
+  "languages": {
+    "PHP": 2565104,
+    "SCSS": 615766,
+    "JavaScript": 223544,
+    "CSS": 183510,
+    "Less": 28472,
+    "HTML": 2465
+  },
+  "size": 3618861
+}

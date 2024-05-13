@@ -1,0 +1,11 @@
+{
+  "commit": "8cea466fd05e6d2e99c28011fc0e2c2d3f3397c9",
+  "repo_url": "https://github.com/honojs/node-server",
+  "date": "2024-01-01T14:58:06",
+  "languages": {
+    "TypeScript": 45351,
+    "JavaScript": 313,
+    "HTML": 45
+  },
+  "size": 45709
+}

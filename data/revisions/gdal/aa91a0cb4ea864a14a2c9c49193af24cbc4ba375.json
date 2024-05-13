@@ -1,0 +1,30 @@
+{
+  "commit": "aa91a0cb4ea864a14a2c9c49193af24cbc4ba375",
+  "repo_url": "https://github.com/osgeo/gdal",
+  "date": "2018-12-14T21:30:39",
+  "languages": {
+    "C++": 51391972,
+    "Python": 10270054,
+    "C": 9972253,
+    "HTML": 2187319,
+    "SWIG": 1141657,
+    "Java": 705870,
+    "Shell": 490553,
+    "M4": 357462,
+    "Makefile": 194004,
+    "C#": 160103,
+    "Perl": 158763,
+    "Ruby": 62065,
+    "Yacc": 44971,
+    "Batchfile": 23932,
+    "F*": 16644,
+    "XSLT": 6630,
+    "Pawn": 4888,
+    "Roff": 4608,
+    "Game Maker Language": 3971,
+    "AGS Script": 2963,
+    "RouterOS Script": 650,
+    "TeX": 556
+  },
+  "size": 77201888
+}

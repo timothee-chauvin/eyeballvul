@@ -1,0 +1,13 @@
+{
+  "commit": "8cebbe27131216ef05abd19aa556d70b3e46580a",
+  "repo_url": "https://github.com/leafpub/leafpub",
+  "date": "2017-06-18T09:20:14",
+  "languages": {
+    "PHP": 532572,
+    "JavaScript": 211972,
+    "Handlebars": 125977,
+    "SCSS": 66597,
+    "HTML": 6854
+  },
+  "size": 943972
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "5c348445478b0b022a4276eff1d625224f2dd32c",
+  "repo_url": "https://github.com/jpirko/libndp",
+  "date": "2015-04-02T10:32:06",
+  "languages": {
+    "C": 68783,
+    "M4": 2125,
+    "Makefile": 895,
+    "Shell": 71
+  },
+  "size": 71874
+}

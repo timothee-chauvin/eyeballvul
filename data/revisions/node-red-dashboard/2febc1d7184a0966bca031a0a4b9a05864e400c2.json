@@ -1,0 +1,12 @@
+{
+  "commit": "2febc1d7184a0966bca031a0a4b9a05864e400c2",
+  "repo_url": "https://github.com/node-red/node-red-dashboard",
+  "date": "2019-09-16T16:18:42",
+  "languages": {
+    "HTML": 346825,
+    "JavaScript": 213606,
+    "Less": 24160,
+    "CSS": 10255
+  },
+  "size": 594846
+}

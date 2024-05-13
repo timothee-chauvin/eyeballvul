@@ -1,0 +1,12 @@
+{
+  "commit": "0b6ca145b550376a12e2214f9b9c21b3121d962b",
+  "repo_url": "https://github.com/jenkinsci/app-detector-plugin",
+  "date": "2021-10-20T06:57:09",
+  "languages": {
+    "Java": 45328,
+    "Groovy": 1412,
+    "HTML": 968,
+    "CSS": 34
+  },
+  "size": 47742
+}

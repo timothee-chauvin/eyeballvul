@@ -1,0 +1,13 @@
+{
+  "commit": "f2d7f253ae145dddd86a9a5633039ee68b3e1a73",
+  "repo_url": "https://github.com/maildev/maildev",
+  "date": "2023-07-20T01:45:58",
+  "languages": {
+    "SCSS": 254340,
+    "HTML": 101516,
+    "JavaScript": 97876,
+    "Shell": 728,
+    "Dockerfile": 591
+  },
+  "size": 455051
+}

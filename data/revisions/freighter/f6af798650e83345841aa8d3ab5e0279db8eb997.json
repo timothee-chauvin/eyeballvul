@@ -1,0 +1,13 @@
+{
+  "commit": "f6af798650e83345841aa8d3ab5e0279db8eb997",
+  "repo_url": "https://github.com/stellar/freighter",
+  "date": "2023-08-11T15:56:59",
+  "languages": {
+    "TypeScript": 684954,
+    "SCSS": 70827,
+    "JavaScript": 34645,
+    "HTML": 1161,
+    "Shell": 349
+  },
+  "size": 791936
+}

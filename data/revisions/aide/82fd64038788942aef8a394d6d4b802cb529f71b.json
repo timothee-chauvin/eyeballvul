@@ -1,0 +1,14 @@
+{
+  "commit": "82fd64038788942aef8a394d6d4b802cb529f71b",
+  "repo_url": "https://github.com/aide/aide",
+  "date": "2023-08-01T08:47:59",
+  "languages": {
+    "C": 454632,
+    "Lex": 21206,
+    "Shell": 20904,
+    "M4": 17507,
+    "Yacc": 7674,
+    "Makefile": 3706
+  },
+  "size": 525629
+}

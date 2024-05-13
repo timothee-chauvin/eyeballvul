@@ -1,0 +1,11 @@
+{
+  "commit": "8ada38bdcaa032c0747487fcd72eb7c5267369d1",
+  "repo_url": "https://github.com/yubico/yubihsm-shell",
+  "date": "2019-11-13T11:19:20",
+  "languages": {
+    "C": 945241,
+    "CMake": 69066,
+    "Shell": 22713
+  },
+  "size": 1037020
+}

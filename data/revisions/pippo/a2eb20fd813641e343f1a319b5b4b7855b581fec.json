@@ -1,0 +1,13 @@
+{
+  "commit": "a2eb20fd813641e343f1a319b5b4b7855b581fec",
+  "repo_url": "https://github.com/pippo-java/pippo",
+  "date": "2018-10-04T21:00:31",
+  "languages": {
+    "Java": 1167289,
+    "Groovy": 7345,
+    "FreeMarker": 3656,
+    "Mustache": 3283,
+    "Pug": 2854
+  },
+  "size": 1184427
+}

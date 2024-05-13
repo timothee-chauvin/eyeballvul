@@ -1,0 +1,17 @@
+{
+  "commit": "a0ae02e6c5e096b70cb6bb1ecd643dddd81000ba",
+  "repo_url": "https://github.com/microsoft/nni",
+  "date": "2021-03-10T11:24:28",
+  "languages": {
+    "Python": 2427599,
+    "TypeScript": 1149196,
+    "JavaScript": 61708,
+    "SCSS": 24874,
+    "Shell": 4745,
+    "CSS": 2891,
+    "HTML": 2403,
+    "Dockerfile": 1874,
+    "PowerShell": 1075
+  },
+  "size": 3676365
+}

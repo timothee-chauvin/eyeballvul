@@ -1,0 +1,13 @@
+{
+  "commit": "c201065b4f25d4794ae86c077efb60c6f934fbc8",
+  "repo_url": "https://github.com/mattermost/mattermost-server",
+  "date": "2019-04-17T14:06:02",
+  "languages": {
+    "Go": 5432221,
+    "HTML": 43735,
+    "Makefile": 27204,
+    "Groovy": 25275,
+    "Shell": 8835
+  },
+  "size": 5537270
+}

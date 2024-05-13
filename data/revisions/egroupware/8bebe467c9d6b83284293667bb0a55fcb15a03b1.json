@@ -1,0 +1,18 @@
+{
+  "commit": "8bebe467c9d6b83284293667bb0a55fcb15a03b1",
+  "repo_url": "https://github.com/egroupware/egroupware",
+  "date": "2016-06-03T14:32:55",
+  "languages": {
+    "PHP": 7699327,
+    "JavaScript": 4566072,
+    "HTML": 3091014,
+    "CSS": 1557574,
+    "Less": 358248,
+    "Java": 207919,
+    "Smarty": 109321,
+    "Rich Text Format": 41487,
+    "XSLT": 35413,
+    "Hack": 137
+  },
+  "size": 17666512
+}

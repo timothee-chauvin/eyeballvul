@@ -1,0 +1,13 @@
+{
+  "commit": "626c4dd830975c90658f38e22ebda81b193c7b99",
+  "repo_url": "https://github.com/http4s/blaze",
+  "date": "2021-02-02T06:08:29",
+  "languages": {
+    "Scala": 888512,
+    "Java": 56443,
+    "Nix": 582,
+    "Lua": 213,
+    "Shell": 93
+  },
+  "size": 945843
+}

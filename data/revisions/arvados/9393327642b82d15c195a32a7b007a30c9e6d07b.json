@@ -1,0 +1,25 @@
+{
+  "commit": "9393327642b82d15c195a32a7b007a30c9e6d07b",
+  "repo_url": "https://github.com/arvados/arvados",
+  "date": "2022-06-02T14:39:01",
+  "languages": {
+    "Go": 3128588,
+    "Ruby": 2269316,
+    "Python": 1694750,
+    "JavaScript": 443233,
+    "Shell": 355213,
+    "HTML": 350757,
+    "R": 272450,
+    "Java": 208638,
+    "Common Workflow Language": 128168,
+    "SaltStack": 112349,
+    "PLpgSQL": 93183,
+    "SCSS": 30654,
+    "Dockerfile": 26865,
+    "Perl": 13507,
+    "CSS": 11835,
+    "Makefile": 5944,
+    "C": 851
+  },
+  "size": 9146301
+}

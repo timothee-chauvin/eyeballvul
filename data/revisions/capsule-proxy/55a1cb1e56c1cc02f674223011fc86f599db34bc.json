@@ -1,0 +1,13 @@
+{
+  "commit": "55a1cb1e56c1cc02f674223011fc86f599db34bc",
+  "repo_url": "https://github.com/clastix/capsule-proxy",
+  "date": "2022-01-11T08:20:59",
+  "languages": {
+    "Shell": 117917,
+    "Go": 72907,
+    "Makefile": 5373,
+    "Smarty": 2081,
+    "Dockerfile": 730
+  },
+  "size": 199008
+}

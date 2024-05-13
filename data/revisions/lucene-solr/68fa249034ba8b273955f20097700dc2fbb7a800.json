@@ -1,0 +1,24 @@
+{
+  "commit": "68fa249034ba8b273955f20097700dc2fbb7a800",
+  "repo_url": "https://github.com/apache/lucene-solr",
+  "date": "2019-03-27T08:02:24",
+  "languages": {
+    "Java": 53763532,
+    "JavaScript": 1243951,
+    "HTML": 815751,
+    "CSS": 420777,
+    "Python": 275153,
+    "XSLT": 140317,
+    "Shell": 137810,
+    "Lex": 89213,
+    "Perl": 80109,
+    "Batchfile": 74607,
+    "C++": 13381,
+    "Groovy": 3681,
+    "ANTLR": 2863,
+    "Gnuplot": 2444,
+    "AMPL": 291,
+    "Mathematica": 96
+  },
+  "size": 57063976
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "073d2d9ba8ce9fff1cb96076c41a0ff6aa485991",
+  "repo_url": "https://github.com/paddlepaddle/anakin",
+  "date": "2018-08-03T02:58:46",
+  "languages": {
+    "C++": 5826031,
+    "JavaScript": 653650,
+    "Cuda": 325922,
+    "Python": 278050,
+    "CMake": 173846,
+    "C": 60899,
+    "Shell": 18452,
+    "CSS": 18091,
+    "HTML": 16033,
+    "Dockerfile": 8541
+  },
+  "size": 7379515
+}

@@ -1,0 +1,21 @@
+{
+  "commit": "fa0b0cc49183af587a4a17ce547e5c81d0352128",
+  "repo_url": "https://github.com/reasoncms/reasoncms",
+  "date": "2016-08-01T15:33:05",
+  "languages": {
+    "PHP": 17110689,
+    "JavaScript": 3008260,
+    "HTML": 1487915,
+    "CSS": 1433419,
+    "SCSS": 224735,
+    "ActionScript": 159800,
+    "Less": 37862,
+    "Shell": 9022,
+    "Python": 2192,
+    "Dockerfile": 1327,
+    "Clean": 495,
+    "Makefile": 382,
+    "MoonScript": 320
+  },
+  "size": 23476418
+}

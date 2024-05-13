@@ -1,0 +1,15 @@
+{
+  "commit": "a44d3254d0abc68baf8d23a946fa6aee7045751b",
+  "repo_url": "https://github.com/horde/base",
+  "date": "2018-08-18T18:04:52",
+  "languages": {
+    "PHP": 751517,
+    "JavaScript": 238823,
+    "CSS": 58495,
+    "HTML": 11358,
+    "XSLT": 2396,
+    "Shell": 1486,
+    "NASL": 846
+  },
+  "size": 1064921
+}

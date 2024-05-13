@@ -1,0 +1,11 @@
+{
+  "commit": "576fe0d377882f8d0fd6537762ef2ff7918facc8",
+  "repo_url": "https://github.com/golang-fips/openssl",
+  "date": "2024-02-21T19:58:00",
+  "languages": {
+    "Go": 274831,
+    "C": 53682,
+    "Shell": 3214
+  },
+  "size": 331727
+}

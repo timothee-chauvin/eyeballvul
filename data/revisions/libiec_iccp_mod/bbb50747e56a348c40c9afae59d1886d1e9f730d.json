@@ -1,0 +1,16 @@
+{
+  "commit": "bbb50747e56a348c40c9afae59d1886d1e9f730d",
+  "repo_url": "https://github.com/fcovatti/libiec_iccp_mod",
+  "date": "2014-09-04T13:34:39",
+  "languages": {
+    "C": 2057993,
+    "Java": 155510,
+    "C#": 77666,
+    "CSS": 50382,
+    "CMake": 18506,
+    "Makefile": 10460,
+    "HTML": 2788,
+    "Shell": 401
+  },
+  "size": 2373706
+}

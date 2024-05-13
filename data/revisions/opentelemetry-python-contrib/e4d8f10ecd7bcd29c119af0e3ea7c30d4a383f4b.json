@@ -1,0 +1,12 @@
+{
+  "commit": "e4d8f10ecd7bcd29c119af0e3ea7c30d4a383f4b",
+  "repo_url": "https://github.com/open-telemetry/opentelemetry-python-contrib",
+  "date": "2023-03-22T16:31:45",
+  "languages": {
+    "Python": 2057177,
+    "Shell": 7255,
+    "Dockerfile": 209,
+    "HTML": 118
+  },
+  "size": 2064759
+}

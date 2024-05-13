@@ -1,0 +1,13 @@
+{
+  "commit": "d31c072942bc5bf3f02247737c01b5219a35464c",
+  "repo_url": "https://github.com/morrisjs/morris.js",
+  "date": "2014-03-19T20:59:42",
+  "languages": {
+    "CoffeeScript": 82464,
+    "JavaScript": 71151,
+    "HTML": 2034,
+    "Less": 484,
+    "Shell": 444
+  },
+  "size": 156577
+}

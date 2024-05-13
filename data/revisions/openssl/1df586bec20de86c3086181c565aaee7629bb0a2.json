@@ -1,0 +1,20 @@
+{
+  "commit": "1df586bec20de86c3086181c565aaee7629bb0a2",
+  "repo_url": "https://github.com/openssl/openssl",
+  "date": "2000-10-26T20:02:33",
+  "languages": {
+    "C": 5553035,
+    "Perl": 400424,
+    "Assembly": 299842,
+    "DIGITAL Command Language": 239330,
+    "C++": 158232,
+    "Shell": 53248,
+    "XS": 42775,
+    "Prolog": 29027,
+    "Batchfile": 21116,
+    "Scheme": 4249,
+    "eC": 2812,
+    "Roff": 5
+  },
+  "size": 6804095
+}

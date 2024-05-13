@@ -1,0 +1,13 @@
+{
+  "commit": "e4e0497be4d598cce0e0a8fef20d1f1e5578c8d0",
+  "repo_url": "https://github.com/coreruleset/coreruleset",
+  "date": "2017-05-12T17:11:20",
+  "languages": {
+    "Perl": 26713,
+    "C": 24428,
+    "Python": 11703,
+    "Ruby": 3381,
+    "JavaScript": 2291
+  },
+  "size": 68516
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "3ce47240be88f52528903a196eb3848fbbf83c37",
+  "repo_url": "https://gitlab.com/gitlab-org/security-products/dast",
+  "date": "2021-12-10T23:01:46",
+  "languages": {
+    "Python": 576828,
+    "Shell": 79029,
+    "JavaScript": 9944,
+    "HTML": 9705,
+    "Dockerfile": 9661,
+    "CSS": 1620,
+    "Roff": 428
+  },
+  "size": 687215
+}

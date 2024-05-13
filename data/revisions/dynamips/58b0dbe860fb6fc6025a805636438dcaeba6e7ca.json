@@ -1,0 +1,11 @@
+{
+  "commit": "58b0dbe860fb6fc6025a805636438dcaeba6e7ca",
+  "repo_url": "https://github.com/gns3/dynamips",
+  "date": "2019-07-12T09:41:16",
+  "languages": {
+    "C": 4245574,
+    "CMake": 44862,
+    "Perl": 579
+  },
+  "size": 4291015
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "1fe15cd707fa05bd558d6bb5b6c489d483179ace",
+  "repo_url": "https://github.com/trustedsec/trevorc2",
+  "date": "2019-11-20T00:53:50",
+  "languages": {
+    "Python": 25395,
+    "Java": 12973,
+    "C#": 9337,
+    "PowerShell": 6844,
+    "Dockerfile": 384
+  },
+  "size": 54933
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "92af8b7e3bd7a322ea5dc15804e8939141f8bd1c",
+  "repo_url": "https://github.com/composer/windows-setup",
+  "date": "2020-01-01T16:01:22",
+  "languages": {
+    "PHP": 286345,
+    "Inno Setup": 169741,
+    "Pascal": 19301,
+    "PowerShell": 4176,
+    "Shell": 329,
+    "Batchfile": 128
+  },
+  "size": 480020
+}

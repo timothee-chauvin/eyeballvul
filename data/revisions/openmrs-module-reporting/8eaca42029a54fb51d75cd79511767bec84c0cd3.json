@@ -1,0 +1,12 @@
+{
+  "commit": "8eaca42029a54fb51d75cd79511767bec84c0cd3",
+  "repo_url": "https://github.com/openmrs/openmrs-module-reporting",
+  "date": "2017-04-11T19:19:48",
+  "languages": {
+    "Java": 3694143,
+    "JavaScript": 153270,
+    "CSS": 17137,
+    "Groovy": 1246
+  },
+  "size": 3865796
+}

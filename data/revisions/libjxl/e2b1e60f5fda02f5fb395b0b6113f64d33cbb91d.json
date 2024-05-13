@@ -1,0 +1,14 @@
+{
+  "commit": "e2b1e60f5fda02f5fb395b0b6113f64d33cbb91d",
+  "repo_url": "https://github.com/libjxl/libjxl",
+  "date": "2021-02-12T20:08:17",
+  "languages": {
+    "C++": 3511296,
+    "Shell": 104276,
+    "C": 92254,
+    "CMake": 61177,
+    "Python": 55716,
+    "MATLAB": 1863
+  },
+  "size": 3826582
+}

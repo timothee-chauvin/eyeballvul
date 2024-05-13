@@ -1,0 +1,12 @@
+{
+  "commit": "33cd0d966f3550b7fb9a917592f4a899ed54e475",
+  "repo_url": "https://github.com/01org/tpm2.0-tools",
+  "date": "2017-04-07T15:57:40",
+  "languages": {
+    "C": 529082,
+    "Shell": 135566,
+    "Makefile": 11765,
+    "M4": 4927
+  },
+  "size": 681340
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "e323277ed9b8ee946f577df0ee344fefc475bcef",
+  "repo_url": "https://github.com/infotelglpi/activity",
+  "date": "2022-04-25T07:53:45",
+  "languages": {
+    "PHP": 548230,
+    "JavaScript": 237804,
+    "CSS": 5021,
+    "Perl": 1336,
+    "Shell": 494
+  },
+  "size": 792885
+}

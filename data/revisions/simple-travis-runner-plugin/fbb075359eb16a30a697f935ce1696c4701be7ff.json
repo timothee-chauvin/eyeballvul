@@ -1,0 +1,10 @@
+{
+  "commit": "fbb075359eb16a30a697f935ce1696c4701be7ff",
+  "repo_url": "https://github.com/jenkinsci/simple-travis-runner-plugin",
+  "date": "2016-02-25T20:02:23",
+  "languages": {
+    "Java": 22863,
+    "Groovy": 12317
+  },
+  "size": 35180
+}

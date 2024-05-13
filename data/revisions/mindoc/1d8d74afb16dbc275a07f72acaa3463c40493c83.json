@@ -1,0 +1,15 @@
+{
+  "commit": "1d8d74afb16dbc275a07f72acaa3463c40493c83",
+  "repo_url": "https://github.com/lifei6671/mindoc",
+  "date": "2018-10-19T09:26:40",
+  "languages": {
+    "Go": 15868320,
+    "Smarty": 408194,
+    "Less": 18358,
+    "PHP": 14485,
+    "Dockerfile": 3455,
+    "HTML": 2823,
+    "Shell": 1605
+  },
+  "size": 16317240
+}

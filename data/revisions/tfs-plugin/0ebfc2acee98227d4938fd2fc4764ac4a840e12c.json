@@ -1,0 +1,13 @@
+{
+  "commit": "0ebfc2acee98227d4938fd2fc4764ac4a840e12c",
+  "repo_url": "https://github.com/jenkinsci/tfs-plugin",
+  "date": "2020-02-20T04:02:15",
+  "languages": {
+    "Java": 814930,
+    "HTML": 57701,
+    "Groovy": 4781,
+    "Batchfile": 741,
+    "Shell": 408
+  },
+  "size": 878561
+}

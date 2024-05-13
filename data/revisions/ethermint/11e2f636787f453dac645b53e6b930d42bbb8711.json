@@ -1,0 +1,14 @@
+{
+  "commit": "11e2f636787f453dac645b53e6b930d42bbb8711",
+  "repo_url": "https://github.com/cosmos/ethermint",
+  "date": "2020-12-15T21:53:33",
+  "languages": {
+    "Go": 619069,
+    "Solidity": 142178,
+    "JavaScript": 101273,
+    "Shell": 19295,
+    "Makefile": 18419,
+    "Dockerfile": 1599
+  },
+  "size": 901833
+}

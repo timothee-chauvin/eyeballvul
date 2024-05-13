@@ -1,0 +1,10 @@
+{
+  "commit": "3b9750bceb6b0b4b31641cd0bdc9b60970973421",
+  "repo_url": "https://github.com/cyberark/conjur-oss-helm-chart",
+  "date": "2019-12-20T20:48:53",
+  "languages": {
+    "Mustache": 2860,
+    "Shell": 1835
+  },
+  "size": 4695
+}

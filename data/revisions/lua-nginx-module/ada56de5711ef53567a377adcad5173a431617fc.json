@@ -1,0 +1,14 @@
+{
+  "commit": "ada56de5711ef53567a377adcad5173a431617fc",
+  "repo_url": "https://github.com/openresty/lua-nginx-module",
+  "date": "2020-03-19T21:40:44",
+  "languages": {
+    "C": 1394107,
+    "Lua": 57005,
+    "Perl": 13519,
+    "Shell": 4017,
+    "DTrace": 2269,
+    "Makefile": 25
+  },
+  "size": 1470942
+}

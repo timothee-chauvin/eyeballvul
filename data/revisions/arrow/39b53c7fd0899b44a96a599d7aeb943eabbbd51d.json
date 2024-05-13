@@ -1,0 +1,16 @@
+{
+  "commit": "39b53c7fd0899b44a96a599d7aeb943eabbbd51d",
+  "repo_url": "https://github.com/arrow-kt/arrow",
+  "date": "2018-12-31T16:44:08",
+  "languages": {
+    "Kotlin": 2173426,
+    "CSS": 87231,
+    "JavaScript": 66836,
+    "SCSS": 55207,
+    "HTML": 14634,
+    "Java": 4465,
+    "Shell": 3043,
+    "Ruby": 83
+  },
+  "size": 2404925
+}

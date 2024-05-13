@@ -1,0 +1,16 @@
+{
+  "commit": "8c8444dd53f577d5eeca292daedc6ce3589e3fa0",
+  "repo_url": "https://github.com/simplcommerce/simplcommerce",
+  "date": "2018-06-16T12:40:37",
+  "languages": {
+    "JavaScript": 1084444,
+    "C#": 1046714,
+    "CSS": 768319,
+    "HTML": 423931,
+    "TSQL": 391029,
+    "Dockerfile": 2385,
+    "Shell": 1417,
+    "PowerShell": 98
+  },
+  "size": 3718337
+}

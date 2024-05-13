@@ -1,0 +1,12 @@
+{
+  "commit": "90e93ce141f7653e2bbf0f98b9126ba349356ac0",
+  "repo_url": "https://github.com/jenkinsci/gogs-webhook-plugin",
+  "date": "2018-04-03T22:36:27",
+  "languages": {
+    "Java": 60322,
+    "Shell": 2502,
+    "Dockerfile": 933,
+    "Groovy": 676
+  },
+  "size": 64433
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "57d810262eb36c6ddd721fe263295db96a66e7f3",
+  "repo_url": "https://github.com/jenkinsci/vsphere-cloud-plugin",
+  "date": "2017-09-07T11:02:42",
+  "languages": {
+    "Java": 410269,
+    "HTML": 19888,
+    "Groovy": 658
+  },
+  "size": 430815
+}

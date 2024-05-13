@@ -1,0 +1,15 @@
+{
+  "commit": "0f9a8e948abaf323cff4e57863be8d19ad10ff3c",
+  "repo_url": "https://github.com/layer5io/meshery",
+  "date": "2021-04-08T13:18:42",
+  "languages": {
+    "JavaScript": 628076,
+    "Go": 570012,
+    "Mustache": 13269,
+    "Makefile": 6866,
+    "Dockerfile": 2261,
+    "Shell": 201,
+    "CSS": 155
+  },
+  "size": 1220840
+}

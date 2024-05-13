@@ -1,0 +1,19 @@
+{
+  "commit": "087d3cdb4b003c92f77db8fe530679806e6520d6",
+  "repo_url": "https://github.com/crypto-org-chain/cronos",
+  "date": "2021-11-30T05:43:58",
+  "languages": {
+    "TypeScript": 5184707,
+    "JavaScript": 4528779,
+    "Go": 228254,
+    "Python": 75800,
+    "Solidity": 24131,
+    "Nix": 12433,
+    "Makefile": 12002,
+    "Shell": 5776,
+    "HTML": 4848,
+    "Vue": 2396,
+    "SCSS": 25
+  },
+  "size": 10079151
+}

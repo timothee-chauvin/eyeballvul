@@ -1,0 +1,19 @@
+{
+  "commit": "784c1e5636226beb8aae918936b0787d0bbcad4e",
+  "repo_url": "https://github.com/ocproducts/composr",
+  "date": "2018-01-22T19:07:55",
+  "languages": {
+    "PHP": 40101341,
+    "JavaScript": 1848952,
+    "Smarty": 1186929,
+    "HTML": 857657,
+    "CSS": 477886,
+    "Java": 62038,
+    "ASL": 29083,
+    "XSLT": 28092,
+    "Shell": 18959,
+    "Makefile": 9845,
+    "Batchfile": 6002
+  },
+  "size": 44626784
+}

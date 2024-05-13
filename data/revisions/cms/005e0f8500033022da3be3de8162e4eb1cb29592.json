@@ -1,0 +1,16 @@
+{
+  "commit": "005e0f8500033022da3be3de8162e4eb1cb29592",
+  "repo_url": "https://github.com/instantupdate/cms",
+  "date": "2017-11-30T22:20:21",
+  "languages": {
+    "PHP": 2471697,
+    "JavaScript": 1231582,
+    "CSS": 247235,
+    "HTML": 224941,
+    "SCSS": 72669,
+    "C": 30551,
+    "Java": 14870,
+    "Hack": 49
+  },
+  "size": 4293594
+}

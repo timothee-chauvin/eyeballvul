@@ -1,0 +1,12 @@
+{
+  "commit": "85022fe3d5b77b93eb20e4abc23c32577bf87f66",
+  "repo_url": "https://github.com/dosfstools/dosfstools",
+  "date": "2015-05-16T00:56:17",
+  "languages": {
+    "C": 189308,
+    "Roff": 37501,
+    "Makefile": 6730,
+    "Shell": 1842
+  },
+  "size": 235381
+}

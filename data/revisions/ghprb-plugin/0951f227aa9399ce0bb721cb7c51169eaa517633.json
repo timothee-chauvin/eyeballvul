@@ -1,0 +1,11 @@
+{
+  "commit": "0951f227aa9399ce0bb721cb7c51169eaa517633",
+  "repo_url": "https://github.com/jenkinsci/ghprb-plugin",
+  "date": "2017-07-05T14:15:53",
+  "languages": {
+    "Java": 385495,
+    "Groovy": 9695,
+    "HTML": 8604
+  },
+  "size": 403794
+}

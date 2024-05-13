@@ -1,0 +1,12 @@
+{
+  "commit": "339c778f29a082ec9eb7ca51e9fe136754e1c46b",
+  "repo_url": "https://github.com/jenkinsci/image-gallery-plugin",
+  "date": "2016-03-19T02:16:28",
+  "languages": {
+    "JavaScript": 205722,
+    "Java": 53345,
+    "CSS": 24676,
+    "HTML": 709
+  },
+  "size": 284452
+}

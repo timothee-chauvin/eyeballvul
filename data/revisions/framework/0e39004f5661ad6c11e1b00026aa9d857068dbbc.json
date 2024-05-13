@@ -1,0 +1,13 @@
+{
+  "commit": "0e39004f5661ad6c11e1b00026aa9d857068dbbc",
+  "repo_url": "https://github.com/top-think/framework",
+  "date": "2016-09-28T03:40:39",
+  "languages": {
+    "PHP": 1100169,
+    "Smarty": 31171,
+    "PLpgSQL": 3807,
+    "HTML": 818,
+    "Shell": 500
+  },
+  "size": 1136465
+}

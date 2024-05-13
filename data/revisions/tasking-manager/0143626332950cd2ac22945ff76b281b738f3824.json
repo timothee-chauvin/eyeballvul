@@ -1,0 +1,19 @@
+{
+  "commit": "0143626332950cd2ac22945ff76b281b738f3824",
+  "repo_url": "https://github.com/hotosm/tasking-manager",
+  "date": "2019-06-24T15:45:44",
+  "languages": {
+    "Python": 543293,
+    "JavaScript": 461430,
+    "HTML": 368651,
+    "SCSS": 84063,
+    "Shell": 18485,
+    "PLpgSQL": 2009,
+    "Makefile": 947,
+    "Dockerfile": 919,
+    "Mako": 494,
+    "Batchfile": 447,
+    "CSS": 154
+  },
+  "size": 1480892
+}

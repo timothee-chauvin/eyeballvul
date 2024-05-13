@@ -1,0 +1,11 @@
+{
+  "commit": "0587e786519fff90af468fb9d8129acc46e4fd4b",
+  "repo_url": "https://github.com/sraoss/pg_ivm",
+  "date": "2023-01-30T10:04:54",
+  "languages": {
+    "C": 625969,
+    "PLpgSQL": 23243,
+    "Makefile": 491
+  },
+  "size": 649703
+}

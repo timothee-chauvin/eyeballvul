@@ -1,0 +1,17 @@
+{
+  "commit": "7011195c3ccc655e47088e099aa6144d547b162b",
+  "repo_url": "https://github.com/pubnub/c-core",
+  "date": "2024-03-27T07:24:18",
+  "languages": {
+    "C": 3198838,
+    "Makefile": 580203,
+    "C++": 417944,
+    "CMake": 21735,
+    "Dockerfile": 2900,
+    "QMake": 2566,
+    "C#": 1647,
+    "Python": 1589,
+    "Shell": 1369
+  },
+  "size": 4228791
+}

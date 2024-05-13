@@ -1,0 +1,15 @@
+{
+  "commit": "2d598ad8e14ee217113cc13f8607762fc8f652f4",
+  "repo_url": "https://github.com/deanmalmgren/textract",
+  "date": "2015-10-10T13:14:24",
+  "languages": {
+    "HTML": 493249,
+    "Rich Text Format": 78792,
+    "Python": 51796,
+    "Shell": 2922,
+    "Makefile": 1478,
+    "PostScript": 968,
+    "Dockerfile": 521
+  },
+  "size": 629726
+}

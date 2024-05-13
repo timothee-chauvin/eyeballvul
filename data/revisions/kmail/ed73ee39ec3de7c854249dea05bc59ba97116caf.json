@@ -1,0 +1,13 @@
+{
+  "commit": "ed73ee39ec3de7c854249dea05bc59ba97116caf",
+  "repo_url": "https://github.com/kde/kmail",
+  "date": "2017-05-02T11:43:37",
+  "languages": {
+    "C++": 2155186,
+    "CMake": 67505,
+    "Shell": 9913,
+    "C": 3401,
+    "HTML": 1264
+  },
+  "size": 2237269
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "72c28484d6a7677643324744be2ff0aab6795d5a",
+  "repo_url": "https://github.com/luracast/restler",
+  "date": "2014-04-13T05:38:15",
+  "languages": {
+    "JavaScript": 855938,
+    "CSS": 331861,
+    "PHP": 130545,
+    "HTML": 116979,
+    "Makefile": 42842,
+    "Gherkin": 28063,
+    "Twig": 7953
+  },
+  "size": 1514181
+}

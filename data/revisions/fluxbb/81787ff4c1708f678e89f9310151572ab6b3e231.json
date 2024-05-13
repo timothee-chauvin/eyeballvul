@@ -1,0 +1,13 @@
+{
+  "commit": "81787ff4c1708f678e89f9310151572ab6b3e231",
+  "repo_url": "https://github.com/fluxbb/fluxbb",
+  "date": "2014-01-15T22:53:02",
+  "languages": {
+    "PHP": 1170323,
+    "CSS": 239982,
+    "Smarty": 8500,
+    "JavaScript": 3449,
+    "HTML": 1368
+  },
+  "size": 1423622
+}

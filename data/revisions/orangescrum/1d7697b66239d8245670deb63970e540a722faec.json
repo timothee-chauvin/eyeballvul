@@ -1,0 +1,14 @@
+{
+  "commit": "1d7697b66239d8245670deb63970e540a722faec",
+  "repo_url": "https://github.com/orangescrum/orangescrum",
+  "date": "2022-10-28T06:28:42",
+  "languages": {
+    "PHP": 20488780,
+    "JavaScript": 4880678,
+    "CSS": 3130062,
+    "HTML": 566866,
+    "Shell": 8245,
+    "Batchfile": 2785
+  },
+  "size": 29077416
+}

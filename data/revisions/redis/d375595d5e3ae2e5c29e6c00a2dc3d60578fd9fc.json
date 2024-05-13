@@ -1,0 +1,16 @@
+{
+  "commit": "d375595d5e3ae2e5c29e6c00a2dc3d60578fd9fc",
+  "repo_url": "https://github.com/antirez/redis",
+  "date": "2022-04-27T13:32:17",
+  "languages": {
+    "C": 6257959,
+    "Tcl": 1724286,
+    "Ruby": 25909,
+    "Shell": 22377,
+    "Python": 19494,
+    "Makefile": 18651,
+    "C++": 5987,
+    "Smarty": 1047
+  },
+  "size": 8075710
+}

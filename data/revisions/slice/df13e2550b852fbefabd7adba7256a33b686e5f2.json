@@ -1,0 +1,14 @@
+{
+  "commit": "df13e2550b852fbefabd7adba7256a33b686e5f2",
+  "repo_url": "https://github.com/sleepepi/slice",
+  "date": "2021-08-07T15:54:02",
+  "languages": {
+    "Ruby": 1476362,
+    "Haml": 917940,
+    "SCSS": 127680,
+    "CoffeeScript": 88373,
+    "JavaScript": 47913,
+    "HTML": 38631
+  },
+  "size": 2696899
+}

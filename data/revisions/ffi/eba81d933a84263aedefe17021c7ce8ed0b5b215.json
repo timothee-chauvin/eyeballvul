@@ -1,0 +1,12 @@
+{
+  "commit": "eba81d933a84263aedefe17021c7ce8ed0b5b215",
+  "repo_url": "https://github.com/ffi/ffi",
+  "date": "2018-02-25T07:02:38",
+  "languages": {
+    "C": 366523,
+    "Ruby": 346229,
+    "Makefile": 18388,
+    "Shell": 1396
+  },
+  "size": 732536
+}

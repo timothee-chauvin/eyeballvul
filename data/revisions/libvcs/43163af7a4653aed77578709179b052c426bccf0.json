@@ -1,0 +1,12 @@
+{
+  "commit": "43163af7a4653aed77578709179b052c426bccf0",
+  "repo_url": "https://github.com/vcs-python/libvcs",
+  "date": "2022-01-09T02:56:28",
+  "languages": {
+    "Python": 56408,
+    "Makefile": 1422,
+    "CSS": 900,
+    "Shell": 120
+  },
+  "size": 58850
+}

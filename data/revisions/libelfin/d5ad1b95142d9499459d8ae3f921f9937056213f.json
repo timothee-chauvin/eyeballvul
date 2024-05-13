@@ -1,0 +1,14 @@
+{
+  "commit": "d5ad1b95142d9499459d8ae3f921f9937056213f",
+  "repo_url": "https://github.com/aclements/libelfin",
+  "date": "2016-12-02T02:35:28",
+  "languages": {
+    "C++": 211005,
+    "Python": 5403,
+    "Makefile": 4825,
+    "Shell": 1718,
+    "C": 168,
+    "Emacs Lisp": 129
+  },
+  "size": 223248
+}

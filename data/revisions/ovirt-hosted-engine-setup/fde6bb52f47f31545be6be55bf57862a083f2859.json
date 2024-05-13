@@ -1,0 +1,14 @@
+{
+  "commit": "fde6bb52f47f31545be6be55bf57862a083f2859",
+  "repo_url": "https://github.com/ovirt/ovirt-hosted-engine-setup",
+  "date": "2018-01-17T15:32:24",
+  "languages": {
+    "Python": 1190385,
+    "Makefile": 46442,
+    "Shell": 22919,
+    "Jinja": 7743,
+    "M4": 7104,
+    "BitBake": 2285
+  },
+  "size": 1276878
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "15686e56dd1c824a562091c23db51d2d518ece24",
+  "repo_url": "https://github.com/apache/ant",
+  "date": "2020-09-27T09:59:27",
+  "languages": {
+    "Java": 9684281,
+    "HTML": 2229398,
+    "XSLT": 457065,
+    "GAP": 36430,
+    "Shell": 31431,
+    "Batchfile": 28786,
+    "Perl": 9744,
+    "CSS": 4569,
+    "Python": 3344
+  },
+  "size": 12485048
+}

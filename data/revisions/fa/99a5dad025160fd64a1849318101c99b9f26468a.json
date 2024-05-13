@@ -1,0 +1,12 @@
+{
+  "commit": "99a5dad025160fd64a1849318101c99b9f26468a",
+  "repo_url": "https://github.com/faforever/fa",
+  "date": "2022-11-06T21:06:13",
+  "languages": {
+    "Lua": 21367551,
+    "HLSL": 428023,
+    "Shell": 3556,
+    "Batchfile": 496
+  },
+  "size": 21799626
+}

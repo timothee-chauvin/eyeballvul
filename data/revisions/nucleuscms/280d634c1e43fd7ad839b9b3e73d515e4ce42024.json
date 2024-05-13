@@ -1,0 +1,13 @@
+{
+  "commit": "280d634c1e43fd7ad839b9b3e73d515e4ce42024",
+  "repo_url": "https://github.com/nucleuscms/nucleuscms",
+  "date": "2014-09-21T11:45:05",
+  "languages": {
+    "PHP": 2669614,
+    "CSS": 39552,
+    "JavaScript": 36141,
+    "HTML": 15291,
+    "Hack": 826
+  },
+  "size": 2761424
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "a88a626e76139259e5b6fc0db39045f051e243dd",
+  "repo_url": "https://github.com/midnightcommander/mc",
+  "date": "2021-01-18T18:27:26",
+  "languages": {
+    "C": 5217251,
+    "Shell": 143138,
+    "M4": 134437,
+    "Makefile": 39914,
+    "Perl": 24405,
+    "Python": 22746
+  },
+  "size": 5581891
+}

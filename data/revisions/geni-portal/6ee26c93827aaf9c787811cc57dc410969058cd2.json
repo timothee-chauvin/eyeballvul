@@ -1,0 +1,16 @@
+{
+  "commit": "6ee26c93827aaf9c787811cc57dc410969058cd2",
+  "repo_url": "https://github.com/geni-nsf/geni-portal",
+  "date": "2017-07-12T18:44:49",
+  "languages": {
+    "PHP": 2001121,
+    "JavaScript": 277122,
+    "Python": 178020,
+    "CSS": 78377,
+    "Makefile": 20153,
+    "HTML": 10943,
+    "Shell": 5381,
+    "M4": 2221
+  },
+  "size": 2573338
+}

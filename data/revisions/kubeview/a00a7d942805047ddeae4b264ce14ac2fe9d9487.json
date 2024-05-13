@@ -1,0 +1,16 @@
+{
+  "commit": "a00a7d942805047ddeae4b264ce14ac2fe9d9487",
+  "repo_url": "https://github.com/benc-uk/kubeview",
+  "date": "2021-10-31T11:23:52",
+  "languages": {
+    "Vue": 33314,
+    "Go": 13925,
+    "JavaScript": 3356,
+    "Makefile": 2328,
+    "Dockerfile": 2296,
+    "Mustache": 1421,
+    "HTML": 570,
+    "CSS": 112
+  },
+  "size": 57322
+}

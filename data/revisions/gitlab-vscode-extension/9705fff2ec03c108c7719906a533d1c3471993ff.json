@@ -1,0 +1,11 @@
+{
+  "commit": "9705fff2ec03c108c7719906a533d1c3471993ff",
+  "repo_url": "https://gitlab.com/gitlab-org/gitlab-vscode-extension",
+  "date": "2020-01-20T18:58:14",
+  "languages": {
+    "JavaScript": 52403,
+    "Vue": 14572,
+    "HTML": 1100
+  },
+  "size": 68075
+}

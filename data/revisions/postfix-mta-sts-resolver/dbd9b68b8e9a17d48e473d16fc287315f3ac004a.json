@@ -1,0 +1,12 @@
+{
+  "commit": "dbd9b68b8e9a17d48e473d16fc287315f3ac004a",
+  "repo_url": "https://github.com/snawoot/postfix-mta-sts-resolver",
+  "date": "2019-05-23T19:49:52",
+  "languages": {
+    "Python": 35871,
+    "Makefile": 1528,
+    "Shell": 654,
+    "Dockerfile": 325
+  },
+  "size": 38378
+}

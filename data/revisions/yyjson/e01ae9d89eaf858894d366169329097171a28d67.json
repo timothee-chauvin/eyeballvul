@@ -1,0 +1,13 @@
+{
+  "commit": "e01ae9d89eaf858894d366169329097171a28d67",
+  "repo_url": "https://github.com/ibireme/yyjson",
+  "date": "2023-09-13T16:53:54",
+  "languages": {
+    "C": 1328861,
+    "CMake": 30129,
+    "Objective-C": 1567,
+    "Swift": 810,
+    "C++": 357
+  },
+  "size": 1361724
+}

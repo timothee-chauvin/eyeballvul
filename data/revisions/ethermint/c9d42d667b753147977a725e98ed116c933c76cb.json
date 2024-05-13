@@ -1,0 +1,15 @@
+{
+  "commit": "c9d42d667b753147977a725e98ed116c933c76cb",
+  "repo_url": "https://github.com/evmos/ethermint",
+  "date": "2022-07-26T17:41:33",
+  "languages": {
+    "Go": 1235547,
+    "Solidity": 155595,
+    "JavaScript": 117546,
+    "Shell": 33343,
+    "Makefile": 19437,
+    "Batchfile": 2693,
+    "Dockerfile": 1376
+  },
+  "size": 1565537
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "879e05ecc75a6bf70aabc1c3d867eb420f291f60",
+  "repo_url": "https://github.com/contao/contao",
+  "date": "2019-08-15T11:15:57",
+  "languages": {
+    "PHP": 5216563,
+    "JavaScript": 99408,
+    "CSS": 64797,
+    "Twig": 31972,
+    "Shell": 2136
+  },
+  "size": 5414876
+}

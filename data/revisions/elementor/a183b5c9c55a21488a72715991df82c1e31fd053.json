@@ -1,0 +1,14 @@
+{
+  "commit": "a183b5c9c55a21488a72715991df82c1e31fd053",
+  "repo_url": "https://github.com/elementor/elementor",
+  "date": "2022-01-23T10:31:18",
+  "languages": {
+    "PHP": 2936316,
+    "JavaScript": 2668133,
+    "SCSS": 445361,
+    "CSS": 62230,
+    "Shell": 10948,
+    "HTML": 877
+  },
+  "size": 6123865
+}

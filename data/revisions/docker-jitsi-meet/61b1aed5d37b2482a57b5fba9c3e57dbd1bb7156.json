@@ -1,0 +1,12 @@
+{
+  "commit": "61b1aed5d37b2482a57b5fba9c3e57dbd1bb7156",
+  "repo_url": "https://github.com/jitsi/docker-jitsi-meet",
+  "date": "2020-04-06T11:33:36",
+  "languages": {
+    "Lua": 10284,
+    "Dockerfile": 6231,
+    "Makefile": 1739,
+    "Shell": 1182
+  },
+  "size": 19436
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "6a48545e4f18e37da72044327a4dda3ecff070f6",
+  "repo_url": "https://github.com/ximdex/ximdex",
+  "date": "2019-07-12T12:05:08",
+  "languages": {
+    "JavaScript": 3204021,
+    "PHP": 3017368,
+    "CoffeeScript": 694034,
+    "CSS": 682239,
+    "Smarty": 516628,
+    "SCSS": 372972,
+    "XSLT": 84378,
+    "HTML": 75740,
+    "Less": 18158,
+    "Shell": 16672
+  },
+  "size": 8682210
+}

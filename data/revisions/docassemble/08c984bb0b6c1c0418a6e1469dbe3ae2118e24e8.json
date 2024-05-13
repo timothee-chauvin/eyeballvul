@@ -1,0 +1,20 @@
+{
+  "commit": "08c984bb0b6c1c0418a6e1469dbe3ae2118e24e8",
+  "repo_url": "https://github.com/jhpyle/docassemble",
+  "date": "2024-02-14T14:50:12",
+  "languages": {
+    "Python": 4624037,
+    "JavaScript": 1879265,
+    "Gherkin": 541846,
+    "HTML": 182522,
+    "Shell": 156382,
+    "Rich Text Format": 120028,
+    "CSS": 90091,
+    "TeX": 15582,
+    "Dockerfile": 6840,
+    "Emacs Lisp": 3393,
+    "Mako": 1042,
+    "C++": 156
+  },
+  "size": 7621184
+}

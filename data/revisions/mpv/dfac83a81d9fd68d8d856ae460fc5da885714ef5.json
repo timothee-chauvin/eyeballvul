@@ -1,0 +1,18 @@
+{
+  "commit": "dfac83a81d9fd68d8d856ae460fc5da885714ef5",
+  "repo_url": "https://github.com/mpv-player/mpv",
+  "date": "2017-12-24T23:18:05",
+  "languages": {
+    "C": 5370732,
+    "Objective-C": 275188,
+    "Lua": 166130,
+    "Python": 142882,
+    "JavaScript": 18260,
+    "Shell": 13692,
+    "C++": 11874,
+    "Perl": 6769,
+    "Ruby": 2649,
+    "HLSL": 982
+  },
+  "size": 6009158
+}

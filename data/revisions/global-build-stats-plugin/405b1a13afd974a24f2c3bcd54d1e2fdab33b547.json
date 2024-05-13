@@ -1,0 +1,12 @@
+{
+  "commit": "405b1a13afd974a24f2c3bcd54d1e2fdab33b547",
+  "repo_url": "https://github.com/jenkinsci/global-build-stats-plugin",
+  "date": "2016-05-08T18:11:59",
+  "languages": {
+    "Java": 160766,
+    "JavaScript": 32762,
+    "CSS": 16173,
+    "HTML": 93
+  },
+  "size": 209794
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "e84e49cd42528eb18531d6c92abd9d04c027595b",
+  "repo_url": "https://github.com/wger-project/wger",
+  "date": "2021-05-01T11:12:40",
+  "languages": {
+    "Python": 1371995,
+    "HTML": 317006,
+    "JavaScript": 34457,
+    "CSS": 25740,
+    "Dockerfile": 7590,
+    "Smarty": 3643,
+    "Shell": 2881,
+    "SCSS": 1174
+  },
+  "size": 1764486
+}

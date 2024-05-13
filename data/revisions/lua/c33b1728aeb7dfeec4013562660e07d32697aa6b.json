@@ -1,0 +1,11 @@
+{
+  "commit": "c33b1728aeb7dfeec4013562660e07d32697aa6b",
+  "repo_url": "https://github.com/lua/lua",
+  "date": "2020-06-18T14:07:27",
+  "languages": {
+    "C": 869727,
+    "Lua": 404928,
+    "Makefile": 7627
+  },
+  "size": 1282282
+}

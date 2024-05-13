@@ -1,0 +1,20 @@
+{
+  "commit": "693d0e143c3d61cb2976883c6b9261d1b4f0263c",
+  "repo_url": "https://github.com/google/tink",
+  "date": "2020-05-15T07:03:54",
+  "languages": {
+    "C++": 2616020,
+    "Java": 2541218,
+    "Go": 1152093,
+    "JavaScript": 665868,
+    "Python": 451636,
+    "Starlark": 438153,
+    "Objective-C++": 193341,
+    "CMake": 140000,
+    "Objective-C": 99196,
+    "Shell": 65156,
+    "TypeScript": 27790,
+    "C": 17183
+  },
+  "size": 8407654
+}

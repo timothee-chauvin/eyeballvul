@@ -1,0 +1,13 @@
+{
+  "commit": "fb4d24de6bcf1235f0fe876dfa76e43e7eb42fd8",
+  "repo_url": "https://github.com/crafatar/crafatar",
+  "date": "2020-12-12T22:46:41",
+  "languages": {
+    "JavaScript": 97127,
+    "EJS": 16945,
+    "CSS": 6566,
+    "Shell": 1124,
+    "Dockerfile": 915
+  },
+  "size": 122677
+}

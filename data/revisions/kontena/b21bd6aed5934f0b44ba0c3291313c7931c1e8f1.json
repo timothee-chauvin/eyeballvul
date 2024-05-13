@@ -1,0 +1,15 @@
+{
+  "commit": "b21bd6aed5934f0b44ba0c3291313c7931c1e8f1",
+  "repo_url": "https://github.com/kontena/kontena",
+  "date": "2017-02-24T12:53:04",
+  "languages": {
+    "Ruby": 1702388,
+    "JavaScript": 404793,
+    "SCSS": 27726,
+    "Shell": 10664,
+    "HTML": 4965,
+    "Dockerfile": 2612,
+    "Procfile": 45
+  },
+  "size": 2153193
+}

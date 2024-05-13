@@ -1,0 +1,17 @@
+{
+  "commit": "6c120959c93440e47f1721d9212c5b357056a9bd",
+  "repo_url": "https://github.com/smalruby/smalruby-editor",
+  "date": "2015-06-29T22:39:26",
+  "languages": {
+    "Ruby": 286922,
+    "Gherkin": 258800,
+    "HTML": 128844,
+    "JavaScript": 43533,
+    "Haml": 36733,
+    "SCSS": 19516,
+    "CoffeeScript": 17285,
+    "CSS": 845,
+    "Procfile": 57
+  },
+  "size": 792535
+}

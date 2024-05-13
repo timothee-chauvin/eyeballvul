@@ -1,0 +1,14 @@
+{
+  "commit": "e0e418af5b20f359297895006831dda244a058c2",
+  "repo_url": "https://github.com/tasmoadmin/tasmoadmin",
+  "date": "2023-11-13T17:47:22",
+  "languages": {
+    "PHP": 308485,
+    "JavaScript": 92205,
+    "SCSS": 43310,
+    "CSS": 10696,
+    "Shell": 8302,
+    "Makefile": 827
+  },
+  "size": 463825
+}

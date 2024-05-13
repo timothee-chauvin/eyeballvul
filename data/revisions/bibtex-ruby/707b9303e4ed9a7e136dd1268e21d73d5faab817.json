@@ -1,0 +1,12 @@
+{
+  "commit": "707b9303e4ed9a7e136dd1268e21d73d5faab817",
+  "repo_url": "https://github.com/inukshuk/bibtex-ruby",
+  "date": "2019-11-18T15:22:30",
+  "languages": {
+    "Ruby": 199322,
+    "Gherkin": 44219,
+    "Yacc": 11321,
+    "DTrace": 501
+  },
+  "size": 255363
+}

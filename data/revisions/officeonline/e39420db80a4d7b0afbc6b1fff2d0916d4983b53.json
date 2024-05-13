@@ -1,0 +1,17 @@
+{
+  "commit": "e39420db80a4d7b0afbc6b1fff2d0916d4983b53",
+  "repo_url": "https://github.com/nextcloud/officeonline",
+  "date": "2021-07-09T10:27:32",
+  "languages": {
+    "JavaScript": 258954,
+    "PHP": 181316,
+    "Vue": 21510,
+    "SCSS": 10977,
+    "Shell": 5250,
+    "TypeScript": 4815,
+    "Gherkin": 2652,
+    "Makefile": 1189,
+    "CSS": 499
+  },
+  "size": 487162
+}

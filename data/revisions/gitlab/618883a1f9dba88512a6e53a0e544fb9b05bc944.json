@@ -1,0 +1,18 @@
+{
+  "commit": "618883a1f9dba88512a6e53a0e544fb9b05bc944",
+  "repo_url": "https://gitlab.com/gitlab-org/gitlab",
+  "date": "2020-07-29T20:43:42",
+  "languages": {
+    "Ruby": 44744897,
+    "JavaScript": 12507054,
+    "Vue": 3792466,
+    "Haml": 1950045,
+    "SCSS": 839944,
+    "HTML": 78877,
+    "Shell": 67216,
+    "Dockerfile": 3045,
+    "Makefile": 226,
+    "Clojure": 79
+  },
+  "size": 63983849
+}

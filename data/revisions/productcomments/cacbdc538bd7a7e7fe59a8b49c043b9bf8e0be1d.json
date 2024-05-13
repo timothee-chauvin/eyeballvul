@@ -1,0 +1,12 @@
+{
+  "commit": "cacbdc538bd7a7e7fe59a8b49c043b9bf8e0be1d",
+  "repo_url": "https://github.com/prestashop/productcomments",
+  "date": "2019-06-14T10:03:10",
+  "languages": {
+    "PHP": 173121,
+    "Smarty": 34058,
+    "JavaScript": 31521,
+    "CSS": 22159
+  },
+  "size": 260859
+}

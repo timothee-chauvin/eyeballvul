@@ -1,0 +1,15 @@
+{
+  "commit": "3b9a16d85741cba54439fe42eb78525465e418ab",
+  "repo_url": "https://github.com/google/closure-library",
+  "date": "2020-02-26T19:27:10",
+  "languages": {
+    "JavaScript": 23218940,
+    "HTML": 783349,
+    "CSS": 112875,
+    "Python": 75487,
+    "Shell": 18620,
+    "Batchfile": 3228,
+    "Emacs Lisp": 2410
+  },
+  "size": 24214909
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "5071c21c9d179d0e2ae8fcd47203a8b2cd0f1b5d",
+  "repo_url": "https://gitlab.com/dalibo/postgresql_anonymizer",
+  "date": "2024-01-23T15:57:29",
+  "languages": {
+    "PLpgSQL": 127337,
+    "C": 28907,
+    "Go": 17482,
+    "Shell": 16572,
+    "PLSQL": 14049,
+    "Makefile": 9216,
+    "Batchfile": 3353,
+    "Python": 2902,
+    "Dockerfile": 1521,
+    "Ruby": 259
+  },
+  "size": 221598
+}

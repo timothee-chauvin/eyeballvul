@@ -1,0 +1,10 @@
+{
+  "commit": "68f3ce89c2d1177a968883d551a7b921ad0f0d3c",
+  "repo_url": "https://github.com/sjelfull/craft-audit",
+  "date": "2022-10-03T20:20:24",
+  "languages": {
+    "PHP": 78982,
+    "Twig": 15639
+  },
+  "size": 94621
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "1028da116f6c9ef56d039cfdf3aeb90f3f57344a",
+  "repo_url": "https://github.com/signalapp/signal-android",
+  "date": "2018-08-06T14:47:44",
+  "languages": {
+    "Java": 3728340,
+    "Python": 7837,
+    "Dockerfile": 1357,
+    "C++": 652,
+    "Makefile": 460
+  },
+  "size": 3738646
+}

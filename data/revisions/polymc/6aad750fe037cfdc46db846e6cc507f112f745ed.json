@@ -1,0 +1,15 @@
+{
+  "commit": "6aad750fe037cfdc46db846e6cc507f112f745ed",
+  "repo_url": "https://github.com/polymc/polymc",
+  "date": "2022-07-23T12:08:10",
+  "languages": {
+    "C++": 2755375,
+    "C": 347328,
+    "CMake": 82301,
+    "Java": 29884,
+    "Objective-C++": 6325,
+    "Shell": 5931,
+    "Nix": 4249
+  },
+  "size": 3231393
+}

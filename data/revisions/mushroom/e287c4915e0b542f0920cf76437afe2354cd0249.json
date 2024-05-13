@@ -1,0 +1,17 @@
+{
+  "commit": "e287c4915e0b542f0920cf76437afe2354cd0249",
+  "repo_url": "https://github.com/wuweiit/mushroom",
+  "date": "2018-08-15T14:14:32",
+  "languages": {
+    "JavaScript": 2675348,
+    "PLpgSQL": 1394715,
+    "Java": 728684,
+    "HTML": 503682,
+    "CSS": 283288,
+    "Less": 20352,
+    "Groovy": 17094,
+    "FreeMarker": 14355,
+    "Dockerfile": 424
+  },
+  "size": 5637942
+}

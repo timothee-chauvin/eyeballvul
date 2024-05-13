@@ -1,0 +1,16 @@
+{
+  "commit": "0da4600d100a9f91dd68c8d38f62008284af2529",
+  "repo_url": "https://github.com/edp963/davinci",
+  "date": "2020-10-29T12:14:48",
+  "languages": {
+    "TypeScript": 3059459,
+    "Java": 1504993,
+    "JavaScript": 699830,
+    "Less": 138042,
+    "CSS": 36935,
+    "HTML": 21527,
+    "Batchfile": 3342,
+    "Shell": 3281
+  },
+  "size": 5467409
+}

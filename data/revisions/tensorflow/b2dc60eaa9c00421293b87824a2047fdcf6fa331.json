@@ -1,0 +1,20 @@
+{
+  "commit": "b2dc60eaa9c00421293b87824a2047fdcf6fa331",
+  "repo_url": "https://github.com/tensorflow/tensorflow",
+  "date": "2015-11-09T01:41:48",
+  "languages": {
+    "C++": 4873731,
+    "Python": 2366335,
+    "Jupyter Notebook": 329336,
+    "TypeScript": 236089,
+    "HTML": 193256,
+    "C": 129148,
+    "Starlark": 75499,
+    "Java": 34805,
+    "SWIG": 23946,
+    "JavaScript": 5067,
+    "Shell": 1036,
+    "CSS": 107
+  },
+  "size": 8268355
+}

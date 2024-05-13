@@ -1,0 +1,13 @@
+{
+  "commit": "7286d9ee6fa008fec8836dce560db40a955a3ab9",
+  "repo_url": "https://github.com/adobe/aem-core-wcm-components",
+  "date": "2022-07-07T13:21:09",
+  "languages": {
+    "Java": 3059512,
+    "JavaScript": 492183,
+    "HTML": 266888,
+    "Less": 35781,
+    "CSS": 770
+  },
+  "size": 3855134
+}

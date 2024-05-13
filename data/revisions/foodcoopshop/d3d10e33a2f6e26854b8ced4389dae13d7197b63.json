@@ -1,0 +1,15 @@
+{
+  "commit": "d3d10e33a2f6e26854b8ced4389dae13d7197b63",
+  "repo_url": "https://github.com/foodcoopshop/foodcoopshop",
+  "date": "2023-04-12T13:48:10",
+  "languages": {
+    "PHP": 2766599,
+    "JavaScript": 414414,
+    "CSS": 144463,
+    "HTML": 78810,
+    "Shell": 8080,
+    "Batchfile": 834,
+    "Dockerfile": 613
+  },
+  "size": 3413813
+}

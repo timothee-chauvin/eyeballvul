@@ -1,0 +1,16 @@
+{
+  "commit": "14f912d4c1e818d39234c874036e4fe60227d1dc",
+  "repo_url": "https://github.com/bitlbee/bitlbee",
+  "date": "2016-03-19T23:57:22",
+  "languages": {
+    "C": 1868480,
+    "Python": 22815,
+    "Makefile": 15183,
+    "Roff": 4155,
+    "Perl": 1025,
+    "Vim Script": 282,
+    "Shell": 54,
+    "GDB": 29
+  },
+  "size": 1912023
+}

@@ -1,0 +1,14 @@
+{
+  "id": "PSF-2020-2",
+  "published": "2020-07-13T00:00:00",
+  "modified": "2023-11-08T04:01:31.300864",
+  "details": "In Lib/tarfile.py in Python through 3.8.3, an attacker is able to craft a TAR archive leading to an infinite loop when opened by tarfile.open, because _proc_pax lacks header validation.",
+  "summary": "Infinite loop in tarfile module while opening a crafted file",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

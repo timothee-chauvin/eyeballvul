@@ -1,0 +1,17 @@
+{
+  "commit": "6e7173d90850b10578e117cb8a5da691b5a50d03",
+  "repo_url": "https://github.com/opencachingdeutschland/oc-server3",
+  "date": "2022-08-10T19:51:52",
+  "languages": {
+    "PHP": 3863547,
+    "JavaScript": 2953404,
+    "Smarty": 890339,
+    "HTML": 474313,
+    "Twig": 134800,
+    "CSS": 123609,
+    "Shell": 24787,
+    "SCSS": 9505,
+    "Dockerfile": 709
+  },
+  "size": 8475013
+}

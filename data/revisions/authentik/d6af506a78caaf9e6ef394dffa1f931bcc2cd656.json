@@ -1,0 +1,18 @@
+{
+  "commit": "d6af506a78caaf9e6ef394dffa1f931bcc2cd656",
+  "repo_url": "https://github.com/goauthentik/authentik",
+  "date": "2023-07-10T11:20:22",
+  "languages": {
+    "Python": 2700594,
+    "TypeScript": 1780015,
+    "Go": 263236,
+    "JavaScript": 94552,
+    "MDX": 51849,
+    "CSS": 28432,
+    "HTML": 25713,
+    "Dockerfile": 7071,
+    "Makefile": 5247,
+    "Shell": 2816
+  },
+  "size": 4959525
+}

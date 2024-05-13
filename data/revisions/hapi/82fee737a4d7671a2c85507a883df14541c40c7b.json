@@ -1,0 +1,12 @@
+{
+  "commit": "82fee737a4d7671a2c85507a883df14541c40c7b",
+  "repo_url": "https://github.com/hapijs/hapi",
+  "date": "2014-03-19T02:31:37",
+  "languages": {
+    "JavaScript": 679067,
+    "HTML": 737,
+    "Makefile": 210,
+    "Pug": 146
+  },
+  "size": 680160
+}

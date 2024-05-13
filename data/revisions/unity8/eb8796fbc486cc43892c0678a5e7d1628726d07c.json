@@ -1,0 +1,18 @@
+{
+  "commit": "eb8796fbc486cc43892c0678a5e7d1628726d07c",
+  "repo_url": "https://github.com/ubports/unity8",
+  "date": "2016-01-11T17:38:49",
+  "languages": {
+    "QML": 2195982,
+    "C++": 1936029,
+    "Python": 195666,
+    "CMake": 109637,
+    "JavaScript": 53482,
+    "Shell": 19140,
+    "C": 14942,
+    "Scilab": 3280,
+    "Makefile": 131,
+    "HTML": 18
+  },
+  "size": 4528307
+}

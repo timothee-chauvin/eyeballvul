@@ -1,0 +1,12 @@
+{
+  "commit": "9cdc79a89a7d2ebfa39596753ff846629f4258b2",
+  "repo_url": "https://github.com/spring-projects/spring-data-mongodb",
+  "date": "2022-05-13T08:05:05",
+  "languages": {
+    "Java": 7263462,
+    "Kotlin": 197625,
+    "Dockerfile": 4864,
+    "JavaScript": 303
+  },
+  "size": 7466254
+}

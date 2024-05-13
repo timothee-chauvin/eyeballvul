@@ -1,0 +1,14 @@
+{
+  "commit": "9914bf455b225b56c9ee74bc798b529ed1991be5",
+  "repo_url": "https://github.com/sockjs/sockjs-client",
+  "date": "2012-02-13T14:24:59",
+  "languages": {
+    "JavaScript": 64508,
+    "CoffeeScript": 37092,
+    "HTML": 15899,
+    "CSS": 4491,
+    "Shell": 3735,
+    "Makefile": 3100
+  },
+  "size": 128825
+}

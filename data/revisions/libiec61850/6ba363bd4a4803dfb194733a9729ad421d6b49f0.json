@@ -1,0 +1,18 @@
+{
+  "commit": "6ba363bd4a4803dfb194733a9729ad421d6b49f0",
+  "repo_url": "https://github.com/mz-automation/libiec61850",
+  "date": "2018-09-04T13:01:19",
+  "languages": {
+    "C": 2761085,
+    "C#": 341850,
+    "Java": 211876,
+    "CSS": 50382,
+    "CMake": 33311,
+    "Makefile": 10584,
+    "Python": 4187,
+    "HTML": 2788,
+    "SWIG": 1434,
+    "Shell": 819
+  },
+  "size": 3418316
+}

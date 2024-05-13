@@ -1,0 +1,14 @@
+{
+  "commit": "f35dd73ebee808879436776a1afc2a8fbea0ab73",
+  "repo_url": "https://github.com/directus/api",
+  "date": "2018-07-09T21:10:19",
+  "languages": {
+    "PHP": 1518820,
+    "Vue": 69428,
+    "CSS": 17208,
+    "Twig": 4568,
+    "JavaScript": 2622,
+    "Shell": 1941
+  },
+  "size": 1614587
+}

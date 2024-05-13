@@ -1,0 +1,17 @@
+{
+  "commit": "5278b2b0aa8425fbc7f68faeb993e104e7c2340f",
+  "repo_url": "https://github.com/mapbox/node-sqlite3",
+  "date": "2018-06-23T16:49:43",
+  "languages": {
+    "PLpgSQL": 427831,
+    "JavaScript": 79439,
+    "C++": 65015,
+    "C": 10333,
+    "Shell": 10062,
+    "Batchfile": 7170,
+    "Makefile": 2166,
+    "Python": 1352,
+    "HTML": 251
+  },
+  "size": 603619
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "51cc8b82c7f3e33bd8f318d625664f3ff4b85c38",
+  "repo_url": "https://github.com/immerjs/immer",
+  "date": "2020-11-17T20:26:37",
+  "languages": {
+    "JavaScript": 134735,
+    "TypeScript": 95967,
+    "HTML": 39419,
+    "CSS": 364,
+    "Dockerfile": 148
+  },
+  "size": 270633
+}

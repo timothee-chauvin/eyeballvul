@@ -1,0 +1,21 @@
+{
+  "commit": "633dc231b8d9967520627528a92506efca7cebcd",
+  "repo_url": "https://github.com/iotivity/iotivity",
+  "date": "2017-12-08T22:04:09",
+  "languages": {
+    "C++": 7762204,
+    "C": 7385748,
+    "Java": 4243594,
+    "Python": 942207,
+    "Shell": 99452,
+    "JavaScript": 98132,
+    "Makefile": 35942,
+    "Batchfile": 10916,
+    "M4": 2816,
+    "Roff": 2808,
+    "HTML": 1714,
+    "Dockerfile": 1398,
+    "CSS": 63
+  },
+  "size": 20586994
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "c32a7572e104d88e96ce2e6fbfb168387d289c80",
+  "repo_url": "https://github.com/bottlerocket-os/hotdog",
+  "date": "2021-12-18T00:33:21",
+  "languages": {
+    "Go": 9510,
+    "Makefile": 799
+  },
+  "size": 10309
+}

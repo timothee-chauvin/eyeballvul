@@ -1,0 +1,14 @@
+{
+  "commit": "da82b3426c27bf1a79f671c5825d68ab8c0c5d9f",
+  "repo_url": "https://github.com/novnc/novnc",
+  "date": "2016-07-04T19:29:00",
+  "languages": {
+    "JavaScript": 612248,
+    "HTML": 58560,
+    "CSS": 19333,
+    "Python": 7582,
+    "Shell": 5370,
+    "Perl": 396
+  },
+  "size": 703489
+}

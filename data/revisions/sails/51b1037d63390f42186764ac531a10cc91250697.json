@@ -1,0 +1,11 @@
+{
+  "commit": "51b1037d63390f42186764ac531a10cc91250697",
+  "repo_url": "https://github.com/balderdashy/sails",
+  "date": "2016-08-01T19:45:09",
+  "languages": {
+    "JavaScript": 894721,
+    "CoffeeScript": 803,
+    "EJS": 143
+  },
+  "size": 895667
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "5d6f7ab6132d95fa56c31090638255e255016e44",
+  "repo_url": "https://github.com/ovirt/vdsm",
+  "date": "2021-12-07T13:52:07",
+  "languages": {
+    "Python": 7373170,
+    "Makefile": 102284,
+    "Shell": 50151,
+    "Roff": 16798,
+    "M4": 14719
+  },
+  "size": 7557122
+}

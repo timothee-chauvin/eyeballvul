@@ -1,0 +1,17 @@
+{
+  "commit": "cdcc6095e8c6635c7d842ef9d76b0d0cd6fddcee",
+  "repo_url": "https://gitlab.com/composr-foundation/composr",
+  "date": "2020-01-30T02:50:14",
+  "languages": {
+    "PHP": 38893473,
+    "JavaScript": 3192488,
+    "Smarty": 1205360,
+    "CSS": 1118772,
+    "HTML": 520525,
+    "XSLT": 91867,
+    "Java": 62348,
+    "Shell": 25046,
+    "Batchfile": 6046
+  },
+  "size": 45115925
+}

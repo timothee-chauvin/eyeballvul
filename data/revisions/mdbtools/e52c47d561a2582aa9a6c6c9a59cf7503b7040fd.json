@@ -1,0 +1,16 @@
+{
+  "commit": "e52c47d561a2582aa9a6c6c9a59cf7503b7040fd",
+  "repo_url": "https://github.com/mdbtools/mdbtools",
+  "date": "2021-04-25T17:25:57",
+  "languages": {
+    "C": 467677,
+    "SCSS": 30293,
+    "M4": 20949,
+    "Shell": 8126,
+    "Yacc": 5619,
+    "Makefile": 3606,
+    "Lex": 2997,
+    "Python": 969
+  },
+  "size": 540236
+}

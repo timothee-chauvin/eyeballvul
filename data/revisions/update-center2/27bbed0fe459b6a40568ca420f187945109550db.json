@@ -1,0 +1,12 @@
+{
+  "commit": "27bbed0fe459b6a40568ca420f187945109550db",
+  "repo_url": "https://github.com/jenkins-infra/update-center2",
+  "date": "2022-08-30T08:37:12",
+  "languages": {
+    "Java": 221132,
+    "Shell": 24263,
+    "HTML": 1481,
+    "Dockerfile": 379
+  },
+  "size": 247255
+}

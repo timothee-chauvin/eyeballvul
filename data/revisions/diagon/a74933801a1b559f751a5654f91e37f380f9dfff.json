@@ -1,0 +1,14 @@
+{
+  "commit": "a74933801a1b559f751a5654f91e37f380f9dfff",
+  "repo_url": "https://github.com/arthursonzogni/diagon",
+  "date": "2022-12-04T10:39:01",
+  "languages": {
+    "C++": 189414,
+    "HTML": 13359,
+    "CMake": 11908,
+    "CSS": 5616,
+    "ANTLR": 5088,
+    "Shell": 466
+  },
+  "size": 225851
+}

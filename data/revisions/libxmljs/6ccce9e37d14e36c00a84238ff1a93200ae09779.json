@@ -1,0 +1,12 @@
+{
+  "commit": "6ccce9e37d14e36c00a84238ff1a93200ae09779",
+  "repo_url": "https://github.com/libxmljs/libxmljs",
+  "date": "2019-09-20T15:10:10",
+  "languages": {
+    "C++": 130556,
+    "JavaScript": 81686,
+    "Python": 2423,
+    "Makefile": 207
+  },
+  "size": 214872
+}

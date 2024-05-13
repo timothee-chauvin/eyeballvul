@@ -1,0 +1,15 @@
+{
+  "commit": "ee0ce7cde5e5fb4ed21d5425629ae447eb433109",
+  "repo_url": "https://github.com/webassembly/wabt",
+  "date": "2017-07-31T19:06:20",
+  "languages": {
+    "C++": 1260806,
+    "Python": 96969,
+    "Yacc": 52906,
+    "CMake": 18731,
+    "JavaScript": 14099,
+    "Shell": 7515,
+    "Makefile": 5347
+  },
+  "size": 1456373
+}

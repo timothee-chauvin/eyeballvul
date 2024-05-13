@@ -1,0 +1,20 @@
+{
+  "commit": "a55355eaa6c9dcd23e682d231d37bf27befc3504",
+  "repo_url": "https://github.com/qutebrowser/qutebrowser",
+  "date": "2021-06-28T15:29:52",
+  "languages": {
+    "Python": 4351809,
+    "JavaScript": 774419,
+    "Gherkin": 343189,
+    "HTML": 116501,
+    "Shell": 53731,
+    "NSIS": 43314,
+    "CSS": 4753,
+    "Batchfile": 2012,
+    "Makefile": 1472,
+    "Jinja": 801,
+    "C++": 456,
+    "QMake": 192
+  },
+  "size": 5692649
+}

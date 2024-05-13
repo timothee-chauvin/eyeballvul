@@ -1,0 +1,12 @@
+{
+  "commit": "4d9f8168b8bb264d4160b219b10ad43d2eb7c88a",
+  "repo_url": "https://github.com/cesanta/mongoose",
+  "date": "2017-01-17T09:08:53",
+  "languages": {
+    "C": 451860,
+    "C++": 171997,
+    "Python": 7079,
+    "Makefile": 257
+  },
+  "size": 631193
+}

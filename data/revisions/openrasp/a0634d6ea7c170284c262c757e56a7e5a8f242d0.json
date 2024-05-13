@@ -1,0 +1,23 @@
+{
+  "commit": "a0634d6ea7c170284c262c757e56a7e5a8f242d0",
+  "repo_url": "https://github.com/baidu/openrasp",
+  "date": "2022-01-22T01:43:03",
+  "languages": {
+    "C++": 1691225,
+    "Java": 1081077,
+    "Go": 560571,
+    "PHP": 532449,
+    "CSS": 367162,
+    "HTML": 349738,
+    "Vue": 272544,
+    "JavaScript": 247742,
+    "C": 86597,
+    "Shell": 49302,
+    "M4": 32634,
+    "GDB": 26948,
+    "Smarty": 6306,
+    "Batchfile": 6178,
+    "Dockerfile": 636
+  },
+  "size": 5311109
+}

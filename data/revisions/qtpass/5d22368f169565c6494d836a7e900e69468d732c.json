@@ -1,0 +1,15 @@
+{
+  "commit": "5d22368f169565c6494d836a7e900e69468d732c",
+  "repo_url": "https://github.com/ijhack/qtpass",
+  "date": "2017-11-08T20:55:04",
+  "languages": {
+    "C++": 225433,
+    "QMake": 5491,
+    "Inno Setup": 4450,
+    "C": 2898,
+    "Roff": 816,
+    "Makefile": 430,
+    "Batchfile": 22
+  },
+  "size": 239540
+}

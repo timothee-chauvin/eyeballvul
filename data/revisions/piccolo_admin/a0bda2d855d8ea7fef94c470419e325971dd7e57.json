@@ -1,0 +1,15 @@
+{
+  "commit": "a0bda2d855d8ea7fef94c470419e325971dd7e57",
+  "repo_url": "https://github.com/piccolo-orm/piccolo_admin",
+  "date": "2024-03-13T00:12:17",
+  "languages": {
+    "Python": 197976,
+    "Vue": 188739,
+    "TypeScript": 33018,
+    "Less": 5739,
+    "Shell": 1082,
+    "JavaScript": 936,
+    "HTML": 467
+  },
+  "size": 427957
+}

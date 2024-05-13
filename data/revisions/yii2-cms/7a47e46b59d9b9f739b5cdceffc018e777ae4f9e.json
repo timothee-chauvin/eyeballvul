@@ -1,0 +1,13 @@
+{
+  "commit": "7a47e46b59d9b9f739b5cdceffc018e777ae4f9e",
+  "repo_url": "https://github.com/weison-tech/yii2-cms",
+  "date": "2019-01-24T06:05:19",
+  "languages": {
+    "PHP": 710595,
+    "JavaScript": 75812,
+    "CSS": 50960,
+    "Less": 3126,
+    "Batchfile": 515
+  },
+  "size": 841008
+}

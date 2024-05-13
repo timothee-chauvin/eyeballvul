@@ -1,0 +1,13 @@
+{
+  "commit": "4949a7eaf90c20a1c629e7f9420e8772464dc0d8",
+  "repo_url": "https://github.com/jupyterhub/jupyter-server-proxy",
+  "date": "2021-11-29T23:40:10",
+  "languages": {
+    "Python": 76307,
+    "TypeScript": 3544,
+    "RobotFramework": 2473,
+    "JavaScript": 1888,
+    "HTML": 109
+  },
+  "size": 84321
+}

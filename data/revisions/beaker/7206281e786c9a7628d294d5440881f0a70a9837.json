@@ -1,0 +1,13 @@
+{
+  "commit": "7206281e786c9a7628d294d5440881f0a70a9837",
+  "repo_url": "https://github.com/beakerbrowser/beaker",
+  "date": "2019-04-02T16:06:29",
+  "languages": {
+    "JavaScript": 1135154,
+    "Less": 205269,
+    "HTML": 13158,
+    "CSS": 1367,
+    "Shell": 1231
+  },
+  "size": 1356179
+}

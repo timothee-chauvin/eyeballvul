@@ -1,0 +1,24 @@
+{
+  "commit": "73688014e6b5434d80c2ffbb7ca2143f38564730",
+  "repo_url": "https://gitlab.com/veilid/veilid",
+  "date": "2023-08-19T02:20:03",
+  "languages": {
+    "Rust": 2303424,
+    "Dart": 584698,
+    "Python": 177113,
+    "Shell": 110809,
+    "C++": 26888,
+    "Cap'n Proto": 25905,
+    "CMake": 19354,
+    "Swift": 10549,
+    "Earthly": 7564,
+    "Ruby": 6412,
+    "Batchfile": 3814,
+    "C": 3443,
+    "HTML": 2274,
+    "Java": 1874,
+    "Kotlin": 1098,
+    "Objective-C": 659
+  },
+  "size": 3285878
+}

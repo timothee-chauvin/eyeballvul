@@ -1,0 +1,14 @@
+{
+  "commit": "969fdacc015e98da1a5c5d107bf97aeab248cfcd",
+  "repo_url": "https://github.com/aramk/crayon-syntax-highlighter",
+  "date": "2013-01-05T00:53:25",
+  "languages": {
+    "PHP": 307759,
+    "JavaScript": 128281,
+    "CSS": 70893,
+    "Python": 3069,
+    "Shell": 501,
+    "HTML": 237
+  },
+  "size": 510740
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "c160f6e0026f89542662ba3e18cc052df43ce716",
+  "repo_url": "https://github.com/jenkinsci/sonar-quality-gates-plugin",
+  "date": "2018-08-18T12:41:20",
+  "languages": {
+    "Java": 115736,
+    "HTML": 3564
+  },
+  "size": 119300
+}

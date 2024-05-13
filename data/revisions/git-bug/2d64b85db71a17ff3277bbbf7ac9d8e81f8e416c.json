@@ -1,0 +1,14 @@
+{
+  "commit": "2d64b85db71a17ff3277bbbf7ac9d8e81f8e416c",
+  "repo_url": "https://github.com/michaelmure/git-bug",
+  "date": "2020-04-04T10:48:24",
+  "languages": {
+    "Go": 711878,
+    "TypeScript": 44034,
+    "Shell": 26049,
+    "Makefile": 1986,
+    "JavaScript": 932,
+    "HTML": 484
+  },
+  "size": 785363
+}

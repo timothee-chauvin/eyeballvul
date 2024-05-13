@@ -1,0 +1,15 @@
+{
+  "commit": "c176e57845ef75b58d955575fd32711e224f1e36",
+  "repo_url": "https://github.com/eprints/eprints3.4",
+  "date": "2020-07-17T14:43:55",
+  "languages": {
+    "Perl": 5172287,
+    "JavaScript": 476737,
+    "CSS": 138674,
+    "XSLT": 47595,
+    "M4": 4687,
+    "Shell": 1628,
+    "Makefile": 1356
+  },
+  "size": 5842964
+}

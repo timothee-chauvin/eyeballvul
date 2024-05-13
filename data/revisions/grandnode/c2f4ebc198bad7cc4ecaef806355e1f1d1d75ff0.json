@@ -1,0 +1,13 @@
+{
+  "commit": "c2f4ebc198bad7cc4ecaef806355e1f1d1d75ff0",
+  "repo_url": "https://github.com/grandnode/grandnode",
+  "date": "2019-03-08T19:28:13",
+  "languages": {
+    "C#": 10117916,
+    "JavaScript": 8367526,
+    "HTML": 3861013,
+    "CSS": 2400205,
+    "Dockerfile": 4743
+  },
+  "size": 24751403
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "5ca26ff5914cabfb9e092328dbc1594221705c3d",
+  "repo_url": "https://github.com/freelan-developers/freelan",
+  "date": "2019-05-07T14:25:55",
+  "languages": {
+    "C++": 2338711,
+    "C": 158355,
+    "Python": 37887,
+    "Shell": 8777,
+    "Inno Setup": 3305,
+    "Makefile": 1036,
+    "Dockerfile": 983
+  },
+  "size": 2549054
+}

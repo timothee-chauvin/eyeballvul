@@ -1,0 +1,11 @@
+{
+  "commit": "3f9527977cc5dee860fab221e23e2290063c3045",
+  "repo_url": "https://github.com/goreleaser/nfpm",
+  "date": "2023-04-06T02:51:27",
+  "languages": {
+    "Go": 304694,
+    "Shell": 1305,
+    "Dockerfile": 109
+  },
+  "size": 306108
+}

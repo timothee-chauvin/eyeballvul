@@ -1,0 +1,20 @@
+{
+  "commit": "6de2ab504c71217fa3797b9d041199795c3ca804",
+  "repo_url": "https://github.com/mnoorenberghe/zoneminder",
+  "date": "2016-02-03T18:40:30",
+  "languages": {
+    "PHP": 9999153,
+    "Perl": 5668560,
+    "C++": 1094674,
+    "C": 301984,
+    "JavaScript": 137681,
+    "CSS": 135310,
+    "Shell": 99004,
+    "CMake": 90128,
+    "Makefile": 41982,
+    "M4": 28065,
+    "Batchfile": 2888,
+    "Dockerfile": 2176
+  },
+  "size": 17601605
+}

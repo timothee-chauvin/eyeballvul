@@ -1,0 +1,14 @@
+{
+  "commit": "84e7a81f68aa7588419f7b164e94e096a1c3fa07",
+  "repo_url": "https://github.com/0branch/boron",
+  "date": "2022-04-26T01:54:48",
+  "languages": {
+    "C": 948757,
+    "Brainfuck": 108957,
+    "C++": 55275,
+    "Limbo": 16320,
+    "Makefile": 5560,
+    "Shell": 1350
+  },
+  "size": 1136219
+}

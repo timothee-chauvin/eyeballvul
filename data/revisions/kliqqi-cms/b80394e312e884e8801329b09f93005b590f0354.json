@@ -1,0 +1,14 @@
+{
+  "commit": "b80394e312e884e8801329b09f93005b590f0354",
+  "repo_url": "https://github.com/kliqqi-cms/kliqqi-cms",
+  "date": "2014-08-16T02:34:52",
+  "languages": {
+    "PHP": 2248927,
+    "Smarty": 635143,
+    "JavaScript": 165790,
+    "CSS": 59874,
+    "HTML": 54411,
+    "Hack": 1033
+  },
+  "size": 3165178
+}

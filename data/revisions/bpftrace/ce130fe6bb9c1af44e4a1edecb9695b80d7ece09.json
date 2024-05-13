@@ -1,0 +1,17 @@
+{
+  "commit": "ce130fe6bb9c1af44e4a1edecb9695b80d7ece09",
+  "repo_url": "https://github.com/bpftrace/bpftrace",
+  "date": "2024-01-23T10:53:47",
+  "languages": {
+    "C++": 1446014,
+    "LLVM": 680750,
+    "C": 79917,
+    "CMake": 52517,
+    "Python": 32519,
+    "Yacc": 24207,
+    "Shell": 13710,
+    "Lex": 12336,
+    "Nix": 7692
+  },
+  "size": 2349662
+}

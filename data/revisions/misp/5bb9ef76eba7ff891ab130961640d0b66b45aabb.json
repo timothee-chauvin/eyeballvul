@@ -1,0 +1,14 @@
+{
+  "commit": "5bb9ef76eba7ff891ab130961640d0b66b45aabb",
+  "repo_url": "https://github.com/misp/misp",
+  "date": "2017-03-08T17:56:45",
+  "languages": {
+    "PHP": 2626344,
+    "Python": 315093,
+    "JavaScript": 182841,
+    "CSS": 81607,
+    "Shell": 18035,
+    "Makefile": 759
+  },
+  "size": 3224679
+}

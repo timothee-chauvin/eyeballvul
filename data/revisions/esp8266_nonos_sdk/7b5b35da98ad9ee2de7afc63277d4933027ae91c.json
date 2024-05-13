@@ -1,0 +1,12 @@
+{
+  "commit": "7b5b35da98ad9ee2de7afc63277d4933027ae91c",
+  "repo_url": "https://github.com/espressif/esp8266_nonos_sdk",
+  "date": "2021-10-15T11:40:39",
+  "languages": {
+    "C": 327481,
+    "Makefile": 15269,
+    "Python": 13756,
+    "Shell": 7719
+  },
+  "size": 364225
+}

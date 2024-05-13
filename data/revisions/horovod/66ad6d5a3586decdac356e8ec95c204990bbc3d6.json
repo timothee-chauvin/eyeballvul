@@ -1,0 +1,15 @@
+{
+  "commit": "66ad6d5a3586decdac356e8ec95c204990bbc3d6",
+  "repo_url": "https://github.com/horovod/horovod",
+  "date": "2021-10-06T17:49:54",
+  "languages": {
+    "Python": 1915232,
+    "C++": 863183,
+    "CMake": 44056,
+    "Shell": 20789,
+    "Cuda": 13576,
+    "Dockerfile": 9265,
+    "C": 1420
+  },
+  "size": 2867521
+}

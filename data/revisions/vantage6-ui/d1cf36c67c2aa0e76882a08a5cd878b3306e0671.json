@@ -1,0 +1,14 @@
+{
+  "commit": "d1cf36c67c2aa0e76882a08a5cd878b3306e0671",
+  "repo_url": "https://github.com/vantage6/vantage6-ui",
+  "date": "2024-01-05T11:20:05",
+  "languages": {
+    "TypeScript": 368883,
+    "HTML": 83775,
+    "SCSS": 17440,
+    "JavaScript": 2108,
+    "Dockerfile": 548,
+    "CSS": 127
+  },
+  "size": 472881
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "bc7ff8c3a7bd40b15175a3fb1533f67b3887c294",
+  "repo_url": "https://github.com/jenkinsci/appdynamics-plugin",
+  "date": "2017-01-02T20:07:43",
+  "languages": {
+    "Java": 53615,
+    "CSS": 608,
+    "HTML": 478,
+    "Shell": 230,
+    "Batchfile": 189
+  },
+  "size": 55120
+}

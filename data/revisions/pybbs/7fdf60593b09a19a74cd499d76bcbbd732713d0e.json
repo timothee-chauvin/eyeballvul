@@ -1,0 +1,14 @@
+{
+  "commit": "7fdf60593b09a19a74cd499d76bcbbd732713d0e",
+  "repo_url": "https://github.com/tomoya92/pybbs",
+  "date": "2019-05-29T07:35:58",
+  "languages": {
+    "Java": 399816,
+    "FreeMarker": 215338,
+    "SCSS": 4899,
+    "CSS": 3471,
+    "Shell": 139,
+    "Dockerfile": 40
+  },
+  "size": 623703
+}

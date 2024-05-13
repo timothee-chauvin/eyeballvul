@@ -1,0 +1,11 @@
+{
+  "commit": "7ca32c8e902dbdc7f3a75e4bfe17cbffeb7e81ac",
+  "repo_url": "https://github.com/jenkinsci/rapiddeploy-plugin",
+  "date": "2019-11-11T09:33:58",
+  "languages": {
+    "Java": 59830,
+    "Groovy": 12060,
+    "HTML": 4514
+  },
+  "size": 76404
+}

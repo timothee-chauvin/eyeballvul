@@ -1,0 +1,15 @@
+{
+  "commit": "7faaf2c6d23f771bc03bc7b56d3dd0a942ab8643",
+  "repo_url": "https://github.com/mozilla/nunjucks",
+  "date": "2016-04-15T21:21:03",
+  "languages": {
+    "JavaScript": 1132307,
+    "HTML": 18689,
+    "CSS": 3735,
+    "Jinja": 1420,
+    "Python": 799,
+    "Shell": 172,
+    "Batchfile": 111
+  },
+  "size": 1157233
+}

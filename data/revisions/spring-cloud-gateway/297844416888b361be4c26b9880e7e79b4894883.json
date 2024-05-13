@@ -1,0 +1,12 @@
+{
+  "commit": "297844416888b361be4c26b9880e7e79b4894883",
+  "repo_url": "https://github.com/spring-cloud/spring-cloud-gateway",
+  "date": "2021-09-22T09:06:55",
+  "languages": {
+    "Java": 1399459,
+    "Kotlin": 9419,
+    "Lua": 1775,
+    "HTML": 66
+  },
+  "size": 1410719
+}

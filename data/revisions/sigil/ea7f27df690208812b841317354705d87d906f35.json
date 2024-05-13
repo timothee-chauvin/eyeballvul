@@ -1,0 +1,17 @@
+{
+  "commit": "ea7f27df690208812b841317354705d87d906f35",
+  "repo_url": "https://github.com/sigil-ebook/sigil",
+  "date": "2019-06-25T21:19:55",
+  "languages": {
+    "C++": 2917431,
+    "C": 1226051,
+    "Python": 1182105,
+    "Ragel": 128067,
+    "CMake": 102442,
+    "JavaScript": 32671,
+    "Inno Setup": 6744,
+    "Shell": 773,
+    "Batchfile": 135
+  },
+  "size": 5596419
+}

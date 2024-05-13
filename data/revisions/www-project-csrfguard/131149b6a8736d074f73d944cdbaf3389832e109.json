@@ -1,0 +1,12 @@
+{
+  "commit": "131149b6a8736d074f73d944cdbaf3389832e109",
+  "repo_url": "https://github.com/owasp/www-project-csrfguard",
+  "date": "2021-02-11T14:25:58",
+  "languages": {
+    "Java": 578138,
+    "JavaScript": 28441,
+    "HTML": 6215,
+    "Ruby": 82
+  },
+  "size": 612876
+}

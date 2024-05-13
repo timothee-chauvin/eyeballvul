@@ -1,0 +1,14 @@
+{
+  "commit": "931bc88f29af35dcb1a91819489d6cf77a6fd7e9",
+  "repo_url": "https://github.com/navigatecms/navigate-cms",
+  "date": "2017-04-14T09:39:25",
+  "languages": {
+    "PHP": 2227976,
+    "JavaScript": 926327,
+    "CSS": 286987,
+    "HTML": 147096,
+    "Less": 5592,
+    "Hack": 232
+  },
+  "size": 3594210
+}

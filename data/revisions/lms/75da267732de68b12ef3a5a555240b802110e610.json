@@ -1,0 +1,22 @@
+{
+  "commit": "75da267732de68b12ef3a5a555240b802110e610",
+  "repo_url": "https://github.com/intel/lms",
+  "date": "2020-10-01T14:18:17",
+  "languages": {
+    "C++": 6081323,
+    "C": 1793807,
+    "HTML": 489547,
+    "Ruby": 151730,
+    "CMake": 151333,
+    "SWIG": 116564,
+    "Python": 40020,
+    "M4": 28034,
+    "Perl": 22452,
+    "Makefile": 18470,
+    "Java": 14182,
+    "Batchfile": 12191,
+    "Shell": 11155,
+    "VBScript": 568
+  },
+  "size": 8931376
+}

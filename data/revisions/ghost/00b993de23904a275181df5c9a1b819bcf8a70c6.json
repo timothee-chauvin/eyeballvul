@@ -1,0 +1,12 @@
+{
+  "commit": "00b993de23904a275181df5c9a1b819bcf8a70c6",
+  "repo_url": "https://github.com/tryghost/ghost",
+  "date": "2014-11-19T10:34:17",
+  "languages": {
+    "JavaScript": 1627871,
+    "SCSS": 142732,
+    "HTML": 142152,
+    "Handlebars": 60153
+  },
+  "size": 1972908
+}

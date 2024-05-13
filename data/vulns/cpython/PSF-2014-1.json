@@ -1,0 +1,15 @@
+{
+  "id": "PSF-2014-1",
+  "published": "2014-01-21T18:00:00",
+  "modified": "2023-11-08T03:57:13.846990",
+  "details": "expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.",
+  "summary": "CVE-2013-0340 Billion Laughs fixed in Expat 2.4.0",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

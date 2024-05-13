@@ -1,0 +1,14 @@
+{
+  "commit": "02a1ae79b67ea7351516e5fc59223cf027e4823f",
+  "repo_url": "https://github.com/fedora-infra/mirrormanager2",
+  "date": "2016-02-01T11:56:09",
+  "languages": {
+    "Python": 635190,
+    "HTML": 63586,
+    "Perl": 23467,
+    "CSS": 8710,
+    "Shell": 7056,
+    "Mako": 412
+  },
+  "size": 738421
+}

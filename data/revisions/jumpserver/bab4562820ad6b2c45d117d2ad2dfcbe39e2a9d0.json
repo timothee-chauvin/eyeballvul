@@ -1,0 +1,14 @@
+{
+  "commit": "bab4562820ad6b2c45d117d2ad2dfcbe39e2a9d0",
+  "repo_url": "https://github.com/jumpserver/jumpserver",
+  "date": "2022-10-20T12:39:39",
+  "languages": {
+    "Python": 3122948,
+    "CSS": 394314,
+    "Less": 20864,
+    "Shell": 8019,
+    "Dockerfile": 3691,
+    "Modelica": 520
+  },
+  "size": 3550356
+}

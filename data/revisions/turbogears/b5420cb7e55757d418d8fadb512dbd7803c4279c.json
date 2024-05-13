@@ -1,0 +1,13 @@
+{
+  "commit": "b5420cb7e55757d418d8fadb512dbd7803c4279c",
+  "repo_url": "https://github.com/onshift/turbogears",
+  "date": "2018-05-10T18:43:28",
+  "languages": {
+    "Python": 3054229,
+    "JavaScript": 710990,
+    "CSS": 87562,
+    "Genshi": 85190,
+    "HTML": 2426
+  },
+  "size": 3940397
+}

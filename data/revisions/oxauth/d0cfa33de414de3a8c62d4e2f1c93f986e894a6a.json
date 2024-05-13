@@ -1,0 +1,18 @@
+{
+  "commit": "d0cfa33de414de3a8c62d4e2f1c93f986e894a6a",
+  "repo_url": "https://github.com/gluufederation/oxauth",
+  "date": "2017-06-21T19:59:20",
+  "languages": {
+    "Java": 4649357,
+    "Python": 417810,
+    "JavaScript": 401061,
+    "HTML": 225544,
+    "C": 102966,
+    "CSS": 54185,
+    "PHP": 19255,
+    "Mustache": 2244,
+    "Shell": 79,
+    "Batchfile": 49
+  },
+  "size": 5872550
+}

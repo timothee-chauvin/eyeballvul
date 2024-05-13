@@ -1,0 +1,13 @@
+{
+  "commit": "f54b3f8f8c8f0aa4bee952a2acabfdfa0da3d1c7",
+  "repo_url": "https://github.com/nextcloud/contacts",
+  "date": "2018-02-26T19:46:54",
+  "languages": {
+    "JavaScript": 787619,
+    "HTML": 26250,
+    "SCSS": 20933,
+    "PHP": 15810,
+    "Makefile": 7448
+  },
+  "size": 858060
+}

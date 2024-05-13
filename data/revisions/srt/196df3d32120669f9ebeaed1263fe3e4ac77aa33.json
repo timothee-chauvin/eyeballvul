@@ -1,0 +1,14 @@
+{
+  "commit": "196df3d32120669f9ebeaed1263fe3e4ac77aa33",
+  "repo_url": "https://github.com/haivision/srt",
+  "date": "2019-08-20T13:50:31",
+  "languages": {
+    "C++": 1400425,
+    "C": 155683,
+    "CMake": 50125,
+    "Tcl": 18163,
+    "Shell": 2288,
+    "Batchfile": 1473
+  },
+  "size": 1628157
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "b7d991650ccde9b7d0e466c2aa2966b724217e23",
+  "repo_url": "https://github.com/charmbracelet/charm",
+  "date": "2022-04-27T17:56:06",
+  "languages": {
+    "Go": 245736,
+    "Dockerfile": 347
+  },
+  "size": 246083
+}

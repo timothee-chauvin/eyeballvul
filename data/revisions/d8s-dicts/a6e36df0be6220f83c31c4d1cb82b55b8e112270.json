@@ -1,0 +1,11 @@
+{
+  "commit": "a6e36df0be6220f83c31c4d1cb82b55b8e112270",
+  "repo_url": "https://github.com/democritus-project/d8s-dicts",
+  "date": "2021-03-16T11:11:11",
+  "languages": {
+    "Python": 28633,
+    "Shell": 356,
+    "Dockerfile": 163
+  },
+  "size": 29152
+}

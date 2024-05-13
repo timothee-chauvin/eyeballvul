@@ -1,0 +1,14 @@
+{
+  "commit": "1e7ff906854587fb7686bef62eb78904aa8a63d6",
+  "repo_url": "https://github.com/marktext/marktext",
+  "date": "2020-06-18T19:57:23",
+  "languages": {
+    "JavaScript": 1156021,
+    "Vue": 250612,
+    "CSS": 118499,
+    "EJS": 3430,
+    "HTML": 747,
+    "NSIS": 198
+  },
+  "size": 1529507
+}

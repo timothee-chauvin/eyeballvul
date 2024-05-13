@@ -1,0 +1,15 @@
+{
+  "commit": "4739d208c03ce5e03147e1b4eed08dda81a29a85",
+  "repo_url": "https://github.com/swisspol/gcdwebserver",
+  "date": "2019-01-06T20:10:28",
+  "languages": {
+    "Objective-C": 350743,
+    "JavaScript": 44689,
+    "Swift": 8958,
+    "HTML": 7938,
+    "Shell": 4269,
+    "CSS": 3351,
+    "Ruby": 1853
+  },
+  "size": 421801
+}

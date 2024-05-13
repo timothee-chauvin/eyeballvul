@@ -1,0 +1,17 @@
+{
+  "commit": "2b8558a48f11ced67c1f184ffe335428d53b6b28",
+  "repo_url": "https://github.com/cryptonotefoundation/cryptonote",
+  "date": "2014-05-21T13:49:50",
+  "languages": {
+    "C++": 3101204,
+    "C": 429973,
+    "CMake": 31905,
+    "Perl": 7379,
+    "Shell": 3664,
+    "Python": 1669,
+    "Raku": 1456,
+    "Makefile": 750,
+    "Batchfile": 206
+  },
+  "size": 3578206
+}

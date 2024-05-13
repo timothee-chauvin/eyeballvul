@@ -1,0 +1,12 @@
+{
+  "commit": "bb221e8c49495edbb67525ddf3fd942f5b71c1da",
+  "repo_url": "https://github.com/bitbank2/jpegdec",
+  "date": "2022-07-22T10:42:00",
+  "languages": {
+    "C": 733841,
+    "C++": 157932,
+    "Makefile": 469,
+    "CMake": 175
+  },
+  "size": 892417
+}

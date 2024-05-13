@@ -1,0 +1,15 @@
+{
+  "commit": "d789a6dc76fb0423c62abe2cc933b75db40e6d5c",
+  "repo_url": "https://github.com/microsoft/accessibility-insights-web",
+  "date": "2021-04-20T20:11:38",
+  "languages": {
+    "TypeScript": 6835002,
+    "HTML": 1105924,
+    "SCSS": 137396,
+    "JavaScript": 105507,
+    "Dockerfile": 1252,
+    "PowerShell": 547,
+    "NSIS": 165
+  },
+  "size": 8185793
+}

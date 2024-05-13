@@ -1,0 +1,11 @@
+{
+  "commit": "5c2e1205905a556b2a4276a6be369559ceb54a6d",
+  "repo_url": "https://github.com/zenspider/ruby_parser-legacy",
+  "date": "2019-03-15T22:31:39",
+  "languages": {
+    "Ruby": 261976,
+    "Yacc": 136960,
+    "REXX": 8055
+  },
+  "size": 406991
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "256a9617fcaa04bba7652ef2a20bc0aa6cc5dbe1",
+  "repo_url": "https://github.com/domharrington/node-gitlog",
+  "date": "2020-10-05T17:25:28",
+  "languages": {
+    "TypeScript": 19750,
+    "Shell": 1771,
+    "JavaScript": 336
+  },
+  "size": 21857
+}

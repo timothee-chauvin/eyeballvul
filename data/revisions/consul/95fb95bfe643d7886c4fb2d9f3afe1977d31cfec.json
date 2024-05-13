@@ -1,0 +1,19 @@
+{
+  "commit": "95fb95bfe643d7886c4fb2d9f3afe1977d31cfec",
+  "repo_url": "https://github.com/hashicorp/consul",
+  "date": "2020-02-11T15:19:16",
+  "languages": {
+    "Go": 7864105,
+    "JavaScript": 855785,
+    "HTML": 333134,
+    "SCSS": 239639,
+    "Shell": 175126,
+    "Handlebars": 157247,
+    "Gherkin": 131227,
+    "Makefile": 17240,
+    "HCL": 16931,
+    "Ruby": 3330,
+    "Dockerfile": 1113
+  },
+  "size": 9794877
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "3677bf6690adac9128bba2c2a31b7b400ccc509a",
+  "repo_url": "https://github.com/apache/tika",
+  "date": "2022-04-28T15:27:12",
+  "languages": {
+    "Java": 9561971,
+    "Rich Text Format": 2276024,
+    "HTML": 242236,
+    "Python": 72946,
+    "Shell": 37906,
+    "MATLAB": 19368,
+    "Groovy": 5237,
+    "JavaScript": 4417,
+    "SAS": 2016,
+    "Batchfile": 1816,
+    "mIRC Script": 1448,
+    "CSS": 1363,
+    "TeX": 1124,
+    "XSLT": 252,
+    "C++": 171,
+    "C": 145
+  },
+  "size": 12228440
+}

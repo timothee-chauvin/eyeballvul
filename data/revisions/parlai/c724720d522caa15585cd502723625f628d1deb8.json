@@ -1,0 +1,15 @@
+{
+  "commit": "c724720d522caa15585cd502723625f628d1deb8",
+  "repo_url": "https://github.com/facebookresearch/parlai",
+  "date": "2021-01-19T19:06:09",
+  "languages": {
+    "Python": 4071149,
+    "Jupyter Notebook": 2536697,
+    "HTML": 626062,
+    "JavaScript": 85219,
+    "CSS": 35859,
+    "Shell": 15684,
+    "Makefile": 289
+  },
+  "size": 7370959
+}

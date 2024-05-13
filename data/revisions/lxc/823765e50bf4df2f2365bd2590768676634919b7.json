@@ -1,0 +1,14 @@
+{
+  "commit": "823765e50bf4df2f2365bd2590768676634919b7",
+  "repo_url": "https://github.com/lxc/lxc",
+  "date": "2016-04-06T17:41:56",
+  "languages": {
+    "C": 1502403,
+    "Shell": 456150,
+    "Python": 47953,
+    "M4": 34029,
+    "Lua": 28166,
+    "Makefile": 17842
+  },
+  "size": 2086543
+}

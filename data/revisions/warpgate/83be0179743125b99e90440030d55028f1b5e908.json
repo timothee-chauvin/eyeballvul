@@ -1,0 +1,20 @@
+{
+  "commit": "83be0179743125b99e90440030d55028f1b5e908",
+  "repo_url": "https://github.com/warp-tech/warpgate",
+  "date": "2023-04-24T04:47:54",
+  "languages": {
+    "Rust": 583683,
+    "Svelte": 104843,
+    "Python": 75958,
+    "SCSS": 7470,
+    "TypeScript": 6788,
+    "Just": 1245,
+    "Dockerfile": 1145,
+    "HTML": 811,
+    "Ruby": 436,
+    "JavaScript": 351,
+    "Shell": 262,
+    "Makefile": 219
+  },
+  "size": 783211
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "e12e56aef4089d8376e22b03cbc2e5b97321f049",
+  "repo_url": "https://github.com/nats-io/nats-server",
+  "date": "2019-06-05T14:22:08",
+  "languages": {
+    "Go": 1950832,
+    "Shell": 1985,
+    "Dockerfile": 401
+  },
+  "size": 1953218
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "2c4d2bdce6271fb1dc7df67363cf33cc04c67917",
+  "repo_url": "https://github.com/erikd/libsndfile",
+  "date": "2011-07-13T11:21:13",
+  "languages": {
+    "C": 1805676,
+    "Smarty": 172360,
+    "M4": 47684,
+    "C++": 36296,
+    "Python": 34402,
+    "Shell": 21434,
+    "Makefile": 19223,
+    "MATLAB": 6242
+  },
+  "size": 2143317
+}

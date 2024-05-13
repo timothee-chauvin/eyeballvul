@@ -1,0 +1,16 @@
+{
+  "commit": "f6b7d059ce692adf03a42dcc674659aac2e4bdf2",
+  "repo_url": "https://github.com/firebase/firebase-tools",
+  "date": "2024-03-26T23:25:33",
+  "languages": {
+    "TypeScript": 5969410,
+    "JavaScript": 139979,
+    "Shell": 16503,
+    "HTML": 13891,
+    "SCSS": 6271,
+    "CSS": 2352,
+    "Dockerfile": 1544,
+    "Python": 404
+  },
+  "size": 6150354
+}

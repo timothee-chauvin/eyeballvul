@@ -1,0 +1,13 @@
+{
+  "commit": "f50bdf13ef2c7e07aca8350a061ee8191c842fb0",
+  "repo_url": "https://github.com/openmrs/openmrs-module-htmlformentry",
+  "date": "2017-03-22T06:43:22",
+  "languages": {
+    "Java": 1855614,
+    "JavaScript": 23414,
+    "Shell": 2010,
+    "CSS": 708,
+    "Gherkin": 277
+  },
+  "size": 1882023
+}

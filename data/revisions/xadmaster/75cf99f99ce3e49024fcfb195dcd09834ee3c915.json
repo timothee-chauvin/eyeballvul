@@ -1,0 +1,13 @@
+{
+  "commit": "75cf99f99ce3e49024fcfb195dcd09834ee3c915",
+  "repo_url": "https://github.com/macpaw/xadmaster",
+  "date": "2020-01-11T17:21:47",
+  "languages": {
+    "C": 3297390,
+    "Objective-C": 2080191,
+    "Roff": 4460,
+    "Makefile": 2003,
+    "Perl": 385
+  },
+  "size": 5384429
+}

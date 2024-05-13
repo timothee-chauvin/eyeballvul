@@ -1,0 +1,15 @@
+{
+  "commit": "b942d742a459cb18504404608aa370af64f2de8f",
+  "repo_url": "https://github.com/deraemons/deraemon-cms",
+  "date": "2016-01-29T18:40:04",
+  "languages": {
+    "PHP": 1918360,
+    "HTML": 298421,
+    "CSS": 157955,
+    "JavaScript": 45358,
+    "Hack": 25300,
+    "Shell": 1670,
+    "Mustache": 1518
+  },
+  "size": 2448582
+}

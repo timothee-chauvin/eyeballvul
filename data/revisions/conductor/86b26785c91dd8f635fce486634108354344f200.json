@@ -1,0 +1,17 @@
+{
+  "commit": "86b26785c91dd8f635fce486634108354344f200",
+  "repo_url": "https://github.com/netflix/conductor",
+  "date": "2020-02-24T21:15:29",
+  "languages": {
+    "Java": 3357562,
+    "JavaScript": 468002,
+    "CSS": 117415,
+    "Go": 44502,
+    "Python": 29726,
+    "Shell": 3029,
+    "Dockerfile": 2728,
+    "Makefile": 1126,
+    "HTML": 588
+  },
+  "size": 4024678
+}

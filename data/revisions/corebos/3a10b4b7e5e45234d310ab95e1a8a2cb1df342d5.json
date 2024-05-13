@@ -1,0 +1,22 @@
+{
+  "commit": "3a10b4b7e5e45234d310ab95e1a8a2cb1df342d5",
+  "repo_url": "https://github.com/tsolucio/corebos",
+  "date": "2014-06-30T00:24:32",
+  "languages": {
+    "PHP": 22996869,
+    "JavaScript": 4208591,
+    "Smarty": 2003048,
+    "HTML": 1484706,
+    "C": 513809,
+    "CSS": 467638,
+    "Roff": 60690,
+    "Perl": 50950,
+    "Shell": 30496,
+    "XSLT": 28086,
+    "Makefile": 8221,
+    "Batchfile": 4235,
+    "Ruby": 1949,
+    "Hack": 14
+  },
+  "size": 31859302
+}

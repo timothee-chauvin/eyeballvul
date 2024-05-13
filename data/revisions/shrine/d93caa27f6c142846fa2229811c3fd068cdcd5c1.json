@@ -1,0 +1,12 @@
+{
+  "commit": "d93caa27f6c142846fa2229811c3fd068cdcd5c1",
+  "repo_url": "https://github.com/shrinerb/shrine",
+  "date": "2020-01-15T15:40:41",
+  "languages": {
+    "Ruby": 731964,
+    "JavaScript": 12369,
+    "CSS": 2935,
+    "Dockerfile": 148
+  },
+  "size": 747416
+}

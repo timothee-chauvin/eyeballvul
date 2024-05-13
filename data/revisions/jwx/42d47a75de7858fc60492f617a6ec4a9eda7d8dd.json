@@ -1,0 +1,13 @@
+{
+  "commit": "42d47a75de7858fc60492f617a6ec4a9eda7d8dd",
+  "repo_url": "https://github.com/lestrrat-go/jwx",
+  "date": "2023-10-17T00:54:09",
+  "languages": {
+    "Go": 886372,
+    "Starlark": 27321,
+    "Shell": 6984,
+    "Perl": 2770,
+    "Makefile": 2259
+  },
+  "size": 925706
+}

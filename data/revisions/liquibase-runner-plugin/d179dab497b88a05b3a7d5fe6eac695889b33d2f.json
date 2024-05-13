@@ -1,0 +1,13 @@
+{
+  "commit": "d179dab497b88a05b3a7d5fe6eac695889b33d2f",
+  "repo_url": "https://github.com/jenkinsci/liquibase-runner-plugin",
+  "date": "2020-05-12T14:12:57",
+  "languages": {
+    "Java": 164426,
+    "Groovy": 4831,
+    "HTML": 1143,
+    "CSS": 300,
+    "Shell": 243
+  },
+  "size": 170943
+}

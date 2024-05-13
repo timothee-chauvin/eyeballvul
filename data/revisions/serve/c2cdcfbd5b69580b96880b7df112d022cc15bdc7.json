@@ -1,0 +1,13 @@
+{
+  "commit": "c2cdcfbd5b69580b96880b7df112d022cc15bdc7",
+  "repo_url": "https://github.com/pytorch/serve",
+  "date": "2023-06-14T01:54:50",
+  "languages": {
+    "Java": 869588,
+    "Python": 692132,
+    "Shell": 33327,
+    "Dockerfile": 6145,
+    "Mustache": 1583
+  },
+  "size": 1602775
+}

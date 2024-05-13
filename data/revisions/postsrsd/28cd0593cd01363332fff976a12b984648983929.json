@@ -1,0 +1,13 @@
+{
+  "commit": "28cd0593cd01363332fff976a12b984648983929",
+  "repo_url": "https://github.com/roehling/postsrsd",
+  "date": "2020-12-04T15:35:01",
+  "languages": {
+    "C": 55039,
+    "Shell": 10379,
+    "CMake": 8753,
+    "Makefile": 358,
+    "Elixir": 239
+  },
+  "size": 74768
+}

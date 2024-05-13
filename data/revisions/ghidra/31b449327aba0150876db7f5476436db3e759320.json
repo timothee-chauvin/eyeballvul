@@ -1,0 +1,26 @@
+{
+  "commit": "31b449327aba0150876db7f5476436db3e759320",
+  "repo_url": "https://github.com/nationalsecurityagency/ghidra",
+  "date": "2019-04-03T17:38:23",
+  "languages": {
+    "Java": 60984244,
+    "C++": 4308551,
+    "HTML": 3203836,
+    "C": 535893,
+    "Python": 367018,
+    "Shell": 126212,
+    "Yacc": 123783,
+    "GAP": 100527,
+    "CSS": 52594,
+    "TeX": 46782,
+    "Hack": 31429,
+    "Batchfile": 22198,
+    "Lex": 22027,
+    "Makefile": 14727,
+    "XSLT": 9569,
+    "Assembly": 6167,
+    "Haskell": 453,
+    "Pawn": 82
+  },
+  "size": 69956092
+}

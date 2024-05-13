@@ -1,0 +1,26 @@
+{
+  "commit": "4cfe5eb79d67b12f99ce9089ac649fe8c1673a13",
+  "repo_url": "https://github.com/swagger-api/swagger-codegen",
+  "date": "2020-12-29T15:34:59",
+  "languages": {
+    "Mustache": 4282045,
+    "Java": 3157688,
+    "Shell": 459574,
+    "TypeScript": 113249,
+    "Batchfile": 47356,
+    "Apex": 27195,
+    "C#": 26078,
+    "Ruby": 24212,
+    "Scala": 21638,
+    "ActionScript": 21465,
+    "PHP": 12964,
+    "HTML": 8373,
+    "JavaScript": 7521,
+    "CSS": 4881,
+    "Dockerfile": 1658,
+    "Perl": 1521,
+    "PowerShell": 1181,
+    "Rust": 177
+  },
+  "size": 8218776
+}

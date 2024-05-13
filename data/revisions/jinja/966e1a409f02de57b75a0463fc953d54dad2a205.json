@@ -1,0 +1,13 @@
+{
+  "commit": "966e1a409f02de57b75a0463fc953d54dad2a205",
+  "repo_url": "https://github.com/pallets/jinja",
+  "date": "2015-07-26T17:49:40",
+  "languages": {
+    "Python": 956589,
+    "Vim Script": 5637,
+    "Emacs Lisp": 4733,
+    "HTML": 1729,
+    "Makefile": 584
+  },
+  "size": 969272
+}

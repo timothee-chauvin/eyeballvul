@@ -1,0 +1,13 @@
+{
+  "commit": "6efbdb26094468ba224df3d96e079c77fe2e08c9",
+  "repo_url": "https://github.com/akka/akka-http",
+  "date": "2017-03-17T13:57:42",
+  "languages": {
+    "Scala": 3036749,
+    "Java": 389932,
+    "Shell": 10799,
+    "Perl": 1356,
+    "HTML": 592
+  },
+  "size": 3439428
+}

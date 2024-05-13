@@ -1,0 +1,11 @@
+{
+  "commit": "ddb0ccab3ca0713621b66380a349719e07e11945",
+  "repo_url": "https://github.com/misp/misp-maltego",
+  "date": "2020-04-01T19:23:17",
+  "languages": {
+    "Python": 59564,
+    "Dockerfile": 1559,
+    "Shell": 92
+  },
+  "size": 61215
+}

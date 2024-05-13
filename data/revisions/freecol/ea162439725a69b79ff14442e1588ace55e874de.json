@@ -1,0 +1,15 @@
+{
+  "commit": "ea162439725a69b79ff14442e1588ace55e874de",
+  "repo_url": "https://github.com/freecol/freecol",
+  "date": "2018-08-21T00:57:46",
+  "languages": {
+    "Java": 8682040,
+    "HTML": 1637724,
+    "CSS": 40020,
+    "Scheme": 25022,
+    "Shell": 22899,
+    "Awk": 412,
+    "Batchfile": 55
+  },
+  "size": 10408172
+}

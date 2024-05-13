@@ -1,0 +1,12 @@
+{
+  "commit": "e76b53fd804dbf840f4e0b419c2bab74e1a78fbc",
+  "repo_url": "https://github.com/mellium/xmpp",
+  "date": "2022-02-08T14:23:57",
+  "languages": {
+    "Go": 988605,
+    "Python": 14144,
+    "Lua": 9050,
+    "Makefile": 2632
+  },
+  "size": 1014431
+}

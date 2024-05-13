@@ -1,0 +1,12 @@
+{
+  "commit": "7d54c310ddf7f07a29745eec0665f46977236d0a",
+  "repo_url": "https://github.com/brancz/kube-rbac-proxy",
+  "date": "2018-10-24T12:06:20",
+  "languages": {
+    "Go": 33631,
+    "Makefile": 1764,
+    "Shell": 986,
+    "Dockerfile": 362
+  },
+  "size": 36743
+}

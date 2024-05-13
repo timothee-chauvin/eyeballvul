@@ -1,0 +1,13 @@
+{
+  "commit": "202b40adccc6b22fb362a816bce7c159664e098c",
+  "repo_url": "https://github.com/jenkinsci/build-pipeline-plugin",
+  "date": "2017-12-12T00:21:26",
+  "languages": {
+    "Java": 310917,
+    "JavaScript": 83935,
+    "CSS": 17545,
+    "Groovy": 4820,
+    "HTML": 2254
+  },
+  "size": 419471
+}

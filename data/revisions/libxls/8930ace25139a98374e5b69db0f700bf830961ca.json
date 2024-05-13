@@ -1,0 +1,12 @@
+{
+  "commit": "8930ace25139a98374e5b69db0f700bf830961ca",
+  "repo_url": "https://github.com/evanmiller/libxls",
+  "date": "2013-03-19T18:51:38",
+  "languages": {
+    "Shell": 301209,
+    "C": 120268,
+    "Makefile": 107020,
+    "C++": 19367
+  },
+  "size": 547864
+}

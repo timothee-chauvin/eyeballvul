@@ -1,0 +1,13 @@
+{
+  "commit": "5add416a32a2ac34ff8dc23c0e1587a82813b339",
+  "repo_url": "https://github.com/ytti/oxidized-web",
+  "date": "2019-03-04T09:25:16",
+  "languages": {
+    "JavaScript": 35051,
+    "Ruby": 17930,
+    "Haml": 16046,
+    "CSS": 12449,
+    "Sass": 1847
+  },
+  "size": 83323
+}

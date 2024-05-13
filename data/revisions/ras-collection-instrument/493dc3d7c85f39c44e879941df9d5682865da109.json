@@ -1,0 +1,14 @@
+{
+  "commit": "493dc3d7c85f39c44e879941df9d5682865da109",
+  "repo_url": "https://github.com/onsdigital/ras-collection-instrument",
+  "date": "2020-12-03T13:32:00",
+  "languages": {
+    "Python": 139156,
+    "HTML": 1408,
+    "Mako": 494,
+    "Dockerfile": 361,
+    "Makefile": 269,
+    "Shell": 157
+  },
+  "size": 141845
+}

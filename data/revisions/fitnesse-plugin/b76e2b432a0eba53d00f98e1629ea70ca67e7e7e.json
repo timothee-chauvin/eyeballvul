@@ -1,0 +1,13 @@
+{
+  "commit": "b76e2b432a0eba53d00f98e1629ea70ca67e7e7e",
+  "repo_url": "https://github.com/jenkinsci/fitnesse-plugin",
+  "date": "2019-09-19T19:24:39",
+  "languages": {
+    "Java": 154100,
+    "CSS": 28157,
+    "JavaScript": 24339,
+    "HTML": 5056,
+    "XSLT": 2106
+  },
+  "size": 213758
+}

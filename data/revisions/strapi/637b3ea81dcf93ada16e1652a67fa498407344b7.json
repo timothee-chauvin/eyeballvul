@@ -1,0 +1,12 @@
+{
+  "commit": "637b3ea81dcf93ada16e1652a67fa498407344b7",
+  "repo_url": "https://github.com/strapi/strapi",
+  "date": "2016-01-19T16:06:25",
+  "languages": {
+    "JavaScript": 388165,
+    "Makefile": 507,
+    "HTML": 309,
+    "Pug": 300
+  },
+  "size": 389281
+}

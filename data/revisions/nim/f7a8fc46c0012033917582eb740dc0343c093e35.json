@@ -1,0 +1,19 @@
+{
+  "commit": "f7a8fc46c0012033917582eb740dc0343c093e35",
+  "repo_url": "https://github.com/nim-lang/nim",
+  "date": "2019-09-23T17:06:55",
+  "languages": {
+    "Nim": 10623368,
+    "C": 3013168,
+    "HTML": 111506,
+    "C++": 61797,
+    "Assembly": 26550,
+    "Python": 21516,
+    "Perl": 11030,
+    "NSIS": 10651,
+    "Batchfile": 7789,
+    "Shell": 5870,
+    "CSS": 1726
+  },
+  "size": 13894971
+}

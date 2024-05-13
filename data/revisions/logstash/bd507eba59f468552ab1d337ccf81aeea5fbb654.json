@@ -1,0 +1,13 @@
+{
+  "commit": "bd507eba59f468552ab1d337ccf81aeea5fbb654",
+  "repo_url": "https://github.com/elastic/logstash",
+  "date": "2014-05-06T20:21:34",
+  "languages": {
+    "Ruby": 992611,
+    "Shell": 35972,
+    "Makefile": 14090,
+    "Batchfile": 2651,
+    "HTML": 2617
+  },
+  "size": 1047941
+}

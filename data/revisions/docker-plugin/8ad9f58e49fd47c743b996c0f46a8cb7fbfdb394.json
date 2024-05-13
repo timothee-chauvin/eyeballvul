@@ -1,0 +1,12 @@
+{
+  "commit": "8ad9f58e49fd47c743b996c0f46a8cb7fbfdb394",
+  "repo_url": "https://github.com/jenkinsci/docker-plugin",
+  "date": "2019-02-07T17:13:15",
+  "languages": {
+    "Java": 505779,
+    "HTML": 18617,
+    "Groovy": 1015,
+    "JavaScript": 208
+  },
+  "size": 525619
+}

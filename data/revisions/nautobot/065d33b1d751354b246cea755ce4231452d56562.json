@@ -1,0 +1,16 @@
+{
+  "commit": "065d33b1d751354b246cea755ce4231452d56562",
+  "repo_url": "https://github.com/nautobot/nautobot",
+  "date": "2023-10-17T13:35:18",
+  "languages": {
+    "Python": 6142782,
+    "HTML": 1141126,
+    "CSS": 395733,
+    "JavaScript": 317792,
+    "SCSS": 188606,
+    "Jinja": 20938,
+    "Dockerfile": 13555,
+    "Shell": 9139
+  },
+  "size": 8229671
+}

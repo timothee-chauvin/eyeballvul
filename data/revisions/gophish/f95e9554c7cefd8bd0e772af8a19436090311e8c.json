@@ -1,0 +1,14 @@
+{
+  "commit": "f95e9554c7cefd8bd0e772af8a19436090311e8c",
+  "repo_url": "https://github.com/gophish/gophish",
+  "date": "2019-08-04T01:55:25",
+  "languages": {
+    "Go": 268384,
+    "JavaScript": 129188,
+    "HTML": 56262,
+    "Shell": 2255,
+    "Jinja": 1368,
+    "Dockerfile": 613
+  },
+  "size": 458070
+}

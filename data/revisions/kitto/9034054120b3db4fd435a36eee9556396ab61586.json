@@ -1,0 +1,14 @@
+{
+  "commit": "9034054120b3db4fd435a36eee9556396ab61586",
+  "repo_url": "https://github.com/kittoframework/kitto",
+  "date": "2017-02-21T11:03:23",
+  "languages": {
+    "Elixir": 109753,
+    "JavaScript": 16257,
+    "SCSS": 9633,
+    "HTML": 6952,
+    "Dockerfile": 1603,
+    "Procfile": 22
+  },
+  "size": 144220
+}

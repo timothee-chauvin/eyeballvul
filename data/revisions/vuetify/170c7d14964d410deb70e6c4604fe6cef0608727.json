@@ -1,0 +1,16 @@
+{
+  "commit": "170c7d14964d410deb70e6c4604fe6cef0608727",
+  "repo_url": "https://github.com/vuetifyjs/vuetify",
+  "date": "2022-08-09T19:28:34",
+  "languages": {
+    "TypeScript": 1900603,
+    "Vue": 1117729,
+    "Sass": 217408,
+    "JavaScript": 168554,
+    "SCSS": 99943,
+    "HTML": 1932,
+    "Shell": 209,
+    "Dockerfile": 96
+  },
+  "size": 3506474
+}

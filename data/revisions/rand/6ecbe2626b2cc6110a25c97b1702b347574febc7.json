@@ -1,0 +1,11 @@
+{
+  "commit": "6ecbe2626b2cc6110a25c97b1702b347574febc7",
+  "repo_url": "https://github.com/rust-random/rand",
+  "date": "2021-01-26T08:50:09",
+  "languages": {
+    "Rust": 635154,
+    "Python": 3929,
+    "HTML": 62
+  },
+  "size": 639145
+}

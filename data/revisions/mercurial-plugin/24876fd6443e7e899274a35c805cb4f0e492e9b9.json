@@ -1,0 +1,12 @@
+{
+  "commit": "24876fd6443e7e899274a35c805cb4f0e492e9b9",
+  "repo_url": "https://github.com/jenkinsci/mercurial-plugin",
+  "date": "2017-10-12T15:18:55",
+  "languages": {
+    "Java": 345708,
+    "HTML": 5521,
+    "Dockerfile": 490,
+    "Groovy": 309
+  },
+  "size": 352028
+}

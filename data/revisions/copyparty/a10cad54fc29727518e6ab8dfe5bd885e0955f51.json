@@ -1,0 +1,20 @@
+{
+  "commit": "a10cad54fc29727518e6ab8dfe5bd885e0955f51",
+  "repo_url": "https://github.com/9001/copyparty",
+  "date": "2023-07-07T22:20:01",
+  "languages": {
+    "Python": 1065783,
+    "JavaScript": 465494,
+    "CSS": 77254,
+    "Shell": 72698,
+    "HTML": 32643,
+    "Nix": 11310,
+    "Dockerfile": 6192,
+    "Makefile": 3535,
+    "PowerShell": 3102,
+    "LiveScript": 2868,
+    "Batchfile": 2041,
+    "Starlark": 1747
+  },
+  "size": 1744667
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "ee2f0e2a705288bfeef33a0a3432b2e0c4cb8a7b",
+  "repo_url": "https://github.com/hashicorp/vagrant",
+  "date": "2022-08-05T22:16:44",
+  "languages": {
+    "Ruby": 4707704,
+    "Go": 1156038,
+    "MDX": 688649,
+    "PowerShell": 57595,
+    "Shell": 35175,
+    "HTML": 17604,
+    "JavaScript": 5529,
+    "Nix": 5402,
+    "Makefile": 4051,
+    "Dockerfile": 1125,
+    "Emacs Lisp": 420,
+    "Vim Script": 309
+  },
+  "size": 6679601
+}

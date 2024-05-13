@@ -1,0 +1,19 @@
+{
+  "commit": "f0e3a05906a7af20bb950f9423f21284e0408003",
+  "repo_url": "https://github.com/macdownapp/macdown",
+  "date": "2017-05-15T09:24:54",
+  "languages": {
+    "Rich Text Format": 386210,
+    "Objective-C": 280764,
+    "C": 153007,
+    "CSS": 21592,
+    "Python": 10375,
+    "GAP": 7003,
+    "Shell": 4806,
+    "Makefile": 1047,
+    "Ruby": 877,
+    "JavaScript": 332,
+    "Handlebars": 304
+  },
+  "size": 866317
+}

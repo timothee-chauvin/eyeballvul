@@ -1,0 +1,12 @@
+{
+  "commit": "40aaeff558035334fd29dca90f5c140c43664041",
+  "repo_url": "https://github.com/zenoss/zenpacks.zenoss.dashboard",
+  "date": "2018-12-03T22:13:56",
+  "languages": {
+    "JavaScript": 177621,
+    "Python": 34591,
+    "CSS": 1487,
+    "Makefile": 1009
+  },
+  "size": 214708
+}

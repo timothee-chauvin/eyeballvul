@@ -1,0 +1,12 @@
+{
+  "commit": "6a3ba160c46071ae259d7355880333a6d8e9f1ff",
+  "repo_url": "https://github.com/tduckcloud/tduck-platform",
+  "date": "2023-04-10T05:11:13",
+  "languages": {
+    "Java": 701937,
+    "HTML": 6190,
+    "Dockerfile": 535,
+    "Shell": 237
+  },
+  "size": 708899
+}

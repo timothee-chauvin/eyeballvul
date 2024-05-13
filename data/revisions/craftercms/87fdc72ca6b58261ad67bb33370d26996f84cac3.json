@@ -1,0 +1,11 @@
+{
+  "commit": "87fdc72ca6b58261ad67bb33370d26996f84cac3",
+  "repo_url": "https://github.com/craftercms/craftercms",
+  "date": "2020-11-25T18:37:16",
+  "languages": {
+    "Groovy": 62257,
+    "Shell": 54382,
+    "Java": 27853
+  },
+  "size": 144492
+}

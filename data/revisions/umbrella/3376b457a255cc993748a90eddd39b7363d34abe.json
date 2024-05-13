@@ -1,0 +1,16 @@
+{
+  "commit": "3376b457a255cc993748a90eddd39b7363d34abe",
+  "repo_url": "https://github.com/thi-ng/umbrella",
+  "date": "2021-03-26T01:21:23",
+  "languages": {
+    "TypeScript": 4472999,
+    "CSS": 70202,
+    "Handlebars": 38240,
+    "JavaScript": 22609,
+    "Shell": 15726,
+    "Zig": 3646,
+    "PEG.js": 2858,
+    "Forth": 827
+  },
+  "size": 4627107
+}

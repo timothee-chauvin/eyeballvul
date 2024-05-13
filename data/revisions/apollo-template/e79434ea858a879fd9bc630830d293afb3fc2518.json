@@ -1,0 +1,15 @@
+{
+  "commit": "e79434ea858a879fd9bc630830d293afb3fc2518",
+  "repo_url": "https://github.com/alkacon/apollo-template",
+  "date": "2018-05-15T19:41:30",
+  "languages": {
+    "HTML": 2041815,
+    "Java": 863163,
+    "JavaScript": 553831,
+    "CSS": 196379,
+    "SCSS": 141824,
+    "StringTemplate": 37870,
+    "PHP": 17045
+  },
+  "size": 3851927
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "73f75793f01b8b9a78be0e5f0dbbd3445e5742dc",
+  "repo_url": "https://github.com/part-db/part-db-legacy",
+  "date": "2022-01-19T18:04:45",
+  "languages": {
+    "JavaScript": 2510883,
+    "PHP": 1741101,
+    "Smarty": 571201,
+    "CSS": 208426,
+    "TypeScript": 48209,
+    "Shell": 9598,
+    "SCSS": 4292,
+    "HTML": 837,
+    "Dockerfile": 659
+  },
+  "size": 5095206
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "ff7e638d0a4b137135e31aeab29e2e4e59999669",
+  "repo_url": "https://github.com/webiness/webiness_inventory",
+  "date": "2016-10-06T17:20:13",
+  "languages": {
+    "PHP": 283459,
+    "JavaScript": 99384,
+    "Shell": 522
+  },
+  "size": 383365
+}

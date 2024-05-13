@@ -1,0 +1,11 @@
+{
+  "commit": "967999d8b915c5eda6374174989a2c12013dcffd",
+  "repo_url": "https://github.com/jenkinsci/semantic-versioning-plugin",
+  "date": "2020-10-21T06:44:08",
+  "languages": {
+    "Java": 69502,
+    "HTML": 6163,
+    "Shell": 79
+  },
+  "size": 75744
+}

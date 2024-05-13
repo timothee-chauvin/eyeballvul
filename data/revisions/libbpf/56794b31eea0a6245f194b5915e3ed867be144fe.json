@@ -1,0 +1,12 @@
+{
+  "commit": "56794b31eea0a6245f194b5915e3ed867be144fe",
+  "repo_url": "https://github.com/libbpf/libbpf",
+  "date": "2021-12-10T22:04:54",
+  "languages": {
+    "C": 3239209,
+    "Shell": 51777,
+    "Makefile": 4493,
+    "Dockerfile": 1450
+  },
+  "size": 3296929
+}

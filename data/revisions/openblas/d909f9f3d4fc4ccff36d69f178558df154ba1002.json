@@ -1,0 +1,23 @@
+{
+  "commit": "d909f9f3d4fc4ccff36d69f178558df154ba1002",
+  "repo_url": "https://github.com/openmathlib/openblas",
+  "date": "2021-07-15T12:52:54",
+  "languages": {
+    "Fortran": 51943224,
+    "Assembly": 28044970,
+    "C": 25091640,
+    "Makefile": 920328,
+    "CMake": 496567,
+    "C++": 479774,
+    "Perl": 123829,
+    "TeX": 71100,
+    "Python": 29027,
+    "Meson": 9720,
+    "MATLAB": 9066,
+    "Shell": 3889,
+    "R": 3176,
+    "Raku": 1924,
+    "BitBake": 97
+  },
+  "size": 107228331
+}

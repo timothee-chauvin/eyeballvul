@@ -1,0 +1,15 @@
+{
+  "commit": "9951810b3f3c4ef68fe130760f63e04a1284be87",
+  "repo_url": "https://github.com/minical/minical",
+  "date": "2021-07-19T11:16:56",
+  "languages": {
+    "JavaScript": 7146380,
+    "PHP": 6512442,
+    "CSS": 117642,
+    "HTML": 77578,
+    "Hack": 53790,
+    "C": 2283,
+    "Makefile": 467
+  },
+  "size": 13910582
+}

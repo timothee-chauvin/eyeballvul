@@ -1,0 +1,11 @@
+{
+  "commit": "a83e52c84424955e27d70250924d0d2189e61fb0",
+  "repo_url": "https://github.com/cloudwego/hertz",
+  "date": "2022-08-29T03:57:47",
+  "languages": {
+    "Go": 1429613,
+    "Makefile": 991,
+    "Shell": 677
+  },
+  "size": 1431281
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "ac46a8d23ce1c29fed287fffcba86441064fe001",
+  "repo_url": "https://github.com/stellar/js-stellar-sdk",
+  "date": "2021-06-03T23:33:20",
+  "languages": {
+    "JavaScript": 292307,
+    "TypeScript": 168494,
+    "Shell": 1326
+  },
+  "size": 462127
+}

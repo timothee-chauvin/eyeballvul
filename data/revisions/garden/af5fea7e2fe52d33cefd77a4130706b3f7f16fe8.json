@@ -1,0 +1,23 @@
+{
+  "commit": "af5fea7e2fe52d33cefd77a4130706b3f7f16fe8",
+  "repo_url": "https://github.com/garden-io/garden",
+  "date": "2022-01-12T13:40:40",
+  "languages": {
+    "TypeScript": 4089502,
+    "PEG.js": 30315,
+    "Shell": 24059,
+    "SCSS": 18584,
+    "Dockerfile": 11905,
+    "Mustache": 10690,
+    "JavaScript": 9155,
+    "PowerShell": 5772,
+    "Python": 2675,
+    "Open Policy Agent": 2453,
+    "HTML": 2093,
+    "Java": 1494,
+    "HCL": 811,
+    "Ruby": 428,
+    "Go": 72
+  },
+  "size": 4210008
+}

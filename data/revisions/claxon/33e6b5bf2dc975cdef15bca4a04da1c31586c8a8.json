@@ -1,0 +1,11 @@
+{
+  "commit": "33e6b5bf2dc975cdef15bca4a04da1c31586c8a8",
+  "repo_url": "https://github.com/ruuda/claxon",
+  "date": "2017-12-02T18:00:09",
+  "languages": {
+    "Rust": 157559,
+    "Shell": 8718,
+    "R": 1828
+  },
+  "size": 168105
+}

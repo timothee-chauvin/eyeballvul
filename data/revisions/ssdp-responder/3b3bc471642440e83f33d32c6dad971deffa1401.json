@@ -1,0 +1,12 @@
+{
+  "commit": "3b3bc471642440e83f33d32c6dad971deffa1401",
+  "repo_url": "https://github.com/troglobit/ssdp-responder",
+  "date": "2017-09-23T08:16:33",
+  "languages": {
+    "C": 45554,
+    "M4": 1148,
+    "Makefile": 628,
+    "Shell": 44
+  },
+  "size": 47374
+}

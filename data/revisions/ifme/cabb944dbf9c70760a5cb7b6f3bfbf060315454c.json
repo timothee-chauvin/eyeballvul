@@ -1,0 +1,15 @@
+{
+  "commit": "cabb944dbf9c70760a5cb7b6f3bfbf060315454c",
+  "repo_url": "https://github.com/ifmeorg/ifme",
+  "date": "2021-11-17T18:32:08",
+  "languages": {
+    "Ruby": 821013,
+    "JavaScript": 297272,
+    "HTML": 85708,
+    "SCSS": 82761,
+    "Shell": 2659,
+    "Dockerfile": 657,
+    "Procfile": 50
+  },
+  "size": 1290120
+}

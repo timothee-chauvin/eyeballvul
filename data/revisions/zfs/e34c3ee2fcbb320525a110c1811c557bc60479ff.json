@@ -1,0 +1,19 @@
+{
+  "commit": "e34c3ee2fcbb320525a110c1811c557bc60479ff",
+  "repo_url": "https://github.com/openzfs/zfs",
+  "date": "2019-05-21T18:11:41",
+  "languages": {
+    "C": 12580361,
+    "Shell": 3187585,
+    "Python": 505550,
+    "M4": 376932,
+    "Assembly": 204161,
+    "Makefile": 134469,
+    "Lua": 37644,
+    "Perl": 27564,
+    "Roff": 8324,
+    "sed": 1976,
+    "Awk": 334
+  },
+  "size": 17064900
+}

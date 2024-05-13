@@ -1,0 +1,13 @@
+{
+  "commit": "cb9c560cf9766aa74209f10f238761dfc98eafdb",
+  "repo_url": "https://github.com/jenkinsci/docker-commons-plugin",
+  "date": "2017-10-10T23:35:31",
+  "languages": {
+    "Java": 158926,
+    "Shell": 962,
+    "HTML": 895,
+    "Batchfile": 542,
+    "Groovy": 447
+  },
+  "size": 161772
+}

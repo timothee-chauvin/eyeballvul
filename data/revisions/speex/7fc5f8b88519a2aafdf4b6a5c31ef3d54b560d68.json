@@ -1,0 +1,16 @@
+{
+  "commit": "7fc5f8b88519a2aafdf4b6a5c31ef3d54b560d68",
+  "repo_url": "https://github.com/xiph/speex",
+  "date": "2016-12-07T23:20:29",
+  "languages": {
+    "C": 990137,
+    "M4": 24199,
+    "HTML": 10458,
+    "Makefile": 9833,
+    "Batchfile": 7918,
+    "Roff": 3667,
+    "Inno Setup": 1838,
+    "Shell": 406
+  },
+  "size": 1048456
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "9c0495004ee863a2001150abbbc4b2529f2e2bde",
+  "repo_url": "https://github.com/mintty/mintty",
+  "date": "2020-12-20T22:02:49",
+  "languages": {
+    "C": 1319052,
+    "Raku": 581015,
+    "Shell": 37103,
+    "Perl": 21375,
+    "Makefile": 17722,
+    "JavaScript": 689,
+    "sed": 60
+  },
+  "size": 1977016
+}

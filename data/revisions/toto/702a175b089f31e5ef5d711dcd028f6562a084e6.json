@@ -1,0 +1,15 @@
+{
+  "commit": "702a175b089f31e5ef5d711dcd028f6562a084e6",
+  "repo_url": "https://github.com/mschaef/toto",
+  "date": "2022-10-12T21:41:55",
+  "languages": {
+    "Clojure": 132040,
+    "SCSS": 79489,
+    "Less": 78481,
+    "JavaScript": 32139,
+    "CSS": 15878,
+    "Shell": 5259,
+    "Makefile": 208
+  },
+  "size": 343494
+}

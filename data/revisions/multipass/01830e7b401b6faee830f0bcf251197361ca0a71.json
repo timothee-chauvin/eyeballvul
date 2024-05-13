@@ -1,0 +1,13 @@
+{
+  "commit": "01830e7b401b6faee830f0bcf251197361ca0a71",
+  "repo_url": "https://github.com/canonical/multipass",
+  "date": "2021-07-12T18:42:08",
+  "languages": {
+    "C++": 2172259,
+    "CMake": 51830,
+    "C": 6806,
+    "Python": 5632,
+    "Shell": 3828
+  },
+  "size": 2240355
+}

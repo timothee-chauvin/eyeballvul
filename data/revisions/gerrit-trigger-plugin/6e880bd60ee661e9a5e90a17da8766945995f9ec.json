@@ -1,0 +1,13 @@
+{
+  "commit": "6e880bd60ee661e9a5e90a17da8766945995f9ec",
+  "repo_url": "https://github.com/jenkinsci/gerrit-trigger-plugin",
+  "date": "2018-02-20T15:25:52",
+  "languages": {
+    "Java": 1749585,
+    "HTML": 71873,
+    "Groovy": 19719,
+    "CSS": 10723,
+    "JavaScript": 9938
+  },
+  "size": 1861838
+}

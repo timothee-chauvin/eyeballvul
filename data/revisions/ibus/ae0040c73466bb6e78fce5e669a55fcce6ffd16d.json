@@ -1,0 +1,16 @@
+{
+  "commit": "ae0040c73466bb6e78fce5e669a55fcce6ffd16d",
+  "repo_url": "https://github.com/ibus/ibus",
+  "date": "2019-08-23T10:47:18",
+  "languages": {
+    "C": 3091226,
+    "Python": 416546,
+    "Vala": 381887,
+    "Makefile": 93410,
+    "M4": 35618,
+    "Roff": 11301,
+    "Shell": 8531,
+    "Perl": 3767
+  },
+  "size": 4042286
+}

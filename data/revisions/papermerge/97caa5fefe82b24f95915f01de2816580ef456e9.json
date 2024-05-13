@@ -1,0 +1,14 @@
+{
+  "commit": "97caa5fefe82b24f95915f01de2816580ef456e9",
+  "repo_url": "https://github.com/ciur/papermerge",
+  "date": "2020-11-29T13:14:58",
+  "languages": {
+    "JavaScript": 828149,
+    "Python": 596887,
+    "CSS": 244820,
+    "HTML": 75041,
+    "Dockerfile": 6819,
+    "Shell": 1580
+  },
+  "size": 1753296
+}

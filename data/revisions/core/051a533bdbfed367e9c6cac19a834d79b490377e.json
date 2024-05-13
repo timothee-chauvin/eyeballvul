@@ -1,0 +1,15 @@
+{
+  "commit": "051a533bdbfed367e9c6cac19a834d79b490377e",
+  "repo_url": "https://github.com/formtools/core",
+  "date": "2019-10-20T01:37:51",
+  "languages": {
+    "PHP": 7734006,
+    "JavaScript": 1069682,
+    "Smarty": 399494,
+    "HTML": 390864,
+    "CSS": 20453,
+    "Shell": 291,
+    "Hack": 45
+  },
+  "size": 9614835
+}

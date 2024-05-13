@@ -1,0 +1,12 @@
+{
+  "commit": "2582640c2c13c5f5f9b860d62d2b7c3bc7f4826b",
+  "repo_url": "https://github.com/deis/workflow-manager",
+  "date": "2016-08-09T18:37:13",
+  "languages": {
+    "Go": 172765,
+    "Shell": 2858,
+    "Makefile": 2389,
+    "Dockerfile": 70
+  },
+  "size": 178082
+}

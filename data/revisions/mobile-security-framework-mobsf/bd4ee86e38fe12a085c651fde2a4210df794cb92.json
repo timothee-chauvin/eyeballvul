@@ -1,0 +1,16 @@
+{
+  "commit": "bd4ee86e38fe12a085c651fde2a4210df794cb92",
+  "repo_url": "https://github.com/mobsf/mobile-security-framework-mobsf",
+  "date": "2016-05-02T17:11:57",
+  "languages": {
+    "Python": 2395052,
+    "Smali": 1142345,
+    "CSS": 241454,
+    "HTML": 236120,
+    "JavaScript": 169902,
+    "Shell": 12868,
+    "Batchfile": 8549,
+    "Java": 3197
+  },
+  "size": 4209487
+}

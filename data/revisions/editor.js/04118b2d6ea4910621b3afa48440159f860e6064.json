@@ -1,0 +1,12 @@
+{
+  "commit": "04118b2d6ea4910621b3afa48440159f860e6064",
+  "repo_url": "https://github.com/codex-team/editor.js",
+  "date": "2022-11-28T16:28:41",
+  "languages": {
+    "TypeScript": 584614,
+    "HTML": 53781,
+    "CSS": 33831,
+    "JavaScript": 6980
+  },
+  "size": 679206
+}

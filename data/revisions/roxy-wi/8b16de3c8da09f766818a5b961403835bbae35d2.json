@@ -1,0 +1,15 @@
+{
+  "commit": "8b16de3c8da09f766818a5b961403835bbae35d2",
+  "repo_url": "https://github.com/hap-wi/roxy-wi",
+  "date": "2021-07-23T09:40:33",
+  "languages": {
+    "JavaScript": 717905,
+    "Python": 419870,
+    "HTML": 397368,
+    "CSS": 66431,
+    "Shell": 27666,
+    "Jinja": 7863,
+    "HCL": 2724
+  },
+  "size": 1639827
+}

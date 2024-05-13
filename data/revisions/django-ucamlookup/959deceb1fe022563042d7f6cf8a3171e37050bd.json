@@ -1,0 +1,13 @@
+{
+  "commit": "959deceb1fe022563042d7f6cf8a3171e37050bd",
+  "repo_url": "https://github.com/uisautomation/django-ucamlookup",
+  "date": "2016-08-23T16:54:46",
+  "languages": {
+    "JavaScript": 185645,
+    "Python": 173628,
+    "CSS": 21058,
+    "HTML": 8019,
+    "Shell": 1490
+  },
+  "size": 389840
+}

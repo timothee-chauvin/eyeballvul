@@ -1,0 +1,14 @@
+{
+  "commit": "ba3cadefbc2b5e6b102cad2d39f40dcb378428ea",
+  "repo_url": "https://github.com/nc3-lu/testingplatform",
+  "date": "2023-10-31T15:21:25",
+  "languages": {
+    "HTML": 213856,
+    "Python": 206141,
+    "CSS": 7638,
+    "Makefile": 825,
+    "Dockerfile": 445,
+    "Shell": 155
+  },
+  "size": 429060
+}

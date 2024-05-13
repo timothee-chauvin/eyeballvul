@@ -1,0 +1,10 @@
+{
+  "commit": "1fde70749c068359a2e1b97459cc9ab696dad3fb",
+  "repo_url": "https://github.com/awslabs/fhir-works-on-aws-authz-smart",
+  "date": "2022-09-08T21:01:51",
+  "languages": {
+    "TypeScript": 158575,
+    "JavaScript": 1944
+  },
+  "size": 160519
+}

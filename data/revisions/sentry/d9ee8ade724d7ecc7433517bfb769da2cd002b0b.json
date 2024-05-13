@@ -1,0 +1,18 @@
+{
+  "commit": "d9ee8ade724d7ecc7433517bfb769da2cd002b0b",
+  "repo_url": "https://github.com/apache/sentry",
+  "date": "2015-07-03T00:04:22",
+  "languages": {
+    "Java": 2728951,
+    "XSLT": 25595,
+    "Thrift": 23098,
+    "JavaScript": 22225,
+    "Shell": 13114,
+    "Python": 10920,
+    "CSS": 3953,
+    "HTML": 2996,
+    "PLpgSQL": 410,
+    "SQLPL": 15
+  },
+  "size": 2831277
+}

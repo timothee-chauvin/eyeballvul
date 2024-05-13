@@ -1,0 +1,10 @@
+{
+  "commit": "646486e9fcdcdb8213d6b76622d03ca73e74b5f8",
+  "repo_url": "https://github.com/stripe/vscode-stripe",
+  "date": "2021-02-01T22:12:29",
+  "languages": {
+    "TypeScript": 112617,
+    "JavaScript": 7920
+  },
+  "size": 120537
+}

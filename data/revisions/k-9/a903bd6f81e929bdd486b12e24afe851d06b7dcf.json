@@ -1,0 +1,13 @@
+{
+  "commit": "a903bd6f81e929bdd486b12e24afe851d06b7dcf",
+  "repo_url": "https://github.com/k9mail/k-9",
+  "date": "2018-09-01T16:32:39",
+  "languages": {
+    "Java": 4669669,
+    "Kotlin": 58451,
+    "Shell": 2775,
+    "AIDL": 1946,
+    "HTML": 292
+  },
+  "size": 4733133
+}

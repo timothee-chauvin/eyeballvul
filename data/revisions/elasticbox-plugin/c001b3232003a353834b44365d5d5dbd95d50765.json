@@ -1,0 +1,12 @@
+{
+  "commit": "c001b3232003a353834b44365d5d5dbd95d50765",
+  "repo_url": "https://github.com/jenkinsci/elasticbox-plugin",
+  "date": "2019-04-16T16:41:32",
+  "languages": {
+    "Java": 1016032,
+    "JavaScript": 69474,
+    "Shell": 16062,
+    "HTML": 10722
+  },
+  "size": 1112290
+}

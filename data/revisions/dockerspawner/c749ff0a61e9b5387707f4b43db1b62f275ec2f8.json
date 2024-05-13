@@ -1,0 +1,10 @@
+{
+  "commit": "c749ff0a61e9b5387707f4b43db1b62f275ec2f8",
+  "repo_url": "https://github.com/jupyterhub/dockerspawner",
+  "date": "2021-07-22T10:13:53",
+  "languages": {
+    "Python": 92306,
+    "Shell": 744
+  },
+  "size": 93050
+}

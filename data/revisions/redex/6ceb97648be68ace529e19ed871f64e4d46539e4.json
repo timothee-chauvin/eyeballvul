@@ -1,0 +1,16 @@
+{
+  "commit": "6ceb97648be68ace529e19ed871f64e4d46539e4",
+  "repo_url": "https://github.com/facebook/redex",
+  "date": "2017-01-11T17:58:17",
+  "languages": {
+    "C++": 2053206,
+    "Python": 102700,
+    "Java": 98899,
+    "C": 82418,
+    "M4": 46383,
+    "Makefile": 10102,
+    "Shell": 6277,
+    "Perl": 1353
+  },
+  "size": 2401338
+}

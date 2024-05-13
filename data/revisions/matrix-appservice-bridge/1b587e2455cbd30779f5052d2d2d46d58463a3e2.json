@@ -1,0 +1,11 @@
+{
+  "commit": "1b587e2455cbd30779f5052d2d2d46d58463a3e2",
+  "repo_url": "https://github.com/matrix-org/matrix-appservice-bridge",
+  "date": "2021-03-16T15:06:10",
+  "languages": {
+    "TypeScript": 294519,
+    "JavaScript": 134177,
+    "Shell": 1111
+  },
+  "size": 429807
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "1295663ada908dd431d7ffc9927feb6e2606b724",
+  "repo_url": "https://github.com/ory/hydra",
+  "date": "2018-11-21T19:45:53",
+  "languages": {
+    "Go": 956494,
+    "PHP": 472953,
+    "Java": 340524,
+    "JavaScript": 246610,
+    "Shell": 18670,
+    "Makefile": 4179,
+    "Dockerfile": 779
+  },
+  "size": 2040209
+}

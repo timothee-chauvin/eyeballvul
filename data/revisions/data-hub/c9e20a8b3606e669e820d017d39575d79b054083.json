@@ -1,0 +1,12 @@
+{
+  "commit": "c9e20a8b3606e669e820d017d39575d79b054083",
+  "repo_url": "https://github.com/pimcore/data-hub",
+  "date": "2022-03-02T10:29:16",
+  "languages": {
+    "PHP": 973002,
+    "JavaScript": 145682,
+    "CSS": 16540,
+    "Twig": 6029
+  },
+  "size": 1141253
+}

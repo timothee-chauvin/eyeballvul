@@ -1,0 +1,11 @@
+{
+  "commit": "776aa0259ed8eea50ea068f7ce416e9b297e1158",
+  "repo_url": "https://github.com/tenancy/multi-tenant",
+  "date": "2021-03-14T20:39:31",
+  "languages": {
+    "PHP": 315206,
+    "Blade": 2824,
+    "Shell": 1872
+  },
+  "size": 319902
+}

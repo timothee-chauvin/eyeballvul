@@ -1,0 +1,11 @@
+{
+  "commit": "beff0205a103fe5b0c1f4296d011c2ad56378c8e",
+  "repo_url": "https://github.com/ilanschnell/bsdiff4",
+  "date": "2019-11-20T20:35:46",
+  "languages": {
+    "C": 15608,
+    "Python": 12383,
+    "Makefile": 255
+  },
+  "size": 28246
+}

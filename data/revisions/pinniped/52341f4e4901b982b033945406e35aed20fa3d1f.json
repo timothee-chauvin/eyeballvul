@@ -1,0 +1,15 @@
+{
+  "commit": "52341f4e4901b982b033945406e35aed20fa3d1f",
+  "repo_url": "https://github.com/vmware-tanzu/pinniped",
+  "date": "2022-04-19T22:22:08",
+  "languages": {
+    "Go": 3883868,
+    "Shell": 54337,
+    "SCSS": 24657,
+    "HTML": 23711,
+    "CSS": 7175,
+    "Dockerfile": 6180,
+    "JavaScript": 3581
+  },
+  "size": 4003509
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "ca16d780de62de3e0daabf284ceb131b548fcf71",
+  "repo_url": "https://github.com/mlogclub/bbs-go",
+  "date": "2021-06-22T03:48:51",
+  "languages": {
+    "Go": 373277,
+    "Vue": 320253,
+    "SCSS": 26563,
+    "JavaScript": 18878,
+    "Dockerfile": 2313,
+    "Shell": 1981,
+    "HTML": 443
+  },
+  "size": 743708
+}

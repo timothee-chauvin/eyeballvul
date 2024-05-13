@@ -1,0 +1,17 @@
+{
+  "commit": "03f0cb1daf3ee9b39f9fe34c05d7eeb80bde0963",
+  "repo_url": "https://github.com/cube-js/cube",
+  "date": "2022-12-09T06:04:02",
+  "languages": {
+    "Rust": 4391865,
+    "TypeScript": 2993265,
+    "JavaScript": 984017,
+    "ANTLR": 33136,
+    "Dockerfile": 33131,
+    "Handlebars": 6165,
+    "HTML": 5271,
+    "Shell": 3310,
+    "Less": 680
+  },
+  "size": 8450840
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "8fa2e93dac63e480393aedeb47088a9294e532f2",
+  "repo_url": "https://github.com/openwhyd/openwhyd",
+  "date": "2021-10-24T15:08:45",
+  "languages": {
+    "JavaScript": 1424744,
+    "HTML": 284403,
+    "CSS": 195225,
+    "TypeScript": 50737,
+    "Shell": 26777,
+    "Makefile": 4875,
+    "Dockerfile": 1530,
+    "Python": 1372,
+    "Gnuplot": 1289
+  },
+  "size": 1990952
+}

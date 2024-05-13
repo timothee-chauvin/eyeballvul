@@ -1,0 +1,11 @@
+{
+  "commit": "2643a56144df948b0094b247b8f9d31c5b870e52",
+  "repo_url": "https://github.com/jenkinsci/gitea-plugin",
+  "date": "2022-10-11T09:35:50",
+  "languages": {
+    "Java": 573048,
+    "HTML": 10027,
+    "Shell": 635
+  },
+  "size": 583710
+}

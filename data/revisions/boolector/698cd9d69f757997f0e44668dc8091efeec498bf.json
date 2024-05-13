@@ -1,0 +1,16 @@
+{
+  "commit": "698cd9d69f757997f0e44668dc8091efeec498bf",
+  "repo_url": "https://github.com/boolector/boolector",
+  "date": "2018-07-01T20:13:36",
+  "languages": {
+    "SMT": 3894087,
+    "C": 3116871,
+    "C++": 255938,
+    "Cython": 119473,
+    "CMake": 81857,
+    "Python": 67988,
+    "Shell": 24132,
+    "Makefile": 347
+  },
+  "size": 7560693
+}

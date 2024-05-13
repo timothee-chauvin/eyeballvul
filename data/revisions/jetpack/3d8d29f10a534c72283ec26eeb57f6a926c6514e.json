@@ -1,0 +1,21 @@
+{
+  "commit": "3d8d29f10a534c72283ec26eeb57f6a926c6514e",
+  "repo_url": "https://github.com/automattic/jetpack",
+  "date": "2024-02-07T22:31:15",
+  "languages": {
+    "PHP": 21716150,
+    "JavaScript": 8538535,
+    "SCSS": 2295807,
+    "TypeScript": 1718130,
+    "CSS": 907294,
+    "HTML": 427299,
+    "Shell": 212294,
+    "Svelte": 44462,
+    "MDX": 22398,
+    "Dockerfile": 5109,
+    "Mustache": 3440,
+    "Roff": 68,
+    "Smarty": 33
+  },
+  "size": 35891019
+}

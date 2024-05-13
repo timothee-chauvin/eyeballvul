@@ -1,0 +1,15 @@
+{
+  "commit": "8df4f9fa8c93133512f8fa7d710b7ecd4bd520ff",
+  "repo_url": "https://github.com/juzaweb/cms",
+  "date": "2023-07-02T09:53:45",
+  "languages": {
+    "PHP": 3659947,
+    "JavaScript": 978945,
+    "CSS": 503813,
+    "Blade": 464140,
+    "Twig": 136432,
+    "Sass": 104994,
+    "SCSS": 56828
+  },
+  "size": 5905099
+}

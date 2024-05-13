@@ -1,0 +1,17 @@
+{
+  "commit": "e4878861867cd6439752ca4fe394c179b2b6e527",
+  "repo_url": "https://github.com/vector-im/element-ios",
+  "date": "2022-09-20T10:46:37",
+  "languages": {
+    "Swift": 6369307,
+    "Objective-C": 5533223,
+    "HTML": 128881,
+    "Ruby": 23727,
+    "Shell": 14457,
+    "C": 13480,
+    "JavaScript": 2513,
+    "Jinja": 2089,
+    "Objective-C++": 946
+  },
+  "size": 12088623
+}

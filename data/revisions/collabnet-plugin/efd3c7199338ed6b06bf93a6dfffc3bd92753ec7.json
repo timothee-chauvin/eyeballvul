@@ -1,0 +1,13 @@
+{
+  "commit": "efd3c7199338ed6b06bf93a6dfffc3bd92753ec7",
+  "repo_url": "https://github.com/jenkinsci/collabnet-plugin",
+  "date": "2017-09-08T14:18:12",
+  "languages": {
+    "Java": 542304,
+    "JavaScript": 104409,
+    "HTML": 23156,
+    "CSS": 4203,
+    "Groovy": 3322
+  },
+  "size": 677394
+}

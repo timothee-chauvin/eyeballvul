@@ -1,0 +1,15 @@
+{
+  "commit": "3e2447445d797ec5c76b4ada995589256a7e83c6",
+  "repo_url": "https://github.com/apache/iotdb-web-workbench",
+  "date": "2022-12-20T07:25:26",
+  "languages": {
+    "Java": 622304,
+    "Vue": 450220,
+    "JavaScript": 149425,
+    "SCSS": 9612,
+    "Dockerfile": 2184,
+    "HTML": 895,
+    "Shell": 809
+  },
+  "size": 1235449
+}

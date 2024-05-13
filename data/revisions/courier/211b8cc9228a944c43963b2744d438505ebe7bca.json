@@ -1,0 +1,20 @@
+{
+  "commit": "211b8cc9228a944c43963b2744d438505ebe7bca",
+  "repo_url": "https://github.com/svarshavchik/courier",
+  "date": "2021-05-19T01:17:40",
+  "languages": {
+    "C": 3072937,
+    "HTML": 593935,
+    "C++": 584887,
+    "M4": 257653,
+    "Makefile": 193002,
+    "Perl": 104912,
+    "Shell": 72774,
+    "PHP": 15357,
+    "XSLT": 13455,
+    "CSS": 1298,
+    "JavaScript": 658,
+    "sed": 370
+  },
+  "size": 4911238
+}

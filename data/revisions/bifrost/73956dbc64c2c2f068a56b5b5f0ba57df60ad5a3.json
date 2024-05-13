@@ -1,0 +1,19 @@
+{
+  "commit": "73956dbc64c2c2f068a56b5b5f0ba57df60ad5a3",
+  "repo_url": "https://github.com/brokercap/bifrost",
+  "date": "2022-09-10T14:29:30",
+  "languages": {
+    "Go": 1606138,
+    "HTML": 347148,
+    "JavaScript": 86530,
+    "Shell": 32538,
+    "CSS": 2745,
+    "SCSS": 2528,
+    "PHP": 932,
+    "Makefile": 253,
+    "Dockerfile": 216,
+    "Ruby": 94,
+    "Batchfile": 56
+  },
+  "size": 2079178
+}

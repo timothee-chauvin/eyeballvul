@@ -1,0 +1,12 @@
+{
+  "commit": "0640e9edf233578e43bc4a26ff08b103fe611aeb",
+  "repo_url": "https://github.com/danfruehauf/networkmanager-ssh",
+  "date": "2019-05-09T07:30:35",
+  "languages": {
+    "C": 126035,
+    "Makefile": 6540,
+    "M4": 4831,
+    "Shell": 846
+  },
+  "size": 138252
+}

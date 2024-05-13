@@ -1,0 +1,13 @@
+{
+  "commit": "f06ae707b77af098e3947f843ca56f72557d591e",
+  "repo_url": "https://github.com/codeinwp/optimole-wp",
+  "date": "2022-03-10T14:32:34",
+  "languages": {
+    "PHP": 396200,
+    "Vue": 154972,
+    "JavaScript": 54477,
+    "SCSS": 9352,
+    "Shell": 4998
+  },
+  "size": 619999
+}

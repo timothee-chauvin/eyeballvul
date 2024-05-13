@@ -1,0 +1,12 @@
+{
+  "commit": "76e60bab588aedd1dbc78029ee30ab5c7c4f6728",
+  "repo_url": "https://github.com/lewdlime/abcm2ps",
+  "date": "2020-12-05T11:12:55",
+  "languages": {
+    "C": 786913,
+    "Makefile": 1773,
+    "HTML": 1048,
+    "PostScript": 193
+  },
+  "size": 789927
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "a0ecdde0c042b9256170f2f8890dd9451a4240aa",
+  "repo_url": "https://github.com/lloyd/yajl",
+  "date": "2014-03-19T04:58:29",
+  "languages": {
+    "C": 255666,
+    "CMake": 16570,
+    "Shell": 2596
+  },
+  "size": 274832
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "d5667d2106f51b5ef5623355a902ba5f90d7543c",
+  "repo_url": "https://github.com/coderedcorp/coderedcms",
+  "date": "2021-09-23T21:53:26",
+  "languages": {
+    "Python": 4934617,
+    "HTML": 92427,
+    "JavaScript": 18878,
+    "SCSS": 13206,
+    "CSS": 12956,
+    "PowerShell": 7341
+  },
+  "size": 5079425
+}

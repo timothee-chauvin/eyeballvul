@@ -1,0 +1,11 @@
+{
+  "commit": "d2c08fba8f0296a4e4458a7aac8a63133f71ed51",
+  "repo_url": "https://github.com/latchset/tang",
+  "date": "2021-05-05T11:21:59",
+  "languages": {
+    "C": 29489,
+    "Shell": 13714,
+    "Meson": 4324
+  },
+  "size": 47527
+}

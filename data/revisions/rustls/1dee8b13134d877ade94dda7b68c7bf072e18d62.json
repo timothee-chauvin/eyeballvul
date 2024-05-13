@@ -1,0 +1,12 @@
+{
+  "commit": "1dee8b13134d877ade94dda7b68c7bf072e18d62",
+  "repo_url": "https://github.com/rustls/rustls",
+  "date": "2024-03-25T14:57:41",
+  "languages": {
+    "Rust": 1743860,
+    "Shell": 13347,
+    "Python": 3534,
+    "Makefile": 2037
+  },
+  "size": 1762778
+}

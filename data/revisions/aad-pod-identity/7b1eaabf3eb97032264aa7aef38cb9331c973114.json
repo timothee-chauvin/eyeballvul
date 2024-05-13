@@ -1,0 +1,15 @@
+{
+  "commit": "7b1eaabf3eb97032264aa7aef38cb9331c973114",
+  "repo_url": "https://github.com/azure/aad-pod-identity",
+  "date": "2022-09-06T23:01:37",
+  "languages": {
+    "Go": 578059,
+    "Shell": 11858,
+    "Makefile": 9865,
+    "Mustache": 4036,
+    "HTML": 1568,
+    "Dockerfile": 1225,
+    "SCSS": 101
+  },
+  "size": 606712
+}

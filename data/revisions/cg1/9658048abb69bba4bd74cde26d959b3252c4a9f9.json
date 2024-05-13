@@ -1,0 +1,15 @@
+{
+  "commit": "9658048abb69bba4bd74cde26d959b3252c4a9f9",
+  "repo_url": "https://github.com/go4rayyan/cg1",
+  "date": "2016-11-15T21:17:50",
+  "languages": {
+    "Ruby": 395374,
+    "HTML": 192091,
+    "JavaScript": 161308,
+    "SCSS": 99016,
+    "CSS": 22949,
+    "CoffeeScript": 3049,
+    "Haml": 1111
+  },
+  "size": 874898
+}

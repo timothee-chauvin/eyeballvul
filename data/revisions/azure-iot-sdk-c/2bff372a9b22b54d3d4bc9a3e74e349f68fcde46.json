@@ -1,0 +1,20 @@
+{
+  "commit": "2bff372a9b22b54d3d4bc9a3e74e349f68fcde46",
+  "repo_url": "https://github.com/azure/azure-iot-sdk-c",
+  "date": "2020-07-21T21:35:31",
+  "languages": {
+    "C": 11663675,
+    "C++": 2214973,
+    "CMake": 316453,
+    "Shell": 66015,
+    "C#": 63235,
+    "Python": 43587,
+    "Batchfile": 32693,
+    "PowerShell": 15252,
+    "Makefile": 8261,
+    "Dockerfile": 5197,
+    "XSLT": 1404,
+    "Tcl": 157
+  },
+  "size": 14430902
+}

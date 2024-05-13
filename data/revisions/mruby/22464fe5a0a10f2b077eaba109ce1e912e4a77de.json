@@ -1,0 +1,14 @@
+{
+  "commit": "22464fe5a0a10f2b077eaba109ce1e912e4a77de",
+  "repo_url": "https://github.com/mruby/mruby",
+  "date": "2015-11-17T09:02:30",
+  "languages": {
+    "C": 991296,
+    "Ruby": 473905,
+    "Yacc": 162426,
+    "Batchfile": 776,
+    "Shell": 661,
+    "Makefile": 277
+  },
+  "size": 1629341
+}

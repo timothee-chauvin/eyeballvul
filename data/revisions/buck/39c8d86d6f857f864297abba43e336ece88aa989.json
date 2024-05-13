@@ -1,0 +1,25 @@
+{
+  "commit": "39c8d86d6f857f864297abba43e336ece88aa989",
+  "repo_url": "https://github.com/facebook/buck",
+  "date": "2018-03-26T21:19:01",
+  "languages": {
+    "Java": 25017465,
+    "Starlark": 1237106,
+    "JavaScript": 929387,
+    "Python": 595318,
+    "C": 244894,
+    "CSS": 54894,
+    "Thrift": 41958,
+    "Shell": 32105,
+    "Kotlin": 16360,
+    "StringTemplate": 5873,
+    "Smalltalk": 4668,
+    "Lex": 2867,
+    "Makefile": 513,
+    "HTML": 501,
+    "Dockerfile": 495,
+    "PowerShell": 244,
+    "Batchfile": 88
+  },
+  "size": 28184736
+}

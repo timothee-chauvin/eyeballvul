@@ -1,0 +1,13 @@
+{
+  "commit": "ed41ae539ad8d3b0becf00460badb3aba6f0fe3b",
+  "repo_url": "https://github.com/pimcore/ecommerce-framework-bundle",
+  "date": "2023-12-21T13:44:02",
+  "languages": {
+    "PHP": 1670950,
+    "JavaScript": 123666,
+    "Twig": 91690,
+    "CSS": 12774,
+    "Shell": 490
+  },
+  "size": 1899570
+}

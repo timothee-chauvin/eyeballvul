@@ -1,0 +1,15 @@
+{
+  "commit": "5341348ebc7b65859bfd02baf750bd999778e155",
+  "repo_url": "https://github.com/remult/remult",
+  "date": "2023-06-11T14:10:18",
+  "languages": {
+    "TypeScript": 929659,
+    "HTML": 18450,
+    "CSS": 12220,
+    "SCSS": 5287,
+    "JavaScript": 4630,
+    "Shell": 534,
+    "Svelte": 121
+  },
+  "size": 970901
+}

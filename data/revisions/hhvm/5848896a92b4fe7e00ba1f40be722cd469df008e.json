@@ -1,0 +1,26 @@
+{
+  "commit": "5848896a92b4fe7e00ba1f40be722cd469df008e",
+  "repo_url": "https://github.com/facebook/hhvm",
+  "date": "2013-10-21T04:02:26",
+  "languages": {
+    "C++": 19826710,
+    "PHP": 12289808,
+    "C": 850826,
+    "CMake": 133834,
+    "Yacc": 101456,
+    "Hack": 90171,
+    "Python": 49739,
+    "Perl": 18595,
+    "Shell": 18475,
+    "Makefile": 11856,
+    "Logos": 10175,
+    "Assembly": 3691,
+    "GDB": 2215,
+    "SourcePawn": 2090,
+    "NASL": 1701,
+    "CSS": 1477,
+    "HTML": 453,
+    "Pawn": 138
+  },
+  "size": 33413410
+}

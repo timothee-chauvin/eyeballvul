@@ -1,0 +1,19 @@
+{
+  "commit": "c34337071a05d7ae4f7397725319e0573c4a3e65",
+  "repo_url": "https://github.com/elastic/beats",
+  "date": "2017-09-27T08:12:49",
+  "languages": {
+    "Go": 2623583,
+    "Python": 531099,
+    "Shell": 72392,
+    "Makefile": 40713,
+    "Jinja": 25889,
+    "Thrift": 16458,
+    "Dockerfile": 13740,
+    "PowerShell": 4425,
+    "Batchfile": 2465,
+    "Roff": 1550,
+    "HTML": 273
+  },
+  "size": 3332587
+}

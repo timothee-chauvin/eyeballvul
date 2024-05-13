@@ -1,0 +1,13 @@
+{
+  "commit": "29de4ce1151936856cda417767f8c507fc2c201c",
+  "repo_url": "https://github.com/jakubroztocil/httpie",
+  "date": "2023-05-19T21:41:26",
+  "languages": {
+    "Python": 575042,
+    "Roff": 31811,
+    "Shell": 7629,
+    "Makefile": 6660,
+    "Dockerfile": 1148
+  },
+  "size": 622290
+}

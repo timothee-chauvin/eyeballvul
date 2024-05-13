@@ -1,0 +1,27 @@
+{
+  "commit": "da4d701808c3af4100bd1f2d7f0fd07854267fa9",
+  "repo_url": "https://github.com/horde/horde",
+  "date": "2017-09-21T13:22:53",
+  "languages": {
+    "PHP": 28621767,
+    "JavaScript": 4041416,
+    "CSS": 355690,
+    "XSLT": 349586,
+    "Objective-C": 204331,
+    "HTML": 133156,
+    "ASP.NET": 120239,
+    "C": 107485,
+    "Java": 91752,
+    "Perl": 83645,
+    "Shell": 39949,
+    "NASL": 24829,
+    "Roff": 17571,
+    "Makefile": 11948,
+    "M4": 2535,
+    "Batchfile": 1610,
+    "Hack": 469,
+    "Python": 61,
+    "Ruby": 19
+  },
+  "size": 34208058
+}

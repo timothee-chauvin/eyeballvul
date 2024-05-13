@@ -1,0 +1,12 @@
+{
+  "commit": "edb60577888e36ba5139bee2b8050d8123654ab7",
+  "repo_url": "https://github.com/jessfraz/pastebinit",
+  "date": "2018-07-17T23:44:10",
+  "languages": {
+    "Go": 13674,
+    "CSS": 9006,
+    "Makefile": 5293,
+    "Dockerfile": 705
+  },
+  "size": 28678
+}

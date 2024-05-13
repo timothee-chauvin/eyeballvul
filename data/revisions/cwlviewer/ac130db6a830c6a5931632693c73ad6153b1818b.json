@@ -1,0 +1,15 @@
+{
+  "commit": "ac130db6a830c6a5931632693c73ad6153b1818b",
+  "repo_url": "https://github.com/common-workflow-language/cwlviewer",
+  "date": "2017-08-22T11:08:24",
+  "languages": {
+    "Java": 329760,
+    "HTML": 92718,
+    "Common Workflow Language": 29512,
+    "JavaScript": 25930,
+    "CSS": 4858,
+    "Dockerfile": 1528,
+    "Makefile": 283
+  },
+  "size": 484589
+}

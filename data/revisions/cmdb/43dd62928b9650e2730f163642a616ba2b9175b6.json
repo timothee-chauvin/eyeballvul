@@ -1,0 +1,13 @@
+{
+  "commit": "43dd62928b9650e2730f163642a616ba2b9175b6",
+  "repo_url": "https://github.com/infotelglpi/cmdb",
+  "date": "2022-06-02T06:30:32",
+  "languages": {
+    "PHP": 257121,
+    "Smarty": 6610,
+    "JavaScript": 5405,
+    "Perl": 1369,
+    "Shell": 574
+  },
+  "size": 271079
+}

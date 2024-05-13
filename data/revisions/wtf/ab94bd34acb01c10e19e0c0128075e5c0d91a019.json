@@ -1,0 +1,11 @@
+{
+  "commit": "ab94bd34acb01c10e19e0c0128075e5c0d91a019",
+  "repo_url": "https://github.com/wtfutil/wtf",
+  "date": "2019-07-20T19:30:22",
+  "languages": {
+    "Go": 406169,
+    "Makefile": 1732,
+    "Smarty": 1204
+  },
+  "size": 409105
+}

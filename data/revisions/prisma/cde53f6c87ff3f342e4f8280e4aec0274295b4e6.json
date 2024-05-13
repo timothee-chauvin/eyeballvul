@@ -1,0 +1,12 @@
+{
+  "commit": "cde53f6c87ff3f342e4f8280e4aec0274295b4e6",
+  "repo_url": "https://github.com/prisma/prisma",
+  "date": "2021-03-16T11:47:20",
+  "languages": {
+    "TypeScript": 1945629,
+    "JavaScript": 48832,
+    "Shell": 7877,
+    "TSQL": 703
+  },
+  "size": 2003041
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "a4b8523094d866686507e15e85d596ddacb7631d",
+  "repo_url": "https://github.com/archerysec/archerysec",
+  "date": "2019-04-10T19:00:55",
+  "languages": {
+    "HTML": 981847,
+    "Python": 939701,
+    "JavaScript": 444711,
+    "CSS": 145125,
+    "Lua": 6932,
+    "Shell": 1553,
+    "Dockerfile": 1224,
+    "Procfile": 47
+  },
+  "size": 2521140
+}

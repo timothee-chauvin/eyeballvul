@@ -1,0 +1,14 @@
+{
+  "commit": "6e6bf34e52e6f1be419627c33888f98218e963d1",
+  "repo_url": "https://github.com/chemcms/chemcms",
+  "date": "2017-10-10T00:51:54",
+  "languages": {
+    "PHP": 2398271,
+    "JavaScript": 842576,
+    "HTML": 777199,
+    "CSS": 176791,
+    "Smarty": 32119,
+    "PLpgSQL": 3807
+  },
+  "size": 4230763
+}

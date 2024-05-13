@@ -1,0 +1,22 @@
+{
+  "commit": "7648698b3139f441b18a287239d514bc72996bfe",
+  "repo_url": "https://github.com/testlinkopensourcetrms/testlink-code",
+  "date": "2017-01-21T10:40:01",
+  "languages": {
+    "PHP": 5492114,
+    "Smarty": 973689,
+    "JavaScript": 180536,
+    "SCSS": 73128,
+    "Less": 69047,
+    "CSS": 48121,
+    "PLpgSQL": 5901,
+    "Perl": 4467,
+    "Java": 4400,
+    "Python": 2045,
+    "Ruby": 1580,
+    "HTML": 1247,
+    "Shell": 920,
+    "Batchfile": 261
+  },
+  "size": 6857456
+}

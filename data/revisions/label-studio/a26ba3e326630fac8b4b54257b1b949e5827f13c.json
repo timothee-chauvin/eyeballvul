@@ -1,0 +1,17 @@
+{
+  "commit": "a26ba3e326630fac8b4b54257b1b949e5827f13c",
+  "repo_url": "https://github.com/humansignal/label-studio",
+  "date": "2022-02-12T00:33:22",
+  "languages": {
+    "Python": 1140401,
+    "JavaScript": 323745,
+    "Stylus": 63035,
+    "CSS": 40285,
+    "TypeScript": 34004,
+    "HTML": 31918,
+    "Shell": 7205,
+    "Dockerfile": 1130,
+    "Makefile": 1100
+  },
+  "size": 1642823
+}

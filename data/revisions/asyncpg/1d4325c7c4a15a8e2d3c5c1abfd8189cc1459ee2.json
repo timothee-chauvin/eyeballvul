@@ -1,0 +1,13 @@
+{
+  "commit": "1d4325c7c4a15a8e2d3c5c1abfd8189cc1459ee2",
+  "repo_url": "https://github.com/magicstack/asyncpg",
+  "date": "2020-01-12T22:42:03",
+  "languages": {
+    "Python": 530467,
+    "Cython": 203103,
+    "C": 23835,
+    "Shell": 8485,
+    "Makefile": 869
+  },
+  "size": 766759
+}

@@ -1,0 +1,21 @@
+{
+  "commit": "235f70a8fe37ae0b2c0c619e04538b9106b39e09",
+  "repo_url": "https://github.com/liquibase/liquibase",
+  "date": "2022-01-20T20:29:56",
+  "languages": {
+    "Java": 5371336,
+    "Groovy": 1120551,
+    "TSQL": 35620,
+    "Shell": 11190,
+    "Puppet": 4616,
+    "Batchfile": 2889,
+    "SQLPL": 2790,
+    "Inno Setup": 2522,
+    "XSLT": 2204,
+    "HTML": 2113,
+    "CSS": 1202,
+    "PLpgSQL": 682,
+    "Ruby": 155
+  },
+  "size": 6557870
+}

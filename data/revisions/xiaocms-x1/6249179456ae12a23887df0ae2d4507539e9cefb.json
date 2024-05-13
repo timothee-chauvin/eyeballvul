@@ -1,0 +1,13 @@
+{
+  "commit": "6249179456ae12a23887df0ae2d4507539e9cefb",
+  "repo_url": "https://github.com/rebill/xiaocms-x1",
+  "date": "2014-03-07T09:12:12",
+  "languages": {
+    "PHP": 474118,
+    "JavaScript": 332927,
+    "CSS": 85338,
+    "HTML": 43451,
+    "Hack": 3166
+  },
+  "size": 939000
+}

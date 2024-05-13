@@ -1,0 +1,12 @@
+{
+  "commit": "d054b1114c3e11a070b6963153f6136bac95bef9",
+  "repo_url": "https://github.com/e7d/speedtest",
+  "date": "2021-01-23T12:39:47",
+  "languages": {
+    "JavaScript": 89503,
+    "SCSS": 15256,
+    "HTML": 10689,
+    "Dockerfile": 752
+  },
+  "size": 116200
+}

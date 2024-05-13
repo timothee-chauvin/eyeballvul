@@ -1,0 +1,11 @@
+{
+  "commit": "18f6dc0a995c90af3daad2070902280adf925894",
+  "repo_url": "https://github.com/cloudfoundry/bosh-system-metrics-server-release",
+  "date": "2019-09-18T19:23:11",
+  "languages": {
+    "Go": 40782,
+    "Shell": 1587,
+    "HTML": 104
+  },
+  "size": 42473
+}

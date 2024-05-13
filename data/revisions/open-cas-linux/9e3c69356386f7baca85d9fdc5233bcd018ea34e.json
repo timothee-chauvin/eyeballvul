@@ -1,0 +1,14 @@
+{
+  "commit": "9e3c69356386f7baca85d9fdc5233bcd018ea34e",
+  "repo_url": "https://github.com/open-cas/open-cas-linux",
+  "date": "2022-08-31T14:29:21",
+  "languages": {
+    "Python": 1181775,
+    "C": 707874,
+    "Shell": 301951,
+    "Roff": 22354,
+    "Makefile": 13087,
+    "C++": 812
+  },
+  "size": 2227853
+}

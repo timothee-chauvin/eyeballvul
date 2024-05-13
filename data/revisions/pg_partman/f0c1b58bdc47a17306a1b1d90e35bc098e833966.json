@@ -1,0 +1,12 @@
+{
+  "commit": "f0c1b58bdc47a17306a1b1d90e35bc098e833966",
+  "repo_url": "https://github.com/pgpartman/pg_partman",
+  "date": "2021-03-30T19:27:55",
+  "languages": {
+    "PLpgSQL": 9422791,
+    "Python": 73698,
+    "C": 19691,
+    "Makefile": 1553
+  },
+  "size": 9517733
+}

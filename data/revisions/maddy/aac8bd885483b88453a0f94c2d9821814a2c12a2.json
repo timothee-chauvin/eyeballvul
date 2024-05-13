@@ -1,0 +1,13 @@
+{
+  "commit": "aac8bd885483b88453a0f94c2d9821814a2c12a2",
+  "repo_url": "https://github.com/foxcpp/maddy",
+  "date": "2022-02-16T17:40:05",
+  "languages": {
+    "Go": 1291027,
+    "Shell": 7295,
+    "C": 7057,
+    "Smarty": 1762,
+    "Dockerfile": 1088
+  },
+  "size": 1308229
+}

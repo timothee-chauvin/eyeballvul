@@ -1,0 +1,13 @@
+{
+  "commit": "299268b7e4608481c62b073e0126b4d6f92174eb",
+  "repo_url": "https://github.com/hashicorp/vault-ssh-helper",
+  "date": "2020-06-26T18:03:35",
+  "languages": {
+    "Go": 13168,
+    "Shell": 4913,
+    "Makefile": 2319,
+    "Dockerfile": 778,
+    "HCL": 112
+  },
+  "size": 21290
+}

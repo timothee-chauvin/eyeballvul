@@ -1,0 +1,17 @@
+{
+  "commit": "53158f373d07605771e39246d24bc5ee2b347f65",
+  "repo_url": "https://github.com/pkp/omp",
+  "date": "2016-04-11T23:35:34",
+  "languages": {
+    "PHP": 1263611,
+    "Java": 517106,
+    "Smarty": 247190,
+    "JavaScript": 68725,
+    "Less": 61662,
+    "CSS": 45502,
+    "HTML": 18983,
+    "Shell": 10632,
+    "XSLT": 1967
+  },
+  "size": 2235378
+}

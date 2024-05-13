@@ -1,0 +1,14 @@
+{
+  "commit": "5f472645fd69cd395cf2fa0befc4e8e0d673d3be",
+  "repo_url": "https://github.com/smashing/smashing",
+  "date": "2021-03-06T20:19:49",
+  "languages": {
+    "JavaScript": 476507,
+    "CSS": 71603,
+    "Ruby": 27592,
+    "SCSS": 11667,
+    "CoffeeScript": 11182,
+    "HTML": 7912
+  },
+  "size": 606463
+}

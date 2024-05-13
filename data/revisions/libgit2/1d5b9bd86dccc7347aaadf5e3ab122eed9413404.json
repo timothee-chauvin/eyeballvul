@@ -1,0 +1,12 @@
+{
+  "commit": "1d5b9bd86dccc7347aaadf5e3ab122eed9413404",
+  "repo_url": "https://github.com/libgit2/libgit2",
+  "date": "2022-02-13T16:05:40",
+  "languages": {
+    "C": 7539246,
+    "CMake": 64667,
+    "Shell": 17150,
+    "Python": 16847
+  },
+  "size": 7637910
+}

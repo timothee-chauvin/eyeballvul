@@ -1,0 +1,17 @@
+{
+  "commit": "480ec45ff9c96205075975cb0673c9827b6e305f",
+  "repo_url": "https://github.com/mapbox/mapbox-maps-android",
+  "date": "2022-06-02T10:18:09",
+  "languages": {
+    "Kotlin": 2480534,
+    "Java": 78013,
+    "Shell": 21469,
+    "Python": 19270,
+    "C++": 10129,
+    "JavaScript": 4344,
+    "Makefile": 4271,
+    "CMake": 1201,
+    "EJS": 1194
+  },
+  "size": 2620425
+}

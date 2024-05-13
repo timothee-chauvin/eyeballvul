@@ -1,0 +1,11 @@
+{
+  "commit": "b6ac0a8e9f31660dc65e54ee0fa070ffc81f8723",
+  "repo_url": "https://github.com/giggio/node-chromedriver",
+  "date": "2016-12-16T17:54:53",
+  "languages": {
+    "JavaScript": 12126,
+    "Shell": 605,
+    "Dockerfile": 511
+  },
+  "size": 13242
+}

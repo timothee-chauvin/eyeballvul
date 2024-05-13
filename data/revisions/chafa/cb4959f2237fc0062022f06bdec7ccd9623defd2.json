@@ -1,0 +1,14 @@
+{
+  "commit": "cb4959f2237fc0062022f06bdec7ccd9623defd2",
+  "repo_url": "https://github.com/hpjansson/chafa",
+  "date": "2022-03-20T22:33:24",
+  "languages": {
+    "C": 1425736,
+    "C++": 97491,
+    "M4": 18884,
+    "Python": 9371,
+    "Makefile": 7113,
+    "Shell": 3016
+  },
+  "size": 1561611
+}

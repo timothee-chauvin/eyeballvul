@@ -1,0 +1,15 @@
+{
+  "commit": "4c6304fd80ade3650935e9e121f61721f6bda9ab",
+  "repo_url": "https://github.com/fwdillema/totd",
+  "date": "2013-08-26T19:36:48",
+  "languages": {
+    "C": 424175,
+    "HTML": 39124,
+    "TeX": 34666,
+    "Shell": 31278,
+    "Roff": 11346,
+    "Makefile": 9770,
+    "Python": 2982
+  },
+  "size": 553341
+}

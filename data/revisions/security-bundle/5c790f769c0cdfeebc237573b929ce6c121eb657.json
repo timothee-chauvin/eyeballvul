@@ -1,0 +1,10 @@
+{
+  "commit": "5c790f769c0cdfeebc237573b929ce6c121eb657",
+  "repo_url": "https://github.com/symfony/security-bundle",
+  "date": "2023-01-30T15:43:30",
+  "languages": {
+    "PHP": 512963,
+    "Twig": 26412
+  },
+  "size": 539375
+}

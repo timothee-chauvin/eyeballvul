@@ -1,0 +1,15 @@
+{
+  "commit": "8d6434b3d52167b3ea97c6b684dfeb997a4ec263",
+  "repo_url": "https://github.com/monicahq/monica",
+  "date": "2017-07-14T02:02:35",
+  "languages": {
+    "PHP": 652798,
+    "Blade": 204069,
+    "JavaScript": 7024,
+    "Dockerfile": 1518,
+    "Shell": 972,
+    "Procfile": 108,
+    "Makefile": 96
+  },
+  "size": 866585
+}

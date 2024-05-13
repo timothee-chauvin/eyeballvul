@@ -1,0 +1,19 @@
+{
+  "commit": "7692b2ac4966f2606e1cea376dd33a14c984d9c9",
+  "repo_url": "https://github.com/pomerium/pomerium",
+  "date": "2021-08-05T01:39:50",
+  "languages": {
+    "Go": 1695069,
+    "Jsonnet": 29525,
+    "Shell": 9656,
+    "HTML": 7444,
+    "CSS": 6456,
+    "Open Policy Agent": 5525,
+    "JavaScript": 5393,
+    "Lua": 5320,
+    "Python": 4256,
+    "Makefile": 4182,
+    "Dockerfile": 1889
+  },
+  "size": 1774715
+}

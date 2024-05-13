@@ -1,0 +1,13 @@
+{
+  "commit": "d38671658abe3481395d6c3ef92cd8ec5fd68361",
+  "repo_url": "https://github.com/openedx/xblock-drag-and-drop-v2",
+  "date": "2022-11-18T10:26:04",
+  "languages": {
+    "JavaScript": 388419,
+    "Python": 283377,
+    "CSS": 30355,
+    "HTML": 24306,
+    "Makefile": 3124
+  },
+  "size": 729581
+}

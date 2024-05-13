@@ -1,0 +1,12 @@
+{
+  "commit": "e61f7491519ff69732e91f5afa107cda4c4d271e",
+  "repo_url": "https://github.com/mcollina/mosca",
+  "date": "2018-04-06T13:35:41",
+  "languages": {
+    "JavaScript": 329835,
+    "Dockerfile": 461,
+    "Shell": 365,
+    "HTML": 12
+  },
+  "size": 330673
+}

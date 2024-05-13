@@ -1,0 +1,11 @@
+{
+  "commit": "96e78db7cc295685ea3792d1b7ac3e0b2c3aef7e",
+  "repo_url": "https://github.com/loopbackio/loopback-connector-postgresql",
+  "date": "2022-01-13T20:06:33",
+  "languages": {
+    "JavaScript": 187303,
+    "Shell": 4079,
+    "Makefile": 272
+  },
+  "size": 191654
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "3cd1e87e1020775f9a07163a3c115c80fcf61b05",
+  "repo_url": "https://github.com/maif/izanami",
+  "date": "2022-12-02T15:41:16",
+  "languages": {
+    "Scala": 1275948,
+    "JavaScript": 321955,
+    "Java": 117408,
+    "SCSS": 46899,
+    "Rust": 23510,
+    "CSS": 15494,
+    "Shell": 10238,
+    "HTML": 9023,
+    "StringTemplate": 4437,
+    "Dockerfile": 901
+  },
+  "size": 1825813
+}

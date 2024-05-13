@@ -1,0 +1,12 @@
+{
+  "commit": "8165f6c4835d5c817ca6cd1853698feb136c77b3",
+  "repo_url": "https://github.com/oauth2-proxy/oauth2-proxy",
+  "date": "2019-12-10T16:34:33",
+  "languages": {
+    "Go": 339941,
+    "Shell": 3230,
+    "Makefile": 1895,
+    "Dockerfile": 1177
+  },
+  "size": 346243
+}

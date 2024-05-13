@@ -1,0 +1,16 @@
+{
+  "commit": "a4523efeb5df57487070fb87079c33029f58f139",
+  "repo_url": "https://github.com/kiwitcms/kiwi",
+  "date": "2022-09-06T09:39:22",
+  "languages": {
+    "Python": 993916,
+    "HTML": 229530,
+    "JavaScript": 127539,
+    "Shell": 15625,
+    "CSS": 6893,
+    "Makefile": 6035,
+    "Dockerfile": 2928,
+    "Ruby": 1077
+  },
+  "size": 1383543
+}

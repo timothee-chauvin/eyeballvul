@@ -1,0 +1,12 @@
+{
+  "commit": "a3587624f25f33f67e95f9373b5a111671263081",
+  "repo_url": "https://github.com/gnome/gdm",
+  "date": "2014-10-14T12:37:41",
+  "languages": {
+    "C": 1308460,
+    "M4": 63287,
+    "Makefile": 31415,
+    "Shell": 3951
+  },
+  "size": 1407113
+}

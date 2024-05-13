@@ -1,0 +1,13 @@
+{
+  "commit": "89b714992c5059aa1379a7428c942838d21f0aa3",
+  "repo_url": "https://github.com/vslavik/winsparkle",
+  "date": "2016-06-22T17:45:00",
+  "languages": {
+    "C++": 147492,
+    "CMake": 26872,
+    "C": 18168,
+    "Pascal": 9249,
+    "Makefile": 1361
+  },
+  "size": 203142
+}

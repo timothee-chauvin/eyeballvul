@@ -1,0 +1,11 @@
+{
+  "commit": "bc4d19a990c6c2291f1a465b8767b99f1a152855",
+  "repo_url": "https://github.com/swift-server/swift-prometheus",
+  "date": "2023-09-22T11:27:13",
+  "languages": {
+    "Swift": 85082,
+    "Shell": 8724,
+    "Dockerfile": 1325
+  },
+  "size": 95131
+}

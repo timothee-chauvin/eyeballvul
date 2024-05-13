@@ -1,0 +1,14 @@
+{
+  "commit": "941631eba0c581d38632a05d0e0101c438f1730d",
+  "repo_url": "https://github.com/citelao/spotify-for-alfred",
+  "date": "2019-12-22T02:45:26",
+  "languages": {
+    "PHP": 68523,
+    "Hack": 5968,
+    "CSS": 2628,
+    "Makefile": 1281,
+    "Shell": 544,
+    "Rich Text Format": 436
+  },
+  "size": 79380
+}

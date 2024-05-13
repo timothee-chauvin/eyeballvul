@@ -1,0 +1,14 @@
+{
+  "commit": "b75cf89c6bdc79c154263f4be21bb4790521ea3c",
+  "repo_url": "https://github.com/dotnetcore/agileconfig",
+  "date": "2022-07-20T11:33:31",
+  "languages": {
+    "C#": 752188,
+    "TypeScript": 268594,
+    "Less": 10081,
+    "EJS": 4412,
+    "JavaScript": 2285,
+    "Dockerfile": 1615
+  },
+  "size": 1039175
+}

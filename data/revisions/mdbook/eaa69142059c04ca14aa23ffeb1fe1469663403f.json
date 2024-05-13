@@ -1,0 +1,13 @@
+{
+  "commit": "eaa69142059c04ca14aa23ffeb1fe1469663403f",
+  "repo_url": "https://github.com/rust-lang/mdbook",
+  "date": "2020-10-20T15:06:27",
+  "languages": {
+    "Rust": 339168,
+    "JavaScript": 43328,
+    "CSS": 27328,
+    "Handlebars": 14683,
+    "Shell": 2392
+  },
+  "size": 426899
+}

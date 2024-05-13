@@ -1,0 +1,21 @@
+{
+  "commit": "5c6c9d4890dbc32b594e5aa52c3b63c5acffa09e",
+  "repo_url": "https://github.com/hotelsdotcom/styx",
+  "date": "2020-01-30T16:37:23",
+  "languages": {
+    "Java": 3212827,
+    "Kotlin": 550502,
+    "Scala": 394669,
+    "JavaScript": 26394,
+    "Python": 18100,
+    "Shell": 11920,
+    "HTML": 9844,
+    "CSS": 8097,
+    "Makefile": 4783,
+    "Lua": 4188,
+    "Dockerfile": 1447,
+    "ANTLR": 1331,
+    "Groovy": 132
+  },
+  "size": 4244234
+}

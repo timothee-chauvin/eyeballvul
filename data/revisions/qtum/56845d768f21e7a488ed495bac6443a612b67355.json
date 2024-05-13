@@ -1,0 +1,24 @@
+{
+  "commit": "56845d768f21e7a488ed495bac6443a612b67355",
+  "repo_url": "https://github.com/qtumproject/qtum",
+  "date": "2018-09-13T05:16:25",
+  "languages": {
+    "C++": 9736868,
+    "Python": 1644805,
+    "C": 850084,
+    "Shell": 564641,
+    "M4": 199262,
+    "Makefile": 153297,
+    "Assembly": 138422,
+    "CSS": 34613,
+    "Java": 30290,
+    "Sage": 30188,
+    "HTML": 21860,
+    "Objective-C++": 6747,
+    "Batchfile": 4488,
+    "Perl": 1717,
+    "QMake": 756,
+    "CMake": 61
+  },
+  "size": 13418099
+}

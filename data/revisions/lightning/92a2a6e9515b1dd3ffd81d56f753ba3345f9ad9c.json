@@ -1,0 +1,14 @@
+{
+  "commit": "92a2a6e9515b1dd3ffd81d56f753ba3345f9ad9c",
+  "repo_url": "https://github.com/lightning-ai/lightning",
+  "date": "2022-03-25T17:23:47",
+  "languages": {
+    "Python": 3968316,
+    "Dockerfile": 27482,
+    "Jupyter Notebook": 15774,
+    "Shell": 8858,
+    "Jsonnet": 1688,
+    "Makefile": 1042
+  },
+  "size": 4023160
+}

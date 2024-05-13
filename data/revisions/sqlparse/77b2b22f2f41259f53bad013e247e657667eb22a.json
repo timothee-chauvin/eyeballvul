@@ -1,0 +1,11 @@
+{
+  "commit": "77b2b22f2f41259f53bad013e247e657667eb22a",
+  "repo_url": "https://github.com/andialbrecht/sqlparse",
+  "date": "2020-10-08T05:57:07",
+  "languages": {
+    "Python": 213976,
+    "PLpgSQL": 3680,
+    "Makefile": 506
+  },
+  "size": 218162
+}

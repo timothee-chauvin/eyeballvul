@@ -1,0 +1,18 @@
+{
+  "commit": "b104497c2c285cc38ffde45b616d288d71a45bb8",
+  "repo_url": "https://github.com/pimcore/pimcore",
+  "date": "2018-05-29T06:16:21",
+  "languages": {
+    "JavaScript": 15411552,
+    "PHP": 10369081,
+    "CSS": 2118341,
+    "SCSS": 278432,
+    "Twig": 184605,
+    "Less": 67174,
+    "HTML": 27691,
+    "Shell": 3380,
+    "Hack": 3308,
+    "Ruby": 83
+  },
+  "size": 28463647
+}

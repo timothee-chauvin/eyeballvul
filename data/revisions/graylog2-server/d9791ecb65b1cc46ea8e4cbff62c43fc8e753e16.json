@@ -1,0 +1,15 @@
+{
+  "commit": "d9791ecb65b1cc46ea8e4cbff62c43fc8e753e16",
+  "repo_url": "https://github.com/graylog2/graylog2-server",
+  "date": "2017-09-27T15:51:02",
+  "languages": {
+    "Java": 5999820,
+    "JavaScript": 1933844,
+    "TypeScript": 106575,
+    "CSS": 64072,
+    "Less": 45117,
+    "Shell": 6912,
+    "HTML": 1861
+  },
+  "size": 8158201
+}

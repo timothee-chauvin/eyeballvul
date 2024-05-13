@@ -1,0 +1,18 @@
+{
+  "commit": "76f77fe8c971acf087abf8b969800289717ee89a",
+  "repo_url": "https://github.com/gnome/glib",
+  "date": "2015-03-16T18:25:53",
+  "languages": {
+    "C": 21067883,
+    "Python": 315784,
+    "M4": 167618,
+    "Makefile": 114931,
+    "Shell": 58366,
+    "Perl": 51602,
+    "DTrace": 1133,
+    "GDB": 62,
+    "Emacs Lisp": 41,
+    "Batchfile": 20
+  },
+  "size": 21777440
+}

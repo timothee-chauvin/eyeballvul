@@ -1,0 +1,14 @@
+{
+  "commit": "276f09147d914b6463f3ccdd39f51f7e0dd15aaa",
+  "repo_url": "https://github.com/grpc/grpc-swift",
+  "date": "2021-07-05T12:52:13",
+  "languages": {
+    "Swift": 2123864,
+    "Shell": 44003,
+    "Python": 20231,
+    "Makefile": 6734,
+    "Ruby": 3428,
+    "C": 2694
+  },
+  "size": 2200954
+}

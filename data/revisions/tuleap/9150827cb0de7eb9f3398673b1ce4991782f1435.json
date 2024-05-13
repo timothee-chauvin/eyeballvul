@@ -1,0 +1,27 @@
+{
+  "commit": "9150827cb0de7eb9f3398673b1ce4991782f1435",
+  "repo_url": "https://github.com/enalean/tuleap",
+  "date": "2017-03-30T12:25:57",
+  "languages": {
+    "PHP": 32808121,
+    "JavaScript": 3339948,
+    "HTML": 1091322,
+    "Mustache": 855232,
+    "SCSS": 755084,
+    "CSS": 380356,
+    "Perl": 355773,
+    "Shell": 165566,
+    "XSLT": 109232,
+    "C++": 56897,
+    "Makefile": 50271,
+    "Python": 35072,
+    "ActionScript": 17461,
+    "Smarty": 16431,
+    "PEG.js": 4887,
+    "Gherkin": 3532,
+    "Ruby": 3337,
+    "Pascal": 832,
+    "Awk": 597
+  },
+  "size": 40049951
+}

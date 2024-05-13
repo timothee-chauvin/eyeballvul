@@ -1,0 +1,13 @@
+{
+  "commit": "f18839d61860dfa837c1540aa16d8a2beb9e4d89",
+  "repo_url": "https://github.com/flyteorg/flyteadmin",
+  "date": "2022-07-07T05:55:50",
+  "languages": {
+    "Go": 2305018,
+    "Shell": 14875,
+    "Python": 11070,
+    "Makefile": 5244,
+    "Dockerfile": 3157
+  },
+  "size": 2339364
+}

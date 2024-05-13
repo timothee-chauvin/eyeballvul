@@ -1,0 +1,13 @@
+{
+  "commit": "2cf7d0df63ebc570ba0271c2dbd5d849ff4b76b4",
+  "repo_url": "https://github.com/flexocms/flexo1.source",
+  "date": "2016-05-22T07:06:48",
+  "languages": {
+    "PHP": 622977,
+    "JavaScript": 430482,
+    "HTML": 101545,
+    "CSS": 74198,
+    "Smarty": 1214
+  },
+  "size": 1230416
+}

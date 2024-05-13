@@ -1,0 +1,30 @@
+{
+  "commit": "497a23ef6661ad6ca7b75009e48a592c1620d46c",
+  "repo_url": "https://github.com/openbmc/openbmc",
+  "date": "2020-05-15T19:05:37",
+  "languages": {
+    "BitBake": 6152349,
+    "Python": 5889994,
+    "HTML": 1517234,
+    "C": 1315211,
+    "Shell": 799008,
+    "Roff": 591705,
+    "Perl": 268092,
+    "JavaScript": 223144,
+    "M4": 164520,
+    "Makefile": 42799,
+    "CSS": 37071,
+    "Vim Script": 19193,
+    "CMake": 6945,
+    "NASL": 6235,
+    "XSLT": 4551,
+    "Lua": 1194,
+    "sed": 638,
+    "PHP": 611,
+    "Awk": 158,
+    "Pascal": 87,
+    "Fortran": 75,
+    "C++": 67
+  },
+  "size": 17040881
+}

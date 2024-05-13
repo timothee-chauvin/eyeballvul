@@ -1,0 +1,11 @@
+{
+  "commit": "cc0f244768354b7153447b3391529a94dc49dfe3",
+  "repo_url": "https://github.com/jenkinsci/findbugs-plugin",
+  "date": "2017-07-16T19:14:36",
+  "languages": {
+    "Java": 146127,
+    "HTML": 13221,
+    "Shell": 1090
+  },
+  "size": 160438
+}

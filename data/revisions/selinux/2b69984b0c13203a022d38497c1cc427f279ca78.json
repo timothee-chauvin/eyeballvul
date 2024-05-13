@@ -1,0 +1,16 @@
+{
+  "commit": "2b69984b0c13203a022d38497c1cc427f279ca78",
+  "repo_url": "https://github.com/selinuxproject/selinux",
+  "date": "2016-02-23T16:31:41",
+  "languages": {
+    "C": 4792464,
+    "Python": 1070433,
+    "Roff": 353335,
+    "Makefile": 69995,
+    "Yacc": 49837,
+    "Shell": 38117,
+    "SWIG": 29636,
+    "Lex": 13741
+  },
+  "size": 6417558
+}

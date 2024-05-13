@@ -1,0 +1,16 @@
+{
+  "commit": "d1aacea5fe9a139f8b05d19986070b38e91744e3",
+  "repo_url": "https://github.com/stanfordvl/gibsonenv",
+  "date": "2018-08-11T22:42:20",
+  "languages": {
+    "C": 634922,
+    "Python": 452765,
+    "C++": 246147,
+    "Cuda": 33735,
+    "CMake": 11974,
+    "Shell": 4798,
+    "Dockerfile": 1789,
+    "HTML": 182
+  },
+  "size": 1386312
+}

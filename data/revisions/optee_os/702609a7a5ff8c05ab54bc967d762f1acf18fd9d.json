@@ -1,0 +1,16 @@
+{
+  "commit": "702609a7a5ff8c05ab54bc967d762f1acf18fd9d",
+  "repo_url": "https://github.com/op-tee/optee_os",
+  "date": "2017-04-07T13:00:00",
+  "languages": {
+    "C": 7130362,
+    "Assembly": 276571,
+    "Roff": 276147,
+    "Makefile": 170979,
+    "HTML": 75678,
+    "Python": 17090,
+    "Awk": 6672,
+    "Shell": 1671
+  },
+  "size": 7955170
+}

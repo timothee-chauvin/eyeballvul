@@ -1,0 +1,21 @@
+{
+  "commit": "454fd4721ad9b8a240dd69f1dfc5aa410cd1d440",
+  "repo_url": "https://github.com/dmdcoin/diamond",
+  "date": "2018-07-19T12:01:13",
+  "languages": {
+    "C++": 4560308,
+    "C": 1044983,
+    "Python": 241068,
+    "M4": 157692,
+    "Makefile": 98096,
+    "CSS": 85303,
+    "Shell": 52229,
+    "HTML": 50621,
+    "QMake": 26358,
+    "Roff": 18007,
+    "Assembly": 7639,
+    "Objective-C++": 7337,
+    "Java": 2100
+  },
+  "size": 6351741
+}

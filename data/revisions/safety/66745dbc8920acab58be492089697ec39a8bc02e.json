@@ -1,0 +1,11 @@
+{
+  "commit": "66745dbc8920acab58be492089697ec39a8bc02e",
+  "repo_url": "https://github.com/pyupio/safety",
+  "date": "2020-03-10T11:34:00",
+  "languages": {
+    "Python": 41035,
+    "Makefile": 488,
+    "Dockerfile": 90
+  },
+  "size": 41613
+}

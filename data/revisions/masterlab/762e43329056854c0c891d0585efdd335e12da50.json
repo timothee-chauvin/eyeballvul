@@ -1,0 +1,22 @@
+{
+  "commit": "762e43329056854c0c891d0585efdd335e12da50",
+  "repo_url": "https://github.com/gopeak/masterlab",
+  "date": "2020-06-01T13:48:38",
+  "languages": {
+    "JavaScript": 8498577,
+    "PHP": 2627646,
+    "Twig": 1797719,
+    "HTML": 1077269,
+    "CSS": 715063,
+    "SCSS": 160189,
+    "Less": 111122,
+    "C": 60504,
+    "Shell": 4935,
+    "Makefile": 1450,
+    "Hack": 878,
+    "Batchfile": 396,
+    "M4": 195,
+    "TypeScript": 138
+  },
+  "size": 15056081
+}

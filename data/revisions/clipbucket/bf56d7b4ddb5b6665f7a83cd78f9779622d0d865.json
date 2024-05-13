@@ -1,0 +1,17 @@
+{
+  "commit": "bf56d7b4ddb5b6665f7a83cd78f9779622d0d865",
+  "repo_url": "https://github.com/arslancb/clipbucket",
+  "date": "2016-05-17T16:03:14",
+  "languages": {
+    "JavaScript": 5218873,
+    "PHP": 3898339,
+    "HTML": 2011547,
+    "CSS": 1149851,
+    "Less": 470760,
+    "SCSS": 378844,
+    "Smarty": 6425,
+    "Hack": 467,
+    "Roff": 2
+  },
+  "size": 13135108
+}

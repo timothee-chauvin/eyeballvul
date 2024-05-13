@@ -1,0 +1,14 @@
+{
+  "commit": "27ed36c03297713d2cfa79431cdc8105602e80c2",
+  "repo_url": "https://github.com/libimobiledevice/libplist",
+  "date": "2014-10-14T00:59:39",
+  "languages": {
+    "C": 149455,
+    "C++": 45023,
+    "Cython": 27617,
+    "M4": 18535,
+    "Shell": 5117,
+    "Makefile": 4757
+  },
+  "size": 250504
+}

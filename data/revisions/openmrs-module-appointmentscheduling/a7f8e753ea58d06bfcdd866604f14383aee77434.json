@@ -1,0 +1,12 @@
+{
+  "commit": "a7f8e753ea58d06bfcdd866604f14383aee77434",
+  "repo_url": "https://github.com/openmrs/openmrs-module-appointmentscheduling",
+  "date": "2020-01-22T20:12:47",
+  "languages": {
+    "Java": 858074,
+    "JavaScript": 229614,
+    "CSS": 37988,
+    "ActionScript": 3273
+  },
+  "size": 1128949
+}

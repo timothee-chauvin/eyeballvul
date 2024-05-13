@@ -1,0 +1,14 @@
+{
+  "commit": "20ce28ba0c25d8062323f82b4b9bcbbfbc5142d1",
+  "repo_url": "https://github.com/pandora-analysis/pandora",
+  "date": "2022-12-30T12:00:21",
+  "languages": {
+    "Python": 271697,
+    "HTML": 72801,
+    "JavaScript": 26221,
+    "CSS": 3016,
+    "Dockerfile": 1335,
+    "Shell": 70
+  },
+  "size": 375140
+}

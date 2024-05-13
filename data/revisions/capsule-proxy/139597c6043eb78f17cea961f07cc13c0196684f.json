@@ -1,0 +1,14 @@
+{
+  "commit": "139597c6043eb78f17cea961f07cc13c0196684f",
+  "repo_url": "https://github.com/projectcapsule/capsule-proxy",
+  "date": "2023-11-06T13:23:04",
+  "languages": {
+    "Shell": 120731,
+    "Go": 112304,
+    "Makefile": 12419,
+    "Smarty": 6982,
+    "Dockerfile": 793,
+    "JavaScript": 608
+  },
+  "size": 253837
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "491609219f440782ac6fe3ec0015e527bf6a642b",
+  "repo_url": "https://github.com/eprintsug/ulcc-core",
+  "date": "2018-10-30T07:32:56",
+  "languages": {
+    "Perl": 5049280,
+    "JavaScript": 381447,
+    "XSLT": 47696,
+    "Raku": 35320,
+    "CSS": 29620,
+    "Makefile": 1070,
+    "Shell": 225
+  },
+  "size": 5544658
+}

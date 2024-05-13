@@ -1,0 +1,11 @@
+{
+  "commit": "7ddd6b0a9850fd387ecc94019c5d7f9b7955d003",
+  "repo_url": "https://github.com/nats-io/jwt",
+  "date": "2021-09-28T19:52:48",
+  "languages": {
+    "Go": 384012,
+    "Makefile": 676,
+    "Shell": 505
+  },
+  "size": 385193
+}

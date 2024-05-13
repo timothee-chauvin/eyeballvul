@@ -1,0 +1,17 @@
+{
+  "commit": "76dc3115869d11798d87b47a396a40c38adaf82d",
+  "repo_url": "https://github.com/umbraco/umbraco-cms",
+  "date": "2017-10-02T11:51:21",
+  "languages": {
+    "C#": 18298388,
+    "JavaScript": 3478165,
+    "HTML": 747598,
+    "Less": 606612,
+    "ASP.NET": 253991,
+    "CSS": 117926,
+    "PowerShell": 67486,
+    "XSLT": 50045,
+    "Batchfile": 11199
+  },
+  "size": 23631410
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "18dd404526deba022102c9fe86a4dcbe481ca26b",
+  "repo_url": "https://github.com/betterment/test_track",
+  "date": "2017-04-05T19:11:52",
+  "languages": {
+    "Ruby": 232746,
+    "HTML": 19253,
+    "SCSS": 2543,
+    "JavaScript": 686,
+    "Procfile": 75
+  },
+  "size": 255303
+}

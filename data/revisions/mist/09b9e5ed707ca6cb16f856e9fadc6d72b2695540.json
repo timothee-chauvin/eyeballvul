@@ -1,0 +1,11 @@
+{
+  "commit": "09b9e5ed707ca6cb16f856e9fadc6d72b2695540",
+  "repo_url": "https://github.com/makedeb/mist",
+  "date": "2022-09-25T08:50:53",
+  "languages": {
+    "Rust": 96317,
+    "Shell": 8501,
+    "Jsonnet": 1118
+  },
+  "size": 105936
+}

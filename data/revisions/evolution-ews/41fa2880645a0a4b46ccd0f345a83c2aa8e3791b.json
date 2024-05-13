@@ -1,0 +1,11 @@
+{
+  "commit": "41fa2880645a0a4b46ccd0f345a83c2aa8e3791b",
+  "repo_url": "https://github.com/gnome/evolution-ews",
+  "date": "2018-11-12T08:41:06",
+  "languages": {
+    "C": 2246911,
+    "CMake": 60225,
+    "Shell": 2138
+  },
+  "size": 2309274
+}

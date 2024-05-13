@@ -1,0 +1,16 @@
+{
+  "commit": "29ad02281e5c420a4a0f944e3808ec55e1189d6b",
+  "repo_url": "https://github.com/opensid/opensid",
+  "date": "2018-05-31T20:40:32",
+  "languages": {
+    "Rich Text Format": 6449159,
+    "PHP": 5987705,
+    "JavaScript": 405447,
+    "CSS": 245933,
+    "ActionScript": 97871,
+    "HTML": 39593,
+    "Hack": 12194,
+    "Handlebars": 3488
+  },
+  "size": 13241390
+}

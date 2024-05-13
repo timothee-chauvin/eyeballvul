@@ -1,0 +1,16 @@
+{
+  "commit": "02111d779b1fb4fb7a5765ab23f594045b8147df",
+  "repo_url": "https://github.com/makeplane/plane",
+  "date": "2023-06-14T12:17:23",
+  "languages": {
+    "TypeScript": 2011384,
+    "Python": 700187,
+    "HTML": 145880,
+    "CSS": 11429,
+    "JavaScript": 7157,
+    "Dockerfile": 3803,
+    "Shell": 1609,
+    "Procfile": 229
+  },
+  "size": 2881678
+}

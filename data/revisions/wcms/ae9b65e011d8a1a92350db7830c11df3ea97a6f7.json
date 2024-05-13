@@ -1,0 +1,13 @@
+{
+  "commit": "ae9b65e011d8a1a92350db7830c11df3ea97a6f7",
+  "repo_url": "https://github.com/vedees/wcms",
+  "date": "2019-01-08T17:04:03",
+  "languages": {
+    "PHP": 197186,
+    "Vue": 37437,
+    "Stylus": 12510,
+    "JavaScript": 10776,
+    "HTML": 460
+  },
+  "size": 258369
+}

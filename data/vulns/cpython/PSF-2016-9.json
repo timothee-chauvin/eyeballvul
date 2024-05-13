@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2016-9",
+  "published": "2016-03-28T00:00:00",
+  "modified": "2023-09-18T02:02:17.274124",
+  "details": "Fix directory traversal vulnerability with ``http.server`` and\n``SimpleHTTPServer`` on Windows.\n\nRegression of Python 3.3.5.\n\nPython issue reported at 2016-03-14.\n",
+  "summary": "Issue #26657: HTTP server directory traversal",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

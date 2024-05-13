@@ -1,0 +1,18 @@
+{
+  "commit": "f46ab11cca2c80ba540aadeaef95dbe9eb663a69",
+  "repo_url": "https://github.com/servicestack/servicestack",
+  "date": "2018-04-23T02:42:14",
+  "languages": {
+    "C#": 11203313,
+    "JavaScript": 3254099,
+    "HTML": 476903,
+    "CSS": 73256,
+    "TypeScript": 59005,
+    "Rich Text Format": 21390,
+    "Batchfile": 17801,
+    "ASP.NET": 13440,
+    "Shell": 7605,
+    "PowerShell": 3742
+  },
+  "size": 15130554
+}

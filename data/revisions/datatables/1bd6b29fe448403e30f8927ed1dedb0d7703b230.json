@@ -1,0 +1,13 @@
+{
+  "commit": "1bd6b29fe448403e30f8927ed1dedb0d7703b230",
+  "repo_url": "https://github.com/datatables/datatables",
+  "date": "2012-06-22T07:19:26",
+  "languages": {
+    "JavaScript": 1347876,
+    "PHP": 101419,
+    "HTML": 33590,
+    "CSS": 30291,
+    "Shell": 6310
+  },
+  "size": 1519486
+}

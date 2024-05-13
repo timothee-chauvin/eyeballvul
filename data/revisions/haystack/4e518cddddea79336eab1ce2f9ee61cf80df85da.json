@@ -1,0 +1,12 @@
+{
+  "commit": "4e518cddddea79336eab1ce2f9ee61cf80df85da",
+  "repo_url": "https://github.com/deepset-ai/haystack",
+  "date": "2022-08-26T13:00:14",
+  "languages": {
+    "Python": 3415771,
+    "Jupyter Notebook": 1383345,
+    "Dockerfile": 2028,
+    "HTML": 1803
+  },
+  "size": 4802947
+}

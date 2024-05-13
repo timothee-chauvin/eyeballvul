@@ -1,0 +1,16 @@
+{
+  "commit": "206b646eb5cfa1e341ca7170705721de9b5b9716",
+  "repo_url": "https://github.com/apache/unomi",
+  "date": "2020-05-06T09:42:11",
+  "languages": {
+    "Java": 1776570,
+    "CSS": 187125,
+    "Scala": 27639,
+    "JavaScript": 27542,
+    "Shell": 19541,
+    "HTML": 14707,
+    "Batchfile": 2159,
+    "Dockerfile": 1344
+  },
+  "size": 2056627
+}

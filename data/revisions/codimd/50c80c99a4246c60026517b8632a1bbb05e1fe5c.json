@@ -1,0 +1,14 @@
+{
+  "commit": "50c80c99a4246c60026517b8632a1bbb05e1fe5c",
+  "repo_url": "https://github.com/hackmdio/codimd",
+  "date": "2019-03-23T12:27:39",
+  "languages": {
+    "JavaScript": 494722,
+    "EJS": 92742,
+    "CSS": 63912,
+    "Handlebars": 8741,
+    "HTML": 5441,
+    "Shell": 1458
+  },
+  "size": 667016
+}

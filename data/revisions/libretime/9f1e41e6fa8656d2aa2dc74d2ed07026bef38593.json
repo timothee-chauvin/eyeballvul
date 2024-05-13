@@ -1,0 +1,18 @@
+{
+  "commit": "9f1e41e6fa8656d2aa2dc74d2ed07026bef38593",
+  "repo_url": "https://github.com/libretime/libretime",
+  "date": "2021-10-15T14:50:18",
+  "languages": {
+    "PHP": 7931306,
+    "JavaScript": 1530306,
+    "Python": 335350,
+    "CSS": 304722,
+    "HTML": 223320,
+    "Shell": 76341,
+    "Makefile": 4631,
+    "Roff": 1565,
+    "Smarty": 858,
+    "XSLT": 230
+  },
+  "size": 10408629
+}

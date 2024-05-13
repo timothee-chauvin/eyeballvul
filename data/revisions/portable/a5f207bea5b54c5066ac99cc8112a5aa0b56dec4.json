@@ -1,0 +1,16 @@
+{
+  "commit": "a5f207bea5b54c5066ac99cc8112a5aa0b56dec4",
+  "repo_url": "https://github.com/libressl-portable/portable",
+  "date": "2023-04-06T12:44:56",
+  "languages": {
+    "C": 162904,
+    "CMake": 77955,
+    "Makefile": 61008,
+    "Shell": 48642,
+    "M4": 25655,
+    "Batchfile": 10847,
+    "Smarty": 1145,
+    "C++": 333
+  },
+  "size": 388489
+}

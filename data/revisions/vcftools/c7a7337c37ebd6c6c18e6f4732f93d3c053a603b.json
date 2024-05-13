@@ -1,0 +1,15 @@
+{
+  "commit": "c7a7337c37ebd6c6c18e6f4732f93d3c053a603b",
+  "repo_url": "https://github.com/vcftools/vcftools",
+  "date": "2015-09-15T18:04:29",
+  "languages": {
+    "C++": 460121,
+    "Perl": 441157,
+    "C": 68591,
+    "Roff": 30849,
+    "Shell": 8083,
+    "M4": 2093,
+    "Makefile": 1517
+  },
+  "size": 1012411
+}

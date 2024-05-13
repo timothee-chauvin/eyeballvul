@@ -1,0 +1,11 @@
+{
+  "commit": "199a64495eb3cc307b69fe37caa3da6a1f8bcd21",
+  "repo_url": "https://github.com/sodiumoxide/sodiumoxide",
+  "date": "2019-09-03T18:34:49",
+  "languages": {
+    "Rust": 498634,
+    "Shell": 509,
+    "C": 20
+  },
+  "size": 499163
+}

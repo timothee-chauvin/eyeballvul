@@ -1,0 +1,17 @@
+{
+  "commit": "d8a251c04e181c1c97b60939d2adcdcc1adf6548",
+  "repo_url": "https://github.com/facebookarchive/nuclide",
+  "date": "2018-02-16T04:07:11",
+  "languages": {
+    "JavaScript": 8654002,
+    "Python": 3390574,
+    "Less": 112135,
+    "Shell": 10424,
+    "HTML": 4283,
+    "CSS": 3747,
+    "Objective-C++": 1088,
+    "PHP": 1037,
+    "C": 191
+  },
+  "size": 12177481
+}

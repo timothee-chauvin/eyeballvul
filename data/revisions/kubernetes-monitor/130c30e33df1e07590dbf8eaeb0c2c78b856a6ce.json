@@ -1,0 +1,16 @@
+{
+  "commit": "130c30e33df1e07590dbf8eaeb0c2c78b856a6ce",
+  "repo_url": "https://github.com/snyk/kubernetes-monitor",
+  "date": "2023-02-28T10:54:53",
+  "languages": {
+    "TypeScript": 351986,
+    "Python": 27864,
+    "Shell": 16127,
+    "Dockerfile": 6457,
+    "Makefile": 5905,
+    "Mustache": 1622,
+    "JavaScript": 944,
+    "Starlark": 619
+  },
+  "size": 411524
+}

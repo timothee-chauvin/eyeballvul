@@ -1,0 +1,16 @@
+{
+  "commit": "eebd9519d187ad04964dcdec16072e7aa6e37ac1",
+  "repo_url": "https://github.com/linuxmint/xreader",
+  "date": "2023-12-03T15:23:15",
+  "languages": {
+    "C": 2922472,
+    "C++": 108737,
+    "Meson": 42248,
+    "HTML": 16191,
+    "Python": 7611,
+    "Roff": 3421,
+    "CSS": 1320,
+    "Shell": 464
+  },
+  "size": 3102464
+}

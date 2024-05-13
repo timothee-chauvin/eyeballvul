@@ -1,0 +1,11 @@
+{
+  "commit": "236c616ca1d781e9dc9b6a8f3f1e1427a326c161",
+  "repo_url": "https://github.com/vapor/vapor",
+  "date": "2020-09-24T09:27:49",
+  "languages": {
+    "Swift": 801317,
+    "C": 80290,
+    "HTML": 15
+  },
+  "size": 881622
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "ebdf316dfb3137834608ada04c6eba715a4f42cf",
+  "repo_url": "https://github.com/jenkinsci/deployhub-plugin",
+  "date": "2019-04-03T23:18:27",
+  "languages": {
+    "Java": 46696,
+    "JavaScript": 11181,
+    "Groovy": 10582,
+    "HTML": 3343
+  },
+  "size": 71802
+}

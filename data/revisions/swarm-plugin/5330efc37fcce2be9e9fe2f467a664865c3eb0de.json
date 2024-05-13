@@ -1,0 +1,11 @@
+{
+  "commit": "5330efc37fcce2be9e9fe2f467a664865c3eb0de",
+  "repo_url": "https://github.com/jenkinsci/swarm-plugin",
+  "date": "2017-04-10T10:23:15",
+  "languages": {
+    "Java": 74630,
+    "Dockerfile": 1409,
+    "Shell": 606
+  },
+  "size": 76645
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "b1d087f83cd9693841f2baeede532397fbfa2d03",
+  "repo_url": "https://github.com/ossec/ossec-hids",
+  "date": "2019-11-16T00:22:59",
+  "languages": {
+    "C": 2315970,
+    "Shell": 178169,
+    "Perl": 71960,
+    "Makefile": 48650,
+    "NSIS": 16396,
+    "Python": 5775,
+    "Batchfile": 5638,
+    "PHP": 2531,
+    "HTML": 228
+  },
+  "size": 2645317
+}

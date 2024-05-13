@@ -1,0 +1,17 @@
+{
+  "commit": "f5dd7a60ff56f501ff7bf9be753e4b1875bfaf20",
+  "repo_url": "https://github.com/apple/swift-nio-ssl",
+  "date": "2019-08-12T15:42:17",
+  "languages": {
+    "C": 6219163,
+    "Assembly": 3611987,
+    "C++": 1247910,
+    "Pawn": 466099,
+    "Swift": 441854,
+    "Shell": 34443,
+    "Python": 7247,
+    "Ruby": 6785,
+    "Dockerfile": 2649
+  },
+  "size": 12038137
+}

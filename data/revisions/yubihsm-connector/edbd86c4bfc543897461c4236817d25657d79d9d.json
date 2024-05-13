@@ -1,0 +1,13 @@
+{
+  "commit": "edbd86c4bfc543897461c4236817d25657d79d9d",
+  "repo_url": "https://github.com/yubico/yubihsm-connector",
+  "date": "2021-01-21T09:34:14",
+  "languages": {
+    "Go": 33701,
+    "C": 20412,
+    "Shell": 2492,
+    "Makefile": 852,
+    "Dockerfile": 652
+  },
+  "size": 58109
+}

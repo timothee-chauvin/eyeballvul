@@ -1,0 +1,13 @@
+{
+  "commit": "3db6872d9a418261b02be4755258a9928b6bb7ac",
+  "repo_url": "https://github.com/opensvc/multipath-tools",
+  "date": "2022-09-07T11:19:52",
+  "languages": {
+    "C": 1767476,
+    "Roff": 154561,
+    "Perl": 63931,
+    "Makefile": 37916,
+    "Shell": 11313
+  },
+  "size": 2035197
+}

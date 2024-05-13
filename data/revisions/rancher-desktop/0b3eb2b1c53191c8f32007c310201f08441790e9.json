@@ -1,0 +1,18 @@
+{
+  "commit": "0b3eb2b1c53191c8f32007c310201f08441790e9",
+  "repo_url": "https://github.com/rancher-sandbox/rancher-desktop",
+  "date": "2022-03-19T01:33:30",
+  "languages": {
+    "TypeScript": 452838,
+    "JavaScript": 205428,
+    "Vue": 187064,
+    "Go": 162720,
+    "SCSS": 84285,
+    "HTML": 55425,
+    "PowerShell": 14384,
+    "Shell": 9307,
+    "CSS": 5986,
+    "NSIS": 2734
+  },
+  "size": 1180171
+}

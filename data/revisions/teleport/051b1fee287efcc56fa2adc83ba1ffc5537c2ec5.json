@@ -1,0 +1,22 @@
+{
+  "commit": "051b1fee287efcc56fa2adc83ba1ffc5537c2ec5",
+  "repo_url": "https://github.com/tp4a/teleport",
+  "date": "2018-09-23T20:46:12",
+  "languages": {
+    "Python": 7558705,
+    "JavaScript": 1525420,
+    "C++": 433982,
+    "Mako": 272808,
+    "Less": 81146,
+    "CSS": 41397,
+    "C": 29823,
+    "HTML": 13948,
+    "Objective-C++": 7771,
+    "Shell": 7089,
+    "CMake": 6716,
+    "Objective-C": 3309,
+    "AppleScript": 3129,
+    "VBScript": 181
+  },
+  "size": 9985424
+}

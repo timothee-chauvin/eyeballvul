@@ -1,0 +1,16 @@
+{
+  "commit": "350f0f09188727c297bf53dfa9c1a221e37ab826",
+  "repo_url": "https://github.com/lambda-science/impatient",
+  "date": "2022-12-26T00:15:49",
+  "languages": {
+    "Python": 167593,
+    "HTML": 47018,
+    "JavaScript": 26375,
+    "Jupyter Notebook": 13648,
+    "CSS": 2396,
+    "Shell": 2245,
+    "Dockerfile": 913,
+    "Mako": 494
+  },
+  "size": 260682
+}

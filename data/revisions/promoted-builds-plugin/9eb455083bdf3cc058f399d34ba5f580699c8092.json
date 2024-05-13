@@ -1,0 +1,13 @@
+{
+  "commit": "9eb455083bdf3cc058f399d34ba5f580699c8092",
+  "repo_url": "https://github.com/jenkinsci/promoted-builds-plugin",
+  "date": "2018-02-13T10:32:39",
+  "languages": {
+    "Java": 350652,
+    "HTML": 11955,
+    "Groovy": 3179,
+    "Shell": 2008,
+    "CSS": 154
+  },
+  "size": 367948
+}

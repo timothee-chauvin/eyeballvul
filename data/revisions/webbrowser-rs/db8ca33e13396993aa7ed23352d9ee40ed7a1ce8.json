@@ -1,0 +1,13 @@
+{
+  "commit": "db8ca33e13396993aa7ed23352d9ee40ed7a1ce8",
+  "repo_url": "https://github.com/amodm/webbrowser-rs",
+  "date": "2022-11-08T12:33:42",
+  "languages": {
+    "Rust": 46799,
+    "Swift": 803,
+    "HTML": 720,
+    "Shell": 416,
+    "C": 244
+  },
+  "size": 48982
+}

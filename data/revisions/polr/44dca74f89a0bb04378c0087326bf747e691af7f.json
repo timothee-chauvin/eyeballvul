@@ -1,0 +1,15 @@
+{
+  "commit": "44dca74f89a0bb04378c0087326bf747e691af7f",
+  "repo_url": "https://github.com/cydrobolt/polr",
+  "date": "2017-05-07T00:35:46",
+  "languages": {
+    "PHP": 104408,
+    "Blade": 47735,
+    "JavaScript": 23526,
+    "CSS": 11652,
+    "HTML": 2312,
+    "Python": 1191,
+    "Shell": 102
+  },
+  "size": 190926
+}

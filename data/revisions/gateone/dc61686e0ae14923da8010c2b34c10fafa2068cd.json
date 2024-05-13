@@ -1,0 +1,15 @@
+{
+  "commit": "dc61686e0ae14923da8010c2b34c10fafa2068cd",
+  "repo_url": "https://github.com/liftoff/gateone",
+  "date": "2012-11-02T01:35:47",
+  "languages": {
+    "Python": 1185903,
+    "JavaScript": 625516,
+    "HTML": 609196,
+    "CSS": 218051,
+    "Perl": 21796,
+    "Makefile": 4601,
+    "Shell": 4520
+  },
+  "size": 2669583
+}

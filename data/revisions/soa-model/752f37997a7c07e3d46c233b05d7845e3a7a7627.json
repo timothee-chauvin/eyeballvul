@@ -1,0 +1,16 @@
+{
+  "commit": "752f37997a7c07e3d46c233b05d7845e3a7a7627",
+  "repo_url": "https://github.com/membrane/soa-model",
+  "date": "2020-10-14T13:22:44",
+  "languages": {
+    "Groovy": 864170,
+    "Java": 43678,
+    "CSS": 31624,
+    "XSLT": 13519,
+    "JavaScript": 10989,
+    "Shell": 3279,
+    "Batchfile": 2144,
+    "Dockerfile": 711
+  },
+  "size": 970114
+}

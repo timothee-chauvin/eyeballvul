@@ -1,0 +1,12 @@
+{
+  "commit": "e84f80a68ae7a5b03995ad712f8fbdc8483f0fd8",
+  "repo_url": "https://github.com/vim-syntastic/syntastic",
+  "date": "2016-10-22T03:42:09",
+  "languages": {
+    "Vim Script": 565738,
+    "Erlang": 3232,
+    "Python": 1081,
+    "JavaScript": 1064
+  },
+  "size": 571115
+}

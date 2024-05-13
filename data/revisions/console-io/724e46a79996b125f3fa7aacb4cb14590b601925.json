@@ -1,0 +1,12 @@
+{
+  "commit": "724e46a79996b125f3fa7aacb4cb14590b601925",
+  "repo_url": "https://github.com/cloudcmd/console-io",
+  "date": "2015-09-21T06:35:05",
+  "languages": {
+    "CoffeeScript": 68863,
+    "JavaScript": 28096,
+    "CSS": 9307,
+    "HTML": 7221
+  },
+  "size": 113487
+}

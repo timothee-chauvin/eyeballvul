@@ -1,0 +1,14 @@
+{
+  "commit": "549c20fc5defba16f2ca3372690cbb3547472f24",
+  "repo_url": "https://github.com/lycheeorg/lychee",
+  "date": "2023-12-27T21:31:08",
+  "languages": {
+    "PHP": 3139421,
+    "Blade": 249237,
+    "TypeScript": 59427,
+    "Makefile": 4335,
+    "Shell": 2697,
+    "HTML": 1824
+  },
+  "size": 3456941
+}

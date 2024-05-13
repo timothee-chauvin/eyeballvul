@@ -1,0 +1,15 @@
+{
+  "commit": "c0cd14df47c8e5e87cf94b5869d71169787bff28",
+  "repo_url": "https://github.com/calamares/calamares",
+  "date": "2019-06-28T11:04:40",
+  "languages": {
+    "C++": 1644096,
+    "Python": 199237,
+    "CMake": 112717,
+    "Shell": 28417,
+    "QML": 22426,
+    "C": 11957,
+    "Dockerfile": 485
+  },
+  "size": 2019335
+}

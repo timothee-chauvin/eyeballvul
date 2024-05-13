@@ -1,0 +1,21 @@
+{
+  "commit": "1f20e10ca48ebcbf4cb3e9fd1aae4ce6eaee0609",
+  "repo_url": "https://github.com/dcmtk/dcmtk",
+  "date": "2018-02-05T17:58:13",
+  "languages": {
+    "C++": 29943567,
+    "C": 4287691,
+    "Roff": 1420225,
+    "CMake": 252332,
+    "Makefile": 188009,
+    "Shell": 121082,
+    "M4": 20265,
+    "Perl": 14706,
+    "Tcl": 10289,
+    "Lex": 5552,
+    "CSS": 2444,
+    "AMPL": 1870,
+    "HTML": 177
+  },
+  "size": 36268209
+}

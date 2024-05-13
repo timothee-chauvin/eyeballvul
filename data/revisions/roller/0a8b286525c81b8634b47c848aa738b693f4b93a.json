@@ -1,0 +1,15 @@
+{
+  "commit": "0a8b286525c81b8634b47c848aa738b693f4b93a",
+  "repo_url": "https://github.com/apache/roller",
+  "date": "2018-09-30T20:48:45",
+  "languages": {
+    "Java": 3588957,
+    "JavaScript": 412373,
+    "CSS": 104888,
+    "HTML": 51728,
+    "XSLT": 10707,
+    "FreeMarker": 7344,
+    "Shell": 935
+  },
+  "size": 4176932
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "99eb6766d20df0c3cbacc14d7de29ac9b3616788",
+  "repo_url": "https://github.com/brefphp/bref",
+  "date": "2024-01-23T13:51:26",
+  "languages": {
+    "PHP": 312069,
+    "JavaScript": 142468,
+    "MDX": 78278,
+    "TypeScript": 3428,
+    "CSS": 2220,
+    "Makefile": 971
+  },
+  "size": 539434
+}

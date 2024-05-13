@@ -1,0 +1,11 @@
+{
+  "commit": "626d60aa3d72953854716793855fe718c61e88f5",
+  "repo_url": "https://github.com/quarkslab/binbloom",
+  "date": "2022-05-31T12:41:19",
+  "languages": {
+    "C": 110121,
+    "M4": 685,
+    "Makefile": 156
+  },
+  "size": 110962
+}

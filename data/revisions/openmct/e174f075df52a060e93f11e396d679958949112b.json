@@ -1,0 +1,13 @@
+{
+  "commit": "e174f075df52a060e93f11e396d679958949112b",
+  "repo_url": "https://github.com/nasa/openmct",
+  "date": "2023-03-21T00:06:10",
+  "languages": {
+    "JavaScript": 3201644,
+    "Vue": 1608617,
+    "SCSS": 455003,
+    "HTML": 22013,
+    "Shell": 7227
+  },
+  "size": 5294504
+}

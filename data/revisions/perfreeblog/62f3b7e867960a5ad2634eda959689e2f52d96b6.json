@@ -1,0 +1,17 @@
+{
+  "commit": "62f3b7e867960a5ad2634eda959689e2f52d96b6",
+  "repo_url": "https://github.com/perfree/perfreeblog",
+  "date": "2022-09-07T08:36:39",
+  "languages": {
+    "JavaScript": 7064540,
+    "Java": 642595,
+    "CSS": 521582,
+    "HTML": 323777,
+    "SCSS": 146007,
+    "Less": 98833,
+    "Shell": 1469,
+    "Dockerfile": 257,
+    "Batchfile": 54
+  },
+  "size": 8799114
+}

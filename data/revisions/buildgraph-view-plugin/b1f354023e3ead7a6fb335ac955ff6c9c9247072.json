@@ -1,0 +1,12 @@
+{
+  "commit": "b1f354023e3ead7a6fb335ac955ff6c9c9247072",
+  "repo_url": "https://github.com/jenkinsci/buildgraph-view-plugin",
+  "date": "2017-08-05T04:26:45",
+  "languages": {
+    "JavaScript": 50386,
+    "Java": 34956,
+    "HTML": 2620,
+    "CSS": 327
+  },
+  "size": 88289
+}

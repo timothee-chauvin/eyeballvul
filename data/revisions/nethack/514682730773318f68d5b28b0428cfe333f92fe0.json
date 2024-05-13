@@ -1,0 +1,26 @@
+{
+  "commit": "514682730773318f68d5b28b0428cfe333f92fe0",
+  "repo_url": "https://github.com/nethack/nethack",
+  "date": "2020-01-27T20:14:19",
+  "languages": {
+    "C": 11321346,
+    "C++": 454026,
+    "Yacc": 84509,
+    "Perl": 64795,
+    "Makefile": 39464,
+    "Assembly": 37845,
+    "Roff": 34095,
+    "DIGITAL Command Language": 31241,
+    "Lex": 20050,
+    "Shell": 15143,
+    "Rez": 14063,
+    "Batchfile": 11805,
+    "Awk": 6279,
+    "OpenEdge ABL": 5304,
+    "AppleScript": 5163,
+    "Max": 1167,
+    "sed": 799,
+    "GAP": 712
+  },
+  "size": 12147806
+}

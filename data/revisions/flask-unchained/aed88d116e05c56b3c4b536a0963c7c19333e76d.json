@@ -1,0 +1,15 @@
+{
+  "commit": "aed88d116e05c56b3c4b536a0963c7c19333e76d",
+  "repo_url": "https://github.com/briancappello/flask-unchained",
+  "date": "2021-01-18T03:01:24",
+  "languages": {
+    "Python": 942741,
+    "HTML": 27083,
+    "JavaScript": 7473,
+    "Mako": 1342,
+    "CSS": 733,
+    "Makefile": 186,
+    "Jinja": 80
+  },
+  "size": 979638
+}

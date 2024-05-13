@@ -1,0 +1,20 @@
+{
+  "commit": "2ab802a00c52ccc6f9691b464549a5b4c304fadf",
+  "repo_url": "https://github.com/ghostlander/halcyon",
+  "date": "2018-11-30T19:37:49",
+  "languages": {
+    "C": 3340856,
+    "C++": 2415128,
+    "Assembly": 471376,
+    "HTML": 50620,
+    "QMake": 14662,
+    "Makefile": 13105,
+    "Shell": 8509,
+    "NSIS": 5914,
+    "Objective-C++": 3536,
+    "Python": 2819,
+    "CSS": 1127,
+    "Objective-C": 858
+  },
+  "size": 6328510
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "9daa3745d76be57bdc939ec78ad226bea25eb1cb",
+  "repo_url": "https://github.com/andk/cpanpm",
+  "date": "2022-04-17T16:56:36",
+  "languages": {
+    "Perl": 1069164,
+    "HTML": 51493,
+    "Roff": 32415,
+    "Makefile": 2939
+  },
+  "size": 1156011
+}

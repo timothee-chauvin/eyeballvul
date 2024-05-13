@@ -1,0 +1,20 @@
+{
+  "commit": "99af1e4ec6253ecf22dd2a5a9a6cc28091ebc167",
+  "repo_url": "https://github.com/erxes/erxes",
+  "date": "2021-05-19T09:22:44",
+  "languages": {
+    "TypeScript": 6299924,
+    "JavaScript": 226708,
+    "HTML": 81363,
+    "SCSS": 66670,
+    "Shell": 28926,
+    "CSS": 25321,
+    "Go": 8496,
+    "Python": 4927,
+    "Dockerfile": 4359,
+    "EJS": 2282,
+    "Less": 449,
+    "Procfile": 66
+  },
+  "size": 6749491
+}

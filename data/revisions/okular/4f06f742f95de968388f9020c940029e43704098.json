@@ -1,0 +1,17 @@
+{
+  "commit": "4f06f742f95de968388f9020c940029e43704098",
+  "repo_url": "https://github.com/kde/okular",
+  "date": "2018-08-08T22:27:42",
+  "languages": {
+    "C++": 3728163,
+    "C": 488051,
+    "CMake": 54738,
+    "QML": 39852,
+    "TeX": 4136,
+    "Java": 2483,
+    "Shell": 2334,
+    "JavaScript": 1763,
+    "Emacs Lisp": 351
+  },
+  "size": 4321871
+}

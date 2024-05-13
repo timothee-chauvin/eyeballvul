@@ -1,0 +1,11 @@
+{
+  "commit": "3d822556da20fe27e322cd67b4481fd9ff549470",
+  "repo_url": "https://github.com/democritus-project/d8s-mpeg",
+  "date": "2021-03-16T11:11:38",
+  "languages": {
+    "Python": 7121,
+    "Shell": 349,
+    "Dockerfile": 163
+  },
+  "size": 7633
+}

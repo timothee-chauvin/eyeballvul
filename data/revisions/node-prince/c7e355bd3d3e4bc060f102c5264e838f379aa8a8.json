@@ -1,0 +1,12 @@
+{
+  "commit": "c7e355bd3d3e4bc060f102c5264e838f379aa8a8",
+  "repo_url": "https://github.com/rse/node-prince",
+  "date": "2017-12-20T16:22:53",
+  "languages": {
+    "Shell": 38539,
+    "JavaScript": 26930,
+    "Makefile": 1500,
+    "HTML": 180
+  },
+  "size": 67149
+}

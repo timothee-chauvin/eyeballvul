@@ -1,0 +1,14 @@
+{
+  "commit": "4756e085302987d6d222b354d24e760b9fb63bbe",
+  "repo_url": "https://github.com/fit2cloud/rackshift",
+  "date": "2021-12-28T12:29:59",
+  "languages": {
+    "Java": 2448332,
+    "JavaScript": 509719,
+    "Vue": 498681,
+    "HTML": 1436,
+    "Dockerfile": 774,
+    "Batchfile": 90
+  },
+  "size": 3459032
+}

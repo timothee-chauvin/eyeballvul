@@ -1,0 +1,15 @@
+{
+  "commit": "a2ab6d8547feef7fa29e0b5595675276f27a7657",
+  "repo_url": "https://github.com/zauberzeug/nicegui",
+  "date": "2024-04-04T14:43:58",
+  "languages": {
+    "Python": 879216,
+    "JavaScript": 55787,
+    "Shell": 7551,
+    "CSS": 6453,
+    "Dockerfile": 3555,
+    "HTML": 2878,
+    "Vue": 2802
+  },
+  "size": 958242
+}

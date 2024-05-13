@@ -1,0 +1,16 @@
+{
+  "commit": "80edf7164ccf46c05a5a0f423ccfe9bbb2c7888f",
+  "repo_url": "https://github.com/open-falcon/falcon-plus",
+  "date": "2019-05-30T09:10:49",
+  "languages": {
+    "Go": 831582,
+    "Shell": 37707,
+    "CSS": 35372,
+    "HTML": 15200,
+    "JavaScript": 10195,
+    "Python": 4822,
+    "Makefile": 3057,
+    "Dockerfile": 895
+  },
+  "size": 938830
+}

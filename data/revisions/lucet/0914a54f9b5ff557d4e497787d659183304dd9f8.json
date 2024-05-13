@@ -1,0 +1,16 @@
+{
+  "commit": "0914a54f9b5ff557d4e497787d659183304dd9f8",
+  "repo_url": "https://github.com/bytecodealliance/lucet",
+  "date": "2020-02-18T18:38:22",
+  "languages": {
+    "Rust": 883963,
+    "TypeScript": 195635,
+    "C": 54086,
+    "WebAssembly": 30622,
+    "Shell": 19319,
+    "Makefile": 9012,
+    "Assembly": 7672,
+    "Dockerfile": 1827
+  },
+  "size": 1202136
+}

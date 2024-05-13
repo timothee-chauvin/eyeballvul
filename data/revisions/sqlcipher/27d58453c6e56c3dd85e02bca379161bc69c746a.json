@@ -1,0 +1,19 @@
+{
+  "commit": "27d58453c6e56c3dd85e02bca379161bc69c746a",
+  "repo_url": "https://github.com/sqlcipher/sqlcipher",
+  "date": "2018-12-17T20:57:09",
+  "languages": {
+    "C": 11946953,
+    "Tcl": 874394,
+    "Shell": 366101,
+    "M4": 174255,
+    "Makefile": 118561,
+    "Yacc": 67345,
+    "Batchfile": 36904,
+    "C#": 22767,
+    "C++": 14127,
+    "Roff": 9453,
+    "Objective-C": 156
+  },
+  "size": 13631016
+}

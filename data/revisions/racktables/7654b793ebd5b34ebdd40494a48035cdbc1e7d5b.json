@@ -1,0 +1,15 @@
+{
+  "commit": "7654b793ebd5b34ebdd40494a48035cdbc1e7d5b",
+  "repo_url": "https://github.com/racktables/racktables",
+  "date": "2019-03-25T15:32:32",
+  "languages": {
+    "PHP": 2307621,
+    "JavaScript": 479837,
+    "CSS": 34609,
+    "Shell": 14962,
+    "Perl": 9478,
+    "Python": 4080,
+    "Makefile": 1660
+  },
+  "size": 2852247
+}

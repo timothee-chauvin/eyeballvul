@@ -1,0 +1,15 @@
+{
+  "commit": "7c0d1f7367c2edbc843997f07a5dbae03e05575f",
+  "repo_url": "https://github.com/thoughtbot/administrate",
+  "date": "2016-02-21T06:23:51",
+  "languages": {
+    "Ruby": 161911,
+    "HTML": 39842,
+    "SCSS": 10786,
+    "JavaScript": 2718,
+    "Shell": 1896,
+    "CSS": 686,
+    "Procfile": 92
+  },
+  "size": 217931
+}

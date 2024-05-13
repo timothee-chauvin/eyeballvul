@@ -1,0 +1,14 @@
+{
+  "commit": "abcc84f6bb2072874255d9a0c897f89c09ee2a91",
+  "repo_url": "https://github.com/h3xduck/triplecross",
+  "date": "2022-07-02T23:06:05",
+  "languages": {
+    "C": 8791687,
+    "Shell": 56794,
+    "Makefile": 10531,
+    "CMake": 7012,
+    "Python": 1499,
+    "Dockerfile": 1450
+  },
+  "size": 8868973
+}

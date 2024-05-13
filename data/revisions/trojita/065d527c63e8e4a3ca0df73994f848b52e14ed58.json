@@ -1,0 +1,17 @@
+{
+  "commit": "065d527c63e8e4a3ca0df73994f848b52e14ed58",
+  "repo_url": "https://github.com/jktjkt/trojita",
+  "date": "2016-06-15T07:17:23",
+  "languages": {
+    "C++": 3600973,
+    "CMake": 67431,
+    "C": 18127,
+    "HTML": 13881,
+    "Ragel": 10088,
+    "NSIS": 6739,
+    "Shell": 6579,
+    "Python": 6104,
+    "CSS": 3249
+  },
+  "size": 3733171
+}

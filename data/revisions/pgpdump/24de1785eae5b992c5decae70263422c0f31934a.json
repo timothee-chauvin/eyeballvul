@@ -1,0 +1,13 @@
+{
+  "commit": "24de1785eae5b992c5decae70263422c0f31934a",
+  "repo_url": "https://github.com/kazu-yamamoto/pgpdump",
+  "date": "2014-08-01T03:36:50",
+  "languages": {
+    "C": 65906,
+    "ReScript": 4161,
+    "Roff": 2211,
+    "Makefile": 1977,
+    "Haskell": 872
+  },
+  "size": 75127
+}

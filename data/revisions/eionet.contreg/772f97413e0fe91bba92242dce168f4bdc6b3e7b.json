@@ -1,0 +1,17 @@
+{
+  "commit": "772f97413e0fe91bba92242dce168f4bdc6b3e7b",
+  "repo_url": "https://github.com/eea/eionet.contreg",
+  "date": "2022-04-14T09:42:19",
+  "languages": {
+    "Java": 3790885,
+    "HTML": 54409,
+    "XSLT": 44703,
+    "JavaScript": 32439,
+    "CSS": 25289,
+    "Python": 21920,
+    "Shell": 8012,
+    "C": 5584,
+    "Dockerfile": 1514
+  },
+  "size": 3984755
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "0a73df2e9a8b0577426000ef102d5578d664eaae",
+  "repo_url": "https://github.com/anji-plus/report",
+  "date": "2022-09-16T01:44:10",
+  "languages": {
+    "JavaScript": 1266775,
+    "Vue": 1169074,
+    "HTML": 614278,
+    "Java": 496917,
+    "CSS": 44106,
+    "PLpgSQL": 17358,
+    "SCSS": 17012,
+    "Shell": 3390,
+    "Batchfile": 1106,
+    "Dockerfile": 74
+  },
+  "size": 3630090
+}

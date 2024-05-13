@@ -1,0 +1,17 @@
+{
+  "commit": "f67c13f8f10a6f8e0343a3c3d4e8ad7737ed28ab",
+  "repo_url": "https://github.com/ansible/ansible",
+  "date": "2013-06-10T19:24:09",
+  "languages": {
+    "Python": 1501775,
+    "JavaScript": 30509,
+    "HTML": 19321,
+    "CSS": 16541,
+    "Makefile": 7639,
+    "Jinja": 7155,
+    "Shell": 3812,
+    "Tcl": 2564,
+    "Smarty": 319
+  },
+  "size": 1589635
+}

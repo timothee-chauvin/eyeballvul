@@ -1,0 +1,16 @@
+{
+  "commit": "31df5dc44d1f428b48050d950ea65b1a9bd1e44b",
+  "repo_url": "https://github.com/1n3/sn1per",
+  "date": "2021-01-08T16:31:56",
+  "languages": {
+    "Shell": 565002,
+    "Lua": 391605,
+    "PHP": 213996,
+    "Python": 76523,
+    "XSLT": 15475,
+    "JavaScript": 4798,
+    "HTML": 2330,
+    "Dockerfile": 1269
+  },
+  "size": 1270998
+}

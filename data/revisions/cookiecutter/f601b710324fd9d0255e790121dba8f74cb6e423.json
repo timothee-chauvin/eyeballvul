@@ -1,0 +1,12 @@
+{
+  "commit": "f601b710324fd9d0255e790121dba8f74cb6e423",
+  "repo_url": "https://github.com/cookiecutter/cookiecutter",
+  "date": "2022-05-30T19:55:09",
+  "languages": {
+    "Python": 259591,
+    "Makefile": 2655,
+    "Shell": 289,
+    "Batchfile": 116
+  },
+  "size": 262651
+}

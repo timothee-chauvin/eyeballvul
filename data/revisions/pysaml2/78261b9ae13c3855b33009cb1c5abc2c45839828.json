@@ -1,0 +1,13 @@
+{
+  "commit": "78261b9ae13c3855b33009cb1c5abc2c45839828",
+  "repo_url": "https://github.com/identitypython/pysaml2",
+  "date": "2016-10-26T18:39:42",
+  "languages": {
+    "Python": 3091141,
+    "Mako": 3703,
+    "Shell": 1818,
+    "Lua": 916,
+    "CSS": 46
+  },
+  "size": 3097624
+}

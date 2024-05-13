@@ -1,0 +1,13 @@
+{
+  "commit": "0e0d8e1ba104ae59853f4d4c32522f97ddf30f92",
+  "repo_url": "https://github.com/miniprofiler/rack-mini-profiler",
+  "date": "2016-03-06T11:53:43",
+  "languages": {
+    "Ruby": 127717,
+    "JavaScript": 83254,
+    "CSS": 13015,
+    "Less": 11257,
+    "HTML": 358
+  },
+  "size": 235601
+}

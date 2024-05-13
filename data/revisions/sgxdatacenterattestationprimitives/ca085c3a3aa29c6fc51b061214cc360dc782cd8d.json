@@ -1,0 +1,16 @@
+{
+  "commit": "ca085c3a3aa29c6fc51b061214cc360dc782cd8d",
+  "repo_url": "https://github.com/intel/sgxdatacenterattestationprimitives",
+  "date": "2019-01-15T06:24:10",
+  "languages": {
+    "C++": 1279890,
+    "C": 967939,
+    "Makefile": 62515,
+    "Shell": 45886,
+    "CMake": 23053,
+    "Assembly": 21067,
+    "Python": 7382,
+    "Batchfile": 7249
+  },
+  "size": 2414981
+}

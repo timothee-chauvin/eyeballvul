@@ -1,0 +1,15 @@
+{
+  "commit": "131aa463ab6d25a6cdd6c75027491bbd9b0c3df9",
+  "repo_url": "https://github.com/concrete5/concrete5-legacy",
+  "date": "2015-09-11T22:06:44",
+  "languages": {
+    "PHP": 3822811,
+    "JavaScript": 529847,
+    "Less": 264306,
+    "ActionScript": 172889,
+    "CSS": 86931,
+    "HTML": 4108,
+    "Hack": 13
+  },
+  "size": 4880905
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "3bc5b58cabd7e49eed4ac86fbb686d4077c25d79",
+  "repo_url": "https://github.com/asciidoctor/asciidoctor",
+  "date": "2018-05-03T01:53:43",
+  "languages": {
+    "Ruby": 1663397,
+    "CSS": 39770,
+    "Gherkin": 29989,
+    "Shell": 506
+  },
+  "size": 1733662
+}

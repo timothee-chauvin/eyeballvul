@@ -1,0 +1,15 @@
+{
+  "commit": "4586b9bd40c75e795a11db6f898a60aa8654354c",
+  "repo_url": "https://github.com/peterbraden/node-opencv",
+  "date": "2016-09-23T10:53:03",
+  "languages": {
+    "C++": 188984,
+    "JavaScript": 18516,
+    "Python": 4338,
+    "Makefile": 2930,
+    "Dockerfile": 2500,
+    "Shell": 2187,
+    "HTML": 314
+  },
+  "size": 219769
+}

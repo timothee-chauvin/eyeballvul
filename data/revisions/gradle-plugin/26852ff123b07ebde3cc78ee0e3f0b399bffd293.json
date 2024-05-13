@@ -1,0 +1,13 @@
+{
+  "commit": "26852ff123b07ebde3cc78ee0e3f0b399bffd293",
+  "repo_url": "https://github.com/jenkinsci/gradle-plugin",
+  "date": "2023-06-06T14:50:54",
+  "languages": {
+    "Java": 210184,
+    "Groovy": 156326,
+    "HTML": 5279,
+    "JavaScript": 1788,
+    "CSS": 321
+  },
+  "size": 373898
+}

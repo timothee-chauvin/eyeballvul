@@ -1,0 +1,19 @@
+{
+  "commit": "20ce2bb9088e793b3b019110d07e77896bb642e8",
+  "repo_url": "https://github.com/apache/storm",
+  "date": "2014-11-19T03:06:44",
+  "languages": {
+    "Java": 2431463,
+    "Clojure": 696120,
+    "JavaScript": 65102,
+    "Python": 58781,
+    "HTML": 53772,
+    "Ruby": 13541,
+    "Batchfile": 10919,
+    "Thrift": 8734,
+    "Fancy": 6234,
+    "CSS": 2842,
+    "Shell": 1026
+  },
+  "size": 3348534
+}

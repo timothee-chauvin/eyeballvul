@@ -1,0 +1,24 @@
+{
+  "commit": "b67eb4b3ab7f9435f49c6c55b628ae64bcd0d454",
+  "repo_url": "https://github.com/lmsgit/lms",
+  "date": "2018-03-20T17:07:20",
+  "languages": {
+    "PHP": 6279017,
+    "HTML": 2411252,
+    "JavaScript": 734326,
+    "C": 589579,
+    "Makefile": 495681,
+    "Shell": 350676,
+    "Perl": 197696,
+    "CSS": 168297,
+    "Python": 34965,
+    "Less": 30388,
+    "XSLT": 19338,
+    "M4": 17311,
+    "Yacc": 9752,
+    "Lex": 7335,
+    "PLpgSQL": 117,
+    "Awk": 74
+  },
+  "size": 11345804
+}

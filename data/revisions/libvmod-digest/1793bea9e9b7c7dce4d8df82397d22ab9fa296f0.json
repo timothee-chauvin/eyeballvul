@@ -1,0 +1,12 @@
+{
+  "commit": "1793bea9e9b7c7dce4d8df82397d22ab9fa296f0",
+  "repo_url": "https://github.com/varnish/libvmod-digest",
+  "date": "2019-10-05T22:24:30",
+  "languages": {
+    "C": 12004,
+    "M4": 2203,
+    "Makefile": 1413,
+    "Shell": 1082
+  },
+  "size": 16702
+}

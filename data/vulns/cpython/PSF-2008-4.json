@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2008-4",
+  "published": "2008-08-01T14:00:00",
+  "modified": "2023-11-08T03:56:50.819455",
+  "details": "Multiple integer overflows in Python 2.5.2 and earlier allow context-dependent attackers to have an unknown impact via vectors related to the (1) stringobject, (2) unicodeobject, (3) bufferobject, (4) longobject, (5) tupleobject, (6) stropmodule, (7) gcmodule, and (8) mmapmodule modules.  NOTE: The expandtabs integer overflows in stringobject and unicodeobject in 2.5.2 are covered by CVE-2008-5031.",
+  "summary": "Multiple integer overflows (Apple)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

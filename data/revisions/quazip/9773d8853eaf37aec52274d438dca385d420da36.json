@@ -1,0 +1,14 @@
+{
+  "commit": "9773d8853eaf37aec52274d438dca385d420da36",
+  "repo_url": "https://github.com/stachenov/quazip",
+  "date": "2018-05-20T07:31:32",
+  "languages": {
+    "C++": 284099,
+    "C": 204137,
+    "QMake": 5434,
+    "CMake": 5393,
+    "Batchfile": 622,
+    "Shell": 134
+  },
+  "size": 499819
+}

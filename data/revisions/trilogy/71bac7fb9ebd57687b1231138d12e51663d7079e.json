@@ -1,0 +1,12 @@
+{
+  "commit": "71bac7fb9ebd57687b1231138d12e51663d7079e",
+  "repo_url": "https://github.com/github/trilogy",
+  "date": "2022-03-11T19:03:01",
+  "languages": {
+    "C": 475847,
+    "Ruby": 45755,
+    "Shell": 4699,
+    "Makefile": 1341
+  },
+  "size": 527642
+}

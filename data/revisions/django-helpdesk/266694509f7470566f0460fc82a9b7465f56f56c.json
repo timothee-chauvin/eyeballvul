@@ -1,0 +1,15 @@
+{
+  "commit": "266694509f7470566f0460fc82a9b7465f56f56c",
+  "repo_url": "https://github.com/django-helpdesk/django-helpdesk",
+  "date": "2021-10-18T05:02:55",
+  "languages": {
+    "Python": 483172,
+    "HTML": 177219,
+    "JavaScript": 44436,
+    "CSS": 13474,
+    "SCSS": 7910,
+    "Makefile": 2539,
+    "Shell": 718
+  },
+  "size": 729468
+}

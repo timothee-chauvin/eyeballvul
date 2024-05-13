@@ -1,0 +1,16 @@
+{
+  "commit": "d5d011e6952a44833567973ec22333dce2617b55",
+  "repo_url": "https://github.com/puppetlabs/puppetdb",
+  "date": "2021-10-27T23:49:17",
+  "languages": {
+    "Clojure": 2469314,
+    "Ruby": 259091,
+    "Shell": 96047,
+    "Python": 31208,
+    "Makefile": 9415,
+    "Dockerfile": 6791,
+    "JavaScript": 5944,
+    "HTML": 4074
+  },
+  "size": 2881884
+}

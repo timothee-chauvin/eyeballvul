@@ -1,0 +1,12 @@
+{
+  "commit": "6d3d5d53c8eb39372912b91d935ac4bcc63ac679",
+  "repo_url": "https://github.com/inikep/lizard",
+  "date": "2017-02-05T20:39:56",
+  "languages": {
+    "C": 748753,
+    "Makefile": 32080,
+    "Roff": 5232,
+    "CMake": 3874
+  },
+  "size": 789939
+}

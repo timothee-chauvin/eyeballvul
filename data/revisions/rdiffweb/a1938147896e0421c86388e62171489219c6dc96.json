@@ -1,0 +1,14 @@
+{
+  "commit": "a1938147896e0421c86388e62171489219c6dc96",
+  "repo_url": "https://github.com/ikus060/rdiffweb",
+  "date": "2022-06-16T19:22:49",
+  "languages": {
+    "Python": 523580,
+    "Less": 264105,
+    "HTML": 67141,
+    "JavaScript": 45697,
+    "Shell": 3945,
+    "Dockerfile": 671
+  },
+  "size": 905139
+}

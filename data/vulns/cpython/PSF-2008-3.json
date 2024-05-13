@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2008-3",
+  "published": "2008-04-18T17:00:00",
+  "modified": "2023-11-08T03:56:50.697402",
+  "details": "Python 2.5.2 and earlier allows context-dependent attackers to execute arbitrary code via multiple vectors that cause a negative size value to be provided to the PyString_FromStringAndSize function, which allocates less memory than expected when assert() is disabled and triggers a buffer overflow.",
+  "summary": "Multiple integer overflows (Apple)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

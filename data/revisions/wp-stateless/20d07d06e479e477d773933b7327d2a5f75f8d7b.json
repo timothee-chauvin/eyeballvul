@@ -1,0 +1,13 @@
+{
+  "commit": "20d07d06e479e477d773933b7327d2a5f75f8d7b",
+  "repo_url": "https://github.com/udx/wp-stateless",
+  "date": "2019-12-12T14:39:31",
+  "languages": {
+    "PHP": 694239,
+    "JavaScript": 267350,
+    "CSS": 19417,
+    "Shell": 6685,
+    "Makefile": 418
+  },
+  "size": 988109
+}

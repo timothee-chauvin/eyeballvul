@@ -1,0 +1,17 @@
+{
+  "commit": "f14c7b3b065f489ad972e775ed2dd4cddc397942",
+  "repo_url": "https://github.com/spdk/spdk",
+  "date": "2018-10-31T16:55:17",
+  "languages": {
+    "C": 5332269,
+    "Python": 467591,
+    "Shell": 453689,
+    "Makefile": 372233,
+    "C++": 36525,
+    "Perl": 8769,
+    "Ruby": 4831,
+    "Go": 2094,
+    "Bluespec": 119
+  },
+  "size": 6678120
+}

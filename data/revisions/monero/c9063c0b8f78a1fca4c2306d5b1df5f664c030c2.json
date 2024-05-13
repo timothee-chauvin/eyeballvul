@@ -1,0 +1,19 @@
+{
+  "commit": "c9063c0b8f78a1fca4c2306d5b1df5f664c030c2",
+  "repo_url": "https://github.com/monero-project/monero",
+  "date": "2017-03-26T21:32:54",
+  "languages": {
+    "C++": 5957906,
+    "C": 1123210,
+    "CMake": 148320,
+    "Shell": 23110,
+    "Python": 21901,
+    "q": 11168,
+    "Perl": 9033,
+    "Makefile": 8315,
+    "Raku": 3110,
+    "Batchfile": 2627,
+    "Dockerfile": 1015
+  },
+  "size": 7309715
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "d776a618adf85def890a4c73b44ef5683e71c385",
+  "repo_url": "https://github.com/mate-desktop/engrampa",
+  "date": "2023-08-22T20:25:32",
+  "languages": {
+    "C": 1157432,
+    "Makefile": 25639,
+    "Meson": 11926,
+    "M4": 6261,
+    "Roff": 3832,
+    "Perl": 3681,
+    "Shell": 1322,
+    "Python": 1017
+  },
+  "size": 1211110
+}

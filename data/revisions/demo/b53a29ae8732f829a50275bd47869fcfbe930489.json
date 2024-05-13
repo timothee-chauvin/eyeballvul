@@ -1,0 +1,12 @@
+{
+  "commit": "b53a29ae8732f829a50275bd47869fcfbe930489",
+  "repo_url": "https://github.com/pimcore/demo",
+  "date": "2022-12-27T11:24:03",
+  "languages": {
+    "PHP": 1291648,
+    "Twig": 204689,
+    "CSS": 89420,
+    "JavaScript": 11647
+  },
+  "size": 1597404
+}

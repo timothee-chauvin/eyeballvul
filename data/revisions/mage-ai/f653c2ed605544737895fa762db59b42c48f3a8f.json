@@ -1,0 +1,19 @@
+{
+  "commit": "f653c2ed605544737895fa762db59b42c48f3a8f",
+  "repo_url": "https://github.com/mage-ai/mage-ai",
+  "date": "2023-05-02T07:02:21",
+  "languages": {
+    "Python": 4445420,
+    "TypeScript": 2244152,
+    "HTML": 295136,
+    "Jinja": 15936,
+    "CSS": 14885,
+    "Shell": 9873,
+    "Jupyter Notebook": 8996,
+    "JavaScript": 7155,
+    "Dockerfile": 4304,
+    "Mako": 510,
+    "R": 134
+  },
+  "size": 7046501
+}

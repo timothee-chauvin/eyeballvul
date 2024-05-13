@@ -1,0 +1,14 @@
+{
+  "commit": "1d1f2c5d4dceae8ff15d3ac2d03fafa9f5435deb",
+  "repo_url": "https://github.com/jgm/peg-markdown",
+  "date": "2012-11-07T16:44:32",
+  "languages": {
+    "C": 145801,
+    "HTML": 50931,
+    "Roff": 27006,
+    "Perl": 3865,
+    "Makefile": 3624,
+    "BASIC": 577
+  },
+  "size": 231804
+}

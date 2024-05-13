@@ -1,0 +1,14 @@
+{
+  "commit": "7be90ab941870976c587e0d6052560386b3683f5",
+  "repo_url": "https://github.com/intelliants/subrion",
+  "date": "2016-02-15T07:53:56",
+  "languages": {
+    "PHP": 4934390,
+    "JavaScript": 1498293,
+    "Less": 807673,
+    "Smarty": 331921,
+    "CSS": 258289,
+    "HTML": 45073
+  },
+  "size": 7875639
+}

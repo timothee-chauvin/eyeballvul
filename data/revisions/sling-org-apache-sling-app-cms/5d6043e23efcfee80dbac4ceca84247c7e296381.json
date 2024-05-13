@@ -1,0 +1,15 @@
+{
+  "commit": "5d6043e23efcfee80dbac4ceca84247c7e296381",
+  "repo_url": "https://github.com/apache/sling-org-apache-sling-app-cms",
+  "date": "2019-11-19T04:18:26",
+  "languages": {
+    "Java": 979301,
+    "HTML": 83358,
+    "JavaScript": 72429,
+    "SCSS": 15972,
+    "Shell": 11601,
+    "CSS": 5774,
+    "Dockerfile": 1940
+  },
+  "size": 1170375
+}

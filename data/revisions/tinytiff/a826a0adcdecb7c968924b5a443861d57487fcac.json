@@ -1,0 +1,12 @@
+{
+  "commit": "a826a0adcdecb7c968924b5a443861d57487fcac",
+  "repo_url": "https://github.com/jkriege2/tinytiff",
+  "date": "2020-10-12T12:57:53",
+  "languages": {
+    "C++": 158128,
+    "C": 110154,
+    "CMake": 17524,
+    "Shell": 1154
+  },
+  "size": 286960
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "bbf049cb58e02f6fcb97119a33e336de5d54cf55",
+  "repo_url": "https://github.com/jenkinsci/atlassian-bitbucket-server-integration-plugin",
+  "date": "2021-11-05T05:23:46",
+  "languages": {
+    "Java": 1510449,
+    "Groovy": 9852,
+    "HTML": 9730,
+    "JavaScript": 3294,
+    "Shell": 645
+  },
+  "size": 1533970
+}

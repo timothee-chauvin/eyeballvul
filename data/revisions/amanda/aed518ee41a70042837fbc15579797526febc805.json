@@ -1,0 +1,27 @@
+{
+  "commit": "aed518ee41a70042837fbc15579797526febc805",
+  "repo_url": "https://github.com/zmanda/amanda",
+  "date": "2017-11-29T12:19:55",
+  "languages": {
+    "C": 7731691,
+    "Perl": 4053141,
+    "M4": 883819,
+    "Prolog": 844434,
+    "Shell": 617948,
+    "Makefile": 182756,
+    "C++": 114097,
+    "RPC": 96748,
+    "PostScript": 54355,
+    "Awk": 20523,
+    "Yacc": 13979,
+    "Lex": 12039,
+    "Tcl": 7668,
+    "CSS": 5057,
+    "Raku": 3910,
+    "GAP": 3400,
+    "HTML": 1009,
+    "Roff": 636,
+    "sed": 370
+  },
+  "size": 14647580
+}

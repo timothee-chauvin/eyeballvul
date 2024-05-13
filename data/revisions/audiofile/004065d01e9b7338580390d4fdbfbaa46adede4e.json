@@ -1,0 +1,11 @@
+{
+  "commit": "004065d01e9b7338580390d4fdbfbaa46adede4e",
+  "repo_url": "https://github.com/adamstark/audiofile",
+  "date": "2022-01-15T17:55:39",
+  "languages": {
+    "C++": 732453,
+    "Python": 2619,
+    "CMake": 2283
+  },
+  "size": 737355
+}

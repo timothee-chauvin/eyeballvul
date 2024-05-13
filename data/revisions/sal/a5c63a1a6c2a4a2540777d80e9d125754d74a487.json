@@ -1,0 +1,18 @@
+{
+  "commit": "a5c63a1a6c2a4a2540777d80e9d125754d74a487",
+  "repo_url": "https://github.com/salopensource/sal",
+  "date": "2020-07-31T14:55:39",
+  "languages": {
+    "Python": 601300,
+    "JavaScript": 279963,
+    "HTML": 151434,
+    "CSS": 119817,
+    "Less": 67048,
+    "SCSS": 51035,
+    "Shell": 4539,
+    "Dockerfile": 2233,
+    "Makefile": 2208,
+    "Procfile": 23
+  },
+  "size": 1279600
+}

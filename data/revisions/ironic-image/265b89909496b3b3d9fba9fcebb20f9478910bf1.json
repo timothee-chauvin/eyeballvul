@@ -1,0 +1,12 @@
+{
+  "commit": "265b89909496b3b3d9fba9fcebb20f9478910bf1",
+  "repo_url": "https://github.com/metal3-io/ironic-image",
+  "date": "2023-06-27T15:34:24",
+  "languages": {
+    "Shell": 33517,
+    "Jinja": 22312,
+    "Dockerfile": 3147,
+    "Makefile": 135
+  },
+  "size": 59111
+}

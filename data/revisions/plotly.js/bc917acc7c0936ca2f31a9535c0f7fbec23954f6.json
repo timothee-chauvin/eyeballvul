@@ -1,0 +1,13 @@
+{
+  "commit": "bc917acc7c0936ca2f31a9535c0f7fbec23954f6",
+  "repo_url": "https://github.com/plotly/plotly.js",
+  "date": "2016-07-25T15:04:08",
+  "languages": {
+    "JavaScript": 2459444,
+    "SCSS": 8480,
+    "Shell": 2230,
+    "HTML": 1855,
+    "CSS": 1127
+  },
+  "size": 2473136
+}

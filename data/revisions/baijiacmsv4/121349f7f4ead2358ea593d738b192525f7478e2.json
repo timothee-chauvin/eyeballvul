@@ -1,0 +1,15 @@
+{
+  "commit": "121349f7f4ead2358ea593d738b192525f7478e2",
+  "repo_url": "https://github.com/baijiacms/baijiacmsv4",
+  "date": "2018-11-07T09:58:20",
+  "languages": {
+    "PHP": 7120940,
+    "JavaScript": 4442826,
+    "CSS": 1524046,
+    "HTML": 186764,
+    "Shell": 335,
+    "Hack": 23,
+    "Batchfile": 22
+  },
+  "size": 13274956
+}

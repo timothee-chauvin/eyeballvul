@@ -1,0 +1,13 @@
+{
+  "commit": "d620c09392b438ac750377cb1b3d7a60fb61d125",
+  "repo_url": "https://github.com/pgpool/pgpooladmin",
+  "date": "2018-10-19T01:53:13",
+  "languages": {
+    "PHP": 1273180,
+    "Smarty": 220303,
+    "JavaScript": 8542,
+    "CSS": 7981,
+    "Shell": 691
+  },
+  "size": 1510697
+}

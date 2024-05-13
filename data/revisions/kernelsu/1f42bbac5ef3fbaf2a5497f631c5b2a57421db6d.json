@@ -1,0 +1,19 @@
+{
+  "commit": "1f42bbac5ef3fbaf2a5497f631c5b2a57421db6d",
+  "repo_url": "https://github.com/tiann/kernelsu",
+  "date": "2023-09-16T05:12:36",
+  "languages": {
+    "Kotlin": 159968,
+    "C": 126141,
+    "Rust": 98047,
+    "Java": 30091,
+    "TypeScript": 14848,
+    "C++": 13208,
+    "Shell": 12548,
+    "Python": 6063,
+    "Makefile": 2359,
+    "CMake": 430,
+    "AIDL": 228
+  },
+  "size": 463931
+}

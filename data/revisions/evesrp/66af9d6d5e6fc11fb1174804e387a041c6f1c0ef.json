@@ -1,0 +1,17 @@
+{
+  "commit": "66af9d6d5e6fc11fb1174804e387a041c6f1c0ef",
+  "repo_url": "https://github.com/paxswill/evesrp",
+  "date": "2017-10-24T17:11:25",
+  "languages": {
+    "Python": 843456,
+    "CoffeeScript": 76643,
+    "HTML": 58248,
+    "Makefile": 11752,
+    "Handlebars": 10641,
+    "Less": 799,
+    "JavaScript": 532,
+    "Mako": 412,
+    "Procfile": 25
+  },
+  "size": 1002508
+}

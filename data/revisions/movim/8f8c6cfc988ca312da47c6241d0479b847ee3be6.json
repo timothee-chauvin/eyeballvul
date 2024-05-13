@@ -1,0 +1,16 @@
+{
+  "commit": "8f8c6cfc988ca312da47c6241d0479b847ee3be6",
+  "repo_url": "https://github.com/movim/movim",
+  "date": "2016-01-10T16:34:07",
+  "languages": {
+    "PHP": 558034,
+    "JavaScript": 264982,
+    "Smarty": 199003,
+    "CSS": 61463,
+    "HTML": 3009,
+    "CMake": 2793,
+    "Shell": 1162,
+    "Emacs Lisp": 244
+  },
+  "size": 1090690
+}

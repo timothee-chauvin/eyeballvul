@@ -1,0 +1,15 @@
+{
+  "commit": "2193451dfb9e3337220e29303b653f49e0f2bf99",
+  "repo_url": "https://github.com/kareadita/kavita",
+  "date": "2022-02-12T22:55:01",
+  "languages": {
+    "C#": 1323267,
+    "TypeScript": 566590,
+    "HTML": 226417,
+    "SCSS": 49195,
+    "Shell": 11768,
+    "Dockerfile": 1944,
+    "JavaScript": 904
+  },
+  "size": 2180085
+}

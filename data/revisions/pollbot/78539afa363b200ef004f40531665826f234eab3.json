@@ -1,0 +1,12 @@
+{
+  "commit": "78539afa363b200ef004f40531665826f234eab3",
+  "repo_url": "https://github.com/mozilla/pollbot",
+  "date": "2020-09-08T19:59:48",
+  "languages": {
+    "Python": 164526,
+    "Makefile": 1740,
+    "Dockerfile": 713,
+    "Shell": 305
+  },
+  "size": 167284
+}

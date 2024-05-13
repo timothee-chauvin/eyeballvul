@@ -1,0 +1,23 @@
+{
+  "commit": "eca5d609dc5877e9abc075c0228e6e400473f564",
+  "repo_url": "https://github.com/apache/incubator-trafficcontrol",
+  "date": "2019-02-13T16:18:14",
+  "languages": {
+    "Perl": 3559604,
+    "Go": 2718111,
+    "JavaScript": 1568425,
+    "Java": 1048100,
+    "HTML": 771639,
+    "Shell": 237422,
+    "Python": 144472,
+    "SCSS": 103653,
+    "Dockerfile": 78000,
+    "PLpgSQL": 69349,
+    "CSS": 44275,
+    "C": 22423,
+    "Ruby": 6111,
+    "Makefile": 5245,
+    "Roff": 4011
+  },
+  "size": 10380840
+}

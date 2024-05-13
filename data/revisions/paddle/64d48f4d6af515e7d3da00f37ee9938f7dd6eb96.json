@@ -1,0 +1,18 @@
+{
+  "commit": "64d48f4d6af515e7d3da00f37ee9938f7dd6eb96",
+  "repo_url": "https://github.com/paddlepaddle/paddle",
+  "date": "2018-08-17T01:15:38",
+  "languages": {
+    "C++": 8262372,
+    "Python": 4300661,
+    "Cuda": 1157650,
+    "C": 341938,
+    "CMake": 289679,
+    "Shell": 164672,
+    "Go": 109508,
+    "Perl": 11456,
+    "Dockerfile": 8120,
+    "SWIG": 5664
+  },
+  "size": 14651720
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "e0ce52452522bbccf72f3c772bb0afe3fc2969d7",
+  "repo_url": "https://github.com/openrapid/rapidcms",
+  "date": "2023-04-30T01:59:51",
+  "languages": {
+    "PHP": 710069,
+    "JavaScript": 151049,
+    "CSS": 119000,
+    "Hack": 9729
+  },
+  "size": 989847
+}

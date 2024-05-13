@@ -1,0 +1,18 @@
+{
+  "commit": "80cef0c02dc2e578c0956a304a75165781cdb15b",
+  "repo_url": "https://github.com/haproxy/haproxy",
+  "date": "2023-07-21T18:29:42",
+  "languages": {
+    "C": 10515297,
+    "C++": 209647,
+    "Shell": 88696,
+    "Makefile": 62115,
+    "Python": 20557,
+    "Lua": 16494,
+    "Vim Script": 7696,
+    "Perl": 5554,
+    "SmPL": 5223,
+    "HTML": 44
+  },
+  "size": 10931323
+}

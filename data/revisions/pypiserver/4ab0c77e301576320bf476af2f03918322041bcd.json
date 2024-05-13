@@ -1,0 +1,12 @@
+{
+  "commit": "4ab0c77e301576320bf476af2f03918322041bcd",
+  "repo_url": "https://github.com/pypiserver/pypiserver",
+  "date": "2018-11-11T17:43:32",
+  "languages": {
+    "Python": 255248,
+    "Shell": 4349,
+    "HTML": 862,
+    "Dockerfile": 615
+  },
+  "size": 261074
+}

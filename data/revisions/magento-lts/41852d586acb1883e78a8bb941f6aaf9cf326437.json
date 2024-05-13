@@ -1,0 +1,20 @@
+{
+  "commit": "41852d586acb1883e78a8bb941f6aaf9cf326437",
+  "repo_url": "https://github.com/openmage/magento-lts",
+  "date": "2020-07-07T19:02:58",
+  "languages": {
+    "PHP": 50096050,
+    "HTML": 5055650,
+    "CSS": 1389401,
+    "JavaScript": 1150326,
+    "SCSS": 314781,
+    "ActionScript": 20009,
+    "Shell": 3843,
+    "XSLT": 2135,
+    "TSQL": 1167,
+    "Batchfile": 1036,
+    "PowerShell": 1028,
+    "Ruby": 288
+  },
+  "size": 58035714
+}

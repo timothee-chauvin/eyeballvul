@@ -1,0 +1,10 @@
+{
+  "commit": "570e653ac2beb5fdf56151334f65461b91085944",
+  "repo_url": "https://github.com/poezio/slixmpp",
+  "date": "2018-10-28T13:15:51",
+  "languages": {
+    "Python": 1582929,
+    "Cython": 2432
+  },
+  "size": 1585361
+}

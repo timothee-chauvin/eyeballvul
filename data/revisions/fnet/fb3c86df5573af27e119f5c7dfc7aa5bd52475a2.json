@@ -1,0 +1,15 @@
+{
+  "commit": "fb3c86df5573af27e119f5c7dfc7aa5bd52475a2",
+  "repo_url": "https://github.com/butok/fnet",
+  "date": "2018-10-17T11:30:09",
+  "languages": {
+    "C": 18661101,
+    "Assembly": 610357,
+    "C++": 52955,
+    "HTML": 13606,
+    "CSS": 13017,
+    "Shell": 5610,
+    "Batchfile": 222
+  },
+  "size": 19356868
+}

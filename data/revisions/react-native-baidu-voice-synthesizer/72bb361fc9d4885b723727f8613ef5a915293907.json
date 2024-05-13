@@ -1,0 +1,12 @@
+{
+  "commit": "72bb361fc9d4885b723727f8613ef5a915293907",
+  "repo_url": "https://github.com/react-melon/react-native-baidu-voice-synthesizer",
+  "date": "2016-08-19T10:56:27",
+  "languages": {
+    "Objective-C": 13226,
+    "JavaScript": 6447,
+    "Starlark": 1639,
+    "Java": 1231
+  },
+  "size": 22543
+}

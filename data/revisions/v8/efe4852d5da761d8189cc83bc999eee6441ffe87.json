@@ -1,0 +1,19 @@
+{
+  "commit": "efe4852d5da761d8189cc83bc999eee6441ffe87",
+  "repo_url": "https://github.com/v8/v8",
+  "date": "2014-09-24T02:37:53",
+  "languages": {
+    "C++": 44647866,
+    "JavaScript": 9900098,
+    "Python": 958743,
+    "Shell": 53399,
+    "HTML": 21723,
+    "Makefile": 20717,
+    "Lua": 14392,
+    "C": 13589,
+    "Scheme": 10604,
+    "CSS": 5554,
+    "Batchfile": 1307
+  },
+  "size": 55647992
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "6feaec02facd3a3d3ee7d702e51bb89fb8ee26b6",
+  "repo_url": "https://github.com/muttmua/mutt",
+  "date": "2020-05-25T20:37:20",
+  "languages": {
+    "C": 3464439,
+    "M4": 103857,
+    "Perl": 37060,
+    "C++": 33691,
+    "Shell": 24618,
+    "Makefile": 20452,
+    "Python": 9695,
+    "Yacc": 8375,
+    "Vim Script": 2684,
+    "Roff": 2180
+  },
+  "size": 3707051
+}

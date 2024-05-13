@@ -1,0 +1,13 @@
+{
+  "commit": "4525703f9dd1347a38446e137d56de94dcd06ee7",
+  "repo_url": "https://github.com/hashicorp/consul-template",
+  "date": "2022-06-24T19:52:11",
+  "languages": {
+    "Go": 854279,
+    "HCL": 5356,
+    "Makefile": 1923,
+    "Shell": 1678,
+    "Dockerfile": 1051
+  },
+  "size": 864287
+}

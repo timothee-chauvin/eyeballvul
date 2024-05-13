@@ -1,0 +1,21 @@
+{
+  "commit": "c079383d2033404b8a5af7c2f552843444f3440a",
+  "repo_url": "https://github.com/appertafoundation/openeyes",
+  "date": "2020-07-02T14:37:34",
+  "languages": {
+    "PHP": 18253307,
+    "PLpgSQL": 3688045,
+    "JavaScript": 3371740,
+    "SCSS": 539276,
+    "CSS": 411985,
+    "HTML": 171175,
+    "Shell": 100959,
+    "Hack": 37780,
+    "Gherkin": 10897,
+    "CoffeeScript": 6636,
+    "Ruby": 4792,
+    "Batchfile": 380,
+    "Makefile": 285
+  },
+  "size": 26597257
+}

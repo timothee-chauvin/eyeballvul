@@ -1,0 +1,10 @@
+{
+  "commit": "c85a38c595c6f45609f9984c3254a33996ed587d",
+  "repo_url": "https://github.com/stnoonan/spnego-http-auth-nginx-module",
+  "date": "2015-07-20T12:21:32",
+  "languages": {
+    "C": 36381,
+    "Makefile": 972
+  },
+  "size": 37353
+}

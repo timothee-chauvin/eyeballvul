@@ -1,0 +1,17 @@
+{
+  "commit": "fd46f83d2daca51055633875671e5fa41e454ca4",
+  "repo_url": "https://github.com/kphrx/pleroma",
+  "date": "2023-03-02T00:50:02",
+  "languages": {
+    "Elixir": 4957187,
+    "HTML": 104327,
+    "Erlang": 28850,
+    "Shell": 11097,
+    "CSS": 9209,
+    "VCL": 3552,
+    "Dockerfile": 1928,
+    "JavaScript": 942,
+    "Procfile": 46
+  },
+  "size": 5117138
+}

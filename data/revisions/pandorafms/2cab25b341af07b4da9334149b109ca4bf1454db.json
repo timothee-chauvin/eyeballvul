@@ -1,0 +1,26 @@
+{
+  "commit": "2cab25b341af07b4da9334149b109ca4bf1454db",
+  "repo_url": "https://github.com/pandorafms/pandorafms",
+  "date": "2015-10-20T10:02:53",
+  "languages": {
+    "PHP": 7288222,
+    "JavaScript": 2588649,
+    "Perl": 1665574,
+    "C++": 1246473,
+    "PLpgSQL": 779952,
+    "C": 465336,
+    "CSS": 405576,
+    "Shell": 360365,
+    "Java": 348825,
+    "HTML": 199188,
+    "PLSQL": 100738,
+    "Hack": 90938,
+    "VBScript": 68482,
+    "Makefile": 34440,
+    "Roff": 4438,
+    "M4": 2296,
+    "Awk": 1755,
+    "Batchfile": 1240
+  },
+  "size": 15652487
+}

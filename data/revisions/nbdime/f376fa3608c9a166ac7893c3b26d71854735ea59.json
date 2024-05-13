@@ -1,0 +1,14 @@
+{
+  "commit": "f376fa3608c9a166ac7893c3b26d71854735ea59",
+  "repo_url": "https://github.com/jupyter/nbdime",
+  "date": "2021-05-25T16:14:45",
+  "languages": {
+    "Python": 608295,
+    "TypeScript": 550112,
+    "Jupyter Notebook": 235558,
+    "CSS": 34505,
+    "JavaScript": 9145,
+    "HTML": 7018
+  },
+  "size": 1444633
+}

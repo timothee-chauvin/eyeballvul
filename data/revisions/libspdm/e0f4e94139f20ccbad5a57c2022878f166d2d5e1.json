@@ -1,0 +1,14 @@
+{
+  "commit": "e0f4e94139f20ccbad5a57c2022878f166d2d5e1",
+  "repo_url": "https://github.com/dmtf/libspdm",
+  "date": "2023-01-10T17:53:20",
+  "languages": {
+    "C": 8487298,
+    "CMake": 251575,
+    "Shell": 29108,
+    "Python": 3588,
+    "Perl": 3455,
+    "Dockerfile": 1049
+  },
+  "size": 8776073
+}

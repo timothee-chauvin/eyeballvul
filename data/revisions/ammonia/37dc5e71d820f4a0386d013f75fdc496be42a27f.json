@@ -1,0 +1,10 @@
+{
+  "commit": "37dc5e71d820f4a0386d013f75fdc496be42a27f",
+  "repo_url": "https://github.com/rust-ammonia/ammonia",
+  "date": "2018-12-28T19:20:22",
+  "languages": {
+    "Rust": 89353,
+    "Python": 1384
+  },
+  "size": 90737
+}

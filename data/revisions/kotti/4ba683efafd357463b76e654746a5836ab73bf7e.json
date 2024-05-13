@@ -1,0 +1,14 @@
+{
+  "commit": "4ba683efafd357463b76e654746a5836ab73bf7e",
+  "repo_url": "https://github.com/kotti/kotti",
+  "date": "2018-03-19T10:01:14",
+  "languages": {
+    "Python": 556370,
+    "JavaScript": 7156,
+    "Shell": 1276,
+    "CSS": 675,
+    "Mako": 413,
+    "Makefile": 344
+  },
+  "size": 566234
+}

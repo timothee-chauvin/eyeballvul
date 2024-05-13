@@ -1,0 +1,16 @@
+{
+  "commit": "1ddacbd2b1b81fc2050414975127bdac2d957030",
+  "repo_url": "https://github.com/cubecart/v6",
+  "date": "2020-12-01T10:58:14",
+  "languages": {
+    "PHP": 4216451,
+    "CSS": 991033,
+    "Hack": 603607,
+    "JavaScript": 503985,
+    "HTML": 215643,
+    "Smarty": 5221,
+    "Makefile": 857,
+    "Dockerfile": 335
+  },
+  "size": 6537132
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "2eb320bd31078e3728b91e4badc597624d0827f8",
+  "repo_url": "https://github.com/openstack/horizon",
+  "date": "2016-03-31T16:37:12",
+  "languages": {
+    "Python": 4911754,
+    "JavaScript": 1502951,
+    "HTML": 485906,
+    "SCSS": 124255,
+    "Shell": 23258,
+    "Makefile": 588
+  },
+  "size": 7048712
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "53b6711d387a6ce28e9fae84c0d3cbda7dcc7c08",
+  "repo_url": "https://github.com/pommes-frites/piwigo-facetag",
+  "date": "2017-03-19T08:49:26",
+  "languages": {
+    "JavaScript": 11097,
+    "PHP": 9562,
+    "Smarty": 2269,
+    "CSS": 1061
+  },
+  "size": 23989
+}

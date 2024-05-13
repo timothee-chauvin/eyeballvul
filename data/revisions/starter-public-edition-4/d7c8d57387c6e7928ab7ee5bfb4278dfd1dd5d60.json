@@ -1,0 +1,20 @@
+{
+  "commit": "d7c8d57387c6e7928ab7ee5bfb4278dfd1dd5d60",
+  "repo_url": "https://github.com/ivantcholakov/starter-public-edition-4",
+  "date": "2022-09-04T10:03:17",
+  "languages": {
+    "JavaScript": 4972885,
+    "PHP": 3050092,
+    "Less": 811973,
+    "CSS": 539857,
+    "Twig": 505582,
+    "HTML": 347816,
+    "Handlebars": 2353,
+    "TypeScript": 596,
+    "Makefile": 546,
+    "Mustache": 410,
+    "Hack": 398,
+    "SCSS": 94
+  },
+  "size": 10232602
+}

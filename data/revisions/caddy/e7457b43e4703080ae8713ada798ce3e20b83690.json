@@ -1,0 +1,10 @@
+{
+  "commit": "e7457b43e4703080ae8713ada798ce3e20b83690",
+  "repo_url": "https://github.com/caddyserver/caddy",
+  "date": "2021-11-08T20:45:03",
+  "languages": {
+    "Go": 1449972,
+    "Shell": 103
+  },
+  "size": 1450075
+}

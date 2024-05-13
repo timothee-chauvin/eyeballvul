@@ -1,0 +1,11 @@
+{
+  "commit": "8c941bf26d9f5bfd6cd1cabd579423aa8f6d69e2",
+  "repo_url": "https://github.com/jenkinsci/github-pr-coverage-status-plugin",
+  "date": "2022-11-18T22:04:33",
+  "languages": {
+    "Java": 115523,
+    "HTML": 4782,
+    "Groovy": 1363
+  },
+  "size": 121668
+}

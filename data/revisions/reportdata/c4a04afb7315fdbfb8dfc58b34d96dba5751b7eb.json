@@ -1,0 +1,11 @@
+{
+  "commit": "c4a04afb7315fdbfb8dfc58b34d96dba5751b7eb",
+  "repo_url": "https://github.com/munkireport/reportdata",
+  "date": "2020-05-11T21:43:27",
+  "languages": {
+    "PHP": 22150,
+    "Hack": 7518,
+    "JavaScript": 1241
+  },
+  "size": 30909
+}

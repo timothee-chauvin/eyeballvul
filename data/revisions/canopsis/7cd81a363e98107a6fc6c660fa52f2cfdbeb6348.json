@@ -1,0 +1,26 @@
+{
+  "commit": "7cd81a363e98107a6fc6c660fa52f2cfdbeb6348",
+  "repo_url": "https://github.com/capensis/canopsis",
+  "date": "2023-01-24T10:17:28",
+  "languages": {
+    "Gherkin": 4813311,
+    "Go": 3565584,
+    "JavaScript": 3046478,
+    "Vue": 1952454,
+    "Python": 678902,
+    "Jinja": 78202,
+    "PLpgSQL": 36055,
+    "Shell": 20189,
+    "Makefile": 19634,
+    "Dockerfile": 16893,
+    "CSS": 5582,
+    "HTML": 4221,
+    "SCSS": 4120,
+    "BitBake": 1429,
+    "NASL": 1328,
+    "Pawn": 667,
+    "Vim Script": 497,
+    "Self": 122
+  },
+  "size": 14245668
+}

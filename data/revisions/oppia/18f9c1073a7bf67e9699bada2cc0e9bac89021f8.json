@@ -1,0 +1,15 @@
+{
+  "commit": "18f9c1073a7bf67e9699bada2cc0e9bac89021f8",
+  "repo_url": "https://github.com/oppia/oppia",
+  "date": "2019-10-28T20:30:22",
+  "languages": {
+    "Python": 8813408,
+    "TypeScript": 5882590,
+    "HTML": 1100528,
+    "JavaScript": 675850,
+    "CSS": 97757,
+    "PEG.js": 71377,
+    "Shell": 9925
+  },
+  "size": 16651435
+}

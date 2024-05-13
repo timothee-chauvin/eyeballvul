@@ -1,0 +1,14 @@
+{
+  "commit": "c820c2ba7b7cc41015c3f7487b7f09d5b47b8310",
+  "repo_url": "https://github.com/chocolatey/boxstarter",
+  "date": "2018-10-30T15:39:36",
+  "languages": {
+    "PowerShell": 549079,
+    "Python": 224376,
+    "HTML": 119164,
+    "C#": 3829,
+    "CSS": 1302,
+    "Batchfile": 582
+  },
+  "size": 898332
+}

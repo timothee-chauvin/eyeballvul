@@ -1,0 +1,16 @@
+{
+  "commit": "fd4a136f9a583fbcf240b1d73103f9353391afb0",
+  "repo_url": "https://github.com/code4craft/webmagic",
+  "date": "2023-06-22T03:23:41",
+  "languages": {
+    "Java": 765774,
+    "HTML": 231706,
+    "JavaScript": 1777,
+    "Kotlin": 1371,
+    "Ruby": 832,
+    "Groovy": 545,
+    "Python": 393,
+    "Shell": 193
+  },
+  "size": 1002591
+}

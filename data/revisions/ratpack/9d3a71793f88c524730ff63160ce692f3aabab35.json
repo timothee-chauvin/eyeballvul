@@ -1,0 +1,18 @@
+{
+  "commit": "9d3a71793f88c524730ff63160ce692f3aabab35",
+  "repo_url": "https://github.com/ratpack/ratpack",
+  "date": "2018-12-21T01:34:24",
+  "languages": {
+    "Java": 2899972,
+    "Groovy": 1281552,
+    "SCSS": 37842,
+    "JavaScript": 29748,
+    "HTML": 3968,
+    "Shell": 1504,
+    "Ruby": 371,
+    "CSS": 72,
+    "Procfile": 22,
+    "Handlebars": 20
+  },
+  "size": 4255071
+}

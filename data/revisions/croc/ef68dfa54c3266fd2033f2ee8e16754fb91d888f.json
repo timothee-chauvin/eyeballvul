@@ -1,0 +1,12 @@
+{
+  "commit": "ef68dfa54c3266fd2033f2ee8e16754fb91d888f",
+  "repo_url": "https://github.com/schollz/croc",
+  "date": "2023-07-06T17:10:57",
+  "languages": {
+    "Go": 135229,
+    "Shell": 27194,
+    "Makefile": 526,
+    "Dockerfile": 326
+  },
+  "size": 163275
+}

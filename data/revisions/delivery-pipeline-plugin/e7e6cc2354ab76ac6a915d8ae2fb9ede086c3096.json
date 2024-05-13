@@ -1,0 +1,15 @@
+{
+  "commit": "e7e6cc2354ab76ac6a915d8ae2fb9ede086c3096",
+  "repo_url": "https://github.com/diabol/delivery-pipeline-plugin",
+  "date": "2017-10-19T20:06:01",
+  "languages": {
+    "Java": 622882,
+    "JavaScript": 62589,
+    "CSS": 35582,
+    "HTML": 4744,
+    "Shell": 1311,
+    "Groovy": 1273,
+    "Dockerfile": 688
+  },
+  "size": 729069
+}

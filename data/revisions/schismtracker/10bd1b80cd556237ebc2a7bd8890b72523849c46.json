@@ -1,0 +1,15 @@
+{
+  "commit": "10bd1b80cd556237ebc2a7bd8890b72523849c46",
+  "repo_url": "https://github.com/schismtracker/schismtracker",
+  "date": "2019-07-23T00:55:48",
+  "languages": {
+    "C": 2611293,
+    "Python": 29848,
+    "Objective-C": 25325,
+    "M4": 11778,
+    "Roff": 10857,
+    "Makefile": 8865,
+    "Shell": 2893
+  },
+  "size": 2700859
+}

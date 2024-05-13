@@ -1,0 +1,15 @@
+{
+  "commit": "92cb9862633a99a4a3733435c077ba4ffc62679e",
+  "repo_url": "https://github.com/chocobozzz/peertube",
+  "date": "2021-08-31T06:43:11",
+  "languages": {
+    "TypeScript": 5080176,
+    "HTML": 451196,
+    "SCSS": 254955,
+    "Shell": 30351,
+    "Pug": 19092,
+    "JavaScript": 12590,
+    "Dockerfile": 332
+  },
+  "size": 5848692
+}

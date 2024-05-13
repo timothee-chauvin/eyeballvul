@@ -1,0 +1,14 @@
+{
+  "commit": "8b4977ae8b612c8d7dc06759929bc2224d7c163c",
+  "repo_url": "https://github.com/valvesoftware/gamenetworkingsockets",
+  "date": "2020-02-28T00:39:53",
+  "languages": {
+    "C++": 1422991,
+    "C": 470934,
+    "CMake": 46769,
+    "Meson": 9998,
+    "Shell": 9884,
+    "Python": 8119
+  },
+  "size": 1968695
+}

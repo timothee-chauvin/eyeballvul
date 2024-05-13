@@ -1,0 +1,16 @@
+{
+  "commit": "3d93c649f65c9f47dbf10716df993262534f97fc",
+  "repo_url": "https://github.com/byteball/obyte-gui-wallet",
+  "date": "2021-09-04T11:06:21",
+  "languages": {
+    "JavaScript": 754543,
+    "HTML": 297467,
+    "CSS": 64467,
+    "Python": 17134,
+    "Shell": 12018,
+    "Inno Setup": 8030,
+    "C#": 2066,
+    "Makefile": 2056
+  },
+  "size": 1157781
+}

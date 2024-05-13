@@ -1,0 +1,23 @@
+{
+  "commit": "f6c3c4ae53cb17571604e98ec49d6e8f01c043c2",
+  "repo_url": "https://github.com/azure/azure-cli",
+  "date": "2022-07-29T03:20:22",
+  "languages": {
+    "Python": 24250474,
+    "Roff": 1036959,
+    "Shell": 56023,
+    "Batchfile": 14110,
+    "Rich Text Format": 12032,
+    "Dockerfile": 8427,
+    "ANTLR": 5355,
+    "C#": 1971,
+    "PowerShell": 1781,
+    "Bicep": 1679,
+    "JavaScript": 1404,
+    "TSQL": 1145,
+    "HTML": 790,
+    "Jupyter Notebook": 389,
+    "C++": 275
+  },
+  "size": 25392814
+}

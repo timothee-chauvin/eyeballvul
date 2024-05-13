@@ -1,0 +1,15 @@
+{
+  "commit": "e5ae53dcf65726c6ca737bfee8a98c18e7c86e81",
+  "repo_url": "https://github.com/numbas/numbas",
+  "date": "2023-11-10T09:04:29",
+  "languages": {
+    "JavaScript": 5273365,
+    "HTML": 427168,
+    "Python": 123468,
+    "XSLT": 46733,
+    "CSS": 45007,
+    "Makefile": 5142,
+    "Shell": 936
+  },
+  "size": 5921819
+}

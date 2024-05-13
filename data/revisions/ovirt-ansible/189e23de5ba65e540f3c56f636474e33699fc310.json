@@ -1,0 +1,12 @@
+{
+  "commit": "189e23de5ba65e540f3c56f636474e33699fc310",
+  "repo_url": "https://github.com/ovirt/ovirt-ansible",
+  "date": "2018-05-01T20:20:52",
+  "languages": {
+    "Python": 142390,
+    "Makefile": 4558,
+    "Shell": 1200,
+    "Jinja": 975
+  },
+  "size": 149123
+}

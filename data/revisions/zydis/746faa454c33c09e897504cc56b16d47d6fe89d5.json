@@ -1,0 +1,11 @@
+{
+  "commit": "746faa454c33c09e897504cc56b16d47d6fe89d5",
+  "repo_url": "https://github.com/zyantific/zydis",
+  "date": "2021-10-16T14:52:05",
+  "languages": {
+    "C": 9333383,
+    "CMake": 13325,
+    "Python": 1985
+  },
+  "size": 9348693
+}

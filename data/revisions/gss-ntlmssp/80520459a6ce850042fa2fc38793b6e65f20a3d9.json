@@ -1,0 +1,12 @@
+{
+  "commit": "80520459a6ce850042fa2fc38793b6e65f20a3d9",
+  "repo_url": "https://github.com/gssapi/gss-ntlmssp",
+  "date": "2022-04-01T18:57:58",
+  "languages": {
+    "C": 463824,
+    "M4": 9365,
+    "Makefile": 6335,
+    "Shell": 1817
+  },
+  "size": 481341
+}

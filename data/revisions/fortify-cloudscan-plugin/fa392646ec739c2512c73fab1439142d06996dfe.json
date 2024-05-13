@@ -1,0 +1,11 @@
+{
+  "commit": "fa392646ec739c2512c73fab1439142d06996dfe",
+  "repo_url": "https://github.com/jenkinsci/fortify-cloudscan-plugin",
+  "date": "2018-04-27T20:38:02",
+  "languages": {
+    "Java": 59556,
+    "HTML": 4722,
+    "Shell": 222
+  },
+  "size": 64500
+}

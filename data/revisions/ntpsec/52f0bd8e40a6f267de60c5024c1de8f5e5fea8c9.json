@@ -1,0 +1,25 @@
+{
+  "commit": "52f0bd8e40a6f267de60c5024c1de8f5e5fea8c9",
+  "repo_url": "https://github.com/ntpsec/ntpsec",
+  "date": "2015-05-12T13:35:09",
+  "languages": {
+    "C": 9888688,
+    "Roff": 1042124,
+    "HTML": 1029062,
+    "M4": 301393,
+    "C++": 175966,
+    "Perl": 153961,
+    "Makefile": 140731,
+    "Shell": 66199,
+    "Python": 57159,
+    "Yacc": 30984,
+    "Awk": 20366,
+    "Batchfile": 20099,
+    "Scheme": 5087,
+    "CSS": 3084,
+    "Assembly": 2098,
+    "sed": 1947,
+    "Emacs Lisp": 521
+  },
+  "size": 12939469
+}

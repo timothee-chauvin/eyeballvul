@@ -1,0 +1,11 @@
+{
+  "commit": "9162255af21aded87b597d1ce98e3f8cbe835dff",
+  "repo_url": "https://github.com/perl5-dbi/dbd-mysql",
+  "date": "2016-08-23T05:50:01",
+  "languages": {
+    "Perl": 247042,
+    "C": 191655,
+    "Raku": 129
+  },
+  "size": 438826
+}

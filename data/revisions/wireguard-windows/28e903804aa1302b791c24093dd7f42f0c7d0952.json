@@ -1,0 +1,13 @@
+{
+  "commit": "28e903804aa1302b791c24093dd7f42f0c7d0952",
+  "repo_url": "https://github.com/wireguard/wireguard-windows",
+  "date": "2021-12-22T17:41:20",
+  "languages": {
+    "Go": 664185,
+    "C": 107786,
+    "C#": 41038,
+    "Batchfile": 9668,
+    "Makefile": 5825
+  },
+  "size": 828502
+}

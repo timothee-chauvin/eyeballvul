@@ -1,0 +1,18 @@
+{
+  "commit": "55e14377de15bf9f66ca6e146537a964cf10b39a",
+  "repo_url": "https://github.com/lldpd/lldpd",
+  "date": "2020-10-31T14:57:07",
+  "languages": {
+    "C": 1451025,
+    "Python": 115844,
+    "M4": 74531,
+    "Roff": 41760,
+    "Makefile": 14407,
+    "Shell": 14093,
+    "Ruby": 3254,
+    "HTML": 1429,
+    "Awk": 784,
+    "Nix": 466
+  },
+  "size": 1717593
+}

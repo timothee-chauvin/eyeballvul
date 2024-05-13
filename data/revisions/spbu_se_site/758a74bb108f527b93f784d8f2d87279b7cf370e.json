@@ -1,0 +1,16 @@
+{
+  "commit": "758a74bb108f527b93f784d8f2d87279b7cf370e",
+  "repo_url": "https://github.com/spbu-se/spbu_se_site",
+  "date": "2023-12-02T13:45:23",
+  "languages": {
+    "HTML": 8494336,
+    "CSS": 1438468,
+    "JavaScript": 1305234,
+    "Python": 490546,
+    "Rich Text Format": 16735,
+    "Mako": 494,
+    "Dockerfile": 209,
+    "Ruby": 61
+  },
+  "size": 11746083
+}

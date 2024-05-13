@@ -1,0 +1,21 @@
+{
+  "commit": "a93e63bd3ae5c892613b7f7721802b695085ec6c",
+  "repo_url": "https://github.com/xwiki/xwiki-platform",
+  "date": "2017-10-17T13:25:29",
+  "languages": {
+    "Java": 21379910,
+    "JavaScript": 981328,
+    "HTML": 232485,
+    "AspectJ": 198771,
+    "CSS": 116257,
+    "XSLT": 110894,
+    "Less": 78365,
+    "Clean": 44054,
+    "Shell": 30243,
+    "AMPL": 25248,
+    "Batchfile": 13452,
+    "Python": 3659,
+    "Groovy": 599
+  },
+  "size": 23215265
+}

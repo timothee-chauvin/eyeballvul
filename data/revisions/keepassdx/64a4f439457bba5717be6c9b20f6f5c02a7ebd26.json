@@ -1,0 +1,14 @@
+{
+  "commit": "64a4f439457bba5717be6c9b20f6f5c02a7ebd26",
+  "repo_url": "https://github.com/kunzisoft/keepassdx",
+  "date": "2017-11-17T14:32:09",
+  "languages": {
+    "Java": 901306,
+    "C": 438107,
+    "Assembly": 82009,
+    "C++": 5183,
+    "CMake": 1170,
+    "Makefile": 186
+  },
+  "size": 1427961
+}

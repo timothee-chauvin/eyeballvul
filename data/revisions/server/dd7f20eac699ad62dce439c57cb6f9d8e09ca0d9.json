@@ -1,0 +1,19 @@
+{
+  "commit": "dd7f20eac699ad62dce439c57cb6f9d8e09ca0d9",
+  "repo_url": "https://github.com/kaltura/server",
+  "date": "2017-02-27T09:42:08",
+  "languages": {
+    "PHP": 27139680,
+    "JavaScript": 3724981,
+    "HTML": 1251423,
+    "CSS": 483634,
+    "XSLT": 78493,
+    "Hack": 57847,
+    "Python": 48849,
+    "Shell": 35211,
+    "Java": 22994,
+    "Makefile": 285,
+    "PowerShell": 131
+  },
+  "size": 32843528
+}

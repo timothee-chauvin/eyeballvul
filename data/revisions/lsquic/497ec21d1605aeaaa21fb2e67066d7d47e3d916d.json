@@ -1,0 +1,17 @@
+{
+  "commit": "497ec21d1605aeaaa21fb2e67066d7d47e3d916d",
+  "repo_url": "https://github.com/litespeedtech/lsquic",
+  "date": "2022-01-11T16:17:44",
+  "languages": {
+    "C": 4458061,
+    "NASL": 1383362,
+    "C++": 28868,
+    "CMake": 22613,
+    "Perl": 7076,
+    "Makefile": 2193,
+    "Batchfile": 858,
+    "Dockerfile": 747,
+    "Shell": 326
+  },
+  "size": 5904104
+}

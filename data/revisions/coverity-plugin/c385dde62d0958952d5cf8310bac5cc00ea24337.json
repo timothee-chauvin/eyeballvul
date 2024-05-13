@@ -1,0 +1,12 @@
+{
+  "commit": "c385dde62d0958952d5cf8310bac5cc00ea24337",
+  "repo_url": "https://github.com/jenkinsci/coverity-plugin",
+  "date": "2017-08-24T20:23:35",
+  "languages": {
+    "Java": 1667377,
+    "HTML": 57367,
+    "Python": 1787,
+    "Shell": 278
+  },
+  "size": 1726809
+}

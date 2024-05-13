@@ -1,0 +1,13 @@
+{
+  "commit": "67fa55813b9e7b3b9acee9c0ae501def28746d76",
+  "repo_url": "https://github.com/marmelroy/zip",
+  "date": "2022-02-23T13:46:51",
+  "languages": {
+    "Swift": 44749,
+    "C": 35813,
+    "Shell": 2861,
+    "Ruby": 1805,
+    "Objective-C": 250
+  },
+  "size": 85478
+}

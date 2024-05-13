@@ -1,0 +1,29 @@
+{
+  "commit": "dc5887818eabd2c77b56521868fa347241a7770d",
+  "repo_url": "https://github.com/radareorg/radare2-extras",
+  "date": "2020-04-14T02:59:48",
+  "languages": {
+    "C": 7904359,
+    "POV-Ray SDL": 1107170,
+    "C++": 303317,
+    "SourcePawn": 211326,
+    "Python": 110158,
+    "Makefile": 87505,
+    "Pawn": 67148,
+    "JavaScript": 64465,
+    "Assembly": 42282,
+    "Vala": 37360,
+    "Shell": 21287,
+    "HTML": 19936,
+    "Awk": 8749,
+    "R": 6495,
+    "CSS": 5784,
+    "Rust": 5556,
+    "Perl": 3112,
+    "Roff": 3040,
+    "M4": 2382,
+    "D": 336,
+    "Batchfile": 92
+  },
+  "size": 10011859
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "c2c93cfbaa7c51d789c5b156275add7f5705aa31",
+  "repo_url": "https://github.com/nakiami/mellivora",
+  "date": "2018-05-07T12:35:31",
+  "languages": {
+    "PHP": 282637,
+    "CSS": 6476,
+    "JavaScript": 2939,
+    "Shell": 2775,
+    "Dockerfile": 701
+  },
+  "size": 295528
+}

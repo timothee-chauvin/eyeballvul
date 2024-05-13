@@ -1,0 +1,22 @@
+{
+  "commit": "7cb228c16d69aee297a106ad3ccc7461fa0b8045",
+  "repo_url": "https://github.com/google/perfetto",
+  "date": "2022-02-10T17:02:59",
+  "languages": {
+    "C++": 18134378,
+    "TypeScript": 1447943,
+    "Python": 758585,
+    "Starlark": 186410,
+    "JavaScript": 110675,
+    "SCSS": 107864,
+    "Shell": 76245,
+    "C": 47992,
+    "HTML": 14835,
+    "Java": 12441,
+    "Makefile": 10742,
+    "Dockerfile": 6595,
+    "CSS": 6080,
+    "Meson": 1283
+  },
+  "size": 20922068
+}

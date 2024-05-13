@@ -1,0 +1,14 @@
+{
+  "commit": "fbecab2986e4e97ef9b7016aa7bec72b4b27b67f",
+  "repo_url": "https://github.com/open-falcon/dashboard",
+  "date": "2017-06-08T03:49:52",
+  "languages": {
+    "JavaScript": 848694,
+    "HTML": 179024,
+    "Python": 158262,
+    "CSS": 42940,
+    "Shell": 2444,
+    "Dockerfile": 567
+  },
+  "size": 1231931
+}

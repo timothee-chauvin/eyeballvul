@@ -1,0 +1,18 @@
+{
+  "commit": "3ba8e0f36948276d3620a8627449e17f183ced54",
+  "repo_url": "https://github.com/slic3r/slic3r",
+  "date": "2018-05-08T22:47:09",
+  "languages": {
+    "C++": 3015224,
+    "Perl": 1339996,
+    "C": 653922,
+    "Shell": 24712,
+    "PowerShell": 13453,
+    "CMake": 6627,
+    "OpenSCAD": 1067,
+    "Makefile": 769,
+    "JavaScript": 607,
+    "Python": 326
+  },
+  "size": 5056703
+}

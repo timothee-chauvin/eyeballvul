@@ -1,0 +1,16 @@
+{
+  "commit": "cac608ad7bfaf6315fd2319a8af37da307abdeb9",
+  "repo_url": "https://github.com/opentsdb/opentsdb",
+  "date": "2016-12-31T20:17:48",
+  "languages": {
+    "Java": 4459278,
+    "Makefile": 32531,
+    "Shell": 29247,
+    "Python": 14736,
+    "M4": 3281,
+    "Dockerfile": 1424,
+    "Emacs Lisp": 170,
+    "Batchfile": 55
+  },
+  "size": 4540722
+}

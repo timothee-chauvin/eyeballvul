@@ -1,0 +1,17 @@
+{
+  "commit": "1bad4dfd071c42380bad721648b329556bac8b89",
+  "repo_url": "https://github.com/farmbot/farmbot-web-app",
+  "date": "2023-08-30T18:48:43",
+  "languages": {
+    "TypeScript": 4877879,
+    "Ruby": 953405,
+    "SCSS": 238978,
+    "HTML": 43520,
+    "JavaScript": 25254,
+    "Shell": 4400,
+    "CSS": 3915,
+    "Dockerfile": 1024,
+    "Procfile": 325
+  },
+  "size": 6148700
+}

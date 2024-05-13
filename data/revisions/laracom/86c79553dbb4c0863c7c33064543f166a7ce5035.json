@@ -1,0 +1,11 @@
+{
+  "commit": "86c79553dbb4c0863c7c33064543f166a7ce5035",
+  "repo_url": "https://github.com/jsdecena/laracom",
+  "date": "2021-07-01T03:51:07",
+  "languages": {
+    "PHP": 2601589,
+    "Blade": 343934,
+    "Dockerfile": 605
+  },
+  "size": 2946128
+}

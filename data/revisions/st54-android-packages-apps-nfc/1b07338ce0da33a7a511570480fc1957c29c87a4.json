@@ -1,0 +1,13 @@
+{
+  "commit": "1b07338ce0da33a7a511570480fc1957c29c87a4",
+  "repo_url": "https://github.com/stmicroelectronics/st54-android-packages-apps-nfc",
+  "date": "2022-09-30T09:30:20",
+  "languages": {
+    "Java": 1443620,
+    "C++": 1397275,
+    "Makefile": 2441,
+    "C": 2201,
+    "AIDL": 683
+  },
+  "size": 2846220
+}

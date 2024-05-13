@@ -1,0 +1,15 @@
+{
+  "commit": "06ff551cf5ba489bd52712b8f02d98e7add86e26",
+  "repo_url": "https://github.com/camptocamp/terraboard",
+  "date": "2022-03-05T14:32:10",
+  "languages": {
+    "Go": 1583255,
+    "Vue": 87401,
+    "Makefile": 2662,
+    "HTML": 1783,
+    "TypeScript": 1687,
+    "JavaScript": 508,
+    "Dockerfile": 492
+  },
+  "size": 1677788
+}

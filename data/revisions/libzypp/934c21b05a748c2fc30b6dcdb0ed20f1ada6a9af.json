@@ -1,0 +1,16 @@
+{
+  "commit": "934c21b05a748c2fc30b6dcdb0ed20f1ada6a9af",
+  "repo_url": "https://github.com/opensuse/libzypp",
+  "date": "2017-07-21T11:30:32",
+  "languages": {
+    "C++": 4613035,
+    "CMake": 64514,
+    "Shell": 21142,
+    "Max": 10088,
+    "C": 5806,
+    "JavaScript": 1494,
+    "XSLT": 546,
+    "Python": 373
+  },
+  "size": 4716998
+}

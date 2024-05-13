@@ -1,0 +1,13 @@
+{
+  "commit": "d0f11a3b7e9d63bd2a136665a7a52fb5fe2b90d0",
+  "repo_url": "https://github.com/cloudfavorites/favorites-web",
+  "date": "2018-07-13T02:07:58",
+  "languages": {
+    "HTML": 268983,
+    "Java": 260706,
+    "CSS": 205339,
+    "JavaScript": 122378,
+    "Dockerfile": 72
+  },
+  "size": 857478
+}

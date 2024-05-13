@@ -1,0 +1,12 @@
+{
+  "commit": "08109dcdd686b48365912046e796bc993479808f",
+  "repo_url": "https://github.com/node-swig/swig-templates",
+  "date": "2014-08-04T19:06:55",
+  "languages": {
+    "JavaScript": 180182,
+    "Makefile": 4662,
+    "HTML": 4149,
+    "Shell": 1403
+  },
+  "size": 190396
+}

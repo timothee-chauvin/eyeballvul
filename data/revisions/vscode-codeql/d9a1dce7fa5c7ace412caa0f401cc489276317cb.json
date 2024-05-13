@@ -1,0 +1,12 @@
+{
+  "commit": "d9a1dce7fa5c7ace412caa0f401cc489276317cb",
+  "repo_url": "https://github.com/github/vscode-codeql",
+  "date": "2019-11-13T20:23:53",
+  "languages": {
+    "TypeScript": 323238,
+    "CSS": 2990,
+    "JavaScript": 2646,
+    "CodeQL": 126
+  },
+  "size": 329000
+}

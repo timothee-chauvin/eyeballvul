@@ -1,0 +1,11 @@
+{
+  "commit": "aac889cc10e81d5acdd5eebcfba74f2a6e18bd97",
+  "repo_url": "https://github.com/democritus-project/d8s-html",
+  "date": "2021-03-16T11:11:25",
+  "languages": {
+    "Python": 21082,
+    "Shell": 349,
+    "Dockerfile": 163
+  },
+  "size": 21594
+}

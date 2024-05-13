@@ -1,0 +1,16 @@
+{
+  "commit": "f244d86962f8b34c266c3ee449f04aa312d8971e",
+  "repo_url": "https://github.com/django/django",
+  "date": "2021-01-04T07:47:51",
+  "languages": {
+    "Python": 13836719,
+    "HTML": 228690,
+    "JavaScript": 136881,
+    "CSS": 79718,
+    "Shell": 809,
+    "Smarty": 142,
+    "Makefile": 125,
+    "Procfile": 47
+  },
+  "size": 14283131
+}

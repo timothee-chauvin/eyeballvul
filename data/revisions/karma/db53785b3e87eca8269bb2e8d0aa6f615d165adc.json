@@ -1,0 +1,15 @@
+{
+  "commit": "db53785b3e87eca8269bb2e8d0aa6f615d165adc",
+  "repo_url": "https://github.com/karma-runner/karma",
+  "date": "2022-01-31T23:05:15",
+  "languages": {
+    "JavaScript": 701780,
+    "Gherkin": 40665,
+    "HTML": 9916,
+    "CoffeeScript": 2416,
+    "Shell": 1736,
+    "TypeScript": 1722,
+    "LiveScript": 1707
+  },
+  "size": 759942
+}

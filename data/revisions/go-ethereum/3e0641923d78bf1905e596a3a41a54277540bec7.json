@@ -1,0 +1,23 @@
+{
+  "commit": "3e0641923d78bf1905e596a3a41a54277540bec7",
+  "repo_url": "https://github.com/ethereum/go-ethereum",
+  "date": "2020-08-11T11:10:21",
+  "languages": {
+    "Go": 10281604,
+    "C": 673780,
+    "JavaScript": 437220,
+    "Assembly": 94848,
+    "Java": 30290,
+    "Sage": 30192,
+    "M4": 25931,
+    "NSIS": 23196,
+    "Solidity": 15309,
+    "Makefile": 11945,
+    "HTML": 11271,
+    "Shell": 9348,
+    "Python": 5984,
+    "Ruby": 818,
+    "Dockerfile": 432
+  },
+  "size": 11652168
+}

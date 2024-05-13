@@ -1,0 +1,28 @@
+{
+  "commit": "9fecb7499531ddbcde7970b4d98df92dbc1bc010",
+  "repo_url": "https://github.com/wine-mirror/wine",
+  "date": "2018-04-27T18:23:54",
+  "languages": {
+    "C": 143284677,
+    "Ruby": 7013257,
+    "Python": 753512,
+    "Perl": 710874,
+    "Yacc": 609532,
+    "JavaScript": 382517,
+    "Objective-C": 310304,
+    "Makefile": 168935,
+    "M4": 157863,
+    "Roff": 153930,
+    "C++": 127453,
+    "VBScript": 121882,
+    "Batchfile": 92980,
+    "Lex": 39777,
+    "HTML": 34199,
+    "Java": 30709,
+    "Shell": 22933,
+    "Awk": 3308,
+    "XSLT": 544,
+    "GLSL": 27
+  },
+  "size": 154019213
+}

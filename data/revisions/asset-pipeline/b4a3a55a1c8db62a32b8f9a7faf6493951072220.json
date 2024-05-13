@@ -1,0 +1,20 @@
+{
+  "commit": "b4a3a55a1c8db62a32b8f9a7faf6493951072220",
+  "repo_url": "https://github.com/bertramdev/asset-pipeline",
+  "date": "2018-05-23T22:30:01",
+  "languages": {
+    "JavaScript": 7595549,
+    "HTML": 1319287,
+    "Groovy": 435671,
+    "Less": 203509,
+    "CSS": 161076,
+    "SCSS": 159317,
+    "Java": 56623,
+    "Ruby": 12950,
+    "Lex": 9012,
+    "Python": 5734,
+    "Handlebars": 4631,
+    "Shell": 1427
+  },
+  "size": 9964786
+}

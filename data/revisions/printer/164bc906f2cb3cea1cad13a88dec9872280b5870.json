@@ -1,0 +1,14 @@
+{
+  "commit": "164bc906f2cb3cea1cad13a88dec9872280b5870",
+  "repo_url": "https://github.com/exciting-io/printer",
+  "date": "2012-08-02T09:08:37",
+  "languages": {
+    "Ruby": 57884,
+    "HTML": 15123,
+    "C++": 10512,
+    "JavaScript": 8284,
+    "SCSS": 3088,
+    "Procfile": 112
+  },
+  "size": 95003
+}

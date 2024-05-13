@@ -1,0 +1,11 @@
+{
+  "commit": "9fc06790631d835326fe7ed506255fb141d3c440",
+  "repo_url": "https://github.com/jenkinsci/github-coverage-reporter-plugin",
+  "date": "2019-08-06T19:56:01",
+  "languages": {
+    "Java": 64197,
+    "HTML": 587,
+    "CSS": 262
+  },
+  "size": 65046
+}

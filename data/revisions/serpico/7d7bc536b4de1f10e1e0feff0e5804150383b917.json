@@ -1,0 +1,15 @@
+{
+  "commit": "7d7bc536b4de1f10e1e0feff0e5804150383b917",
+  "repo_url": "https://github.com/serpicoproject/serpico",
+  "date": "2018-06-04T15:13:42",
+  "languages": {
+    "JavaScript": 484149,
+    "HTML": 388111,
+    "Ruby": 233406,
+    "Haml": 180416,
+    "CSS": 34312,
+    "Shell": 2619,
+    "sed": 10
+  },
+  "size": 1323023
+}

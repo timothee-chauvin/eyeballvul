@@ -1,0 +1,19 @@
+{
+  "commit": "fc3c68912d9f5d1040740ed5cfe20362721927db",
+  "repo_url": "https://github.com/robotis-git/dynamixelsdk",
+  "date": "2019-08-19T11:17:33",
+  "languages": {
+    "C#": 789021,
+    "C++": 728004,
+    "Makefile": 421100,
+    "C": 363510,
+    "Python": 263722,
+    "MATLAB": 244617,
+    "Java": 217334,
+    "CSS": 31495,
+    "JavaScript": 30966,
+    "LabVIEW": 8871,
+    "CMake": 4032
+  },
+  "size": 3102672
+}

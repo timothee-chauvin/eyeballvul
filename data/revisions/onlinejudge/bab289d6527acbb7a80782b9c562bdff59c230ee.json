@@ -1,0 +1,14 @@
+{
+  "commit": "bab289d6527acbb7a80782b9c562bdff59c230ee",
+  "repo_url": "https://github.com/qingdaou/onlinejudge",
+  "date": "2016-01-28T13:08:19",
+  "languages": {
+    "JavaScript": 1536047,
+    "Python": 362908,
+    "HTML": 168294,
+    "CSS": 47978,
+    "Dockerfile": 1553,
+    "Shell": 300
+  },
+  "size": 2117080
+}

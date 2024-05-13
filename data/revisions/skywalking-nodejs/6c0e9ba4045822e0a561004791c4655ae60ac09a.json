@@ -1,0 +1,12 @@
+{
+  "commit": "6c0e9ba4045822e0a561004791c4655ae60ac09a",
+  "repo_url": "https://github.com/apache/skywalking-nodejs",
+  "date": "2022-07-06T07:57:56",
+  "languages": {
+    "TypeScript": 187112,
+    "JavaScript": 4165,
+    "Shell": 1375,
+    "Dockerfile": 1034
+  },
+  "size": 193686
+}

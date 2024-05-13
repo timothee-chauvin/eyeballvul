@@ -1,0 +1,11 @@
+{
+  "commit": "af3f1168c1cf490ac15d106bae88c65cf034a89e",
+  "repo_url": "https://github.com/democritus-project/d8s-archives",
+  "date": "2021-03-16T11:10:53",
+  "languages": {
+    "Python": 10169,
+    "Shell": 377,
+    "Dockerfile": 163
+  },
+  "size": 10709
+}

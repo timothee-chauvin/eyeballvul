@@ -1,0 +1,13 @@
+{
+  "commit": "b89b59ecd057dfc939d0c75acaddebb58fcd8cba",
+  "repo_url": "https://github.com/dmgerman/ninka",
+  "date": "2015-07-13T17:40:12",
+  "languages": {
+    "Roff": 236253,
+    "Perl": 62618,
+    "C++": 34748,
+    "Makefile": 1189,
+    "C": 919
+  },
+  "size": 335727
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2020-1",
+  "published": "2020-03-11T16:46:35",
+  "modified": "2023-11-08T03:57:14.773308",
+  "details": "The gzip_decode function in the xmlrpc client library in Python 3.4 and earlier allows remote attackers to cause a denial of service (memory consumption) via a crafted HTTP request.",
+  "summary": "xmlrpc gzip unlimited read",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

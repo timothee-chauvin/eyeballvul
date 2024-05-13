@@ -1,0 +1,14 @@
+{
+  "commit": "a07cb466a34c4d69fc9157acbcc208c79f935850",
+  "repo_url": "https://github.com/manageiq/manageiq",
+  "date": "2023-08-14T20:21:36",
+  "languages": {
+    "Ruby": 7946800,
+    "Shell": 23852,
+    "CSS": 3042,
+    "HTML": 2167,
+    "Dockerfile": 844,
+    "JavaScript": 183
+  },
+  "size": 7976888
+}

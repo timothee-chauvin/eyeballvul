@@ -1,0 +1,19 @@
+{
+  "commit": "e617a4318463009c1bba813fec39c42d261a722f",
+  "repo_url": "https://github.com/nylas-mail-lives/nylas-mail",
+  "date": "2017-11-08T02:25:01",
+  "languages": {
+    "JavaScript": 3310253,
+    "CoffeeScript": 1304123,
+    "Less": 325611,
+    "HTML": 161460,
+    "CSS": 32174,
+    "Shell": 9134,
+    "Python": 2360,
+    "Dockerfile": 1105,
+    "VBScript": 334,
+    "PHP": 328,
+    "Batchfile": 182
+  },
+  "size": 5147064
+}

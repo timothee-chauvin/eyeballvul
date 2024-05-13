@@ -1,0 +1,14 @@
+{
+  "commit": "5aa080241b71e5ac0f72f61e4da515c628742765",
+  "repo_url": "https://github.com/eteran/edb-debugger",
+  "date": "2020-12-14T01:01:38",
+  "languages": {
+    "C++": 2181866,
+    "C": 44401,
+    "CMake": 43938,
+    "Shell": 2033,
+    "Roff": 1852,
+    "Assembly": 679
+  },
+  "size": 2274769
+}

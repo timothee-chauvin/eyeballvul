@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2011-1",
+  "published": "2011-05-09T22:00:00",
+  "modified": "2023-11-08T03:56:58.725930",
+  "details": "The is_cgi method in CGIHTTPServer.py in the CGIHTTPServer module in Python 2.5, 2.6, and 3.0 allows remote attackers to read script source code via an HTTP GET request that lacks a / (slash) character at the beginning of the URI.",
+  "summary": "CGI directory traversal (is_cgi() function)",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

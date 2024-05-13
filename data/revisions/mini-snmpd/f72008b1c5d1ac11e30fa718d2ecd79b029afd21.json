@@ -1,0 +1,14 @@
+{
+  "commit": "f72008b1c5d1ac11e30fa718d2ecd79b029afd21",
+  "repo_url": "https://github.com/troglobit/mini-snmpd",
+  "date": "2017-06-26T11:57:10",
+  "languages": {
+    "C": 103862,
+    "Roff": 4247,
+    "Java": 3330,
+    "M4": 1889,
+    "Makefile": 1510,
+    "Shell": 44
+  },
+  "size": 114882
+}

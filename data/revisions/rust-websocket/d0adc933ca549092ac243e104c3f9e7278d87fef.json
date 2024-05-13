@@ -1,0 +1,10 @@
+{
+  "commit": "d0adc933ca549092ac243e104c3f9e7278d87fef",
+  "repo_url": "https://github.com/websockets-rs/rust-websocket",
+  "date": "2022-03-31T18:37:42",
+  "languages": {
+    "Rust": 199875,
+    "Shell": 3360
+  },
+  "size": 203235
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "b9f1a7bdb9a237f67077104d53e22ce927f8fed1",
+  "repo_url": "https://gitlab.com/universis/universis-api",
+  "date": "2020-07-08T06:29:15",
+  "languages": {
+    "JavaScript": 830319,
+    "HTML": 82369,
+    "EJS": 33888,
+    "SCSS": 4005,
+    "Dockerfile": 305
+  },
+  "size": 950886
+}

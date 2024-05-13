@@ -1,0 +1,16 @@
+{
+  "commit": "b29c32f4584e130279cdf80dea17657662996105",
+  "repo_url": "https://github.com/jschwindt/venganzas-del-pasado",
+  "date": "2020-04-18T20:38:10",
+  "languages": {
+    "Sass": 126603,
+    "Ruby": 96548,
+    "HTML": 65828,
+    "JavaScript": 8660,
+    "SCSS": 3296,
+    "CSS": 2971,
+    "Shell": 2279,
+    "Dockerfile": 99
+  },
+  "size": 306284
+}

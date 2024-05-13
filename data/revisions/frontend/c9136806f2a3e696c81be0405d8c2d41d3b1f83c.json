@@ -1,0 +1,13 @@
+{
+  "commit": "c9136806f2a3e696c81be0405d8c2d41d3b1f83c",
+  "repo_url": "https://github.com/dependencytrack/frontend",
+  "date": "2022-10-11T17:53:50",
+  "languages": {
+    "Vue": 675614,
+    "JavaScript": 40780,
+    "SCSS": 16048,
+    "HTML": 3846,
+    "Shell": 2836
+  },
+  "size": 739124
+}

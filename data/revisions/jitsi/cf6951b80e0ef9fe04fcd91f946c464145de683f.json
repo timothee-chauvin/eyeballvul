@@ -1,0 +1,19 @@
+{
+  "commit": "cf6951b80e0ef9fe04fcd91f946c464145de683f",
+  "repo_url": "https://github.com/jitsi/jitsi",
+  "date": "2017-01-19T02:17:34",
+  "languages": {
+    "Java": 20644250,
+    "C": 491122,
+    "C++": 449512,
+    "Objective-C": 122752,
+    "Makefile": 13895,
+    "VBScript": 11032,
+    "CSS": 7555,
+    "Shell": 6281,
+    "Roff": 2357,
+    "XSLT": 1814,
+    "HTML": 1807
+  },
+  "size": 21752377
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "7e005f741a3f009a1f974ac80d6f6018fdc7528d",
+  "repo_url": "https://github.com/greenshot/greenshot",
+  "date": "2022-10-05T20:29:01",
+  "languages": {
+    "C#": 2846901,
+    "Inno Setup": 1547740,
+    "HTML": 368972,
+    "Pascal": 9283,
+    "Smalltalk": 3396,
+    "NSIS": 274
+  },
+  "size": 4776566
+}

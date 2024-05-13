@@ -1,0 +1,18 @@
+{
+  "commit": "b21c6b00ccf704e1cc7f66228a856ca045c7cd97",
+  "repo_url": "https://github.com/pinterest/querybook",
+  "date": "2020-10-20T17:48:56",
+  "languages": {
+    "TypeScript": 1566118,
+    "Python": 706114,
+    "SCSS": 138140,
+    "JavaScript": 98491,
+    "Shell": 3393,
+    "Dockerfile": 1866,
+    "Makefile": 1697,
+    "HTML": 1021,
+    "Mako": 494,
+    "CSS": 482
+  },
+  "size": 2517816
+}

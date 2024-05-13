@@ -1,0 +1,17 @@
+{
+  "commit": "c776e4cb68600b2ee0a4f38364f4a355502777f1",
+  "repo_url": "https://github.com/faucetsdn/ryu",
+  "date": "2019-10-01T10:42:10",
+  "languages": {
+    "Python": 6137808,
+    "Erlang": 874721,
+    "C": 28540,
+    "Shell": 17573,
+    "JavaScript": 8436,
+    "Gnuplot": 1094,
+    "HTML": 306,
+    "CSS": 306,
+    "Makefile": 88
+  },
+  "size": 7068872
+}

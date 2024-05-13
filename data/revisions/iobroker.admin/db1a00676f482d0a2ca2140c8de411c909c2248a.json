@@ -1,0 +1,13 @@
+{
+  "commit": "db1a00676f482d0a2ca2140c8de411c909c2248a",
+  "repo_url": "https://github.com/iobroker/iobroker.admin",
+  "date": "2019-06-02T21:01:13",
+  "languages": {
+    "JavaScript": 2091660,
+    "HTML": 182286,
+    "Less": 146281,
+    "SCSS": 126068,
+    "CSS": 23277
+  },
+  "size": 2569572
+}

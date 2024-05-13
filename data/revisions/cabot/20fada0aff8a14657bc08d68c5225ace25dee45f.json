@@ -1,0 +1,16 @@
+{
+  "commit": "20fada0aff8a14657bc08d68c5225ace25dee45f",
+  "repo_url": "https://github.com/arachnys/cabot",
+  "date": "2018-03-21T11:22:36",
+  "languages": {
+    "JavaScript": 368548,
+    "Python": 211832,
+    "HTML": 68477,
+    "CSS": 22925,
+    "Shell": 2002,
+    "Dockerfile": 730,
+    "Less": 657,
+    "Procfile": 188
+  },
+  "size": 675359
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "0bf5027fc78e888dd60d4e9a7e06f980258b0a51",
+  "repo_url": "https://github.com/bacnet-stack/bacnet-stack",
+  "date": "2023-09-29T16:18:52",
+  "languages": {
+    "C": 14541910,
+    "Assembly": 531313,
+    "CMake": 303239,
+    "Makefile": 301566,
+    "HTML": 151069,
+    "C++": 140586,
+    "Perl": 26978,
+    "Shell": 20850,
+    "Lua": 12275,
+    "Batchfile": 3085,
+    "Dockerfile": 1667,
+    "GDB": 536
+  },
+  "size": 16035074
+}

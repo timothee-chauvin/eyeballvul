@@ -1,0 +1,14 @@
+{
+  "commit": "fd5a1ab847ebbf537447561827f310ba70fd0998",
+  "repo_url": "https://github.com/gofiber/template",
+  "date": "2024-01-08T14:52:42",
+  "languages": {
+    "Go": 95105,
+    "HTML": 615,
+    "Pug": 424,
+    "Handlebars": 396,
+    "Mustache": 259,
+    "Slim": 200
+  },
+  "size": 96999
+}

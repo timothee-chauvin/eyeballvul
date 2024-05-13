@@ -1,0 +1,13 @@
+{
+  "commit": "e2a87ce41dcf575a15ae79d95d2c3c21ae76b9f7",
+  "repo_url": "https://github.com/turtl/android",
+  "date": "2019-04-15T00:34:18",
+  "languages": {
+    "Java": 35128,
+    "JavaScript": 13707,
+    "Makefile": 3390,
+    "Shell": 3123,
+    "Smarty": 83
+  },
+  "size": 55431
+}

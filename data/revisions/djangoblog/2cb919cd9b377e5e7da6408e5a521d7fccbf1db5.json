@@ -1,0 +1,12 @@
+{
+  "commit": "2cb919cd9b377e5e7da6408e5a521d7fccbf1db5",
+  "repo_url": "https://github.com/liangliangyy/djangoblog",
+  "date": "2023-02-06T02:11:14",
+  "languages": {
+    "Python": 224212,
+    "HTML": 54461,
+    "Shell": 1247,
+    "Dockerfile": 487
+  },
+  "size": 280407
+}

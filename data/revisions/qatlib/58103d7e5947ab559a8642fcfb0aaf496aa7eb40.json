@@ -1,0 +1,14 @@
+{
+  "commit": "58103d7e5947ab559a8642fcfb0aaf496aa7eb40",
+  "repo_url": "https://github.com/intel/qatlib",
+  "date": "2022-07-20T11:59:43",
+  "languages": {
+    "C": 8256271,
+    "Assembly": 40247,
+    "Makefile": 19497,
+    "Shell": 10926,
+    "M4": 7198,
+    "Roff": 5678
+  },
+  "size": 8339817
+}

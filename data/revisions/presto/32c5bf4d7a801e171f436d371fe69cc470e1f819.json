@@ -1,0 +1,20 @@
+{
+  "commit": "32c5bf4d7a801e171f436d371fe69cc470e1f819",
+  "repo_url": "https://github.com/prestosql/presto",
+  "date": "2020-06-17T00:19:13",
+  "languages": {
+    "Java": 39368100,
+    "JavaScript": 218977,
+    "Shell": 39311,
+    "ANTLR": 30091,
+    "HTML": 24211,
+    "CSS": 13435,
+    "Thrift": 12631,
+    "Python": 10748,
+    "Makefile": 6908,
+    "Groovy": 1547,
+    "Dockerfile": 1312,
+    "PLSQL": 85
+  },
+  "size": 39727356
+}

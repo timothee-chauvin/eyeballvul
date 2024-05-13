@@ -1,0 +1,15 @@
+{
+  "commit": "95efed033e1891d0df18e81d5d5a60c7160fbe3b",
+  "repo_url": "https://github.com/rswag/rswag",
+  "date": "2023-07-07T07:04:48",
+  "languages": {
+    "Ruby": 182093,
+    "HTML": 6248,
+    "Shell": 951,
+    "Dockerfile": 690,
+    "JavaScript": 210,
+    "CSS": 128,
+    "Makefile": 80
+  },
+  "size": 190400
+}

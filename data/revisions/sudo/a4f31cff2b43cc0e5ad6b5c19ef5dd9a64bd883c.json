@@ -1,0 +1,20 @@
+{
+  "commit": "a4f31cff2b43cc0e5ad6b5c19ef5dd9a64bd883c",
+  "repo_url": "https://github.com/sudo-project/sudo",
+  "date": "2023-02-27T15:57:17",
+  "languages": {
+    "C": 5429112,
+    "Shell": 664984,
+    "Makefile": 569498,
+    "Roff": 420421,
+    "M4": 231503,
+    "Yacc": 72878,
+    "Perl": 48694,
+    "Lex": 34661,
+    "Pascal": 34439,
+    "Python": 27046,
+    "C++": 7720,
+    "Dockerfile": 3221
+  },
+  "size": 7544177
+}

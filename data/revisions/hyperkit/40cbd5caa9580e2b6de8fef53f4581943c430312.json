@@ -1,0 +1,15 @@
+{
+  "commit": "40cbd5caa9580e2b6de8fef53f4581943c430312",
+  "repo_url": "https://github.com/moby/hyperkit",
+  "date": "2021-01-07T15:18:55",
+  "languages": {
+    "C": 1408664,
+    "Go": 41632,
+    "OCaml": 15978,
+    "Roff": 11161,
+    "Makefile": 10947,
+    "DTrace": 9977,
+    "Shell": 4615
+  },
+  "size": 1502974
+}

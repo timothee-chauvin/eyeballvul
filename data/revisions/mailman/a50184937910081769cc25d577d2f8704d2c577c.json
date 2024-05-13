@@ -1,0 +1,12 @@
+{
+  "commit": "a50184937910081769cc25d577d2f8704d2c577c",
+  "repo_url": "https://gitlab.com/mailman/mailman",
+  "date": "2021-03-22T03:44:49",
+  "languages": {
+    "Python": 3045341,
+    "PLSQL": 5311,
+    "Mako": 1212,
+    "Shell": 891
+  },
+  "size": 3052755
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "7c146b6c2999cb5bd2df5ae9208f76056a47ef2e",
+  "repo_url": "https://github.com/sernet/verinice",
+  "date": "2021-03-25T10:34:54",
+  "languages": {
+    "Java": 14884738,
+    "CSS": 206800,
+    "HTML": 119419,
+    "JavaScript": 47730,
+    "Perl": 14192,
+    "Shell": 6685,
+    "XSLT": 3602,
+    "HiveQL": 1736,
+    "GAP": 890,
+    "Batchfile": 554,
+    "SCSS": 116
+  },
+  "size": 15286462
+}

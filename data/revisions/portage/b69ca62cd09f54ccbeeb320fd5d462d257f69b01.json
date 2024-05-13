@@ -1,0 +1,12 @@
+{
+  "commit": "b69ca62cd09f54ccbeeb320fd5d462d257f69b01",
+  "repo_url": "https://github.com/gentoo/portage",
+  "date": "2019-12-26T22:57:05",
+  "languages": {
+    "Python": 4326506,
+    "Shell": 307311,
+    "C": 15212,
+    "Roff": 14723
+  },
+  "size": 4663752
+}

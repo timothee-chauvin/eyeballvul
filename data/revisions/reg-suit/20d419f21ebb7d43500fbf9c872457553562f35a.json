@@ -1,0 +1,12 @@
+{
+  "commit": "20d419f21ebb7d43500fbf9c872457553562f35a",
+  "repo_url": "https://github.com/reg-viz/reg-suit",
+  "date": "2021-03-12T01:36:54",
+  "languages": {
+    "TypeScript": 153395,
+    "Shell": 10543,
+    "JavaScript": 8393,
+    "HTML": 584
+  },
+  "size": 172915
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "bdac2fc9c66d8c1e8994eaf81f1a5db116b863ab",
+  "repo_url": "https://github.com/nokiatech/heif",
+  "date": "2021-01-15T11:38:17",
+  "languages": {
+    "C++": 1880448,
+    "Java": 225322,
+    "CMake": 60584,
+    "C": 1821,
+    "Shell": 1403,
+    "Batchfile": 99
+  },
+  "size": 2169677
+}

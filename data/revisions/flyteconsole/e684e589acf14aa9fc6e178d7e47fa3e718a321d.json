@@ -1,0 +1,14 @@
+{
+  "commit": "e684e589acf14aa9fc6e178d7e47fa3e718a321d",
+  "repo_url": "https://github.com/flyteorg/flyteconsole",
+  "date": "2022-04-13T22:51:53",
+  "languages": {
+    "TypeScript": 1283223,
+    "JavaScript": 14693,
+    "Shell": 6373,
+    "Makefile": 1431,
+    "Dockerfile": 784,
+    "HTML": 257
+  },
+  "size": 1306761
+}

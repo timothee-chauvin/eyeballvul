@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2019-13",
+  "published": "2019-07-01T00:00:00",
+  "modified": "2023-09-18T02:01:27.689028",
+  "details": "``inet_aton()`` accepts trailing characters after a valid IP.  Because of\nthat, Python ``ssl.match_hostname('1.1.1.1 ; this should not work but does')``\nsucceeded when it should fail.\n\nThe issue was introduced in `bpo-32819\n<https://bugs.python.org/issue32819>`_ by `commit aef1283b\n<https://github.com/python/cpython/commit/aef1283ba428e33397d87cee3c54a5110861552d>`_.\nOnly Python 3.7 and newer are affected. It's a potential security bug\nalthough **low severity**. For one Python 3.7 and newer **no longer use**\n``ssl.match_hostname()`` to verify hostnames and IP addresses of a\ncertificate: **matching is performed by OpenSSL**.\n\nIt should not possible to register a x509 certificate with a hostname with\nspaces.\n\nThe glibc function ``inet_aton()`` accepts input as valid if said input is\na IPv4 address followed by zero or more characters that are valid\nwhite-space as decided by ``isspace()``, with the rest of the string after\nthe first white-space being ignored. As ``'\\r'`` is a valid white-space\ncharacter the rest of the string is ignored (including the ``'\\r'``). See\n`glibc bug 24111: Deprecate inet_addr, inet_aton\n<https://sourceware.org/bugzilla/show_bug.cgi?id=24111>`_.\n",
+  "summary": "ssl.match_hostname() ignores extra string after whitespace in IPv4 address",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

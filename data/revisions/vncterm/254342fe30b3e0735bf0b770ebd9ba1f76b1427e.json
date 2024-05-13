@@ -1,0 +1,11 @@
+{
+  "commit": "254342fe30b3e0735bf0b770ebd9ba1f76b1427e",
+  "repo_url": "https://github.com/libvnc/vncterm",
+  "date": "2015-01-26T14:27:29",
+  "languages": {
+    "C": 42033,
+    "M4": 347,
+    "Makefile": 305
+  },
+  "size": 42685
+}

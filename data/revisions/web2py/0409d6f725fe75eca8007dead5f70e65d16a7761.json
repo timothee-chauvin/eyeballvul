@@ -1,0 +1,15 @@
+{
+  "commit": "0409d6f725fe75eca8007dead5f70e65d16a7761",
+  "repo_url": "https://github.com/web2py/web2py",
+  "date": "2015-12-26T04:56:50",
+  "languages": {
+    "Python": 5983869,
+    "HTML": 359994,
+    "JavaScript": 243902,
+    "Shell": 104967,
+    "CSS": 65248,
+    "PowerShell": 5974,
+    "Makefile": 5684
+  },
+  "size": 6769638
+}

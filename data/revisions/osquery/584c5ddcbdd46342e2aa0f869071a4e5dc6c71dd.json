@@ -1,0 +1,21 @@
+{
+  "commit": "584c5ddcbdd46342e2aa0f869071a4e5dc6c71dd",
+  "repo_url": "https://github.com/facebook/osquery",
+  "date": "2018-05-22T17:28:56",
+  "languages": {
+    "C++": 3060291,
+    "Python": 191567,
+    "PowerShell": 112215,
+    "Objective-C++": 104609,
+    "Ruby": 104290,
+    "CMake": 93317,
+    "Shell": 88459,
+    "C": 40940,
+    "Makefile": 9147,
+    "Roff": 4263,
+    "Thrift": 2969,
+    "Dockerfile": 1468,
+    "Batchfile": 613
+  },
+  "size": 3814148
+}

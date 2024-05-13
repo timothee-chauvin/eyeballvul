@@ -1,0 +1,13 @@
+{
+  "commit": "af5a7f1c09f6a902bb2a25e8edf39c7034d2e5de",
+  "repo_url": "https://github.com/simonw/datasette",
+  "date": "2021-03-29T00:41:12",
+  "languages": {
+    "Python": 661625,
+    "HTML": 63845,
+    "CSS": 15614,
+    "JavaScript": 7172,
+    "Dockerfile": 957
+  },
+  "size": 749213
+}

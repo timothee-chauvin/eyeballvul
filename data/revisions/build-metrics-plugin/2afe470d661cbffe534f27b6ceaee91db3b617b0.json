@@ -1,0 +1,11 @@
+{
+  "commit": "2afe470d661cbffe534f27b6ceaee91db3b617b0",
+  "repo_url": "https://github.com/jenkinsci/build-metrics-plugin",
+  "date": "2016-08-22T14:10:04",
+  "languages": {
+    "Java": 25487,
+    "Roff": 383,
+    "Batchfile": 159
+  },
+  "size": 26029
+}

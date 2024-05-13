@@ -1,0 +1,19 @@
+{
+  "commit": "fcf3987d011c85bb59dd7b75c9c75ef91b715036",
+  "repo_url": "https://github.com/thirtybees/thirtybees",
+  "date": "2022-11-14T07:11:20",
+  "languages": {
+    "PHP": 12119284,
+    "Smarty": 1456948,
+    "JavaScript": 1143598,
+    "HTML": 254269,
+    "Sass": 177712,
+    "CSS": 160253,
+    "Shell": 66642,
+    "SCSS": 46587,
+    "Jinja": 20817,
+    "Less": 19680,
+    "Ruby": 492
+  },
+  "size": 15466282
+}

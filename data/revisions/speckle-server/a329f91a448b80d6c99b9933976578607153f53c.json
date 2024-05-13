@@ -1,0 +1,21 @@
+{
+  "commit": "a329f91a448b80d6c99b9933976578607153f53c",
+  "repo_url": "https://github.com/specklesystems/speckle-server",
+  "date": "2023-12-08T12:50:23",
+  "languages": {
+    "TypeScript": 3633354,
+    "Vue": 1628915,
+    "JavaScript": 1104396,
+    "HTML": 44453,
+    "Smarty": 36918,
+    "Python": 34355,
+    "Dockerfile": 16790,
+    "Shell": 12600,
+    "SCSS": 6337,
+    "Makefile": 3483,
+    "CSS": 2230,
+    "MDX": 2221,
+    "EJS": 1914
+  },
+  "size": 6527966
+}

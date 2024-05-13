@@ -1,0 +1,16 @@
+{
+  "commit": "2c46242758d911ae9b10ab8aa8ec9234841a7495",
+  "repo_url": "https://github.com/statamic/cms",
+  "date": "2023-11-03T18:08:24",
+  "languages": {
+    "PHP": 9114221,
+    "Vue": 1021401,
+    "JavaScript": 229790,
+    "Blade": 163868,
+    "CSS": 114561,
+    "Antlers": 39120,
+    "HTML": 789,
+    "Batchfile": 116
+  },
+  "size": 10683866
+}

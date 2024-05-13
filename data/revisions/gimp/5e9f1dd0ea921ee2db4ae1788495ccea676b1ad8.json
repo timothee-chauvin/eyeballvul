@@ -1,0 +1,19 @@
+{
+  "commit": "5e9f1dd0ea921ee2db4ae1788495ccea676b1ad8",
+  "repo_url": "https://github.com/gnome/gimp",
+  "date": "2012-05-02T14:17:00",
+  "languages": {
+    "C": 32780099,
+    "Scheme": 653936,
+    "Makefile": 299552,
+    "Python": 186387,
+    "HTML": 148777,
+    "Perl": 121958,
+    "M4": 89625,
+    "Yacc": 14633,
+    "Shell": 11829,
+    "XSLT": 7550,
+    "Lex": 6476
+  },
+  "size": 34320822
+}

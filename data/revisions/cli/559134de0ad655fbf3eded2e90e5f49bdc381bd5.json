@@ -1,0 +1,11 @@
+{
+  "commit": "559134de0ad655fbf3eded2e90e5f49bdc381bd5",
+  "repo_url": "https://github.com/httpie/cli",
+  "date": "2022-01-24T18:20:17",
+  "languages": {
+    "Python": 440610,
+    "Shell": 5765,
+    "Makefile": 5286
+  },
+  "size": 451661
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "8106bd30816688f842ae8206f8f2b914237c0352",
+  "repo_url": "https://github.com/stream-labs/desktop",
+  "date": "2022-06-09T17:09:18",
+  "languages": {
+    "TypeScript": 3093367,
+    "Less": 158499,
+    "Vue": 158162,
+    "JavaScript": 92190,
+    "HTML": 7547,
+    "PowerShell": 6359,
+    "GLSL": 1733,
+    "NSIS": 874,
+    "Batchfile": 94
+  },
+  "size": 3518825
+}

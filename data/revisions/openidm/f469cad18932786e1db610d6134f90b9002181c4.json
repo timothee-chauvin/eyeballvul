@@ -1,0 +1,20 @@
+{
+  "commit": "f469cad18932786e1db610d6134f90b9002181c4",
+  "repo_url": "https://github.com/openrock/openidm",
+  "date": "2016-01-14T11:50:00",
+  "languages": {
+    "Java": 4137245,
+    "JavaScript": 1716126,
+    "HTML": 532201,
+    "Groovy": 277426,
+    "Less": 104098,
+    "Handlebars": 55641,
+    "PowerShell": 46629,
+    "PLSQL": 34500,
+    "TSQL": 26362,
+    "PLpgSQL": 21952,
+    "Shell": 10007,
+    "Batchfile": 4784
+  },
+  "size": 6966971
+}

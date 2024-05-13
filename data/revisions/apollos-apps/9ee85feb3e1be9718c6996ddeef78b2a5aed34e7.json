@@ -1,0 +1,18 @@
+{
+  "commit": "9ee85feb3e1be9718c6996ddeef78b2a5aed34e7",
+  "repo_url": "https://github.com/apollosproject/apollos-apps",
+  "date": "2021-06-07T13:50:19",
+  "languages": {
+    "JavaScript": 2168154,
+    "TypeScript": 64753,
+    "Kotlin": 7490,
+    "Java": 7079,
+    "Objective-C": 6371,
+    "Swift": 4421,
+    "Ruby": 2363,
+    "Shell": 1607,
+    "Starlark": 602,
+    "C": 104
+  },
+  "size": 2262944
+}

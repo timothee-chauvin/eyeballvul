@@ -1,0 +1,20 @@
+{
+  "commit": "35249e7ad25d5dcb33ac1c767303fdf587a545c3",
+  "repo_url": "https://github.com/lastfm/lastfm-desktop",
+  "date": "2019-09-18T15:35:16",
+  "languages": {
+    "C": 5704923,
+    "C++": 4074211,
+    "CSS": 46545,
+    "Objective-C++": 37415,
+    "Objective-C": 29129,
+    "HTML": 27170,
+    "QMake": 24586,
+    "Inno Setup": 14661,
+    "XSLT": 3602,
+    "BitBake": 3298,
+    "Shell": 1992,
+    "Batchfile": 608
+  },
+  "size": 9968140
+}

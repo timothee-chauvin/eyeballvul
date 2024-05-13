@@ -1,0 +1,15 @@
+{
+  "commit": "8b9c7e99508abb899f64fbc17c85cace4fe7db87",
+  "repo_url": "https://github.com/bottelet/daybydaycrm",
+  "date": "2021-06-25T20:03:15",
+  "languages": {
+    "PHP": 662375,
+    "Blade": 285469,
+    "JavaScript": 154969,
+    "Vue": 104827,
+    "SCSS": 56050,
+    "HTML": 21849,
+    "Dockerfile": 3970
+  },
+  "size": 1289509
+}

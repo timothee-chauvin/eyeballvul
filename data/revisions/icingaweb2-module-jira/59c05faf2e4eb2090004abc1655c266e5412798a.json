@@ -1,0 +1,11 @@
+{
+  "commit": "59c05faf2e4eb2090004abc1655c266e5412798a",
+  "repo_url": "https://github.com/icinga/icingaweb2-module-jira",
+  "date": "2023-06-30T11:56:43",
+  "languages": {
+    "PHP": 145560,
+    "Less": 1307,
+    "JavaScript": 503
+  },
+  "size": 147370
+}

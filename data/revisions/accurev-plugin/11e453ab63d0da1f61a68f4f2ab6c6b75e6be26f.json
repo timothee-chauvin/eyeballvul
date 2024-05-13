@@ -1,0 +1,11 @@
+{
+  "commit": "11e453ab63d0da1f61a68f4f2ab6c6b75e6be26f",
+  "repo_url": "https://github.com/jenkinsci/accurev-plugin",
+  "date": "2018-05-14T05:09:22",
+  "languages": {
+    "Java": 254188,
+    "HTML": 18662,
+    "Groovy": 2585
+  },
+  "size": 275435
+}

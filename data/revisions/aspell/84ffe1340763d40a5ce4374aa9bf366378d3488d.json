@@ -1,0 +1,15 @@
+{
+  "commit": "84ffe1340763d40a5ce4374aa9bf366378d3488d",
+  "repo_url": "https://github.com/gnuaspell/aspell",
+  "date": "2011-07-07T05:38:06",
+  "languages": {
+    "C++": 807005,
+    "Perl": 58004,
+    "C": 49421,
+    "Shell": 31845,
+    "Makefile": 25311,
+    "Roff": 21838,
+    "M4": 17052
+  },
+  "size": 1010476
+}

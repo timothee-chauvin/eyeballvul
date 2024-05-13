@@ -1,0 +1,13 @@
+{
+  "commit": "b18cbd5aaa334be7f98fe0335050f9a01d5854a5",
+  "repo_url": "https://github.com/open-mss/mss",
+  "date": "2023-10-12T01:26:59",
+  "languages": {
+    "Python": 4128938,
+    "HTML": 15590,
+    "Shell": 12196,
+    "Mako": 494,
+    "Batchfile": 358
+  },
+  "size": 4157576
+}

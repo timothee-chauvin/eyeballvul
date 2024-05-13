@@ -1,0 +1,27 @@
+{
+  "commit": "dd2b001b957520d1219775f7c347d640e4633d1d",
+  "repo_url": "https://github.com/drklo/telegram",
+  "date": "2021-06-25T12:42:04",
+  "languages": {
+    "Java": 36538665,
+    "C++": 36491459,
+    "C": 28434184,
+    "Assembly": 2284555,
+    "Perl": 2029915,
+    "Go": 1684952,
+    "CMake": 232941,
+    "Objective-C++": 137819,
+    "NASL": 118179,
+    "Python": 83928,
+    "Objective-C": 60293,
+    "Raku": 9275,
+    "Shell": 8263,
+    "Roff": 2711,
+    "MATLAB": 2068,
+    "Starlark": 1886,
+    "Dockerfile": 1444,
+    "CSS": 885,
+    "Makefile": 79
+  },
+  "size": 108123501
+}

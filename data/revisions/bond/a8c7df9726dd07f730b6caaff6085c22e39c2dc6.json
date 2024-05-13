@@ -1,0 +1,20 @@
+{
+  "commit": "a8c7df9726dd07f730b6caaff6085c22e39c2dc6",
+  "repo_url": "https://github.com/microsoft/bond",
+  "date": "2020-07-07T00:50:59",
+  "languages": {
+    "C++": 2041547,
+    "Java": 1432633,
+    "C#": 1033473,
+    "Haskell": 278143,
+    "CMake": 50833,
+    "Python": 36330,
+    "PowerShell": 14060,
+    "Shell": 5727,
+    "Groovy": 4087,
+    "Dockerfile": 1600,
+    "C": 597,
+    "Emacs Lisp": 298
+  },
+  "size": 4899328
+}

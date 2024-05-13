@@ -1,0 +1,17 @@
+{
+  "commit": "87d181f219bab8b2c229f67eb6871a9dc6db9eca",
+  "repo_url": "https://github.com/openkm/document-management-system",
+  "date": "2018-03-06T15:48:17",
+  "languages": {
+    "Java": 9422264,
+    "JavaScript": 956027,
+    "CSS": 383263,
+    "HTML": 98744,
+    "Rich Text Format": 20515,
+    "PLSQL": 19112,
+    "FreeMarker": 459,
+    "Shell": 392,
+    "Batchfile": 53
+  },
+  "size": 10900829
+}

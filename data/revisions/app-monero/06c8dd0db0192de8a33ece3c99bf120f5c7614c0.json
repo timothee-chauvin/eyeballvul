@@ -1,0 +1,11 @@
+{
+  "commit": "06c8dd0db0192de8a33ece3c99bf120f5c7614c0",
+  "repo_url": "https://github.com/ledgerhq/app-monero",
+  "date": "2020-02-06T09:41:54",
+  "languages": {
+    "Python": 366520,
+    "C": 207661,
+    "Makefile": 5278
+  },
+  "size": 579459
+}

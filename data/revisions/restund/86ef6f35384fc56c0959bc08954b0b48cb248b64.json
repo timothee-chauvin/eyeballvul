@@ -1,0 +1,11 @@
+{
+  "commit": "86ef6f35384fc56c0959bc08954b0b48cb248b64",
+  "repo_url": "https://github.com/wireapp/restund",
+  "date": "2020-04-04T08:21:15",
+  "languages": {
+    "C": 106949,
+    "Shell": 6822,
+    "Makefile": 6623
+  },
+  "size": 120394
+}

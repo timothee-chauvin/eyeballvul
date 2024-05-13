@@ -1,0 +1,12 @@
+{
+  "commit": "ceec3f2cc874f67a7793f211b589cef6633b1ef7",
+  "repo_url": "https://github.com/genieacs/genieacs",
+  "date": "2021-09-18T21:36:19",
+  "languages": {
+    "TypeScript": 875236,
+    "CSS": 15610,
+    "Shell": 221,
+    "JavaScript": 97
+  },
+  "size": 891164
+}

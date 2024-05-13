@@ -1,0 +1,13 @@
+{
+  "commit": "ceb18598e79befa9b2a37a51efbb34910628988b",
+  "repo_url": "https://github.com/wp-cli/wp-cli",
+  "date": "2020-02-18T08:15:37",
+  "languages": {
+    "PHP": 479706,
+    "Gherkin": 193925,
+    "Shell": 4899,
+    "Mustache": 533,
+    "Batchfile": 42
+  },
+  "size": 679105
+}

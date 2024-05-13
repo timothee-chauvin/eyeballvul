@@ -1,0 +1,15 @@
+{
+  "commit": "85f500f07037cab21757fffcae7a5cd78db43bd1",
+  "repo_url": "https://github.com/owncloud/core",
+  "date": "2015-05-18T10:43:07",
+  "languages": {
+    "PHP": 5526468,
+    "JavaScript": 4351030,
+    "CSS": 114501,
+    "Shell": 16465,
+    "Batchfile": 7065,
+    "Perl": 5083,
+    "HTML": 2549
+  },
+  "size": 10023161
+}

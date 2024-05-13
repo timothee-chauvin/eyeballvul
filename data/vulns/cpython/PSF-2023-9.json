@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2023-9",
+  "published": "2023-08-24T00:00:00",
+  "modified": "2023-12-06T01:03:12.499476",
+  "details": "Passing a path with null bytes to the `os.path.normpath()` function causes the returned path to be unexpectedly truncated at the first occurrence of null bytes within the path. Python versions before 3.11.0 didn\u2019t truncate the path on null bytes.\n\nIf allowlisting is applied before a call to `os.path.normpath()` is used later in the program, the allowlisting can be circumvented if the path containing null bytes is constructed to pass the allowlist but then change to the targeted resource after truncation.",
+  "summary": "os.path.normpath() truncates on null bytes",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "d2340ef25721b6a72d45d4508c672c4be38c67d3",
+    "f992a60014b7ca83de038fc64572a63f4eb39c74"
+  ]
+}

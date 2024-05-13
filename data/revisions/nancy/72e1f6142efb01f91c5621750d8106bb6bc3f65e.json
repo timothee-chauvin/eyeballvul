@@ -1,0 +1,18 @@
+{
+  "commit": "72e1f6142efb01f91c5621750d8106bb6bc3f65e",
+  "repo_url": "https://github.com/nancyfx/nancy",
+  "date": "2016-12-22T09:54:59",
+  "languages": {
+    "C#": 4008016,
+    "HTML": 72516,
+    "JavaScript": 68780,
+    "Liquid": 20122,
+    "XSLT": 17702,
+    "Ruby": 13945,
+    "CSS": 6309,
+    "PowerShell": 3148,
+    "Shell": 2376,
+    "Visual Basic .NET": 80
+  },
+  "size": 4212994
+}

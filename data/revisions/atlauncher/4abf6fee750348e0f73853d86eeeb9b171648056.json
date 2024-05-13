@@ -1,0 +1,13 @@
+{
+  "commit": "4abf6fee750348e0f73853d86eeeb9b171648056",
+  "repo_url": "https://github.com/atlauncher/atlauncher",
+  "date": "2023-01-27T11:53:47",
+  "languages": {
+    "Java": 2458630,
+    "Shell": 7997,
+    "Inno Setup": 4500,
+    "Batchfile": 2463,
+    "Dockerfile": 1794
+  },
+  "size": 2475384
+}

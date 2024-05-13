@@ -1,0 +1,13 @@
+{
+  "commit": "fcb76a78ddbbbb3b23d95b5866f0af3ccf834c7e",
+  "repo_url": "https://github.com/mozilla/pdf.js",
+  "date": "2024-04-11T12:10:01",
+  "languages": {
+    "JavaScript": 5386822,
+    "Fluent": 1469385,
+    "CSS": 118968,
+    "HTML": 60398,
+    "TypeScript": 1336
+  },
+  "size": 7036909
+}

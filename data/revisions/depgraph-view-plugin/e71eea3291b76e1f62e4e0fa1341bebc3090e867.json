@@ -1,0 +1,12 @@
+{
+  "commit": "e71eea3291b76e1f62e4e0fa1341bebc3090e867",
+  "repo_url": "https://github.com/jenkinsci/depgraph-view-plugin",
+  "date": "2017-10-16T12:08:16",
+  "languages": {
+    "Java": 112792,
+    "JavaScript": 8130,
+    "HTML": 5201,
+    "CSS": 1631
+  },
+  "size": 127754
+}

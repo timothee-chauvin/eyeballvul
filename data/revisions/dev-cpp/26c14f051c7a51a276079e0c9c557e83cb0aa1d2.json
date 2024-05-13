@@ -1,0 +1,24 @@
+{
+  "commit": "26c14f051c7a51a276079e0c9c557e83cb0aa1d2",
+  "repo_url": "https://github.com/embarcadero/dev-cpp",
+  "date": "2021-01-31T00:57:51",
+  "languages": {
+    "Pascal": 15281941,
+    "C++": 477770,
+    "HTML": 391280,
+    "NSIS": 81283,
+    "PHP": 31508,
+    "Python": 20582,
+    "Ruby": 13693,
+    "C": 11301,
+    "NewLisp": 10642,
+    "JavaScript": 9287,
+    "Batchfile": 5864,
+    "POV-Ray SDL": 5422,
+    "TeX": 5021,
+    "Roff": 4227,
+    "CSS": 4118,
+    "Common Lisp": 3721
+  },
+  "size": 16357660
+}

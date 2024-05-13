@@ -1,0 +1,11 @@
+{
+  "commit": "101189882a7982a52d9ba86d2e873b147fac7cb4",
+  "repo_url": "https://github.com/lettre/lettre",
+  "date": "2019-03-17T12:49:45",
+  "languages": {
+    "Rust": 131119,
+    "Shell": 707,
+    "Makefile": 115
+  },
+  "size": 131941
+}

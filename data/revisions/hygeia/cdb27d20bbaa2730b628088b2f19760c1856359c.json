@@ -1,0 +1,16 @@
+{
+  "commit": "cdb27d20bbaa2730b628088b2f19760c1856359c",
+  "repo_url": "https://github.com/jshmrtn/hygeia",
+  "date": "2021-10-04T14:42:20",
+  "languages": {
+    "Elixir": 1657419,
+    "PLpgSQL": 141205,
+    "SCSS": 35388,
+    "JavaScript": 12986,
+    "HTML": 5263,
+    "Dockerfile": 1003,
+    "Shell": 532,
+    "Euphoria": 57
+  },
+  "size": 1853853
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "ace1423a132ece52b68a08caedb0a6d3d5b052d8",
+  "repo_url": "https://github.com/mibew/mibew",
+  "date": "2020-03-21T14:31:19",
+  "languages": {
+    "PHP": 1022150,
+    "JavaScript": 460330,
+    "Handlebars": 205834,
+    "CSS": 47012,
+    "Perl": 6407,
+    "HTML": 2117
+  },
+  "size": 1743850
+}

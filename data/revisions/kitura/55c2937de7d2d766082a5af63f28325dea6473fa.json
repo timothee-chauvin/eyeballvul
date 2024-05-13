@@ -1,0 +1,14 @@
+{
+  "commit": "55c2937de7d2d766082a5af63f28325dea6473fa",
+  "repo_url": "https://github.com/ibm-swift/kitura",
+  "date": "2018-04-17T12:10:27",
+  "languages": {
+    "Swift": 674879,
+    "Shell": 12527,
+    "HTML": 7863,
+    "CSS": 3420,
+    "Ruby": 1981,
+    "Objective-C": 948
+  },
+  "size": 701618
+}

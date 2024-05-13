@@ -1,0 +1,15 @@
+{
+  "id": "PSF-2022-7",
+  "published": "2022-03-04T00:00:00",
+  "modified": "2023-12-06T01:01:21.119191",
+  "details": "A flaw was found in python. An improperly handled HTTP response in the HTTP client code of python may allow a remote attacker, who controls the HTTP server, to make the client script enter an infinite loop, consuming CPU time. The highest threat from this vulnerability is to system availability.",
+  "summary": "CVE-2021-3737: urllib HTTP client possible infinite loop on a 100 Continue response",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

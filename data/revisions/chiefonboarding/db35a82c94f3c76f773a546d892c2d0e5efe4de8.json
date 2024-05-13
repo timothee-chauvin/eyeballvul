@@ -1,0 +1,14 @@
+{
+  "commit": "db35a82c94f3c76f773a546d892c2d0e5efe4de8",
+  "repo_url": "https://github.com/chiefonboarding/chiefonboarding",
+  "date": "2023-09-14T12:36:10",
+  "languages": {
+    "Python": 1364530,
+    "JavaScript": 637112,
+    "CSS": 337698,
+    "HTML": 255342,
+    "Dockerfile": 454,
+    "Procfile": 157
+  },
+  "size": 2595293
+}

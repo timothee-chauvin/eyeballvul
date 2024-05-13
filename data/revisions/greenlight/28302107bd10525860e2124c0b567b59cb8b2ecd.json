@@ -1,0 +1,14 @@
+{
+  "commit": "28302107bd10525860e2124c0b567b59cb8b2ecd",
+  "repo_url": "https://github.com/bigbluebutton/greenlight",
+  "date": "2020-04-29T21:56:46",
+  "languages": {
+    "Ruby": 403364,
+    "HTML": 207363,
+    "JavaScript": 51465,
+    "SCSS": 39967,
+    "Shell": 8012,
+    "Dockerfile": 1702
+  },
+  "size": 711873
+}

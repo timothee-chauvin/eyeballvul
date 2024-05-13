@@ -1,0 +1,10 @@
+{
+  "commit": "1faa66f2467b445a44189bb897179b8309dbb9fe",
+  "repo_url": "https://github.com/azure-rtos/guix",
+  "date": "2023-03-08T08:31:50",
+  "languages": {
+    "C": 28201299,
+    "CMake": 89872
+  },
+  "size": 28291171
+}

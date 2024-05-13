@@ -1,0 +1,16 @@
+{
+  "commit": "159208465da41a4796716d8a5bf833c6778b3f61",
+  "repo_url": "https://github.com/yui/yui2",
+  "date": "2011-04-13T20:45:09",
+  "languages": {
+    "HTML": 47841860,
+    "JavaScript": 14184439,
+    "ActionScript": 807812,
+    "Java": 483882,
+    "CSS": 450402,
+    "PHP": 319886,
+    "Hack": 61171,
+    "Shell": 3731
+  },
+  "size": 64153183
+}

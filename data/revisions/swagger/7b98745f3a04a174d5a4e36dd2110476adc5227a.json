@@ -1,0 +1,12 @@
+{
+  "commit": "7b98745f3a04a174d5a4e36dd2110476adc5227a",
+  "repo_url": "https://github.com/purestorage-openconnect/swagger",
+  "date": "2018-07-21T19:11:20",
+  "languages": {
+    "Python": 38114,
+    "HTML": 4643,
+    "Dockerfile": 1424,
+    "Shell": 350
+  },
+  "size": 44531
+}

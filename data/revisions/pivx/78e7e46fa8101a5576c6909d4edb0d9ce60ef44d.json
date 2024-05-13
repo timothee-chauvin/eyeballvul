@@ -1,0 +1,22 @@
+{
+  "commit": "78e7e46fa8101a5576c6909d4edb0d9ce60ef44d",
+  "repo_url": "https://github.com/pivx-project/pivx",
+  "date": "2019-08-26T12:46:13",
+  "languages": {
+    "C++": 6087081,
+    "C": 1497602,
+    "Python": 956690,
+    "M4": 201281,
+    "Makefile": 118053,
+    "Shell": 55099,
+    "CSS": 44757,
+    "CMake": 41694,
+    "Java": 30291,
+    "Sage": 30188,
+    "Assembly": 28453,
+    "QMake": 26189,
+    "HTML": 21860,
+    "Objective-C++": 6629
+  },
+  "size": 9145867
+}

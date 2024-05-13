@@ -1,0 +1,11 @@
+{
+  "commit": "96a587bba9afec5efa0ea0685d29bcf6ee4a44b8",
+  "repo_url": "https://github.com/home-assistant/plugin-dns",
+  "date": "2022-03-04T09:22:17",
+  "languages": {
+    "Go": 22366,
+    "Dockerfile": 2499,
+    "Shell": 451
+  },
+  "size": 25316
+}

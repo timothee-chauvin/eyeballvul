@@ -1,0 +1,13 @@
+{
+  "commit": "9d1f2a5f86e9a7c66805b090829c330b0abf71d1",
+  "repo_url": "https://github.com/google/kctf",
+  "date": "2022-03-10T11:25:53",
+  "languages": {
+    "Go": 87799,
+    "Makefile": 9014,
+    "Shell": 6096,
+    "Dockerfile": 5701,
+    "Python": 5507
+  },
+  "size": 114117
+}

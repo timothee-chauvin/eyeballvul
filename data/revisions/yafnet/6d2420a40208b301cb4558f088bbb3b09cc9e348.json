@@ -1,0 +1,17 @@
+{
+  "commit": "6d2420a40208b301cb4558f088bbb3b09cc9e348",
+  "repo_url": "https://github.com/yafnet/yafnet",
+  "date": "2023-01-22T07:08:02",
+  "languages": {
+    "C#": 34934253,
+    "JavaScript": 3904178,
+    "ASP.NET": 1132153,
+    "CSS": 873974,
+    "SCSS": 513095,
+    "HTML": 205990,
+    "TSQL": 18061,
+    "Ruby": 5694,
+    "Batchfile": 2517
+  },
+  "size": 41589915
+}

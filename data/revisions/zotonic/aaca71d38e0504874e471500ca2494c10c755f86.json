@@ -1,0 +1,22 @@
+{
+  "commit": "aaca71d38e0504874e471500ca2494c10c755f86",
+  "repo_url": "https://github.com/zotonic/zotonic",
+  "date": "2019-01-29T12:09:50",
+  "languages": {
+    "Erlang": 3942096,
+    "JavaScript": 3854846,
+    "HTML": 1197836,
+    "Smarty": 787428,
+    "CSS": 381836,
+    "Less": 293331,
+    "SCSS": 109941,
+    "Shell": 51626,
+    "Emacs Lisp": 25727,
+    "Python": 25437,
+    "Makefile": 2417,
+    "Batchfile": 1191,
+    "Dockerfile": 1097,
+    "sed": 360
+  },
+  "size": 10675169
+}

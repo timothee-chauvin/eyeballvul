@@ -1,0 +1,13 @@
+{
+  "commit": "531188ca1031e0ec6c326034e37dc2e42cbc6f7a",
+  "repo_url": "https://github.com/element-plus/element-plus",
+  "date": "2022-03-06T11:44:30",
+  "languages": {
+    "Vue": 617768,
+    "TypeScript": 65268,
+    "JavaScript": 8916,
+    "Shell": 2056,
+    "HTML": 440
+  },
+  "size": 694448
+}

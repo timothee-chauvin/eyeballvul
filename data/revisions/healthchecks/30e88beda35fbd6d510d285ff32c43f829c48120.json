@@ -1,0 +1,15 @@
+{
+  "commit": "30e88beda35fbd6d510d285ff32c43f829c48120",
+  "repo_url": "https://github.com/healthchecks/healthchecks",
+  "date": "2022-12-14T13:53:40",
+  "languages": {
+    "Python": 1056577,
+    "HTML": 719764,
+    "Less": 211300,
+    "CSS": 66020,
+    "JavaScript": 50839,
+    "Dockerfile": 1088,
+    "Shell": 124
+  },
+  "size": 2105712
+}

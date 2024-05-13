@@ -1,0 +1,17 @@
+{
+  "commit": "96129f7d4dff82ba4daa70a0de1ae6c44213a74b",
+  "repo_url": "https://github.com/charybdis-ircd/charybdis",
+  "date": "2016-05-14T22:00:59",
+  "languages": {
+    "C": 5387341,
+    "Shell": 395518,
+    "Makefile": 80142,
+    "M4": 71994,
+    "Lex": 7360,
+    "Yacc": 5975,
+    "Roff": 5220,
+    "Module Management System": 365,
+    "Perl": 168
+  },
+  "size": 5954083
+}

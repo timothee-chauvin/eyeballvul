@@ -1,0 +1,13 @@
+{
+  "commit": "7a0da180fdb91a6d6af2c968d501fe6022caf89b",
+  "repo_url": "https://github.com/gitkraken/vscode-gitlens",
+  "date": "2023-05-11T22:55:42",
+  "languages": {
+    "TypeScript": 3142952,
+    "HTML": 256892,
+    "SCSS": 139252,
+    "JavaScript": 42158,
+    "Handlebars": 1575
+  },
+  "size": 3582829
+}

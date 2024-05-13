@@ -1,0 +1,21 @@
+{
+  "commit": "1530ef354ffaf59cef6a02c949f2cdb82353954f",
+  "repo_url": "https://github.com/anchore/syft",
+  "date": "2023-01-31T16:53:16",
+  "languages": {
+    "Go": 1691028,
+    "Shell": 45474,
+    "Python": 32623,
+    "Makefile": 23057,
+    "Elixir": 9144,
+    "Ruby": 9073,
+    "Dockerfile": 7054,
+    "Java": 6170,
+    "Erlang": 3496,
+    "Roff": 193,
+    "HTML": 132,
+    "C": 107,
+    "Vim Script": 35
+  },
+  "size": 1827586
+}

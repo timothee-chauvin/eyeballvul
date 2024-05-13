@@ -1,0 +1,13 @@
+{
+  "commit": "6d17765ca4f3f646f85c38e15761c7bdfbfe3973",
+  "repo_url": "https://github.com/dependencytrack/dependency-track",
+  "date": "2019-06-07T05:49:04",
+  "languages": {
+    "Java": 1774496,
+    "JavaScript": 1021642,
+    "CSS": 44844,
+    "Shell": 3444,
+    "Dockerfile": 1495
+  },
+  "size": 2845921
+}

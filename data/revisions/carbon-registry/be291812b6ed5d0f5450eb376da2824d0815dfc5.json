@@ -1,0 +1,18 @@
+{
+  "commit": "be291812b6ed5d0f5450eb376da2824d0815dfc5",
+  "repo_url": "https://github.com/wso2/carbon-registry",
+  "date": "2022-06-20T08:39:01",
+  "languages": {
+    "Java": 6125526,
+    "JavaScript": 333055,
+    "PLSQL": 186568,
+    "XSLT": 78182,
+    "Shell": 70140,
+    "Batchfile": 62597,
+    "CSS": 62539,
+    "TSQL": 62416,
+    "SQLPL": 50286,
+    "HTML": 46318
+  },
+  "size": 7077627
+}

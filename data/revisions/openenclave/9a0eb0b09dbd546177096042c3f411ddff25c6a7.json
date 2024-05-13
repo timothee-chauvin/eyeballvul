@@ -1,0 +1,21 @@
+{
+  "commit": "9a0eb0b09dbd546177096042c3f411ddff25c6a7",
+  "repo_url": "https://github.com/openenclave/openenclave",
+  "date": "2020-02-07T21:35:08",
+  "languages": {
+    "C": 2447517,
+    "C++": 727661,
+    "CMake": 285266,
+    "OCaml": 231080,
+    "Shell": 56066,
+    "PowerShell": 50615,
+    "Assembly": 25533,
+    "Python": 21966,
+    "Pawn": 5364,
+    "GDB": 4915,
+    "Makefile": 2390,
+    "Jinja": 1298,
+    "Batchfile": 135
+  },
+  "size": 3859806
+}

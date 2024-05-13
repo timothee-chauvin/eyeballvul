@@ -1,0 +1,28 @@
+{
+  "commit": "fe1d84b7d05178885a36ba0adce0559a82a493d5",
+  "repo_url": "https://github.com/fontforge/fontforge",
+  "date": "2016-10-11T01:29:29",
+  "languages": {
+    "C": 26713616,
+    "Python": 259277,
+    "Shell": 222124,
+    "Makefile": 163506,
+    "M4": 83123,
+    "HTML": 82320,
+    "JavaScript": 32331,
+    "Rich Text Format": 20014,
+    "Perl": 14609,
+    "Roff": 13238,
+    "C++": 7710,
+    "Tcl": 6900,
+    "Objective-C": 6023,
+    "Ruby": 4629,
+    "NSIS": 2916,
+    "CSS": 2773,
+    "Batchfile": 1471,
+    "VBScript": 740,
+    "sed": 609,
+    "Emacs Lisp": 339
+  },
+  "size": 27638268
+}

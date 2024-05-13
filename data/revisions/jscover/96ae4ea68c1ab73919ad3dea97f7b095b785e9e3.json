@@ -1,0 +1,11 @@
+{
+  "commit": "96ae4ea68c1ab73919ad3dea97f7b095b785e9e3",
+  "repo_url": "https://github.com/node-modules/jscover",
+  "date": "2015-04-26T23:56:13",
+  "languages": {
+    "JavaScript": 6541,
+    "Makefile": 502,
+    "Batchfile": 248
+  },
+  "size": 7291
+}

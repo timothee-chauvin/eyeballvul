@@ -1,0 +1,25 @@
+{
+  "commit": "b557f5daa833b7c43b582c445480e896429f33dd",
+  "repo_url": "https://github.com/389ds/389-ds-base",
+  "date": "2020-11-03T18:43:44",
+  "languages": {
+    "C": 14856051,
+    "Python": 5540315,
+    "JavaScript": 2437620,
+    "C++": 451669,
+    "Perl": 114822,
+    "Rust": 111715,
+    "Makefile": 100531,
+    "M4": 58586,
+    "Shell": 38535,
+    "Roff": 25180,
+    "SCSS": 21704,
+    "Yacc": 20413,
+    "HTML": 15048,
+    "CSS": 11351,
+    "Lex": 6900,
+    "Dockerfile": 4577,
+    "Java": 2300
+  },
+  "size": 23817317
+}

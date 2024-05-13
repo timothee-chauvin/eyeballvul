@@ -1,0 +1,16 @@
+{
+  "commit": "d8bfa89c2a9c7c86fb98acbc53b5750600b95492",
+  "repo_url": "https://github.com/ivmai/bdwgc",
+  "date": "2016-05-25T15:51:42",
+  "languages": {
+    "C": 1713565,
+    "Makefile": 64044,
+    "C++": 62896,
+    "M4": 32497,
+    "CMake": 9507,
+    "Assembly": 3913,
+    "Shell": 1350,
+    "Batchfile": 281
+  },
+  "size": 1888053
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "a5640f77f4937e64939c8f5c9def0a4ee77ac6f5",
+  "repo_url": "https://github.com/jenkinsci/selected-tests-executor-plugin",
+  "date": "2014-01-22T21:07:37",
+  "languages": {
+    "JavaScript": 17356,
+    "HTML": 6389,
+    "Java": 4779,
+    "CSS": 980
+  },
+  "size": 29504
+}

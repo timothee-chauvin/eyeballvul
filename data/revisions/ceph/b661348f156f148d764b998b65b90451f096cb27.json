@@ -1,0 +1,31 @@
+{
+  "commit": "b661348f156f148d764b998b65b90451f096cb27",
+  "repo_url": "https://github.com/ceph/ceph",
+  "date": "2017-08-01T17:55:40",
+  "languages": {
+    "C++": 26829295,
+    "Raku": 4162146,
+    "HTML": 3468296,
+    "Python": 2491917,
+    "JavaScript": 1637977,
+    "Shell": 1106224,
+    "C": 882723,
+    "CSS": 310141,
+    "CMake": 305263,
+    "Cython": 291479,
+    "Perl": 285167,
+    "Less": 156800,
+    "Java": 83441,
+    "Assembly": 68053,
+    "Roff": 26436,
+    "PHP": 3916,
+    "SCSS": 2187,
+    "Terra": 2127,
+    "DIGITAL Command Language": 2074,
+    "Dockerfile": 1833,
+    "Lua": 1304,
+    "Makefile": 1008,
+    "SWIG": 951
+  },
+  "size": 42120758
+}

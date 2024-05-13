@@ -1,0 +1,15 @@
+{
+  "commit": "01517e1e9a52bccbe75feeb780d39fead5034bf6",
+  "repo_url": "https://github.com/wpanel/wpanel4-cms",
+  "date": "2020-10-02T00:53:45",
+  "languages": {
+    "PHP": 2963857,
+    "HTML": 1932517,
+    "JavaScript": 1696100,
+    "CSS": 434703,
+    "SCSS": 76484,
+    "Less": 73345,
+    "Hack": 350
+  },
+  "size": 7177356
+}

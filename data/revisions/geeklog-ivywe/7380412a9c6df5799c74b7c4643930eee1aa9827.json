@@ -1,0 +1,17 @@
+{
+  "commit": "7380412a9c6df5799c74b7c4643930eee1aa9827",
+  "repo_url": "https://github.com/ivywe/geeklog-ivywe",
+  "date": "2015-12-14T15:41:27",
+  "languages": {
+    "PHP": 30094620,
+    "HTML": 3370514,
+    "JavaScript": 2560534,
+    "CSS": 430130,
+    "Batchfile": 13334,
+    "ColdFusion": 5414,
+    "Perl": 4939,
+    "Shell": 3061,
+    "Roff": 3022
+  },
+  "size": 36485568
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "cb9965b1435d69b572099401455a1308db0478da",
+  "repo_url": "https://github.com/bits-and-blooms/bloom",
+  "date": "2022-08-18T19:53:32",
+  "languages": {
+    "Go": 34441,
+    "Makefile": 6587
+  },
+  "size": 41028
+}

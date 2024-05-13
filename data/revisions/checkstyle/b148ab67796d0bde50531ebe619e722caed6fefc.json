@@ -1,0 +1,16 @@
+{
+  "commit": "b148ab67796d0bde50531ebe619e722caed6fefc",
+  "repo_url": "https://github.com/checkstyle/checkstyle",
+  "date": "2019-01-27T19:40:37",
+  "languages": {
+    "Java": 11469701,
+    "HTML": 96796,
+    "GAP": 67242,
+    "Shell": 66948,
+    "JavaScript": 10741,
+    "CSS": 7335,
+    "Batchfile": 1265,
+    "Perl": 542
+  },
+  "size": 11720570
+}

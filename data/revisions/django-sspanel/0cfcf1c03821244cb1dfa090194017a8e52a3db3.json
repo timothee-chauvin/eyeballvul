@@ -1,0 +1,14 @@
+{
+  "commit": "0cfcf1c03821244cb1dfa090194017a8e52a3db3",
+  "repo_url": "https://github.com/ehco1996/django-sspanel",
+  "date": "2022-02-02T07:06:03",
+  "languages": {
+    "Python": 289229,
+    "HTML": 136425,
+    "JavaScript": 6735,
+    "Shell": 1380,
+    "CSS": 463,
+    "Makefile": 213
+  },
+  "size": 434445
+}

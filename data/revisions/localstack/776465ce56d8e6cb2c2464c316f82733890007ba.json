@@ -1,0 +1,20 @@
+{
+  "commit": "776465ce56d8e6cb2c2464c316f82733890007ba",
+  "repo_url": "https://github.com/localstack/localstack",
+  "date": "2021-02-01T11:18:19",
+  "languages": {
+    "Python": 1735405,
+    "JavaScript": 25498,
+    "HTML": 13803,
+    "Java": 12420,
+    "Makefile": 8598,
+    "HCL": 4200,
+    "Dockerfile": 3683,
+    "Shell": 3562,
+    "CSS": 3073,
+    "C#": 1338,
+    "Ruby": 39,
+    "Batchfile": 27
+  },
+  "size": 1811646
+}

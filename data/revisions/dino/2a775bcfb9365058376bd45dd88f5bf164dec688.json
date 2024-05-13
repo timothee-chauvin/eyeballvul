@@ -1,0 +1,12 @@
+{
+  "commit": "2a775bcfb9365058376bd45dd88f5bf164dec688",
+  "repo_url": "https://github.com/dino/dino",
+  "date": "2020-11-12T17:51:20",
+  "languages": {
+    "Vala": 1490145,
+    "CMake": 109568,
+    "C": 43929,
+    "CSS": 4908
+  },
+  "size": 1648550
+}

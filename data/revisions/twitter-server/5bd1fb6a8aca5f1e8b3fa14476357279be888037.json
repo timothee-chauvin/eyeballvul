@@ -1,0 +1,14 @@
+{
+  "commit": "5bd1fb6a8aca5f1e8b3fa14476357279be888037",
+  "repo_url": "https://github.com/twitter/twitter-server",
+  "date": "2020-10-27T01:28:46",
+  "languages": {
+    "Scala": 356500,
+    "JavaScript": 19086,
+    "Starlark": 11957,
+    "CSS": 7972,
+    "Shell": 1120,
+    "Java": 1103
+  },
+  "size": 397738
+}

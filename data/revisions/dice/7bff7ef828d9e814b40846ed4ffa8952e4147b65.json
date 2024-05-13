@@ -1,0 +1,15 @@
+{
+  "commit": "7bff7ef828d9e814b40846ed4ffa8952e4147b65",
+  "repo_url": "https://github.com/bihell/dice",
+  "date": "2021-07-14T09:43:48",
+  "languages": {
+    "Java": 720110,
+    "Vue": 662803,
+    "TypeScript": 657299,
+    "JavaScript": 73064,
+    "Less": 41476,
+    "CSS": 18214,
+    "HTML": 4353
+  },
+  "size": 2177319
+}

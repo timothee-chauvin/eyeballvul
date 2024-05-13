@@ -1,0 +1,16 @@
+{
+  "commit": "d2f1ca88072a8382a6a37aa6cb64df42e5e5c747",
+  "repo_url": "https://github.com/fedora-infra/bodhi",
+  "date": "2016-09-14T13:37:38",
+  "languages": {
+    "Python": 805908,
+    "JavaScript": 274964,
+    "HTML": 103767,
+    "CSS": 73843,
+    "Less": 2022,
+    "Ruby": 1054,
+    "Shell": 486,
+    "Mako": 412
+  },
+  "size": 1262456
+}

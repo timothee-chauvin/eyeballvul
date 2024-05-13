@@ -1,0 +1,15 @@
+{
+  "commit": "e73bff817c07581472ed03cdd802ec1c3aa8a1cc",
+  "repo_url": "https://github.com/qbittorrent/qbittorrent",
+  "date": "2012-08-09T10:38:04",
+  "languages": {
+    "C++": 1289002,
+    "JavaScript": 241128,
+    "Python": 162130,
+    "HTML": 115057,
+    "CSS": 23884,
+    "QMake": 19911,
+    "C": 3641
+  },
+  "size": 1854753
+}

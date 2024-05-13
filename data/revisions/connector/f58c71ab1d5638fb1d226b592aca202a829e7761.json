@@ -1,0 +1,11 @@
+{
+  "commit": "f58c71ab1d5638fb1d226b592aca202a829e7761",
+  "repo_url": "https://github.com/eclipse-edc/connector",
+  "date": "2024-04-23T10:55:21",
+  "languages": {
+    "Java": 7432701,
+    "Shell": 4078,
+    "Dockerfile": 557
+  },
+  "size": 7437336
+}

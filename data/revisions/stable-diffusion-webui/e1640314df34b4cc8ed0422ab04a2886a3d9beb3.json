@@ -1,0 +1,14 @@
+{
+  "commit": "e1640314df34b4cc8ed0422ab04a2886a3d9beb3",
+  "repo_url": "https://github.com/automatic1111/stable-diffusion-webui",
+  "date": "2024-04-06T18:46:56",
+  "languages": {
+    "Python": 1716337,
+    "JavaScript": 173743,
+    "CSS": 44304,
+    "HTML": 27503,
+    "Shell": 12964,
+    "Batchfile": 2428
+  },
+  "size": 1977279
+}

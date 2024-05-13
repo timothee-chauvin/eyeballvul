@@ -1,0 +1,15 @@
+{
+  "commit": "2a950e4ce9ac180c4c14bcfe2da95ec64af2516f",
+  "repo_url": "https://github.com/janet-lang/janet",
+  "date": "2022-04-02T02:59:01",
+  "languages": {
+    "C": 1169769,
+    "Clojure": 247028,
+    "Makefile": 11478,
+    "Meson": 10097,
+    "Roff": 7515,
+    "Batchfile": 5141,
+    "Shell": 1426
+  },
+  "size": 1452454
+}

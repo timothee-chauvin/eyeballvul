@@ -1,0 +1,17 @@
+{
+  "commit": "f037214e93be9854f8811aee40b1b8c6405c238e",
+  "repo_url": "https://github.com/pimcore/pimcore",
+  "date": "2020-10-12T08:17:06",
+  "languages": {
+    "JavaScript": 17075700,
+    "PHP": 11734368,
+    "CSS": 2091099,
+    "SCSS": 278538,
+    "Twig": 155704,
+    "HTML": 25803,
+    "Shell": 7339,
+    "Hack": 2689,
+    "Ruby": 83
+  },
+  "size": 31371323
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "75f0f5927b79c1fa3b6c2e522b5f1caaf1de8cf3",
+  "repo_url": "https://github.com/easybuilders/easybuild-framework",
+  "date": "2020-01-16T09:03:51",
+  "languages": {
+    "Python": 3497268,
+    "Shell": 42275,
+    "Roff": 16929,
+    "Lua": 1290
+  },
+  "size": 3557762
+}

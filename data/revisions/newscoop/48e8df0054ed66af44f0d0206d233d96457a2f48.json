@@ -1,0 +1,21 @@
+{
+  "commit": "48e8df0054ed66af44f0d0206d233d96457a2f48",
+  "repo_url": "https://github.com/sourcefabric/newscoop",
+  "date": "2016-02-08T12:42:45",
+  "languages": {
+    "PHP": 12839921,
+    "JavaScript": 2467118,
+    "CSS": 580699,
+    "HTML": 506403,
+    "Twig": 303239,
+    "Smarty": 41334,
+    "Gherkin": 39055,
+    "SCSS": 16447,
+    "Shell": 5127,
+    "XSLT": 3152,
+    "Dockerfile": 1060,
+    "Hack": 866,
+    "Ruby": 302
+  },
+  "size": 16804723
+}

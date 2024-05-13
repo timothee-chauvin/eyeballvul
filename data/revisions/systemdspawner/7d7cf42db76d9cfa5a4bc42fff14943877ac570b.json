@@ -1,0 +1,10 @@
+{
+  "commit": "7d7cf42db76d9cfa5a4bc42fff14943877ac570b",
+  "repo_url": "https://github.com/jupyterhub/systemdspawner",
+  "date": "2020-12-07T11:10:50",
+  "languages": {
+    "Python": 25267,
+    "Shell": 905
+  },
+  "size": 26172
+}

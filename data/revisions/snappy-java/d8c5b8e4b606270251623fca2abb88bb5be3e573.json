@@ -1,0 +1,16 @@
+{
+  "commit": "d8c5b8e4b606270251623fca2abb88bb5be3e573",
+  "repo_url": "https://github.com/xerial/snappy-java",
+  "date": "2023-05-23T22:16:13",
+  "languages": {
+    "Java": 306256,
+    "C++": 227887,
+    "Shell": 90049,
+    "Makefile": 9294,
+    "Scala": 6441,
+    "C": 5658,
+    "CSS": 1554,
+    "CMake": 525
+  },
+  "size": 647664
+}

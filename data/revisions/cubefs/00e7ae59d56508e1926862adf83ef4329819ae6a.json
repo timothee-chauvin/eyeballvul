@@ -1,0 +1,26 @@
+{
+  "commit": "00e7ae59d56508e1926862adf83ef4329819ae6a",
+  "repo_url": "https://github.com/cubefs/cubefs",
+  "date": "2023-03-20T11:23:51",
+  "languages": {
+    "C++": 9337807,
+    "Go": 8015423,
+    "Java": 1114816,
+    "Shell": 281303,
+    "Perl": 244299,
+    "C": 189217,
+    "Python": 183132,
+    "Makefile": 108630,
+    "CMake": 46353,
+    "Assembly": 16166,
+    "PowerShell": 13614,
+    "PHP": 12083,
+    "BitBake": 7499,
+    "JavaScript": 7444,
+    "Dockerfile": 6980,
+    "Smarty": 1231,
+    "Batchfile": 756,
+    "HTML": 97
+  },
+  "size": 19586850
+}

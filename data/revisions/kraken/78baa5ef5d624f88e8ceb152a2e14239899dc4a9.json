@@ -1,0 +1,17 @@
+{
+  "commit": "78baa5ef5d624f88e8ceb152a2e14239899dc4a9",
+  "repo_url": "https://github.com/uber/kraken",
+  "date": "2020-05-06T01:53:27",
+  "languages": {
+    "Go": 1377508,
+    "Python": 52327,
+    "JavaScript": 9995,
+    "Makefile": 9066,
+    "Dockerfile": 5296,
+    "Shell": 619,
+    "Mustache": 579,
+    "HTML": 543,
+    "CSS": 120
+  },
+  "size": 1456053
+}

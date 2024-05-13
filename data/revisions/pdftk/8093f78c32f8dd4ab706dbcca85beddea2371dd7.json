@@ -1,0 +1,15 @@
+{
+  "commit": "8093f78c32f8dd4ab706dbcca85beddea2371dd7",
+  "repo_url": "https://gitlab.com/pdftk-java/pdftk",
+  "date": "2021-06-16T20:00:57",
+  "languages": {
+    "Java": 3099627,
+    "C++": 56218,
+    "Roff": 24567,
+    "HTML": 3714,
+    "Shell": 3353,
+    "TeX": 1255,
+    "Perl": 588
+  },
+  "size": 3189322
+}

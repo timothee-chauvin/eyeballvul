@@ -1,0 +1,16 @@
+{
+  "commit": "4464aa5b401f26330583fd995f7ba6df3592653a",
+  "repo_url": "https://github.com/tinyobjloader/tinyobjloader",
+  "date": "2019-05-29T05:40:36",
+  "languages": {
+    "C++": 1133520,
+    "Python": 290869,
+    "CMake": 53880,
+    "Makefile": 7992,
+    "C": 3409,
+    "Lua": 3039,
+    "Shell": 2778,
+    "Batchfile": 172
+  },
+  "size": 1495659
+}

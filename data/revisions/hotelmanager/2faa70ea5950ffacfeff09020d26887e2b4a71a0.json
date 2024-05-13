@@ -1,0 +1,11 @@
+{
+  "commit": "2faa70ea5950ffacfeff09020d26887e2b4a71a0",
+  "repo_url": "https://github.com/saibamen/hotelmanager",
+  "date": "2020-12-08T18:53:46",
+  "languages": {
+    "PHP": 252518,
+    "Blade": 34728,
+    "Vue": 565
+  },
+  "size": 287811
+}

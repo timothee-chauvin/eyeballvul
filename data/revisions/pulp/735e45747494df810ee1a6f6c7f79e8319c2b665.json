@@ -1,0 +1,17 @@
+{
+  "commit": "735e45747494df810ee1a6f6c7f79e8319c2b665",
+  "repo_url": "https://github.com/pulp/pulp",
+  "date": "2016-04-05T16:37:39",
+  "languages": {
+    "Python": 5502214,
+    "Shell": 102443,
+    "C": 8882,
+    "Puppet": 4473,
+    "Ruby": 3389,
+    "JavaScript": 1589,
+    "Dockerfile": 1057,
+    "HTML": 979,
+    "Makefile": 563
+  },
+  "size": 5625589
+}

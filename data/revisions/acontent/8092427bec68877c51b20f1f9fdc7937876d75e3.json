@@ -1,0 +1,14 @@
+{
+  "commit": "8092427bec68877c51b20f1f9fdc7937876d75e3",
+  "repo_url": "https://github.com/atutor/acontent",
+  "date": "2018-02-03T15:51:23",
+  "languages": {
+    "PHP": 2871199,
+    "CSS": 432346,
+    "JavaScript": 222633,
+    "HTML": 83333,
+    "Hack": 9799,
+    "Shell": 4024
+  },
+  "size": 3623334
+}

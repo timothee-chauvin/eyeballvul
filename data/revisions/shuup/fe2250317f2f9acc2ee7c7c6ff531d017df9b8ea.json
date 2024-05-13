@@ -1,0 +1,16 @@
+{
+  "commit": "fe2250317f2f9acc2ee7c7c6ff531d017df9b8ea",
+  "repo_url": "https://github.com/shuup/shuup",
+  "date": "2021-06-30T17:02:58",
+  "languages": {
+    "Python": 6288173,
+    "Jinja": 668929,
+    "JavaScript": 377017,
+    "SCSS": 130091,
+    "Less": 126515,
+    "CSS": 1746,
+    "Dockerfile": 1228,
+    "HTML": 464
+  },
+  "size": 7594163
+}

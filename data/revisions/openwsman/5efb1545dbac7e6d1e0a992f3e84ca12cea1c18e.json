@@ -1,0 +1,19 @@
+{
+  "commit": "5efb1545dbac7e6d1e0a992f3e84ca12cea1c18e",
+  "repo_url": "https://github.com/openwsman/openwsman",
+  "date": "2018-11-20T08:09:43",
+  "languages": {
+    "C": 1517588,
+    "Ruby": 142616,
+    "SWIG": 116519,
+    "CMake": 91653,
+    "C++": 46498,
+    "M4": 28034,
+    "Perl": 22452,
+    "Makefile": 17976,
+    "Python": 14691,
+    "Java": 14182,
+    "Shell": 9451
+  },
+  "size": 2021660
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "c62d1f1efb1ce70d98400dd5ba827311b3f48afa",
+  "repo_url": "https://github.com/bottlesdevs/bottles",
+  "date": "2023-01-15T00:32:24",
+  "languages": {
+    "Python": 768726,
+    "Meson": 12272,
+    "CSS": 2907,
+    "Shell": 326
+  },
+  "size": 784231
+}

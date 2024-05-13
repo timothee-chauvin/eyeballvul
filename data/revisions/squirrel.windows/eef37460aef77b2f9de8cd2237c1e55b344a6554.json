@@ -1,0 +1,12 @@
+{
+  "commit": "eef37460aef77b2f9de8cd2237c1e55b344a6554",
+  "repo_url": "https://github.com/squirrel/squirrel.windows",
+  "date": "2020-09-27T19:55:04",
+  "languages": {
+    "C++": 1672718,
+    "C#": 788471,
+    "C": 89108,
+    "PowerShell": 1835
+  },
+  "size": 2552132
+}

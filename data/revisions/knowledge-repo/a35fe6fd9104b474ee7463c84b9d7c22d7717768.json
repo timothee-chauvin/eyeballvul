@@ -1,0 +1,15 @@
+{
+  "commit": "a35fe6fd9104b474ee7463c84b9d7c22d7717768",
+  "repo_url": "https://github.com/airbnb/knowledge-repo",
+  "date": "2016-12-20T07:32:52",
+  "languages": {
+    "Python": 304215,
+    "JavaScript": 283902,
+    "HTML": 121991,
+    "Jupyter Notebook": 92882,
+    "CSS": 15804,
+    "Shell": 2107,
+    "Mako": 412
+  },
+  "size": 821313
+}

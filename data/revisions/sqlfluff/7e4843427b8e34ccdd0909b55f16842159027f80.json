@@ -1,0 +1,12 @@
+{
+  "commit": "7e4843427b8e34ccdd0909b55f16842159027f80",
+  "repo_url": "https://github.com/sqlfluff/sqlfluff",
+  "date": "2023-05-25T16:10:58",
+  "languages": {
+    "Python": 3316675,
+    "SQL": 663696,
+    "Dockerfile": 1203,
+    "Shell": 796
+  },
+  "size": 3982370
+}

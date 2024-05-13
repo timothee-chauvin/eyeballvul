@@ -1,0 +1,13 @@
+{
+  "commit": "2b8554bbe810c36ce960d3f4836584bc40b6ba53",
+  "repo_url": "https://github.com/silverwind/droppy",
+  "date": "2015-10-11T16:18:39",
+  "languages": {
+    "JavaScript": 193702,
+    "CSS": 79986,
+    "Handlebars": 6506,
+    "HTML": 5921,
+    "Makefile": 642
+  },
+  "size": 286757
+}

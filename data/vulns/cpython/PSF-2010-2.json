@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2010-2",
+  "published": "2010-05-27T19:00:00",
+  "modified": "2023-11-08T03:56:55.660128",
+  "details": "Integer overflow in rgbimgmodule.c in the rgbimg module in Python 2.5 allows remote attackers to have an unspecified impact via a large image that triggers a buffer overflow.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2008-3143.12.",
+  "summary": "rgbimg and imageop overflows",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "23bd6efd66b1c8a2e23fd07717b1389f4247157e",
+  "repo_url": "https://github.com/apache/asterixdb",
+  "date": "2018-10-02T23:02:31",
+  "languages": {
+    "Java": 21653732,
+    "Python": 270538,
+    "Shell": 230957,
+    "PostScript": 224941,
+    "JavaScript": 202667,
+    "HTML": 141119,
+    "TypeScript": 138130,
+    "FreeMarker": 55224,
+    "Batchfile": 37177,
+    "Smarty": 31412,
+    "SCSS": 24441,
+    "CSS": 8115,
+    "TeX": 1848,
+    "Dockerfile": 1730,
+    "Scheme": 1105,
+    "Crystal": 453
+  },
+  "size": 23023589
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "4011cb43d40b9b3259b25a223a9923da38ea7ea1",
+  "repo_url": "https://github.com/opcfoundation/ua-.net-legacy",
+  "date": "2017-06-27T15:22:29",
+  "languages": {
+    "C#": 34352636,
+    "HTML": 7638180,
+    "C": 2639636,
+    "C++": 2017283,
+    "JavaScript": 1046507,
+    "CSS": 127014,
+    "Smalltalk": 86872,
+    "Rich Text Format": 16631,
+    "ASP.NET": 6151,
+    "Batchfile": 5786,
+    "Brightscript": 96
+  },
+  "size": 47936792
+}

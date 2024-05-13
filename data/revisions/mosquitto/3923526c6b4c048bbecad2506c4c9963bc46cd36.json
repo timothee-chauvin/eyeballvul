@@ -1,0 +1,20 @@
+{
+  "commit": "3923526c6b4c048bbecad2506c4c9963bc46cd36",
+  "repo_url": "https://github.com/eclipse/mosquitto",
+  "date": "2023-09-18T21:22:14",
+  "languages": {
+    "C": 1901954,
+    "Python": 833311,
+    "Makefile": 74957,
+    "C++": 39559,
+    "Dockerfile": 34233,
+    "CMake": 23428,
+    "Shell": 11854,
+    "NSIS": 10498,
+    "HTML": 7778,
+    "CSS": 3918,
+    "Perl": 3238,
+    "XSLT": 1018
+  },
+  "size": 2945746
+}

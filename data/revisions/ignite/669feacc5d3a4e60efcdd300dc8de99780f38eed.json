@@ -1,0 +1,26 @@
+{
+  "commit": "669feacc5d3a4e60efcdd300dc8de99780f38eed",
+  "repo_url": "https://github.com/apache/ignite",
+  "date": "2018-07-10T10:48:38",
+  "languages": {
+    "Java": 34350315,
+    "C#": 5991594,
+    "C++": 3118989,
+    "JavaScript": 1653003,
+    "Scala": 991722,
+    "Pug": 655634,
+    "Shell": 592081,
+    "SCSS": 244091,
+    "Makefile": 107669,
+    "Batchfile": 50828,
+    "Groovy": 15081,
+    "CSS": 14631,
+    "Dockerfile": 14266,
+    "M4": 12456,
+    "PowerShell": 12344,
+    "HTML": 12272,
+    "PHP": 11079,
+    "C": 3588
+  },
+  "size": 47851643
+}

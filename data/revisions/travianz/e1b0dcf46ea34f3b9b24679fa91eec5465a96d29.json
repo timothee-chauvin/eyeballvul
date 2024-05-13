@@ -1,0 +1,13 @@
+{
+  "commit": "e1b0dcf46ea34f3b9b24679fa91eec5465a96d29",
+  "repo_url": "https://github.com/shadowss/travianz",
+  "date": "2018-05-21T15:51:46",
+  "languages": {
+    "Smarty": 2757741,
+    "PHP": 2432805,
+    "CSS": 561984,
+    "JavaScript": 239921,
+    "HTML": 17314
+  },
+  "size": 6009765
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "75dd558bdaff030688d483e1a2bd51d38c55ab49",
+  "repo_url": "https://github.com/intel/linux-sgx",
+  "date": "2018-05-10T03:05:38",
+  "languages": {
+    "C++": 12267451,
+    "C": 5394288,
+    "Makefile": 959351,
+    "Shell": 458090,
+    "Java": 186292,
+    "Perl": 180845,
+    "Assembly": 152067,
+    "OCaml": 125849,
+    "TeX": 117609,
+    "Roff": 108683,
+    "Python": 45599,
+    "HTML": 43951,
+    "Hack": 7907,
+    "CSS": 6784,
+    "CMake": 2241,
+    "M4": 999
+  },
+  "size": 20058006
+}

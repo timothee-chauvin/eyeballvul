@@ -1,0 +1,13 @@
+{
+  "commit": "7fdaa43f1c548cc53ab9c7b59a697851060f4f46",
+  "repo_url": "https://github.com/byvoid/opencc",
+  "date": "2017-02-06T22:18:02",
+  "languages": {
+    "C++": 177989,
+    "CMake": 10772,
+    "Python": 10709,
+    "JavaScript": 6247,
+    "Makefile": 1722
+  },
+  "size": 207439
+}

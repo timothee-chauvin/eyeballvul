@@ -1,0 +1,29 @@
+{
+  "commit": "cb956e3e480716a3efd280a5287bdd7bee1cedc5",
+  "repo_url": "https://github.com/ardour/ardour",
+  "date": "2017-09-18T15:53:47",
+  "languages": {
+    "C++": 22563556,
+    "C": 2953677,
+    "Python": 583410,
+    "Lua": 204546,
+    "Shell": 168651,
+    "Objective-C++": 90388,
+    "Scheme": 79977,
+    "Assembly": 49849,
+    "PHP": 37516,
+    "Perl": 33461,
+    "Rez": 12190,
+    "Objective-C": 7172,
+    "NSIS": 4599,
+    "Ruby": 4047,
+    "Makefile": 3195,
+    "JavaScript": 2120,
+    "Roff": 1955,
+    "HTML": 1583,
+    "Scilab": 293,
+    "Emacs Lisp": 151,
+    "Starlark": 140
+  },
+  "size": 26802476
+}

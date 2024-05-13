@@ -1,0 +1,10 @@
+{
+  "commit": "49e1e6f064c0c6cc138ed2a3c80e3024b23ba965",
+  "repo_url": "https://github.com/dtolnay/serde-yaml",
+  "date": "2018-09-03T16:30:48",
+  "languages": {
+    "Rust": 155205,
+    "Shell": 764
+  },
+  "size": 155969
+}

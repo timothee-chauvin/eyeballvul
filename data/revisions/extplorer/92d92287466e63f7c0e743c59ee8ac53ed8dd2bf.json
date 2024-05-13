@@ -1,0 +1,14 @@
+{
+  "commit": "92d92287466e63f7c0e743c59ee8ac53ed8dd2bf",
+  "repo_url": "https://github.com/soerennb/extplorer",
+  "date": "2018-06-21T15:40:03",
+  "languages": {
+    "PHP": 3587402,
+    "CSS": 439670,
+    "JavaScript": 259372,
+    "HTML": 12174,
+    "Shell": 1019,
+    "Batchfile": 1001
+  },
+  "size": 4300638
+}

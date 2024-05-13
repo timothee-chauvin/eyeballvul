@@ -1,0 +1,17 @@
+{
+  "commit": "6f81fde398246504bb90b418275532f08852e259",
+  "repo_url": "https://github.com/influxdata/influxdb",
+  "date": "2015-11-12T22:28:20",
+  "languages": {
+    "Go": 3210277,
+    "Shell": 49383,
+    "Python": 21695,
+    "JavaScript": 13713,
+    "CSS": 9692,
+    "HTML": 9436,
+    "Ruby": 3894,
+    "Makefile": 839,
+    "Dockerfile": 534
+  },
+  "size": 3319463
+}

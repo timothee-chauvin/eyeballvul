@@ -1,0 +1,14 @@
+{
+  "commit": "019095d79f8c7227f53ad11ac2013fb9b8d3dd94",
+  "repo_url": "https://github.com/pupnp/pupnp",
+  "date": "2016-07-07T15:50:19",
+  "languages": {
+    "C": 1537705,
+    "M4": 62174,
+    "TeX": 58305,
+    "Makefile": 12970,
+    "HTML": 9348,
+    "Shell": 302
+  },
+  "size": 1680804
+}

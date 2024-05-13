@@ -1,0 +1,12 @@
+{
+  "commit": "4409106f6300248e64e200442f9a7c51453f9618",
+  "repo_url": "https://github.com/noobaa/noobaa-operator",
+  "date": "2019-10-31T11:00:39",
+  "languages": {
+    "Go": 387044,
+    "Shell": 13387,
+    "Makefile": 5551,
+    "Dockerfile": 448
+  },
+  "size": 406430
+}

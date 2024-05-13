@@ -1,0 +1,26 @@
+{
+  "commit": "7fdc07cccdc0e23d4986557a9314e36859704a3b",
+  "repo_url": "https://github.com/apache/nifi",
+  "date": "2021-11-03T15:53:32",
+  "languages": {
+    "Java": 52873564,
+    "JavaScript": 3993659,
+    "Groovy": 2465660,
+    "HTML": 1059023,
+    "CSS": 283970,
+    "Shell": 181241,
+    "Handlebars": 69052,
+    "Batchfile": 44090,
+    "GAP": 30934,
+    "Python": 27236,
+    "Dockerfile": 24269,
+    "Ruby": 23018,
+    "SCSS": 22683,
+    "XSLT": 5681,
+    "Clojure": 3993,
+    "PLpgSQL": 1211,
+    "Lua": 983,
+    "C++": 652
+  },
+  "size": 61110919
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "ac14eda9c1d45b37087988e9a8e435f51aaaa73c",
+  "repo_url": "https://github.com/haiwen/seafile",
+  "date": "2020-01-11T03:46:38",
+  "languages": {
+    "C": 1365583,
+    "Python": 204601,
+    "M4": 26162,
+    "Shell": 9030,
+    "Makefile": 6977,
+    "Vala": 4760
+  },
+  "size": 1617113
+}

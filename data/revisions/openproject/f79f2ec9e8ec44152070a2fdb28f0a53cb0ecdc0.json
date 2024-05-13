@@ -1,0 +1,21 @@
+{
+  "commit": "f79f2ec9e8ec44152070a2fdb28f0a53cb0ecdc0",
+  "repo_url": "https://github.com/opf/openproject",
+  "date": "2021-12-08T07:03:25",
+  "languages": {
+    "Ruby": 16025291,
+    "TypeScript": 3615293,
+    "HTML": 1525690,
+    "Sass": 457832,
+    "JavaScript": 140362,
+    "Nix": 100447,
+    "Shell": 63873,
+    "SCSS": 60303,
+    "API Blueprint": 13533,
+    "CSS": 10245,
+    "Perl": 9453,
+    "Dockerfile": 6923,
+    "Procfile": 132
+  },
+  "size": 22029377
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "ac24fdd4ebd0ba015ca79c2002ed593eff95f65c",
+  "repo_url": "https://github.com/zulip/zulip",
+  "date": "2019-03-01T18:32:10",
+  "languages": {
+    "Python": 6385234,
+    "JavaScript": 3040498,
+    "HTML": 486058,
+    "Perl": 398763,
+    "SCSS": 376181,
+    "Handlebars": 199666,
+    "Shell": 118788,
+    "Puppet": 72908,
+    "CSS": 65439,
+    "TypeScript": 9543,
+    "Ruby": 6110,
+    "Emacs Lisp": 158
+  },
+  "size": 11159346
+}

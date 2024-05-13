@@ -1,0 +1,18 @@
+{
+  "commit": "a971f190bafbf2b6b4c971a6d888856aab00da87",
+  "repo_url": "https://github.com/kerphi/phpfreechat",
+  "date": "2013-06-04T20:19:49",
+  "languages": {
+    "PHP": 3497915,
+    "JavaScript": 131697,
+    "HTML": 105536,
+    "NASL": 54157,
+    "CSS": 20390,
+    "Smarty": 7900,
+    "Shell": 5603,
+    "Hack": 708,
+    "C++": 20,
+    "Pascal": 18
+  },
+  "size": 3823944
+}

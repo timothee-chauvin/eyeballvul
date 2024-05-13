@@ -1,0 +1,17 @@
+{
+  "commit": "2827bd00b59bdc176a010b22fc4acde9b580d6c2",
+  "repo_url": "https://github.com/cesanta/mjs",
+  "date": "2017-11-16T09:49:34",
+  "languages": {
+    "C": 2767000,
+    "Python": 116825,
+    "Assembly": 107740,
+    "Makefile": 26761,
+    "JavaScript": 14596,
+    "C++": 6591,
+    "Batchfile": 3468,
+    "Go": 658,
+    "Shell": 440
+  },
+  "size": 3044079
+}

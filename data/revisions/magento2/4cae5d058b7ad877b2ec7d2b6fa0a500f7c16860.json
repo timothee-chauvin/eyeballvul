@@ -1,0 +1,16 @@
+{
+  "commit": "4cae5d058b7ad877b2ec7d2b6fa0a500f7c16860",
+  "repo_url": "https://github.com/magento/magento2",
+  "date": "2015-11-17T03:05:39",
+  "languages": {
+    "PHP": 54089225,
+    "HTML": 8635167,
+    "JavaScript": 6787593,
+    "Less": 2409541,
+    "CSS": 745253,
+    "XSLT": 19889,
+    "VCL": 7938,
+    "Shell": 3432
+  },
+  "size": 72698038
+}

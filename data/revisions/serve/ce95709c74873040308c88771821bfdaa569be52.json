@@ -1,0 +1,11 @@
+{
+  "commit": "ce95709c74873040308c88771821bfdaa569be52",
+  "repo_url": "https://github.com/zeit/serve",
+  "date": "2018-01-13T20:32:55",
+  "languages": {
+    "JavaScript": 16252,
+    "CSS": 5620,
+    "Handlebars": 1046
+  },
+  "size": 22918
+}

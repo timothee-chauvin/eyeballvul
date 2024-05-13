@@ -1,0 +1,17 @@
+{
+  "commit": "0fb51ef67913fd42592ccd41dd926cc5dc415261",
+  "repo_url": "https://github.com/osclass/osclass",
+  "date": "2016-02-04T12:13:11",
+  "languages": {
+    "PHP": 5731998,
+    "JavaScript": 126388,
+    "Less": 119386,
+    "SCSS": 100967,
+    "CSS": 77895,
+    "Hack": 9387,
+    "Smarty": 1951,
+    "HTML": 213,
+    "Ruby": 131
+  },
+  "size": 6168316
+}

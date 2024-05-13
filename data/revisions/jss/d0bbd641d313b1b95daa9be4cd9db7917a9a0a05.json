@@ -1,0 +1,15 @@
+{
+  "commit": "d0bbd641d313b1b95daa9be4cd9db7917a9a0a05",
+  "repo_url": "https://github.com/dogtagpki/jss",
+  "date": "2019-10-15T19:11:14",
+  "languages": {
+    "Java": 3847382,
+    "C": 894573,
+    "CMake": 49048,
+    "Python": 30098,
+    "Shell": 29876,
+    "HTML": 7459,
+    "Makefile": 164
+  },
+  "size": 4858600
+}

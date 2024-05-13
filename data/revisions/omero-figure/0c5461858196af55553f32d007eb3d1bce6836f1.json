@@ -1,0 +1,14 @@
+{
+  "commit": "0c5461858196af55553f32d007eb3d1bce6836f1",
+  "repo_url": "https://github.com/ome/omero-figure",
+  "date": "2021-02-25T14:13:04",
+  "languages": {
+    "JavaScript": 379024,
+    "Python": 136548,
+    "HTML": 106395,
+    "CSS": 22195,
+    "Shell": 517,
+    "Dockerfile": 273
+  },
+  "size": 644952
+}

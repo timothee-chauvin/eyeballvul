@@ -1,0 +1,26 @@
+{
+  "commit": "f50742c55eda6105f89082a8a8c1cc7bb738f4fd",
+  "repo_url": "https://github.com/spacewalkproject/spacewalk",
+  "date": "2016-03-28T17:31:17",
+  "languages": {
+    "Java": 15013679,
+    "Python": 5738591,
+    "PLSQL": 1299993,
+    "Perl": 541762,
+    "HTML": 334562,
+    "Shell": 246312,
+    "PLpgSQL": 220999,
+    "Makefile": 106794,
+    "C": 103804,
+    "Roff": 74295,
+    "JavaScript": 67414,
+    "Less": 25277,
+    "CSS": 22106,
+    "XSLT": 16676,
+    "Genshi": 1371,
+    "Groovy": 1357,
+    "sed": 825,
+    "M4": 688
+  },
+  "size": 23816505
+}

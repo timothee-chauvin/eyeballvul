@@ -1,0 +1,22 @@
+{
+  "commit": "1a618f9606af177af1f137d1424ff7b3c4b14b56",
+  "repo_url": "https://github.com/os4ed/opensis-classic",
+  "date": "2019-08-23T21:47:05",
+  "languages": {
+    "PHP": 14602368,
+    "JavaScript": 5191504,
+    "CSS": 1084467,
+    "Less": 1062396,
+    "HTML": 516590,
+    "ColdFusion": 119133,
+    "SCSS": 72669,
+    "Python": 38344,
+    "Classic ASP": 35693,
+    "Perl": 34853,
+    "Lasso": 19623,
+    "ASP.NET": 7429,
+    "Raku": 1472,
+    "Hack": 1391
+  },
+  "size": 22787932
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "19cad8d218cbfe5201a25014d93d9416b5550e8b",
+  "repo_url": "https://github.com/macdonaldrobinson/flexdotnetcms",
+  "date": "2020-10-04T01:28:00",
+  "languages": {
+    "C#": 1165232,
+    "JavaScript": 765962,
+    "ASP.NET": 373529,
+    "SCSS": 331575,
+    "CSS": 111904,
+    "HTML": 85392,
+    "TSQL": 3459
+  },
+  "size": 2837053
+}

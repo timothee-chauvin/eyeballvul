@@ -1,0 +1,13 @@
+{
+  "commit": "9737e02b4d0a15c1a4847c636f40688440cd49aa",
+  "repo_url": "https://github.com/jenkinsci/ecs-publisher-plugin",
+  "date": "2017-09-12T13:25:20",
+  "languages": {
+    "Java": 54329,
+    "JavaScript": 1451,
+    "HTML": 1288,
+    "CSS": 372,
+    "Shell": 113
+  },
+  "size": 57553
+}

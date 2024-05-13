@@ -1,0 +1,14 @@
+{
+  "commit": "f6841393099e2c75cab09b0cf0f2a857ec91861b",
+  "repo_url": "https://github.com/jenkinsci/azure-ad-plugin",
+  "date": "2021-08-13T12:36:29",
+  "languages": {
+    "Java": 121261,
+    "JavaScript": 7498,
+    "Groovy": 2047,
+    "HTML": 1752,
+    "TypeScript": 562,
+    "CSS": 310
+  },
+  "size": 133430
+}

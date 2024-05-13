@@ -1,0 +1,17 @@
+{
+  "commit": "fe081330645ebae33012430626a0543761ab62ac",
+  "repo_url": "https://github.com/spiral-project/ihatemoney",
+  "date": "2019-09-18T20:11:06",
+  "languages": {
+    "Python": 137743,
+    "HTML": 35562,
+    "CSS": 8138,
+    "Jinja": 6048,
+    "Makefile": 3555,
+    "Shell": 1421,
+    "Dockerfile": 810,
+    "Mako": 412,
+    "JavaScript": 234
+  },
+  "size": 193923
+}

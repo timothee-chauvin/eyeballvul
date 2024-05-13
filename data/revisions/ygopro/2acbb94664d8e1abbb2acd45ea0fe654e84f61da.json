@@ -1,0 +1,12 @@
+{
+  "commit": "2acbb94664d8e1abbb2acd45ea0fe654e84f61da",
+  "repo_url": "https://github.com/fluorohydride/ygopro",
+  "date": "2020-05-01T12:51:40",
+  "languages": {
+    "C++": 950975,
+    "C": 155663,
+    "CMake": 18210,
+    "Lua": 3276
+  },
+  "size": 1128124
+}

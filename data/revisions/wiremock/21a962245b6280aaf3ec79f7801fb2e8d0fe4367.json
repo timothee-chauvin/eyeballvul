@@ -1,0 +1,14 @@
+{
+  "commit": "21a962245b6280aaf3ec79f7801fb2e8d0fe4367",
+  "repo_url": "https://github.com/tomakehurst/wiremock",
+  "date": "2023-09-05T12:00:33",
+  "languages": {
+    "Java": 3174558,
+    "XSLT": 14502,
+    "HTML": 11389,
+    "Scala": 6556,
+    "JavaScript": 1343,
+    "Shell": 1066
+  },
+  "size": 3209414
+}

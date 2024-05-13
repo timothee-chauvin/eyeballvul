@@ -1,0 +1,13 @@
+{
+  "commit": "fe14c909a0f0e48cc6bf00866908d29d8a0ed1c5",
+  "repo_url": "https://github.com/eclipse/buildship",
+  "date": "2019-04-23T10:09:40",
+  "languages": {
+    "Java": 1617852,
+    "Groovy": 670235,
+    "HTML": 63273,
+    "Shell": 1892,
+    "CSS": 131
+  },
+  "size": 2353383
+}

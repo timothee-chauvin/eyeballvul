@@ -1,0 +1,15 @@
+{
+  "commit": "28f3f26c0e303392556035b694f75768d449d33d",
+  "repo_url": "https://github.com/etcd-io/etcd",
+  "date": "2018-02-12T17:29:11",
+  "languages": {
+    "Go": 4016808,
+    "Shell": 88794,
+    "Procfile": 29888,
+    "Makefile": 19479,
+    "Dockerfile": 3380,
+    "PowerShell": 2760,
+    "Batchfile": 51
+  },
+  "size": 4161160
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "5c433c6b1cf704be3adb28e72e34c9098dc0c12f",
+  "repo_url": "https://github.com/dell/csm",
+  "date": "2022-03-23T12:54:59",
+  "languages": {
+    "Go": 636688,
+    "Shell": 4100,
+    "Makefile": 2687,
+    "Dockerfile": 558
+  },
+  "size": 644033
+}

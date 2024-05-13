@@ -1,0 +1,16 @@
+{
+  "commit": "d3fa07ceb9133eaf554f427f2ff0a5e6cf465566",
+  "repo_url": "https://github.com/moxi624/mogu_blog_v2",
+  "date": "2020-10-15T02:51:02",
+  "languages": {
+    "Java": 1371451,
+    "Vue": 1200457,
+    "JavaScript": 722528,
+    "CSS": 659191,
+    "HTML": 42682,
+    "SCSS": 14228,
+    "FreeMarker": 13367,
+    "Stylus": 1434
+  },
+  "size": 4025338
+}

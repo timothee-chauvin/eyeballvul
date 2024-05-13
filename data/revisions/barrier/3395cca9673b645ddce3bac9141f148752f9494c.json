@@ -1,0 +1,17 @@
+{
+  "commit": "3395cca9673b645ddce3bac9141f148752f9494c",
+  "repo_url": "https://github.com/debauchee/barrier",
+  "date": "2020-07-14T17:37:45",
+  "languages": {
+    "C": 3536998,
+    "C++": 2615779,
+    "Objective-C++": 55818,
+    "CMake": 45328,
+    "Objective-C": 21503,
+    "QMake": 4669,
+    "Batchfile": 4125,
+    "Shell": 3393,
+    "PowerShell": 1679
+  },
+  "size": 6289292
+}

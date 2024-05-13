@@ -1,0 +1,13 @@
+{
+  "commit": "e7c8b260c3d81e91ac537787424e888afd35f594",
+  "repo_url": "https://github.com/dropwizard/dropwizard",
+  "date": "2020-01-30T20:50:29",
+  "languages": {
+    "Java": 2583228,
+    "Shell": 6865,
+    "FreeMarker": 992,
+    "Mustache": 569,
+    "HTML": 111
+  },
+  "size": 2591765
+}

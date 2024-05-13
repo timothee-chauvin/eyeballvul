@@ -1,0 +1,11 @@
+{
+  "commit": "bba5414efb0880288815d63524738b00e2374bad",
+  "repo_url": "https://github.com/cloudfoundry/silk-release",
+  "date": "2018-03-01T00:29:08",
+  "languages": {
+    "Go": 392032,
+    "Shell": 18649,
+    "HTML": 7063
+  },
+  "size": 417744
+}

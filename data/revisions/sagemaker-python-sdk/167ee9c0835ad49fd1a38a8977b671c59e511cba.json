@@ -1,0 +1,13 @@
+{
+  "commit": "167ee9c0835ad49fd1a38a8977b671c59e511cba",
+  "repo_url": "https://github.com/aws/sagemaker-python-sdk",
+  "date": "2024-04-01T16:46:52",
+  "languages": {
+    "Python": 13040823,
+    "Jupyter Notebook": 45019,
+    "Shell": 10447,
+    "Dockerfile": 2333,
+    "Java": 201
+  },
+  "size": 13098823
+}

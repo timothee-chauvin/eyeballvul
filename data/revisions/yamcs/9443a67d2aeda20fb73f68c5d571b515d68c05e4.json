@@ -1,0 +1,18 @@
+{
+  "commit": "9443a67d2aeda20fb73f68c5d571b515d68c05e4",
+  "repo_url": "https://github.com/yamcs/yamcs",
+  "date": "2023-09-18T00:19:46",
+  "languages": {
+    "Java": 8070427,
+    "TypeScript": 1215319,
+    "HTML": 580597,
+    "CSS": 67657,
+    "Shell": 11638,
+    "Batchfile": 2302,
+    "SCSS": 2059,
+    "JavaScript": 1100,
+    "Makefile": 210,
+    "Python": 135
+  },
+  "size": 9951444
+}

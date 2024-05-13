@@ -1,0 +1,17 @@
+{
+  "commit": "379d012b1f923426a1a30f4fca5aa6fd0ea1b9e1",
+  "repo_url": "https://github.com/rainloop/rainloop-webmail",
+  "date": "2018-07-30T21:20:06",
+  "languages": {
+    "PHP": 5758275,
+    "JavaScript": 792459,
+    "HTML": 260026,
+    "Less": 136187,
+    "Shell": 7474,
+    "CSS": 4717,
+    "Makefile": 1292,
+    "Dockerfile": 1110,
+    "Hack": 14
+  },
+  "size": 6961554
+}

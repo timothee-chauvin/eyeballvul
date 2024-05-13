@@ -1,0 +1,17 @@
+{
+  "commit": "a7743e4ee7b7db8fb6ca26f3f47a833123d835c0",
+  "repo_url": "https://github.com/ipti/br.tag",
+  "date": "2022-04-24T19:32:24",
+  "languages": {
+    "PHP": 21784014,
+    "JavaScript": 3758210,
+    "CSS": 692287,
+    "Less": 194424,
+    "HTML": 148132,
+    "Hack": 13095,
+    "Roff": 2101,
+    "Batchfile": 1337,
+    "Dockerfile": 705
+  },
+  "size": 26594305
+}

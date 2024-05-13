@@ -1,0 +1,18 @@
+{
+  "commit": "57f270755ae6d24bdd58263273ee5ca76627f7de",
+  "repo_url": "https://github.com/slims/slims8_akasia",
+  "date": "2021-03-09T02:58:47",
+  "languages": {
+    "PHP": 3481727,
+    "JavaScript": 1848218,
+    "CSS": 500318,
+    "HTML": 290562,
+    "Java": 162711,
+    "Less": 107432,
+    "SCSS": 56180,
+    "Ruby": 1672,
+    "Makefile": 843,
+    "Hack": 276
+  },
+  "size": 6449939
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "5ffe1439eb684f5dfe76ad34a67c11f7c8f64fe9",
+  "repo_url": "https://github.com/zulip/zulip",
+  "date": "2016-05-03T03:39:51",
+  "languages": {
+    "Python": 2026838,
+    "JavaScript": 1807572,
+    "Perl": 388933,
+    "HTML": 330728,
+    "Ruby": 254381,
+    "CSS": 183514,
+    "Puppet": 96081,
+    "Shell": 65750,
+    "Handlebars": 64854,
+    "CoffeeScript": 25868,
+    "PHP": 18930,
+    "TeX": 7109,
+    "Groovy": 5516,
+    "Pascal": 1080,
+    "Dockerfile": 221,
+    "Batchfile": 164
+  },
+  "size": 5277539
+}

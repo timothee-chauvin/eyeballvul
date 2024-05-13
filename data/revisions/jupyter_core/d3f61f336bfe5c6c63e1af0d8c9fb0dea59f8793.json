@@ -1,0 +1,11 @@
+{
+  "commit": "d3f61f336bfe5c6c63e1af0d8c9fb0dea59f8793",
+  "repo_url": "https://github.com/jupyter/jupyter_core",
+  "date": "2022-07-08T10:33:35",
+  "languages": {
+    "Python": 270299,
+    "JavaScript": 5617,
+    "CSS": 290
+  },
+  "size": 276206
+}

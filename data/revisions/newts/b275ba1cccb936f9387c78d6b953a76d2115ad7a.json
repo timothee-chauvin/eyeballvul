@@ -1,0 +1,13 @@
+{
+  "commit": "b275ba1cccb936f9387c78d6b953a76d2115ad7a",
+  "repo_url": "https://github.com/opennms/newts",
+  "date": "2019-09-13T18:13:17",
+  "languages": {
+    "Java": 518714,
+    "JavaScript": 22068,
+    "HTML": 13211,
+    "Shell": 820,
+    "CSS": 779
+  },
+  "size": 555592
+}

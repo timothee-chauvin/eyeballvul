@@ -1,0 +1,15 @@
+{
+  "commit": "8cbabacc74e68853bb42f10ddafdae10f2d33e6c",
+  "repo_url": "https://github.com/aws/amazon-ssm-agent",
+  "date": "2022-03-29T17:01:56",
+  "languages": {
+    "Go": 8423974,
+    "Shell": 50184,
+    "Makefile": 25166,
+    "PowerShell": 8699,
+    "Batchfile": 6246,
+    "Roff": 1330,
+    "Dockerfile": 738
+  },
+  "size": 8516337
+}

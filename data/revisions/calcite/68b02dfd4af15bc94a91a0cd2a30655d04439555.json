@@ -1,0 +1,18 @@
+{
+  "commit": "68b02dfd4af15bc94a91a0cd2a30655d04439555",
+  "repo_url": "https://github.com/apache/calcite",
+  "date": "2020-08-09T02:47:29",
+  "languages": {
+    "Java": 19078103,
+    "SCSS": 36583,
+    "Kotlin": 33826,
+    "HTML": 28321,
+    "FreeMarker": 19741,
+    "Shell": 7078,
+    "Batchfile": 3674,
+    "Ruby": 1807,
+    "Python": 1610,
+    "PigLatin": 1419
+  },
+  "size": 19212162
+}

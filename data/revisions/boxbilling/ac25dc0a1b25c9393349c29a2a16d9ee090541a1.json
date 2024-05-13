@@ -1,0 +1,15 @@
+{
+  "commit": "ac25dc0a1b25c9393349c29a2a16d9ee090541a1",
+  "repo_url": "https://github.com/boxbilling/boxbilling",
+  "date": "2015-07-22T08:29:36",
+  "languages": {
+    "PHP": 5569903,
+    "JavaScript": 2938700,
+    "CSS": 2880103,
+    "HTML": 1518005,
+    "Less": 39229,
+    "Shell": 2621,
+    "Makefile": 983
+  },
+  "size": 12949544
+}

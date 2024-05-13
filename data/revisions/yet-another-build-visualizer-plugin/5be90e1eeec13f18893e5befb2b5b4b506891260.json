@@ -1,0 +1,13 @@
+{
+  "commit": "5be90e1eeec13f18893e5befb2b5b4b506891260",
+  "repo_url": "https://github.com/jenkinsci/yet-another-build-visualizer-plugin",
+  "date": "2020-02-18T15:13:13",
+  "languages": {
+    "Java": 16483,
+    "Groovy": 12084,
+    "CSS": 2806,
+    "JavaScript": 2116,
+    "Shell": 267
+  },
+  "size": 33756
+}

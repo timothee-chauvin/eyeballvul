@@ -1,0 +1,15 @@
+{
+  "commit": "42e2a59b208e6c6660d81de0c70103403249bb55",
+  "repo_url": "https://github.com/lota/phamm",
+  "date": "2018-06-28T09:12:52",
+  "languages": {
+    "PHP": 108194,
+    "Perl": 25970,
+    "Shell": 8388,
+    "CSS": 5150,
+    "Python": 3050,
+    "JavaScript": 1170,
+    "Makefile": 765
+  },
+  "size": 152687
+}

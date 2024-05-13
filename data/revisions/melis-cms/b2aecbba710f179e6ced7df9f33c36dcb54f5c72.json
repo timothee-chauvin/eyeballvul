@@ -1,0 +1,13 @@
+{
+  "commit": "b2aecbba710f179e6ced7df9f33c36dcb54f5c72",
+  "repo_url": "https://github.com/melisplatform/melis-cms",
+  "date": "2022-06-20T10:13:07",
+  "languages": {
+    "PHP": 1403914,
+    "JavaScript": 629731,
+    "HTML": 252536,
+    "CSS": 137645,
+    "Less": 20768
+  },
+  "size": 2444594
+}

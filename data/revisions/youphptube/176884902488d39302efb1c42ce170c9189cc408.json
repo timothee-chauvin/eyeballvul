@@ -1,0 +1,18 @@
+{
+  "commit": "176884902488d39302efb1c42ce170c9189cc408",
+  "repo_url": "https://github.com/youphptube/youphptube",
+  "date": "2019-09-23T13:01:55",
+  "languages": {
+    "PHP": 23819398,
+    "JavaScript": 22372770,
+    "CSS": 735877,
+    "SCSS": 243388,
+    "Less": 189106,
+    "HTML": 80100,
+    "Makefile": 1568,
+    "Dockerfile": 1438,
+    "Hack": 1291,
+    "Shell": 1232
+  },
+  "size": 47446168
+}

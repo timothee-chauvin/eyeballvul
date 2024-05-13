@@ -1,0 +1,12 @@
+{
+  "commit": "76af0fcfa61f5456953c2517a7c47bf258c7cde8",
+  "repo_url": "https://github.com/jenkinsci/xunit-plugin",
+  "date": "2022-05-10T08:27:21",
+  "languages": {
+    "Java": 375757,
+    "XSLT": 183559,
+    "C++": 4217,
+    "HTML": 3180
+  },
+  "size": 566713
+}

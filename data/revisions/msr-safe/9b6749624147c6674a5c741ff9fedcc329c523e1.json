@@ -1,0 +1,12 @@
+{
+  "commit": "9b6749624147c6674a5c741ff9fedcc329c523e1",
+  "repo_url": "https://github.com/llnl/msr-safe",
+  "date": "2017-12-04T18:03:26",
+  "languages": {
+    "C": 107555,
+    "Makefile": 6467,
+    "Roff": 2780,
+    "Shell": 1284
+  },
+  "size": 118086
+}

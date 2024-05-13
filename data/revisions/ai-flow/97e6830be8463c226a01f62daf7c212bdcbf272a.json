@@ -1,0 +1,24 @@
+{
+  "commit": "97e6830be8463c226a01f62daf7c212bdcbf272a",
+  "repo_url": "https://github.com/flink-extended/ai-flow",
+  "date": "2022-02-22T06:16:53",
+  "languages": {
+    "Python": 17973714,
+    "Java": 4794532,
+    "Shell": 622607,
+    "HTML": 203585,
+    "JavaScript": 178424,
+    "Vue": 147398,
+    "Dockerfile": 43774,
+    "Jinja": 36009,
+    "CSS": 26458,
+    "Mermaid": 13322,
+    "Less": 7655,
+    "Mako": 3899,
+    "HCL": 3786,
+    "Go": 3473,
+    "Jupyter Notebook": 2933,
+    "Stylus": 563
+  },
+  "size": 24062132
+}

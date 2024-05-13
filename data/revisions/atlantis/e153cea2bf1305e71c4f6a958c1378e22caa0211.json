@@ -1,0 +1,18 @@
+{
+  "commit": "e153cea2bf1305e71c4f6a958c1378e22caa0211",
+  "repo_url": "https://github.com/runatlantis/atlantis",
+  "date": "2022-07-14T00:11:03",
+  "languages": {
+    "Go": 1751196,
+    "Vue": 11409,
+    "CSS": 11023,
+    "Dockerfile": 8058,
+    "JavaScript": 5407,
+    "Shell": 5220,
+    "HCL": 5158,
+    "Makefile": 3511,
+    "Open Policy Agent": 3118,
+    "Stylus": 659
+  },
+  "size": 1804759
+}

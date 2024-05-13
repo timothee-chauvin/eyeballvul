@@ -1,0 +1,15 @@
+{
+  "commit": "14b99fc904ab515c6c2d9a63ebfbb510bc54a158",
+  "repo_url": "https://github.com/getsentry/symbolicator",
+  "date": "2023-11-21T20:42:36",
+  "languages": {
+    "Rust": 972725,
+    "Jsonnet": 4521,
+    "Shell": 3215,
+    "Dockerfile": 2714,
+    "Makefile": 2026,
+    "JavaScript": 1739,
+    "Lua": 1516
+  },
+  "size": 988456
+}

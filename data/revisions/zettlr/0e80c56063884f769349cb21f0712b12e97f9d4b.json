@@ -1,0 +1,17 @@
+{
+  "commit": "0e80c56063884f769349cb21f0712b12e97f9d4b",
+  "repo_url": "https://github.com/zettlr/zettlr",
+  "date": "2021-01-22T13:34:57",
+  "languages": {
+    "JavaScript": 789844,
+    "TypeScript": 419544,
+    "Handlebars": 180437,
+    "Less": 127636,
+    "Vue": 72439,
+    "TeX": 13569,
+    "HTML": 12607,
+    "CSS": 4552,
+    "Shell": 3695
+  },
+  "size": 1624323
+}

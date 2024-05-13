@@ -1,0 +1,16 @@
+{
+  "commit": "0f9e5b1804472e9b863c637982ff945162953929",
+  "repo_url": "https://github.com/renlok/webid",
+  "date": "2017-03-24T18:49:12",
+  "languages": {
+    "PHP": 2195740,
+    "Smarty": 918114,
+    "JavaScript": 615108,
+    "CSS": 423449,
+    "SCSS": 55558,
+    "Less": 54854,
+    "Hack": 39489,
+    "HTML": 7165
+  },
+  "size": 4309477
+}

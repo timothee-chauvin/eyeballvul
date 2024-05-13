@@ -1,0 +1,11 @@
+{
+  "commit": "a82cab4ea6f0bd2cb4038d4dc26f1b6b8b687ae3",
+  "repo_url": "https://github.com/filosottile/nistec",
+  "date": "2022-08-25T07:58:12",
+  "languages": {
+    "Assembly": 185782,
+    "Go": 68456,
+    "Dockerfile": 506
+  },
+  "size": 254744
+}

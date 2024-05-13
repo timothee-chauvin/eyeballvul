@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2017-11",
+  "published": "2017-07-17T00:00:00",
+  "modified": "2023-09-18T02:02:14.693524",
+  "details": "Expat 2.2.2 was released with multiple security fixes:\n\n* #43: Protect against compilation without any source of high quality\n  entropy enabled, e.g. with CMake build system\n* #60: Windows with _UNICODE: Unintended use of LoadLibraryW with a non-wide\n  string resulted in failure to load advapi32.dll and degradation in quality\n  of used entropy when compiled with _UNICODE for Windows; you can launch\n  existing binaries with EXPAT_ENTROPY_DEBUG=1 in the environment to inspect\n  the quality of entropy used during runtime\n* [MOX-006]: Fix non-NULL parser parameter validation in XML_Parse; resulted\n  in NULL dereference, previously\n\nExpat 2.2.3 contains an additional security fix: #82: CVE-2017-11742 --\nWindows: Fix DLL hijacking vulnerability using Steve Holme's LoadLibrary\nwrapper for/of cURL\n",
+  "summary": "Expat 2.2.3",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

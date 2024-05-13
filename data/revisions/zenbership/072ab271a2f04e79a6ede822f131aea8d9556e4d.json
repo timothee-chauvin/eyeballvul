@@ -1,0 +1,15 @@
+{
+  "commit": "072ab271a2f04e79a6ede822f131aea8d9556e4d",
+  "repo_url": "https://github.com/castlamp/zenbership",
+  "date": "2016-03-08T06:07:21",
+  "languages": {
+    "PHP": 4774641,
+    "JavaScript": 2636156,
+    "CSS": 163228,
+    "Hack": 64728,
+    "HTML": 45795,
+    "Shell": 25,
+    "Batchfile": 21
+  },
+  "size": 7684594
+}

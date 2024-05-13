@@ -1,0 +1,16 @@
+{
+  "commit": "a12d7e40b34c4a13255d0e1a3da7d4accf596568",
+  "repo_url": "https://github.com/fabrik/fabrik",
+  "date": "2018-02-16T00:14:47",
+  "languages": {
+    "PHP": 8314460,
+    "JavaScript": 4506464,
+    "CSS": 140544,
+    "ActionScript": 39752,
+    "HTML": 32337,
+    "CoffeeScript": 1017,
+    "Shell": 26,
+    "Batchfile": 22
+  },
+  "size": 13034622
+}

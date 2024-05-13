@@ -1,0 +1,16 @@
+{
+  "commit": "c71aa31fa2e1ccd3f7085b1cbbcd0f8e42824e70",
+  "repo_url": "https://github.com/it-novum/openitcockpit",
+  "date": "2019-02-11T13:39:06",
+  "languages": {
+    "PHP": 22431782,
+    "JavaScript": 3480499,
+    "CSS": 653651,
+    "HTML": 183571,
+    "Smarty": 38888,
+    "Python": 13994,
+    "Shell": 13979,
+    "Batchfile": 2889
+  },
+  "size": 26819253
+}

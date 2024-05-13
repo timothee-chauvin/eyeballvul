@@ -1,0 +1,13 @@
+{
+  "commit": "4a6592612dc015f24d0700b6d274b3663d128ad8",
+  "repo_url": "https://github.com/sigstore/rekor",
+  "date": "2023-03-28T22:13:50",
+  "languages": {
+    "Go": 954489,
+    "Shell": 39620,
+    "Makefile": 11803,
+    "Dockerfile": 1957,
+    "Standard ML": 70
+  },
+  "size": 1007939
+}

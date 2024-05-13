@@ -1,0 +1,14 @@
+{
+  "commit": "6de8ad8d667c39d7d4a376b292f0f57a0bfa7e60",
+  "repo_url": "https://github.com/gstreamer/gstreamer",
+  "date": "2009-10-05T13:06:11",
+  "languages": {
+    "Python": 461220,
+    "C": 355364,
+    "Scheme": 308755,
+    "M4": 14390,
+    "Makefile": 14033,
+    "Shell": 3645
+  },
+  "size": 1157407
+}

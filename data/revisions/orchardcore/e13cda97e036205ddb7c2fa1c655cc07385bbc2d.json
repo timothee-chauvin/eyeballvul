@@ -1,0 +1,18 @@
+{
+  "commit": "e13cda97e036205ddb7c2fa1c655cc07385bbc2d",
+  "repo_url": "https://github.com/orchardcms/orchardcore",
+  "date": "2021-07-22T17:35:17",
+  "languages": {
+    "C#": 7643338,
+    "CSS": 2859732,
+    "JavaScript": 2286868,
+    "HTML": 1431469,
+    "SCSS": 215037,
+    "Pug": 55502,
+    "Liquid": 43141,
+    "TypeScript": 36381,
+    "PHP": 4968,
+    "Dockerfile": 424
+  },
+  "size": 14576860
+}

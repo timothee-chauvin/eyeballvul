@@ -1,0 +1,16 @@
+{
+  "commit": "bfa775339ba67afc023cd4933ffbc7be200fdbd9",
+  "repo_url": "https://github.com/gongfuxiang/shopxo",
+  "date": "2019-02-06T02:25:02",
+  "languages": {
+    "PHP": 6919568,
+    "PLpgSQL": 3036543,
+    "JavaScript": 2594331,
+    "CSS": 980092,
+    "HTML": 615651,
+    "Smarty": 31413,
+    "Shell": 26,
+    "Batchfile": 22
+  },
+  "size": 14177646
+}

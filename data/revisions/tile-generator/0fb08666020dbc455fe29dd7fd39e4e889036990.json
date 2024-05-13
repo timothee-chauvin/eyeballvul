@@ -1,0 +1,13 @@
+{
+  "commit": "0fb08666020dbc455fe29dd7fd39e4e889036990",
+  "repo_url": "https://github.com/cf-platform-eng/tile-generator",
+  "date": "2017-05-05T04:00:24",
+  "languages": {
+    "Python": 152868,
+    "Shell": 32191,
+    "HTML": 1460,
+    "Dockerfile": 883,
+    "JavaScript": 123
+  },
+  "size": 187525
+}

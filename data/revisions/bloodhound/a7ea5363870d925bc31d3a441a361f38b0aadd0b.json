@@ -1,0 +1,13 @@
+{
+  "commit": "a7ea5363870d925bc31d3a441a361f38b0aadd0b",
+  "repo_url": "https://github.com/bloodhoundad/bloodhound",
+  "date": "2019-07-03T18:37:46",
+  "languages": {
+    "PowerShell": 919546,
+    "JavaScript": 589450,
+    "CSS": 24225,
+    "HTML": 8897,
+    "Shell": 2452
+  },
+  "size": 1544570
+}

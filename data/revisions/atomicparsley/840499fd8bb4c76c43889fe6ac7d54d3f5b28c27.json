@@ -1,0 +1,14 @@
+{
+  "commit": "840499fd8bb4c76c43889fe6ac7d54d3f5b28c27",
+  "repo_url": "https://github.com/wez/atomicparsley",
+  "date": "2021-01-25T04:48:13",
+  "languages": {
+    "C++": 863245,
+    "C": 94692,
+    "Objective-C++": 17242,
+    "Perl": 5714,
+    "CMake": 2035,
+    "Shell": 159
+  },
+  "size": 983087
+}

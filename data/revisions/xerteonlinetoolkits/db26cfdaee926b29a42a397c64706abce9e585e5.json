@@ -1,0 +1,22 @@
+{
+  "commit": "db26cfdaee926b29a42a397c64706abce9e585e5",
+  "repo_url": "https://github.com/thexerteproject/xerteonlinetoolkits",
+  "date": "2019-10-06T22:03:31",
+  "languages": {
+    "JavaScript": 8113505,
+    "PHP": 2087594,
+    "HTML": 1618437,
+    "SCSS": 846714,
+    "CSS": 537831,
+    "Less": 373029,
+    "Makefile": 11959,
+    "Python": 7918,
+    "Roff": 7682,
+    "Hack": 7405,
+    "Yacc": 3527,
+    "PostScript": 3228,
+    "Batchfile": 543,
+    "Shell": 413
+  },
+  "size": 13619785
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "3722c6c61e0808dcefeb1d633172dee833533901",
+  "repo_url": "https://gitlab.com/libidn/libidn2",
+  "date": "2017-07-24T08:58:20",
+  "languages": {
+    "C": 233575,
+    "Shell": 36687,
+    "Makefile": 27708,
+    "M4": 24079,
+    "Perl": 6220,
+    "POV-Ray SDL": 3998,
+    "C++": 2653
+  },
+  "size": 334920
+}

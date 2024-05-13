@@ -1,0 +1,15 @@
+{
+  "commit": "ab85b70be324433456ebdfc0fd6d132da71cff7e",
+  "repo_url": "https://github.com/mattermost/mattermost",
+  "date": "2021-06-10T12:40:25",
+  "languages": {
+    "Go": 11079844,
+    "HTML": 263635,
+    "Makefile": 41531,
+    "Shell": 19627,
+    "Rich Text Format": 2668,
+    "JavaScript": 1780,
+    "Dockerfile": 1371
+  },
+  "size": 11410456
+}

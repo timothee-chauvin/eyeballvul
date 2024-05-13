@@ -1,0 +1,13 @@
+{
+  "commit": "70fef935b29bb2f179341eb497576b106d1346a7",
+  "repo_url": "https://gitlab.com/libssh/libssh-mirror",
+  "date": "2023-05-04T11:41:53",
+  "languages": {
+    "C": 2940323,
+    "CMake": 134189,
+    "C++": 24481,
+    "Shell": 1069,
+    "Python": 127
+  },
+  "size": 3100189
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "bb4b04a39ffa66677ca47d63f3ac6927685901ee",
+  "repo_url": "https://github.com/wollardj/simple-plist",
+  "date": "2021-10-24T20:11:27",
+  "languages": {
+    "TypeScript": 10281,
+    "Dockerfile": 968,
+    "JavaScript": 135,
+    "Shell": 58
+  },
+  "size": 11442
+}

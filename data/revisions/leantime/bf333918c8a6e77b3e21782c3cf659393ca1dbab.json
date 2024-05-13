@@ -1,0 +1,13 @@
+{
+  "commit": "bf333918c8a6e77b3e21782c3cf659393ca1dbab",
+  "repo_url": "https://github.com/leantime/leantime",
+  "date": "2020-03-25T02:02:27",
+  "languages": {
+    "PHP": 1368361,
+    "JavaScript": 474472,
+    "CSS": 455694,
+    "HTML": 5170,
+    "Less": 1184
+  },
+  "size": 2304881
+}

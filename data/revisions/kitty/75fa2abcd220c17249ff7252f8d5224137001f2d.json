@@ -1,0 +1,12 @@
+{
+  "commit": "75fa2abcd220c17249ff7252f8d5224137001f2d",
+  "repo_url": "https://github.com/cyd01/kitty",
+  "date": "2023-09-17T17:17:22",
+  "languages": {
+    "C": 11145588,
+    "Perl": 5808,
+    "Shell": 1981,
+    "Dockerfile": 502
+  },
+  "size": 11153879
+}

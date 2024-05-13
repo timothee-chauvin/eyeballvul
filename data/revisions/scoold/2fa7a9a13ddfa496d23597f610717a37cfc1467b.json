@@ -1,0 +1,16 @@
+{
+  "commit": "2fa7a9a13ddfa496d23597f610717a37cfc1467b",
+  "repo_url": "https://github.com/erudika/scoold",
+  "date": "2022-01-04T19:12:34",
+  "languages": {
+    "Java": 435286,
+    "JavaScript": 40085,
+    "CSS": 37521,
+    "HTML": 4725,
+    "Shell": 4254,
+    "Mustache": 1042,
+    "Dockerfile": 502,
+    "Procfile": 59
+  },
+  "size": 523474
+}

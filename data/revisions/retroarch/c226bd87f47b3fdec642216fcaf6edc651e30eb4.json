@@ -1,0 +1,29 @@
+{
+  "commit": "c226bd87f47b3fdec642216fcaf6edc651e30eb4",
+  "repo_url": "https://github.com/libretro/retroarch",
+  "date": "2021-05-29T07:23:37",
+  "languages": {
+    "C": 40518494,
+    "C++": 7334181,
+    "Objective-C": 611534,
+    "Assembly": 225977,
+    "OpenQASM": 114951,
+    "Shell": 109254,
+    "Java": 82642,
+    "Python": 82583,
+    "GLSL": 72244,
+    "Makefile": 70845,
+    "JavaScript": 68179,
+    "CMake": 63026,
+    "HTML": 30908,
+    "Perl": 16017,
+    "HLSL": 13758,
+    "Metal": 12898,
+    "Lua": 8668,
+    "Batchfile": 8408,
+    "CSS": 5207,
+    "GSC": 1590,
+    "CoffeeScript": 918
+  },
+  "size": 49452282
+}

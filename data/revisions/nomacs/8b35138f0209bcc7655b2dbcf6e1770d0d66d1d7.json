@@ -1,0 +1,18 @@
+{
+  "commit": "8b35138f0209bcc7655b2dbcf6e1770d0d66d1d7",
+  "repo_url": "https://github.com/nomacs/nomacs",
+  "date": "2020-07-01T06:12:42",
+  "languages": {
+    "C++": 1850787,
+    "CMake": 60495,
+    "Inno Setup": 43703,
+    "CSS": 20672,
+    "Python": 16860,
+    "Shell": 3028,
+    "Batchfile": 2998,
+    "C": 1284,
+    "Roff": 1240,
+    "Dockerfile": 451
+  },
+  "size": 2001518
+}

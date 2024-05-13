@@ -1,0 +1,13 @@
+{
+  "commit": "a4394d6ad5a698defbf22e19721f38598bfb7d2e",
+  "repo_url": "https://github.com/jenkinsci/dependency-track-plugin",
+  "date": "2021-02-08T18:48:14",
+  "languages": {
+    "Java": 140675,
+    "JavaScript": 8220,
+    "HTML": 4564,
+    "CSS": 830,
+    "Shell": 221
+  },
+  "size": 154510
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "c0efd4eaa8c88e4de1e1c2e2f1cd009e631cf497",
+  "repo_url": "https://github.com/onesignal/react-native-onesignal",
+  "date": "2022-12-01T00:00:25",
+  "languages": {
+    "TypeScript": 42944,
+    "Java": 37176,
+    "Objective-C": 29026,
+    "Ruby": 1304,
+    "JavaScript": 996
+  },
+  "size": 111446
+}

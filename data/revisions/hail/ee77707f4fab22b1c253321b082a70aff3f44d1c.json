@@ -1,0 +1,28 @@
+{
+  "commit": "ee77707f4fab22b1c253321b082a70aff3f44d1c",
+  "repo_url": "https://github.com/hail-is/hail",
+  "date": "2023-10-30T16:31:39",
+  "languages": {
+    "Python": 6304170,
+    "Scala": 5422159,
+    "C++": 246904,
+    "Jupyter Notebook": 228968,
+    "HTML": 148697,
+    "HCL": 96907,
+    "Shell": 87205,
+    "Makefile": 61778,
+    "Java": 40364,
+    "SCSS": 31854,
+    "Dockerfile": 14638,
+    "CMake": 10812,
+    "Batchfile": 7729,
+    "MLIR": 6354,
+    "XSLT": 5748,
+    "R": 3038,
+    "C": 2237,
+    "JavaScript": 877,
+    "CSS": 666,
+    "Emacs Lisp": 377
+  },
+  "size": 12721482
+}

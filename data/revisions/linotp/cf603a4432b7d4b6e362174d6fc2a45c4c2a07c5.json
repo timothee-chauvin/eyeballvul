@@ -1,0 +1,19 @@
+{
+  "commit": "cf603a4432b7d4b6e362174d6fc2a45c4c2a07c5",
+  "repo_url": "https://github.com/linotp/linotp",
+  "date": "2019-05-13T11:19:52",
+  "languages": {
+    "Python": 5158501,
+    "JavaScript": 657138,
+    "Mako": 371819,
+    "Roff": 54990,
+    "Shell": 54136,
+    "CSS": 44008,
+    "Makefile": 34275,
+    "Perl": 18775,
+    "Dockerfile": 8518,
+    "Ruby": 1900,
+    "Prolog": 400
+  },
+  "size": 6404460
+}

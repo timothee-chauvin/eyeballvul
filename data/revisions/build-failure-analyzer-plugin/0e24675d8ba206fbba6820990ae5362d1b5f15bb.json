@@ -1,0 +1,12 @@
+{
+  "commit": "0e24675d8ba206fbba6820990ae5362d1b5f15bb",
+  "repo_url": "https://github.com/jenkinsci/build-failure-analyzer-plugin",
+  "date": "2016-04-19T10:18:29",
+  "languages": {
+    "Java": 743843,
+    "Groovy": 34125,
+    "HTML": 2777,
+    "JavaScript": 1776
+  },
+  "size": 782521
+}

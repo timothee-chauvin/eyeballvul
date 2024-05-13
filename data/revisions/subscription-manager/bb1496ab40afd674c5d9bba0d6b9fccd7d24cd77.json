@@ -1,0 +1,13 @@
+{
+  "commit": "bb1496ab40afd674c5d9bba0d6b9fccd7d24cd77",
+  "repo_url": "https://github.com/candlepin/subscription-manager",
+  "date": "2016-05-09T15:34:13",
+  "languages": {
+    "Python": 1945768,
+    "C": 29346,
+    "Makefile": 26922,
+    "Shell": 25669,
+    "Roff": 1057
+  },
+  "size": 2028762
+}

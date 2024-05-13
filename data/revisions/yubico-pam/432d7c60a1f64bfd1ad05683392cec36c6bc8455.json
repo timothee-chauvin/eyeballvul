@@ -1,0 +1,13 @@
+{
+  "commit": "432d7c60a1f64bfd1ad05683392cec36c6bc8455",
+  "repo_url": "https://github.com/yubico/yubico-pam",
+  "date": "2018-03-27T10:37:33",
+  "languages": {
+    "C": 91923,
+    "M4": 57770,
+    "Shell": 19280,
+    "Makefile": 10908,
+    "Perl": 6007
+  },
+  "size": 185888
+}

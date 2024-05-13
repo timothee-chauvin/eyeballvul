@@ -1,0 +1,17 @@
+{
+  "commit": "94eb6858efecc1b4f02d8a6bd35e149f55c814c8",
+  "repo_url": "https://github.com/openssh/openssh-portable",
+  "date": "2022-04-06T00:47:48",
+  "languages": {
+    "C": 4262568,
+    "Shell": 398188,
+    "Roff": 312531,
+    "M4": 162119,
+    "Makefile": 56917,
+    "HTML": 22582,
+    "C++": 18517,
+    "Awk": 8584,
+    "KRL": 5254
+  },
+  "size": 5247260
+}

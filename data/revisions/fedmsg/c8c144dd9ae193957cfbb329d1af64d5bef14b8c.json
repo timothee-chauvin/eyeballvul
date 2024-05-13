@@ -1,0 +1,11 @@
+{
+  "commit": "c8c144dd9ae193957cfbb329d1af64d5bef14b8c",
+  "repo_url": "https://github.com/fedora-infra/fedmsg",
+  "date": "2016-12-01T13:46:15",
+  "languages": {
+    "Python": 295940,
+    "Shell": 44082,
+    "PHP": 8250
+  },
+  "size": 348272
+}

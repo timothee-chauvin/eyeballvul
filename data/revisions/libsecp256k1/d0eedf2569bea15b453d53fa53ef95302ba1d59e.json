@@ -1,0 +1,11 @@
+{
+  "commit": "d0eedf2569bea15b453d53fa53ef95302ba1d59e",
+  "repo_url": "https://github.com/paritytech/libsecp256k1",
+  "date": "2020-02-07T10:41:35",
+  "languages": {
+    "Rust": 4697167,
+    "Makefile": 247,
+    "Nix": 146
+  },
+  "size": 4697560
+}

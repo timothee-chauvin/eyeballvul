@@ -1,0 +1,14 @@
+{
+  "commit": "e52a6b2875d363bea2fbade8b4e917ea1a62c054",
+  "repo_url": "https://github.com/wpeventmanager/wp-event-manager",
+  "date": "2023-08-07T12:22:37",
+  "languages": {
+    "PHP": 924423,
+    "JavaScript": 375990,
+    "CSS": 298108,
+    "SCSS": 6514,
+    "Less": 5937,
+    "Ruby": 161
+  },
+  "size": 1611133
+}

@@ -1,0 +1,24 @@
+{
+  "commit": "4791574278eaa50560b20081882e8bbefe56bb70",
+  "repo_url": "https://github.com/radare/radare2",
+  "date": "2017-01-30T09:23:28",
+  "languages": {
+    "C": 17267611,
+    "JavaScript": 336248,
+    "Makefile": 208234,
+    "Shell": 104890,
+    "Roff": 52503,
+    "HTML": 46401,
+    "Perl": 6445,
+    "CSS": 5793,
+    "Batchfile": 2587,
+    "Dockerfile": 2119,
+    "C++": 1398,
+    "Assembly": 939,
+    "Python": 559,
+    "R": 435,
+    "Rich Text Format": 416,
+    "RouterOS Script": 45
+  },
+  "size": 18036623
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "da6f04739a525c653a161b8e6dc50d473d7c4fc6",
+  "repo_url": "https://github.com/fuluteam/fulusso",
+  "date": "2020-11-09T03:48:48",
+  "languages": {
+    "C#": 553016,
+    "JavaScript": 151512,
+    "Less": 35860,
+    "Dockerfile": 1192,
+    "EJS": 1175,
+    "CSS": 1092
+  },
+  "size": 743847
+}

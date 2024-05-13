@@ -1,0 +1,13 @@
+{
+  "commit": "a42a63dc64b79c3741ea3f947a91f326fa58322d",
+  "repo_url": "https://github.com/detekt/detekt",
+  "date": "2021-11-29T11:19:03",
+  "languages": {
+    "Kotlin": 2711264,
+    "HTML": 4173,
+    "Shell": 358,
+    "Java": 325,
+    "CSS": 27
+  },
+  "size": 2716147
+}

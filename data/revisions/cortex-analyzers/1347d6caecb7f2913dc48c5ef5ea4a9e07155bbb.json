@@ -1,0 +1,12 @@
+{
+  "commit": "1347d6caecb7f2913dc48c5ef5ea4a9e07155bbb",
+  "repo_url": "https://github.com/thehive-project/cortex-analyzers",
+  "date": "2019-01-09T16:57:48",
+  "languages": {
+    "Python": 529334,
+    "HTML": 381756,
+    "C": 16528,
+    "Shell": 3445
+  },
+  "size": 931063
+}

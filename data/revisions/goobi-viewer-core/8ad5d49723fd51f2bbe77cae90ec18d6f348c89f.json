@@ -1,0 +1,17 @@
+{
+  "commit": "8ad5d49723fd51f2bbe77cae90ec18d6f348c89f",
+  "repo_url": "https://github.com/intranda/goobi-viewer-core",
+  "date": "2020-07-16T03:51:47",
+  "languages": {
+    "JavaScript": 7486797,
+    "Java": 6486673,
+    "HTML": 1480171,
+    "CSS": 508419,
+    "Less": 379529,
+    "XSLT": 108281,
+    "Rich Text Format": 75016,
+    "Python": 1792,
+    "PHP": 279
+  },
+  "size": 16526957
+}

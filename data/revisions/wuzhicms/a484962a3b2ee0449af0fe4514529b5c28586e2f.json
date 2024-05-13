@@ -1,0 +1,13 @@
+{
+  "commit": "a484962a3b2ee0449af0fe4514529b5c28586e2f",
+  "repo_url": "https://github.com/wuzhicms/wuzhicms",
+  "date": "2016-11-14T01:07:07",
+  "languages": {
+    "PHP": 7683714,
+    "JavaScript": 6063683,
+    "HTML": 3907016,
+    "CSS": 1269990,
+    "Hack": 1100
+  },
+  "size": 18925503
+}

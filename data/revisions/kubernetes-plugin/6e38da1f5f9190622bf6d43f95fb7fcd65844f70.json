@@ -1,0 +1,12 @@
+{
+  "commit": "6e38da1f5f9190622bf6d43f95fb7fcd65844f70",
+  "repo_url": "https://github.com/jenkinsci/kubernetes-plugin",
+  "date": "2018-05-30T15:06:06",
+  "languages": {
+    "Java": 430303,
+    "Groovy": 20570,
+    "HTML": 15282,
+    "Dockerfile": 676
+  },
+  "size": 466831
+}

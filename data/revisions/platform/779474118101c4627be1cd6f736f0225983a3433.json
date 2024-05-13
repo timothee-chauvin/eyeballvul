@@ -1,0 +1,15 @@
+{
+  "commit": "779474118101c4627be1cd6f736f0225983a3433",
+  "repo_url": "https://github.com/vaadin/platform",
+  "date": "2023-04-21T13:25:50",
+  "languages": {
+    "Java": 126251,
+    "JavaScript": 78795,
+    "TypeScript": 19663,
+    "Shell": 3853,
+    "Python": 863,
+    "HTML": 623,
+    "CSS": 235
+  },
+  "size": 230283
+}

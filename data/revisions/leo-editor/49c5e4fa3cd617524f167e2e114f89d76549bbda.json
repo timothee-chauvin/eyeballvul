@@ -1,0 +1,22 @@
+{
+  "commit": "49c5e4fa3cd617524f167e2e114f89d76549bbda",
+  "repo_url": "https://github.com/leo-editor/leo-editor",
+  "date": "2020-03-30T13:39:10",
+  "languages": {
+    "Python": 10989549,
+    "CWeb": 169996,
+    "HTML": 137520,
+    "JavaScript": 110894,
+    "CSS": 77647,
+    "PHP": 14642,
+    "Batchfile": 11826,
+    "Makefile": 9863,
+    "XSLT": 8726,
+    "QML": 1629,
+    "Perl": 730,
+    "Shell": 643,
+    "C": 336,
+    "TeX": 269
+  },
+  "size": 11534270
+}

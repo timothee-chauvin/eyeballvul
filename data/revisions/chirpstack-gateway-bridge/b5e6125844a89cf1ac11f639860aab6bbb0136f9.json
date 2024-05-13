@@ -1,0 +1,12 @@
+{
+  "commit": "b5e6125844a89cf1ac11f639860aab6bbb0136f9",
+  "repo_url": "https://github.com/chirpstack/chirpstack-gateway-bridge",
+  "date": "2023-07-13T08:06:12",
+  "languages": {
+    "Go": 351604,
+    "Shell": 5662,
+    "Makefile": 1050,
+    "Dockerfile": 610
+  },
+  "size": 358926
+}

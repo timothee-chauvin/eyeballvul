@@ -1,0 +1,16 @@
+{
+  "commit": "9e573b8e6ee3d9483dc348a9b53cdde546391a8b",
+  "repo_url": "https://github.com/lirantal/daloradius",
+  "date": "2021-11-04T07:00:34",
+  "languages": {
+    "PHP": 5752855,
+    "HTML": 1950631,
+    "JavaScript": 474533,
+    "CSS": 142472,
+    "Shell": 36999,
+    "Hack": 9757,
+    "PLpgSQL": 6964,
+    "Dockerfile": 2299
+  },
+  "size": 8376510
+}

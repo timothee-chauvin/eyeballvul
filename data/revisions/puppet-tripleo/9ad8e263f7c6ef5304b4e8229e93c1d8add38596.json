@@ -1,0 +1,14 @@
+{
+  "commit": "9ad8e263f7c6ef5304b4e8229e93c1d8add38596",
+  "repo_url": "https://github.com/openstack/puppet-tripleo",
+  "date": "2017-02-16T01:11:42",
+  "languages": {
+    "Puppet": 528442,
+    "Ruby": 161622,
+    "Python": 9429,
+    "Shell": 920,
+    "JavaScript": 863,
+    "HTML": 760
+  },
+  "size": 702036
+}

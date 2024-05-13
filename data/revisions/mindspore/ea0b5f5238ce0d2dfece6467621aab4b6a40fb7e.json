@@ -1,0 +1,25 @@
+{
+  "commit": "ea0b5f5238ce0d2dfece6467621aab4b6a40fb7e",
+  "repo_url": "https://github.com/mindspore-ai/mindspore",
+  "date": "2023-04-15T03:03:20",
+  "languages": {
+    "C++": 80410091,
+    "Python": 37800226,
+    "C": 7406888,
+    "Cuda": 4919069,
+    "Assembly": 1061668,
+    "CMake": 811209,
+    "Shell": 784662,
+    "Dockerfile": 155655,
+    "Java": 132133,
+    "Objective-C++": 22517,
+    "Batchfile": 15587,
+    "Terra": 9617,
+    "Objective-C": 8317,
+    "Julia": 3649,
+    "Makefile": 3201,
+    "Ruby": 589,
+    "HTML": 123
+  },
+  "size": 133545201
+}

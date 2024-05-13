@@ -1,0 +1,12 @@
+{
+  "commit": "526d1549f1af4b3878af5ba94bb8675cb9334992",
+  "repo_url": "https://github.com/fastify/fastify-static",
+  "date": "2021-08-05T08:44:01",
+  "languages": {
+    "JavaScript": 119880,
+    "TypeScript": 2434,
+    "HTML": 837,
+    "CSS": 190
+  },
+  "size": 123341
+}

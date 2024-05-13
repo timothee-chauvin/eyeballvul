@@ -1,0 +1,12 @@
+{
+  "commit": "36b6c99f622a61b7f97d0238461d4d723aa1322b",
+  "repo_url": "https://github.com/richgel999/miniz",
+  "date": "2018-02-20T18:03:53",
+  "languages": {
+    "C": 380592,
+    "C++": 57435,
+    "Shell": 2221,
+    "CMake": 2107
+  },
+  "size": 442355
+}

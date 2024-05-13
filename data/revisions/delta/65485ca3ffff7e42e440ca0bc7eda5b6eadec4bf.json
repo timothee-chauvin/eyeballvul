@@ -1,0 +1,13 @@
+{
+  "commit": "65485ca3ffff7e42e440ca0bc7eda5b6eadec4bf",
+  "repo_url": "https://github.com/dandavison/delta",
+  "date": "2021-06-28T07:16:48",
+  "languages": {
+    "Rust": 519544,
+    "Shell": 8129,
+    "Makefile": 4219,
+    "Ruby": 1011,
+    "Dockerfile": 345
+  },
+  "size": 533248
+}

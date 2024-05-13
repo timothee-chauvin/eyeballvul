@@ -1,0 +1,15 @@
+{
+  "commit": "8de05926d5bb889b940cd53b7f7c226faa6fe12a",
+  "repo_url": "https://github.com/planningbiblio/planningbiblio",
+  "date": "2023-07-26T09:13:00",
+  "languages": {
+    "JavaScript": 6781713,
+    "PHP": 2031995,
+    "Twig": 446768,
+    "CSS": 385569,
+    "HTML": 32758,
+    "Shell": 8654,
+    "SCSS": 7622
+  },
+  "size": 9695079
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "6ceb0913f2758c794e39540387babc449c47960e",
+  "repo_url": "https://github.com/enalean/gitphp",
+  "date": "2013-12-25T19:37:28",
+  "languages": {
+    "PHP": 4368341,
+    "HTML": 2325954,
+    "JavaScript": 644016,
+    "Smarty": 87989,
+    "CSS": 19088,
+    "Shell": 8897,
+    "Hack": 878,
+    "Makefile": 843
+  },
+  "size": 7456006
+}

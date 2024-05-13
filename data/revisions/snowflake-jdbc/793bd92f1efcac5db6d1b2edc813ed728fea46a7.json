@@ -1,0 +1,12 @@
+{
+  "commit": "793bd92f1efcac5db6d1b2edc813ed728fea46a7",
+  "repo_url": "https://github.com/snowflakedb/snowflake-jdbc",
+  "date": "2023-02-23T01:51:38",
+  "languages": {
+    "Java": 3374715,
+    "Shell": 18677,
+    "Python": 4357,
+    "Lua": 3489
+  },
+  "size": 3401238
+}

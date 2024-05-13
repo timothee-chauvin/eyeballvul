@@ -1,0 +1,32 @@
+{
+  "commit": "45e0787a7457c1b9071522463aa902d59ae3a2ee",
+  "repo_url": "https://github.com/stepmania/stepmania",
+  "date": "2016-08-10T23:15:24",
+  "languages": {
+    "C++": 8694454,
+    "C": 1869711,
+    "Lua": 646336,
+    "XSLT": 156427,
+    "CMake": 114270,
+    "M4": 86432,
+    "Objective-C++": 48567,
+    "Makefile": 46552,
+    "NSIS": 33322,
+    "Objective-C": 22400,
+    "GLSL": 20474,
+    "Shell": 20163,
+    "Python": 14459,
+    "C#": 11496,
+    "JavaScript": 10964,
+    "Perl": 9707,
+    "Clarion": 8579,
+    "HTML": 7507,
+    "Java": 6423,
+    "Ruby": 2814,
+    "CSS": 2230,
+    "Assembly": 1054,
+    "Batchfile": 810,
+    "PHP": 228
+  },
+  "size": 11835379
+}

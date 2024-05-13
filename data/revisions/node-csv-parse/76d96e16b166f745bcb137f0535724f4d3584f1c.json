@@ -1,0 +1,11 @@
+{
+  "commit": "76d96e16b166f745bcb137f0535724f4d3584f1c",
+  "repo_url": "https://github.com/adaltas/node-csv-parse",
+  "date": "2019-08-09T20:45:40",
+  "languages": {
+    "CoffeeScript": 87989,
+    "JavaScript": 84739,
+    "TypeScript": 6741
+  },
+  "size": 179469
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "e556ccd28fbc43618229ff7c938b966843b1856c",
+  "repo_url": "https://github.com/ghantoos/lshell",
+  "date": "2016-02-25T15:44:10",
+  "languages": {
+    "Python": 105046,
+    "Shell": 2854,
+    "Makefile": 1278
+  },
+  "size": 109178
+}

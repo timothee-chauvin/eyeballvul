@@ -1,0 +1,12 @@
+{
+  "commit": "5555a586d2715ef85b8edd79ff355c26954e7779",
+  "repo_url": "https://github.com/edge-js/edge",
+  "date": "2021-07-19T13:38:22",
+  "languages": {
+    "TypeScript": 212632,
+    "JavaScript": 41801,
+    "Edge": 14312,
+    "Shell": 143
+  },
+  "size": 268888
+}

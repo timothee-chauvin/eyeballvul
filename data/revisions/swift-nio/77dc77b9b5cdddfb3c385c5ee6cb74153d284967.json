@@ -1,0 +1,14 @@
+{
+  "commit": "77dc77b9b5cdddfb3c385c5ee6cb74153d284967",
+  "repo_url": "https://github.com/apple/swift-nio",
+  "date": "2018-05-24T11:53:51",
+  "languages": {
+    "Swift": 2076474,
+    "C": 162192,
+    "Shell": 62615,
+    "Ruby": 5924,
+    "Dockerfile": 2889,
+    "DTrace": 1899
+  },
+  "size": 2311993
+}

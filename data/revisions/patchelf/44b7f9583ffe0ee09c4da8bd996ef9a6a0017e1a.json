@@ -1,0 +1,15 @@
+{
+  "commit": "44b7f9583ffe0ee09c4da8bd996ef9a6a0017e1a",
+  "repo_url": "https://github.com/nixos/patchelf",
+  "date": "2016-02-29T10:15:58",
+  "languages": {
+    "C": 150083,
+    "C++": 53762,
+    "Shell": 7629,
+    "Nix": 3995,
+    "Makefile": 3008,
+    "Roff": 2425,
+    "M4": 785
+  },
+  "size": 221687
+}

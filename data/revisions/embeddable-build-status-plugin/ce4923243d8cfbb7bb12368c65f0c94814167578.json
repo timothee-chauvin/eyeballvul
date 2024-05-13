@@ -1,0 +1,11 @@
+{
+  "commit": "ce4923243d8cfbb7bb12368c65f0c94814167578",
+  "repo_url": "https://github.com/jenkinsci/embeddable-build-status-plugin",
+  "date": "2019-04-09T10:05:01",
+  "languages": {
+    "Java": 59132,
+    "Groovy": 10308,
+    "Vim Snippet": 334
+  },
+  "size": 69774
+}

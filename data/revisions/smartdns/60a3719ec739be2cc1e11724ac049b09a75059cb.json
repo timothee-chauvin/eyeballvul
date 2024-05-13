@@ -1,0 +1,18 @@
+{
+  "commit": "60a3719ec739be2cc1e11724ac049b09a75059cb",
+  "repo_url": "https://github.com/pymumu/smartdns",
+  "date": "2023-03-04T03:21:48",
+  "languages": {
+    "C": 897048,
+    "Shell": 69322,
+    "JavaScript": 34645,
+    "Lua": 32587,
+    "C++": 7977,
+    "Makefile": 6507,
+    "Dockerfile": 1617,
+    "Batchfile": 1466,
+    "HTML": 818,
+    "VBScript": 102
+  },
+  "size": 1052089
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "8e1cdbd6b50f0c7397c79c35e09e27d7c9e2908f",
+  "repo_url": "https://github.com/nixos/calamares-nixos-extensions",
+  "date": "2023-05-08T14:20:49",
+  "languages": {
+    "Python": 23946,
+    "QML": 4706
+  },
+  "size": 28652
+}

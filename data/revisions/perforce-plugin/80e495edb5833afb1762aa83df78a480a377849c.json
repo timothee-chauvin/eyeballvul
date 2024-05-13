@@ -1,0 +1,12 @@
+{
+  "commit": "80e495edb5833afb1762aa83df78a480a377849c",
+  "repo_url": "https://github.com/jenkinsci/perforce-plugin",
+  "date": "2016-02-11T22:12:37",
+  "languages": {
+    "Java": 716520,
+    "HTML": 27724,
+    "Dockerfile": 527,
+    "Shell": 297
+  },
+  "size": 745068
+}

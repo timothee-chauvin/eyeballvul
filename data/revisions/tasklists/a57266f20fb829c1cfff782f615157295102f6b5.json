@@ -1,0 +1,14 @@
+{
+  "commit": "a57266f20fb829c1cfff782f615157295102f6b5",
+  "repo_url": "https://github.com/infotelglpi/tasklists",
+  "date": "2022-10-08T12:50:22",
+  "languages": {
+    "PHP": 269265,
+    "JavaScript": 129847,
+    "CSS": 27427,
+    "Twig": 2717,
+    "Perl": 1337,
+    "Shell": 488
+  },
+  "size": 431081
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "077c0ae3fc724dca10b648add7d2758451549996",
+  "repo_url": "https://github.com/fusionbox/django-widgy",
+  "date": "2016-06-03T23:07:39",
+  "languages": {
+    "Python": 940375,
+    "JavaScript": 604520,
+    "SCSS": 47964,
+    "HTML": 42403,
+    "CSS": 16378,
+    "Makefile": 1150
+  },
+  "size": 1652790
+}

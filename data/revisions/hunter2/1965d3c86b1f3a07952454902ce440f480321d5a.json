@@ -1,0 +1,17 @@
+{
+  "commit": "1965d3c86b1f3a07952454902ce440f480321d5a",
+  "repo_url": "https://gitlab.com/hunter2.app/hunter2",
+  "date": "2022-03-24T01:34:20",
+  "languages": {
+    "Python": 705004,
+    "JavaScript": 80667,
+    "HTML": 55460,
+    "SCSS": 11120,
+    "Lua": 9284,
+    "Shell": 7744,
+    "Vue": 5263,
+    "Dockerfile": 5132,
+    "Makefile": 2065
+  },
+  "size": 881739
+}

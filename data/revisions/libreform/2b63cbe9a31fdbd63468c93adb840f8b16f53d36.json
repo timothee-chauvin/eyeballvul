@@ -1,0 +1,12 @@
+{
+  "commit": "2b63cbe9a31fdbd63468c93adb840f8b16f53d36",
+  "repo_url": "https://github.com/libreform/libreform",
+  "date": "2022-05-17T20:40:16",
+  "languages": {
+    "PHP": 124905,
+    "TypeScript": 60055,
+    "SCSS": 8931,
+    "JavaScript": 3615
+  },
+  "size": 197506
+}

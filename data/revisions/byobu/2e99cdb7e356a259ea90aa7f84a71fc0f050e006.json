@@ -1,0 +1,13 @@
+{
+  "commit": "2e99cdb7e356a259ea90aa7f84a71fc0f050e006",
+  "repo_url": "https://github.com/friendsofflarum/byobu",
+  "date": "2022-05-13T23:02:55",
+  "languages": {
+    "PHP": 82086,
+    "JavaScript": 43943,
+    "TypeScript": 8084,
+    "Less": 3589,
+    "Blade": 1850
+  },
+  "size": 139552
+}

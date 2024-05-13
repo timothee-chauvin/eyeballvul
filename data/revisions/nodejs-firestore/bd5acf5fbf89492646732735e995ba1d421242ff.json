@@ -1,0 +1,12 @@
+{
+  "commit": "bd5acf5fbf89492646732735e995ba1d421242ff",
+  "repo_url": "https://github.com/googleapis/nodejs-firestore",
+  "date": "2022-07-28T20:27:04",
+  "languages": {
+    "JavaScript": 2432030,
+    "TypeScript": 1603618,
+    "Python": 6675,
+    "Shell": 5089
+  },
+  "size": 4047412
+}

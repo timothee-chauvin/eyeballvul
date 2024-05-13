@@ -1,0 +1,15 @@
+{
+  "commit": "3873e6d9d72ea91a184aa00127638dde879f13ef",
+  "repo_url": "https://github.com/darktable-org/rawspeed",
+  "date": "2017-12-22T17:29:46",
+  "languages": {
+    "C++": 1036743,
+    "CMake": 112032,
+    "XSLT": 5858,
+    "Shell": 5032,
+    "Dockerfile": 3580,
+    "C": 3527,
+    "Ruby": 64
+  },
+  "size": 1166836
+}

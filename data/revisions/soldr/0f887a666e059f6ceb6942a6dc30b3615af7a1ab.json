@@ -1,0 +1,19 @@
+{
+  "commit": "0f887a666e059f6ceb6942a6dc30b3615af7a1ab",
+  "repo_url": "https://github.com/vxcontrol/soldr",
+  "date": "2022-12-30T17:46:35",
+  "languages": {
+    "Go": 2009934,
+    "TypeScript": 1851759,
+    "HTML": 649772,
+    "SCSS": 473887,
+    "Lua": 79118,
+    "JavaScript": 47077,
+    "Shell": 27959,
+    "CSS": 21731,
+    "Vue": 13123,
+    "Makefile": 8215,
+    "Dockerfile": 2671
+  },
+  "size": 5185246
+}

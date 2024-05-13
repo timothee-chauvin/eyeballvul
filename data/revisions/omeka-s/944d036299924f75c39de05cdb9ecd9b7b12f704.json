@@ -1,0 +1,14 @@
+{
+  "commit": "944d036299924f75c39de05cdb9ecd9b7b12f704",
+  "repo_url": "https://github.com/omeka/omeka-s",
+  "date": "2023-02-28T18:32:24",
+  "languages": {
+    "PHP": 1945343,
+    "HTML": 358833,
+    "JavaScript": 165662,
+    "SCSS": 138794,
+    "CSS": 436,
+    "Smarty": 218
+  },
+  "size": 2609286
+}

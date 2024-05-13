@@ -1,0 +1,22 @@
+{
+  "commit": "671f434bc4b4a67e1cbb498e9b390044dfb16215",
+  "repo_url": "https://github.com/mltframework/shotcut",
+  "date": "2020-07-11T17:23:30",
+  "languages": {
+    "C++": 1857937,
+    "QML": 1278225,
+    "JavaScript": 263559,
+    "HTML": 178154,
+    "Shell": 96016,
+    "Prolog": 14322,
+    "C": 8620,
+    "NSIS": 4177,
+    "QMake": 3672,
+    "Python": 3092,
+    "Objective-C++": 994,
+    "CMake": 935,
+    "Roff": 704,
+    "Makefile": 697
+  },
+  "size": 3711104
+}

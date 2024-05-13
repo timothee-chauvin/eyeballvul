@@ -1,0 +1,15 @@
+{
+  "commit": "9934c22d06c925f3cf8086bb6edd479885474eb8",
+  "repo_url": "https://github.com/bytedeco/javacpp-presets",
+  "date": "2022-11-01T03:56:50",
+  "languages": {
+    "Java": 85889321,
+    "Shell": 508967,
+    "C": 23800,
+    "C++": 20394,
+    "Cuda": 5112,
+    "Batchfile": 3902,
+    "Python": 1477
+  },
+  "size": 86452973
+}

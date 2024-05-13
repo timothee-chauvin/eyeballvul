@@ -1,0 +1,19 @@
+{
+  "commit": "52bcd052b68072b2ddbb2d698294239ddd6dadc4",
+  "repo_url": "https://github.com/axiomatic-systems/bento4",
+  "date": "2017-05-29T01:08:03",
+  "languages": {
+    "C++": 3100936,
+    "JavaScript": 727439,
+    "Python": 303103,
+    "Java": 96739,
+    "Makefile": 46308,
+    "C": 21330,
+    "HTML": 13845,
+    "Shell": 2288,
+    "CMake": 1424,
+    "Batchfile": 209,
+    "CSS": 134
+  },
+  "size": 4313755
+}

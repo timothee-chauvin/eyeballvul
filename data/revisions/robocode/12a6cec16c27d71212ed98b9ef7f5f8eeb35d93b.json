@@ -1,0 +1,14 @@
+{
+  "commit": "12a6cec16c27d71212ed98b9ef7f5f8eeb35d93b",
+  "repo_url": "https://github.com/robo-code/robocode",
+  "date": "2019-03-02T10:23:02",
+  "languages": {
+    "Java": 2637670,
+    "C#": 1937269,
+    "HTML": 45018,
+    "Batchfile": 26246,
+    "Shell": 18030,
+    "F#": 760
+  },
+  "size": 4664993
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "30ce160432d64461e1b74b1bbc29579c8ec8242e",
+  "repo_url": "https://github.com/phusion/passenger",
+  "date": "2018-05-14T14:25:45",
+  "languages": {
+    "C++": 30004222,
+    "Ruby": 1899988,
+    "C": 1739991,
+    "Shell": 748113,
+    "Makefile": 521646,
+    "JavaScript": 213611,
+    "Python": 43370,
+    "HTML": 38339,
+    "M4": 26048,
+    "CSS": 4814,
+    "Perl": 2036,
+    "Batchfile": 1561
+  },
+  "size": 35243739
+}

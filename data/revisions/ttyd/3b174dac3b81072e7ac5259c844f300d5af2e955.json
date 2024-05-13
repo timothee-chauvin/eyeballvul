@@ -1,0 +1,16 @@
+{
+  "commit": "3b174dac3b81072e7ac5259c844f300d5af2e955",
+  "repo_url": "https://github.com/tsl0922/ttyd",
+  "date": "2021-01-03T03:54:09",
+  "languages": {
+    "C": 69808,
+    "TypeScript": 22643,
+    "Shell": 5849,
+    "JavaScript": 4639,
+    "CMake": 3475,
+    "SCSS": 1627,
+    "HTML": 610,
+    "Dockerfile": 508
+  },
+  "size": 109159
+}

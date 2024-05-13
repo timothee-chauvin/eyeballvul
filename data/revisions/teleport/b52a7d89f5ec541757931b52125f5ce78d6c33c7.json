@@ -1,0 +1,17 @@
+{
+  "commit": "b52a7d89f5ec541757931b52125f5ce78d6c33c7",
+  "repo_url": "https://github.com/gravitational/teleport",
+  "date": "2021-08-24T19:17:32",
+  "languages": {
+    "Go": 7331179,
+    "C": 2544534,
+    "Shell": 112760,
+    "Makefile": 47790,
+    "Dockerfile": 7381,
+    "Python": 3906,
+    "Groovy": 2085,
+    "Io": 1675,
+    "Jinja": 68
+  },
+  "size": 10051378
+}

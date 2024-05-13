@@ -1,0 +1,14 @@
+{
+  "commit": "2ac0b3c4ea45841b0c870c2d5746239e6922e917",
+  "repo_url": "https://github.com/agenturpottkinder/typo3_forum",
+  "date": "2019-03-21T09:52:09",
+  "languages": {
+    "PHP": 4113646,
+    "HTML": 2527667,
+    "CSS": 44098,
+    "JavaScript": 33295,
+    "SCSS": 12756,
+    "Shell": 494
+  },
+  "size": 6731956
+}

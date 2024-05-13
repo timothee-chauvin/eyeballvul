@@ -1,0 +1,11 @@
+{
+  "commit": "df4d99d92e7039e10a5f33f11df222468401159d",
+  "repo_url": "https://github.com/nestjs/nest",
+  "date": "2022-07-18T08:23:53",
+  "languages": {
+    "TypeScript": 2118458,
+    "JavaScript": 2153,
+    "Shell": 1055
+  },
+  "size": 2121666
+}

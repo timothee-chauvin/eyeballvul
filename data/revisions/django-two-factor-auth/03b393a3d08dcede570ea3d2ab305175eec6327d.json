@@ -1,0 +1,11 @@
+{
+  "commit": "03b393a3d08dcede570ea3d2ab305175eec6327d",
+  "repo_url": "https://github.com/bouke/django-two-factor-auth",
+  "date": "2020-03-13T22:50:26",
+  "languages": {
+    "Python": 146804,
+    "HTML": 21268,
+    "Makefile": 955
+  },
+  "size": 169027
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "1c75ab062d0cb1f3af57e39a399325b9e917e85f",
+  "repo_url": "https://github.com/redis/redis",
+  "date": "2023-01-16T16:40:35",
+  "languages": {
+    "C": 6349143,
+    "Tcl": 1798271,
+    "Ruby": 26205,
+    "Shell": 22412,
+    "Python": 21698,
+    "Makefile": 18791,
+    "C++": 5987,
+    "Smarty": 1047
+  },
+  "size": 8243554
+}

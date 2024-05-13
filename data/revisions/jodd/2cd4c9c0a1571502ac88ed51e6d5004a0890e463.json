@@ -1,0 +1,16 @@
+{
+  "commit": "2cd4c9c0a1571502ac88ed51e6d5004a0890e463",
+  "repo_url": "https://github.com/oblac/jodd",
+  "date": "2018-07-11T13:54:33",
+  "languages": {
+    "Java": 8525688,
+    "HTML": 4150548,
+    "Python": 32667,
+    "Kotlin": 3931,
+    "Lex": 3873,
+    "Shell": 2361,
+    "Dockerfile": 180,
+    "TSQL": 132
+  },
+  "size": 12719380
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "d6221a8874b5a4347d3dd85de3a465cecf6da88c",
+  "repo_url": "https://github.com/vscodevim/vim",
+  "date": "2021-02-05T18:43:29",
+  "languages": {
+    "TypeScript": 1528639,
+    "JavaScript": 11438,
+    "Dockerfile": 321
+  },
+  "size": 1540398
+}

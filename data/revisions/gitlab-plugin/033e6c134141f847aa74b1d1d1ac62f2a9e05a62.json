@@ -1,0 +1,12 @@
+{
+  "commit": "033e6c134141f847aa74b1d1d1ac62f2a9e05a62",
+  "repo_url": "https://github.com/jenkinsci/gitlab-plugin",
+  "date": "2018-11-18T23:28:23",
+  "languages": {
+    "Java": 669923,
+    "Groovy": 7888,
+    "HTML": 2382,
+    "Shell": 730
+  },
+  "size": 680923
+}

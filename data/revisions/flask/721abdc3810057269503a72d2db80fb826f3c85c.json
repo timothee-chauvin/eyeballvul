@@ -1,0 +1,12 @@
+{
+  "commit": "721abdc3810057269503a72d2db80fb826f3c85c",
+  "repo_url": "https://github.com/pallets/flask",
+  "date": "2023-04-25T20:08:38",
+  "languages": {
+    "Python": 527407,
+    "HTML": 405,
+    "Shell": 215,
+    "CSS": 18
+  },
+  "size": 528045
+}

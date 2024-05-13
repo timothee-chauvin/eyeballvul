@@ -1,0 +1,16 @@
+{
+  "commit": "acf1b048d339778b868d52f8d1cc1796901d187f",
+  "repo_url": "https://github.com/aws/aws-sdk-js-v3",
+  "date": "2020-12-05T00:30:58",
+  "languages": {
+    "TypeScript": 138189689,
+    "Java": 220754,
+    "JavaScript": 158733,
+    "Gherkin": 43905,
+    "Objective-C": 4129,
+    "Ruby": 2260,
+    "Starlark": 602,
+    "Smithy": 487
+  },
+  "size": 138620559
+}

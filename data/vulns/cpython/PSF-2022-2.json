@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2022-2",
+  "published": "2022-10-03T16:21:59",
+  "modified": "2023-11-08T03:59:35.090524",
+  "details": "Python Software Foundation CPython version From 3.2 until 3.6.4 on Windows contains a Buffer Overflow vulnerability in os.symlink() function on Windows that can result in Arbitrary code execution, likely escalation of privilege. This attack appears to be exploitable via a python script that creates a symlink with an attacker controlled name or location. This vulnerability appears to have been fixed in 3.7.0 and 3.6.5.",
+  "summary": "Buffer overflow vulnerability in os.symlink on Windows",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

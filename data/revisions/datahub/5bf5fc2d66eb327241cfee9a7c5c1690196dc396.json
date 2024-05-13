@@ -1,0 +1,22 @@
+{
+  "commit": "5bf5fc2d66eb327241cfee9a7c5c1690196dc396",
+  "repo_url": "https://github.com/datahub-project/datahub",
+  "date": "2022-09-01T03:48:32",
+  "languages": {
+    "Java": 4896366,
+    "Python": 3952859,
+    "TypeScript": 2032496,
+    "JavaScript": 98499,
+    "Shell": 60738,
+    "Dockerfile": 20992,
+    "SCSS": 20849,
+    "Mustache": 14540,
+    "Less": 5721,
+    "LookML": 4857,
+    "HTML": 3746,
+    "TSQL": 1531,
+    "CSS": 1511,
+    "Scala": 1380
+  },
+  "size": 11116085
+}

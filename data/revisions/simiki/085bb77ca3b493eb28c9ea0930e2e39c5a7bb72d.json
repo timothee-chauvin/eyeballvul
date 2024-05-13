@@ -1,0 +1,14 @@
+{
+  "commit": "085bb77ca3b493eb28c9ea0930e2e39c5a7bb72d",
+  "repo_url": "https://github.com/tankywoo/simiki",
+  "date": "2017-06-04T10:30:57",
+  "languages": {
+    "Python": 93624,
+    "CSS": 27002,
+    "HTML": 11438,
+    "Shell": 1138,
+    "Makefile": 904,
+    "Dockerfile": 161
+  },
+  "size": 134267
+}

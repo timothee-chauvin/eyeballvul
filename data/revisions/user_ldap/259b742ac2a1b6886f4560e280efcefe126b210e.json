@@ -1,0 +1,15 @@
+{
+  "commit": "259b742ac2a1b6886f4560e280efcefe126b210e",
+  "repo_url": "https://github.com/owncloud/user_ldap",
+  "date": "2021-07-13T11:16:35",
+  "languages": {
+    "PHP": 567710,
+    "JavaScript": 260946,
+    "Gherkin": 109831,
+    "Starlark": 66983,
+    "Makefile": 7672,
+    "CSS": 6481,
+    "Shell": 5091
+  },
+  "size": 1024714
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "b7bcb86956fe86a7d6b53ddb7318dca77bf01ed0",
+  "repo_url": "https://github.com/yandex/odyssey",
+  "date": "2020-02-28T10:20:55",
+  "languages": {
+    "C": 436978,
+    "CMake": 18789,
+    "Shell": 11486,
+    "Dockerfile": 358,
+    "Makefile": 207
+  },
+  "size": 467818
+}

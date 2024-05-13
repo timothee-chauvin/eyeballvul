@@ -1,0 +1,14 @@
+{
+  "commit": "e81e0e8597276cce65c770b36989dee24c95fa27",
+  "repo_url": "https://github.com/adaptivescale/lxdui",
+  "date": "2020-03-17T04:33:00",
+  "languages": {
+    "HTML": 200899,
+    "Python": 153386,
+    "JavaScript": 128755,
+    "CSS": 44196,
+    "Shell": 9374,
+    "Dockerfile": 376
+  },
+  "size": 536986
+}

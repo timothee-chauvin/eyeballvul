@@ -1,0 +1,21 @@
+{
+  "commit": "6bf9d564856c76a54147d313decd81d1b3445d7d",
+  "repo_url": "https://github.com/curl/curl",
+  "date": "2009-11-04T12:34:48",
+  "languages": {
+    "C": 3203180,
+    "M4": 627175,
+    "Perl": 241767,
+    "CMake": 114615,
+    "Roff": 91969,
+    "Shell": 75340,
+    "Makefile": 55607,
+    "DIGITAL Command Language": 11458,
+    "Raku": 6647,
+    "Awk": 4702,
+    "Emacs Lisp": 3802,
+    "C++": 3060,
+    "Batchfile": 1499
+  },
+  "size": 4440821
+}

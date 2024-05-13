@@ -1,0 +1,22 @@
+{
+  "commit": "01dcf744a3c34e90c31e6b9828a26fab10cad4c7",
+  "repo_url": "https://github.com/enmasseproject/enmasse",
+  "date": "2020-07-29T18:33:35",
+  "languages": {
+    "Java": 4820606,
+    "Go": 1308793,
+    "JavaScript": 992619,
+    "TypeScript": 498374,
+    "Shell": 74634,
+    "Makefile": 26842,
+    "XSLT": 11077,
+    "Groovy": 9475,
+    "Dockerfile": 7354,
+    "Python": 6730,
+    "Yacc": 5306,
+    "HTML": 4176,
+    "Ragel": 3778,
+    "CSS": 1040
+  },
+  "size": 7770804
+}

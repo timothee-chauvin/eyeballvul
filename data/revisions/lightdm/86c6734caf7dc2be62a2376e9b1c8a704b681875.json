@@ -1,0 +1,16 @@
+{
+  "commit": "86c6734caf7dc2be62a2376e9b1c8a704b681875",
+  "repo_url": "https://github.com/canonical/lightdm",
+  "date": "2017-03-22T03:45:15",
+  "languages": {
+    "C": 1147457,
+    "C++": 42779,
+    "Makefile": 39357,
+    "Shell": 33280,
+    "M4": 14244,
+    "Python": 11243,
+    "Roff": 2912,
+    "Vala": 173
+  },
+  "size": 1291445
+}

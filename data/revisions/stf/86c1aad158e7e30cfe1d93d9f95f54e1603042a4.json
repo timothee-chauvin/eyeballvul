@@ -1,0 +1,16 @@
+{
+  "commit": "86c1aad158e7e30cfe1d93d9f95f54e1603042a4",
+  "repo_url": "https://github.com/devicefarmer/stf",
+  "date": "2023-08-18T18:38:47",
+  "languages": {
+    "JavaScript": 1105071,
+    "Pug": 143870,
+    "CSS": 48808,
+    "SCSS": 16746,
+    "Dockerfile": 5037,
+    "Shell": 1747,
+    "HTML": 758,
+    "Less": 437
+  },
+  "size": 1322474
+}

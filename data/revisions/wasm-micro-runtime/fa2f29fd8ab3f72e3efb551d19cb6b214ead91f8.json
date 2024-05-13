@@ -1,0 +1,24 @@
+{
+  "commit": "fa2f29fd8ab3f72e3efb551d19cb6b214ead91f8",
+  "repo_url": "https://github.com/bytecodealliance/wasm-micro-runtime",
+  "date": "2023-08-23T04:56:11",
+  "languages": {
+    "C": 5341258,
+    "C++": 468520,
+    "Python": 416939,
+    "CMake": 142042,
+    "Shell": 123368,
+    "TypeScript": 115817,
+    "Assembly": 37048,
+    "Go": 33095,
+    "Makefile": 27890,
+    "HTML": 27516,
+    "WebAssembly": 21074,
+    "CSS": 16329,
+    "JavaScript": 14670,
+    "Dockerfile": 11926,
+    "Batchfile": 3431,
+    "Rust": 811
+  },
+  "size": 6801734
+}

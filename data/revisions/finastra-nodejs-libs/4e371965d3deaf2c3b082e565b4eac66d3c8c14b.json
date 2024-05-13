@@ -1,0 +1,10 @@
+{
+  "commit": "4e371965d3deaf2c3b082e565b4eac66d3c8c14b",
+  "repo_url": "https://github.com/finastra/finastra-nodejs-libs",
+  "date": "2022-05-03T18:28:44",
+  "languages": {
+    "TypeScript": 203324,
+    "Handlebars": 1178
+  },
+  "size": 204502
+}

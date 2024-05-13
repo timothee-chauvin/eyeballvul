@@ -1,0 +1,14 @@
+{
+  "commit": "c732061ee12a51f5d02123f11eb9cf07cf74a9d7",
+  "repo_url": "https://github.com/xm-online/xm-uaa",
+  "date": "2019-02-25T13:18:48",
+  "languages": {
+    "Java": 749989,
+    "HTML": 4384,
+    "FreeMarker": 2625,
+    "Shell": 721,
+    "Dockerfile": 677,
+    "Gherkin": 205
+  },
+  "size": 758601
+}

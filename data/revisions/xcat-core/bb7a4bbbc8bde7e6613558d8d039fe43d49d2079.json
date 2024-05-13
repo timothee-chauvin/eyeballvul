@@ -1,0 +1,24 @@
+{
+  "commit": "bb7a4bbbc8bde7e6613558d8d039fe43d49d2079",
+  "repo_url": "https://github.com/xcat2/xcat-core",
+  "date": "2022-06-13T12:44:28",
+  "languages": {
+    "Perl": 13811412,
+    "Shell": 1920922,
+    "JavaScript": 1255544,
+    "Python": 315409,
+    "PHP": 63200,
+    "Makefile": 27759,
+    "PowerShell": 24050,
+    "Batchfile": 20625,
+    "CSS": 16524,
+    "HTML": 16218,
+    "C": 10710,
+    "Awk": 10525,
+    "VBScript": 9757,
+    "C++": 6561,
+    "Roff": 1120,
+    "Dockerfile": 552
+  },
+  "size": 17510888
+}

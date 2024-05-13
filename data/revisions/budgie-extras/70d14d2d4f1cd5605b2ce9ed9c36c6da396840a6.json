@@ -1,0 +1,14 @@
+{
+  "commit": "70d14d2d4f1cd5605b2ce9ed9c36c6da396840a6",
+  "repo_url": "https://github.com/ubuntubudgie/budgie-extras",
+  "date": "2023-08-09T18:35:57",
+  "languages": {
+    "Vala": 1110987,
+    "Python": 201763,
+    "Meson": 76199,
+    "Shell": 4885,
+    "C": 573,
+    "Roff": 210
+  },
+  "size": 1394617
+}

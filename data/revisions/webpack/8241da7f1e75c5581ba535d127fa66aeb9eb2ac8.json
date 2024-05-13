@@ -1,0 +1,17 @@
+{
+  "commit": "8241da7f1e75c5581ba535d127fa66aeb9eb2ac8",
+  "repo_url": "https://github.com/webpack/webpack",
+  "date": "2022-11-09T15:27:23",
+  "languages": {
+    "JavaScript": 4974623,
+    "TypeScript": 9431,
+    "WebAssembly": 6464,
+    "CSS": 3225,
+    "CoffeeScript": 325,
+    "HTML": 255,
+    "Less": 198,
+    "Pug": 130,
+    "Shell": 71
+  },
+  "size": 4994722
+}

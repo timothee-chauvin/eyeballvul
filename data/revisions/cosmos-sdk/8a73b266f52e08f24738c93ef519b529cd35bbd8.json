@@ -1,0 +1,18 @@
+{
+  "commit": "8a73b266f52e08f24738c93ef519b529cd35bbd8",
+  "repo_url": "https://github.com/cosmos/cosmos-sdk",
+  "date": "2021-09-29T15:13:56",
+  "languages": {
+    "Go": 5669310,
+    "C": 666194,
+    "Java": 30290,
+    "Sage": 30192,
+    "Makefile": 30106,
+    "Assembly": 28456,
+    "M4": 25931,
+    "Shell": 9644,
+    "Python": 4767,
+    "Dockerfile": 2749
+  },
+  "size": 6497639
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "92a2187b2f3a2dd80a510d9b9bed3a6d129fdb14",
+  "repo_url": "https://github.com/bminusl/ihatetobudget",
+  "date": "2021-08-28T12:08:57",
+  "languages": {
+    "Python": 38876,
+    "HTML": 32071,
+    "CSS": 2178,
+    "Dockerfile": 357,
+    "Shell": 144
+  },
+  "size": 73626
+}

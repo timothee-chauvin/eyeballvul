@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2019-2",
+  "published": "2019-11-27T16:54:34",
+  "modified": "2023-11-08T03:58:07.167723",
+  "details": "The CGIHandler class in Python before 2.7.12 does not protect against the HTTP_PROXY variable name clash in a CGI script, which could allow a remote attacker to redirect HTTP requests.",
+  "summary": "HTTPoxy attack",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

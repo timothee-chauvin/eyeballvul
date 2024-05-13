@@ -1,0 +1,13 @@
+{
+  "commit": "e6a2a079d234222b4672a70dabce16c1bf0ddd3b",
+  "repo_url": "https://github.com/canonical/apport",
+  "date": "2023-02-23T23:48:27",
+  "languages": {
+    "Python": 1431664,
+    "Shell": 9943,
+    "Java": 3342,
+    "Perl": 1975,
+    "CMake": 485
+  },
+  "size": 1447409
+}

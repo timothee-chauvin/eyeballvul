@@ -1,0 +1,12 @@
+{
+  "commit": "77a4cd4036d7713c137ab931537933d226547cdf",
+  "repo_url": "https://github.com/automationbroker/apb",
+  "date": "2020-03-25T19:41:38",
+  "languages": {
+    "Go": 84062,
+    "Makefile": 1269,
+    "Shell": 933,
+    "Dockerfile": 665
+  },
+  "size": 86929
+}

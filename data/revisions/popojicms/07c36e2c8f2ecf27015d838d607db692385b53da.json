@@ -1,0 +1,16 @@
+{
+  "commit": "07c36e2c8f2ecf27015d838d607db692385b53da",
+  "repo_url": "https://github.com/popojicms/popojicms",
+  "date": "2016-08-05T18:08:34",
+  "languages": {
+    "PHP": 1747223,
+    "HTML": 810037,
+    "JavaScript": 648157,
+    "CSS": 626669,
+    "Java": 305368,
+    "ActionScript": 97871,
+    "SCSS": 2187,
+    "Handlebars": 1744
+  },
+  "size": 4239256
+}

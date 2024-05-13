@@ -1,0 +1,15 @@
+{
+  "commit": "2ff197d53963d55dcba5b23d039e995307f94fee",
+  "repo_url": "https://github.com/xpleaf/blog_mini",
+  "date": "2016-03-14T17:21:11",
+  "languages": {
+    "HTML": 76950,
+    "Python": 70745,
+    "JavaScript": 16753,
+    "CSS": 15839,
+    "Less": 7272,
+    "Mako": 412,
+    "Procfile": 25
+  },
+  "size": 187996
+}

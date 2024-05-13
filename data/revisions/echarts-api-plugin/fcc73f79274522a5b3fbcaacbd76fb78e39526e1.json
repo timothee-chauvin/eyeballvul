@@ -1,0 +1,11 @@
+{
+  "commit": "fcc73f79274522a5b3fbcaacbd76fb78e39526e1",
+  "repo_url": "https://github.com/jenkinsci/echarts-api-plugin",
+  "date": "2020-05-27T20:10:25",
+  "languages": {
+    "JavaScript": 13719,
+    "Java": 6278,
+    "Shell": 519
+  },
+  "size": 20516
+}

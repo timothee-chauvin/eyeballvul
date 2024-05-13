@@ -1,0 +1,16 @@
+{
+  "id": "PSF-2022-11",
+  "published": "2022-10-21T00:00:00",
+  "modified": "2023-12-06T01:02:30.927925",
+  "details": "The Keccak XKCP SHA-3 reference implementation before fdc6fef has an integer overflow and resultant buffer overflow that allows attackers to execute arbitrary code or eliminate expected cryptographic properties. This occurs in the sponge function interface.",
+  "summary": "Buffer overflow in the _sha3 module in Python 3.10 and older",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "a58ebcc701dd6c43630df941481475ff0f615a81",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

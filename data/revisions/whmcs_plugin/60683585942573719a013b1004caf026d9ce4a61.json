@@ -1,0 +1,17 @@
+{
+  "commit": "60683585942573719a013b1004caf026d9ce4a61",
+  "repo_url": "https://github.com/microweber-dev/whmcs_plugin",
+  "date": "2021-09-29T14:22:33",
+  "languages": {
+    "JavaScript": 8314112,
+    "Less": 3695101,
+    "CSS": 3006649,
+    "HTML": 2799277,
+    "Smarty": 1942312,
+    "PHP": 387660,
+    "SCSS": 337498,
+    "Hack": 3177,
+    "Ruby": 483
+  },
+  "size": 20486269
+}

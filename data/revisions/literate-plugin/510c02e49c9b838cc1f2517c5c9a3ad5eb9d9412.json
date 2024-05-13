@@ -1,0 +1,11 @@
+{
+  "commit": "510c02e49c9b838cc1f2517c5c9a3ad5eb9d9412",
+  "repo_url": "https://github.com/jenkinsci/literate-plugin",
+  "date": "2015-12-03T15:30:28",
+  "languages": {
+    "Java": 297009,
+    "HTML": 5909,
+    "Shell": 534
+  },
+  "size": 303452
+}

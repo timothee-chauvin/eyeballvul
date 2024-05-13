@@ -1,0 +1,14 @@
+{
+  "commit": "2c16b8f33b8049801a950fecad5b59e61d14e91b",
+  "repo_url": "https://github.com/bookwyrm-social/bookwyrm",
+  "date": "2022-02-03T16:44:51",
+  "languages": {
+    "Python": 1673744,
+    "HTML": 503772,
+    "JavaScript": 35263,
+    "CSS": 25427,
+    "Shell": 6964,
+    "Dockerfile": 262
+  },
+  "size": 2245432
+}

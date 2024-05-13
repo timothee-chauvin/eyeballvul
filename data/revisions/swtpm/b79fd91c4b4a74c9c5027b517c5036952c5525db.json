@@ -1,0 +1,13 @@
+{
+  "commit": "b79fd91c4b4a74c9c5027b517c5036952c5525db",
+  "repo_url": "https://github.com/stefanberger/swtpm",
+  "date": "2021-11-09T15:49:45",
+  "languages": {
+    "C": 782847,
+    "Shell": 441196,
+    "M4": 18885,
+    "Makefile": 15168,
+    "Python": 5515
+  },
+  "size": 1263611
+}

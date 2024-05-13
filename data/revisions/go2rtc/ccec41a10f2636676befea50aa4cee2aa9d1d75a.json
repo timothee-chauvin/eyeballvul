@@ -1,0 +1,13 @@
+{
+  "commit": "ccec41a10f2636676befea50aa4cee2aa9d1d75a",
+  "repo_url": "https://github.com/alexxit/go2rtc",
+  "date": "2024-01-01T06:34:44",
+  "languages": {
+    "Go": 773049,
+    "HTML": 45997,
+    "JavaScript": 23911,
+    "Dockerfile": 3567,
+    "Batchfile": 1570
+  },
+  "size": 848094
+}

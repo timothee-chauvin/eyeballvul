@@ -1,0 +1,12 @@
+{
+  "commit": "e82248683ed7d53be1e01526f7b2a53dde545ef9",
+  "repo_url": "https://github.com/troglobit/uftpd",
+  "date": "2019-08-15T07:20:03",
+  "languages": {
+    "C": 69674,
+    "Makefile": 2145,
+    "M4": 737,
+    "Shell": 44
+  },
+  "size": 72600
+}

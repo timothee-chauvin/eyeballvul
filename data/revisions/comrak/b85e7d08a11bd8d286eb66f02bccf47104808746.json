@@ -1,0 +1,12 @@
+{
+  "commit": "b85e7d08a11bd8d286eb66f02bccf47104808746",
+  "repo_url": "https://github.com/kivikakk/comrak",
+  "date": "2020-11-02T00:20:48",
+  "languages": {
+    "Rust": 256260,
+    "Shell": 1902,
+    "Ruby": 497,
+    "Makefile": 286
+  },
+  "size": 258945
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "c63e734950787d35c8bf1363448430942d1bb39d",
+  "repo_url": "https://github.com/mwarning/kadnode",
+  "date": "2018-02-14T23:38:07",
+  "languages": {
+    "C": 276412,
+    "Makefile": 8147,
+    "Shell": 6930,
+    "Inno Setup": 3578,
+    "Batchfile": 2072,
+    "HTML": 497
+  },
+  "size": 297636
+}

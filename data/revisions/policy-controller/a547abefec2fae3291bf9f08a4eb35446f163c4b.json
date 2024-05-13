@@ -1,0 +1,11 @@
+{
+  "commit": "a547abefec2fae3291bf9f08a4eb35446f163c4b",
+  "repo_url": "https://github.com/sigstore/policy-controller",
+  "date": "2022-07-22T12:54:19",
+  "languages": {
+    "Go": 351832,
+    "Shell": 45152,
+    "Makefile": 8002
+  },
+  "size": 404986
+}

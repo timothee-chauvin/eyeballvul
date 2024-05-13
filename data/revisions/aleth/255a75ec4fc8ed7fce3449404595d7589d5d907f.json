@@ -1,0 +1,18 @@
+{
+  "commit": "255a75ec4fc8ed7fce3449404595d7589d5d907f",
+  "repo_url": "https://github.com/ethereum/aleth",
+  "date": "2019-12-16T19:34:38",
+  "languages": {
+    "C++": 3916695,
+    "CMake": 79403,
+    "Shell": 61102,
+    "Assembly": 26562,
+    "Python": 16310,
+    "Solidity": 14671,
+    "C": 7421,
+    "Dockerfile": 5314,
+    "Makefile": 2681,
+    "Batchfile": 1406
+  },
+  "size": 4131565
+}

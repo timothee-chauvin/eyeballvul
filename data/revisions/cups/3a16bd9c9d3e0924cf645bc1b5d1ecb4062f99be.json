@@ -1,0 +1,17 @@
+{
+  "commit": "3a16bd9c9d3e0924cf645bc1b5d1ecb4062f99be",
+  "repo_url": "https://github.com/apple/cups",
+  "date": "2017-10-13T18:22:26",
+  "languages": {
+    "C": 5997304,
+    "C++": 319445,
+    "Makefile": 95770,
+    "M4": 79122,
+    "Shell": 69965,
+    "Roff": 29018,
+    "PostScript": 17861,
+    "HTML": 2142,
+    "Batchfile": 192
+  },
+  "size": 6610819
+}

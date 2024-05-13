@@ -1,0 +1,12 @@
+{
+  "commit": "a0db46931055a47f05ac8de56d6b3ae485110705",
+  "repo_url": "https://github.com/jenkinsci/ownership-plugin",
+  "date": "2018-01-14T19:03:13",
+  "languages": {
+    "Java": 411289,
+    "HTML": 7190,
+    "Groovy": 3431,
+    "CSS": 443
+  },
+  "size": 422353
+}

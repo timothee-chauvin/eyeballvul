@@ -1,0 +1,13 @@
+{
+  "commit": "3a91122066eb1166b19d44011a6814b68679d624",
+  "repo_url": "https://github.com/trailofbits/uthenticode",
+  "date": "2022-07-05T14:52:44",
+  "languages": {
+    "C++": 50869,
+    "CMake": 5911,
+    "Makefile": 929,
+    "Shell": 892,
+    "Dockerfile": 805
+  },
+  "size": 59406
+}

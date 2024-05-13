@@ -1,0 +1,11 @@
+{
+  "commit": "998983af10e0df6097640af34fd1d4ac96a113fc",
+  "repo_url": "https://github.com/linuxmint/warpinator",
+  "date": "2022-09-05T14:39:05",
+  "languages": {
+    "Python": 777963,
+    "Meson": 7227,
+    "Shell": 961
+  },
+  "size": 786151
+}

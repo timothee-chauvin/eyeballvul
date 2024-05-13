@@ -1,0 +1,14 @@
+{
+  "commit": "b6aa866a608e59de2ff12b0e9879c16263fa407b",
+  "repo_url": "https://github.com/duckduckgo/android",
+  "date": "2018-02-02T15:42:23",
+  "languages": {
+    "Kotlin": 481113,
+    "C++": 103959,
+    "C": 74022,
+    "Java": 26650,
+    "CMake": 2064,
+    "Shell": 490
+  },
+  "size": 688298
+}

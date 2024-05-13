@@ -1,0 +1,13 @@
+{
+  "commit": "571dc4100670b0df51f727dc6ab747a8851f4695",
+  "repo_url": "https://github.com/dvidelabs/flatcc",
+  "date": "2019-08-17T11:20:07",
+  "languages": {
+    "C": 1470494,
+    "C++": 55948,
+    "CMake": 26266,
+    "Shell": 20281,
+    "Makefile": 56
+  },
+  "size": 1573045
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "cb8c389303fe774003b49919a8ef6ded55e1c2b8",
+  "repo_url": "https://github.com/prismlauncher/prismlauncher",
+  "date": "2022-12-19T15:45:02",
+  "languages": {
+    "C++": 3021643,
+    "C": 183623,
+    "CMake": 87086,
+    "Java": 54994,
+    "Shell": 7504,
+    "Objective-C++": 6325,
+    "Nix": 4176
+  },
+  "size": 3365351
+}

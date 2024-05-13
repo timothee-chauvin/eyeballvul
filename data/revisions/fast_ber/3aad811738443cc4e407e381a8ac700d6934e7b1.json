@@ -1,0 +1,14 @@
+{
+  "commit": "3aad811738443cc4e407e381a8ac700d6934e7b1",
+  "repo_url": "https://github.com/samuel-tyler/fast_ber",
+  "date": "2020-04-19T13:24:12",
+  "languages": {
+    "C++": 1198769,
+    "Yacc": 60268,
+    "CMake": 24486,
+    "Tcl": 2702,
+    "Python": 1161,
+    "Shell": 585
+  },
+  "size": 1287971
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "a26e16a00ae4ab0f39f49a5ee3025ff48cf6eb32",
+  "repo_url": "https://github.com/trentm/json",
+  "date": "2017-03-03T07:07:32",
+  "languages": {
+    "JavaScript": 69673,
+    "Perl": 24940,
+    "Makefile": 4642,
+    "Python": 3115,
+    "Shell": 1056
+  },
+  "size": 103426
+}

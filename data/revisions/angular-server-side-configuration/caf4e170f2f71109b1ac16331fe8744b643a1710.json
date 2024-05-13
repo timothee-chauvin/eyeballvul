@@ -1,0 +1,15 @@
+{
+  "commit": "caf4e170f2f71109b1ac16331fe8744b643a1710",
+  "repo_url": "https://github.com/kyubisation/angular-server-side-configuration",
+  "date": "2022-11-24T09:16:18",
+  "languages": {
+    "TypeScript": 68973,
+    "Go": 46630,
+    "Shell": 1423,
+    "JavaScript": 1223,
+    "HTML": 399,
+    "CSS": 80,
+    "Dockerfile": 56
+  },
+  "size": 118784
+}

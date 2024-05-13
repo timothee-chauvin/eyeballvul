@@ -1,0 +1,14 @@
+{
+  "commit": "59d8d37eb21bd331186b1562e36a432fc22a859f",
+  "repo_url": "https://github.com/xoops/xoopscore25",
+  "date": "2016-05-27T17:23:54",
+  "languages": {
+    "PHP": 5980328,
+    "HTML": 845518,
+    "Smarty": 570763,
+    "JavaScript": 442698,
+    "CSS": 418711,
+    "Hack": 138
+  },
+  "size": 8258156
+}

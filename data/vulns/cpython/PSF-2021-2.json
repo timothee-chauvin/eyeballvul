@@ -1,0 +1,15 @@
+{
+  "id": "PSF-2021-2",
+  "published": "2021-05-06T00:00:00",
+  "modified": "2023-12-06T01:01:10.043823",
+  "details": "In Python before 3,9,5, the ipaddress library mishandles leading zero characters in the octets of an IP address string. This (in some situations) allows attackers to bypass access control that is based on IP addresses.",
+  "summary": "ipaddress leading zeros in IPv4 address",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

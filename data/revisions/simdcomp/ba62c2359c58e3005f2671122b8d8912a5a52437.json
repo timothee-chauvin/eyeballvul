@@ -1,0 +1,11 @@
+{
+  "commit": "ba62c2359c58e3005f2671122b8d8912a5a52437",
+  "repo_url": "https://github.com/lemire/simdcomp",
+  "date": "2015-01-24T14:13:43",
+  "languages": {
+    "C": 1154033,
+    "Go": 2236,
+    "Makefile": 1650
+  },
+  "size": 1157919
+}

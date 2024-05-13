@@ -1,0 +1,14 @@
+{
+  "commit": "d16519e326ea8690981b7897954d8d3c6110ac9f",
+  "repo_url": "https://github.com/gobby/gobby",
+  "date": "2018-08-26T07:43:10",
+  "languages": {
+    "C++": 786561,
+    "Roff": 63282,
+    "M4": 19513,
+    "Makefile": 14329,
+    "C": 14067,
+    "Shell": 445
+  },
+  "size": 898197
+}

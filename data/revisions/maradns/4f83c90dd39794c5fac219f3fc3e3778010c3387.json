@@ -1,0 +1,22 @@
+{
+  "commit": "4f83c90dd39794c5fac219f3fc3e3778010c3387",
+  "repo_url": "https://github.com/samboy/maradns",
+  "date": "2022-12-22T00:14:56",
+  "languages": {
+    "C": 2610100,
+    "Shell": 996795,
+    "HTML": 343990,
+    "Roff": 73871,
+    "Makefile": 22399,
+    "DIGITAL Command Language": 15823,
+    "Awk": 11716,
+    "Lua": 11360,
+    "C++": 5647,
+    "Dockerfile": 2412,
+    "CSS": 1868,
+    "Batchfile": 1022,
+    "Ruby": 266,
+    "CWeb": 231
+  },
+  "size": 4097500
+}

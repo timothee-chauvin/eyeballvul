@@ -1,0 +1,12 @@
+{
+  "commit": "6886689b6bee217a74fc1cc4e01e341fee015a06",
+  "repo_url": "https://github.com/slicer69/doas",
+  "date": "2019-09-02T17:10:12",
+  "languages": {
+    "C": 88796,
+    "Roff": 8003,
+    "Yacc": 6831,
+    "Makefile": 1551
+  },
+  "size": 105181
+}

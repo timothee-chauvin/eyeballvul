@@ -1,0 +1,10 @@
+{
+  "commit": "fd0ec360299bb3677ef01e04ccdd767fd16be3b9",
+  "repo_url": "https://github.com/jenkinsci/resource-disposer-plugin",
+  "date": "2018-07-03T12:53:06",
+  "languages": {
+    "Java": 38265,
+    "Groovy": 7622
+  },
+  "size": 45887
+}

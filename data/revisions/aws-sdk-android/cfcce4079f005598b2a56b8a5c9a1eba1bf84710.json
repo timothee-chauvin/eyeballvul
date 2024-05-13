@@ -1,0 +1,16 @@
+{
+  "commit": "cfcce4079f005598b2a56b8a5c9a1eba1bf84710",
+  "repo_url": "https://github.com/aws-amplify/aws-sdk-android",
+  "date": "2022-11-22T18:13:46",
+  "languages": {
+    "Java": 92287270,
+    "Python": 41537,
+    "Shell": 13815,
+    "CSS": 13494,
+    "HTML": 6069,
+    "Scilab": 2260,
+    "Ruby": 1203,
+    "PLSQL": 933
+  },
+  "size": 92366581
+}

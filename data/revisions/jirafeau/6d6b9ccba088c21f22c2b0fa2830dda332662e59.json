@@ -1,0 +1,12 @@
+{
+  "commit": "6d6b9ccba088c21f22c2b0fa2830dda332662e59",
+  "repo_url": "https://gitlab.com/mojo42/jirafeau",
+  "date": "2018-02-16T18:49:30",
+  "languages": {
+    "PHP": 147405,
+    "CSS": 9755,
+    "Shell": 815,
+    "Dockerfile": 632
+  },
+  "size": 158607
+}

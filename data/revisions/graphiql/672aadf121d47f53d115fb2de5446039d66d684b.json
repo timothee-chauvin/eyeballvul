@@ -1,0 +1,13 @@
+{
+  "commit": "672aadf121d47f53d115fb2de5446039d66d684b",
+  "repo_url": "https://github.com/graphql/graphiql",
+  "date": "2021-10-29T12:15:11",
+  "languages": {
+    "TypeScript": 976392,
+    "JavaScript": 73843,
+    "CSS": 34777,
+    "Shell": 5261,
+    "EJS": 3097
+  },
+  "size": 1093370
+}

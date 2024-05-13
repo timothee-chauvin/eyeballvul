@@ -1,0 +1,21 @@
+{
+  "commit": "32eee7ec0a15fc1f9111c7773a8fa9b58b139f9f",
+  "repo_url": "https://github.com/apache/ozone",
+  "date": "2021-04-08T04:15:01",
+  "languages": {
+    "Java": 12569145,
+    "TypeScript": 86058,
+    "C++": 69254,
+    "Python": 62385,
+    "HTML": 58763,
+    "Shell": 46030,
+    "JavaScript": 25203,
+    "Less": 15321,
+    "C": 9017,
+    "CSS": 8290,
+    "XSLT": 6415,
+    "CMake": 4346,
+    "Dockerfile": 3016
+  },
+  "size": 12963243
+}

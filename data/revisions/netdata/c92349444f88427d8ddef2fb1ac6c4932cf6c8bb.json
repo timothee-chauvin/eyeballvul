@@ -1,0 +1,20 @@
+{
+  "commit": "c92349444f88427d8ddef2fb1ac6c4932cf6c8bb",
+  "repo_url": "https://github.com/netdata/netdata",
+  "date": "2018-03-27T19:46:20",
+  "languages": {
+    "C": 2762767,
+    "Python": 1245109,
+    "JavaScript": 810032,
+    "HTML": 519675,
+    "Shell": 425880,
+    "M4": 55661,
+    "CSS": 38757,
+    "Makefile": 28693,
+    "CMake": 6925,
+    "POV-Ray SDL": 5638,
+    "Dockerfile": 314,
+    "BitBake": 288
+  },
+  "size": 5899739
+}

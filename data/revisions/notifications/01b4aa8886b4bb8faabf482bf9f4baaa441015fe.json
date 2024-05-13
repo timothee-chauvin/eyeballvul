@@ -1,0 +1,13 @@
+{
+  "commit": "01b4aa8886b4bb8faabf482bf9f4baaa441015fe",
+  "repo_url": "https://github.com/opensearch-project/notifications",
+  "date": "2022-08-05T23:28:27",
+  "languages": {
+    "Kotlin": 585267,
+    "TypeScript": 363964,
+    "JavaScript": 26448,
+    "Java": 2920,
+    "Python": 1574
+  },
+  "size": 980173
+}

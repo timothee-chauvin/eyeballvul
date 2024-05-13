@@ -1,0 +1,14 @@
+{
+  "commit": "408f141640b8885feffb9423040c0f717c29ecdf",
+  "repo_url": "https://github.com/tingyuu/vaethink",
+  "date": "2018-12-10T02:48:51",
+  "languages": {
+    "PHP": 1741764,
+    "JavaScript": 1683230,
+    "HTML": 256970,
+    "CSS": 111885,
+    "Smarty": 32252,
+    "PLpgSQL": 3807
+  },
+  "size": 3829908
+}

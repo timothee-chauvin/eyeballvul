@@ -1,0 +1,12 @@
+{
+  "commit": "ea0c46802ed8381634664aca7c6e4aee40fb574e",
+  "repo_url": "https://github.com/linbreux/wikmd",
+  "date": "2022-08-25T17:15:37",
+  "languages": {
+    "Python": 36958,
+    "HTML": 19713,
+    "CSS": 4663,
+    "Dockerfile": 1138
+  },
+  "size": 62472
+}

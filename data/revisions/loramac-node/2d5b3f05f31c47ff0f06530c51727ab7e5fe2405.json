@@ -1,0 +1,11 @@
+{
+  "commit": "2d5b3f05f31c47ff0f06530c51727ab7e5fe2405",
+  "repo_url": "https://github.com/lora-net/loramac-node",
+  "date": "2019-12-17T13:48:36",
+  "languages": {
+    "C": 40365026,
+    "Assembly": 210906,
+    "CMake": 104834
+  },
+  "size": 40680766
+}

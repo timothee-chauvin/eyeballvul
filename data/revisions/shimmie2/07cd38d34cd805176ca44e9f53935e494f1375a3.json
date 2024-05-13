@@ -1,0 +1,14 @@
+{
+  "commit": "07cd38d34cd805176ca44e9f53935e494f1375a3",
+  "repo_url": "https://github.com/shish/shimmie2",
+  "date": "2014-04-27T19:46:35",
+  "languages": {
+    "PHP": 3465358,
+    "Haxe": 196710,
+    "JavaScript": 118468,
+    "CSS": 54250,
+    "HTML": 4154,
+    "Shell": 1303
+  },
+  "size": 3840243
+}

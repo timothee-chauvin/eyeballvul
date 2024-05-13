@@ -1,0 +1,17 @@
+{
+  "commit": "8c7d95c1353d15922bdb2578f0ae0915cd725a66",
+  "repo_url": "https://github.com/navidrome/navidrome",
+  "date": "2021-11-18T22:52:12",
+  "languages": {
+    "Go": 817030,
+    "JavaScript": 356185,
+    "Makefile": 5594,
+    "C++": 3983,
+    "Shell": 3389,
+    "HTML": 2971,
+    "Dockerfile": 961,
+    "C": 422,
+    "CSS": 366
+  },
+  "size": 1190901
+}

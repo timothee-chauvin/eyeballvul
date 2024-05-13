@@ -1,0 +1,11 @@
+{
+  "commit": "2dc7305ffa6e4230530d7fbbd37c4988df3c34b0",
+  "repo_url": "https://github.com/eiskalteschatten/compile-sass",
+  "date": "2020-02-16T13:07:14",
+  "languages": {
+    "TypeScript": 5634,
+    "JavaScript": 250,
+    "SCSS": 100
+  },
+  "size": 5984
+}

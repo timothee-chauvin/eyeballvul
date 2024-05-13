@@ -1,0 +1,11 @@
+{
+  "commit": "fd8f6734c01c590b1916c9cebf809f199d022793",
+  "repo_url": "https://github.com/jenkinsci/crx-content-package-deployer-plugin",
+  "date": "2018-01-12T22:37:40",
+  "languages": {
+    "Java": 186465,
+    "HTML": 121322,
+    "Shell": 281
+  },
+  "size": 308068
+}

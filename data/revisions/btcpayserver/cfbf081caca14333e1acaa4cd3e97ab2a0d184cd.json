@@ -1,0 +1,15 @@
+{
+  "commit": "cfbf081caca14333e1acaa4cd3e97ab2a0d184cd",
+  "repo_url": "https://github.com/btcpayserver/btcpayserver",
+  "date": "2022-05-25T10:33:39",
+  "languages": {
+    "C#": 3997092,
+    "HTML": 938525,
+    "CSS": 548541,
+    "JavaScript": 164944,
+    "Shell": 8658,
+    "Dockerfile": 7785,
+    "PowerShell": 3119
+  },
+  "size": 5668664
+}

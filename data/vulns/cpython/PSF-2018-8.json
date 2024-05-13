@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2018-8",
+  "published": "2018-05-16T00:00:00",
+  "modified": "2023-09-18T01:58:46.570942",
+  "details": "The email folding function enters an infinite loop if a header is longer\nthan the policy maximum line length and contains many non-ASCII characters.\n\nRegression introduced in Python 3.6.4.\n",
+  "summary": "Email folding function Denial-of-Service",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

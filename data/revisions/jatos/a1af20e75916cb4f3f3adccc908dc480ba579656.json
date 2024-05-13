@@ -1,0 +1,17 @@
+{
+  "commit": "a1af20e75916cb4f3f3adccc908dc480ba579656",
+  "repo_url": "https://github.com/jatos/jatos",
+  "date": "2022-04-07T20:13:04",
+  "languages": {
+    "JavaScript": 1659098,
+    "Java": 1276316,
+    "HTML": 449925,
+    "CSS": 175329,
+    "Scala": 122067,
+    "Less": 18645,
+    "Batchfile": 6293,
+    "Shell": 5674,
+    "SCSS": 4700
+  },
+  "size": 3718047
+}

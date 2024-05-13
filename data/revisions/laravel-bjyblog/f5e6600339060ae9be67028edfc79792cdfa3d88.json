@@ -1,0 +1,13 @@
+{
+  "commit": "f5e6600339060ae9be67028edfc79792cdfa3d88",
+  "repo_url": "https://github.com/baijunyao/laravel-bjyblog",
+  "date": "2019-10-05T15:29:09",
+  "languages": {
+    "PHP": 2339601,
+    "Blade": 153156,
+    "Vue": 563,
+    "Dockerfile": 88,
+    "HTML": 1
+  },
+  "size": 2493409
+}

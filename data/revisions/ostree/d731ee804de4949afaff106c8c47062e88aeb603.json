@@ -1,0 +1,20 @@
+{
+  "commit": "d731ee804de4949afaff106c8c47062e88aeb603",
+  "repo_url": "https://github.com/ostreedev/ostree",
+  "date": "2022-10-28T07:26:08",
+  "languages": {
+    "C": 3394634,
+    "Shell": 663028,
+    "Rust": 338201,
+    "Makefile": 92500,
+    "Yacc": 46053,
+    "M4": 37771,
+    "JavaScript": 31667,
+    "Python": 11392,
+    "SmPL": 789,
+    "Vim Script": 308,
+    "Dockerfile": 82,
+    "Emacs Lisp": 63
+  },
+  "size": 4616488
+}

@@ -1,0 +1,19 @@
+{
+  "commit": "3c70dc88260086e303ff8722dc9e6aec73e3b7e2",
+  "repo_url": "https://github.com/gerbv/gerbv",
+  "date": "2019-01-21T18:54:32",
+  "languages": {
+    "C": 1118664,
+    "Perl": 104406,
+    "Shell": 46294,
+    "Scheme": 46271,
+    "Makefile": 27548,
+    "M4": 22640,
+    "GAP": 16526,
+    "C++": 8557,
+    "G-code": 5798,
+    "NSIS": 2082,
+    "SMT": 1523
+  },
+  "size": 1400309
+}

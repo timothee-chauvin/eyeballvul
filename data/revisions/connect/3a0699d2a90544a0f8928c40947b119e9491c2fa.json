@@ -1,0 +1,14 @@
+{
+  "commit": "3a0699d2a90544a0f8928c40947b119e9491c2fa",
+  "repo_url": "https://github.com/senchalabs/connect",
+  "date": "2014-03-05T16:05:13",
+  "languages": {
+    "JavaScript": 216384,
+    "CSS": 4608,
+    "HTML": 2764,
+    "Pug": 1178,
+    "Makefile": 707,
+    "Shell": 290
+  },
+  "size": 225931
+}

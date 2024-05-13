@@ -1,0 +1,12 @@
+{
+  "commit": "31dfb051a305d3fc8744eb3ee27527a38008c3a0",
+  "repo_url": "https://github.com/mercurius-js/mercurius",
+  "date": "2022-12-03T00:12:53",
+  "languages": {
+    "JavaScript": 843588,
+    "TypeScript": 20980,
+    "HTML": 2489,
+    "Shell": 658
+  },
+  "size": 867715
+}

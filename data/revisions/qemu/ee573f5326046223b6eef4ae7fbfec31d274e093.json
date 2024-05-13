@@ -1,0 +1,25 @@
+{
+  "commit": "ee573f5326046223b6eef4ae7fbfec31d274e093",
+  "repo_url": "https://github.com/qemu/qemu",
+  "date": "2020-04-22T16:51:35",
+  "languages": {
+    "C": 62032297,
+    "Python": 2070484,
+    "C++": 1328324,
+    "Shell": 1197612,
+    "Assembly": 307843,
+    "Haxe": 292490,
+    "Perl": 248917,
+    "Makefile": 201932,
+    "Objective-C": 65895,
+    "SmPL": 17593,
+    "Pawn": 14170,
+    "NSIS": 8089,
+    "Dockerfile": 1578,
+    "GLSL": 588,
+    "GDB": 470,
+    "Vim Script": 220,
+    "Emacs Lisp": 75
+  },
+  "size": 67788577
+}

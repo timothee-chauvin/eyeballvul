@@ -1,0 +1,15 @@
+{
+  "commit": "532ec3776101d3c3f11baedcba8760ef0c3e75bf",
+  "repo_url": "https://github.com/k-box/k-box",
+  "date": "2021-04-05T14:48:33",
+  "languages": {
+    "PHP": 3356731,
+    "Blade": 330976,
+    "JavaScript": 231629,
+    "CSS": 49107,
+    "Shell": 10687,
+    "Dockerfile": 6036,
+    "HTML": 655
+  },
+  "size": 3985821
+}

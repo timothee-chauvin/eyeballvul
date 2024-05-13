@@ -1,0 +1,14 @@
+{
+  "commit": "4519beeb087e77558b733d387859f712afdc9b09",
+  "repo_url": "https://github.com/ome/omero-web",
+  "date": "2020-09-29T10:28:14",
+  "languages": {
+    "Python": 1251420,
+    "HTML": 709866,
+    "JavaScript": 627069,
+    "CSS": 266633,
+    "Dockerfile": 956,
+    "Shell": 257
+  },
+  "size": 2856201
+}

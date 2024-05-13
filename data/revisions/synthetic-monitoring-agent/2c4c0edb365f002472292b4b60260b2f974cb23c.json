@@ -1,0 +1,13 @@
+{
+  "commit": "2c4c0edb365f002472292b4b60260b2f974cb23c",
+  "repo_url": "https://github.com/grafana/synthetic-monitoring-agent",
+  "date": "2022-11-24T17:03:08",
+  "languages": {
+    "Go": 346967,
+    "Jsonnet": 9326,
+    "Shell": 9301,
+    "Makefile": 7998,
+    "Dockerfile": 719
+  },
+  "size": 374311
+}

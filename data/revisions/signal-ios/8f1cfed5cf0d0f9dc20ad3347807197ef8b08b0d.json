@@ -1,0 +1,17 @@
+{
+  "commit": "8f1cfed5cf0d0f9dc20ad3347807197ef8b08b0d",
+  "repo_url": "https://github.com/signalapp/signal-ios",
+  "date": "2018-04-06T17:51:37",
+  "languages": {
+    "Objective-C": 3596724,
+    "Swift": 1033646,
+    "Python": 39673,
+    "C": 17187,
+    "Ruby": 7465,
+    "Shell": 5257,
+    "Makefile": 2700,
+    "Perl": 1346,
+    "Objective-C++": 1192
+  },
+  "size": 4705190
+}

@@ -1,0 +1,17 @@
+{
+  "commit": "d1abc3cb5feaaf275dbb7431c259a67ba437c709",
+  "repo_url": "https://github.com/filecoin-project/lotus",
+  "date": "2021-02-19T23:43:43",
+  "languages": {
+    "Go": 3568940,
+    "JavaScript": 65435,
+    "Shell": 27501,
+    "Python": 17169,
+    "Makefile": 10587,
+    "Jupyter Notebook": 6108,
+    "CSS": 4605,
+    "Dockerfile": 3328,
+    "HTML": 2424
+  },
+  "size": 3706097
+}

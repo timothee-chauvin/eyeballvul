@@ -1,0 +1,21 @@
+{
+  "commit": "5327c14ce569b323f512e5cd1e7cfffeb7c69587",
+  "repo_url": "https://github.com/htmlunit/htmlunit",
+  "date": "2019-08-24T11:47:29",
+  "languages": {
+    "Java": 17420607,
+    "HTML": 12607255,
+    "JavaScript": 9869358,
+    "CSS": 767113,
+    "XSLT": 148716,
+    "PHP": 70620,
+    "Ruby": 13701,
+    "Python": 3313,
+    "Visual Basic .NET": 1726,
+    "Hack": 1447,
+    "Makefile": 154,
+    "ASP.NET": 93,
+    "Batchfile": 22
+  },
+  "size": 40904125
+}

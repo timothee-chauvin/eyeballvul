@@ -1,0 +1,13 @@
+{
+  "commit": "2e8d4cce2cf60ac85264c1cdf535702edd731e9a",
+  "repo_url": "https://github.com/afichet/openexr-viewer",
+  "date": "2023-05-30T14:27:23",
+  "languages": {
+    "C++": 257193,
+    "CMake": 18915,
+    "CSS": 8578,
+    "Batchfile": 1157,
+    "Shell": 322
+  },
+  "size": 286165
+}

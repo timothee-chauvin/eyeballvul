@@ -1,0 +1,12 @@
+{
+  "commit": "1c60749b6882bd67b2a11a3f2e21cffa5eb4c5d3",
+  "repo_url": "https://github.com/codemirror/codemirror",
+  "date": "2020-09-23T08:11:42",
+  "languages": {
+    "JavaScript": 2734058,
+    "HTML": 511311,
+    "CSS": 153781,
+    "Shell": 352
+  },
+  "size": 3399502
+}

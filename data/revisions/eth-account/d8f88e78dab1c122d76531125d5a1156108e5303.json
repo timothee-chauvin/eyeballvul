@@ -1,0 +1,12 @@
+{
+  "commit": "d8f88e78dab1c122d76531125d5a1156108e5303",
+  "repo_url": "https://github.com/ethereum/eth-account",
+  "date": "2022-06-06T21:03:57",
+  "languages": {
+    "Python": 222654,
+    "Shell": 14726,
+    "Makefile": 2552,
+    "JavaScript": 1624
+  },
+  "size": 241556
+}

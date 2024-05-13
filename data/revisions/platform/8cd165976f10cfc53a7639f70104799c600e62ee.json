@@ -1,0 +1,15 @@
+{
+  "commit": "8cd165976f10cfc53a7639f70104799c600e62ee",
+  "repo_url": "https://github.com/oroinc/platform",
+  "date": "2021-03-31T17:53:40",
+  "languages": {
+    "PHP": 52330144,
+    "JavaScript": 4299507,
+    "Twig": 1196888,
+    "SCSS": 962796,
+    "Gherkin": 411754,
+    "HTML": 122493,
+    "CSS": 11532
+  },
+  "size": 59335114
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "077b2009da671515ec1c86ba6d4c19e4100e18b0",
+  "repo_url": "https://github.com/ibotpeaches/apktool",
+  "date": "2023-12-05T23:26:28",
+  "languages": {
+    "Java": 720832,
+    "Shell": 4849,
+    "Smali": 3679,
+    "Batchfile": 1156
+  },
+  "size": 730516
+}

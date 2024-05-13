@@ -1,0 +1,12 @@
+{
+  "commit": "2ceec8e61cb0058a61239b9ac45861b703c9c1cf",
+  "repo_url": "https://github.com/troglobit/libuev",
+  "date": "2021-10-03T06:32:45",
+  "languages": {
+    "C": 61930,
+    "M4": 21708,
+    "Makefile": 2979,
+    "Shell": 44
+  },
+  "size": 86661
+}

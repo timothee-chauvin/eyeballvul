@@ -1,0 +1,18 @@
+{
+  "commit": "7cde05131f9fdbd132d863d9fd231b2bd4eb6110",
+  "repo_url": "https://github.com/cloudfoundry/php-buildpack",
+  "date": "2016-07-20T16:26:39",
+  "languages": {
+    "PHP": 16610923,
+    "Python": 467534,
+    "CSS": 86729,
+    "Twig": 80210,
+    "Ruby": 26509,
+    "HTML": 24001,
+    "JavaScript": 23991,
+    "Shell": 12766,
+    "Batchfile": 5850,
+    "Smalltalk": 8
+  },
+  "size": 17338521
+}

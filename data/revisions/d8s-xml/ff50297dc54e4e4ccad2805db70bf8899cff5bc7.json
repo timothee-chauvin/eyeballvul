@@ -1,0 +1,11 @@
+{
+  "commit": "ff50297dc54e4e4ccad2805db70bf8899cff5bc7",
+  "repo_url": "https://github.com/democritus-project/d8s-xml",
+  "date": "2021-03-16T11:12:09",
+  "languages": {
+    "Python": 12890,
+    "Shell": 342,
+    "Dockerfile": 163
+  },
+  "size": 13395
+}

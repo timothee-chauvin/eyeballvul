@@ -1,0 +1,13 @@
+{
+  "commit": "3ec68fbf8c3a1b16ca0f69aeccfb93765685b643",
+  "repo_url": "https://github.com/goreleaser/goreleaser",
+  "date": "2023-12-26T14:29:46",
+  "languages": {
+    "Go": 1522189,
+    "HTML": 5379,
+    "Shell": 4447,
+    "Nix": 2506,
+    "Dockerfile": 864
+  },
+  "size": 1535385
+}

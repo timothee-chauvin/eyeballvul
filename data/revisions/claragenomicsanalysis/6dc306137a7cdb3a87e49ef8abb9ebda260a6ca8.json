@@ -1,0 +1,13 @@
+{
+  "commit": "6dc306137a7cdb3a87e49ef8abb9ebda260a6ca8",
+  "repo_url": "https://github.com/clara-genomics/claragenomicsanalysis",
+  "date": "2019-07-02T00:06:58",
+  "languages": {
+    "C++": 210028,
+    "Cuda": 173657,
+    "Python": 32330,
+    "CMake": 26124,
+    "Shell": 13125
+  },
+  "size": 455264
+}

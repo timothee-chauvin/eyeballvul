@@ -1,0 +1,15 @@
+{
+  "commit": "fccc36ce0d0e5ec95dee6bba326159e18951e2d2",
+  "repo_url": "https://github.com/gnuboard/youngcart5",
+  "date": "2021-02-05T08:48:32",
+  "languages": {
+    "PHP": 12468977,
+    "JavaScript": 3114018,
+    "CSS": 1815489,
+    "HTML": 853260,
+    "GLSL": 2468,
+    "Hack": 568,
+    "Shell": 398
+  },
+  "size": 18255178
+}

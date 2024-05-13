@@ -1,0 +1,13 @@
+{
+  "commit": "14534f4b054e6d93188a938a743d5ecbebb531c3",
+  "repo_url": "https://github.com/lapce/lapce",
+  "date": "2023-06-01T18:54:48",
+  "languages": {
+    "Rust": 2818644,
+    "Scheme": 75831,
+    "Makefile": 2953,
+    "Shell": 2355,
+    "PowerShell": 1232
+  },
+  "size": 2901015
+}

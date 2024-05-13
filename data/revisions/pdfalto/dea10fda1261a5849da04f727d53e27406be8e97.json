@@ -1,0 +1,13 @@
+{
+  "commit": "dea10fda1261a5849da04f727d53e27406be8e97",
+  "repo_url": "https://github.com/kermitt2/pdfalto",
+  "date": "2019-09-29T12:59:54",
+  "languages": {
+    "C": 5048734,
+    "C++": 1358912,
+    "Makefile": 43526,
+    "CMake": 4499,
+    "Shell": 3589
+  },
+  "size": 6459260
+}

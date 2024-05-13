@@ -1,0 +1,12 @@
+{
+  "commit": "d562b800de8a69dde4b4fbb372b3e7a1d21fcdd8",
+  "repo_url": "https://github.com/symfony/ux-autocomplete",
+  "date": "2023-06-19T13:59:38",
+  "languages": {
+    "PHP": 115351,
+    "TypeScript": 41959,
+    "JavaScript": 514,
+    "Twig": 509
+  },
+  "size": 158333
+}

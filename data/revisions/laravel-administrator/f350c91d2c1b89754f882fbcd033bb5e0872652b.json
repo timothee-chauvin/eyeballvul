@@ -1,0 +1,15 @@
+{
+  "commit": "f350c91d2c1b89754f882fbcd033bb5e0872652b",
+  "repo_url": "https://github.com/frozennode/laravel-administrator",
+  "date": "2016-06-23T05:52:04",
+  "languages": {
+    "PHP": 467787,
+    "JavaScript": 269282,
+    "HTML": 238274,
+    "CSS": 77158,
+    "Less": 24659,
+    "Blade": 2890,
+    "Shell": 1357
+  },
+  "size": 1081407
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "9413ffc973a2dc90abf787509ee82238345d5602",
+  "repo_url": "https://github.com/httplib2/httplib2",
+  "date": "2020-05-19T14:28:48",
+  "languages": {
+    "Python": 501761,
+    "HTML": 68730,
+    "TeX": 20241,
+    "Shell": 12678,
+    "CSS": 9779,
+    "Makefile": 1793
+  },
+  "size": 614982
+}

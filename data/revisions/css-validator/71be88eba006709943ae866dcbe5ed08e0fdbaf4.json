@@ -1,0 +1,23 @@
+{
+  "commit": "71be88eba006709943ae866dcbe5ed08e0fdbaf4",
+  "repo_url": "https://github.com/w3c/css-validator",
+  "date": "2019-03-15T09:45:29",
+  "languages": {
+    "Java": 5879453,
+    "HTML": 1380622,
+    "JavaScript": 115545,
+    "Emacs Lisp": 114968,
+    "Ruby": 108298,
+    "SystemVerilog": 89361,
+    "NewLisp": 86632,
+    "Makefile": 40798,
+    "CSS": 26041,
+    "C#": 19157,
+    "Smalltalk": 19095,
+    "AMPL": 4861,
+    "Perl": 1078,
+    "Shell": 468,
+    "Batchfile": 445
+  },
+  "size": 7886822
+}

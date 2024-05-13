@@ -1,0 +1,14 @@
+{
+  "commit": "08f6dd95bf1a940959a41f4c4a5364f7c5486060",
+  "repo_url": "https://github.com/microsoft/reverse-proxy",
+  "date": "2021-11-05T20:54:24",
+  "languages": {
+    "C#": 2595355,
+    "PowerShell": 168521,
+    "Shell": 96490,
+    "CMake": 9697,
+    "Batchfile": 1639,
+    "Dockerfile": 1424
+  },
+  "size": 2873126
+}

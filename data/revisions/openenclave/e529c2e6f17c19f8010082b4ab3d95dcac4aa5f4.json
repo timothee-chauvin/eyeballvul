@@ -1,0 +1,21 @@
+{
+  "commit": "e529c2e6f17c19f8010082b4ab3d95dcac4aa5f4",
+  "repo_url": "https://github.com/microsoft/openenclave",
+  "date": "2019-10-26T01:32:19",
+  "languages": {
+    "C": 2278258,
+    "C++": 676124,
+    "CMake": 253938,
+    "OCaml": 228196,
+    "Shell": 55040,
+    "PowerShell": 50603,
+    "Assembly": 48999,
+    "Python": 21835,
+    "Pawn": 5377,
+    "GDB": 4930,
+    "Makefile": 2390,
+    "Jinja": 1324,
+    "Batchfile": 148
+  },
+  "size": 3627162
+}

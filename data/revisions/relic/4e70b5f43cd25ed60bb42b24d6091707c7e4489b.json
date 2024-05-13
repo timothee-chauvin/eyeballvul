@@ -1,0 +1,12 @@
+{
+  "commit": "4e70b5f43cd25ed60bb42b24d6091707c7e4489b",
+  "repo_url": "https://github.com/relic-toolkit/relic",
+  "date": "2020-01-28T13:46:09",
+  "languages": {
+    "C": 3161944,
+    "Assembly": 922587,
+    "CMake": 76079,
+    "Shell": 21534
+  },
+  "size": 4182144
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "ef812874eab0922aed392bbc2cd7694df35797f0",
+  "repo_url": "https://github.com/eliasoenal/multimon-ng",
+  "date": "2019-07-01T23:52:43",
+  "languages": {
+    "C": 389652,
+    "Python": 5632,
+    "QMake": 3077,
+    "CMake": 2949
+  },
+  "size": 401310
+}

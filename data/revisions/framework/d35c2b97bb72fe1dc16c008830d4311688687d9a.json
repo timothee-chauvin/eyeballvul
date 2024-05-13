@@ -1,0 +1,14 @@
+{
+  "commit": "d35c2b97bb72fe1dc16c008830d4311688687d9a",
+  "repo_url": "https://github.com/freepbx/framework",
+  "date": "2023-10-31T10:41:04",
+  "languages": {
+    "PHP": 2579030,
+    "JavaScript": 567591,
+    "Less": 144942,
+    "CSS": 36944,
+    "Shell": 13832,
+    "Hack": 130
+  },
+  "size": 3342469
+}

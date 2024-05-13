@@ -1,0 +1,10 @@
+{
+  "commit": "4769f9354ccde989f92e62958aa1504e438d69aa",
+  "repo_url": "https://github.com/jenkinsci/brakeman-plugin",
+  "date": "2017-05-31T15:50:35",
+  "languages": {
+    "Java": 35467,
+    "HTML": 190
+  },
+  "size": 35657
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "a4fcec4ce6f53767ed1ef760b2daf333e37e99d0",
+  "repo_url": "https://github.com/jsummers/deark",
+  "date": "2021-01-10T14:36:26",
+  "languages": {
+    "C": 3619225,
+    "Makefile": 22669,
+    "Shell": 2506,
+    "Perl": 1744
+  },
+  "size": 3646144
+}

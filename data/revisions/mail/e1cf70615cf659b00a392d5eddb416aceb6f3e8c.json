@@ -1,0 +1,15 @@
+{
+  "commit": "e1cf70615cf659b00a392d5eddb416aceb6f3e8c",
+  "repo_url": "https://github.com/nextcloud/mail",
+  "date": "2023-02-24T17:48:57",
+  "languages": {
+    "PHP": 1865688,
+    "JavaScript": 1653878,
+    "Vue": 481005,
+    "SCSS": 13093,
+    "Makefile": 1111,
+    "CSS": 268,
+    "Shell": 118
+  },
+  "size": 4015161
+}

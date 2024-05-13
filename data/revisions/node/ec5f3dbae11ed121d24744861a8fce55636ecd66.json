@@ -1,0 +1,14 @@
+{
+  "commit": "ec5f3dbae11ed121d24744861a8fce55636ecd66",
+  "repo_url": "https://github.com/nodejs/node",
+  "date": "2009-06-18T21:22:31",
+  "languages": {
+    "C++": 71682,
+    "JavaScript": 57240,
+    "HTML": 41115,
+    "Python": 22856,
+    "Ruby": 2301,
+    "CSS": 1353
+  },
+  "size": 196547
+}

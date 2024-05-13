@@ -1,0 +1,10 @@
+{
+  "commit": "3cce251c9ed2a9ee66c8f8984fff3d19d45999df",
+  "repo_url": "https://github.com/microcosm-cc/bluemonday",
+  "date": "2020-08-13T13:00:02",
+  "languages": {
+    "Go": 429965,
+    "Makefile": 937
+  },
+  "size": 430902
+}

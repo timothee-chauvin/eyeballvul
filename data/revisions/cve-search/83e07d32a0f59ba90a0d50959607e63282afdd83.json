@@ -1,0 +1,12 @@
+{
+  "commit": "83e07d32a0f59ba90a0d50959607e63282afdd83",
+  "repo_url": "https://github.com/cve-search/cve-search",
+  "date": "2020-12-16T20:33:01",
+  "languages": {
+    "Python": 496440,
+    "HTML": 77204,
+    "JavaScript": 20808,
+    "CSS": 10055
+  },
+  "size": 604507
+}

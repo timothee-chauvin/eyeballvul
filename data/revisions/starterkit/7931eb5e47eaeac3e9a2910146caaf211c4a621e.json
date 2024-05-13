@@ -1,0 +1,12 @@
+{
+  "commit": "7931eb5e47eaeac3e9a2910146caaf211c4a621e",
+  "repo_url": "https://github.com/getkirby/starterkit",
+  "date": "2022-07-01T08:35:21",
+  "languages": {
+    "PHP": 2155126,
+    "CSS": 12392,
+    "Hack": 842,
+    "JavaScript": 216
+  },
+  "size": 2168576
+}

@@ -1,0 +1,30 @@
+{
+  "commit": "b364013dff2714a8b335773bb8826b816313fab4",
+  "repo_url": "https://github.com/onlyoffice/communityserver",
+  "date": "2022-10-03T15:32:25",
+  "languages": {
+    "C#": 37439795,
+    "JavaScript": 10480939,
+    "ASP.NET": 1543455,
+    "HTML": 1350144,
+    "Less": 1348959,
+    "CSS": 632783,
+    "XSLT": 105207,
+    "Classic ASP": 43003,
+    "Shell": 36554,
+    "Ruby": 30941,
+    "PowerShell": 21562,
+    "Visual Basic .NET": 13062,
+    "Batchfile": 11616,
+    "C++": 10200,
+    "1C Enterprise": 9505,
+    "F#": 9164,
+    "Perl": 6729,
+    "Makefile": 3611,
+    "VBScript": 1225,
+    "Handlebars": 942,
+    "C": 261,
+    "Procfile": 15
+  },
+  "size": 53099672
+}

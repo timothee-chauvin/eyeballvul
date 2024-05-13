@@ -1,0 +1,16 @@
+{
+  "commit": "a5f9412ee3112d1ff4ab8550defb3d0320b78515",
+  "repo_url": "https://github.com/ldapaccountmanager/lam",
+  "date": "2018-03-11T09:52:56",
+  "languages": {
+    "JavaScript": 4101374,
+    "PHP": 2920284,
+    "HTML": 222578,
+    "CSS": 120851,
+    "Shell": 24641,
+    "Perl": 14823,
+    "Makefile": 7957,
+    "M4": 3652
+  },
+  "size": 7416160
+}

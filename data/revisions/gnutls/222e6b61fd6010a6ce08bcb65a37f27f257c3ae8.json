@@ -1,0 +1,26 @@
+{
+  "commit": "222e6b61fd6010a6ce08bcb65a37f27f257c3ae8",
+  "repo_url": "https://github.com/gnutls/gnutls",
+  "date": "2015-07-12T13:21:13",
+  "languages": {
+    "C": 9853079,
+    "Assembly": 1354801,
+    "M4": 983073,
+    "Makefile": 352103,
+    "Shell": 281124,
+    "C++": 259992,
+    "HTML": 103787,
+    "Scheme": 76242,
+    "Yacc": 46935,
+    "RPC": 31748,
+    "Logos": 28259,
+    "Awk": 24978,
+    "Perl": 18627,
+    "JavaScript": 17229,
+    "DIGITAL Command Language": 6852,
+    "Lua": 5643,
+    "CSS": 2381,
+    "XSLT": 1339
+  },
+  "size": 13448192
+}

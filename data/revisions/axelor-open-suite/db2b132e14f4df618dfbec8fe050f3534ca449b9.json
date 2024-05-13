@@ -1,0 +1,13 @@
+{
+  "commit": "db2b132e14f4df618dfbec8fe050f3534ca449b9",
+  "repo_url": "https://github.com/axelor/axelor-open-suite",
+  "date": "2018-06-13T14:25:45",
+  "languages": {
+    "Java": 6096071,
+    "JavaScript": 1353826,
+    "CSS": 36085,
+    "Groovy": 7582,
+    "HTML": 3264
+  },
+  "size": 7496828
+}

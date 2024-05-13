@@ -1,0 +1,13 @@
+{
+  "commit": "9c173f1110bb30f4ae842a8e3532b275966c2d83",
+  "repo_url": "https://github.com/rpm-software-management/librepo",
+  "date": "2020-05-15T07:43:49",
+  "languages": {
+    "C": 797884,
+    "Python": 210350,
+    "CMake": 24317,
+    "Shell": 3881,
+    "Gherkin": 538
+  },
+  "size": 1036970
+}

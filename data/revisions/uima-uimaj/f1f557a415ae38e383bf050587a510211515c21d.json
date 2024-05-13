@@ -1,0 +1,16 @@
+{
+  "commit": "f1f557a415ae38e383bf050587a510211515c21d",
+  "repo_url": "https://github.com/apache/uima-uimaj",
+  "date": "2022-04-29T16:34:07",
+  "languages": {
+    "Java": 15674403,
+    "HTML": 97356,
+    "TypeScript": 41803,
+    "Shell": 35516,
+    "Batchfile": 34274,
+    "XSLT": 9770,
+    "JavaScript": 4760,
+    "Rich Text Format": 716
+  },
+  "size": 15898598
+}

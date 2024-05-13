@@ -1,0 +1,10 @@
+{
+  "commit": "d62339f3ca69eb3958bbf4be6eae97f014134780",
+  "repo_url": "https://github.com/confluentinc/cp-ansible",
+  "date": "2020-03-31T20:31:10",
+  "languages": {
+    "Jinja": 64577,
+    "Python": 8927
+  },
+  "size": 73504
+}

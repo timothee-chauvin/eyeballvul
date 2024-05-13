@@ -1,0 +1,21 @@
+{
+  "commit": "47ffa562d9b2b513e3916ce094a1705d59f77512",
+  "repo_url": "https://github.com/collaboraonline/online",
+  "date": "2020-11-19T20:43:53",
+  "languages": {
+    "JavaScript": 2455867,
+    "C++": 2066508,
+    "HTML": 465873,
+    "CSS": 333601,
+    "Java": 96536,
+    "Objective-C": 83658,
+    "Makefile": 60859,
+    "M4": 49239,
+    "Python": 31681,
+    "C": 23930,
+    "Shell": 23507,
+    "Perl": 20300,
+    "Mustache": 311
+  },
+  "size": 5711870
+}

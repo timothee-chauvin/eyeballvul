@@ -1,0 +1,12 @@
+{
+  "commit": "090405ff1174d510c853b95030041f4659492a44",
+  "repo_url": "https://github.com/jenkinsci/dynatrace-plugin",
+  "date": "2018-08-06T08:15:29",
+  "languages": {
+    "Java": 159751,
+    "JavaScript": 40897,
+    "HTML": 1637,
+    "CSS": 1037
+  },
+  "size": 203322
+}

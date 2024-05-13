@@ -1,0 +1,21 @@
+{
+  "commit": "328b4c6d4d613ce0f9680bff57d397853b687653",
+  "repo_url": "https://github.com/treasure-data/digdag",
+  "date": "2023-02-14T10:00:03",
+  "languages": {
+    "Java": 4032323,
+    "TypeScript": 106233,
+    "JavaScript": 43351,
+    "Python": 16577,
+    "Shell": 11157,
+    "Ruby": 8631,
+    "HTML": 2429,
+    "CSS": 1834,
+    "Less": 1044,
+    "Batchfile": 1015,
+    "Makefile": 980,
+    "Scala": 515,
+    "Dockerfile": 195
+  },
+  "size": 4226284
+}

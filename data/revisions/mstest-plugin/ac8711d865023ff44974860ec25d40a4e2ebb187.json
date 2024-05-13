@@ -1,0 +1,11 @@
+{
+  "commit": "ac8711d865023ff44974860ec25d40a4e2ebb187",
+  "repo_url": "https://github.com/jenkinsci/mstest-plugin",
+  "date": "2019-02-19T23:31:28",
+  "languages": {
+    "Java": 63397,
+    "XSLT": 34490,
+    "HTML": 12296
+  },
+  "size": 110183
+}

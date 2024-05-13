@@ -1,0 +1,19 @@
+{
+  "commit": "f5e935d682ea903f48f1c7a3dc27141b77304358",
+  "repo_url": "https://github.com/heroiclabs/nakama",
+  "date": "2022-05-22T14:31:53",
+  "languages": {
+    "Go": 3508415,
+    "Lua": 212213,
+    "TypeScript": 179353,
+    "HTML": 97541,
+    "Shell": 24189,
+    "SCSS": 17144,
+    "Yacc": 13993,
+    "Dockerfile": 3828,
+    "Python": 2707,
+    "JavaScript": 1883,
+    "Makefile": 372
+  },
+  "size": 4061638
+}

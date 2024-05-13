@@ -1,0 +1,16 @@
+{
+  "commit": "7af890230add7ac3039c15061eb130f86b4de3b8",
+  "repo_url": "https://github.com/dsabenchmark/dsab",
+  "date": "2018-12-05T12:26:15",
+  "languages": {
+    "C++": 486317,
+    "Python": 55425,
+    "HTML": 20950,
+    "JavaScript": 14816,
+    "CSS": 1604,
+    "Shell": 1520,
+    "Makefile": 256,
+    "C": 81
+  },
+  "size": 580969
+}

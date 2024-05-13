@@ -1,0 +1,14 @@
+{
+  "commit": "550cc3c1933dff87d91948167ccbb5774f33bd34",
+  "repo_url": "https://github.com/s-cart/s-cart",
+  "date": "2020-05-23T06:27:39",
+  "languages": {
+    "PHP": 1198777,
+    "Blade": 1001551,
+    "Less": 315594,
+    "HTML": 135684,
+    "Vue": 28041,
+    "Ruby": 161
+  },
+  "size": 2679808
+}

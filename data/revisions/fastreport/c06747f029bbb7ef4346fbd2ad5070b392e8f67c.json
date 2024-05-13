@@ -1,0 +1,12 @@
+{
+  "commit": "c06747f029bbb7ef4346fbd2ad5070b392e8f67c",
+  "repo_url": "https://github.com/fastreports/fastreport",
+  "date": "2020-05-20T08:16:57",
+  "languages": {
+    "C#": 3597833,
+    "Shell": 5160,
+    "Batchfile": 2372,
+    "SCSS": 448
+  },
+  "size": 3605813
+}

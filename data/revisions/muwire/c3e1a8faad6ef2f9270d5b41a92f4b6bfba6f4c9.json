@@ -1,0 +1,15 @@
+{
+  "commit": "c3e1a8faad6ef2f9270d5b41a92f4b6bfba6f4c9",
+  "repo_url": "https://github.com/zlatinb/muwire",
+  "date": "2021-05-19T01:04:01",
+  "languages": {
+    "Groovy": 1344373,
+    "Java": 316360,
+    "JavaScript": 144216,
+    "CSS": 31887,
+    "Shell": 5123,
+    "Dockerfile": 1825,
+    "Python": 671
+  },
+  "size": 1844455
+}

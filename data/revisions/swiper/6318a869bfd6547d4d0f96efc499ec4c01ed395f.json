@@ -1,0 +1,16 @@
+{
+  "commit": "6318a869bfd6547d4d0f96efc499ec4c01ed395f",
+  "repo_url": "https://github.com/nolimits4web/swiper",
+  "date": "2021-03-05T14:05:55",
+  "languages": {
+    "JavaScript": 402224,
+    "TypeScript": 50788,
+    "SCSS": 14705,
+    "Less": 12916,
+    "HTML": 12585,
+    "Svelte": 9205,
+    "Python": 3684,
+    "Vue": 1095
+  },
+  "size": 507202
+}

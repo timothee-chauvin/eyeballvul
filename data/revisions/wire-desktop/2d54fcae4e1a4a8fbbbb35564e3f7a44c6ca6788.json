@@ -1,0 +1,15 @@
+{
+  "commit": "2d54fcae4e1a4a8fbbbb35564e3f7a44c6ca6788",
+  "repo_url": "https://github.com/wireapp/wire-desktop",
+  "date": "2020-08-05T08:30:19",
+  "languages": {
+    "TypeScript": 278183,
+    "JavaScript": 71751,
+    "Groovy": 21466,
+    "Shell": 13119,
+    "CSS": 12956,
+    "HTML": 1958,
+    "Dockerfile": 233
+  },
+  "size": 399666
+}

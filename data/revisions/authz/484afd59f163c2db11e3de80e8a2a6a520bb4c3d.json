@@ -1,0 +1,12 @@
+{
+  "commit": "484afd59f163c2db11e3de80e8a2a6a520bb4c3d",
+  "repo_url": "https://github.com/twistlock/authz",
+  "date": "2016-01-12T12:23:29",
+  "languages": {
+    "Go": 38585,
+    "Makefile": 607,
+    "Shell": 389,
+    "Dockerfile": 342
+  },
+  "size": 39923
+}

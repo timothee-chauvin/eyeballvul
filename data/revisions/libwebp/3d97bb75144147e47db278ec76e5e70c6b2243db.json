@@ -1,0 +1,15 @@
+{
+  "commit": "3d97bb75144147e47db278ec76e5e70c6b2243db",
+  "repo_url": "https://github.com/webmproject/libwebp",
+  "date": "2016-07-07T01:00:16",
+  "languages": {
+    "C": 2475419,
+    "M4": 40576,
+    "Makefile": 18170,
+    "CMake": 10820,
+    "Python": 7805,
+    "Shell": 3589,
+    "Go": 1235
+  },
+  "size": 2557614
+}

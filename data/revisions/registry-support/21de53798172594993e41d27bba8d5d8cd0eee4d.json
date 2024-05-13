@@ -1,0 +1,12 @@
+{
+  "commit": "21de53798172594993e41d27bba8d5d8cd0eee4d",
+  "repo_url": "https://github.com/devfile/registry-support",
+  "date": "2022-05-04T15:07:10",
+  "languages": {
+    "Go": 206497,
+    "Shell": 13232,
+    "Dockerfile": 4122,
+    "Smarty": 1112
+  },
+  "size": 224963
+}

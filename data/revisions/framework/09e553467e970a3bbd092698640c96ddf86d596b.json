@@ -1,0 +1,12 @@
+{
+  "commit": "09e553467e970a3bbd092698640c96ddf86d596b",
+  "repo_url": "https://github.com/nuxt/framework",
+  "date": "2022-10-18T18:47:21",
+  "languages": {
+    "TypeScript": 621555,
+    "JavaScript": 10309,
+    "Vue": 3486,
+    "Shell": 968
+  },
+  "size": 636318
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "6e86d6a854196ce0201183f8ef8fa223ec5c5885",
+  "repo_url": "https://github.com/bfabiszewski/libmobi",
+  "date": "2016-03-21T14:42:23",
+  "languages": {
+    "C": 776505,
+    "M4": 10105,
+    "Roff": 3312,
+    "Shell": 3218,
+    "Makefile": 2216
+  },
+  "size": 795356
+}

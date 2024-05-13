@@ -1,0 +1,13 @@
+{
+  "commit": "af7f84084c070c01df965406fe66d47d31ac145e",
+  "repo_url": "https://github.com/uriparser/uriparser",
+  "date": "2018-08-18T11:03:23",
+  "languages": {
+    "C": 242307,
+    "C++": 113522,
+    "M4": 12391,
+    "Makefile": 5006,
+    "Shell": 1417
+  },
+  "size": 374643
+}

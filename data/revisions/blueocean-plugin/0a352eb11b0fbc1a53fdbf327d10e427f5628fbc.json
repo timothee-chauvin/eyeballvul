@@ -1,0 +1,15 @@
+{
+  "commit": "0a352eb11b0fbc1a53fdbf327d10e427f5628fbc",
+  "repo_url": "https://github.com/jenkinsci/blueocean-plugin",
+  "date": "2017-06-01T16:04:15",
+  "languages": {
+    "Java": 1401956,
+    "JavaScript": 1371320,
+    "Less": 38756,
+    "Shell": 20956,
+    "Groovy": 16639,
+    "Dockerfile": 4132,
+    "HTML": 1134
+  },
+  "size": 2854893
+}

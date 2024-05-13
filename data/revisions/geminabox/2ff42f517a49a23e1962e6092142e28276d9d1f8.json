@@ -1,0 +1,14 @@
+{
+  "commit": "2ff42f517a49a23e1962e6092142e28276d9d1f8",
+  "repo_url": "https://github.com/geminabox/geminabox",
+  "date": "2017-01-14T14:42:28",
+  "languages": {
+    "Ruby": 89274,
+    "HTML": 5800,
+    "CSS": 2572,
+    "JavaScript": 142,
+    "Dockerfile": 95,
+    "Shell": 75
+  },
+  "size": 97958
+}

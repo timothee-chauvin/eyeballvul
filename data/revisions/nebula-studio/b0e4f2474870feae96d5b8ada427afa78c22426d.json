@@ -1,0 +1,18 @@
+{
+  "commit": "b0e4f2474870feae96d5b8ada427afa78c22426d",
+  "repo_url": "https://github.com/vesoft-inc/nebula-studio",
+  "date": "2023-05-23T09:23:35",
+  "languages": {
+    "TypeScript": 594087,
+    "Go": 177439,
+    "Less": 77496,
+    "JavaScript": 18393,
+    "Shell": 5128,
+    "Makefile": 4634,
+    "CMake": 3738,
+    "Smarty": 2566,
+    "HTML": 2562,
+    "Dockerfile": 1532
+  },
+  "size": 887575
+}

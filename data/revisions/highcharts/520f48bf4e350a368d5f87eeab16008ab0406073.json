@@ -1,0 +1,23 @@
+{
+  "commit": "520f48bf4e350a368d5f87eeab16008ab0406073",
+  "repo_url": "https://github.com/highcharts/highcharts",
+  "date": "2018-02-16T08:36:48",
+  "languages": {
+    "HTML": 3050650,
+    "JavaScript": 2750848,
+    "Perl": 363964,
+    "XSLT": 220524,
+    "PHP": 182009,
+    "Roff": 51635,
+    "Java": 43350,
+    "Batchfile": 21842,
+    "Shell": 17346,
+    "SCSS": 16098,
+    "CSS": 15859,
+    "Makefile": 6258,
+    "C": 3946,
+    "Python": 3299,
+    "Hack": 2738
+  },
+  "size": 6750366
+}

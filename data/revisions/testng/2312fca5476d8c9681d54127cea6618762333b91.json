@@ -1,0 +1,16 @@
+{
+  "commit": "2312fca5476d8c9681d54127cea6618762333b91",
+  "repo_url": "https://github.com/testng-team/testng",
+  "date": "2022-06-21T03:07:41",
+  "languages": {
+    "Java": 3932693,
+    "Kotlin": 42632,
+    "CSS": 12708,
+    "HTML": 9063,
+    "JavaScript": 7230,
+    "Groovy": 3285,
+    "Shell": 1458,
+    "Batchfile": 711
+  },
+  "size": 4009780
+}

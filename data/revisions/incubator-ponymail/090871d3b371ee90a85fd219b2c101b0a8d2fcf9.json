@@ -1,0 +1,15 @@
+{
+  "commit": "090871d3b371ee90a85fd219b2c101b0a8d2fcf9",
+  "repo_url": "https://github.com/apache/incubator-ponymail",
+  "date": "2016-01-18T11:28:17",
+  "languages": {
+    "JavaScript": 475447,
+    "Lua": 121804,
+    "Python": 80429,
+    "HTML": 38385,
+    "CSS": 25563,
+    "Shell": 8860,
+    "Dockerfile": 1116
+  },
+  "size": 751604
+}

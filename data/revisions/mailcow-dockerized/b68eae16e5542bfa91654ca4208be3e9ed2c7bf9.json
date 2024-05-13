@@ -1,0 +1,23 @@
+{
+  "commit": "b68eae16e5542bfa91654ca4208be3e9ed2c7bf9",
+  "repo_url": "https://github.com/mailcow/mailcow-dockerized",
+  "date": "2022-05-13T08:40:22",
+  "languages": {
+    "PHP": 989364,
+    "Perl": 780054,
+    "Twig": 412327,
+    "JavaScript": 294856,
+    "Shell": 237473,
+    "CSS": 88773,
+    "Python": 56667,
+    "Lua": 46877,
+    "Dockerfile": 15996,
+    "HTML": 6113,
+    "Smarty": 4044,
+    "Ruby": 940,
+    "NASL": 633,
+    "Sieve": 296,
+    "C++": 158
+  },
+  "size": 2934571
+}

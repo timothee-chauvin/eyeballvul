@@ -1,0 +1,14 @@
+{
+  "commit": "18a87ced450eb0f12cf43e38def358acbb34c8ec",
+  "repo_url": "https://github.com/redaxo/redaxo",
+  "date": "2018-07-10T08:52:09",
+  "languages": {
+    "PHP": 1989213,
+    "JavaScript": 132266,
+    "SCSS": 103313,
+    "CSS": 8973,
+    "Shell": 4807,
+    "Hack": 1607
+  },
+  "size": 2240179
+}

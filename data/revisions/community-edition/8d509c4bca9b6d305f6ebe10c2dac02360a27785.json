@@ -1,0 +1,14 @@
+{
+  "commit": "8d509c4bca9b6d305f6ebe10c2dac02360a27785",
+  "repo_url": "https://github.com/ramboxapp/community-edition",
+  "date": "2019-06-24T15:15:50",
+  "languages": {
+    "JavaScript": 44552985,
+    "CSS": 19510082,
+    "SCSS": 2676640,
+    "HTML": 62628,
+    "Ruby": 9107,
+    "Python": 3330
+  },
+  "size": 66814772
+}

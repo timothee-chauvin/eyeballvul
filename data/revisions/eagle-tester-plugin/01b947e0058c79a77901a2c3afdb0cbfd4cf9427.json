@@ -1,0 +1,10 @@
+{
+  "commit": "01b947e0058c79a77901a2c3afdb0cbfd4cf9427",
+  "repo_url": "https://github.com/jenkinsci/eagle-tester-plugin",
+  "date": "2018-05-23T00:45:43",
+  "languages": {
+    "Java": 34791,
+    "Shell": 57
+  },
+  "size": 34848
+}

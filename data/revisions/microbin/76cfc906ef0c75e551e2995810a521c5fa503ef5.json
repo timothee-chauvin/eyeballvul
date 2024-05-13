@@ -1,0 +1,11 @@
+{
+  "commit": "76cfc906ef0c75e551e2995810a521c5fa503ef5",
+  "repo_url": "https://github.com/szabodanika/microbin",
+  "date": "2022-11-08T09:46:11",
+  "languages": {
+    "Rust": 43523,
+    "HTML": 22257,
+    "Dockerfile": 719
+  },
+  "size": 66499
+}

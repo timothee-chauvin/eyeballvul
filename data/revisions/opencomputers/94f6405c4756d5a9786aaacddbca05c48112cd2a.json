@@ -1,0 +1,13 @@
+{
+  "commit": "94f6405c4756d5a9786aaacddbca05c48112cd2a",
+  "repo_url": "https://github.com/mightypirates/opencomputers",
+  "date": "2023-06-04T13:07:47",
+  "languages": {
+    "Scala": 2671427,
+    "Lua": 858944,
+    "Java": 618084,
+    "Roff": 5094,
+    "Shell": 470
+  },
+  "size": 4154019
+}

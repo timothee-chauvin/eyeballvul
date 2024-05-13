@@ -1,0 +1,12 @@
+{
+  "commit": "40c88505fee74980bc2bf5cb52fbc36cf2c51a44",
+  "repo_url": "https://github.com/gettalong/kramdown",
+  "date": "2020-04-23T14:15:55",
+  "languages": {
+    "Ruby": 340304,
+    "HTML": 71420,
+    "Shell": 2133,
+    "Roff": 2020
+  },
+  "size": 415877
+}

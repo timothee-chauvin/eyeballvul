@@ -1,0 +1,10 @@
+{
+  "commit": "4cee9e8ad5ed6b2102a6209e3cc2f169ef951ad8",
+  "repo_url": "https://github.com/hexpm/hex_core",
+  "date": "2018-12-14T11:29:06",
+  "languages": {
+    "Erlang": 281930,
+    "Shell": 1590
+  },
+  "size": 283520
+}

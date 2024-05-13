@@ -1,0 +1,15 @@
+{
+  "commit": "be6b81a352d17513c95be153afcb3148f1a451cd",
+  "repo_url": "https://github.com/libuv/libuv",
+  "date": "2023-11-06T18:17:17",
+  "languages": {
+    "C": 2969548,
+    "M4": 36976,
+    "CMake": 27213,
+    "Makefile": 21521,
+    "Python": 2623,
+    "Shell": 2489,
+    "Batchfile": 1312
+  },
+  "size": 3061682
+}

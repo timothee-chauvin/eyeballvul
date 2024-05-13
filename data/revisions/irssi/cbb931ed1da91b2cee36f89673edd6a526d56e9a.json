@@ -1,0 +1,15 @@
+{
+  "commit": "cbb931ed1da91b2cee36f89673edd6a526d56e9a",
+  "repo_url": "https://github.com/irssi/irssi",
+  "date": "2017-01-05T12:14:15",
+  "languages": {
+    "C": 2109060,
+    "XS": 79564,
+    "Perl": 54450,
+    "Prolog": 37886,
+    "M4": 27561,
+    "Makefile": 15594,
+    "Shell": 3631
+  },
+  "size": 2327746
+}

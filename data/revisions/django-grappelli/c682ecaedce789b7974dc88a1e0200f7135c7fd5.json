@@ -1,0 +1,14 @@
+{
+  "commit": "c682ecaedce789b7974dc88a1e0200f7135c7fd5",
+  "repo_url": "https://github.com/sehmaschine/django-grappelli",
+  "date": "2021-04-22T10:57:14",
+  "languages": {
+    "HTML": 545272,
+    "SCSS": 208950,
+    "JavaScript": 144367,
+    "Python": 87854,
+    "CSS": 2492,
+    "Ruby": 879
+  },
+  "size": 989814
+}

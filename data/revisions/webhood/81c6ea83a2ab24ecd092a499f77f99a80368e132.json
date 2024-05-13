@@ -1,0 +1,15 @@
+{
+  "commit": "81c6ea83a2ab24ecd092a499f77f99a80368e132",
+  "repo_url": "https://github.com/webhood-io/webhood",
+  "date": "2024-03-21T19:35:39",
+  "languages": {
+    "CSS": 372815,
+    "JavaScript": 350474,
+    "TypeScript": 280159,
+    "Go": 14749,
+    "Dockerfile": 5270,
+    "Shell": 2251,
+    "HTML": 1481
+  },
+  "size": 1027199
+}

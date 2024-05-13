@@ -1,0 +1,14 @@
+{
+  "commit": "f9b7415e7d347ee54dc622bf1f1a52e2ccc01af7",
+  "repo_url": "https://github.com/tusdotnet/tusdotnet",
+  "date": "2021-10-29T12:43:29",
+  "languages": {
+    "C#": 717267,
+    "Shell": 56287,
+    "JavaScript": 16072,
+    "HTML": 10017,
+    "CSS": 4522,
+    "PowerShell": 3011
+  },
+  "size": 807176
+}

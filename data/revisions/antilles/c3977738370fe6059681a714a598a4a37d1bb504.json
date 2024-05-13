@@ -1,0 +1,16 @@
+{
+  "commit": "c3977738370fe6059681a714a598a4a37d1bb504",
+  "repo_url": "https://github.com/lenovo/antilles",
+  "date": "2019-03-20T06:12:06",
+  "languages": {
+    "JavaScript": 1924767,
+    "Python": 1188032,
+    "Vue": 761164,
+    "CSS": 61255,
+    "HTML": 42561,
+    "C": 25660,
+    "Shell": 17648,
+    "Cython": 777
+  },
+  "size": 4021864
+}

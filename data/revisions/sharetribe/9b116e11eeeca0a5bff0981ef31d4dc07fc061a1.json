@@ -1,0 +1,18 @@
+{
+  "commit": "9b116e11eeeca0a5bff0981ef31d4dc07fc061a1",
+  "repo_url": "https://github.com/sharetribe/sharetribe",
+  "date": "2021-11-18T21:23:13",
+  "languages": {
+    "Ruby": 3456263,
+    "Haml": 1096118,
+    "JavaScript": 940953,
+    "HTML": 660852,
+    "SCSS": 650066,
+    "Gherkin": 250988,
+    "CSS": 76361,
+    "Shell": 7646,
+    "Dockerfile": 3646,
+    "Procfile": 164
+  },
+  "size": 7143057
+}

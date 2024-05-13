@@ -1,0 +1,12 @@
+{
+  "commit": "deaf5975591274246b98a7394c79b2158aeb5617",
+  "repo_url": "https://github.com/jenkinsci/tap-plugin",
+  "date": "2015-10-01T06:35:30",
+  "languages": {
+    "Java": 100728,
+    "Groovy": 1848,
+    "CSS": 841,
+    "HTML": 542
+  },
+  "size": 103959
+}

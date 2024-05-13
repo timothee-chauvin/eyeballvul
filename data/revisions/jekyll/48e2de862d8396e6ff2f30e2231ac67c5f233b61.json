@@ -1,0 +1,17 @@
+{
+  "commit": "48e2de862d8396e6ff2f30e2231ac67c5f233b61",
+  "repo_url": "https://github.com/jekyll/jekyll",
+  "date": "2018-06-05T13:23:52",
+  "languages": {
+    "Ruby": 618783,
+    "Gherkin": 171635,
+    "JavaScript": 38178,
+    "HTML": 11311,
+    "Shell": 7430,
+    "CSS": 1019,
+    "SCSS": 252,
+    "CoffeeScript": 234,
+    "Hack": 90
+  },
+  "size": 848932
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "bdd8fd4460d45b0ee649a6e96beda3778574a009",
+  "repo_url": "https://github.com/cecilapp/cecil",
+  "date": "2023-09-05T15:23:34",
+  "languages": {
+    "PHP": 413954,
+    "Twig": 58370,
+    "Shell": 8091,
+    "JavaScript": 457,
+    "Batchfile": 59
+  },
+  "size": 480931
+}

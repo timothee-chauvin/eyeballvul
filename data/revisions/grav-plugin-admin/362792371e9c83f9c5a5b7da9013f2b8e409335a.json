@@ -1,0 +1,14 @@
+{
+  "commit": "362792371e9c83f9c5a5b7da9013f2b8e409335a",
+  "repo_url": "https://github.com/getgrav/grav-plugin-admin",
+  "date": "2021-03-17T17:43:19",
+  "languages": {
+    "SCSS": 346352,
+    "JavaScript": 336916,
+    "PHP": 300187,
+    "Twig": 256840,
+    "CSS": 38841,
+    "Shell": 491
+  },
+  "size": 1279627
+}

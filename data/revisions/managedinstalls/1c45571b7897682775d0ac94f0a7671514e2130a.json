@@ -1,0 +1,13 @@
+{
+  "commit": "1c45571b7897682775d0ac94f0a7671514e2130a",
+  "repo_url": "https://github.com/munkireport/managedinstalls",
+  "date": "2020-05-13T20:56:42",
+  "languages": {
+    "PHP": 19729,
+    "Hack": 6378,
+    "Python": 5543,
+    "JavaScript": 1516,
+    "Shell": 1156
+  },
+  "size": 34322
+}

@@ -1,0 +1,18 @@
+{
+  "commit": "03b93f174a1480437011f0f7d917adc48cbaa50e",
+  "repo_url": "https://github.com/walmartlabs/concord",
+  "date": "2020-03-05T14:31:00",
+  "languages": {
+    "Java": 5042651,
+    "TypeScript": 1227242,
+    "Mustache": 70685,
+    "Python": 34985,
+    "CSS": 20798,
+    "HTML": 4532,
+    "Shell": 4351,
+    "JavaScript": 3469,
+    "Dockerfile": 2336,
+    "Groovy": 220
+  },
+  "size": 6411269
+}

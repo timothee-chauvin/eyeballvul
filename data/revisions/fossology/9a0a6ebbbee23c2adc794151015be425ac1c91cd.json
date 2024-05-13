@@ -1,0 +1,25 @@
+{
+  "commit": "9a0a6ebbbee23c2adc794151015be425ac1c91cd",
+  "repo_url": "https://github.com/fossology/fossology",
+  "date": "2022-11-15T10:13:05",
+  "languages": {
+    "PHP": 4485419,
+    "HTML": 3030609,
+    "C": 2273716,
+    "Twig": 422904,
+    "JavaScript": 368005,
+    "Shell": 309853,
+    "C++": 271502,
+    "Makefile": 188753,
+    "Roff": 115240,
+    "Python": 72501,
+    "CSS": 20532,
+    "Perl": 5058,
+    "Hack": 4899,
+    "Dockerfile": 4450,
+    "PLpgSQL": 3785,
+    "Java": 3759,
+    "PureBasic": 3579
+  },
+  "size": 11584564
+}

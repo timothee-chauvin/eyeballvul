@@ -1,0 +1,14 @@
+{
+  "commit": "c25f20d842a7e3fa0a8e6abf0828f102c914d419",
+  "repo_url": "https://github.com/codeception/codeception",
+  "date": "2021-05-28T17:43:39",
+  "languages": {
+    "PHP": 1031303,
+    "HTML": 45216,
+    "Hack": 37208,
+    "Gherkin": 3643,
+    "Dockerfile": 1870,
+    "Batchfile": 123
+  },
+  "size": 1119363
+}

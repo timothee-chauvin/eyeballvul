@@ -1,0 +1,11 @@
+{
+  "commit": "8b0691cae67e723f3fa5162e26f892a6f2be6c93",
+  "repo_url": "https://github.com/okta/okta-oidc-middleware",
+  "date": "2022-01-27T20:08:21",
+  "languages": {
+    "JavaScript": 74720,
+    "Shell": 6382,
+    "EJS": 1624
+  },
+  "size": 82726
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "c35d470f89b8273a09d5a72ea87ae96fd0803ac2",
+  "repo_url": "https://github.com/jenkinsci/radargun-plugin",
+  "date": "2019-08-07T20:55:03",
+  "languages": {
+    "Java": 132878,
+    "Shell": 227,
+    "HTML": 29
+  },
+  "size": 133134
+}

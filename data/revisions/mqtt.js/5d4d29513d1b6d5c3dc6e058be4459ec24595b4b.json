@@ -1,0 +1,10 @@
+{
+  "commit": "5d4d29513d1b6d5c3dc6e058be4459ec24595b4b",
+  "repo_url": "https://github.com/mqttjs/mqtt.js",
+  "date": "2017-11-04T10:07:10",
+  "languages": {
+    "JavaScript": 140503,
+    "TypeScript": 854
+  },
+  "size": 141357
+}

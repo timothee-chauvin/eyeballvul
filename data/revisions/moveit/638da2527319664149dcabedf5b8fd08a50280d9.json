@@ -1,0 +1,19 @@
+{
+  "commit": "638da2527319664149dcabedf5b8fd08a50280d9",
+  "repo_url": "https://github.com/ros-planning/moveit",
+  "date": "2022-12-21T18:10:14",
+  "languages": {
+    "C++": 7652544,
+    "Python": 276865,
+    "CMake": 158004,
+    "Shell": 15782,
+    "TeX": 7222,
+    "Dockerfile": 5483,
+    "NASL": 2404,
+    "C": 2268,
+    "HTML": 1171,
+    "GDB": 376,
+    "Makefile": 252
+  },
+  "size": 8122371
+}

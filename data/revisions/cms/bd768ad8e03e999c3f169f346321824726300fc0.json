@@ -1,0 +1,18 @@
+{
+  "commit": "bd768ad8e03e999c3f169f346321824726300fc0",
+  "repo_url": "https://github.com/liufee/cms",
+  "date": "2017-08-21T07:55:42",
+  "languages": {
+    "JavaScript": 1866877,
+    "PHP": 1465360,
+    "PLpgSQL": 545119,
+    "CSS": 352722,
+    "HTML": 126420,
+    "SCSS": 16447,
+    "Dockerfile": 8229,
+    "Batchfile": 1541,
+    "Ruby": 578,
+    "Shell": 26
+  },
+  "size": 4383319
+}

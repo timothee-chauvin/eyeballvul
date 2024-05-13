@@ -1,0 +1,13 @@
+{
+  "commit": "618242d9cea470fa314e2214fa837443354881ed",
+  "repo_url": "https://github.com/rabbitmq/rabbitmq-jms-client",
+  "date": "2020-06-05T07:29:07",
+  "languages": {
+    "Java": 860430,
+    "Groovy": 3882,
+    "Makefile": 667,
+    "Shell": 611,
+    "Erlang": 502
+  },
+  "size": 866092
+}

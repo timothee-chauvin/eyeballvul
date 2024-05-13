@@ -1,0 +1,11 @@
+{
+  "commit": "35cf1c23efbf946785d3210b610783fedde51321",
+  "repo_url": "https://github.com/brianmario/yajl-ruby",
+  "date": "2016-11-01T22:23:11",
+  "languages": {
+    "C": 150030,
+    "Ruby": 79263,
+    "Shell": 97
+  },
+  "size": 229390
+}

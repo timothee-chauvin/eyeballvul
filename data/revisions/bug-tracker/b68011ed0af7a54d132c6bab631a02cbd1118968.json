@@ -1,0 +1,14 @@
+{
+  "commit": "b68011ed0af7a54d132c6bab631a02cbd1118968",
+  "repo_url": "https://github.com/openacs/bug-tracker",
+  "date": "2010-04-15T22:01:30",
+  "languages": {
+    "Tcl": 252116,
+    "PLpgSQL": 138618,
+    "XQuery": 91561,
+    "PLSQL": 57322,
+    "HTML": 34479,
+    "CSS": 1707
+  },
+  "size": 575803
+}

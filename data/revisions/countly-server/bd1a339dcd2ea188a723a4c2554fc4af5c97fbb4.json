@@ -1,0 +1,16 @@
+{
+  "commit": "bd1a339dcd2ea188a723a4c2554fc4af5c97fbb4",
+  "repo_url": "https://github.com/countly/countly-server",
+  "date": "2021-04-01T16:27:41",
+  "languages": {
+    "JavaScript": 9720447,
+    "CSS": 576879,
+    "HTML": 574652,
+    "Shell": 183691,
+    "C++": 97343,
+    "SCSS": 85222,
+    "Dockerfile": 1990,
+    "Python": 580
+  },
+  "size": 11240804
+}

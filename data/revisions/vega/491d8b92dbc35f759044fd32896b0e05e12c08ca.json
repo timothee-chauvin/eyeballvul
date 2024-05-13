@@ -1,0 +1,15 @@
+{
+  "commit": "491d8b92dbc35f759044fd32896b0e05e12c08ca",
+  "repo_url": "https://github.com/vegaprotocol/vega",
+  "date": "2023-05-26T19:47:13",
+  "languages": {
+    "Go": 11507353,
+    "Gherkin": 2581167,
+    "C++": 723317,
+    "PLpgSQL": 78569,
+    "Makefile": 2859,
+    "Shell": 2300,
+    "Dockerfile": 1429
+  },
+  "size": 14896994
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "bce9b29198499186921ff9d3c08d1225fc22956b",
+  "repo_url": "https://github.com/dtschump/cimg",
+  "date": "2020-09-03T10:24:10",
+  "languages": {
+    "C++": 3420831,
+    "C": 1949067,
+    "HTML": 18312,
+    "Shell": 6904,
+    "Python": 4403,
+    "CSS": 2744,
+    "Batchfile": 1932,
+    "Makefile": 1637
+  },
+  "size": 5405830
+}

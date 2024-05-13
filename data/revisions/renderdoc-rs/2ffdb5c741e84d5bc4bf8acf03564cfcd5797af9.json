@@ -1,0 +1,10 @@
+{
+  "commit": "2ffdb5c741e84d5bc4bf8acf03564cfcd5797af9",
+  "repo_url": "https://github.com/ebkalderon/renderdoc-rs",
+  "date": "2018-09-16T01:32:42",
+  "languages": {
+    "Rust": 63020,
+    "Shell": 305
+  },
+  "size": 63325
+}

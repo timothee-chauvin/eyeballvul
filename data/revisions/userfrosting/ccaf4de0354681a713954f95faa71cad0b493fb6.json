@@ -1,0 +1,14 @@
+{
+  "commit": "ccaf4de0354681a713954f95faa71cad0b493fb6",
+  "repo_url": "https://github.com/userfrosting/userfrosting",
+  "date": "2021-10-27T01:07:32",
+  "languages": {
+    "PHP": 1975035,
+    "JavaScript": 190348,
+    "CSS": 169803,
+    "Twig": 169298,
+    "Dockerfile": 1408,
+    "Shell": 1310
+  },
+  "size": 2507202
+}

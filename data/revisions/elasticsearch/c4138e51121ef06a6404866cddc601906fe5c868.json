@@ -1,0 +1,21 @@
+{
+  "commit": "c4138e51121ef06a6404866cddc601906fe5c868",
+  "repo_url": "https://github.com/elastic/elasticsearch",
+  "date": "2020-10-16T06:49:27",
+  "languages": {
+    "Java": 108924575,
+    "Groovy": 187276,
+    "Shell": 49084,
+    "ANTLR": 31705,
+    "Batchfile": 21820,
+    "Python": 12626,
+    "Dockerfile": 5906,
+    "CSS": 5424,
+    "Emacs Lisp": 3341,
+    "HTML": 2186,
+    "PowerShell": 1332,
+    "Mustache": 58,
+    "FreeMarker": 45
+  },
+  "size": 109245378
+}

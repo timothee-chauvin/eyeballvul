@@ -1,0 +1,10 @@
+{
+  "commit": "3abfe1e6382c5dccf2e1a00260c51a64bc1f1ca1",
+  "repo_url": "https://github.com/hamba/avro",
+  "date": "2023-06-18T13:17:35",
+  "languages": {
+    "Go": 486590,
+    "Makefile": 435
+  },
+  "size": 487025
+}

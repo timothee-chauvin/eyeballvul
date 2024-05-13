@@ -1,0 +1,28 @@
+{
+  "commit": "de28e518d471757f3b5900464933290ac39e6d49",
+  "repo_url": "https://github.com/pmd/pmd",
+  "date": "2017-07-01T17:08:08",
+  "languages": {
+    "Java": 4645588,
+    "Apex": 976174,
+    "XSLT": 60286,
+    "MATLAB": 39797,
+    "ANTLR": 34987,
+    "Swift": 34371,
+    "Scala": 27733,
+    "Shell": 17628,
+    "JavaScript": 16119,
+    "Python": 12484,
+    "Objective-C": 8112,
+    "Fortran": 7655,
+    "PLSQL": 1936,
+    "Groovy": 1631,
+    "C++": 1260,
+    "CSS": 1241,
+    "Batchfile": 717,
+    "HTML": 441,
+    "Ruby": 371,
+    "TypeScript": 152
+  },
+  "size": 5888683
+}

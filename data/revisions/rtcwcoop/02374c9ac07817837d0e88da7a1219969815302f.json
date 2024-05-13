@@ -1,0 +1,23 @@
+{
+  "commit": "02374c9ac07817837d0e88da7a1219969815302f",
+  "repo_url": "https://github.com/rtcwcoop/rtcwcoop",
+  "date": "2017-08-23T20:45:18",
+  "languages": {
+    "C": 27213656,
+    "C++": 313900,
+    "Python": 181724,
+    "Makefile": 74379,
+    "HTML": 69262,
+    "Assembly": 67983,
+    "GLSL": 58006,
+    "Perl": 23799,
+    "Shell": 23209,
+    "Roff": 21060,
+    "CMake": 17474,
+    "Objective-C": 12100,
+    "Yacc": 4260,
+    "ShaderLab": 474,
+    "Batchfile": 116
+  },
+  "size": 28081402
+}

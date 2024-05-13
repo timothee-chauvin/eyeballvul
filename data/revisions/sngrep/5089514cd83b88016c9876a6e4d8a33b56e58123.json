@@ -1,0 +1,12 @@
+{
+  "commit": "5089514cd83b88016c9876a6e4d8a33b56e58123",
+  "repo_url": "https://github.com/irontec/sngrep",
+  "date": "2022-08-31T14:02:22",
+  "languages": {
+    "C": 738934,
+    "M4": 13533,
+    "Shell": 9276,
+    "Makefile": 2104
+  },
+  "size": 763847
+}

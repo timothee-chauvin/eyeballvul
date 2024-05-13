@@ -1,0 +1,15 @@
+{
+  "commit": "bb7cf9fe91654fbd13af42c49ffdbba32caa50f4",
+  "repo_url": "https://github.com/clerk/javascript",
+  "date": "2024-01-10T22:13:53",
+  "languages": {
+    "TypeScript": 3804402,
+    "JavaScript": 38867,
+    "CSS": 24302,
+    "HTML": 8731,
+    "Shell": 2287,
+    "EJS": 1196,
+    "Cap'n Proto": 441
+  },
+  "size": 3880226
+}

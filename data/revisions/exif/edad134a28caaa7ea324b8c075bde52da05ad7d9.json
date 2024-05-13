@@ -1,0 +1,13 @@
+{
+  "commit": "edad134a28caaa7ea324b8c075bde52da05ad7d9",
+  "repo_url": "https://github.com/libexif/exif",
+  "date": "2020-05-20T05:31:32",
+  "languages": {
+    "C": 66280,
+    "M4": 65349,
+    "Shell": 35609,
+    "Roff": 7475,
+    "Makefile": 2838
+  },
+  "size": 177551
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "5d60295193fff9f27199a421c98d55aafcf065fa",
+  "repo_url": "https://github.com/helloxz/zdir",
+  "date": "2023-01-09T08:00:45",
+  "languages": {
+    "Go": 51459,
+    "Shell": 9495,
+    "HTML": 1107,
+    "Dockerfile": 231
+  },
+  "size": 62292
+}

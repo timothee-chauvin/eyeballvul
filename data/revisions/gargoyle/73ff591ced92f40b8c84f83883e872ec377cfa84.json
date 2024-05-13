@@ -1,0 +1,20 @@
+{
+  "commit": "73ff591ced92f40b8c84f83883e872ec377cfa84",
+  "repo_url": "https://github.com/ericpaulbishop/gargoyle",
+  "date": "2019-12-02T22:58:13",
+  "languages": {
+    "C": 1994634,
+    "JavaScript": 1725464,
+    "Shell": 768642,
+    "Makefile": 336235,
+    "CSS": 162304,
+    "C++": 140081,
+    "Python": 35150,
+    "Perl": 33805,
+    "Roff": 20522,
+    "Max": 18748,
+    "M4": 5277,
+    "Lua": 1805
+  },
+  "size": 5242667
+}

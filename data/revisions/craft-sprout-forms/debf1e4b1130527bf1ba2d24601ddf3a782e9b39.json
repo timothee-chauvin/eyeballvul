@@ -1,0 +1,12 @@
+{
+  "commit": "debf1e4b1130527bf1ba2d24601ddf3a782e9b39",
+  "repo_url": "https://github.com/barrelstrength/craft-sprout-forms",
+  "date": "2020-03-20T12:09:39",
+  "languages": {
+    "PHP": 734639,
+    "Twig": 223509,
+    "JavaScript": 126409,
+    "SCSS": 10379
+  },
+  "size": 1094936
+}

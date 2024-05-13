@@ -1,0 +1,22 @@
+{
+  "commit": "040e963c7479e41e362b5d174df333a83f45cf16",
+  "repo_url": "https://github.com/chamilo/chamilo-lms",
+  "date": "2018-01-18T23:26:16",
+  "languages": {
+    "PHP": 38189923,
+    "JavaScript": 15269624,
+    "CSS": 1484750,
+    "Smarty": 967500,
+    "HTML": 938172,
+    "Java": 558143,
+    "Less": 341241,
+    "SCSS": 126328,
+    "Twig": 124806,
+    "Gherkin": 54769,
+    "Shell": 2532,
+    "PowerShell": 1487,
+    "Python": 1273,
+    "Ruby": 563
+  },
+  "size": 58061111
+}

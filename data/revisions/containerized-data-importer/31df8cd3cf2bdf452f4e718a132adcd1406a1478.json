@@ -1,0 +1,12 @@
+{
+  "commit": "31df8cd3cf2bdf452f4e718a132adcd1406a1478",
+  "repo_url": "https://github.com/kubevirt/containerized-data-importer",
+  "date": "2018-11-30T12:54:39",
+  "languages": {
+    "Go": 577609,
+    "Shell": 40531,
+    "Makefile": 5662,
+    "Dockerfile": 2776
+  },
+  "size": 626578
+}

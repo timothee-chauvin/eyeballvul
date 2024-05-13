@@ -1,0 +1,22 @@
+{
+  "commit": "b1d468a0410eb0e7fb95b4fb7eb4c6f772d22588",
+  "repo_url": "https://github.com/moinwiki/moin-1.9",
+  "date": "2016-10-31T20:14:15",
+  "languages": {
+    "Python": 8311192,
+    "JavaScript": 2165281,
+    "HTML": 682326,
+    "Java": 493240,
+    "CSS": 153877,
+    "PHP": 147818,
+    "ColdFusion": 146677,
+    "Classic ASP": 43746,
+    "Perl": 43357,
+    "Lasso": 24366,
+    "Makefile": 9122,
+    "ASP.NET": 7738,
+    "Raku": 1610,
+    "Shell": 335
+  },
+  "size": 12230685
+}

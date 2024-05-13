@@ -1,0 +1,21 @@
+{
+  "commit": "28be02e00505eb64d6212ee43b90c4ad09275309",
+  "repo_url": "https://github.com/systemd/systemd",
+  "date": "2021-12-20T18:39:35",
+  "languages": {
+    "C": 25429534,
+    "Python": 1663494,
+    "Shell": 587183,
+    "Meson": 355976,
+    "HTML": 243621,
+    "Perl": 121246,
+    "SmPL": 26818,
+    "CodeQL": 5921,
+    "Awk": 2434,
+    "Emacs Lisp": 1187,
+    "Vim Script": 811,
+    "Makefile": 275,
+    "sed": 72
+  },
+  "size": 28438572
+}

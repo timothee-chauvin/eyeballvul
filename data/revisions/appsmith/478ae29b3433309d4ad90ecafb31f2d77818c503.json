@@ -1,0 +1,18 @@
+{
+  "commit": "478ae29b3433309d4ad90ecafb31f2d77818c503",
+  "repo_url": "https://github.com/appsmithorg/appsmith",
+  "date": "2022-06-16T09:47:35",
+  "languages": {
+    "TypeScript": 9289605,
+    "Java": 4161519,
+    "JavaScript": 1734201,
+    "Shell": 251530,
+    "HTML": 194564,
+    "Handlebars": 12690,
+    "CSS": 6177,
+    "Dockerfile": 5830,
+    "Smarty": 3618,
+    "Procfile": 84
+  },
+  "size": 15659818
+}

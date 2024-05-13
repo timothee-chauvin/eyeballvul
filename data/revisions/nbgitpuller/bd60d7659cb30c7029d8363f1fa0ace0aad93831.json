@@ -1,0 +1,13 @@
+{
+  "commit": "bd60d7659cb30c7029d8363f1fa0ace0aad93831",
+  "repo_url": "https://github.com/jupyterhub/nbgitpuller",
+  "date": "2021-06-24T11:36:35",
+  "languages": {
+    "Python": 39449,
+    "JavaScript": 9874,
+    "Jupyter Notebook": 8283,
+    "HTML": 1962,
+    "Shell": 125
+  },
+  "size": 59693
+}

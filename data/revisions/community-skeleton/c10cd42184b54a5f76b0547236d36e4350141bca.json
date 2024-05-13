@@ -1,0 +1,14 @@
+{
+  "commit": "c10cd42184b54a5f76b0547236d36e4350141bca",
+  "repo_url": "https://github.com/uvdesk/community-skeleton",
+  "date": "2022-09-13T11:07:47",
+  "languages": {
+    "PHP": 63534,
+    "JavaScript": 62251,
+    "Twig": 38342,
+    "CSS": 13715,
+    "Dockerfile": 3130,
+    "Shell": 1983
+  },
+  "size": 182955
+}

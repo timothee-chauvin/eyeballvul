@@ -1,0 +1,13 @@
+{
+  "commit": "44c406c9861b4846cc43cf6c0449ad78c4afa126",
+  "repo_url": "https://github.com/blackcatdevelopment/blackcatcms",
+  "date": "2015-10-15T11:22:52",
+  "languages": {
+    "PHP": 7080879,
+    "JavaScript": 457460,
+    "Smarty": 264000,
+    "CSS": 79181,
+    "HTML": 39007
+  },
+  "size": 7920527
+}

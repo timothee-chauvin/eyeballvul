@@ -1,0 +1,13 @@
+{
+  "commit": "f690e763257ba05513b0bf0bd8a99554a0719201",
+  "repo_url": "https://github.com/jech/polipo",
+  "date": "2014-05-14T22:19:43",
+  "languages": {
+    "C": 734313,
+    "Shell": 4558,
+    "Makefile": 4001,
+    "Roff": 2065,
+    "HTML": 305
+  },
+  "size": 745242
+}

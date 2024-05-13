@@ -1,0 +1,13 @@
+{
+  "commit": "ec9c203b2721db0589fb8daa2e1f9bba0d4e82ee",
+  "repo_url": "https://github.com/go-sonic/sonic",
+  "date": "2022-12-03T14:53:22",
+  "languages": {
+    "Go": 696561,
+    "CSS": 26382,
+    "HTML": 1166,
+    "Dockerfile": 905,
+    "Shell": 350
+  },
+  "size": 725364
+}

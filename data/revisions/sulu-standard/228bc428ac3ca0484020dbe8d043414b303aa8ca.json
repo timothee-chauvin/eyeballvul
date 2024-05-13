@@ -1,0 +1,12 @@
+{
+  "commit": "228bc428ac3ca0484020dbe8d043414b303aa8ca",
+  "repo_url": "https://github.com/sulu/sulu-standard",
+  "date": "2017-10-12T12:01:26",
+  "languages": {
+    "PHP": 54714,
+    "Twig": 26611,
+    "CSS": 2505,
+    "Shell": 1936
+  },
+  "size": 85766
+}

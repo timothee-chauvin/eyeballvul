@@ -1,0 +1,16 @@
+{
+  "commit": "c8f16a80f9b0eced68de693f2aa9e7a9ccecf9fb",
+  "repo_url": "https://github.com/ajenti/ajenti",
+  "date": "2017-09-05T17:34:00",
+  "languages": {
+    "Python": 240948,
+    "JavaScript": 142853,
+    "HTML": 119060,
+    "CoffeeScript": 34640,
+    "Less": 27384,
+    "Shell": 8639,
+    "Makefile": 1527,
+    "Augeas": 1372
+  },
+  "size": 576423
+}

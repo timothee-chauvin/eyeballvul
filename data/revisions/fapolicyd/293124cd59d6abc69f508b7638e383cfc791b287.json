@@ -1,0 +1,13 @@
+{
+  "commit": "293124cd59d6abc69f508b7638e383cfc791b287",
+  "repo_url": "https://github.com/linux-application-whitelisting/fapolicyd",
+  "date": "2022-03-29T15:08:16",
+  "languages": {
+    "C": 305468,
+    "Makefile": 5293,
+    "M4": 3634,
+    "Shell": 3474,
+    "Python": 957
+  },
+  "size": 318826
+}

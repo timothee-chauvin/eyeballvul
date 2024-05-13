@@ -1,0 +1,13 @@
+{
+  "commit": "5aaea3aedd747487dbb95ae8fa2bb2929defea0b",
+  "repo_url": "https://github.com/structured-data/linter",
+  "date": "2017-08-21T22:31:07",
+  "languages": {
+    "Ruby": 1205999,
+    "HTML": 980216,
+    "JavaScript": 3314,
+    "CSS": 1246,
+    "Procfile": 40
+  },
+  "size": 2190815
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "2f5bedaaccb7b8b516e0e83b6133b7279da2324e",
+  "repo_url": "https://github.com/jenkinsci/team-views-plugin",
+  "date": "2013-06-04T14:25:35",
+  "languages": {
+    "Java": 50675,
+    "Groovy": 14291,
+    "HTML": 54
+  },
+  "size": 65020
+}

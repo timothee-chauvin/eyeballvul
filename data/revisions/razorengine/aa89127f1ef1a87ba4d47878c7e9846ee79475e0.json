@@ -1,0 +1,13 @@
+{
+  "commit": "aa89127f1ef1a87ba4d47878c7e9846ee79475e0",
+  "repo_url": "https://github.com/antaris/razorengine",
+  "date": "2017-06-16T15:16:01",
+  "languages": {
+    "C#": 1108095,
+    "F#": 58104,
+    "Shell": 2624,
+    "Batchfile": 2091,
+    "HTML": 1156
+  },
+  "size": 1172070
+}

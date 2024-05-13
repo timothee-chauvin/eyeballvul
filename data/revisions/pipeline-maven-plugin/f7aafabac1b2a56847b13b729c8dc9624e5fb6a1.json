@@ -1,0 +1,11 @@
+{
+  "commit": "f7aafabac1b2a56847b13b729c8dc9624e5fb6a1",
+  "repo_url": "https://github.com/jenkinsci/pipeline-maven-plugin",
+  "date": "2019-10-10T15:40:04",
+  "languages": {
+    "Java": 921571,
+    "HTML": 20583,
+    "Dockerfile": 187
+  },
+  "size": 942341
+}

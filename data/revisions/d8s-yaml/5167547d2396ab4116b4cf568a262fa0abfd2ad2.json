@@ -1,0 +1,11 @@
+{
+  "commit": "5167547d2396ab4116b4cf568a262fa0abfd2ad2",
+  "repo_url": "https://github.com/democritus-project/d8s-yaml",
+  "date": "2021-03-16T11:12:11",
+  "languages": {
+    "Python": 10331,
+    "Shell": 349,
+    "Dockerfile": 163
+  },
+  "size": 10843
+}

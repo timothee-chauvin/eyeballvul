@@ -1,0 +1,16 @@
+{
+  "commit": "e70085ed2e14a74dc4f482645b89bbb82101de38",
+  "repo_url": "https://github.com/matrix-org/matrix-react-sdk",
+  "date": "2021-02-16T11:05:25",
+  "languages": {
+    "JavaScript": 2760665,
+    "TypeScript": 2376010,
+    "SCSS": 584133,
+    "Shell": 11807,
+    "Perl": 10945,
+    "Python": 5019,
+    "HTML": 1043,
+    "Dockerfile": 940
+  },
+  "size": 5750562
+}

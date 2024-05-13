@@ -1,0 +1,18 @@
+{
+  "commit": "1d18809825e4280ab2e5302d6409783bea04f3b3",
+  "repo_url": "https://github.com/vert-x3/vertx-web",
+  "date": "2020-11-01T13:04:20",
+  "languages": {
+    "Java": 3373316,
+    "Python": 985896,
+    "HTML": 12261,
+    "JavaScript": 7958,
+    "Handlebars": 638,
+    "Shell": 554,
+    "FreeMarker": 425,
+    "Batchfile": 249,
+    "CSS": 202,
+    "Pug": 150
+  },
+  "size": 4381649
+}

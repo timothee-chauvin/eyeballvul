@@ -1,0 +1,24 @@
+{
+  "commit": "89ae5ad77e7eb79e1d8c6a62b766963c574db49a",
+  "repo_url": "https://github.com/aws-amplify/amplify-cli",
+  "date": "2023-12-16T00:48:57",
+  "languages": {
+    "TypeScript": 7185216,
+    "JavaScript": 1285284,
+    "EJS": 247513,
+    "Shell": 81639,
+    "Swift": 67537,
+    "Python": 13244,
+    "Yacc": 9961,
+    "Lex": 7776,
+    "CSS": 6447,
+    "Java": 4280,
+    "Go": 4106,
+    "HTML": 3919,
+    "Makefile": 551,
+    "Dockerfile": 486,
+    "Dart": 95,
+    "Ruby": 45
+  },
+  "size": 8918099
+}

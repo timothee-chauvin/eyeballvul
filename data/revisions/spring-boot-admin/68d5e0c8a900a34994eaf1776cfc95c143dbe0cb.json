@@ -1,0 +1,16 @@
+{
+  "commit": "68d5e0c8a900a34994eaf1776cfc95c143dbe0cb",
+  "repo_url": "https://github.com/codecentric/spring-boot-admin",
+  "date": "2023-07-07T10:01:19",
+  "languages": {
+    "Java": 1218416,
+    "Vue": 483253,
+    "TypeScript": 418223,
+    "JavaScript": 28953,
+    "HTML": 8686,
+    "CSS": 7226,
+    "MDX": 582,
+    "Dockerfile": 159
+  },
+  "size": 2165498
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "8e18c6d8aadffeb67afdef0ff1e9f38b79a3ad6f",
+  "repo_url": "https://github.com/qorelanguage/qore",
+  "date": "2020-02-25T08:01:22",
+  "languages": {
+    "C++": 9797697,
+    "M4": 115556,
+    "CMake": 108079,
+    "Makefile": 70703,
+    "Emacs Lisp": 41840,
+    "HTML": 29422,
+    "q": 21190,
+    "Vim Script": 16208,
+    "Shell": 12419,
+    "C": 10852,
+    "Roff": 4410,
+    "Assembly": 1858
+  },
+  "size": 10230234
+}

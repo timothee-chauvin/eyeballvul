@@ -1,0 +1,16 @@
+{
+  "commit": "018f1fe8c4ac9e9da9fa57d1f59f0c8ba454ef71",
+  "repo_url": "https://github.com/gchq/stroom",
+  "date": "2018-06-26T16:31:40",
+  "languages": {
+    "JavaScript": 14970410,
+    "Java": 11851591,
+    "CSS": 145465,
+    "XSLT": 96928,
+    "Shell": 65338,
+    "Batchfile": 30418,
+    "HTML": 5575,
+    "Dockerfile": 2527
+  },
+  "size": 27168252
+}

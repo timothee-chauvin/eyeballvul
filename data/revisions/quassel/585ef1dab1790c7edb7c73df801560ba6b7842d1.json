@@ -1,0 +1,15 @@
+{
+  "commit": "585ef1dab1790c7edb7c73df801560ba6b7842d1",
+  "repo_url": "https://github.com/quassel/quassel",
+  "date": "2015-04-15T20:58:17",
+  "languages": {
+    "C++": 2903212,
+    "Shell": 400350,
+    "CMake": 74680,
+    "Python": 11447,
+    "Perl": 7447,
+    "Objective-C++": 4181,
+    "C": 1635
+  },
+  "size": 3402952
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da",
+  "repo_url": "https://github.com/fisco-bcos/fisco-bcos",
+  "date": "2021-02-01T09:22:20",
+  "languages": {
+    "C++": 4725392,
+    "Shell": 120640,
+    "CMake": 101298,
+    "Python": 11929,
+    "Solidity": 6259,
+    "C": 2503,
+    "Dockerfile": 1252
+  },
+  "size": 4969273
+}

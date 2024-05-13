@@ -1,0 +1,13 @@
+{
+  "commit": "5611395a7a753999ab843b77e7ce181ea1f2aa72",
+  "repo_url": "https://github.com/emlog/emlog",
+  "date": "2014-07-21T04:21:38",
+  "languages": {
+    "PHP": 516329,
+    "JavaScript": 76660,
+    "CSS": 60304,
+    "HTML": 4292,
+    "Hack": 91
+  },
+  "size": 657676
+}

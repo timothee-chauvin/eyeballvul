@@ -1,0 +1,11 @@
+{
+  "commit": "9a9dc4bd90973f8907b68fe5d14c673ed11c1b47",
+  "repo_url": "https://github.com/lambdaisland/uri",
+  "date": "2022-01-28T22:21:13",
+  "languages": {
+    "Clojure": 31878,
+    "Shell": 260,
+    "Emacs Lisp": 63
+  },
+  "size": 32201
+}

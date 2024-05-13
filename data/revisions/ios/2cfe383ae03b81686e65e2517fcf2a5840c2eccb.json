@@ -1,0 +1,15 @@
+{
+  "commit": "2cfe383ae03b81686e65e2517fcf2a5840c2eccb",
+  "repo_url": "https://github.com/duckduckgo/ios",
+  "date": "2021-11-22T13:21:59",
+  "languages": {
+    "Swift": 2036926,
+    "JavaScript": 59175,
+    "Shell": 4904,
+    "Objective-C": 2027,
+    "Objective-C++": 1687,
+    "HTML": 900,
+    "Ruby": 620
+  },
+  "size": 2106239
+}

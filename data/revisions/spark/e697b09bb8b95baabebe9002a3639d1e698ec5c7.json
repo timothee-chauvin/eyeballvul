@@ -1,0 +1,18 @@
+{
+  "commit": "e697b09bb8b95baabebe9002a3639d1e698ec5c7",
+  "repo_url": "https://github.com/firelyteam/spark",
+  "date": "2021-04-12T14:54:38",
+  "languages": {
+    "C#": 1026818,
+    "JavaScript": 487615,
+    "HTML": 33807,
+    "XSLT": 10017,
+    "CSS": 6597,
+    "Shell": 1636,
+    "SCSS": 1445,
+    "Dockerfile": 858,
+    "Batchfile": 106,
+    "ASP.NET": 99
+  },
+  "size": 1568998
+}

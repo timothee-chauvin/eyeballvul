@@ -1,0 +1,15 @@
+{
+  "commit": "f4ad6bdc8cbd958fcb150c7a0999353277dcf374",
+  "repo_url": "https://github.com/osmandapp/osmand",
+  "date": "2019-10-15T09:35:43",
+  "languages": {
+    "Java": 10757569,
+    "Kotlin": 521625,
+    "AIDL": 87249,
+    "CSS": 14811,
+    "Shell": 6605,
+    "XSLT": 6113,
+    "Makefile": 1066
+  },
+  "size": 11395038
+}

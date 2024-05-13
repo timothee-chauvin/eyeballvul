@@ -1,0 +1,21 @@
+{
+  "commit": "86dd78b1aa64cbf0af15669c0e4af62dfae0d158",
+  "repo_url": "https://github.com/apache/activemq",
+  "date": "2020-06-25T05:26:13",
+  "languages": {
+    "Java": 26077308,
+    "JavaScript": 438271,
+    "Scala": 302195,
+    "HTML": 158884,
+    "Shell": 93072,
+    "CSS": 34997,
+    "C#": 27536,
+    "Batchfile": 17712,
+    "C++": 17404,
+    "Python": 16801,
+    "Ruby": 6594,
+    "Perl": 4128,
+    "PHP": 3665
+  },
+  "size": 27198567
+}

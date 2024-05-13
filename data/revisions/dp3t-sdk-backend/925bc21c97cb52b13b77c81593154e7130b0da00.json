@@ -1,0 +1,13 @@
+{
+  "commit": "925bc21c97cb52b13b77c81593154e7130b0da00",
+  "repo_url": "https://github.com/dp-3t/dp3t-sdk-backend",
+  "date": "2020-07-27T17:07:30",
+  "languages": {
+    "Java": 381991,
+    "Makefile": 1550,
+    "Dockerfile": 811,
+    "Shell": 447,
+    "PLpgSQL": 374
+  },
+  "size": 385173
+}

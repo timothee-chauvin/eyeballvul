@@ -1,0 +1,14 @@
+{
+  "commit": "2596aa29cb2d5acaf07ac985f0a27bb482120ea6",
+  "repo_url": "https://github.com/dgarijo/widoco",
+  "date": "2022-04-19T10:57:14",
+  "languages": {
+    "Java": 498065,
+    "XSLT": 214404,
+    "CSS": 32080,
+    "JavaScript": 8742,
+    "HTML": 385,
+    "Dockerfile": 343
+  },
+  "size": 754019
+}

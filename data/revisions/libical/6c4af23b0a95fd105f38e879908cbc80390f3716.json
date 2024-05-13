@@ -1,0 +1,21 @@
+{
+  "commit": "6c4af23b0a95fd105f38e879908cbc80390f3716",
+  "repo_url": "https://github.com/libical/libical",
+  "date": "2015-12-28T21:44:53",
+  "languages": {
+    "C": 1689004,
+    "C++": 153816,
+    "Python": 86094,
+    "Perl": 80111,
+    "CMake": 79440,
+    "Java": 68126,
+    "Yacc": 31623,
+    "SWIG": 13963,
+    "Shell": 1465,
+    "PHP": 531,
+    "Makefile": 477,
+    "Roff": 440,
+    "Emacs Lisp": 124
+  },
+  "size": 2205214
+}

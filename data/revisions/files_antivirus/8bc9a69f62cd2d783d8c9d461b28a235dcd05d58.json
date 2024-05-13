@@ -1,0 +1,15 @@
+{
+  "commit": "8bc9a69f62cd2d783d8c9d461b28a235dcd05d58",
+  "repo_url": "https://github.com/owncloud/files_antivirus",
+  "date": "2019-06-25T07:39:15",
+  "languages": {
+    "JavaScript": 163235,
+    "PHP": 131897,
+    "Gherkin": 17402,
+    "Makefile": 6606,
+    "Shell": 5923,
+    "CSS": 562,
+    "DIGITAL Command Language": 68
+  },
+  "size": 325693
+}

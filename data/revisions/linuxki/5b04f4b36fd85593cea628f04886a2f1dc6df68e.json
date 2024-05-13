@@ -1,0 +1,16 @@
+{
+  "commit": "5b04f4b36fd85593cea628f04886a2f1dc6df68e",
+  "repo_url": "https://github.com/hewlettpackard/linuxki",
+  "date": "2019-11-24T20:06:22",
+  "languages": {
+    "C": 2032518,
+    "HTML": 721327,
+    "JavaScript": 211841,
+    "Shell": 110672,
+    "CSS": 79108,
+    "Makefile": 8533,
+    "PHP": 7836,
+    "Dockerfile": 1823
+  },
+  "size": 3173658
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "7b973a737dba47fe6c1ee2d58e06dd9a22209fde",
+  "repo_url": "https://github.com/cn-uofbasel/ccn-lite",
+  "date": "2017-05-10T15:09:17",
+  "languages": {
+    "C": 1123020,
+    "C++": 197282,
+    "Python": 46132,
+    "Shell": 33246,
+    "Makefile": 31827,
+    "Java": 16081,
+    "Dockerfile": 633
+  },
+  "size": 1448221
+}

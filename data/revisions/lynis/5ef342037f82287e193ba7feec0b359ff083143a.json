@@ -1,0 +1,11 @@
+{
+  "commit": "5ef342037f82287e193ba7feec0b359ff083143a",
+  "repo_url": "https://github.com/cisofy/lynis",
+  "date": "2017-03-29T15:08:40",
+  "languages": {
+    "Shell": 1159693,
+    "Roff": 5322,
+    "Ruby": 672
+  },
+  "size": 1165687
+}

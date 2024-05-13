@@ -1,0 +1,13 @@
+{
+  "commit": "a27cf94bab4f96283fb224c14148e7cc67037783",
+  "repo_url": "https://github.com/clientio/joint",
+  "date": "2020-06-04T20:27:17",
+  "languages": {
+    "JavaScript": 2320234,
+    "HTML": 324625,
+    "CSS": 10687,
+    "Shell": 1298,
+    "Makefile": 253
+  },
+  "size": 2657097
+}

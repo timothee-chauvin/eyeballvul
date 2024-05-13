@@ -1,0 +1,17 @@
+{
+  "commit": "8ea591f597a1c466becd4e52cc59823951b7a42b",
+  "repo_url": "https://github.com/dgraph-io/dgraph",
+  "date": "2023-04-11T23:12:51",
+  "languages": {
+    "Go": 6099650,
+    "Shell": 123869,
+    "HCL": 118934,
+    "TeX": 62370,
+    "Makefile": 18199,
+    "JavaScript": 5605,
+    "Ruby": 5523,
+    "Dockerfile": 1596,
+    "Smarty": 644
+  },
+  "size": 6436390
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "766f07ff23e10c2ce7c18687f9553266fd3591c6",
+  "repo_url": "https://github.com/akeneo/pim-community-dev",
+  "date": "2022-11-08T09:32:41",
+  "languages": {
+    "PHP": 22042069,
+    "TypeScript": 2956420,
+    "JavaScript": 1790776,
+    "Gherkin": 770378,
+    "Less": 249898,
+    "MDX": 238154,
+    "HTML": 189821,
+    "Twig": 102747,
+    "Makefile": 42265,
+    "Shell": 22334,
+    "Dockerfile": 3237,
+    "CSS": 3125
+  },
+  "size": 28411224
+}

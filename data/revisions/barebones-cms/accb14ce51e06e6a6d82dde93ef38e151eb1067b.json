@@ -1,0 +1,12 @@
+{
+  "commit": "accb14ce51e06e6a6d82dde93ef38e151eb1067b",
+  "repo_url": "https://github.com/cubiclesoft/barebones-cms",
+  "date": "2020-11-29T00:16:21",
+  "languages": {
+    "PHP": 1349045,
+    "JavaScript": 121876,
+    "CSS": 61479,
+    "Shell": 1490
+  },
+  "size": 1533890
+}

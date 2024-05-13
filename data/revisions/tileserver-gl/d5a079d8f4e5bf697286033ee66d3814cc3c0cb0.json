@@ -1,0 +1,12 @@
+{
+  "commit": "d5a079d8f4e5bf697286033ee66d3814cc3c0cb0",
+  "repo_url": "https://github.com/maptiler/tileserver-gl",
+  "date": "2020-03-11T13:01:17",
+  "languages": {
+    "JavaScript": 80077,
+    "CSS": 5258,
+    "Shell": 1100,
+    "Dockerfile": 610
+  },
+  "size": 87045
+}

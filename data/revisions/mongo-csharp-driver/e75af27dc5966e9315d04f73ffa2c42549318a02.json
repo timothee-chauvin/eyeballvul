@@ -1,0 +1,16 @@
+{
+  "commit": "e75af27dc5966e9315d04f73ffa2c42549318a02",
+  "repo_url": "https://github.com/mongodb/mongo-csharp-driver",
+  "date": "2021-03-03T00:20:24",
+  "languages": {
+    "C#": 19205315,
+    "Visual Basic .NET": 346514,
+    "Shell": 20959,
+    "Python": 10212,
+    "Perl": 9647,
+    "PowerShell": 9113,
+    "JavaScript": 6977,
+    "Makefile": 302
+  },
+  "size": 19609039
+}

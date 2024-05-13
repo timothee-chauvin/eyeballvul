@@ -1,0 +1,13 @@
+{
+  "commit": "6c04efe38570a09d2a0ffd3e5d8ea9117a7f3033",
+  "repo_url": "https://github.com/fontforge/libspiro",
+  "date": "2019-07-31T14:22:46",
+  "languages": {
+    "C": 98035,
+    "Java": 27269,
+    "M4": 13771,
+    "Makefile": 4011,
+    "Shell": 261
+  },
+  "size": 143347
+}

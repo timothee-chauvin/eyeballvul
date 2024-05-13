@@ -1,0 +1,15 @@
+{
+  "commit": "1ea6bef75e9706b77e0ff86d8167b76b2cb97654",
+  "repo_url": "https://github.com/suse/portus",
+  "date": "2015-06-24T13:17:14",
+  "languages": {
+    "Ruby": 169197,
+    "Slim": 29629,
+    "SCSS": 8275,
+    "Shell": 5060,
+    "HTML": 4588,
+    "CoffeeScript": 3926,
+    "JavaScript": 3301
+  },
+  "size": 223976
+}

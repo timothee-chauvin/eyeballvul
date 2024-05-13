@@ -1,0 +1,12 @@
+{
+  "commit": "4a7df1cbeb2083b19a1b1537bbfc755deb515434",
+  "repo_url": "https://github.com/cloudfoundry/cf-mysql-release",
+  "date": "2016-09-30T21:44:02",
+  "languages": {
+    "Shell": 46344,
+    "HTML": 30188,
+    "Ruby": 16990,
+    "Go": 1442
+  },
+  "size": 94964
+}

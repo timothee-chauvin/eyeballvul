@@ -1,0 +1,18 @@
+{
+  "commit": "fe0fbab61ced9ef53c29e635af934094c8f1a0ed",
+  "repo_url": "https://github.com/i7media/mojoportal",
+  "date": "2017-03-20T22:26:01",
+  "languages": {
+    "C#": 24022974,
+    "JavaScript": 6669383,
+    "ASP.NET": 1544875,
+    "CSS": 561755,
+    "TSQL": 409100,
+    "PLpgSQL": 300271,
+    "HTML": 80803,
+    "Smalltalk": 66076,
+    "XSLT": 9347,
+    "Shell": 4046
+  },
+  "size": 33668630
+}

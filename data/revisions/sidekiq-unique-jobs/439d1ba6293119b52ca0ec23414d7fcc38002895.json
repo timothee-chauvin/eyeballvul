@@ -1,0 +1,15 @@
+{
+  "commit": "439d1ba6293119b52ca0ec23414d7fcc38002895",
+  "repo_url": "https://github.com/mhenrixon/sidekiq-unique-jobs",
+  "date": "2024-01-24T10:03:26",
+  "languages": {
+    "Ruby": 601884,
+    "HTML": 33429,
+    "Lua": 29475,
+    "JavaScript": 10737,
+    "Shell": 943,
+    "CSS": 59,
+    "Slim": 58
+  },
+  "size": 676585
+}

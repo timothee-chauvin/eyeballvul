@@ -1,0 +1,17 @@
+{
+  "commit": "909d8fc3bc76a6787b1d0b4a2c5dfb578950a875",
+  "repo_url": "https://github.com/eclipse/birt",
+  "date": "2017-06-21T02:32:52",
+  "languages": {
+    "Java": 66733495,
+    "HTML": 4271255,
+    "PostScript": 3325084,
+    "JavaScript": 382032,
+    "CSS": 64247,
+    "Shell": 48584,
+    "XSLT": 34732,
+    "C++": 8684,
+    "Batchfile": 4341
+  },
+  "size": 74872454
+}

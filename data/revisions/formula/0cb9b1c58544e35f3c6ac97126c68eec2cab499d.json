@@ -1,0 +1,10 @@
+{
+  "commit": "0cb9b1c58544e35f3c6ac97126c68eec2cab499d",
+  "repo_url": "https://github.com/hapijs/formula",
+  "date": "2020-01-04T08:53:29",
+  "languages": {
+    "JavaScript": 41369,
+    "TypeScript": 719
+  },
+  "size": 42088
+}

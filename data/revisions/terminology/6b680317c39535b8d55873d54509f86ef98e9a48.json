@@ -1,0 +1,12 @@
+{
+  "commit": "6b680317c39535b8d55873d54509f86ef98e9a48",
+  "repo_url": "https://github.com/billiob/terminology",
+  "date": "2018-11-23T18:38:38",
+  "languages": {
+    "C": 994568,
+    "Shell": 13446,
+    "Meson": 13391,
+    "Perl": 3309
+  },
+  "size": 1024714
+}

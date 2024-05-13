@@ -1,0 +1,18 @@
+{
+  "commit": "60a022c511a37788e652c271af23174566a80c30",
+  "repo_url": "https://github.com/tryghost/node-sqlite3",
+  "date": "2021-02-15T14:42:52",
+  "languages": {
+    "PLpgSQL": 427831,
+    "C++": 103395,
+    "JavaScript": 94948,
+    "Shell": 13782,
+    "Batchfile": 8274,
+    "Dockerfile": 7652,
+    "Makefile": 2167,
+    "Python": 1956,
+    "C": 1402,
+    "HTML": 251
+  },
+  "size": 661658
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "eb85cf155ab259c0e822f65dee5c984ed060bee6",
+  "repo_url": "https://github.com/jcubic/jquery.terminal",
+  "date": "2021-12-27T10:27:01",
+  "languages": {
+    "JavaScript": 2061214,
+    "CSS": 91595,
+    "TypeScript": 44568,
+    "Makefile": 12891,
+    "Shell": 1519,
+    "HTML": 811
+  },
+  "size": 2212598
+}

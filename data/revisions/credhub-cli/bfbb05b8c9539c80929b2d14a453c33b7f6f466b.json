@@ -1,0 +1,11 @@
+{
+  "commit": "bfbb05b8c9539c80929b2d14a453c33b7f6f466b",
+  "repo_url": "https://github.com/cloudfoundry-incubator/credhub-cli",
+  "date": "2018-11-13T16:38:56",
+  "languages": {
+    "Go": 494034,
+    "Shell": 1200,
+    "Makefile": 486
+  },
+  "size": 495720
+}

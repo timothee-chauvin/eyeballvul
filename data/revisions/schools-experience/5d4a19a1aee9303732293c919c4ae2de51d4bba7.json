@@ -1,0 +1,17 @@
+{
+  "commit": "5d4a19a1aee9303732293c919c4ae2de51d4bba7",
+  "repo_url": "https://github.com/dfe-digital/schools-experience",
+  "date": "2019-08-01T12:59:46",
+  "languages": {
+    "Ruby": 1064513,
+    "HTML": 201531,
+    "Gherkin": 122554,
+    "SCSS": 16299,
+    "JavaScript": 10265,
+    "Python": 1968,
+    "Shell": 1811,
+    "Dockerfile": 1506,
+    "Procfile": 31
+  },
+  "size": 1420478
+}

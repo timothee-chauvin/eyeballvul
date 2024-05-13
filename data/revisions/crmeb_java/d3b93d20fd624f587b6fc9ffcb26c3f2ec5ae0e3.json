@@ -1,0 +1,16 @@
+{
+  "commit": "d3b93d20fd624f587b6fc9ffcb26c3f2ec5ae0e3",
+  "repo_url": "https://github.com/crmeb/crmeb_java",
+  "date": "2022-09-08T07:39:41",
+  "languages": {
+    "Java": 3530236,
+    "Vue": 3187261,
+    "HTML": 2183355,
+    "JavaScript": 1078358,
+    "CSS": 159781,
+    "SCSS": 85458,
+    "Shell": 5354,
+    "Handlebars": 789
+  },
+  "size": 10230592
+}

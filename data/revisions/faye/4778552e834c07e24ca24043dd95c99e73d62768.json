@@ -1,0 +1,15 @@
+{
+  "commit": "4778552e834c07e24ca24043dd95c99e73d62768",
+  "repo_url": "https://github.com/faye/faye",
+  "date": "2017-01-28T16:15:45",
+  "languages": {
+    "JavaScript": 293153,
+    "Ruby": 178211,
+    "Haml": 118271,
+    "Sass": 3372,
+    "Makefile": 1563,
+    "CSS": 300,
+    "HTML": 179
+  },
+  "size": 595049
+}

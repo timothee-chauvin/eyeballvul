@@ -1,0 +1,12 @@
+{
+  "commit": "4d2768fbb168c036f2bb1ac60f7e00024ebff550",
+  "repo_url": "https://github.com/suse/rmt",
+  "date": "2019-01-15T15:04:27",
+  "languages": {
+    "Ruby": 408633,
+    "Shell": 16753,
+    "Makefile": 2445,
+    "Dockerfile": 1769
+  },
+  "size": 429600
+}

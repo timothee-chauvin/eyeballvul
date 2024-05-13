@@ -1,0 +1,17 @@
+{
+  "commit": "c6484d59f1fad41352e2a5bdba894e7f4aed1877",
+  "repo_url": "https://github.com/lkw199711/smanga",
+  "date": "2023-04-01T15:33:43",
+  "languages": {
+    "Vue": 125889,
+    "TypeScript": 107995,
+    "PHP": 96854,
+    "HTML": 61940,
+    "CSS": 18318,
+    "Less": 9076,
+    "Dockerfile": 6591,
+    "JavaScript": 4554,
+    "Shell": 1023
+  },
+  "size": 432240
+}

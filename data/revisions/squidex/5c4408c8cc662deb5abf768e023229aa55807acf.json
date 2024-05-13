@@ -1,0 +1,19 @@
+{
+  "commit": "5c4408c8cc662deb5abf768e023229aa55807acf",
+  "repo_url": "https://github.com/squidex/squidex",
+  "date": "2022-11-20T16:00:41",
+  "languages": {
+    "C#": 6496092,
+    "TypeScript": 2120322,
+    "HTML": 828162,
+    "SCSS": 158446,
+    "JavaScript": 32540,
+    "CSS": 11107,
+    "PowerShell": 5434,
+    "Mustache": 4810,
+    "Dockerfile": 2599,
+    "Shell": 1663,
+    "Batchfile": 598
+  },
+  "size": 9661773
+}

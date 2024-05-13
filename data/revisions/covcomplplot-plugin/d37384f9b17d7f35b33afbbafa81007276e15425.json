@@ -1,0 +1,13 @@
+{
+  "commit": "d37384f9b17d7f35b33afbbafa81007276e15425",
+  "repo_url": "https://github.com/jenkinsci/covcomplplot-plugin",
+  "date": "2011-08-13T17:20:27",
+  "languages": {
+    "Java": 102517,
+    "JavaScript": 1844,
+    "CSS": 1104,
+    "Batchfile": 497,
+    "HTML": 397
+  },
+  "size": 106359
+}

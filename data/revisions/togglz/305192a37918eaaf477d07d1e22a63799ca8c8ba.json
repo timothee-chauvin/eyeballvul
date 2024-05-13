@@ -1,0 +1,14 @@
+{
+  "commit": "305192a37918eaaf477d07d1e22a63799ca8c8ba",
+  "repo_url": "https://github.com/togglz/togglz",
+  "date": "2021-01-11T11:11:45",
+  "languages": {
+    "Java": 919339,
+    "Groovy": 15822,
+    "Kotlin": 12889,
+    "HTML": 6547,
+    "CSS": 836,
+    "Shell": 644
+  },
+  "size": 956077
+}

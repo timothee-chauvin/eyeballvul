@@ -1,0 +1,12 @@
+{
+  "commit": "60ef0c07e66012a6455e2ff8a799dd6b37dc3b25",
+  "repo_url": "https://github.com/hazelcast/hazelcast",
+  "date": "2015-12-18T13:33:35",
+  "languages": {
+    "Java": 20686219,
+    "FreeMarker": 76229,
+    "Shell": 6759,
+    "Batchfile": 948
+  },
+  "size": 20770155
+}

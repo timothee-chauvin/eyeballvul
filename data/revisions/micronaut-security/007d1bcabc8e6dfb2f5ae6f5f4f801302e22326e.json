@@ -1,0 +1,14 @@
+{
+  "commit": "007d1bcabc8e6dfb2f5ae6f5f4f801302e22326e",
+  "repo_url": "https://github.com/micronaut-projects/micronaut-security",
+  "date": "2023-04-11T09:51:40",
+  "languages": {
+    "Java": 1459206,
+    "Groovy": 947259,
+    "Kotlin": 13314,
+    "JavaScript": 2168,
+    "CSS": 1559,
+    "Shell": 1526
+  },
+  "size": 2425032
+}

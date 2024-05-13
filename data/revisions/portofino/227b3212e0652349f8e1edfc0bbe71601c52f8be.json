@@ -1,0 +1,20 @@
+{
+  "commit": "227b3212e0652349f8e1edfc0bbe71601c52f8be",
+  "repo_url": "https://github.com/manydesigns/portofino",
+  "date": "2020-11-29T20:56:15",
+  "languages": {
+    "Java": 2625168,
+    "TypeScript": 324013,
+    "Groovy": 189638,
+    "HTML": 96249,
+    "CSS": 74229,
+    "SCSS": 8274,
+    "XSLT": 8260,
+    "JavaScript": 7719,
+    "Python": 4554,
+    "Dockerfile": 3383,
+    "Shell": 262,
+    "Batchfile": 58
+  },
+  "size": 3341807
+}

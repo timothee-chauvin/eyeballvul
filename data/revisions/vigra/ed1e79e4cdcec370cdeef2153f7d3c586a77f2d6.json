@@ -1,0 +1,21 @@
+{
+  "commit": "ed1e79e4cdcec370cdeef2153f7d3c586a77f2d6",
+  "repo_url": "https://github.com/ukoethe/vigra",
+  "date": "2017-05-19T15:01:08",
+  "languages": {
+    "C++": 21636826,
+    "Jupyter Notebook": 3391055,
+    "HTML": 471605,
+    "Python": 466015,
+    "C": 113143,
+    "CMake": 107650,
+    "CSS": 65018,
+    "MATLAB": 32719,
+    "JavaScript": 24066,
+    "TeX": 15209,
+    "Inno Setup": 6501,
+    "Batchfile": 3499,
+    "Shell": 809
+  },
+  "size": 26334115
+}

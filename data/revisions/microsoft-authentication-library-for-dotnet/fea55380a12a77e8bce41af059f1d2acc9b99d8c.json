@@ -1,0 +1,11 @@
+{
+  "commit": "fea55380a12a77e8bce41af059f1d2acc9b99d8c",
+  "repo_url": "https://github.com/azuread/microsoft-authentication-library-for-dotnet",
+  "date": "2024-04-09T20:36:29",
+  "languages": {
+    "C#": 8463282,
+    "PowerShell": 82769,
+    "Java": 6853
+  },
+  "size": 8552904
+}

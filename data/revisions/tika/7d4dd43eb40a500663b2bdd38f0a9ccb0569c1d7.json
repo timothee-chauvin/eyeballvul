@@ -1,0 +1,24 @@
+{
+  "commit": "7d4dd43eb40a500663b2bdd38f0a9ccb0569c1d7",
+  "repo_url": "https://github.com/apache/tika",
+  "date": "2019-05-15T01:32:37",
+  "languages": {
+    "Java": 7105970,
+    "Rich Text Format": 2113398,
+    "HTML": 236709,
+    "Python": 75147,
+    "MATLAB": 19803,
+    "Groovy": 5255,
+    "JavaScript": 4417,
+    "SAS": 2086,
+    "Batchfile": 1816,
+    "Shell": 1460,
+    "CSS": 1363,
+    "Dockerfile": 1294,
+    "TeX": 1124,
+    "XSLT": 252,
+    "C++": 171,
+    "C": 145
+  },
+  "size": 9570410
+}

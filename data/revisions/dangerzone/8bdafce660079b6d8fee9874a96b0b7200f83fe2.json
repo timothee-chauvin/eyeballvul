@@ -1,0 +1,14 @@
+{
+  "commit": "8bdafce660079b6d8fee9874a96b0b7200f83fe2",
+  "repo_url": "https://github.com/freedomofpress/dangerzone",
+  "date": "2023-04-24T08:50:58",
+  "languages": {
+    "Python": 206980,
+    "Dockerfile": 2597,
+    "Makefile": 1960,
+    "Shell": 1666,
+    "Batchfile": 1081,
+    "CSS": 591
+  },
+  "size": 214875
+}

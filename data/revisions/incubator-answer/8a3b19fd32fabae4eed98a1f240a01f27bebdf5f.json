@@ -1,0 +1,18 @@
+{
+  "commit": "8a3b19fd32fabae4eed98a1f240a01f27bebdf5f",
+  "repo_url": "https://github.com/apache/incubator-answer",
+  "date": "2023-11-15T09:35:52",
+  "languages": {
+    "Go": 1603174,
+    "TypeScript": 1049263,
+    "HTML": 47071,
+    "SCSS": 27517,
+    "JavaScript": 9039,
+    "Shell": 7260,
+    "Smarty": 2499,
+    "Dockerfile": 2112,
+    "CSS": 1876,
+    "Makefile": 1378
+  },
+  "size": 2751189
+}

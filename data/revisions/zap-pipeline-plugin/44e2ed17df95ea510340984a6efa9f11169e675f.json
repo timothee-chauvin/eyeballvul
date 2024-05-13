@@ -1,0 +1,12 @@
+{
+  "commit": "44e2ed17df95ea510340984a6efa9f11169e675f",
+  "repo_url": "https://github.com/jenkinsci/zap-pipeline-plugin",
+  "date": "2019-02-13T09:06:23",
+  "languages": {
+    "Java": 114327,
+    "JavaScript": 10531,
+    "HTML": 5438,
+    "CSS": 3782
+  },
+  "size": 134078
+}

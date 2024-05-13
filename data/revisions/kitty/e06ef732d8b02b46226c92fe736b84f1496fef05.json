@@ -1,0 +1,16 @@
+{
+  "commit": "e06ef732d8b02b46226c92fe736b84f1496fef05",
+  "repo_url": "https://github.com/kovidgoyal/kitty",
+  "date": "2020-11-13T04:02:53",
+  "languages": {
+    "Python": 1240496,
+    "C": 894260,
+    "Objective-C": 206691,
+    "GLSL": 18854,
+    "Nix": 1487,
+    "Makefile": 701,
+    "Vim Script": 472,
+    "Ruby": 55
+  },
+  "size": 2363016
+}

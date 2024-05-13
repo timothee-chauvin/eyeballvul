@@ -1,0 +1,13 @@
+{
+  "commit": "beb2a8f7fbc765871f8268a089d00a45316985ed",
+  "repo_url": "https://github.com/matestack/matestack-ui-core",
+  "date": "2019-11-10T18:16:46",
+  "languages": {
+    "Ruby": 385353,
+    "CSS": 36225,
+    "JavaScript": 31563,
+    "Haml": 13766,
+    "HTML": 11201
+  },
+  "size": 478108
+}

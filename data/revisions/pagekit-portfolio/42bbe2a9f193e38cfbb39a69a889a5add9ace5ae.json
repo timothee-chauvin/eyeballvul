@@ -1,0 +1,12 @@
+{
+  "commit": "42bbe2a9f193e38cfbb39a69a889a5add9ace5ae",
+  "repo_url": "https://github.com/bixie/pagekit-portfolio",
+  "date": "2016-12-01T15:39:01",
+  "languages": {
+    "PHP": 76948,
+    "JavaScript": 29022,
+    "Vue": 24421,
+    "HTML": 1722
+  },
+  "size": 132113
+}

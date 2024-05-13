@@ -1,0 +1,15 @@
+{
+  "commit": "5418e42cf822cc99f848753111f1d6d11d22d192",
+  "repo_url": "https://github.com/flexsolution/alfrescoresetpassword",
+  "date": "2020-09-16T11:22:48",
+  "languages": {
+    "Java": 34590,
+    "JavaScript": 12946,
+    "FreeMarker": 11063,
+    "Dockerfile": 741,
+    "CSS": 690,
+    "Batchfile": 660,
+    "Shell": 416
+  },
+  "size": 61106
+}

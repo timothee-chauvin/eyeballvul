@@ -1,0 +1,16 @@
+{
+  "id": "PSF-2022-3",
+  "published": "2022-03-25T00:00:00",
+  "modified": "2023-11-08T04:00:15.155146",
+  "details": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
+  "summary": "Windows: vulnerable zlib 1.2.11",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "88db37442238079a2eff4d142e8e94cfddb58e22",
+    "a58ebcc701dd6c43630df941481475ff0f615a81",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

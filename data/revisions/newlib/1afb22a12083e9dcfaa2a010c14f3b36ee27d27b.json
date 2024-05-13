@@ -1,0 +1,31 @@
+{
+  "commit": "1afb22a12083e9dcfaa2a010c14f3b36ee27d27b",
+  "repo_url": "https://github.com/bminor/newlib",
+  "date": "2020-01-02T19:56:24",
+  "languages": {
+    "C": 40404768,
+    "Makefile": 5982877,
+    "C++": 4781422,
+    "Assembly": 2251519,
+    "M4": 458450,
+    "TeX": 403265,
+    "Shell": 394208,
+    "Perl": 152572,
+    "Roff": 91476,
+    "Raku": 75267,
+    "Python": 26261,
+    "Emacs Lisp": 21698,
+    "RPC": 14359,
+    "Scala": 8638,
+    "Yacc": 8101,
+    "XSLT": 5385,
+    "Mathematica": 3483,
+    "Batchfile": 1875,
+    "GDB": 1300,
+    "DIGITAL Command Language": 1044,
+    "CSS": 972,
+    "Awk": 570,
+    "Tcl": 123
+  },
+  "size": 55089633
+}

@@ -1,0 +1,32 @@
+{
+  "commit": "4b834a56bf1bbd170f6c96a08a46d10b4e362655",
+  "repo_url": "https://github.com/fluent/fluent-bit",
+  "date": "2018-12-13T18:13:51",
+  "languages": {
+    "C": 29803878,
+    "C++": 5502169,
+    "Lua": 794967,
+    "Shell": 779214,
+    "HTML": 546992,
+    "CMake": 298936,
+    "Makefile": 280313,
+    "Python": 270659,
+    "Perl": 179331,
+    "M4": 144480,
+    "Ruby": 76485,
+    "Roff": 55538,
+    "JavaScript": 40203,
+    "Batchfile": 31070,
+    "CSS": 25109,
+    "Dockerfile": 2531,
+    "Java": 665,
+    "sed": 588,
+    "BitBake": 567,
+    "XSLT": 415,
+    "Awk": 271,
+    "PowerShell": 256,
+    "Emacs Lisp": 131,
+    "Tcl": 110
+  },
+  "size": 38834878
+}

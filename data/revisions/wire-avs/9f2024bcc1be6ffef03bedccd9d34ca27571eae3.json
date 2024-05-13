@@ -1,0 +1,19 @@
+{
+  "commit": "9f2024bcc1be6ffef03bedccd9d34ca27571eae3",
+  "repo_url": "https://github.com/wireapp/wire-avs",
+  "date": "2021-06-07T13:49:45",
+  "languages": {
+    "C": 1372018,
+    "C++": 1089453,
+    "Objective-C": 195869,
+    "Java": 123690,
+    "Makefile": 117961,
+    "TypeScript": 59867,
+    "Objective-C++": 59349,
+    "MATLAB": 43770,
+    "Shell": 21572,
+    "Python": 12247,
+    "JavaScript": 9544
+  },
+  "size": 3105340
+}

@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2019-14",
+  "published": "2019-11-14T00:00:00",
+  "modified": "2023-09-18T01:59:20.929472",
+  "details": "The regex ``http.cookiejar.LOOSE_HTTP_DATE_RE`` is vulnerable to regular\nexpression denial of service (\"REDoS\"). ``LOOSE_HTTP_DATE_RE.match()`` is\ncalled when using ``http.cookiejar.CookieJar`` to parse ``Set-Cookie``\nheaders returned by a HTTP server. Processing a response from a malicious\nHTTP server can lead to extreme CPU usage and execution will be blocked\nfor a long time.\n",
+  "summary": "Regular Expression Denial of Service in http.cookiejar",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

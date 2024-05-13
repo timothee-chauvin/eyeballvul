@@ -1,0 +1,13 @@
+{
+  "commit": "8c5f47f8d0be6bbfc2668791653fc8af75f3cd2b",
+  "repo_url": "https://github.com/espressif/esptool",
+  "date": "2023-06-12T12:16:14",
+  "languages": {
+    "Python": 1071738,
+    "C": 468446,
+    "Makefile": 12424,
+    "Shell": 2610,
+    "PowerShell": 2077
+  },
+  "size": 1557295
+}

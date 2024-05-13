@@ -1,0 +1,16 @@
+{
+  "commit": "b9ea78e195941423c7b797624fc139a0e3c38c66",
+  "repo_url": "https://github.com/usbguard/usbguard",
+  "date": "2021-01-13T15:16:41",
+  "languages": {
+    "C++": 866246,
+    "Shell": 71920,
+    "M4": 52629,
+    "Makefile": 23337,
+    "Jinja": 12291,
+    "C": 7691,
+    "Perl": 1058,
+    "Vim Script": 17
+  },
+  "size": 1035189
+}

@@ -1,0 +1,20 @@
+{
+  "commit": "3df0ac6fa18b1ccfc34f6d234da2aa8c43643a93",
+  "repo_url": "https://github.com/adobe/brackets",
+  "date": "2016-01-12T12:25:40",
+  "languages": {
+    "JavaScript": 12163920,
+    "HTML": 2059652,
+    "Less": 344150,
+    "CSS": 172744,
+    "PHP": 26150,
+    "Shell": 12264,
+    "Ruby": 9030,
+    "SCSS": 5072,
+    "Batchfile": 2667,
+    "Hack": 2646,
+    "Makefile": 2176,
+    "Clojure": 28
+  },
+  "size": 14800499
+}

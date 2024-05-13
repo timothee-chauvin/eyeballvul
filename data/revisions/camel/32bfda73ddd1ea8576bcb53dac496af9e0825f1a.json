@@ -1,0 +1,28 @@
+{
+  "commit": "32bfda73ddd1ea8576bcb53dac496af9e0825f1a",
+  "repo_url": "https://github.com/apache/camel",
+  "date": "2018-03-25T15:26:54",
+  "languages": {
+    "Java": 68528233,
+    "Scala": 323702,
+    "XSLT": 285105,
+    "HTML": 190394,
+    "JavaScript": 90399,
+    "Groovy": 54390,
+    "CSS": 30373,
+    "Shell": 17107,
+    "Elm": 10852,
+    "FreeMarker": 9248,
+    "Thrift": 6979,
+    "Apex": 6519,
+    "Tcl": 4974,
+    "Ruby": 4802,
+    "Fluent": 2162,
+    "Batchfile": 1518,
+    "XQuery": 546,
+    "Mustache": 525,
+    "Makefile": 513,
+    "Python": 36
+  },
+  "size": 69568377
+}

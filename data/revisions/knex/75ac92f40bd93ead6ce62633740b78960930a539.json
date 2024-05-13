@@ -1,0 +1,11 @@
+{
+  "commit": "75ac92f40bd93ead6ce62633740b78960930a539",
+  "repo_url": "https://github.com/knex/knex",
+  "date": "2019-08-28T22:18:30",
+  "languages": {
+    "JavaScript": 1442151,
+    "TypeScript": 30469,
+    "Shell": 685
+  },
+  "size": 1473305
+}

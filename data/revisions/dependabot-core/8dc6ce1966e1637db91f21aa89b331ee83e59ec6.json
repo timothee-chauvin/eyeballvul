@@ -1,0 +1,17 @@
+{
+  "commit": "8dc6ce1966e1637db91f21aa89b331ee83e59ec6",
+  "repo_url": "https://github.com/dependabot/dependabot-core",
+  "date": "2020-11-05T11:30:23",
+  "languages": {
+    "Ruby": 4458929,
+    "JavaScript": 40946,
+    "PHP": 14352,
+    "Shell": 11440,
+    "Elixir": 9120,
+    "Go": 8750,
+    "Python": 6537,
+    "Dockerfile": 5695,
+    "Makefile": 396
+  },
+  "size": 4556165
+}

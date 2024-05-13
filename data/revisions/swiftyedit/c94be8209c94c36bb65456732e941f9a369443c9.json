@@ -1,0 +1,14 @@
+{
+  "commit": "c94be8209c94c36bb65456732e941f9a369443c9",
+  "repo_url": "https://github.com/swiftyedit/swiftyedit",
+  "date": "2023-06-20T09:46:05",
+  "languages": {
+    "JavaScript": 4142039,
+    "CSS": 1395691,
+    "PHP": 1135813,
+    "Smarty": 195007,
+    "HTML": 161004,
+    "SCSS": 43966
+  },
+  "size": 7073520
+}

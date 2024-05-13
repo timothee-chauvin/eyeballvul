@@ -1,0 +1,11 @@
+{
+  "commit": "758def3bf1760407975d7458105f7fd0bb099a9d",
+  "repo_url": "https://github.com/canonical/subiquity",
+  "date": "2020-05-07T00:56:46",
+  "languages": {
+    "Python": 907027,
+    "Shell": 18187,
+    "Makefile": 1623
+  },
+  "size": 926837
+}

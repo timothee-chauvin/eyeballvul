@@ -1,0 +1,14 @@
+{
+  "commit": "59650728a2abf126d703cca355b1f869b06f9ed2",
+  "repo_url": "https://github.com/grocy/grocy",
+  "date": "2020-04-17T18:12:06",
+  "languages": {
+    "JavaScript": 339348,
+    "Blade": 298578,
+    "PHP": 272174,
+    "CSS": 15227,
+    "Batchfile": 1585,
+    "Shell": 968
+  },
+  "size": 927880
+}

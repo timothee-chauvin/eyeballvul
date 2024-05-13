@@ -1,0 +1,13 @@
+{
+  "commit": "c1ba2b5338d291d7362c6f467889d4f787745069",
+  "repo_url": "https://github.com/justarchinet/archisteamfarm",
+  "date": "2020-10-07T19:25:15",
+  "languages": {
+    "C#": 1012475,
+    "Shell": 20039,
+    "Dockerfile": 2862,
+    "HTML": 735,
+    "Batchfile": 169
+  },
+  "size": 1036280
+}

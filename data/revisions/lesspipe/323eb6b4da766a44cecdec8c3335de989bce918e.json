@@ -1,0 +1,11 @@
+{
+  "commit": "323eb6b4da766a44cecdec8c3335de989bce918e",
+  "repo_url": "https://github.com/wofr06/lesspipe",
+  "date": "2022-04-26T12:12:16",
+  "languages": {
+    "Perl": 118293,
+    "Shell": 30346,
+    "Roff": 9488
+  },
+  "size": 158127
+}

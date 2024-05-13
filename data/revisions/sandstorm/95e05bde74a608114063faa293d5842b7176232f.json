@@ -1,0 +1,18 @@
+{
+  "commit": "95e05bde74a608114063faa293d5842b7176232f",
+  "repo_url": "https://github.com/sandstorm-io/sandstorm",
+  "date": "2017-02-05T02:59:32",
+  "languages": {
+    "JavaScript": 1468745,
+    "C++": 784695,
+    "HTML": 238136,
+    "Cap'n Proto": 231119,
+    "SCSS": 161776,
+    "Shell": 113056,
+    "Perl": 41546,
+    "Makefile": 15478,
+    "C": 12990,
+    "Standard ML": 1961
+  },
+  "size": 3069502
+}

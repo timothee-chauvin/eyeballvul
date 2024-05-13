@@ -1,0 +1,21 @@
+{
+  "commit": "07643ec47274ee98334c9495a25c892e48a18263",
+  "repo_url": "https://github.com/mhammond/pywin32",
+  "date": "2020-11-14T06:03:13",
+  "languages": {
+    "C++": 9175761,
+    "Python": 3735231,
+    "SWIG": 1462438,
+    "C": 629704,
+    "HTML": 210087,
+    "D": 60282,
+    "Makefile": 48227,
+    "Visual Basic 6.0": 13720,
+    "Batchfile": 6405,
+    "Classic ASP": 2117,
+    "XSLT": 2058,
+    "JavaScript": 1656,
+    "VBScript": 904
+  },
+  "size": 15348590
+}

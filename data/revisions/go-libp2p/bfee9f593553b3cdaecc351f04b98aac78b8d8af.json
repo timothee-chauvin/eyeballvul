@@ -1,0 +1,11 @@
+{
+  "commit": "bfee9f593553b3cdaecc351f04b98aac78b8d8af",
+  "repo_url": "https://github.com/libp2p/go-libp2p",
+  "date": "2021-12-14T09:32:12",
+  "languages": {
+    "Go": 471080,
+    "Shell": 7939,
+    "Makefile": 643
+  },
+  "size": 479662
+}

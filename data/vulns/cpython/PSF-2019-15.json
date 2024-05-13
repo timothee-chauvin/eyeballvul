@@ -1,0 +1,13 @@
+{
+  "id": "PSF-2019-15",
+  "published": "2019-11-30T00:00:00",
+  "modified": "2023-09-18T01:59:17.951766",
+  "details": "Filenames passed to the UU encoding methods (uu.py and uu_codec.py) that\ncontain a newline character will overflow data into the UU content section.\nThis can potentially be used to inject replace or corrupt data content in a\nfile during the decode process.\n\nThe fix removes newline characters from filenames.\n",
+  "summary": "Remove newline characters from uu encoding methods",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0"
+  ]
+}

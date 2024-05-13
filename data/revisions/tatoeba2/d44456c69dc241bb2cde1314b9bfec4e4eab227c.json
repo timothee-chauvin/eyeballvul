@@ -1,0 +1,15 @@
+{
+  "commit": "d44456c69dc241bb2cde1314b9bfec4e4eab227c",
+  "repo_url": "https://github.com/tatoeba/tatoeba2",
+  "date": "2022-10-22T19:07:33",
+  "languages": {
+    "PHP": 2478583,
+    "HTML": 219100,
+    "JavaScript": 169393,
+    "CSS": 130768,
+    "Shell": 11395,
+    "Python": 4730,
+    "Batchfile": 862
+  },
+  "size": 3014831
+}

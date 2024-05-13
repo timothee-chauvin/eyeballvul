@@ -1,0 +1,16 @@
+{
+  "commit": "63b7b1c18fbeccfa31f5c9617b1fdccd95d26864",
+  "repo_url": "https://github.com/wallabag/wallabag",
+  "date": "2022-10-21T04:43:56",
+  "languages": {
+    "PHP": 1315428,
+    "Twig": 288655,
+    "SCSS": 53630,
+    "JavaScript": 38015,
+    "CSS": 20649,
+    "Shell": 4236,
+    "Dockerfile": 2462,
+    "Makefile": 1817
+  },
+  "size": 1724892
+}

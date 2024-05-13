@@ -1,0 +1,11 @@
+{
+  "commit": "27e8053d8c2b06ef6cc93041d898c6080586aa3e",
+  "repo_url": "https://github.com/google/slo-generator",
+  "date": "2021-09-28T13:03:41",
+  "languages": {
+    "Python": 204934,
+    "Makefile": 3728,
+    "Dockerfile": 947
+  },
+  "size": 209609
+}

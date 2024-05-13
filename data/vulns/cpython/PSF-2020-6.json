@@ -1,0 +1,14 @@
+{
+  "id": "PSF-2020-6",
+  "published": "2020-10-22T02:47:40",
+  "modified": "2023-12-06T01:00:29.252193",
+  "details": "In Python 3 through 3.9.0, the Lib/test/multibytecodec_support.py CJK codec tests call eval() on content retrieved via HTTP.",
+  "summary": "CJK codecs tests call eval() on content retrieved via HTTP",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804",
+    "c1004b85464579771db3b50f5b150449275bbbd0",
+    "dfa645a65ec0788d98851130a217e029d1cc4e9b"
+  ]
+}

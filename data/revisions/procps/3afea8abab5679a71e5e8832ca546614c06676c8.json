@@ -1,0 +1,13 @@
+{
+  "commit": "3afea8abab5679a71e5e8832ca546614c06676c8",
+  "repo_url": "https://gitlab.com/procps-ng/procps",
+  "date": "2018-04-10T11:37:39",
+  "languages": {
+    "C": 980115,
+    "Roff": 197040,
+    "Shell": 13120,
+    "Makefile": 12336,
+    "M4": 9568
+  },
+  "size": 1212179
+}

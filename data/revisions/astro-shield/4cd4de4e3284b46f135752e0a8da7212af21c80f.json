@@ -1,0 +1,13 @@
+{
+  "commit": "4cd4de4e3284b46f135752e0a8da7212af21c80f",
+  "repo_url": "https://github.com/kindspells/astro-shield",
+  "date": "2024-03-26T15:47:24",
+  "languages": {
+    "TypeScript": 49176,
+    "JavaScript": 34836,
+    "Astro": 4133,
+    "CSS": 3704,
+    "Shell": 147
+  },
+  "size": 91996
+}

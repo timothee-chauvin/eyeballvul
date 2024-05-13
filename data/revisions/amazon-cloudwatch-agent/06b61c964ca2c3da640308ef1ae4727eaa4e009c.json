@@ -1,0 +1,16 @@
+{
+  "commit": "06b61c964ca2c3da640308ef1ae4727eaa4e009c",
+  "repo_url": "https://github.com/aws/amazon-cloudwatch-agent",
+  "date": "2022-07-21T12:16:51",
+  "languages": {
+    "Go": 2044858,
+    "Shell": 60586,
+    "PowerShell": 26134,
+    "HCL": 22807,
+    "Makefile": 22449,
+    "Smarty": 4332,
+    "Dockerfile": 3419,
+    "Python": 966
+  },
+  "size": 2185551
+}

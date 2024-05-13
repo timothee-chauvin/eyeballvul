@@ -1,0 +1,11 @@
+{
+  "commit": "1c517ffafcf8907b159146ae51d897cd3bcddbfe",
+  "repo_url": "https://github.com/datadog/guarddog",
+  "date": "2022-11-28T15:10:02",
+  "languages": {
+    "Python": 91681,
+    "Makefile": 346,
+    "Dockerfile": 299
+  },
+  "size": 92326
+}

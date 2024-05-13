@@ -1,0 +1,20 @@
+{
+  "commit": "9dbd0ab8733185008ec69ac0fa8d6546320b7799",
+  "repo_url": "https://github.com/dapr/dapr",
+  "date": "2023-07-19T19:58:25",
+  "languages": {
+    "Go": 4619860,
+    "Shell": 77027,
+    "Makefile": 68693,
+    "Bicep": 26288,
+    "JavaScript": 18983,
+    "Java": 17849,
+    "Dockerfile": 7638,
+    "C#": 7388,
+    "Mustache": 6936,
+    "Python": 4464,
+    "PHP": 2600,
+    "Batchfile": 1187
+  },
+  "size": 4858913
+}

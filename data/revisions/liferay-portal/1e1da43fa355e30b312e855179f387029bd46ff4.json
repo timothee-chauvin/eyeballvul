@@ -1,0 +1,27 @@
+{
+  "commit": "1e1da43fa355e30b312e855179f387029bd46ff4",
+  "repo_url": "https://github.com/liferay/liferay-portal",
+  "date": "2022-09-02T22:17:26",
+  "languages": {
+    "Java": 392444946,
+    "JavaScript": 14330071,
+    "SCSS": 3299118,
+    "CSS": 2796044,
+    "TypeScript": 1854267,
+    "FreeMarker": 1319822,
+    "HTML": 1155993,
+    "Groovy": 110028,
+    "Shell": 95732,
+    "Closure Templates": 64548,
+    "GAP": 50975,
+    "XSLT": 22579,
+    "Smarty": 11089,
+    "ANTLR": 5178,
+    "Ruby": 707,
+    "Batchfile": 498,
+    "Roff": 270,
+    "Go": 71,
+    "Dockerfile": 29
+  },
+  "size": 417561965
+}

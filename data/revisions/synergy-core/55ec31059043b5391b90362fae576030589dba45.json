@@ -1,0 +1,21 @@
+{
+  "commit": "55ec31059043b5391b90362fae576030589dba45",
+  "repo_url": "https://github.com/symless/synergy-core",
+  "date": "2020-03-19T15:45:53",
+  "languages": {
+    "C++": 8482769,
+    "C": 2794988,
+    "Shell": 601116,
+    "Python": 288531,
+    "Makefile": 135044,
+    "CMake": 68561,
+    "Objective-C++": 57270,
+    "M4": 25348,
+    "Objective-C": 21144,
+    "QMake": 5919,
+    "Qt Script": 3493,
+    "Dockerfile": 1838,
+    "Batchfile": 356
+  },
+  "size": 12486377
+}

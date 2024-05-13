@@ -1,0 +1,18 @@
+{
+  "commit": "76639f59c5e64c156085addf11d61cfaf28c1902",
+  "repo_url": "https://github.com/polonel/trudesk",
+  "date": "2021-11-21T17:03:38",
+  "languages": {
+    "JavaScript": 11055410,
+    "CSS": 583680,
+    "SCSS": 507907,
+    "Handlebars": 414858,
+    "Sass": 205466,
+    "HTML": 70724,
+    "TypeScript": 14435,
+    "Dockerfile": 828,
+    "Makefile": 694,
+    "Shell": 412
+  },
+  "size": 12854414
+}

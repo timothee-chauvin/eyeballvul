@@ -1,0 +1,12 @@
+{
+  "commit": "54d0194f1832054f854b25172d740ac51ce541da",
+  "repo_url": "https://github.com/mendersoftware/useradm",
+  "date": "2021-03-24T11:56:37",
+  "languages": {
+    "Go": 278320,
+    "Python": 65889,
+    "Shell": 2143,
+    "Dockerfile": 682
+  },
+  "size": 347034
+}

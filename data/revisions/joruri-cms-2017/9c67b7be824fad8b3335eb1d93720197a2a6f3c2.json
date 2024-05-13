@@ -1,0 +1,14 @@
+{
+  "commit": "9c67b7be824fad8b3335eb1d93720197a2a6f3c2",
+  "repo_url": "https://github.com/joruri/joruri-cms-2017",
+  "date": "2017-12-21T04:41:19",
+  "languages": {
+    "Ruby": 3171598,
+    "HTML": 1058129,
+    "JavaScript": 520740,
+    "CSS": 125167,
+    "PHP": 2232,
+    "Shell": 2196
+  },
+  "size": 4880062
+}

@@ -1,0 +1,13 @@
+{
+  "commit": "e8dde6e986a7332c5cd4c4540c5cb16b5e3c6fbb",
+  "repo_url": "https://github.com/jpcertcc/logontracer",
+  "date": "2018-10-20T04:40:32",
+  "languages": {
+    "JavaScript": 45030,
+    "Python": 40413,
+    "HTML": 22672,
+    "Dockerfile": 2773,
+    "CSS": 288
+  },
+  "size": 111176
+}

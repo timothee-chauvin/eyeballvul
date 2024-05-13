@@ -1,0 +1,12 @@
+{
+  "commit": "0adc6f24af1c28d004d515b9339618caa1916e92",
+  "repo_url": "https://github.com/linuxdeepin/deepin-reader",
+  "date": "2023-11-03T05:28:52",
+  "languages": {
+    "C++": 1114533,
+    "C": 11962,
+    "QMake": 9146,
+    "Shell": 3725
+  },
+  "size": 1139366
+}

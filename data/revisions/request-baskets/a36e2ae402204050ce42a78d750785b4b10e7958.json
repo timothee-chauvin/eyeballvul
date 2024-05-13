@@ -1,0 +1,12 @@
+{
+  "commit": "a36e2ae402204050ce42a78d750785b4b10e7958",
+  "repo_url": "https://github.com/darklynx/request-baskets",
+  "date": "2022-09-19T13:26:44",
+  "languages": {
+    "Go": 285427,
+    "HTML": 53754,
+    "Shell": 2736,
+    "Dockerfile": 2383
+  },
+  "size": 344300
+}

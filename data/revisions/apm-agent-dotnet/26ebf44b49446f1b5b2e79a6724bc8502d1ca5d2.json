@@ -1,0 +1,16 @@
+{
+  "commit": "26ebf44b49446f1b5b2e79a6724bc8502d1ca5d2",
+  "repo_url": "https://github.com/elastic/apm-agent-dotnet",
+  "date": "2021-03-29T18:33:27",
+  "languages": {
+    "C#": 1841254,
+    "F#": 31138,
+    "Shell": 4934,
+    "Gherkin": 4197,
+    "Batchfile": 3537,
+    "Dockerfile": 3491,
+    "PowerShell": 1810,
+    "HTML": 160
+  },
+  "size": 1890521
+}

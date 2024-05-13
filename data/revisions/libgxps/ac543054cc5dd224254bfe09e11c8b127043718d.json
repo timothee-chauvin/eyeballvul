@@ -1,0 +1,14 @@
+{
+  "commit": "ac543054cc5dd224254bfe09e11c8b127043718d",
+  "repo_url": "https://github.com/gnome/libgxps",
+  "date": "2017-02-25T08:03:21",
+  "languages": {
+    "C": 461584,
+    "Python": 50534,
+    "Makefile": 22556,
+    "M4": 8953,
+    "Shell": 957,
+    "Batchfile": 805
+  },
+  "size": 545389
+}

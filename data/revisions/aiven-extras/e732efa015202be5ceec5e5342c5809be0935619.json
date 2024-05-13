@@ -1,0 +1,12 @@
+{
+  "commit": "e732efa015202be5ceec5e5342c5809be0935619",
+  "repo_url": "https://github.com/aiven/aiven-extras",
+  "date": "2022-11-21T12:51:21",
+  "languages": {
+    "PLpgSQL": 18391,
+    "C": 3852,
+    "Makefile": 1963,
+    "Shell": 254
+  },
+  "size": 24460
+}

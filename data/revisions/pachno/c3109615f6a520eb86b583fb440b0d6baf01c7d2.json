@@ -1,0 +1,15 @@
+{
+  "commit": "c3109615f6a520eb86b583fb440b0d6baf01c7d2",
+  "repo_url": "https://github.com/pachno/pachno",
+  "date": "2021-12-28T17:30:37",
+  "languages": {
+    "PHP": 5526625,
+    "JavaScript": 1053569,
+    "CSS": 563291,
+    "SCSS": 403413,
+    "Hack": 8362,
+    "Jinja": 2358,
+    "Dockerfile": 2142
+  },
+  "size": 7559760
+}

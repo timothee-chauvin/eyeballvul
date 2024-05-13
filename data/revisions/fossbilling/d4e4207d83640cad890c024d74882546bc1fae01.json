@@ -1,0 +1,15 @@
+{
+  "commit": "d4e4207d83640cad890c024d74882546bc1fae01",
+  "repo_url": "https://github.com/fossbilling/fossbilling",
+  "date": "2023-04-26T00:46:56",
+  "languages": {
+    "PHP": 3753461,
+    "Twig": 1326156,
+    "CSS": 337259,
+    "JavaScript": 83994,
+    "HTML": 15339,
+    "SCSS": 2376,
+    "Shell": 400
+  },
+  "size": 5518985
+}

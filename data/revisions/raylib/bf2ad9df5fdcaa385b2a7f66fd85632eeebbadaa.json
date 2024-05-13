@@ -1,0 +1,18 @@
+{
+  "commit": "bf2ad9df5fdcaa385b2a7f66fd85632eeebbadaa",
+  "repo_url": "https://github.com/raysan5/raylib",
+  "date": "2022-08-13T20:42:38",
+  "languages": {
+    "C": 1664939,
+    "Lua": 203105,
+    "Makefile": 66112,
+    "CMake": 30500,
+    "Shell": 17639,
+    "HTML": 17129,
+    "Batchfile": 10043,
+    "Zig": 3403,
+    "Meson": 1336,
+    "Roff": 1256
+  },
+  "size": 2015462
+}

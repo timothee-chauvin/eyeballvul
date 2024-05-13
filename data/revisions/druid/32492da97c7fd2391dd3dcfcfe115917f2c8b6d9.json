@@ -1,0 +1,16 @@
+{
+  "commit": "32492da97c7fd2391dd3dcfcfe115917f2c8b6d9",
+  "repo_url": "https://github.com/alibaba/druid",
+  "date": "2020-11-08T04:57:09",
+  "languages": {
+    "Java": 19700646,
+    "HTML": 250853,
+    "TSQL": 177524,
+    "JavaScript": 60537,
+    "PLSQL": 10474,
+    "CSS": 1668,
+    "Batchfile": 822,
+    "Shell": 439
+  },
+  "size": 20202963
+}

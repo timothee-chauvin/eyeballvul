@@ -1,0 +1,18 @@
+{
+  "commit": "525dd1b59052a0169f46ba0c93b479371fd1d59c",
+  "repo_url": "https://github.com/smartstore/smartstorenet",
+  "date": "2020-07-02T01:28:27",
+  "languages": {
+    "C#": 12807172,
+    "HTML": 2248369,
+    "JavaScript": 1116880,
+    "TSQL": 950311,
+    "SCSS": 610956,
+    "Rich Text Format": 171632,
+    "CSS": 79713,
+    "Liquid": 29284,
+    "Batchfile": 4309,
+    "ASP.NET": 105
+  },
+  "size": 18018731
+}

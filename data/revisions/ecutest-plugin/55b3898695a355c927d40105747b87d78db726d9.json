@@ -1,0 +1,14 @@
+{
+  "commit": "55b3898695a355c927d40105747b87d78db726d9",
+  "repo_url": "https://github.com/jenkinsci/ecutest-plugin",
+  "date": "2018-07-20T13:16:38",
+  "languages": {
+    "Java": 1796524,
+    "HTML": 74120,
+    "Groovy": 40333,
+    "JavaScript": 4498,
+    "CSS": 3721,
+    "ANTLR": 2858
+  },
+  "size": 1922054
+}

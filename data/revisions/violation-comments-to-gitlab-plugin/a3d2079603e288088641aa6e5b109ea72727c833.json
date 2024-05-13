@@ -1,0 +1,11 @@
+{
+  "commit": "a3d2079603e288088641aa6e5b109ea72727c833",
+  "repo_url": "https://github.com/jenkinsci/violation-comments-to-gitlab-plugin",
+  "date": "2019-09-04T19:36:27",
+  "languages": {
+    "Java": 48460,
+    "HTML": 622,
+    "Shell": 431
+  },
+  "size": 49513
+}

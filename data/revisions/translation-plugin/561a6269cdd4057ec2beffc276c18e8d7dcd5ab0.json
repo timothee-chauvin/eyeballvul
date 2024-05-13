@@ -1,0 +1,10 @@
+{
+  "commit": "561a6269cdd4057ec2beffc276c18e8d7dcd5ab0",
+  "repo_url": "https://github.com/jenkinsci/translation-plugin",
+  "date": "2016-06-21T09:45:37",
+  "languages": {
+    "Java": 19426,
+    "JavaScript": 4886
+  },
+  "size": 24312
+}

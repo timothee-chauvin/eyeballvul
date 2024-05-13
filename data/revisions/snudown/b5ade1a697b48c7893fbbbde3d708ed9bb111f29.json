@@ -1,0 +1,13 @@
+{
+  "commit": "b5ade1a697b48c7893fbbbde3d708ed9bb111f29",
+  "repo_url": "https://github.com/reddit/snudown",
+  "date": "2018-03-07T23:51:12",
+  "languages": {
+    "C": 150842,
+    "Python": 19307,
+    "Makefile": 2230,
+    "CMake": 849,
+    "Shell": 185
+  },
+  "size": 173413
+}

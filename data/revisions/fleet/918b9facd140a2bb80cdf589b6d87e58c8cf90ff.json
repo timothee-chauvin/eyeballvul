@@ -1,0 +1,18 @@
+{
+  "commit": "918b9facd140a2bb80cdf589b6d87e58c8cf90ff",
+  "repo_url": "https://github.com/kolide/fleet",
+  "date": "2019-04-25T21:01:37",
+  "languages": {
+    "Go": 1176387,
+    "JavaScript": 859526,
+    "SCSS": 120592,
+    "HTML": 16635,
+    "Shell": 10346,
+    "Makefile": 8337,
+    "EJS": 6855,
+    "Dockerfile": 3826,
+    "CSS": 3654,
+    "TypeScript": 2815
+  },
+  "size": 2208973
+}

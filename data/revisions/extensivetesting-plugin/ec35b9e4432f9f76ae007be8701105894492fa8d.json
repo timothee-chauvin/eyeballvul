@@ -1,0 +1,11 @@
+{
+  "commit": "ec35b9e4432f9f76ae007be8701105894492fa8d",
+  "repo_url": "https://github.com/jenkinsci/extensivetesting-plugin",
+  "date": "2016-07-13T09:45:44",
+  "languages": {
+    "Java": 46445,
+    "HTML": 1072,
+    "Batchfile": 96
+  },
+  "size": 47613
+}

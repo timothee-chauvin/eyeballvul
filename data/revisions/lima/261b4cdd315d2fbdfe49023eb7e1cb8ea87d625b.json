@@ -1,0 +1,14 @@
+{
+  "commit": "261b4cdd315d2fbdfe49023eb7e1cb8ea87d625b",
+  "repo_url": "https://github.com/lima-vm/lima",
+  "date": "2023-04-15T17:38:06",
+  "languages": {
+    "Go": 448746,
+    "Shell": 44993,
+    "Perl": 9929,
+    "HTML": 8032,
+    "Makefile": 5908,
+    "Batchfile": 151
+  },
+  "size": 517759
+}

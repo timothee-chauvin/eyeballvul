@@ -1,0 +1,14 @@
+{
+  "commit": "7f9598f689b6a0e9bbc228e056abc08d23604597",
+  "repo_url": "https://github.com/bblfsh/bblfshd",
+  "date": "2019-10-29T13:48:01",
+  "languages": {
+    "Go": 150392,
+    "Makefile": 6154,
+    "Dockerfile": 1402,
+    "Shell": 181,
+    "Java": 123,
+    "Python": 23
+  },
+  "size": 158275
+}

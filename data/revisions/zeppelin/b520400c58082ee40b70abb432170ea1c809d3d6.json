@@ -1,0 +1,23 @@
+{
+  "commit": "b520400c58082ee40b70abb432170ea1c809d3d6",
+  "repo_url": "https://github.com/apache/zeppelin",
+  "date": "2019-09-26T03:25:13",
+  "languages": {
+    "Java": 4859277,
+    "JavaScript": 640168,
+    "Scala": 368298,
+    "HTML": 320543,
+    "Python": 125097,
+    "CSS": 94128,
+    "Jupyter Notebook": 84915,
+    "Shell": 80675,
+    "Roff": 63155,
+    "R": 21511,
+    "Batchfile": 12422,
+    "Dockerfile": 12421,
+    "Groovy": 9274,
+    "Thrift": 5343,
+    "XSLT": 1326
+  },
+  "size": 6698553
+}

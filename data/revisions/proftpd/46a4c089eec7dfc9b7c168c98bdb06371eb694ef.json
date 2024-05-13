@@ -1,0 +1,15 @@
+{
+  "commit": "46a4c089eec7dfc9b7c168c98bdb06371eb694ef",
+  "repo_url": "https://github.com/proftpd/proftpd",
+  "date": "2017-04-09T20:46:05",
+  "languages": {
+    "Perl": 7344975,
+    "C": 6756439,
+    "Shell": 847856,
+    "PHP": 388170,
+    "M4": 287571,
+    "Makefile": 81675,
+    "Roff": 26687
+  },
+  "size": 15733373
+}

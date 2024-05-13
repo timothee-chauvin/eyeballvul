@@ -1,0 +1,22 @@
+{
+  "commit": "8d237869db28fd8d6ca9bfcb3f85c7851a2f066d",
+  "repo_url": "https://github.com/simonmichael/hledger",
+  "date": "2021-07-04T00:59:18",
+  "languages": {
+    "Haskell": 1385083,
+    "JavaScript": 396969,
+    "Roff": 323466,
+    "Shell": 95918,
+    "Makefile": 46246,
+    "Cap'n Proto": 12656,
+    "M4": 4408,
+    "CSS": 3876,
+    "Dockerfile": 3694,
+    "Procfile": 2900,
+    "Lua": 2794,
+    "Python": 1761,
+    "Objective-J": 47,
+    "Jasmin": 20
+  },
+  "size": 2279838
+}

@@ -1,0 +1,11 @@
+{
+  "commit": "15b3016aa0a3ad63c36f9bb6da3905e530e6d7d0",
+  "repo_url": "https://github.com/jenkinsci/ansible-plugin",
+  "date": "2018-01-16T12:07:25",
+  "languages": {
+    "Java": 118585,
+    "HTML": 4101,
+    "Groovy": 1098
+  },
+  "size": 123784
+}

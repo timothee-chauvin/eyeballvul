@@ -1,0 +1,15 @@
+{
+  "commit": "37f16236677fb445c95d0000bb1fbd2ba5063a44",
+  "repo_url": "https://github.com/claroline/claroline",
+  "date": "2022-07-14T10:08:44",
+  "languages": {
+    "PHP": 7048534,
+    "JavaScript": 5698759,
+    "Less": 438722,
+    "Twig": 103715,
+    "CSS": 47684,
+    "Shell": 6934,
+    "Dockerfile": 3556
+  },
+  "size": 13347904
+}

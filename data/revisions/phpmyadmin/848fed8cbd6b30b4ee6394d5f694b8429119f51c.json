@@ -1,0 +1,14 @@
+{
+  "commit": "848fed8cbd6b30b4ee6394d5f694b8429119f51c",
+  "repo_url": "https://github.com/phpmyadmin/phpmyadmin",
+  "date": "2018-05-25T02:45:27",
+  "languages": {
+    "PHP": 7186824,
+    "JavaScript": 1205671,
+    "Twig": 358063,
+    "Shell": 27899,
+    "CSS": 17268,
+    "Python": 642
+  },
+  "size": 8796367
+}

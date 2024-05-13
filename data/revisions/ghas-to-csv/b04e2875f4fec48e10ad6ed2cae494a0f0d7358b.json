@@ -1,0 +1,10 @@
+{
+  "commit": "b04e2875f4fec48e10ad6ed2cae494a0f0d7358b",
+  "repo_url": "https://github.com/advanced-security/ghas-to-csv",
+  "date": "2022-07-27T13:42:54",
+  "languages": {
+    "Python": 31382,
+    "Dockerfile": 235
+  },
+  "size": 31617
+}

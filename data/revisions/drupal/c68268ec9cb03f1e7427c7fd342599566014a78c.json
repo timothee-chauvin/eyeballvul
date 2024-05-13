@@ -1,0 +1,14 @@
+{
+  "commit": "c68268ec9cb03f1e7427c7fd342599566014a78c",
+  "repo_url": "https://github.com/drupal/drupal",
+  "date": "2021-09-01T21:51:44",
+  "languages": {
+    "PHP": 39701751,
+    "CSS": 2124302,
+    "JavaScript": 2010277,
+    "Twig": 1676985,
+    "Shell": 65903,
+    "HTML": 64869
+  },
+  "size": 45644087
+}

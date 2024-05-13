@@ -1,0 +1,21 @@
+{
+  "commit": "3e8391327ba586eaf54447043bd526d919043a44",
+  "repo_url": "https://github.com/apache/spark",
+  "date": "2015-04-11T04:04:37",
+  "languages": {
+    "Scala": 9303035,
+    "HiveQL": 2058136,
+    "Python": 936720,
+    "Java": 801313,
+    "Shell": 140806,
+    "q": 115532,
+    "Batchfile": 35774,
+    "JavaScript": 21537,
+    "Makefile": 6840,
+    "Roff": 5379,
+    "CSS": 4512,
+    "Dockerfile": 3213,
+    "ReScript": 240
+  },
+  "size": 13433037
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "341661671bf4f025c355aea04aa24719382a2828",
+  "repo_url": "https://github.com/knolleary/pubsubclient",
+  "date": "2016-02-02T07:40:48",
+  "languages": {
+    "C++": 64511,
+    "Python": 8346,
+    "C": 964,
+    "Makefile": 514
+  },
+  "size": 74335
+}

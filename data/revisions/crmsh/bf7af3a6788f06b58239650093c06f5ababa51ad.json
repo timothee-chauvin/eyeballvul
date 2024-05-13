@@ -1,0 +1,17 @@
+{
+  "commit": "bf7af3a6788f06b58239650093c06f5ababa51ad",
+  "repo_url": "https://github.com/clusterlabs/crmsh",
+  "date": "2020-12-01T15:40:17",
+  "languages": {
+    "Python": 1543014,
+    "Gherkin": 48536,
+    "Shell": 27139,
+    "Roff": 4618,
+    "Vim Script": 3772,
+    "Makefile": 2824,
+    "M4": 1939,
+    "Dockerfile": 1619,
+    "Awk": 1142
+  },
+  "size": 1634603
+}

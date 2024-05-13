@@ -1,0 +1,12 @@
+{
+  "commit": "67404e08c7acdbb007dbe5fc602d7abf1b3378fb",
+  "repo_url": "https://github.com/keycloak/keycloak-operator",
+  "date": "2019-11-14T15:21:00",
+  "languages": {
+    "Go": 350944,
+    "Makefile": 5951,
+    "Shell": 2010,
+    "Dockerfile": 819
+  },
+  "size": 359724
+}

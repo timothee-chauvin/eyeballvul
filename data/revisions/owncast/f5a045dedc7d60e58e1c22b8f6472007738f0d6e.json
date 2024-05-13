@@ -1,0 +1,14 @@
+{
+  "commit": "f5a045dedc7d60e58e1c22b8f6472007738f0d6e",
+  "repo_url": "https://github.com/owncast/owncast",
+  "date": "2021-08-10T19:19:26",
+  "languages": {
+    "Go": 324047,
+    "JavaScript": 139098,
+    "CSS": 16920,
+    "HTML": 11391,
+    "Shell": 8274,
+    "Dockerfile": 984
+  },
+  "size": 500714
+}

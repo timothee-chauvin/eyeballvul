@@ -1,0 +1,24 @@
+{
+  "commit": "adcea97edd49ba1623716404e1d95ff6ce57b75e",
+  "repo_url": "https://github.com/dotcms/core",
+  "date": "2015-06-11T16:22:52",
+  "languages": {
+    "Java": 21072243,
+    "JavaScript": 9135871,
+    "HTML": 2056994,
+    "CSS": 1720149,
+    "Less": 531575,
+    "Velocity Template Language": 393442,
+    "TSQL": 119630,
+    "PHP": 69221,
+    "XSLT": 52252,
+    "ActionScript": 49141,
+    "Shell": 20036,
+    "Batchfile": 11782,
+    "Perl": 6816,
+    "VBScript": 309,
+    "Roff": 306,
+    "SCSS": 109
+  },
+  "size": 35239876
+}

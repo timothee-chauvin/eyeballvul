@@ -1,0 +1,18 @@
+{
+  "commit": "47b6575bf56d9aa06c2d8fe988a25e05326283fb",
+  "repo_url": "https://github.com/mlflow/mlflow",
+  "date": "2019-06-03T23:47:43",
+  "languages": {
+    "Python": 1389034,
+    "JavaScript": 325760,
+    "Java": 170787,
+    "R": 124740,
+    "CSS": 21817,
+    "Shell": 6543,
+    "HTML": 1938,
+    "Mako": 988,
+    "Dockerfile": 617,
+    "Scala": 446
+  },
+  "size": 2042670
+}

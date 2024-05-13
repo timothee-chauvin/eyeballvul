@@ -1,0 +1,12 @@
+{
+  "commit": "1f9cd8578cb2e7a5dbed1cf1e7399a78f92d96df",
+  "repo_url": "https://github.com/oroinc/orocrmcallbundle",
+  "date": "2023-03-31T09:11:18",
+  "languages": {
+    "PHP": 132282,
+    "Twig": 19260,
+    "Gherkin": 7764,
+    "JavaScript": 2284
+  },
+  "size": 161590
+}

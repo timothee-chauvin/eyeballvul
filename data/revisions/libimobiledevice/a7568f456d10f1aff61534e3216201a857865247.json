@@ -1,0 +1,13 @@
+{
+  "commit": "a7568f456d10f1aff61534e3216201a857865247",
+  "repo_url": "https://github.com/libimobiledevice/libimobiledevice",
+  "date": "2015-01-28T22:11:57",
+  "languages": {
+    "C": 837570,
+    "Cython": 117806,
+    "M4": 24466,
+    "Makefile": 9497,
+    "Shell": 241
+  },
+  "size": 989580
+}

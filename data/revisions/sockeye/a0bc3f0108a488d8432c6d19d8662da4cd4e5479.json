@@ -1,0 +1,14 @@
+{
+  "commit": "a0bc3f0108a488d8432c6d19d8662da4cd4e5479",
+  "repo_url": "https://github.com/awslabs/sockeye",
+  "date": "2021-09-23T12:50:13",
+  "languages": {
+    "Python": 1073640,
+    "JavaScript": 4196,
+    "Shell": 2912,
+    "TeX": 2154,
+    "Dockerfile": 1028,
+    "CSS": 824
+  },
+  "size": 1084754
+}

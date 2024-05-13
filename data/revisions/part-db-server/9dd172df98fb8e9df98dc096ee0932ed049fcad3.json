@@ -1,0 +1,15 @@
+{
+  "commit": "9dd172df98fb8e9df98dc096ee0932ed049fcad3",
+  "repo_url": "https://github.com/part-db/part-db-server",
+  "date": "2023-02-20T11:26:23",
+  "languages": {
+    "PHP": 2380584,
+    "Twig": 338199,
+    "JavaScript": 207456,
+    "CSS": 55147,
+    "Dockerfile": 5025,
+    "Shell": 3218,
+    "Procfile": 58
+  },
+  "size": 2989687
+}

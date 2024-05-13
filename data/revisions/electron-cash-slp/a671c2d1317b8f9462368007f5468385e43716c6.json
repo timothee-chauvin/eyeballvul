@@ -1,0 +1,17 @@
+{
+  "commit": "a671c2d1317b8f9462368007f5468385e43716c6",
+  "repo_url": "https://github.com/simpleledger/electron-cash-slp",
+  "date": "2020-01-09T19:34:23",
+  "languages": {
+    "Python": 4603546,
+    "Objective-C": 419439,
+    "C": 358017,
+    "Kotlin": 122240,
+    "Shell": 86854,
+    "Java": 25436,
+    "NSIS": 8672,
+    "Dockerfile": 5753,
+    "Ruby": 1081
+  },
+  "size": 5631038
+}

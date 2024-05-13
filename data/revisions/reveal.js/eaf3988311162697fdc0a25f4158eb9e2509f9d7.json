@@ -1,0 +1,12 @@
+{
+  "commit": "eaf3988311162697fdc0a25f4158eb9e2509f9d7",
+  "repo_url": "https://github.com/hakimel/reveal.js",
+  "date": "2020-01-29T14:11:49",
+  "languages": {
+    "JavaScript": 400619,
+    "CSS": 143230,
+    "HTML": 101299,
+    "SCSS": 66051
+  },
+  "size": 711199
+}

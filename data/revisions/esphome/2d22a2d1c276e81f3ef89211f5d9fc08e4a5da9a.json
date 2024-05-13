@@ -1,0 +1,14 @@
+{
+  "commit": "2d22a2d1c276e81f3ef89211f5d9fc08e4a5da9a",
+  "repo_url": "https://github.com/esphome/esphome",
+  "date": "2024-02-21T00:48:58",
+  "languages": {
+    "C++": 7139082,
+    "Python": 3094095,
+    "C": 16149,
+    "Shell": 6907,
+    "Dockerfile": 6624,
+    "Groovy": 1190
+  },
+  "size": 10264047
+}

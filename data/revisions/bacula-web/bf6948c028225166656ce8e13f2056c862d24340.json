@@ -1,0 +1,12 @@
+{
+  "commit": "bf6948c028225166656ce8e13f2056c862d24340",
+  "repo_url": "https://github.com/bacula-web/bacula-web",
+  "date": "2017-06-04T11:49:26",
+  "languages": {
+    "PHP": 139851,
+    "Smarty": 32998,
+    "JavaScript": 1080,
+    "CSS": 1007
+  },
+  "size": 174936
+}

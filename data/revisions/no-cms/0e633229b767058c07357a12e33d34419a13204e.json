@@ -1,0 +1,16 @@
+{
+  "commit": "0e633229b767058c07357a12e33d34419a13204e",
+  "repo_url": "https://github.com/gofrendiasgard/no-cms",
+  "date": "2017-03-18T13:39:39",
+  "languages": {
+    "HTML": 8320368,
+    "PHP": 5265049,
+    "JavaScript": 789009,
+    "CSS": 226281,
+    "SCSS": 75563,
+    "Hack": 3071,
+    "Shell": 2976,
+    "CoffeeScript": 2660
+  },
+  "size": 14684977
+}

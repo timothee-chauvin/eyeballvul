@@ -1,0 +1,14 @@
+{
+  "commit": "addb8856740730bbf012d0d522d674be6796323c",
+  "repo_url": "https://github.com/circl/ail-framework",
+  "date": "2020-01-23T14:43:54",
+  "languages": {
+    "Python": 852264,
+    "HTML": 600641,
+    "JavaScript": 573027,
+    "Shell": 53625,
+    "CSS": 33517,
+    "Dockerfile": 1359
+  },
+  "size": 2114433
+}

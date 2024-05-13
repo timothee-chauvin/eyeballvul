@@ -1,0 +1,20 @@
+{
+  "commit": "78b9d6bfd4cbd3e947b1c5ffe73eb97b040e312a",
+  "repo_url": "https://github.com/qpdf/qpdf",
+  "date": "2020-11-21T18:50:02",
+  "languages": {
+    "C++": 1611939,
+    "Shell": 384256,
+    "Perl": 287330,
+    "C": 163026,
+    "M4": 58688,
+    "Makefile": 29047,
+    "PostScript": 2997,
+    "Roff": 2642,
+    "Python": 1630,
+    "Batchfile": 661,
+    "XSLT": 428,
+    "Dockerfile": 385
+  },
+  "size": 2543029
+}

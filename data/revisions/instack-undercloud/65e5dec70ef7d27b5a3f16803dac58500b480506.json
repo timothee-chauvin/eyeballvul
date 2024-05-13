@@ -1,0 +1,13 @@
+{
+  "commit": "65e5dec70ef7d27b5a3f16803dac58500b480506",
+  "repo_url": "https://github.com/openstack/instack-undercloud",
+  "date": "2017-07-22T03:25:01",
+  "languages": {
+    "Python": 141752,
+    "Puppet": 22855,
+    "Shell": 9077,
+    "Makefile": 2522,
+    "Ruby": 793
+  },
+  "size": 176999
+}

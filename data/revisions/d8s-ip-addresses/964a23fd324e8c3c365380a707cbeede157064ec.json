@@ -1,0 +1,11 @@
+{
+  "commit": "964a23fd324e8c3c365380a707cbeede157064ec",
+  "repo_url": "https://github.com/democritus-project/d8s-ip-addresses",
+  "date": "2021-03-16T11:11:31",
+  "languages": {
+    "Python": 38125,
+    "Shell": 405,
+    "Dockerfile": 163
+  },
+  "size": 38693
+}

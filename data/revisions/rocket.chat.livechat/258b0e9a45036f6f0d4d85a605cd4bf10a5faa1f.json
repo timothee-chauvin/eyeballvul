@@ -1,0 +1,12 @@
+{
+  "commit": "258b0e9a45036f6f0d4d85a605cd4bf10a5faa1f",
+  "repo_url": "https://github.com/rocketchat/rocket.chat.livechat",
+  "date": "2021-02-20T23:25:08",
+  "languages": {
+    "JavaScript": 324285,
+    "SCSS": 48262,
+    "HTML": 4235,
+    "EJS": 154
+  },
+  "size": 376936
+}

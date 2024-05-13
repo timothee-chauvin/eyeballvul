@@ -1,0 +1,13 @@
+{
+  "commit": "6a9c9d1f38e03498ccd3f8ded34d070acb1056af",
+  "repo_url": "https://github.com/patrowl/patrowlmanager",
+  "date": "2021-12-09T14:36:38",
+  "languages": {
+    "HTML": 868114,
+    "Python": 573953,
+    "Shell": 11470,
+    "CSS": 5081,
+    "Dockerfile": 1327
+  },
+  "size": 1459945
+}

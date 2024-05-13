@@ -1,0 +1,15 @@
+{
+  "commit": "36386c07074b8167278cf7b75e891ccaa5cd5d02",
+  "repo_url": "https://github.com/glpi-project/glpi-agent",
+  "date": "2022-07-01T09:21:44",
+  "languages": {
+    "Perl": 5089163,
+    "Roff": 811763,
+    "Shell": 125267,
+    "Smarty": 114444,
+    "Rich Text Format": 37144,
+    "VBScript": 20169,
+    "CSS": 13830
+  },
+  "size": 6211780
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "725abb97b69834a3f8f4e1d72ebb580c07403c45",
+  "repo_url": "https://github.com/alfresco/acs-packaging",
+  "date": "2020-10-13T19:39:37",
+  "languages": {
+    "Shell": 42140,
+    "Java": 37353,
+    "Dockerfile": 5920,
+    "Batchfile": 2064
+  },
+  "size": 87477
+}

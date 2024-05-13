@@ -1,0 +1,11 @@
+{
+  "commit": "33cda4978a3576e93d69c301e3a764a9b7e4c0d7",
+  "repo_url": "https://github.com/bbatsov/rubocop",
+  "date": "2017-04-03T11:29:20",
+  "languages": {
+    "Ruby": 3781547,
+    "HTML": 7106,
+    "CSS": 355
+  },
+  "size": 3789008
+}

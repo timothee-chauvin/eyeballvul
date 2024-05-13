@@ -1,0 +1,17 @@
+{
+  "commit": "7dcbdf04a35a72b548c267d0b89708a7809036b8",
+  "repo_url": "https://github.com/ng-packagr/ng-packagr",
+  "date": "2020-08-27T07:50:50",
+  "languages": {
+    "TypeScript": 237950,
+    "JavaScript": 6059,
+    "Shell": 1796,
+    "SCSS": 1206,
+    "HTML": 1086,
+    "Less": 448,
+    "Sass": 439,
+    "Stylus": 397,
+    "CSS": 173
+  },
+  "size": 249554
+}

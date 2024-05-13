@@ -1,0 +1,11 @@
+{
+  "commit": "c0063d2c6125f52e566bc7e7546d4533a47db7a3",
+  "repo_url": "https://github.com/pterodactyl/wings",
+  "date": "2021-06-05T15:50:26",
+  "languages": {
+    "Go": 478998,
+    "Makefile": 978,
+    "Dockerfile": 569
+  },
+  "size": 480545
+}

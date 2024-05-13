@@ -1,0 +1,15 @@
+{
+  "commit": "6a6a32c1cf0eca31d4b35f6a85c8f2d0ab5640e6",
+  "repo_url": "https://github.com/google/santa",
+  "date": "2018-03-13T17:07:44",
+  "languages": {
+    "Objective-C": 470685,
+    "C++": 54513,
+    "Objective-C++": 23669,
+    "C": 13976,
+    "Ruby": 7418,
+    "Shell": 4410,
+    "Makefile": 3071
+  },
+  "size": 577742
+}

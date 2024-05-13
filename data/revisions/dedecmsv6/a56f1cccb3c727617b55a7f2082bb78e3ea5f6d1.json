@@ -1,0 +1,14 @@
+{
+  "commit": "a56f1cccb3c727617b55a7f2082bb78e3ea5f6d1",
+  "repo_url": "https://github.com/dedebiz/dedecmsv6",
+  "date": "2020-11-01T09:55:48",
+  "languages": {
+    "PHP": 2973289,
+    "HTML": 2196759,
+    "JavaScript": 1177281,
+    "CSS": 234848,
+    "POV-Ray SDL": 1104,
+    "C++": 128
+  },
+  "size": 6583409
+}

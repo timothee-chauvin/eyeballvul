@@ -1,0 +1,15 @@
+{
+  "commit": "9d6ab323bd35f65060a47f4459e382bc6a9a8e4b",
+  "repo_url": "https://github.com/wolkykim/qdecoder",
+  "date": "2020-08-27T19:30:28",
+  "languages": {
+    "C": 97237,
+    "Shell": 13254,
+    "CSS": 9903,
+    "Makefile": 6062,
+    "M4": 5917,
+    "HTML": 1027,
+    "Batchfile": 682
+  },
+  "size": 134082
+}

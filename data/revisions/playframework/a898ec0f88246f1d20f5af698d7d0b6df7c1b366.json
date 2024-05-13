@@ -1,0 +1,16 @@
+{
+  "commit": "a898ec0f88246f1d20f5af698d7d0b6df7c1b366",
+  "repo_url": "https://github.com/playframework/playframework",
+  "date": "2022-03-31T12:50:00",
+  "languages": {
+    "Scala": 3523909,
+    "Java": 1475048,
+    "HTML": 44627,
+    "Shell": 11539,
+    "JavaScript": 9245,
+    "Roff": 5806,
+    "Less": 887,
+    "CSS": 287
+  },
+  "size": 5071348
+}

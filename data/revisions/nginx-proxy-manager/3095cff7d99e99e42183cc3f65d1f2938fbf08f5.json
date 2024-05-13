@@ -1,0 +1,14 @@
+{
+  "commit": "3095cff7d99e99e42183cc3f65d1f2938fbf08f5",
+  "repo_url": "https://github.com/jc21/nginx-proxy-manager",
+  "date": "2019-03-18T21:01:12",
+  "languages": {
+    "JavaScript": 481886,
+    "EJS": 104846,
+    "SCSS": 8314,
+    "Shell": 1399,
+    "HTML": 1033,
+    "Dockerfile": 1007
+  },
+  "size": 598485
+}

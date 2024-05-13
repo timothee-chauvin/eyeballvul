@@ -1,0 +1,14 @@
+{
+  "commit": "b17eda56735b1e93a907355b4436f118d1333a37",
+  "repo_url": "https://github.com/giampaolo/psutil",
+  "date": "2019-11-06T08:53:37",
+  "languages": {
+    "Python": 899314,
+    "C": 578319,
+    "Makefile": 9921,
+    "Batchfile": 4650,
+    "PowerShell": 2786,
+    "Shell": 1976
+  },
+  "size": 1496966
+}

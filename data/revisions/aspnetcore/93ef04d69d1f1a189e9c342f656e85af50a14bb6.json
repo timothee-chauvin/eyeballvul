@@ -1,0 +1,11 @@
+{
+  "commit": "93ef04d69d1f1a189e9c342f656e85af50a14bb6",
+  "repo_url": "https://github.com/dotnet/aspnetcore",
+  "date": "2016-06-27T15:21:31",
+  "languages": {
+    "PowerShell": 69879,
+    "Shell": 45897,
+    "Batchfile": 526
+  },
+  "size": 116302
+}

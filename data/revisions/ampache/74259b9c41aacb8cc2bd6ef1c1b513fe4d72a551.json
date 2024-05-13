@@ -1,0 +1,15 @@
+{
+  "commit": "74259b9c41aacb8cc2bd6ef1c1b513fe4d72a551",
+  "repo_url": "https://github.com/ampache/ampache",
+  "date": "2017-06-22T04:13:59",
+  "languages": {
+    "PHP": 3842594,
+    "JavaScript": 520163,
+    "CSS": 132028,
+    "Shell": 14485,
+    "Batchfile": 529,
+    "Hack": 225,
+    "HTML": 53
+  },
+  "size": 4510077
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "1c1707b3aac284f957babc89023a24c8355dae2d",
+  "repo_url": "https://github.com/apache/shardingsphere-elasticjob-ui",
+  "date": "2021-07-14T15:27:14",
+  "languages": {
+    "Java": 367700,
+    "Vue": 220870,
+    "JavaScript": 199382,
+    "Shell": 6425,
+    "SCSS": 5684,
+    "HTML": 4314,
+    "Batchfile": 2866,
+    "Dockerfile": 2197
+  },
+  "size": 809438
+}

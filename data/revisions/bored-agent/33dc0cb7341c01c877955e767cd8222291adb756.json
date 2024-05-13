@@ -1,0 +1,11 @@
+{
+  "commit": "33dc0cb7341c01c877955e767cd8222291adb756",
+  "repo_url": "https://github.com/lensapp/bored-agent",
+  "date": "2022-01-12T10:17:46",
+  "languages": {
+    "TypeScript": 41395,
+    "JavaScript": 3721,
+    "Dockerfile": 448
+  },
+  "size": 45564
+}

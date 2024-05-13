@@ -1,0 +1,11 @@
+{
+  "commit": "c29b8502f8c715daecec6666835da6e981dc820a",
+  "repo_url": "https://github.com/lorabasics/basicstation",
+  "date": "2019-03-14T12:37:51",
+  "languages": {
+    "C": 707736,
+    "Python": 41777,
+    "Makefile": 7681
+  },
+  "size": 757194
+}

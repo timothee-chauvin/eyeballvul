@@ -1,0 +1,15 @@
+{
+  "commit": "8f455cf9022d8d36104687644c4de47fc192a30d",
+  "repo_url": "https://github.com/jcbrand/converse.js",
+  "date": "2018-01-17T18:45:33",
+  "languages": {
+    "JavaScript": 1323570,
+    "HTML": 211160,
+    "SCSS": 133622,
+    "CSS": 20612,
+    "Python": 10066,
+    "Makefile": 9478,
+    "Ruby": 51
+  },
+  "size": 1708559
+}

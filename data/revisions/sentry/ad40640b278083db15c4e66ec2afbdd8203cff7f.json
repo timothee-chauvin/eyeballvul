@@ -1,0 +1,21 @@
+{
+  "commit": "ad40640b278083db15c4e66ec2afbdd8203cff7f",
+  "repo_url": "https://github.com/getsentry/sentry",
+  "date": "2022-10-15T17:09:27",
+  "languages": {
+    "Python": 21631538,
+    "TypeScript": 12619423,
+    "JavaScript": 2577494,
+    "Less": 223678,
+    "HTML": 218247,
+    "Lua": 68855,
+    "Shell": 24037,
+    "MDX": 19272,
+    "PEG.js": 12613,
+    "Makefile": 6153,
+    "Dockerfile": 5772,
+    "EJS": 2939,
+    "Ruby": 453
+  },
+  "size": 37410474
+}

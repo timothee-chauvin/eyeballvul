@@ -1,0 +1,15 @@
+{
+  "commit": "877671a0adb7102fe0f9ff4d43445848579c853e",
+  "repo_url": "https://github.com/palantir/atlasdb",
+  "date": "2022-10-12T16:01:43",
+  "languages": {
+    "Java": 15474854,
+    "Groovy": 56144,
+    "Shell": 26450,
+    "Clojure": 15901,
+    "Python": 8139,
+    "FreeMarker": 7719,
+    "Dockerfile": 1339
+  },
+  "size": 15590546
+}

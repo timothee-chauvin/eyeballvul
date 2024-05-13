@@ -1,0 +1,12 @@
+{
+  "id": "PSF-2018-3",
+  "published": "2018-06-18T14:00:00",
+  "modified": "2023-11-08T03:59:43.570390",
+  "details": "python before versions 2.7.15, 3.4.9, 3.5.6rc1, 3.6.5rc1 and 3.7.0 is vulnerable to catastrophic backtracking in pop3lib's apop() method. An attacker could use this flaw to cause denial of service.",
+  "summary": "difflib and poplib catastrophic backtracking",
+  "repo_url": "https://github.com/python/cpython",
+  "cwes": [],
+  "commits": [
+    "3a833f748fc629d25a5af3faeef91447f4709804"
+  ]
+}

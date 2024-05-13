@@ -1,0 +1,30 @@
+{
+  "commit": "b506e2cb7b6c0fe787305f8cfdee046b7b3f9a53",
+  "repo_url": "https://github.com/dotnet/aspnetcore",
+  "date": "2023-06-21T17:29:42",
+  "languages": {
+    "C#": 52084040,
+    "JavaScript": 2576671,
+    "HTML": 1290113,
+    "C++": 1283957,
+    "TypeScript": 937298,
+    "Java": 549283,
+    "PowerShell": 281777,
+    "Shell": 188111,
+    "C": 131765,
+    "CSS": 78161,
+    "Batchfile": 22967,
+    "Python": 19476,
+    "CMake": 13069,
+    "F#": 6249,
+    "Roff": 6044,
+    "Lua": 4904,
+    "Dockerfile": 2093,
+    "Makefile": 220,
+    "ASP.NET": 109,
+    "Less": 12,
+    "SCSS": 12,
+    "Smalltalk": 3
+  },
+  "size": 59476334
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "02f1dfb546f90cee88cf09661a0d2efbe9a013f8",
+  "repo_url": "https://github.com/dmproadmap/roadmap",
+  "date": "2021-07-27T15:00:01",
+  "languages": {
+    "Ruby": 1655777,
+    "HTML": 414902,
+    "JavaScript": 327656,
+    "SCSS": 27101,
+    "XSLT": 11471,
+    "Procfile": 67,
+    "CSS": 49
+  },
+  "size": 2437023
+}

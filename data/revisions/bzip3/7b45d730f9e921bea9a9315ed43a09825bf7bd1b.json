@@ -1,0 +1,13 @@
+{
+  "commit": "7b45d730f9e921bea9a9315ed43a09825bf7bd1b",
+  "repo_url": "https://github.com/kspalaiologos/bzip3",
+  "date": "2023-01-10T14:43:49",
+  "languages": {
+    "C": 286182,
+    "Roff": 6802,
+    "Shell": 4864,
+    "M4": 2546,
+    "Makefile": 1980
+  },
+  "size": 302374
+}

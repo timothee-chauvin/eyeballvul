@@ -1,0 +1,16 @@
+{
+  "commit": "d132dd5dca0218a0c45f75a42832112effe33374",
+  "repo_url": "https://github.com/roxlukas/lmeve",
+  "date": "2016-06-01T05:20:46",
+  "languages": {
+    "PHP": 898233,
+    "JavaScript": 721674,
+    "CSS": 68152,
+    "HTML": 31454,
+    "Shell": 4203,
+    "Dockerfile": 1835,
+    "Batchfile": 75,
+    "Hack": 45
+  },
+  "size": 1725671
+}

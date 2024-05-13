@@ -1,0 +1,15 @@
+{
+  "commit": "391d226c570dd29cb487f467f6941320452b1d96",
+  "repo_url": "https://github.com/open62541/open62541",
+  "date": "2020-05-07T22:25:10",
+  "languages": {
+    "C": 4243530,
+    "Python": 213165,
+    "CMake": 170671,
+    "C++": 82523,
+    "Shell": 40089,
+    "PowerShell": 17626,
+    "Dockerfile": 1616
+  },
+  "size": 4769220
+}

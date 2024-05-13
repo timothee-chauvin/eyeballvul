@@ -1,0 +1,12 @@
+{
+  "commit": "260b284a1cbfb044991894c5a3cf3dedc8ce7267",
+  "repo_url": "https://github.com/vincit/objection.js",
+  "date": "2021-03-13T09:50:06",
+  "languages": {
+    "JavaScript": 2170752,
+    "TypeScript": 94908,
+    "PEG.js": 6103,
+    "Shell": 192
+  },
+  "size": 2271955
+}
