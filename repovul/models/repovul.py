@@ -1,5 +1,7 @@
+import json
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 from sqlmodel import JSON, Column, Field, SQLModel, UniqueConstraint
 
@@ -32,7 +34,7 @@ class RepovulRevision(SQLModel, table=True):
         repovul_dir = Config.paths.repovul_revisions / repo_name
         repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.commit}.json", "w") as f:
-            f.write(self.model_dump_json(indent=2))
+            json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 
     @staticmethod
@@ -40,8 +42,16 @@ class RepovulRevision(SQLModel, table=True):
         with open(filepath) as f:
             return RepovulRevision.model_validate_json(f.read())
 
-    def to_dict(self) -> dict:
-        return self.model_dump(exclude_none=True, mode="json")
+    def to_dict(self) -> dict[str, Any]:
+        # We can't simply use self.model_dump() because we need
+        # determinism in the key order, since the output is tracked by git.
+        return {
+            "commit": self.commit,
+            "repo_url": self.repo_url,
+            "date": self.date.isoformat(),
+            "languages": self.languages,
+            "size": self.size,
+        }
 
 
 class RepovulItem(SQLModel, table=True):
@@ -73,7 +83,7 @@ class RepovulItem(SQLModel, table=True):
         repovul_dir = Config.paths.repovul_vulns / repo_name
         repovul_dir.mkdir(parents=True, exist_ok=True)
         with open(repovul_dir / f"{self.id}.json", "w") as f:
-            f.write(self.model_dump_json(indent=2, exclude_none=True))
+            json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 
     @staticmethod
@@ -81,5 +91,24 @@ class RepovulItem(SQLModel, table=True):
         with open(filepath) as f:
             return RepovulItem.model_validate_json(f.read())
 
-    def to_dict(self) -> dict:
-        return self.model_dump(exclude_none=True, mode="json")
+    def to_dict(self) -> dict[str, Any]:
+        # We can't simply use self.model_dump() because we need
+        # determinism in the key order, since the output is tracked by git.
+        dic: dict[str, Any] = {
+            "id": self.id,
+            "published": self.published.isoformat(),
+            "modified": self.modified.isoformat(),
+            "details": self.details,
+        }
+        if self.summary is not None:
+            dic["summary"] = self.summary
+        if self.severity is not None:
+            dic["severity"] = self.severity
+        dic.update(
+            {
+                "repo_url": self.repo_url,
+                "cwes": sorted(self.cwes),
+                "commits": sorted(self.commits),
+            }
+        )
+        return dic
