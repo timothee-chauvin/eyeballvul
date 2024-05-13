@@ -16,7 +16,7 @@ from ortools.sat.python import cp_model
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
-from repovul.exceptions import LinguistError, RepoNotFoundError
+from repovul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
 
 
 @typechecked
@@ -130,11 +130,11 @@ def clone_repo(repo_url: str, repo_workdir: str) -> str:
                 raise RepoNotFoundError(f"Repository '{repo_name}' not found.")
             else:
                 # Unknown error
-                raise RuntimeError(
-                    f"Failed to clone repository '{repo_name}': {res.stderr.decode()}"
+                raise GitRuntimeError(
+                    f"Non-zero return code for git clone '{repo_name}'. stderr: {res.stderr.decode()}"
                 )
     except RuntimeError:
-        raise RepoNotFoundError(f"Repository '{repo_name}' raised a runtime error.")
+        raise GitRuntimeError(f"Repository '{repo_name}' raised a runtime error.")
     return str(repo_dir)
 
 

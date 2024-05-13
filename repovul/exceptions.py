@@ -6,5 +6,9 @@ class RepoNotFoundError(Exception):
     """
 
 
+class GitRuntimeError(Exception):
+    """Error when running git commands."""
+
+
 class LinguistError(Exception):
     """Error when running github-linguist."""

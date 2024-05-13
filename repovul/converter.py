@@ -3,6 +3,7 @@ import logging
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
+from enum import Enum
 from pathlib import Path
 from typing import cast
 
@@ -11,7 +12,7 @@ from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from repovul.config.config_loader import Config
-from repovul.exceptions import LinguistError, RepoNotFoundError
+from repovul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
 from repovul.models.cache import Cache, CacheItem
 from repovul.models.osv import OSVVulnerability
 from repovul.models.repovul import RepovulItem, RepovulRevision
@@ -25,6 +26,15 @@ from repovul.util import (
     solve_hitting_set,
     temp_directory,
 )
+
+
+class ConversionStatusCode(Enum):
+    """Possible outcomes of the conversion process."""
+
+    OK = "OK"
+    REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore.'
+    GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
+    LINGUIST_ERROR = "error running linguist"
 
 
 @typechecked
@@ -45,27 +55,33 @@ class Converter:
         osv_items: list[OSVVulnerability],
         cache: CacheItem,
         existing_revisions: list[RepovulRevision],
-    ) -> tuple[list[RepovulItem], list[RepovulRevision], CacheItem]:
+    ) -> tuple[list[RepovulItem], list[RepovulRevision], CacheItem, ConversionStatusCode]:
         """
         Convert the OSV items of a single repository to Repovul items.
 
         The CacheItem corresponding to this repo URL, as well as any existing RepovulRevisions, are
         given as input to enable caching.
 
-        Returns a tuple of: - a list of RepovulItems - a list of RepovulRevisions - the updated
-        cache
+        Returns a tuple of: (a list of RepovulItems, a list of RepovulRevisions, the updated cache,
+        a status code)
         """
         try:
             with temp_directory() as repo_workdir:
-                return Converter.osv_group_to_repovul_group(
-                    repo_url, repo_workdir, osv_items, cache, existing_revisions
+                return (
+                    *Converter.osv_group_to_repovul_group(
+                        repo_url, repo_workdir, osv_items, cache, existing_revisions
+                    ),
+                    ConversionStatusCode.OK,
                 )
         except RepoNotFoundError:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
-            return [], [], cache
+            return [], [], cache, ConversionStatusCode.REPO_NOT_FOUND
+        except GitRuntimeError:
+            logging.warning(f"Error cloning repo {repo_url}. Skipping.")
+            return [], [], cache, ConversionStatusCode.GIT_RUNTIME_ERROR
         except LinguistError:
             logging.warning(f"Error computing code sizes for {repo_url}. Skipping.")
-            return [], [], cache
+            return [], [], cache, ConversionStatusCode.LINGUIST_ERROR
 
     def prepare_arguments(
         self, repo_urls: list[str]
@@ -91,9 +107,11 @@ class Converter:
 
     def convert_list(self, repo_urls: list[str]) -> None:
         to_compute_args = self.prepare_arguments(repo_urls)
+        repo_len = len(repo_urls)
 
         logging.info("Computing in parallel...")
         time_start = time.time()
+        repos_by_status_code: dict[ConversionStatusCode, list[str]] = {}
         with ProcessPoolExecutor() as executor:
             futures_to_repo_urls = {
                 executor.submit(Converter.convert_one_inner, *args): args[0]
@@ -103,9 +121,9 @@ class Converter:
             try:
                 for i, future in enumerate(as_completed(futures_to_repo_urls)):
                     repo_url = futures_to_repo_urls[future]
-                    logging.info(f"({i+1}/{len(repo_urls)}) started processing {repo_url}")
                     try:
-                        repovul_items, repovul_revisions, cache = future.result()
+                        repovul_items, repovul_revisions, cache, status_code = future.result()
+                        repos_by_status_code.setdefault(status_code, []).append(repo_url)
                     except Exception as e:
                         logging.error(f"Error processing {repo_url}: {e}")
                         raise e
@@ -133,15 +151,16 @@ class Converter:
                         self.cache[repo_url] = cache
                         self.cache.write()
                     elapsed = time.time() - time_start
-                    ETA = elapsed / (i + 1) * (len(repo_urls) - i - 1)
+                    ETA = elapsed / (i + 1) * (repo_len - i - 1)
                     logging.info(
-                        f"({i+1}/{len(repo_urls)}) elapsed {elapsed:.2f}s ETA {ETA:.2f}, finished processing {repo_url}"
+                        f"({i+1}/{repo_len}) elapsed {elapsed:.2f}s ETA {ETA:.2f}, finished processing {repo_url}"
                     )
             except Exception as e:
                 logging.error(f"Error in main process: {e}")
                 for future in futures_to_repo_urls:
                     future.cancel()
                 raise e
+        self.display_statistics(repos_by_status_code, repo_len)
 
     def convert_one(self, repo_url: str) -> None:
         """
@@ -160,6 +179,27 @@ class Converter:
         """Convert the OSV items of a range of repositories to Repovul items."""
         repo_urls = sorted(self.by_repo.keys())[start:end]
         self.convert_list(repo_urls)
+
+    @staticmethod
+    def display_statistics(
+        repos_by_status_code: dict[ConversionStatusCode, list[str]], repo_len: int
+    ) -> None:
+        """Display the statistics of the conversion process."""
+        logging.info("Done processing repositories. Statistics:")
+        logging.info(
+            f"{len(repos_by_status_code.get(ConversionStatusCode.OK, []))}/{repo_len}: OK."
+        )
+        other_status_codes = [
+            status_code
+            for status_code in ConversionStatusCode
+            if status_code != ConversionStatusCode.OK
+        ]
+        for other_status_code in other_status_codes:
+            if repos_by_status_code.get(other_status_code):
+                logging.info(
+                    f"{len(repos_by_status_code[other_status_code])}/{repo_len}: {other_status_code.value}"
+                )
+                logging.info(f"Concerned repos: {repos_by_status_code[other_status_code]}")
 
     @staticmethod
     def get_osv_items() -> list[dict]:
