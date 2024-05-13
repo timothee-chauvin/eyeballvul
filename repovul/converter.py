@@ -75,6 +75,7 @@ class Converter:
                 )
         except RepoNotFoundError:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
+            cache.doesnt_exist = True
             return [], [], cache, ConversionStatusCode.REPO_NOT_FOUND
         except GitRuntimeError:
             logging.warning(f"Error cloning repo {repo_url}. Skipping.")
@@ -127,6 +128,13 @@ class Converter:
                     except Exception as e:
                         logging.error(f"Error processing {repo_url}: {e}")
                         raise e
+                    finally:
+                        # the cache may be updated even after a failure
+                        if cache != self.cache[repo_url]:
+                            logging.info(f"Cache updated for {repo_url}. Writing.")
+                            self.cache[repo_url] = cache
+                            self.cache.write()
+
                     with Session(self.engine) as session:
                         # First remove all the items for this repo URL
                         # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
@@ -146,10 +154,6 @@ class Converter:
                             ]
                         )
                         session.commit()
-                    if cache != self.cache[repo_url]:
-                        logging.info(f"Cache updated for {repo_url}. Writing.")
-                        self.cache[repo_url] = cache
-                        self.cache.write()
                     elapsed = time.time() - time_start
                     ETA = elapsed / (i + 1) * (repo_len - i - 1)
                     logging.info(
@@ -250,6 +254,10 @@ class Converter:
 
         Versions that aren't found in the git repo are also ignored.
         """
+        # if the repo is known not to exist, raise that it doesn't exist immediately
+        if cache.doesnt_exist:
+            logging.info(f"Repo {repo_url} known not to exist. Skipping.")
+            raise RepoNotFoundError
         osv_group = Converter.filter_out_no_affected_versions(osv_group)
         osv_group = Converter.filter_out_withdrawn(osv_group)
         if not osv_group:

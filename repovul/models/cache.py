@@ -9,12 +9,15 @@ from repovul.config.config_loader import Config
 class CacheItem(BaseModel):
     versions_info: dict[str, tuple[str, float] | None]
     hitting_set_results: dict[str, list[str]]
+    doesnt_exist: bool | None = None
 
     def __eq__(self, other):
         if isinstance(other, CacheItem):
-            return self.compare_versions_info(
-                other.versions_info
-            ) and self.compare_hitting_set_results(other.hitting_set_results)
+            return (
+                self.compare_versions_info(other.versions_info)
+                and self.compare_hitting_set_results(other.hitting_set_results)
+                and self.doesnt_exist == other.doesnt_exist
+            )
         return False
 
     def compare_versions_info(self, other_versions_info):
@@ -52,7 +55,7 @@ class Cache(RootModel):
         tmp_cache_filepath = Config.paths.workdir / "cache.json"
         cache_filepath = Config.paths.repo_info_cache / "cache.json"
         with open(tmp_cache_filepath, "w") as f:
-            f.write(self.model_dump_json(indent=2))
+            f.write(self.model_dump_json(indent=2, exclude_unset=True))
             f.write("\n")
         tmp_cache_filepath.replace(cache_filepath)
 
