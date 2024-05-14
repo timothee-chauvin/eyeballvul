@@ -52,7 +52,7 @@ class Cache(RootModel):
     def write(self) -> None:
         """Write the cache to the cache file, ensuring the file won't be lost if this function is
         interrupted in the middle."""
-        tmp_cache_filepath = Config.paths.workdir / "cache.json"
+        tmp_cache_filepath = Config.paths.repo_info_cache / "cache.tmp.json"
         cache_filepath = Config.paths.repo_info_cache / "cache.json"
         with open(tmp_cache_filepath, "w") as f:
             f.write(self.model_dump_json(indent=2, exclude_unset=True))
