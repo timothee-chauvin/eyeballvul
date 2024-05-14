@@ -22,6 +22,12 @@ logging.basicConfig(
 )
 
 
+def fatal(message: str) -> None:
+    """Print a message to stderr and exit with status 1."""
+    print(message, file=sys.stderr)
+    sys.exit(1)
+
+
 def download():
     """Download and extract the data from the osv.dev dataset."""
     ecosystems = Config.ecosystems
@@ -48,7 +54,9 @@ def convert_range(start: int, end: int) -> None:
 
 
 @typechecked
-def get_by_commit(commit_hash: str, after: str | None = None, before: str | None = None):
+def get_by_commit(
+    commit_hash: str, after: str | None = None, before: str | None = None, count: bool | None = None
+):
     """
     Get the Eyeballvul items that match a commit hash.
 
@@ -59,9 +67,12 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
 
     `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
     (2) after <= date < before, (3) date < before.
+
+    If the `count` parameter is set to True, the number of items is printed, instead of the items
+    themselves.
     """
     if len(commit_hash) != 40:
-        raise ValueError("The commit hash must be 40 characters long.")
+        fatal("The commit hash must be 40 characters long.")
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
         # FIXME this isn't very clean (tests if the commit hash is part of the json string of the commit array)
@@ -80,20 +91,28 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
             query = query.where(EyeballvulItem.published < end_date)
 
         results = session.exec(query).all()
-        results_json = [item.to_dict() for item in results]
-        print(json.dumps(results_json, indent=2))
+        if count:
+            print(len(results))
+        else:
+            results_json = [item.to_dict() for item in results]
+            print(json.dumps(results_json, indent=2))
 
 
-def get_projects():
+def get_projects(count: bool | None = None):
     """Get the list of repo URLs."""
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
         query = select(EyeballvulItem.repo_url).distinct()
         results = session.exec(query).all()
-        print(json.dumps(results, indent=2))
+        if count:
+            print(len(results))
+        else:
+            print(json.dumps(results, indent=2))
 
 
-def get_by_project(repo_url: str, after: str | None = None, before: str | None = None):
+def get_by_project(
+    repo_url: str, after: str | None = None, before: str | None = None, count: bool | None = None
+):
     """
     Get the Eyeballvul items that match a project's repo URL.
 
@@ -102,6 +121,9 @@ def get_by_project(repo_url: str, after: str | None = None, before: str | None =
 
     `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
     (2) after <= date < before, (3) date < before.
+
+    If the `count` parameter is set to True, the number of items is printed, instead of the items
+    themselves.
     """
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
@@ -116,10 +138,18 @@ def get_by_project(repo_url: str, after: str | None = None, before: str | None =
 
         results = session.exec(query).all()
         results_json = [item.to_dict() for item in results]
-        print(json.dumps(results_json, indent=2))
+        if count:
+            print(len(results))
+        else:
+            print(json.dumps(results_json, indent=2))
 
 
-def get_commits(after: str | None = None, before: str | None = None, project: str | None = None):
+def get_commits(
+    after: str | None = None,
+    before: str | None = None,
+    project: str | None = None,
+    count: bool | None = None,
+):
     """
     Get a list of all commits that have at least one vuln within the date range.
 
@@ -130,6 +160,9 @@ def get_commits(after: str | None = None, before: str | None = None, project: st
     (2) after <= date < before, (3) date < before.
 
     The list can also be filtered by the `project` parameter, a repo URL.
+
+    If the `count` parameter is set to True, the number of commits is printed, instead of the
+    commits themselves.
     """
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
@@ -145,15 +178,34 @@ def get_commits(after: str | None = None, before: str | None = None, project: st
 
         results = session.exec(query).all()
         commits = {commit for item in results for commit in item.commits}
-        print(json.dumps(list(commits), indent=2))
+        if count:
+            print(len(commits))
+        else:
+            print(json.dumps(list(commits), indent=2))
+
+
+def get_revision(commit_hash: str) -> None:
+    """Get the Eyeballvul revision that matches a commit hash."""
+    if len(commit_hash) != 40:
+        fatal("The commit hash must be 40 characters long.")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
+    with Session(engine) as session:
+        query = select(EyeballvulRevision).where(EyeballvulRevision.commit == commit_hash)
+        result = session.exec(query).first()
+        if not result:
+            fatal(f"No revision found for commit {commit_hash}.")
+        else:
+            result_json = result.to_dict()
+            print(json.dumps(result_json, indent=2))
 
 
 def json_export() -> None:
     """Export the contents of the SQL database into JSON files in the data directory."""
     if Path(Config.paths.data).exists():
-        print(f"The data directory already exists at {Config.paths.data}.")
-        print("Please remove it or back it up before exporting.")
-        sys.exit(1)
+        fatal(
+            f"The data directory already exists at {Config.paths.data}.\n"
+            "Please remove it or back it up before exporting."
+        )
     for path in [Config.paths.eyeballvul_vulns, Config.paths.eyeballvul_revisions]:
         path.mkdir(parents=True, exist_ok=True)
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
@@ -174,9 +226,10 @@ def json_export() -> None:
 def json_import() -> None:
     """Import the contents of the JSON files in the data directory into the SQL database."""
     if Path(Config.paths.db).exists():
-        print(f"The database directory already exists at {Config.paths.db}.")
-        print("Please remove it or back it up before importing.")
-        sys.exit(1)
+        fatal(
+            f"The database directory already exists at {Config.paths.db}.\n"
+            "Please remove it or back it up before importing."
+        )
     Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     SQLModel.metadata.create_all(engine)
@@ -206,6 +259,7 @@ def main():
             "get_by_project": get_by_project,
             "get_commits": get_commits,
             "get_projects": get_projects,
+            "get_revision": get_revision,
             "json_export": json_export,
             "json_import": json_import,
         }
