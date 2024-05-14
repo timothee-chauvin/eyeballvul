@@ -43,5 +43,9 @@ poetry run ev get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c --after 202
 ## Motivation
 I believe that AI vulnerability detection in source code will disproportionately favor cyberdefense, especially if it is deployed on a wide scale as soon as it becomes feasible. The goal of this benchmark is to be a testing ground for new designs on this problem, as well as to keep evaluating the feasibility of wide-scale deployment as new models get released.
 
+The name "eyeballvul" comes from Linus's law, the assertion that "given enough eyeballs, all bugs are shallow". eyeballvul will hopefully help with the deployment of large numbers of AI eyeballs, once they can see well enough.
+
+By choosing an all-lowercase name for this project, I hope to reduce the friction of adoption from leading AI labs.
+
 ## How it works
 To get into the details, Google's [osv.dev](https://osv.dev/) vulnerability database for open-source projects is used as input. Vulnerabilities are grouped by repository, and their affected versions are extracted. Finding the smallest set of commits that cover all the affected versions is an instance of the [hitting set problem](https://en.wikipedia.org/wiki/Set_cover_problem#Hitting_set_formulation). This is an NP-complete problem, but in practice Google's [CP-SAT](https://or-tools.github.io/docs/pdoc/ortools/sat/python/cp_model.html) solver handles it well in all the repos tested so far. Repository total sizes and language breakdowns are computed at each found commit using Github's [linguist](https://github.com/github-linguist/linguist), enabling filtering by repository size or language in downstream evaluations.
