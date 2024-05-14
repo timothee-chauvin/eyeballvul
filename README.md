@@ -24,17 +24,17 @@ poetry run ev json_import
 
 You can now query the benchmark with the following methods. Examples are provided below; use `--help` to get the exact API.
 ```bash
-# rv get_projects: get all the repository URLs in the benchmark
+# ev get_projects: get all the repository URLs in the benchmark
 poetry run ev get_projects
 
-# rv get_commits: get a list of commit hashes for which at least one vulnerability was published within the optional date range.
+# ev get_commits: get a list of commit hashes for which at least one vulnerability was published within the optional date range.
 poetry run ev get_commits
 # Filter by date
 poetry run ev get_commits --after 2023-12-01
 # More filtering
 poetry run ev get_commits --after 2023-12-01 --before 2024-01-01 --project https://github.com/torvalds/linux
 
-# rv get_by_commit: get a list of vulnerabilities present at a given commit
+# ev get_by_commit: get a list of vulnerabilities present at a given commit
 poetry run ev get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c
 # Filter by date
 poetry run ev get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c --after 2023-12-01
