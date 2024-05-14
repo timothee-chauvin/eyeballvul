@@ -3,7 +3,7 @@ from collections.abc import ItemsView, KeysView, ValuesView
 
 from pydantic import BaseModel, RootModel
 
-from repovul.config.config_loader import Config
+from eyeballvul.config.config_loader import Config
 
 
 class CacheItem(BaseModel):

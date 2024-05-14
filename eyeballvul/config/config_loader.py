@@ -13,8 +13,8 @@ class Paths(NamedTuple):
     project: Path
     osv: Path
     data: Path
-    repovul_vulns: Path
-    repovul_revisions: Path
+    eyeballvul_vulns: Path
+    eyeballvul_revisions: Path
     db: Path
     repo_info_cache: Path
     workdir: Path
@@ -31,8 +31,8 @@ class Config:
         project=PROJECT_DIR,
         osv=cache_path / "osv",
         data=data_path,
-        repovul_vulns=data_path / "vulns",
-        repovul_revisions=data_path / "revisions",
+        eyeballvul_vulns=data_path / "vulns",
+        eyeballvul_revisions=data_path / "revisions",
         db=PROJECT_DIR / "db",
         repo_info_cache=cache_path / "repo_info",
         workdir=Path(config["workdir"]),
@@ -41,8 +41,8 @@ class Config:
 
 no_mkdir = [
     Config.paths.data,
-    Config.paths.repovul_vulns,
-    Config.paths.repovul_revisions,
+    Config.paths.eyeballvul_vulns,
+    Config.paths.eyeballvul_revisions,
     Config.paths.db,
 ]
 

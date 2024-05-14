@@ -1,43 +1,43 @@
-# Repovul
+# eyeballvul
 
-Repovul is an open-source benchmark designed to enable the evaluation of [SAST](https://en.wikipedia.org/wiki/Static_application_security_testing) vulnerability detection tools, especially ones based on language models, designed to be future-proof.
+eyeballvul is an open-source benchmark designed to enable the evaluation of [SAST](https://en.wikipedia.org/wiki/Static_application_security_testing) vulnerability detection tools, especially ones based on language models, designed to be future-proof.
 
-While most benchmarks eventually make it into the training data of language models, Repovul is designed to be continuously updated from the data source of CVEs in open-source repositories. This means that it will remain relevant as long as models have a reasonably delayed training data cutoff, by evaluating on the subset of the vulnerabilities that were published after the training data cutoff of the considered model. The current goal is to update it weekly.
+While most benchmarks eventually make it into the training data of language models, eyeballvul is designed to be continuously updated from the data source of CVEs in open-source repositories. This means that it will remain relevant as long as models have a reasonably delayed training data cutoff, by evaluating on the subset of the vulnerabilities that were published after the training data cutoff of the considered model. The current goal is to update it weekly.
 
-At a high level, Repovul converts the data stream of CVEs in open-source repositories into a small set of commits for each repository, and a set of vulnerabilities present at each of these commits.
+At a high level, eyeballvul converts the data stream of CVEs in open-source repositories into a small set of commits for each repository, and a set of vulnerabilities present at each of these commits.
 
 The typical use case that this benchmark enables is the following:
 1. select a list of repositories and commits for which there is at least one vulnerability published after some date;
 1. run a SAST tool (typically LLM-based) on the source code at each of these commits;
 1. compare the results of the SAST tool with the list of known vulnerabilities for each commit, especially the ones that were published after the training data cutoff.
 
-Repovul currently contains 28,158 vulnerabilities, in 7,450 commits and 6,441 repositories.
+eyeballvul currently contains 28,158 vulnerabilities, in 7,450 commits and 6,441 repositories.
 
 ## How to use
-If you simply want to use Repovul (not build it), all you need is [poetry](https://python-poetry.org/). After cloning the project and moving into it, run:
+If you simply want to use eyeballvul (not build it), all you need is [poetry](https://python-poetry.org/). After cloning the project and moving into it, run:
 ```bash
 # Install dependencies
 poetry install --only main
 # Initialize the database from the serialized data (only the first time)
-poetry run rv json_import
+poetry run ev json_import
 ```
 
 You can now query the benchmark with the following methods. Examples are provided below; use `--help` to get the exact API.
 ```bash
 # rv get_projects: get all the repository URLs in the benchmark
-poetry run rv get_projects
+poetry run ev get_projects
 
 # rv get_commits: get a list of commit hashes for which at least one vulnerability was published within the optional date range.
-poetry run rv get_commits
+poetry run ev get_commits
 # Filter by date
-poetry run rv get_commits --after 2023-12-01
+poetry run ev get_commits --after 2023-12-01
 # More filtering
-poetry run rv get_commits --after 2023-12-01 --before 2024-01-01 --project https://github.com/torvalds/linux
+poetry run ev get_commits --after 2023-12-01 --before 2024-01-01 --project https://github.com/torvalds/linux
 
 # rv get_by_commit: get a list of vulnerabilities present at a given commit
-poetry run rv get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c
+poetry run ev get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c
 # Filter by date
-poetry run rv get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c --after 2023-12-01
+poetry run ev get_by_commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c --after 2023-12-01
 ```
 
 ## Motivation

@@ -5,12 +5,12 @@ from typing import Any
 
 from sqlmodel import JSON, Column, Field, SQLModel, UniqueConstraint
 
-from repovul.config.config_loader import Config
-from repovul.models.common import Severity
-from repovul.util import repo_url_to_name
+from eyeballvul.config.config_loader import Config
+from eyeballvul.models.common import Severity
+from eyeballvul.util import repo_url_to_name
 
 
-class RepovulRevision(SQLModel, table=True):
+class EyeballvulRevision(SQLModel, table=True):
     # Full commit hash
     commit: str = Field(primary_key=True)
     # Repository URL
@@ -31,16 +31,16 @@ class RepovulRevision(SQLModel, table=True):
 
     def log(self) -> None:
         repo_name = repo_url_to_name(self.repo_url)
-        repovul_dir = Config.paths.repovul_revisions / repo_name
-        repovul_dir.mkdir(parents=True, exist_ok=True)
-        with open(repovul_dir / f"{self.commit}.json", "w") as f:
+        eyeballvul_dir = Config.paths.eyeballvul_revisions / repo_name
+        eyeballvul_dir.mkdir(parents=True, exist_ok=True)
+        with open(eyeballvul_dir / f"{self.commit}.json", "w") as f:
             json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 
     @staticmethod
-    def from_file(filepath: str | Path) -> "RepovulRevision":
+    def from_file(filepath: str | Path) -> "EyeballvulRevision":
         with open(filepath) as f:
-            return RepovulRevision.model_validate_json(f.read())
+            return EyeballvulRevision.model_validate_json(f.read())
 
     def to_dict(self) -> dict[str, Any]:
         # We can't simply use self.model_dump() because we need
@@ -54,7 +54,7 @@ class RepovulRevision(SQLModel, table=True):
         }
 
 
-class RepovulItem(SQLModel, table=True):
+class EyeballvulItem(SQLModel, table=True):
     # Same as in osv.dev.
     # Get it from there at https://api.osv.dev/v1/vulns/{id}
     id: str = Field(primary_key=True)
@@ -72,7 +72,7 @@ class RepovulItem(SQLModel, table=True):
     repo_url: str = Field(index=True)
     cwes: list[str] = Field(sa_column=Column(JSON))
     # Inferred from osv.dev and visiting the repo.
-    # This maps to a list of RepovulRevision objects.
+    # This maps to a list of EyeballvulRevision objects.
     commits: list[str] = Field(sa_column=Column(JSON))
 
     class Config:
@@ -80,16 +80,16 @@ class RepovulItem(SQLModel, table=True):
 
     def log(self) -> None:
         repo_name = repo_url_to_name(self.repo_url)
-        repovul_dir = Config.paths.repovul_vulns / repo_name
-        repovul_dir.mkdir(parents=True, exist_ok=True)
-        with open(repovul_dir / f"{self.id}.json", "w") as f:
+        eyeballvul_dir = Config.paths.eyeballvul_vulns / repo_name
+        eyeballvul_dir.mkdir(parents=True, exist_ok=True)
+        with open(eyeballvul_dir / f"{self.id}.json", "w") as f:
             json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 
     @staticmethod
-    def from_file(filepath: str | Path) -> "RepovulItem":
+    def from_file(filepath: str | Path) -> "EyeballvulItem":
         with open(filepath) as f:
-            return RepovulItem.model_validate_json(f.read())
+            return EyeballvulItem.model_validate_json(f.read())
 
     def to_dict(self) -> dict[str, Any]:
         # We can't simply use self.model_dump() because we need

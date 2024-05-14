@@ -1,6 +1,6 @@
 FROM python:3.11
 
-WORKDIR /repovul
+WORKDIR /eyeballvul
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -13,24 +13,24 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 # Create a non-root user
-RUN useradd -m repovuluser
-USER repovuluser
-ENV HOME=/home/repovuluser
-WORKDIR $HOME/repovul
+RUN useradd -m eyeballvuluser
+USER eyeballvuluser
+ENV HOME=/home/eyeballvuluser
+WORKDIR $HOME/eyeballvul
 
 # Install ASDF
 ENV ASDF_DATA_DIR=$HOME/.asdf
 RUN git clone https://github.com/asdf-vm/asdf.git $ASDF_DATA_DIR --branch v0.14.0 --depth 1
 ENV PATH="$ASDF_DATA_DIR/bin:$ASDF_DATA_DIR/shims:$PATH"
 
-COPY --chown=repovuluser:repovuluser .tool-versions ./
+COPY --chown=eyeballvuluser:eyeballvuluser .tool-versions ./
 
 # Install Ruby using ASDF
 RUN asdf plugin add ruby \
   && asdf install
 
 # Install linguist
-COPY --chown=repovuluser:repovuluser Gemfile.lock Gemfile ./
+COPY --chown=eyeballvuluser:eyeballvuluser Gemfile.lock Gemfile ./
 RUN bundle install
 
 # Install Poetry
@@ -38,7 +38,7 @@ RUN curl -sSL https://install.python-poetry.org | python3 -
 ENV PATH="$HOME/.local/bin:$PATH"
 
 # Install the project using poetry
-COPY --chown=repovuluser:repovuluser . .
+COPY --chown=eyeballvuluser:eyeballvuluser . .
 RUN poetry install --no-interaction --no-ansi
 
 # Create "rv" alias

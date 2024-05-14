@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from repovul.util import solve_hitting_set
+from eyeballvul.util import solve_hitting_set
 
 
 def test_solve_hitting_set():

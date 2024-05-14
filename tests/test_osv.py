@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from repovul.models.osv import OSVVulnerability
+from eyeballvul.models.osv import OSVVulnerability
 
 
 @pytest.mark.parametrize(

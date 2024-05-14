@@ -11,12 +11,12 @@ from sqlalchemy import delete
 from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
-from repovul.config.config_loader import Config
-from repovul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
-from repovul.models.cache import Cache, CacheItem
-from repovul.models.osv import OSVVulnerability
-from repovul.models.repovul import RepovulItem, RepovulRevision
-from repovul.util import (
+from eyeballvul.config.config_loader import Config
+from eyeballvul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
+from eyeballvul.models.cache import Cache, CacheItem
+from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
+from eyeballvul.models.osv import OSVVulnerability
+from eyeballvul.util import (
     clone_repo,
     compute_code_sizes_at_revision,
     get_domain,
@@ -39,7 +39,7 @@ class ConversionStatusCode(Enum):
 
 @typechecked
 class Converter:
-    """Class to perform the conversion from OSV items to Repovul items."""
+    """Class to perform the conversion from OSV items to Eyeballvul items."""
 
     def __init__(self):
         logging.info("Reading cache...")
@@ -48,7 +48,7 @@ class Converter:
         self.osv_items = self.get_osv_items()
         self.by_repo = self.osv_items_by_repo(self.osv_items)
         Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
-        self.engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+        self.engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
         SQLModel.metadata.create_all(self.engine)
 
     @staticmethod
@@ -56,21 +56,21 @@ class Converter:
         repo_url: str,
         osv_items: list[OSVVulnerability],
         cache: CacheItem,
-        existing_revisions: list[RepovulRevision],
-    ) -> tuple[list[RepovulItem], list[RepovulRevision], CacheItem, ConversionStatusCode]:
+        existing_revisions: list[EyeballvulRevision],
+    ) -> tuple[list[EyeballvulItem], list[EyeballvulRevision], CacheItem, ConversionStatusCode]:
         """
-        Convert the OSV items of a single repository to Repovul items.
+        Convert the OSV items of a single repository to Eyeballvul items.
 
-        The CacheItem corresponding to this repo URL, as well as any existing RepovulRevisions, are
-        given as input to enable caching.
+        The CacheItem corresponding to this repo URL, as well as any existing EyeballvulRevisions,
+        are given as input to enable caching.
 
-        Returns a tuple of: (a list of RepovulItems, a list of RepovulRevisions, the updated cache,
-        a status code)
+        Returns a tuple of: (a list of EyeballvulItems, a list of EyeballvulRevisions, the updated
+        cache, a status code)
         """
         try:
             with temp_directory() as repo_workdir:
                 return (
-                    *Converter.osv_group_to_repovul_group(
+                    *Converter.osv_group_to_eyeballvul_group(
                         repo_url, repo_workdir, osv_items, cache, existing_revisions
                     ),
                     ConversionStatusCode.OK,
@@ -88,7 +88,7 @@ class Converter:
 
     def prepare_arguments(
         self, repo_urls: list[str]
-    ) -> list[tuple[str, list[OSVVulnerability], CacheItem, list[RepovulRevision]]]:
+    ) -> list[tuple[str, list[OSVVulnerability], CacheItem, list[EyeballvulRevision]]]:
         logging.info("Preparing arguments...")
         to_compute_args = []
         time_start = time.time()
@@ -100,7 +100,7 @@ class Converter:
             with Session(self.engine) as session:
                 existing_revisions = list(
                     session.exec(
-                        select(RepovulRevision).where(RepovulRevision.repo_url == repo_url)
+                        select(EyeballvulRevision).where(EyeballvulRevision.repo_url == repo_url)
                     ).all()
                 )
             to_compute_args.append((repo_url, osv_items, cache, existing_revisions))
@@ -125,7 +125,7 @@ class Converter:
                 for i, future in enumerate(as_completed(futures_to_repo_urls)):
                     repo_url = futures_to_repo_urls[future]
                     try:
-                        repovul_items, repovul_revisions, cache, status_code = future.result()
+                        eyeballvul_items, eyeballvul_revisions, cache, status_code = future.result()
                         repos_by_status_code.setdefault(status_code, []).append(repo_url)
                     except Exception as e:
                         logging.error(f"Error processing {repo_url}: {e}")
@@ -140,19 +140,19 @@ class Converter:
                     with Session(self.engine) as session:
                         # First remove all the items for this repo URL
                         # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
-                        delete_items = delete(RepovulItem).where(RepovulItem.repo_url == repo_url)  # type: ignore[arg-type]
+                        delete_items = delete(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)  # type: ignore[arg-type]
                         session.exec(delete_items)  # type: ignore[call-overload]
-                        delete_revisions = delete(RepovulRevision).where(
-                            RepovulRevision.repo_url == repo_url  # type: ignore[arg-type]
+                        delete_revisions = delete(EyeballvulRevision).where(
+                            EyeballvulRevision.repo_url == repo_url  # type: ignore[arg-type]
                         )
                         session.exec(delete_revisions)  # type: ignore[call-overload]
-                        session.add_all(repovul_items)
-                        # Need to create new objects for RepovulRevision, otherwise sqlmodel considers that since
+                        session.add_all(eyeballvul_items)
+                        # Need to create new objects for EyeballvulRevision, otherwise sqlmodel considers that since
                         # they were extracted from the database, they don't need to be added again, and silently ignores them.
                         session.add_all(
                             [
-                                RepovulRevision(**revision.to_dict())
-                                for revision in repovul_revisions
+                                EyeballvulRevision(**revision.to_dict())
+                                for revision in eyeballvul_revisions
                             ]
                         )
                         session.commit()
@@ -170,19 +170,19 @@ class Converter:
 
     def convert_one(self, repo_url: str) -> None:
         """
-        Convert the OSV items of a single repository to Repovul items.
+        Convert the OSV items of a single repository to Eyeballvul items.
 
         Top-level function.
         """
         return self.convert_list([repo_url])
 
     def convert_all(self) -> None:
-        """Convert the OSV items of all repositories to Repovul items."""
+        """Convert the OSV items of all repositories to Eyeballvul items."""
         repo_urls = sorted(self.by_repo.keys())
         self.convert_list(repo_urls)
 
     def convert_range(self, start: int, end: int) -> None:
-        """Convert the OSV items of a range of repositories to Repovul items."""
+        """Convert the OSV items of a range of repositories to Eyeballvul items."""
         repo_urls = sorted(self.by_repo.keys())[start:end]
         self.convert_list(repo_urls)
 
@@ -240,16 +240,16 @@ class Converter:
         return items_by_repo
 
     @staticmethod
-    def osv_group_to_repovul_group(
+    def osv_group_to_eyeballvul_group(
         repo_url: str,
         repo_workdir: str,
         osv_group: list[OSVVulnerability],
         cache: CacheItem,
-        existing_revisions: list[RepovulRevision],
-    ) -> tuple[list[RepovulItem], list[RepovulRevision], CacheItem]:
+        existing_revisions: list[EyeballvulRevision],
+    ) -> tuple[list[EyeballvulItem], list[EyeballvulRevision], CacheItem]:
         """
-        Convert a group of OSV items, sharing the same repo URL, to a group of Repovul items and a
-        group of Repovul revisions.
+        Convert a group of OSV items, sharing the same repo URL, to a group of Eyeballvul items and
+        a group of Eyeballvul revisions.
 
         OSV items that don't have any affected version, or that are marked as withdrawn, are
         ignored.
@@ -308,8 +308,8 @@ class Converter:
         )
         logging.debug(f"Minimum hitting set: {hitting_set_versions}")
 
-        repovul_items = []
-        repo_dir, repovul_revisions = Converter.versions_to_repovul_revisions_with_cache(
+        eyeballvul_items = []
+        repo_dir, eyeballvul_revisions = Converter.versions_to_eyeballvul_revisions_with_cache(
             hitting_set_versions,
             versions_info,
             repo_url,
@@ -323,7 +323,7 @@ class Converter:
                 for version in hitting_set_versions
                 if version in cast(list[str], osv_item.get_affected_versions())
             ]
-            repovul_item = RepovulItem(
+            eyeballvul_item = EyeballvulItem(
                 id=osv_item.id,
                 published=osv_item.published,
                 modified=osv_item.modified,
@@ -332,10 +332,10 @@ class Converter:
                 repo_url=osv_item.get_repo_url(),
                 cwes=osv_item.get_cwes(),
                 severity=osv_item.severity,
-                commits=[repovul_revisions[version].commit for version in concerned_versions],
+                commits=[eyeballvul_revisions[version].commit for version in concerned_versions],
             )
-            repovul_items.append(repovul_item)
-        return repovul_items, list(repovul_revisions.values()), cache
+            eyeballvul_items.append(eyeballvul_item)
+        return eyeballvul_items, list(eyeballvul_revisions.values()), cache
 
     @staticmethod
     def filter_out_no_affected_versions(
@@ -405,13 +405,13 @@ class Converter:
         version_info: tuple[str, float],
         repo_url: str,
         repo_dir: str,
-    ) -> RepovulRevision:
+    ) -> EyeballvulRevision:
         logging.info(f"Computing size for version '{version}'...")
         if not version_info:
             raise ValueError(f"Empty version info passed for {repo_url}")
         commit, date = version_info
         languages, size = compute_code_sizes_at_revision(repo_dir, commit)
-        return RepovulRevision(
+        return EyeballvulRevision(
             commit=commit,
             repo_url=repo_url,
             date=datetime.fromtimestamp(date),
@@ -420,17 +420,17 @@ class Converter:
         )
 
     @staticmethod
-    def versions_to_repovul_revisions_with_cache(
+    def versions_to_eyeballvul_revisions_with_cache(
         versions: list[str],
         versions_info: dict[str, tuple[str, float] | None],
         repo_url: str,
         repo_workdir: str,
         repo_dir: str | None,
-        existing_revisions: list[RepovulRevision],
-    ) -> tuple[str | None, dict[str, RepovulRevision]]:
+        existing_revisions: list[EyeballvulRevision],
+    ) -> tuple[str | None, dict[str, EyeballvulRevision]]:
         # Convert existing_revisions into a mapping from version to revision.
         commit_to_existing_revision = {revision.commit: revision for revision in existing_revisions}
-        version_to_existing_revision: dict[str, RepovulRevision] = {}
+        version_to_existing_revision: dict[str, EyeballvulRevision] = {}
         for version in versions:
             version_info = versions_info[version]
             if version_info:

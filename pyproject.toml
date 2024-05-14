@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "repovul"
+name = "eyeballvul"
 version = "0.1.0"
 description = ""
 authors = ["Timothee Chauvin <timothee.chauvin28@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "repovul" }]
+packages = [{ include = "eyeballvul" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,7 +16,7 @@ ortools = "^9.9.3963"
 sqlmodel = "^0.0.18"
 
 [tool.poetry.scripts]
-rv = "repovul.__main__:main"
+ev = "eyeballvul.__main__:main"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.0"

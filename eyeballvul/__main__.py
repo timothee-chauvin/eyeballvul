@@ -13,9 +13,9 @@ import requests
 from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
-from repovul.config import Config
-from repovul.converter import Converter
-from repovul.models.repovul import RepovulItem, RepovulRevision
+from eyeballvul.config import Config
+from eyeballvul.converter import Converter
+from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
 
 logging.basicConfig(
     level=logging.INFO, format="%(levelname)s-%(process)d-%(asctime)s - %(message)s"
@@ -50,7 +50,7 @@ def convert_range(start: int, end: int) -> None:
 @typechecked
 def get_by_commit(commit_hash: str, after: str | None = None, before: str | None = None):
     """
-    Get the Repovul items that match a commit hash.
+    Get the Eyeballvul items that match a commit hash.
 
     The commit hash must be 40 characters long.
 
@@ -62,22 +62,22 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
     """
     if len(commit_hash) != 40:
         raise ValueError("The commit hash must be 40 characters long.")
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
         # FIXME this isn't very clean (tests if the commit hash is part of the json string of the commit array)
         # This SQL would be better, but I can't find a way to convert it to sqlalchemy:
-        # SELECT r.* FROM repovulitem r, JSON_EACH(r.commits) as jc WHERE jc.value = 'commit_hash';
+        # SELECT r.* FROM eyeballvulitem r, JSON_EACH(r.commits) as jc WHERE jc.value = 'commit_hash';
 
-        # type ignore used because RepovulItem.commits doesn't have
+        # type ignore used because EyeballvulItem.commits doesn't have
         # a `contains` method, but this is valid sqlalchemy.
-        query = select(RepovulItem).where(RepovulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
+        query = select(EyeballvulItem).where(EyeballvulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
 
         if after:
             start_date = datetime.fromisoformat(after)
-            query = query.where(RepovulItem.published >= start_date)
+            query = query.where(EyeballvulItem.published >= start_date)
         if before:
             end_date = datetime.fromisoformat(before)
-            query = query.where(RepovulItem.published < end_date)
+            query = query.where(EyeballvulItem.published < end_date)
 
         results = session.exec(query).all()
         results_json = [item.to_dict() for item in results]
@@ -86,16 +86,16 @@ def get_by_commit(commit_hash: str, after: str | None = None, before: str | None
 
 def get_projects():
     """Get the list of repo URLs."""
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
-        query = select(RepovulItem.repo_url).distinct()
+        query = select(EyeballvulItem.repo_url).distinct()
         results = session.exec(query).all()
         print(json.dumps(results, indent=2))
 
 
 def get_by_project(repo_url: str, after: str | None = None, before: str | None = None):
     """
-    Get the Repovul items that match a project's repo URL.
+    Get the Eyeballvul items that match a project's repo URL.
 
     The list can be filtered with the optional `after` and `before` parameters, which must be ISO
     8601 dates.
@@ -103,16 +103,16 @@ def get_by_project(repo_url: str, after: str | None = None, before: str | None =
     `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
     (2) after <= date < before, (3) date < before.
     """
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
-        query = select(RepovulItem).where(RepovulItem.repo_url == repo_url)
+        query = select(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)
 
         if after:
             start_date = datetime.fromisoformat(after)
-            query = query.where(RepovulItem.published >= start_date)
+            query = query.where(EyeballvulItem.published >= start_date)
         if before:
             end_date = datetime.fromisoformat(before)
-            query = query.where(RepovulItem.published < end_date)
+            query = query.where(EyeballvulItem.published < end_date)
 
         results = session.exec(query).all()
         results_json = [item.to_dict() for item in results]
@@ -131,17 +131,17 @@ def get_commits(after: str | None = None, before: str | None = None, project: st
 
     The list can also be filtered by the `project` parameter, a repo URL.
     """
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
-        query = select(RepovulItem)
+        query = select(EyeballvulItem)
         if project:
-            query = query.where(RepovulItem.repo_url == project)
+            query = query.where(EyeballvulItem.repo_url == project)
         if after:
             start_date = datetime.fromisoformat(after)
-            query = query.where(RepovulItem.published >= start_date)
+            query = query.where(EyeballvulItem.published >= start_date)
         if before:
             end_date = datetime.fromisoformat(before)
-            query = query.where(RepovulItem.published < end_date)
+            query = query.where(EyeballvulItem.published < end_date)
 
         results = session.exec(query).all()
         commits = {commit for item in results for commit in item.commits}
@@ -154,20 +154,20 @@ def json_export() -> None:
         print(f"The data directory already exists at {Config.paths.data}.")
         print("Please remove it or back it up before exporting.")
         sys.exit(1)
-    for path in [Config.paths.repovul_vulns, Config.paths.repovul_revisions]:
+    for path in [Config.paths.eyeballvul_vulns, Config.paths.eyeballvul_revisions]:
         path.mkdir(parents=True, exist_ok=True)
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
-        item_query = select(RepovulItem)
-        repovul_items = session.exec(item_query).all()
-        for item in repovul_items:
+        item_query = select(EyeballvulItem)
+        eyeballvul_items = session.exec(item_query).all()
+        for item in eyeballvul_items:
             item.log()
-        revision_query = select(RepovulRevision)
-        repovul_revisions = session.exec(revision_query).all()
-        for revision in repovul_revisions:
+        revision_query = select(EyeballvulRevision)
+        eyeballvul_revisions = session.exec(revision_query).all()
+        for revision in eyeballvul_revisions:
             revision.log()
     print(
-        f"Successfully exported {len(repovul_items)} RepovulItems and {len(repovul_revisions)} RepovulRevisions to {Config.paths.data}."
+        f"Successfully exported {len(eyeballvul_items)} EyeballvulItems and {len(eyeballvul_revisions)} EyeballvulRevisions to {Config.paths.data}."
     )
 
 
@@ -178,20 +178,20 @@ def json_import() -> None:
         print("Please remove it or back it up before importing.")
         sys.exit(1)
     Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
-    engine = create_engine(f"sqlite:///{Config.paths.db}/repovul.db")
+    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
-        repovul_item_files = list(Config.paths.repovul_vulns.glob("*/*.json"))
-        for path in repovul_item_files:
-            item = RepovulItem.from_file(path)
+        eyeballvul_item_files = list(Config.paths.eyeballvul_vulns.glob("*/*.json"))
+        for path in eyeballvul_item_files:
+            item = EyeballvulItem.from_file(path)
             session.add(item)
-        repovul_revision_files = list(Config.paths.repovul_revisions.glob("*/*.json"))
-        for path in repovul_revision_files:
-            revision = RepovulRevision.from_file(path)
+        eyeballvul_revision_files = list(Config.paths.eyeballvul_revisions.glob("*/*.json"))
+        for path in eyeballvul_revision_files:
+            revision = EyeballvulRevision.from_file(path)
             session.add(revision)
         session.commit()
     print(
-        f"Successfully imported {len(repovul_item_files)} RepovulItems and {len(repovul_revision_files)} RepovulRevisions into the database at {Config.paths.db}."
+        f"Successfully imported {len(eyeballvul_item_files)} EyeballvulItems and {len(eyeballvul_revision_files)} EyeballvulRevisions into the database at {Config.paths.db}."
     )
 
 

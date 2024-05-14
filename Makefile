@@ -1,4 +1,4 @@
-IMAGE_NAME=repovul
+IMAGE_NAME=eyeballvul
 
 build:
 	docker build -t $(IMAGE_NAME) .

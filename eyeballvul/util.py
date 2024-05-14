@@ -15,8 +15,8 @@ from urllib.parse import urlparse
 from ortools.sat.python import cp_model
 from typeguard import typechecked
 
-from repovul.config.config_loader import Config
-from repovul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
+from eyeballvul.config.config_loader import Config
+from eyeballvul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
 
 
 @typechecked

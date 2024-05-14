@@ -4,7 +4,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
-from repovul.models.common import Severity
+from eyeballvul.models.common import Severity
 
 
 class OSVRangeType(str, Enum):
