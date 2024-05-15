@@ -7,7 +7,6 @@ from sqlmodel import JSON, Column, Field, SQLModel, UniqueConstraint
 
 from eyeballvul.config.config_loader import Config
 from eyeballvul.models.common import Severity
-from eyeballvul.util import repo_url_to_name
 
 
 class EyeballvulRevision(SQLModel, table=True):
@@ -30,10 +29,11 @@ class EyeballvulRevision(SQLModel, table=True):
         validate_assignment = True
 
     def log(self) -> None:
-        repo_name = repo_url_to_name(self.repo_url)
-        eyeballvul_dir = Config.paths.eyeballvul_revisions / repo_name
-        eyeballvul_dir.mkdir(parents=True, exist_ok=True)
-        with open(eyeballvul_dir / f"{self.commit}.json", "w") as f:
+        year = str(self.date.year)
+        month = f"{self.date.month:02d}"
+        dest_dir = Config.paths.eyeballvul_revisions / year / month
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        with open(dest_dir / f"{self.commit}.json", "w") as f:
             json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 
@@ -79,10 +79,11 @@ class EyeballvulItem(SQLModel, table=True):
         validate_assignment = True
 
     def log(self) -> None:
-        repo_name = repo_url_to_name(self.repo_url)
-        eyeballvul_dir = Config.paths.eyeballvul_vulns / repo_name
-        eyeballvul_dir.mkdir(parents=True, exist_ok=True)
-        with open(eyeballvul_dir / f"{self.id}.json", "w") as f:
+        year = str(self.published.year)
+        month = f"{self.published.month:02d}"
+        dest_dir = Config.paths.eyeballvul_vulns / year / month
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        with open(dest_dir / f"{self.id}.json", "w") as f:
             json.dump(self.to_dict(), f, indent=2)
             f.write("\n")
 

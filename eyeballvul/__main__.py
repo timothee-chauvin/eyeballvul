@@ -238,11 +238,11 @@ def json_import() -> None:
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
-        eyeballvul_item_files = list(Config.paths.eyeballvul_vulns.glob("*/*.json"))
+        eyeballvul_item_files = list(Config.paths.eyeballvul_vulns.glob("*/*/*.json"))
         for path in eyeballvul_item_files:
             item = EyeballvulItem.from_file(path)
             session.add(item)
-        eyeballvul_revision_files = list(Config.paths.eyeballvul_revisions.glob("*/*.json"))
+        eyeballvul_revision_files = list(Config.paths.eyeballvul_revisions.glob("*/*/*.json"))
         for path in eyeballvul_revision_files:
             revision = EyeballvulRevision.from_file(path)
             session.add(revision)
