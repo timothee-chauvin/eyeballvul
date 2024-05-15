@@ -302,7 +302,7 @@ class Converter:
         # if the repo is known not to exist, raise that it doesn't exist immediately
         if cache.doesnt_exist:
             logging.info(f"Repo {repo_url} known not to exist. Skipping.")
-            raise RepoNotFoundError
+            raise RepoNotFoundError()
         # Do similarly if it is known to have a conflicting commit
         if conflict := cache.conflicts_with:
             logging.info(
@@ -312,7 +312,7 @@ class Converter:
         osv_group = Converter.filter_out_no_affected_versions(osv_group)
         osv_group = Converter.filter_out_withdrawn(osv_group)
         if not osv_group:
-            logging.info("No OSV items with affected versions found. Skipping.")
+            logging.info(f"No OSV items with affected versions found for {repo_url}. Skipping.")
             return [], [], cache
         # For each affected version in each OSV item, find the corresponding commit and its date.
         # This will allow to sort versions chronologically, to use as a constraint
@@ -328,7 +328,7 @@ class Converter:
         # Some versions may not have been found by git. Filter them out of our current data structures.
         unknown_versions = {v for v in versions_info if not versions_info[v]}
         if unknown_versions:
-            logging.info(
+            logging.debug(
                 f"Filtered out {len(unknown_versions)}/{len(all_versions)} versions as not found by git: {unknown_versions}"
             )
             for item_id, affected_versions in affected_versions_by_item.items():
