@@ -37,7 +37,7 @@ class ConversionStatusCode(Enum):
     """Possible outcomes of the conversion process."""
 
     OK = "OK"
-    REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore.'
+    REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore'
     GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
     LINGUIST_ERROR = "error running linguist"
     CONFLICTING_COMMIT = "the same commit already exists in another repo URL"
@@ -209,7 +209,7 @@ class Converter:
                 for future in futures_to_repo_urls:
                     future.cancel()
                 raise e
-        self.display_statistics(repos_by_status_code, repo_len)
+        self.print_statistics(repos_by_status_code, repo_len)
 
     def convert_one(self, repo_url: str) -> None:
         """
@@ -230,25 +230,16 @@ class Converter:
         self.convert_list(repo_urls)
 
     @staticmethod
-    def display_statistics(
+    def print_statistics(
         repos_by_status_code: dict[ConversionStatusCode, list[str]], repo_len: int
     ) -> None:
         """Display the statistics of the conversion process."""
+        only_print_length = [ConversionStatusCode.OK]
         logging.info("Done processing repositories. Statistics:")
-        logging.info(
-            f"{len(repos_by_status_code.get(ConversionStatusCode.OK, []))}/{repo_len}: OK."
-        )
-        other_status_codes = [
-            status_code
-            for status_code in ConversionStatusCode
-            if status_code != ConversionStatusCode.OK
-        ]
-        for other_status_code in other_status_codes:
-            if repos_by_status_code.get(other_status_code):
-                logging.info(
-                    f"{len(repos_by_status_code[other_status_code])}/{repo_len}: {other_status_code.value}"
-                )
-                logging.info(f"Concerned repos: {repos_by_status_code[other_status_code]}")
+        for status_code, concerned_repos in repos_by_status_code.items():
+            logging.info(f"{len(concerned_repos)}/{repo_len}: {status_code}: {status_code.value}.")
+            if status_code not in only_print_length:
+                logging.info(f"Concerned repos: {concerned_repos}")
 
     @staticmethod
     def get_osv_items() -> list[dict]:
