@@ -13,7 +13,7 @@ class EyeballvulRevision(SQLModel, table=True):
     # Full commit hash
     commit: str = Field(primary_key=True)
     # Repository URL
-    repo_url: str = Field(primary_key=True)
+    repo_url: str = Field(index=True)
     # Date of the commit. To be serialized as an ISO 8601 string,
     # e.g. "2021-09-01T00:00:00Z"
     date: datetime

@@ -6,6 +6,11 @@ class RepoNotFoundError(Exception):
     """
 
 
+class ConflictingCommitError(Exception):
+    """When a repository has at least one commit that also exists at another repository URL (for
+    instance when a repo has been renamed, or has forks)."""
+
+
 class GitRuntimeError(Exception):
     """Error when running git commands."""
 

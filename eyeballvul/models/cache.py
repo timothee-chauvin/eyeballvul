@@ -10,6 +10,7 @@ class CacheItem(BaseModel):
     versions_info: dict[str, tuple[str, float] | None]
     hitting_set_results: dict[str, list[str]]
     doesnt_exist: bool | None = None
+    conflicts_with: str | None = None
 
     def __eq__(self, other):
         if isinstance(other, CacheItem):
@@ -17,6 +18,7 @@ class CacheItem(BaseModel):
                 self.compare_versions_info(other.versions_info)
                 and self.compare_hitting_set_results(other.hitting_set_results)
                 and self.doesnt_exist == other.doesnt_exist
+                and self.conflicts_with == other.conflicts_with
             )
         return False
 

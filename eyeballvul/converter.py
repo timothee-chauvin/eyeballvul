@@ -8,11 +8,16 @@ from pathlib import Path
 from typing import cast
 
 from sqlalchemy import delete
-from sqlmodel import Session, SQLModel, create_engine, select
+from sqlmodel import Session, SQLModel, and_, create_engine, select
 from typeguard import typechecked
 
 from eyeballvul.config.config_loader import Config
-from eyeballvul.exceptions import GitRuntimeError, LinguistError, RepoNotFoundError
+from eyeballvul.exceptions import (
+    ConflictingCommitError,
+    GitRuntimeError,
+    LinguistError,
+    RepoNotFoundError,
+)
 from eyeballvul.models.cache import Cache, CacheItem
 from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
 from eyeballvul.models.osv import OSVVulnerability
@@ -35,6 +40,7 @@ class ConversionStatusCode(Enum):
     REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore.'
     GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
     LINGUIST_ERROR = "error running linguist"
+    CONFLICTING_COMMIT = "the same commit already exists in another repo URL"
 
 
 @typechecked
@@ -79,6 +85,11 @@ class Converter:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
             cache.doesnt_exist = True
             return [], [], cache, ConversionStatusCode.REPO_NOT_FOUND
+        except ConflictingCommitError:
+            logging.warning(
+                f"Repo {repo_url} known to have a conflicting commit (also found in another repo). Skipping."
+            )
+            return [], [], cache, ConversionStatusCode.CONFLICTING_COMMIT
         except GitRuntimeError:
             logging.warning(f"Error cloning repo {repo_url}. Skipping.")
             return [], [], cache, ConversionStatusCode.GIT_RUNTIME_ERROR
@@ -108,6 +119,32 @@ class Converter:
         logging.info(f"Arguments prepared for {len(repo_urls)} repos in {duration:.2f}s.")
         return to_compute_args
 
+    def update_cache_if_modified(self, new_cache: CacheItem, repo_url: str) -> None:
+        if new_cache != self.cache[repo_url]:
+            logging.info(f"Cache updated for {repo_url}. Writing.")
+            self.cache[repo_url] = new_cache
+            self.cache.write()
+
+    def get_conflicting_revision(
+        self, repo_url: str, eyeballvul_revisions: list[EyeballvulRevision]
+    ) -> EyeballvulRevision | None:
+        """
+        The same commit may be present in several repo URLs.
+
+        For instance, in the case of forks, or repos that have been renamed. At the moment, we skip
+        any such repositories.
+        """
+        with Session(self.engine) as session:
+            new_commits = {revision.commit for revision in eyeballvul_revisions}
+            return session.exec(
+                select(EyeballvulRevision).where(
+                    and_(
+                        EyeballvulRevision.commit.in_(new_commits),  # type: ignore[attr-defined]
+                        EyeballvulRevision.repo_url != repo_url,
+                    )
+                )
+            ).first()
+
     def convert_list(self, repo_urls: list[str]) -> None:
         to_compute_args = self.prepare_arguments(repo_urls)
         repo_len = len(repo_urls)
@@ -126,36 +163,42 @@ class Converter:
                     repo_url = futures_to_repo_urls[future]
                     try:
                         eyeballvul_items, eyeballvul_revisions, cache, status_code = future.result()
-                        repos_by_status_code.setdefault(status_code, []).append(repo_url)
                     except Exception as e:
                         logging.error(f"Error processing {repo_url}: {e}")
-                        raise e
-                    finally:
                         # the cache may be updated even after a failure
-                        if cache != self.cache[repo_url]:
-                            logging.info(f"Cache updated for {repo_url}. Writing.")
-                            self.cache[repo_url] = cache
-                            self.cache.write()
+                        self.update_cache_if_modified(cache, repo_url)
+                        raise e
 
-                    with Session(self.engine) as session:
-                        # First remove all the items for this repo URL
-                        # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
-                        delete_items = delete(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)  # type: ignore[arg-type]
-                        session.exec(delete_items)  # type: ignore[call-overload]
-                        delete_revisions = delete(EyeballvulRevision).where(
-                            EyeballvulRevision.repo_url == repo_url  # type: ignore[arg-type]
+                    if conflicting_revision := self.get_conflicting_revision(
+                        repo_url, eyeballvul_revisions
+                    ):
+                        status_code = ConversionStatusCode.CONFLICTING_COMMIT
+                        logging.warning(
+                            f"Conflicting commit in {repo_url}, already found in {conflicting_revision.repo_url}. Skipping."
                         )
-                        session.exec(delete_revisions)  # type: ignore[call-overload]
-                        session.add_all(eyeballvul_items)
-                        # Need to create new objects for EyeballvulRevision, otherwise sqlmodel considers that since
-                        # they were extracted from the database, they don't need to be added again, and silently ignores them.
-                        session.add_all(
-                            [
-                                EyeballvulRevision(**revision.to_dict())
-                                for revision in eyeballvul_revisions
-                            ]
-                        )
-                        session.commit()
+                        cache.conflicts_with = conflicting_revision.repo_url
+                    else:
+                        with Session(self.engine) as session:
+                            # First remove all the items for this repo URL
+                            # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
+                            delete_items = delete(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)  # type: ignore[arg-type]
+                            session.exec(delete_items)  # type: ignore[call-overload]
+                            delete_revisions = delete(EyeballvulRevision).where(
+                                EyeballvulRevision.repo_url == repo_url  # type: ignore[arg-type]
+                            )
+                            session.exec(delete_revisions)  # type: ignore[call-overload]
+                            session.add_all(eyeballvul_items)
+                            # Need to create new objects for EyeballvulRevision, otherwise sqlmodel considers that since
+                            # they were extracted from the database, they don't need to be added again, and silently ignores them.
+                            session.add_all(
+                                [
+                                    EyeballvulRevision(**revision.to_dict())
+                                    for revision in eyeballvul_revisions
+                                ]
+                            )
+                            session.commit()
+                    self.update_cache_if_modified(cache, repo_url)
+                    repos_by_status_code.setdefault(status_code, []).append(repo_url)
                     elapsed = time.time() - time_start
                     ETA = elapsed / (i + 1) * (repo_len - i - 1)
                     logging.info(
@@ -260,6 +303,12 @@ class Converter:
         if cache.doesnt_exist:
             logging.info(f"Repo {repo_url} known not to exist. Skipping.")
             raise RepoNotFoundError
+        # Do similarly if it is known to have a conflicting commit
+        if conflict := cache.conflicts_with:
+            logging.info(
+                f"Repo {repo_url} known to have a conflicting commit (also found in {conflict}). Skipping."
+            )
+            raise ConflictingCommitError()
         osv_group = Converter.filter_out_no_affected_versions(osv_group)
         osv_group = Converter.filter_out_withdrawn(osv_group)
         if not osv_group:
