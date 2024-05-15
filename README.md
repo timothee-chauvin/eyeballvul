@@ -11,7 +11,7 @@ The typical use case that this benchmark enables is the following:
 1. run a SAST tool (typically LLM-based) on the source code at each of these commits;
 1. compare the results of the SAST tool with the list of known vulnerabilities for each commit, especially the ones that were published after the training data cutoff.
 
-eyeballvul currently contains 28,158 vulnerabilities, in 7,433 commits and 6,441 repositories.
+eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425 repositories.
 
 ## Table of contents
 * [Data model](#data-model)
@@ -84,11 +84,11 @@ You can now query the benchmark with the following methods. Examples are provide
 ```bash
 # ev get_projects: get all the repository URLs in the benchmark
 poetry run ev get_projects --count
-# -> 6441
+# -> 6425
 
 # ev get_commits: get a list of commit hashes for which at least one vulnerability was published within the optional date range.
 poetry run ev get_commits --count
-# -> 7433
+# -> 7432
 # Filter by date
 poetry run ev get_commits --after 2023-12-01
 # More filtering
