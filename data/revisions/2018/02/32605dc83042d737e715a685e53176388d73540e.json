@@ -1,6 +1,6 @@
 {
   "commit": "32605dc83042d737e715a685e53176388d73540e",
-  "repo_url": "https://github.com/mbed-tls/mbedtls",
+  "repo_url": "https://github.com/armmbed/mbedtls",
   "date": "2018-02-05T11:36:59",
   "languages": {
     "C": 3713985,
