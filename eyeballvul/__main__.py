@@ -28,29 +28,33 @@ def fatal(message: str) -> None:
     sys.exit(1)
 
 
-def download():
-    """Download and extract the data from the osv.dev dataset."""
-    ecosystems = Config.ecosystems
-    url_template = "https://osv-vulnerabilities.storage.googleapis.com/{ecosystem}/all.zip"
-    for ecosystem in ecosystems:
-        destination = Config.paths.osv / ecosystem
-        url = url_template.format(ecosystem=ecosystem)
-        logging.info(f"Downloading data from {ecosystem}...")
-        response = requests.get(url, timeout=30)
-        z = zipfile.ZipFile(io.BytesIO(response.content))
-        z.extractall(destination)
+class Build:
+    """The group of functions used in building the eyeballvul dataset from osv.dev."""
 
+    @staticmethod
+    def download():
+        """Download and extract the data from the osv.dev dataset."""
+        ecosystems = Config.ecosystems
+        url_template = "https://osv-vulnerabilities.storage.googleapis.com/{ecosystem}/all.zip"
+        for ecosystem in ecosystems:
+            destination = Config.paths.osv / ecosystem
+            url = url_template.format(ecosystem=ecosystem)
+            logging.info(f"Downloading data from {ecosystem}...")
+            response = requests.get(url, timeout=30)
+            z = zipfile.ZipFile(io.BytesIO(response.content))
+            z.extractall(destination)
 
-def convert_one(repo_url: str) -> None:
-    return Converter().convert_one(repo_url)
+    @staticmethod
+    def convert_one(repo_url: str) -> None:
+        return Converter().convert_one(repo_url)
 
+    @staticmethod
+    def convert_all() -> None:
+        return Converter().convert_all()
 
-def convert_all() -> None:
-    return Converter().convert_all()
-
-
-def convert_range(start: int, end: int) -> None:
-    return Converter().convert_range(start, end)
+    @staticmethod
+    def convert_range(start: int, end: int) -> None:
+        return Converter().convert_range(start, end)
 
 
 @typechecked
@@ -251,10 +255,7 @@ def json_import() -> None:
 def main():
     fire.Fire(
         {
-            "download": download,
-            "convert_one": convert_one,
-            "convert_all": convert_all,
-            "convert_range": convert_range,
+            "build": Build,
             "get_by_commit": get_by_commit,
             "get_by_project": get_by_project,
             "get_commits": get_commits,
