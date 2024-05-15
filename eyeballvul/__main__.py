@@ -227,15 +227,17 @@ def json_export() -> None:
     )
 
 
-def json_import() -> None:
-    """Import the contents of the JSON files in the data directory into the SQL database."""
-    if Path(Config.paths.db).exists():
+@typechecked
+def json_import_to_dest(db_dest: Path) -> None:
+    """Import the contents of the JSON files in the data directory into the SQL database at
+    `db_dest`."""
+    if db_dest.exists():
         fatal(
-            f"The database directory already exists at {Config.paths.db}.\n"
+            f"The database directory already exists at {db_dest}.\n"
             "Please remove it or back it up before importing."
         )
-    Path(Config.paths.db).mkdir(parents=True, exist_ok=True)
-    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
+    db_dest.mkdir(parents=True, exist_ok=True)
+    engine = create_engine(f"sqlite:///{db_dest}/eyeballvul.db")
     SQLModel.metadata.create_all(engine)
     with Session(engine) as session:
         eyeballvul_item_files = list(Config.paths.eyeballvul_vulns.glob("*/*/*.json"))
@@ -248,8 +250,13 @@ def json_import() -> None:
             session.add(revision)
         session.commit()
     print(
-        f"Successfully imported {len(eyeballvul_item_files)} EyeballvulItems and {len(eyeballvul_revision_files)} EyeballvulRevisions into the database at {Config.paths.db}."
+        f"Successfully imported {len(eyeballvul_item_files)} EyeballvulItems and {len(eyeballvul_revision_files)} EyeballvulRevisions into the database at {db_dest}."
     )
+
+
+def json_import() -> None:
+    """Import the contents of the JSON files in the data directory into the SQL database."""
+    json_import_to_dest(Config.paths.db)
 
 
 def main():
