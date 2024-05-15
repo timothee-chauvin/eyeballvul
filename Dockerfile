@@ -42,4 +42,4 @@ COPY --chown=evuser:evuser . .
 RUN poetry install --no-interaction --no-ansi
 
 # Create "rv" alias
-RUN echo "alias rv='poetry run rv'" >> $HOME/.bashrc
+RUN echo "alias ev='poetry run ev'" >> $HOME/.bashrc
