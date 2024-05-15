@@ -13,6 +13,14 @@ The typical use case that this benchmark enables is the following:
 
 eyeballvul currently contains 28,158 vulnerabilities, in 7,433 commits and 6,441 repositories.
 
+## Table of contents
+* [Data model](#data-model)
+* [How to use](#how-to-use)
+* [Motivation](#motivation)
+* [How it works](#how-it-works)
+* [Full example](#full-example)
+
+## Data model
 The data can be seen in the `data` directory. There are two kinds of items: **vulnerabilities** and **revisions**. A vulnerability corresponds to an entry in the [osv.dev](https://osv.dev/) database (typically a CVE), and may be present at multiple revisions of the repository. A revision represents the state of a repository at a given commit, and may be associated with multiple vulnerabilities. Let's look at an example of each (commands explained in the [How to use](#how-to-use) section):
 ```bash
 # Vulnerability:
