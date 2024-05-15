@@ -1,3 +1,8 @@
+class NoOsvItemsLeftError(Exception):
+    """When all the OSV items for this repository have been filtered out (e.g. because they were
+    withdrawn, or aren't using the "affected versions" syntax)."""
+
+
 class RepoNotFoundError(Exception):
     """
     Git repository couldn't be cloned.
