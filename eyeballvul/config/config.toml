@@ -36,4 +36,3 @@ supported_domains = ["github.com", "gitlab.com"]
 
 cache_path = "~/.cache/eyeballvul"
 workdir = "/tmp/eyeballvul"
-cache_write_interval = 60
