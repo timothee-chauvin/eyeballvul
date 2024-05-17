@@ -25,6 +25,7 @@ class Config:
     supported_domains = config["supported_domains"]
     cache_path = Path(config["cache_path"]).expanduser()
     data_path = PROJECT_DIR / "data"
+    scoring_model = config["scoring_model"]
 
     paths = Paths(
         project=PROJECT_DIR,
