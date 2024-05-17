@@ -39,7 +39,6 @@ line_length = 100
 [tool.docformatter]
 wrap-summaries = 100
 wrap-descriptions = 100
-force-wrap = true
 pre-summary-newline = true
 
 [tool.mypy]
