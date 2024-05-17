@@ -2,3 +2,4 @@
 extend-ignore =
   # Line too long: already handled by black
   E501,
+per-file-ignores = __init__.py:F401

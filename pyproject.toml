@@ -17,7 +17,7 @@ sqlmodel = "^0.0.18"
 litellm = "^1.37.12"
 
 [tool.poetry.scripts]
-ev = "eyeballvul.__main__:main"
+ev = "eyeballvul.cli:main"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.7.0"
