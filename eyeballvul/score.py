@@ -36,12 +36,14 @@ def score(
     vulns_submission: list[str],
     cutoff_date: datetime | None = None,
     scoring_model: str = Config.scoring_model,
-) -> dict[str, int] | dict[str, int | dict[str, int]]:
+) -> tuple[dict[str, int] | dict[str, int | dict[str, int]], dict[int, str]]:
     """
     Score a model's response (`vulns_submission`) against the real list of vulnerabilities at
     `commit_hash`.
 
-    If `cutoff_date` is not provided, a dictionary of the following form is returned:
+    Returns a tuple of two dictionaries. The first one contains the score as a dictionary of true positives, false positives, etc. The second one is a mapping from vulnerability indices in the input list to the corresponding vulnerability IDs.
+
+    If `cutoff_date` is not provided, the first dictionary returned has the following format:
     ```
     {
         "true_positive": int,
@@ -50,7 +52,8 @@ def score(
     }
     ```
 
-    If `cutoff_date` is provided, the return value has the following format:
+    If `cutoff_date` is provided, the first dictionary has the following format:
+    ```
     {
         "false_positive": int,
         "before_cutoff": {
@@ -62,7 +65,15 @@ def score(
             "false_negative": int,
         },
     }
+    ```
     But one of the keys ("before_cutoff", "after_cutoff") may be missing if there are no vulnerabilities before or after the cutoff date.
+
+    The second dictionary returned has the following format:
+    ```
+    {
+        <index in the input list (starts at 0)>: "<corresponding vulnerability ID>",
+    }
+
 
     The value in `Config.scoring_model` is used by default for the scoring model, but this can be changed. The model name should be a valid LiteLLM model name, and support function calling / tool use.
     """
@@ -83,22 +94,25 @@ def score(
 
 def _score_without_cutoff(
     vulns_submission: list[str], real_vulns: list[EyeballvulItem], scoring_model: str
-) -> dict[str, int]:
+) -> tuple[dict[str, int], dict[int, str]]:
     real_vulns_hit = set()
     total_score = 0
-    for vuln_submission in vulns_submission:
+    real_vuln_mapping = {}
+    for i, vuln_submission in enumerate(vulns_submission):
         score, corresponds_to = score_one(vuln_submission, real_vulns, scoring_model)
         if corresponds_to:
             real_vulns_hit.add(corresponds_to)
-        total_score += score
+            real_vuln_mapping[i] = corresponds_to
+            total_score += score
     true_positive = len(real_vulns_hit)
     false_positive = len(vulns_submission) - total_score
     false_negative = len(real_vulns) - true_positive
-    return {
+    score_result = {
         "true_positive": true_positive,
         "false_positive": false_positive,
         "false_negative": false_negative,
     }
+    return score_result, real_vuln_mapping
 
 
 def _score_with_cutoff(
@@ -106,14 +120,15 @@ def _score_with_cutoff(
     real_vulns: list[EyeballvulItem],
     cutoff_date: datetime,
     scoring_model: str,
-) -> dict[str, int | dict[str, int]]:
+) -> tuple[dict[str, int | dict[str, int]], dict[int, str]]:
     real_vuln_ids = {
         "before_cutoff": {vuln.id for vuln in real_vulns if vuln.published < cutoff_date},
         "after_cutoff": {vuln.id for vuln in real_vulns if vuln.published >= cutoff_date},
     }
     real_vulns_hit: dict[str, set[str]] = {"before_cutoff": set(), "after_cutoff": set()}
     total_score = {"before_cutoff": 0, "after_cutoff": 0}
-    for vuln_submission in vulns_submission:
+    real_vuln_mapping = {}
+    for i, vuln_submission in enumerate(vulns_submission):
         score, corresponds_to = score_one(vuln_submission, real_vulns, scoring_model)
         if corresponds_to:
             if corresponds_to in real_vuln_ids["before_cutoff"]:
@@ -121,8 +136,9 @@ def _score_with_cutoff(
             else:
                 when = "after_cutoff"
             real_vulns_hit[when].add(corresponds_to)
+            real_vuln_mapping[i] = corresponds_to
             total_score[when] += score
-    result: dict[str, int | dict[str, int]] = {
+    score_result: dict[str, int | dict[str, int]] = {
         "false_positive": len(vulns_submission)
         - total_score["before_cutoff"]
         - total_score["after_cutoff"],
@@ -131,8 +147,8 @@ def _score_with_cutoff(
         if real_vuln_ids[when]:
             true_positive = len(real_vulns_hit[when])
             false_negative = len(real_vuln_ids[when]) - true_positive
-            result[when] = {"true_positive": true_positive, "false_negative": false_negative}
-    return result
+            score_result[when] = {"true_positive": true_positive, "false_negative": false_negative}
+    return score_result, real_vuln_mapping
 
 
 @typechecked
