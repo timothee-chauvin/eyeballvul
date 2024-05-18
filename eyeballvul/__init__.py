@@ -7,4 +7,5 @@ from eyeballvul.api import (
     json_export,
     json_import,
 )
+from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
 from eyeballvul.score import score
