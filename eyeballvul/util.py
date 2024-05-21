@@ -199,3 +199,10 @@ def get_version_date(repo_dir: str, version: str) -> float | None:
         return datetime.fromisoformat(date_str).timestamp()
     except subprocess.CalledProcessError:
         return None
+
+
+@typechecked
+def str_or_datetime_to_datetime(date: str | datetime) -> datetime:
+    if isinstance(date, str):
+        return datetime.fromisoformat(date)
+    return date

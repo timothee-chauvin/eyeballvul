@@ -6,6 +6,7 @@ from typeguard import typechecked
 
 from eyeballvul.config.config_loader import Config
 from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
+from eyeballvul.util import str_or_datetime_to_datetime
 
 
 @typechecked
@@ -19,7 +20,9 @@ def get_projects() -> list[str]:
 
 @typechecked
 def get_by_commit(
-    commit_hash: str, after: str | None = None, before: str | None = None
+    commit_hash: str,
+    after: str | datetime | None = None,
+    before: str | datetime | None = None,
 ) -> list[EyeballvulItem]:
     """
     Get the Eyeballvul items that match a commit hash.
@@ -45,10 +48,10 @@ def get_by_commit(
         query = select(EyeballvulItem).where(EyeballvulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
 
         if after:
-            start_date = datetime.fromisoformat(after)
+            start_date = str_or_datetime_to_datetime(after)
             query = query.where(EyeballvulItem.published >= start_date)
         if before:
-            end_date = datetime.fromisoformat(before)
+            end_date = str_or_datetime_to_datetime(before)
             query = query.where(EyeballvulItem.published < end_date)
 
         return list(session.exec(query).all())
@@ -56,7 +59,9 @@ def get_by_commit(
 
 @typechecked
 def get_by_project(
-    repo_url: str, after: str | None = None, before: str | None = None
+    repo_url: str,
+    after: str | datetime | None = None,
+    before: str | datetime | None = None,
 ) -> list[EyeballvulItem]:
     """
     Get the Eyeballvul items that match a project's repo URL.
@@ -72,10 +77,10 @@ def get_by_project(
         query = select(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)
 
         if after:
-            start_date = datetime.fromisoformat(after)
+            start_date = str_or_datetime_to_datetime(after)
             query = query.where(EyeballvulItem.published >= start_date)
         if before:
-            end_date = datetime.fromisoformat(before)
+            end_date = str_or_datetime_to_datetime(before)
             query = query.where(EyeballvulItem.published < end_date)
 
         return list(session.exec(query).all())
@@ -83,7 +88,9 @@ def get_by_project(
 
 @typechecked
 def get_commits(
-    after: str | None = None, before: str | None = None, project: str | None = None
+    after: str | datetime | None = None,
+    before: str | datetime | None = None,
+    project: str | None = None,
 ) -> list[str]:
     """
     Get a list of all commits that have at least one vuln within the date range.
@@ -102,10 +109,10 @@ def get_commits(
         if project:
             query = query.where(EyeballvulItem.repo_url == project)
         if after:
-            start_date = datetime.fromisoformat(after)
+            start_date = str_or_datetime_to_datetime(after)
             query = query.where(EyeballvulItem.published >= start_date)
         if before:
-            end_date = datetime.fromisoformat(before)
+            end_date = str_or_datetime_to_datetime(before)
             query = query.where(EyeballvulItem.published < end_date)
 
         results = session.exec(query).all()
