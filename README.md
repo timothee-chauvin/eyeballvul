@@ -24,7 +24,7 @@ eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425
 
 ## Installation
 ```bash
-pip install 'git+https://github.com/timothee-chauvin/eyeballvul.git'
+pip install eyeballvul
 ```
 
 ## Data model
