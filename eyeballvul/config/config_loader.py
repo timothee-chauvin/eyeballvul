@@ -1,12 +1,13 @@
-import tomllib
 from pathlib import Path
 from typing import NamedTuple
+
+import tomli
 
 PARENT_DIR = Path(__file__).parent
 PROJECT_DIR = PARENT_DIR.parent.parent
 
 with open(PARENT_DIR / "config.toml", "rb") as f:
-    config = tomllib.load(f)
+    config = tomli.load(f)
 
 
 class Paths(NamedTuple):

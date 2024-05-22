@@ -24,7 +24,7 @@ repos:
   - id: mypy
     entry: poetry run mypy
     language: system
-    args: [--python-version=3.11]
+    args: [--python-version=3.10]
 
 - repo: https://github.com/myint/autoflake
   rev: v2.3.0
@@ -45,7 +45,7 @@ repos:
   rev: v3.15.1
   hooks:
   - id: pyupgrade
-    args: ["--py311-plus"]
+    args: ["--py310-plus"]
 
 - repo: https://github.com/PyCQA/docformatter
   rev: v1.7.5
