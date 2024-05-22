@@ -7,6 +7,7 @@
 
 ### Changed
 - the minimum supported Python version has been lowered to 3.10 (from 3.11).
+- initializing the database from the JSON data is now done automatically the first time the package is imported.
 
 ## [0.1.0] - 2024-05-18
 Initial release.

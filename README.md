@@ -27,13 +27,6 @@ eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425
 pip install 'git+https://github.com/timothee-chauvin/eyeballvul.git'
 ```
 
-Then run the following (only the first time; this requirement will be dropped in the future):
-```python
-from eyeballvul import json_import
-json_import()
-```
-This imports the data (stored as plain text in this repository in the `data` directory) into an SQLite database, which is required for the other functions to work.
-
 ## Data model
 The data can be seen in the `data` directory. There are two kinds of items: **vulnerabilities** and **revisions**. A vulnerability corresponds to an entry in the [osv.dev](https://osv.dev/) database (typically a CVE), and may be present at multiple revisions of the repository. A revision represents the state of a repository at a given commit, and may be associated with multiple vulnerabilities. Let's look at an example of each (commands explained in the [How to use](#how-to-use) section):
 ```python
