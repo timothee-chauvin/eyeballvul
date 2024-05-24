@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+## [0.3.0] - 2024-05-24
 ### Changed
 - the JSON data and associated SQLite database now live in `~/.cache/eyeballvul` by default, and a function to download data has been added to the API.
 
