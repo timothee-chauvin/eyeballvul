@@ -25,8 +25,9 @@ class Config:
     ecosystems = config["ecosystems"]
     supported_domains = config["supported_domains"]
     cache_path = Path(config["cache_path"]).expanduser()
-    data_path = PROJECT_DIR / "data"
+    data_path = cache_path / "data"
     scoring_model = config["scoring_model"]
+    eyeballvul_data_api = "https://api.github.com/repos/timothee-chauvin/eyeballvul_data"
 
     paths = Paths(
         project=PROJECT_DIR,
@@ -34,7 +35,7 @@ class Config:
         data=data_path,
         eyeballvul_vulns=data_path / "vulns",
         eyeballvul_revisions=data_path / "revisions",
-        db=PROJECT_DIR / "db",
+        db=cache_path / "db",
         repo_info_cache=cache_path / "repo_info",
         workdir=Path(config["workdir"]),
     )

@@ -27,6 +27,14 @@ eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425
 pip install eyeballvul
 ```
 
+Then import the data:
+```python
+from eyeballvul import download_data
+download_data()
+```
+
+(if you want to stick to a particular version of the data, you can use `download_data(date="YYYY-MM-DD")`. See valid dates in the [eyeballvul_data](https://github.com/timothee-chauvin/eyeballvul_data/tags) repo).
+
 ## Data model
 The data can be seen in the `data` directory. There are two kinds of items: **vulnerabilities** and **revisions**. A vulnerability corresponds to an entry in the [osv.dev](https://osv.dev/) database (typically a CVE), and may be present at multiple revisions of the repository. A revision represents the state of a repository at a given commit, and may be associated with multiple vulnerabilities. Let's look at an example of each (commands explained in the [How to use](#how-to-use) section):
 ```python

@@ -1,12 +1,51 @@
+import io
+import shutil
+import tarfile
+import tempfile
 from datetime import datetime
 from pathlib import Path
 
+import requests
 from sqlmodel import Session, SQLModel, create_engine, select
 from typeguard import typechecked
 
 from eyeballvul.config.config_loader import Config
 from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
 from eyeballvul.util import str_or_datetime_to_datetime
+
+
+def download_data(date: str | None = None):
+    """
+    Download the data from the eyeballvul_data repository.
+
+    If `date` is provided (format: YYYY-MM-DD), the data at the specific date is downloaded. Otherwise, the latest data is downloaded. See https://github.com/timothee-chauvin/eyeballvul_data/tags for a list of valid dates.
+
+    The data is then extracted into (by default) ~/.cache/eyeballvul/data.
+
+    An SQLite database is instantiated from that data for faster access, in ~/.cache/eyeballvul/db.
+    """
+    if date is None:
+        print("Fetching latest version of the data...")
+        all_tags = requests.get(f"{Config.eyeballvul_data_api}/tags", timeout=30).json()
+        date = all_tags[0]["name"]
+    url = f"{Config.eyeballvul_data_api}/tarball/refs/tags/{date}"
+    print(f"Downloading data from {url}...")
+    response = requests.get(url, timeout=30)
+    if response.status_code != 200:
+        raise ValueError(
+            f"Failed to download the data from {url}. Status code: {response.status_code}"
+        )
+    with tempfile.TemporaryDirectory(prefix=str(Config.paths.workdir)) as tmpdir:
+        tar_file = io.BytesIO(response.content)
+        tar = tarfile.open(fileobj=tar_file)
+        tar_base = tar.getnames()[0].split("/")[0]
+        tar.extractall(path=tmpdir, filter="data")
+        tar.close()
+        shutil.rmtree(Config.paths.data, ignore_errors=True)
+        shutil.move(Path(tmpdir) / tar_base / "data", Config.paths.data)
+    print(f"Successfully downloaded data from {url} to {Config.paths.data}.")
+    print("Initializing the database from the data...")
+    json_import(force=True)
 
 
 @typechecked
@@ -156,13 +195,18 @@ def json_export() -> None:
 
 
 @typechecked
-def json_import(db_dest: Path = Config.paths.db) -> None:
-    """Import the contents of the JSON files in the data directory into the SQL database at
-    `db_dest`."""
+def json_import(db_dest: Path = Config.paths.db, force: bool = False) -> None:
+    """
+    Import the contents of the JSON files in the data directory into the SQL database at `db_dest`.
+
+    If `force` is set to True, the possibly existing database at `db_dest` will be overwritten.
+    """
+    if force:
+        shutil.rmtree(db_dest, ignore_errors=True)
     if db_dest.exists():
         raise ValueError(
             f"The database directory already exists at {db_dest}.\n"
-            "Please remove it or back it up before importing."
+            "Use force=True if you wish to overwrite it."
         )
     db_dest.mkdir(parents=True, exist_ok=True)
     engine = create_engine(f"sqlite:///{db_dest}/eyeballvul.db")
