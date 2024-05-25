@@ -20,6 +20,7 @@ eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425
 * [Motivation](#motivation)
 * [How it works](#how-it-works)
 * [Full example](#full-example)
+* [FAQ](#faq)
 
 
 ## Installation
@@ -417,3 +418,18 @@ Let's see how we would compute e.g. an F1 score from these results:
 >>> f1
 0.6666666666666666
 ```
+
+## FAQ
+### I'm GPU poor
+The sum of the repository sizes at each revision is around 75GB. Let's assume this translates to roughly 20B tokens. At $15/Mtok, you would be spending over $300k for a single pass on the benchmark if for example you used Claude 3 Opus. The solution: select a small random subset of the benchmark. A way to construct subsets that has nice properties is to use **commit hashes in alphabetical order**. If you work on a subset of the benchmark, please do that. For instance:
+```python
+>>> commits = get_commits()
+>>> commit_subset = sorted(commits)[:100]
+```
+
+To get a rough idea of the total size of different subsets, you could do:
+```python
+>>> total_size = sum(get_revision(commit).size for commit in commit_subset)
+```
+
+You may then further filter on reasonable criteria, such as repository size, language, or dates of vulnerabilities.
