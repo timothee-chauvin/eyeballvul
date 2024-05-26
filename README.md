@@ -433,3 +433,11 @@ To get a rough idea of the total size of different subsets, you could do:
 ```
 
 You may then further filter on reasonable criteria, such as repository size, language, or dates of vulnerabilities.
+
+### Where is the data?
+The data is kept in the [eyeballvul_data](https://github.com/timothee-chauvin/eyeballvul_data) repository. It is downloaded into `~/.cache/eyeballvul` when you run:
+```python
+from eyeballvul import download_data
+download_data()
+```
+The data sources (version-controlled OSV data, and eyeballvul cache) are kept in the [eyeballvul_data_sources](https://github.com/timothee-chauvin/eyeballvul_data_sources) repository.
