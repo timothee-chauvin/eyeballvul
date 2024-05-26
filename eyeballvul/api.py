@@ -137,6 +137,8 @@ def get_commits(
     The list can be filtered with the optional `after` and `before` parameters, which must be ISO
     8601 dates.
 
+    Note that the date range doesn't apply to the commit date, but to the existence of at least one vuln associated with the commit within the date range.
+
     `after` is included, and `before` is excluded, i.e. the possible options are: (1) after <= date,
     (2) after <= date < before, (3) date < before.
 

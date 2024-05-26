@@ -11,7 +11,7 @@ The typical use case that this benchmark enables is the following:
 1. run a SAST tool (typically LLM-based) on the source code at each of these commits;
 1. compare the results of the SAST tool with the list of known vulnerabilities for each commit, especially the ones that were published after the training data cutoff.
 
-eyeballvul currently contains 28,074 vulnerabilities, in 7,432 commits and 6,425 repositories.
+eyeballvul currently contains 24,683 vulnerabilities, in 6,697 commits and 5,952 repositories.
 
 ## Table of contents
 * [Installation](#installation)
@@ -79,34 +79,36 @@ The data can be seen in the `data` directory. There are two kinds of items: **vu
 ```
 ## How to use
 For any of the commands shown below, run `help(command_name)` to see its documentation.
+(note: example outputs below are not kept up-to-date, given that the underlying OSV data changes over time).
 ```python
 >>> from eyeballvul import get_by_commit, get_by_project, get_commits, get_projects, get_revision
 # `get_projects`: get the list of projects
 >>> projects = get_projects()
 >>> len(projects)
-6425
+5952
 # `get_commits`: get a list of commits, with possible filtering by date and project
 >>> all_commits = get_commits()
 >>> len(all_commits)
-7432
+6697
 # Commits can be filtered by date:
 >>> len(get_commits(after="2023-12-01"))
-939
+968
 # More filtering:
->>> len(get_commits(after="2023-12-01", before="2024-01-01", project="https://github.com/torvalds/linux"))
-8
+>>> len(get_commits(after="2023-12-01", before="2024-03-01", project="https://github.com/torvalds/linux"))
+4
 
 # `get_revision`: get the revision corresponding to a given commit
 >>> revision = get_revision("a241f8f6f37220ccec78a40b015967188490b1df")
 # <output already shown above>
 
 # `get_by_commit`: get a list of vulnerabilities present at a given commit
->>> vulnerabilities = get_by_commit("54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c")
+>>> linux_commits = sorted(get_commits(project="https://github.com/torvalds/linux"), key=lambda c: get_revision(c).date)
+>>> vulnerabilities = get_by_commit(linux_commits[0])
 >>> len(vulnerabilities)
-67
->>> vulnerabilities = get_by_commit("54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c", after="2024-01-01")
+10
+>>> vulnerabilities = get_by_commit(linux_commits[0], after="2024-01-01")
 >>> len(vulnerabilities)
-7
+1
 ```
 
 ## Motivation
