@@ -51,6 +51,10 @@ class Build:
     def convert_range(start: int, end: int) -> None:
         return Converter().convert_range(start, end)
 
+    @staticmethod
+    def remove_stale_revisions() -> None:
+        return Converter().remove_stale_revisions()
+
 
 def json_import_cli() -> None:
     """Import the contents of the JSON files in the data directory into the SQL database."""

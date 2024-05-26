@@ -245,6 +245,24 @@ class Converter:
             if status_code not in only_print_length:
                 logging.info(f"Concerned repos: {concerned_repos}")
 
+    def remove_stale_revisions(self) -> None:
+        """Remove all EyeballvulRevisions that don't have a corresponding EyeballvulItem."""
+        with Session(self.engine) as session:
+            revisions: dict[str, EyeballvulRevision] = {
+                revision.commit: revision
+                for revision in session.exec(select(EyeballvulRevision)).all()
+            }
+            item_commits = {
+                commit
+                for item in session.exec(select(EyeballvulItem)).all()
+                for commit in item.commits
+            }
+            stale_revision_commits = set(revisions.keys()) - item_commits
+            logging.info(f"Removing {len(stale_revision_commits)} stale revisions.")
+            for commit in stale_revision_commits:
+                session.delete(revisions[commit])
+            session.commit()
+
     @staticmethod
     def get_osv_items() -> list[dict]:
         """Get the items from the osv.dev dataset."""
