@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+## [0.4.0] - 2024-05-27
 ### Added
 - a new function has been added to the API: `get_vulns(after, before, project, commit)`.
 
