@@ -39,9 +39,9 @@ download_data()
 ## Data model
 The data can be seen in the `data` directory. There are two kinds of items: **vulnerabilities** and **revisions**. A vulnerability corresponds to an entry in the [osv.dev](https://osv.dev/) database (typically a CVE), and may be present at multiple revisions of the repository. A revision represents the state of a repository at a given commit, and may be associated with multiple vulnerabilities. Let's look at an example of each (commands explained in the [How to use](#how-to-use) section):
 ```python
->>> from eyeballvul import get_by_project, get_revision
+>>> from eyeballvul import get_vulns, get_revision
 >>> import json
->>> vulnerability = get_by_project("https://github.com/gnome/nautilus")[0]
+>>> vulnerability = get_vulns(project="https://github.com/gnome/nautilus")[0]
 >>> print(json.dumps(vulnerability.to_dict(), indent=2))
 {
   "id": "CVE-2017-14604",
@@ -79,36 +79,36 @@ The data can be seen in the `data` directory. There are two kinds of items: **vu
 ```
 ## How to use
 For any of the commands shown below, run `help(command_name)` to see its documentation.
-(note: example outputs below are not kept up-to-date, given that the underlying OSV data changes over time).
 ```python
->>> from eyeballvul import get_by_commit, get_by_project, get_commits, get_projects, get_revision
+>>> from eyeballvul import get_commits, get_projects, get_vulns, get_revision
 # `get_projects`: get the list of projects
+# get_projects() -> list[str]
 >>> projects = get_projects()
->>> len(projects)
-5952
-# `get_commits`: get a list of commits, with possible filtering by date and project
->>> all_commits = get_commits()
->>> len(all_commits)
-6697
-# Commits can be filtered by date:
->>> len(get_commits(after="2023-12-01"))
-968
-# More filtering:
->>> len(get_commits(after="2023-12-01", before="2024-03-01", project="https://github.com/torvalds/linux"))
-4
+# `get_commits`: get a list of commits, with possible filtering by date and project.
+# get_commits(
+#     after: str | datetime | None = None,
+#     before: str | datetime | None = None,
+#     project: str | None = None,
+# ) -> list[str]
+>>> commits = get_commits()
+>>> commits = get_commits(after="2023-12-01")
+>>> commits = get_commits(after="2023-12-01", before="2024-03-01", project="https://github.com/torvalds/linux")
 
 # `get_revision`: get the revision corresponding to a given commit
->>> revision = get_revision("a241f8f6f37220ccec78a40b015967188490b1df")
-# <output already shown above>
+# get_revision(commit: str) -> EyeballvulRevision | None
+>>> revision = get_revision("some commit hash (40 characters)")
 
-# `get_by_commit`: get a list of vulnerabilities present at a given commit
->>> linux_commits = sorted(get_commits(project="https://github.com/torvalds/linux"), key=lambda c: get_revision(c).date)
->>> vulnerabilities = get_by_commit(linux_commits[0])
->>> len(vulnerabilities)
-10
->>> vulnerabilities = get_by_commit(linux_commits[0], after="2024-01-01")
->>> len(vulnerabilities)
-1
+# `get_vulns`: get a list of vulnerabilities, with possible filtering by date, project, and commit.
+# get_vulns(
+#     after: str | datetime | None = None,
+#     before: str | datetime | None = None,
+#     project: str | None = None,
+#     commit: str | None = None,
+# ) -> list[EyeballvulItem]
+>>> vulns = get_vulns()
+>>> vulns = get_vulns(after="2024-01-01")
+>>> vulns = get_vulns(after="2024-01-01", project="https://github.com/torvalds/linux")
+>>> vulns = get_vulns(before="2024-05-01", commit="some commit hash (40 characters)")
 ```
 
 ## Motivation
@@ -124,11 +124,11 @@ To get into the details, Google's [osv.dev](https://osv.dev/) vulnerability data
 ## Full example
 Let's see how this benchmark can be used in practice. Let's use `https://github.com/parisneo/lollms-webui` as an example repository (cherry-picked to have a reasonable size, and to have 6 easy vulnerabilities published later than March 29, 2024).
 ```python
->>> from eyeballvul import get_by_project, get_commits, get_revision
+>>> from eyeballvul import get_vulns, get_commits, get_revision
 >>> import json
->>> vulnerabilities = get_by_project("https://github.com/parisneo/lollms-webui")
->>> vulnerabilities_dicts = [v.to_dict() for v in vulnerabilities]
->>> print(json.dumps(vulnerabilities_dict, indent=2))
+>>> vulns = get_vulns(project="https://github.com/parisneo/lollms-webui")
+>>> vulns_dicts = [v.to_dict() for v in vulns]
+>>> print(json.dumps(vulns_dicts, indent=2))
 [
   {
     "id": "CVE-2024-1646",
