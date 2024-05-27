@@ -130,13 +130,13 @@ def get_commits(
 
 
 @typechecked
-def get_revision(commit_hash: str) -> EyeballvulRevision | None:
+def get_revision(commit: str) -> EyeballvulRevision | None:
     """Get the Eyeballvul revision that matches a commit hash."""
-    if len(commit_hash) != 40:
+    if len(commit) != 40:
         raise ValueError("The commit hash must be 40 characters long.")
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
-        query = select(EyeballvulRevision).where(EyeballvulRevision.commit == commit_hash)
+        query = select(EyeballvulRevision).where(EyeballvulRevision.commit == commit)
         return session.exec(query).first()
 
 

@@ -8,6 +8,7 @@
 ### Changed
 - `get_by_project` has been removed from the API. Use `get_vulns(project=project)` instead.
 - `get_by_commit` has been removed from the API. Use `get_vulns(commit=commit)` instead.
+- for consistency, the unique parameter of `get_revision` has been renamed from `commit_hash` to `commit`.
 
 ## [0.3.0] - 2024-05-24
 ### Changed
