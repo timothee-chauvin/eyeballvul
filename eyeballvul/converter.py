@@ -245,6 +245,11 @@ class Converter:
             if status_code not in only_print_length:
                 logging.info(f"Concerned repos: {concerned_repos}")
 
+    def postprocess(self) -> None:
+        """Functions applied after the bulk of the conversion."""
+        self.remove_stale_revisions()
+        self.remove_empty_revisions()
+
     def remove_stale_revisions(self) -> None:
         """Remove all EyeballvulRevisions that don't have a corresponding EyeballvulItem."""
         with Session(self.engine) as session:
@@ -261,6 +266,33 @@ class Converter:
             logging.info(f"Removing {len(stale_revision_commits)} stale revisions.")
             for commit in stale_revision_commits:
                 session.delete(revisions[commit])
+            session.commit()
+
+    def remove_empty_revisions(self) -> None:
+        """Remove all EyeballvulRevisions for which linguist reports a size of 0 bytes, and the
+        EyeballvulItems that depended exclusively on these revisions."""
+        with Session(self.engine) as session:
+            revisions = session.exec(select(EyeballvulRevision)).all()
+            removed_commits = set()
+            for revision in revisions:
+                if revision.size == 0:
+                    logging.info(f"Removing revision {revision.commit} with size 0.")
+                    session.delete(revision)
+                    removed_commits.add(revision.commit)
+            items = session.exec(select(EyeballvulItem)).all()
+            for item in items:
+                updated_commits = [
+                    commit for commit in item.commits if commit not in removed_commits
+                ]
+                if not updated_commits:
+                    logging.info(
+                        f"Removing item {item.id} depending exclusively on empty revisions ({item.commits})."
+                    )
+                    session.delete(item)
+                elif set(updated_commits) != set(item.commits):
+                    logging.info(f"Updating item {item.id} with commits {updated_commits}.")
+                    item.commits = updated_commits
+                    session.add(item)
             session.commit()
 
     @staticmethod

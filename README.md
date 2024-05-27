@@ -11,7 +11,7 @@ The typical use case that this benchmark enables is the following:
 1. run a SAST tool (typically LLM-based) on the source code at each of these commits;
 1. compare the results of the SAST tool with the list of known vulnerabilities for each commit, especially the ones that were published after the training data cutoff.
 
-eyeballvul currently contains 24,683 vulnerabilities, in 6,697 commits and 5,952 repositories.
+eyeballvul currently contains 24,436 vulnerabilities, in 6,662 commits and 5,924 repositories.
 
 ## Table of contents
 * [Installation](#installation)

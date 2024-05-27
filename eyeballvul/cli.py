@@ -52,8 +52,8 @@ class Build:
         return Converter().convert_range(start, end)
 
     @staticmethod
-    def remove_stale_revisions() -> None:
-        return Converter().remove_stale_revisions()
+    def postprocess() -> None:
+        return Converter().postprocess()
 
 
 def json_import_cli() -> None:

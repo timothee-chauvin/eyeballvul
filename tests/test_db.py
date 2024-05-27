@@ -34,3 +34,15 @@ def test_db_stale_revisions(db_session):
         commit for item in db_session.exec(select(EyeballvulItem)).all() for commit in item.commits
     }
     assert revision_commits == item_commits
+
+
+def test_no_empty_revisions(db_session):
+    """Check that all revisions have a size at least equal to 1."""
+    assert (
+        db_session.exec(select(EyeballvulRevision).where(EyeballvulRevision.size == 0)).all() == []
+    )
+
+
+def test_no_empty_commit_list(db_session):
+    """Check that all EyeballvulItems have at least one commit."""
+    assert db_session.exec(select(EyeballvulItem).where(EyeballvulItem.commits == [])).all() == []
