@@ -95,7 +95,7 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 >>> commits = get_commits(after="2023-12-01", before="2024-03-01", project="https://github.com/torvalds/linux")
 
 # `get_revision`: get the revision corresponding to a given commit
-# get_revision(commit: str) -> EyeballvulRevision | None
+# get_revision(commit: str) -> EyeballvulRevision
 >>> revision = get_revision("some commit hash (40 characters)")
 
 # `get_vulns`: get a list of vulnerabilities, with possible filtering by date, project, and commit.
