@@ -3,6 +3,7 @@
 
 ## [Unreleased]
 
+## [0.4.1] - 2024-05-28
 ### Added
 - `get_revisions` has been added to the API.
 
