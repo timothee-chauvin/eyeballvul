@@ -3,6 +3,7 @@ from eyeballvul.api import (
     get_commits,
     get_projects,
     get_revision,
+    get_revisions,
     get_vulns,
     json_export,
     json_import,

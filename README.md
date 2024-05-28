@@ -80,11 +80,13 @@ The data can be seen in the `data` directory. There are two kinds of items: **vu
 ## How to use
 For any of the commands shown below, run `help(command_name)` to see its documentation.
 ```python
->>> from eyeballvul import get_commits, get_projects, get_vulns, get_revision
+>>> from eyeballvul import get_commits, get_projects, get_vulns, get_revision, get_revisions
 # `get_projects`: get the list of projects
 # get_projects() -> list[str]
 >>> projects = get_projects()
 # `get_commits`: get a list of commits, with possible filtering by date and project.
+# Important note: the filtering by date doesn't apply to the commit date, but to the
+# existence of at least one vuln associated with the commit within the date range!
 # get_commits(
 #     after: str | datetime | None = None,
 #     before: str | datetime | None = None,
@@ -93,6 +95,15 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 >>> commits = get_commits()
 >>> commits = get_commits(after="2023-12-01")
 >>> commits = get_commits(after="2023-12-01", before="2024-03-01", project="https://github.com/torvalds/linux")
+
+# `get_revisions`: same as `get_commits`, except you get a list of `EyeballvulRevision` objects instead.
+# This method is faster than the equivalent [get_revision(commit) for commit in get_commits(...)] when no date range is provided.
+# get_revisions(
+#     after: str | datetime | None = None,
+#     before: str | datetime | None = None,
+#     project: str | None = None,
+# ) -> list[EyeballvulRevision]
+>>> revisions = get_revisions()
 
 # `get_revision`: get the revision corresponding to a given commit
 # get_revision(commit: str) -> EyeballvulRevision

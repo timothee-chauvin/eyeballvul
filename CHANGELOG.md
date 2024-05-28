@@ -3,6 +3,9 @@
 
 ## [Unreleased]
 
+### Added
+- `get_revisions` has been added to the API.
+
 ## [0.4.0] - 2024-05-27
 ### Added
 - a new function has been added to the API: `get_vulns(after, before, project, commit)`.

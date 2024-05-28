@@ -130,6 +130,32 @@ def get_commits(
 
 
 @typechecked
+def get_revisions(
+    after: str | datetime | None = None,
+    before: str | datetime | None = None,
+    project: str | None = None,
+) -> list[EyeballvulRevision]:
+    """
+    Same as `get_commits`, except that `EyeballvulRevision` objects are returned instead.
+
+    When no date range is provided, this method is faster than the equivalent `[get_revision(commit) for commit in get_commits(...)]`.
+    """
+    if after is None and before is None:
+        # If no date range is provided, we can directly query the database, which is much faster.
+        engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
+        with Session(engine) as session:
+            query = select(EyeballvulRevision)
+            if project:
+                query = query.where(EyeballvulRevision.repo_url == project)
+            return list(session.exec(query).all())
+    else:
+        return [
+            get_revision(commit)
+            for commit in get_commits(after=after, before=before, project=project)
+        ]
+
+
+@typechecked
 def get_revision(commit: str) -> EyeballvulRevision:
     """
     Get the Eyeballvul revision that matches a commit hash.
