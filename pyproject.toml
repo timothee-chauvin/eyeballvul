@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "eyeballvul"
-version = "0.5.0"
+version = "0.5.1"
 description = ""
 authors = ["Timothee Chauvin <timothee.chauvin28@gmail.com>"]
 readme = "README.md"
