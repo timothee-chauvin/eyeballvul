@@ -5,6 +5,9 @@
 ### Added
 - It is now possible to run `from eyeballvul import EyeballvulScore` instead of `from eyeballvul.score import EyeballvulScore`.
 
+### Fixed
+- fixed bug where an error was raised when `stats.fp` was 0 when initializing `EyeballvulScore`
+
 ## [0.5.0] - 2024-06-06
 ### Changed
 - `score` has been renamed to `compute_score`. It now returns an `EyeballvulScore` object instead of the previous `tuple[dict[str, int] | dict[str, int | dict[str, int]], dict[int, str]]`. The `cutoff_date` has been removed, this can now be done after the fact by calling `EyeballvulScore.stats(cutoff_date: datetime | None = None)`.

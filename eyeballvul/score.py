@@ -86,7 +86,7 @@ class EyeballvulScore:
         scoring_model: str,
         type: Literal["llm"],
     ):
-        if not stats.fp:
+        if stats.fp is None:
             raise ValueError(
                 "fp can't be None in the EyeballvulStats object given to EyeballvulScore."
             )
