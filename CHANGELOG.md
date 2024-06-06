@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Added
+- It is now possible to run `from eyeballvul import EyeballvulScore` instead of `from eyeballvul.score import EyeballvulScore`.
 
 ## [0.5.0] - 2024-06-06
 ### Changed
