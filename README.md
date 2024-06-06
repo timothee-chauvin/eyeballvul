@@ -134,6 +134,8 @@ To get into the details, Google's [osv.dev](https://osv.dev/) vulnerability data
 
 ## Full example
 Let's see how this benchmark can be used in practice. Let's use `https://github.com/parisneo/lollms-webui` as an example repository (cherry-picked to have a reasonable size, and to have 6 easy vulnerabilities published later than March 29, 2024).
+
+(Note: the number of vulnerabilities in that project has increased since the following was written. Numbers below aren't kept up-to-date).
 ```python
 >>> from eyeballvul import get_vulns, get_commits, get_revision
 >>> import json
@@ -371,23 +373,21 @@ vulns_submission = [submission_1, submission_2, submission_3]
 
 We can now use the official scorer:
 ```python
->>> from eyeballvul import score
+>>> from eyeballvul import compute_score
 >>> commit = "80d72ca433cf0cb8318e0d08fa774b608aa29f05"
->>> stats, mapping = score(commit, vulns_submission)
->>> stats
-{'true_positive': 3, 'false_positive': 0, 'false_negative': 3}
->>> mapping
+>>> score = compute_score(commit, vulns_submission)
+>>> score.stats()
+Stats(fn=3, tp=3, fp=0)
+>>> score.mapping
 {0: 'CVE-2024-1522', 1: 'CVE-2024-1600', 2: 'CVE-2024-1569'}
 # That seems correct if you have a look!
 ```
 Now for the sake of demonstration, suppose that we were evaluating a model with a knowledge cutoff on April 12, 2024 (such that 3 CVEs were published before, and 3 were published after). This is supported by the scorer:
 ```python
 >>> from datetime import datetime
->>> stats, mapping = score("80d72ca433cf0cb8318e0d08fa774b608aa29f05", vulns_submission, cutoff_date=datetime(2024, 4, 12))
+>>> stats = score.stats(cutoff_date=datetime(2024, 4, 12))
 >>> stats
-{'false_positive': 0, 'before_cutoff': {'true_positive': 2, 'false_negative': 1}, 'after_cutoff': {'true_positive': 1, 'false_negative': 2}}
->>> mapping
-{0: 'CVE-2024-1522', 1: 'CVE-2024-1600', 2: 'CVE-2024-1569'}
+StatsWithCutoff(fp=0, before=Stats(fn=1, tp=2, fp=None), after=Stats(fn=2, tp=1, fp=None))
 ```
 As we can see, the mapping is still the same, but the stats now take the cutoff into account.
 * false positives are items in the model's response that don't correspond to any real CVE. Therefore, they don't depend on the cutoff date.
@@ -398,19 +398,17 @@ What happens if multiple input vulnerabilities map to the same CVE? (This can ea
 Let's see how we would compute e.g. an F1 score from these results:
 ```python
 # Before the cutoff:
->>> when = "before_cutoff"
->>> precision = stats[when]["true_positive"] / (stats[when]["true_positive"] + stats["false_positive"])
+>>> precision = stats.before.tp / (stats.before.tp + stats.fp)
 >>> precision
 1.0
->>> recall = stats[when]["true_positive"] / (stats[when]["true_positive"] + stats[when]["false_negative"])
+>>> recall = stats.before.tp / (stats.before.tp + stats.before.fn)
 >>> recall
 0.6666666666666666
 >>> f1 = 2 / (1 / precision + 1 / recall)
 >>> f1
 0.8
 # After the cutoff:
->>> when = "after_cutoff"
->>> ...
+>>> ...  # Same but with stats.after
 >>> precision
 1.0
 >>> recall
@@ -418,13 +416,11 @@ Let's see how we would compute e.g. an F1 score from these results:
 >>> f1
 0.5
 # And if we wanted a global F1 score:
->>> tp = stats["before_cutoff"]["true_positive"] + stats["after_cutoff"]["true_positive"]
->>> fp = stats["false_positive"]
->>> fn = stats["before_cutoff"]["false_negative"] + stats["after_cutoff"]["false_negative"]
->>> precision = tp / (tp + fp)
+>>> stats = score.stats()
+>>> precision = stats.tp / (stats.tp + stats.fp)
 >>> precision
 1.0
->>> recall = tp / (tp + fn)
+>>> recall = stats.tp / (stats.tp + stats.fn)
 >>> recall
 0.5
 >>> f1 = 2 / (1 / precision + 1 / recall)

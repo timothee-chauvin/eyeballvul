@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Changed
+- `score` has been renamed to `compute_score`. It now returns an `EyeballvulScore` object instead of the previous `tuple[dict[str, int] | dict[str, int | dict[str, int]], dict[int, str]]`. The `cutoff_date` has been removed, this can now be done after the fact by calling `EyeballvulScore.stats(cutoff_date: datetime | None = None)`.
 
 ## [0.4.1] - 2024-05-28
 ### Added
