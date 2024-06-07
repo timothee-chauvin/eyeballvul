@@ -4,12 +4,12 @@ eyeballvul is an open-source benchmark designed to enable the evaluation of [SAS
 
 While most benchmarks eventually make it into the training data of language models, eyeballvul is designed to be future-proof, as it can be continuously updated from the stream of CVEs in open-source repositories. This means that it will remain relevant as long as models have a reasonably delayed training data cutoff, by evaluating on the subset of the vulnerabilities that were published after the training data cutoff of the considered model. The current goal is to update it weekly.
 
-At a high level, eyeballvul converts the data stream of CVEs in open-source repositories into a small set of commits for each repository, and a set of vulnerabilities present at each of these commits.
+At a high level, eyeballvul converts the data stream of CVEs in open-source repositories into a small set of revisions for each repository, and a set of vulnerabilities present at each of these revisions.
 
 The typical use case that this benchmark enables is the following:
-1. select a list of repositories and commits for which there is at least one vulnerability published after some date;
-1. run a SAST tool (typically LLM-based) on the source code at each of these commits;
-1. compare the results of the SAST tool with the list of known vulnerabilities for each commit, especially the ones that were published after the training data cutoff.
+1. select a list of repositories and revisions for which there is at least one vulnerability published after some date;
+1. run a SAST tool (typically LLM-based) on the source code at each of these revisions;
+1. compare the results of the SAST tool with the list of known vulnerabilities for each revision, especially the ones that were published after the training data cutoff.
 
 eyeballvul currently contains 24,095 vulnerabilities, in 6,429 revisions and 5,892 repositories.
 
@@ -130,7 +130,7 @@ The name "eyeballvul" comes from Linus's law, the assertion that "given enough e
 By choosing an all-lowercase name for this project, I hope to reduce the friction of adoption from leading AI labs.
 
 ## How it works
-To get into the details, Google's [osv.dev](https://osv.dev/) vulnerability database for open-source projects is used as input. Vulnerabilities are grouped by repository, and their affected versions are extracted. Finding the smallest set of commits that cover all the affected versions is an instance of the [hitting set problem](https://en.wikipedia.org/wiki/Set_cover_problem#Hitting_set_formulation). This is an NP-complete problem, but in practice Google's [CP-SAT](https://or-tools.github.io/docs/pdoc/ortools/sat/python/cp_model.html) solver handles it well in all the repos tested so far. First, the number of commits necessary to cover all the affected versions is minimized, then the sum of their dates is maximized (to get more recent commits, all other things equal). Repository total sizes and language breakdowns are computed at each commit using Github's [linguist](https://github.com/github-linguist/linguist), enabling filtering by repository size or language in downstream evaluations.
+To get into the details, Google's [osv.dev](https://osv.dev/) vulnerability database for open-source projects is used as input. Vulnerabilities are grouped by repository, and their affected versions (revisions) are extracted. Finding the smallest set of revisions that covers at least one affected version per vulnerability is an instance of the [hitting set problem](https://en.wikipedia.org/wiki/Set_cover_problem#Hitting_set_formulation). This is an NP-complete problem, but in practice Google's [CP-SAT](https://or-tools.github.io/docs/pdoc/ortools/sat/python/cp_model.html) solver handles it well in all the repos tested so far. First, the number of revisions necessary to hit each vulnerability is minimized, then the sum of their dates is maximized (to get more recent revisions, all other things equal). Repository total sizes and language breakdowns are computed at each revision using Github's [linguist](https://github.com/github-linguist/linguist), enabling filtering by repository size or language in downstream evaluations.
 
 ## Full example
 Let's see how this benchmark can be used in practice. Let's use `https://github.com/parisneo/lollms-webui` as an example repository (cherry-picked to have a reasonable size, and to have 6 easy vulnerabilities published later than March 29, 2024).
