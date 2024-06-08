@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+## [0.6.0] - 2024-06-08
 ### Changed
 - `EyeballvulScore`, `Stats`, and `StatsWithCutoff` are now Pydantic models. The schema of `EyeballvulScore` has changed. To get the stats of an `EyeballvulScore`, either the `stats` attributes should be directly accessed, or the `stats_with_cutoff` method should be used in case of a cutoff date.
 
