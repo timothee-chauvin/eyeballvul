@@ -376,7 +376,7 @@ We can now use the official scorer:
 >>> from eyeballvul import compute_score
 >>> commit = "80d72ca433cf0cb8318e0d08fa774b608aa29f05"
 >>> score = compute_score(commit, vulns_submission)
->>> score.stats()
+>>> score.stats
 Stats(fn=3, tp=3, fp=0)
 >>> score.mapping
 {0: 'CVE-2024-1522', 1: 'CVE-2024-1600', 2: 'CVE-2024-1569'}
@@ -385,7 +385,7 @@ Stats(fn=3, tp=3, fp=0)
 Now for the sake of demonstration, suppose that we were evaluating a model with a knowledge cutoff on April 12, 2024 (such that 3 CVEs were published before, and 3 were published after). This is supported by the scorer:
 ```python
 >>> from datetime import datetime
->>> stats = score.stats(cutoff_date=datetime(2024, 4, 12))
+>>> stats = score.stats_with_cutoff(cutoff_date=datetime(2024, 4, 12))
 >>> stats
 StatsWithCutoff(fp=0, before=Stats(fn=1, tp=2, fp=None), after=Stats(fn=2, tp=1, fp=None))
 ```

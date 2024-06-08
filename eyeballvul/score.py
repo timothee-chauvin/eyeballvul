@@ -2,9 +2,10 @@ import json
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Any, Literal, cast
+from typing import Literal, cast
 
 from litellm import completion, supports_function_calling
+from pydantic import BaseModel, model_validator
 from sqlmodel import Session, create_engine, select
 from typeguard import typechecked
 
@@ -32,11 +33,11 @@ The real vulnerabilities are as follows:
 
 Use the tool "return_score" to return your response.
 """
-instructions_template_hash = get_str_weak_hash(instructions_template)[:20]
+instruction_template_hash = get_str_weak_hash(instructions_template)[:20]
 
 
 @dataclass
-class Stats:
+class Stats(BaseModel):
     """
     False negatives, true positives, and false positives.
 
@@ -49,13 +50,10 @@ class Stats:
     tp: int
     fp: int | None = None
 
-    def to_dict(self) -> dict[str, int | None]:
-        return {"fn": self.fn, "tp": self.tp, "fp": self.fp}
-
 
 @dataclass
 @typechecked
-class StatsWithCutoff:
+class StatsWithCutoff(BaseModel):
     """Similar to `Stats`, but with separate false negative and true positive counts before and
     after a cutoff."""
 
@@ -63,71 +61,45 @@ class StatsWithCutoff:
     before: Stats
     after: Stats
 
-    def to_dict(self) -> dict[str, Any]:
-        return {
-            "fp": self.fp,
-            "before": self.before.to_dict(),
-            "after": self.after.to_dict(),
-        }
 
-
-class EyeballvulScore:
+class EyeballvulScore(BaseModel):
     """
     Representation of the result of scoring a model's attempt at finding vulnerabilities.
 
     The `stats` attribute contains the false negatives, true positives, and false positives. The `mapping` attribute is a dictionary mapping the index of each vulnerability submission to the ID of the real vulnerability it corresponds to (if any). The `vuln_dates` attribute is a dictionary mapping vulnerability IDs to their publication date. The `scoring_model` attribute is the name of the scoring model used.
     """
 
-    def __init__(
-        self,
-        stats: Stats,
-        mapping: dict[int, str],
-        vuln_dates: dict[str, datetime],
-        scoring_model: str,
-        type: Literal["llm"],
-    ):
-        if stats.fp is None:
+    stats: Stats
+    mapping: dict[int, str]
+    vuln_dates: dict[str, datetime]
+    scoring_model: str
+    type: Literal["llm"]
+    instruction_template_hash: str = instruction_template_hash
+
+    @model_validator(mode="after")
+    def check_stats(self) -> "EyeballvulScore":
+        if self.stats.fp is None:
             raise ValueError(
                 "fp can't be None in the EyeballvulStats object given to EyeballvulScore."
             )
-        self._stats = stats
-        self.mapping = mapping
-        self.vuln_dates = vuln_dates
-        self.type = type
-        self.id = f"{scoring_model}@{instructions_template_hash}"
+        return self
 
-    def stats(
+    def stats_with_cutoff(
         self,
-        cutoff_date: datetime | None = None,
+        cutoff_date: datetime,
     ) -> Stats | StatsWithCutoff:
-        if not cutoff_date:
-            return self._stats
-        else:
-            vulns_before = {
-                vuln_id for vuln_id, date in self.vuln_dates.items() if date < cutoff_date
-            }
-            vulns_after = {
-                vuln_id for vuln_id, date in self.vuln_dates.items() if date >= cutoff_date
-            }
-            vulns_hit = set(self.mapping.values())
-            tp_before = len(vulns_before & vulns_hit)
-            fn_before = len(vulns_before - vulns_hit)
-            tp_after = len(vulns_after & vulns_hit)
-            fn_after = len(vulns_after - vulns_hit)
-            return StatsWithCutoff(
-                fp=cast(int, self._stats.fp),
-                before=Stats(fn=fn_before, tp=tp_before),
-                after=Stats(fn=fn_after, tp=tp_after),
-            )
-
-    def to_dict(self) -> dict[str, Any]:
-        return {
-            "stats": self._stats.to_dict(),
-            "mapping": self.mapping,
-            "vuln_dates": {k: v.isoformat() for k, v in self.vuln_dates.items()},
-            "type": self.type,
-            "id": self.id,
-        }
+        vulns_before = {vuln_id for vuln_id, date in self.vuln_dates.items() if date < cutoff_date}
+        vulns_after = {vuln_id for vuln_id, date in self.vuln_dates.items() if date >= cutoff_date}
+        vulns_hit = set(self.mapping.values())
+        tp_before = len(vulns_before & vulns_hit)
+        fn_before = len(vulns_before - vulns_hit)
+        tp_after = len(vulns_after & vulns_hit)
+        fn_after = len(vulns_after - vulns_hit)
+        return StatsWithCutoff(
+            fp=cast(int, self.stats.fp),
+            before=Stats(fn=fn_before, tp=tp_before),
+            after=Stats(fn=fn_after, tp=tp_after),
+        )
 
 
 @typechecked
