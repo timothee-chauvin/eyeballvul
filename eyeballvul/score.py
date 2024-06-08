@@ -198,7 +198,7 @@ def compute_score(
     fp = len(vulns_submission) - total_score
     fn = len(real_vulns) - tp
     return EyeballvulScore(
-        stats=Stats(fp=fp, fn=fn, tp=tp),
+        stats={"fp": fp, "tp": tp, "fn": fn},
         mapping=real_vuln_mapping,
         vuln_dates={vuln.id: vuln.published for vuln in real_vulns},
         type="llm",
