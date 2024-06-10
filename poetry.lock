@@ -2005,6 +2005,17 @@ doc = ["Sphinx (>=7)", "packaging", "sphinx-autodoc-typehints (>=1.2.0)"]
 test = ["coverage[toml] (>=7)", "mypy (>=1.2.0)", "pytest (>=7)"]
 
 [[package]]
+name = "types-pyyaml"
+version = "6.0.12.20240311"
+description = "Typing stubs for PyYAML"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-PyYAML-6.0.12.20240311.tar.gz", hash = "sha256:a9e0f0f88dc835739b0c1ca51ee90d04ca2a897a71af79de9aec5f38cb0a5342"},
+    {file = "types_PyYAML-6.0.12.20240311-py3-none-any.whl", hash = "sha256:b845b06a1c7e54b8e5b4c683043de0d9caf205e7434b3edc678ff2411979b8f6"},
+]
+
+[[package]]
 name = "types-requests"
 version = "2.31.0.20240406"
 description = "Typing stubs for requests"
@@ -2198,4 +2209,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f1711ad1cb588e53788b52fbbe0e45ef318e209e7378239e84aebf4b777f1d01"
+content-hash = "647109aef67b96975bacddd7cf756dab6c8ee80282498c206acbaf3ba780ae9b"

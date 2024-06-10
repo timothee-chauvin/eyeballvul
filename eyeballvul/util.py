@@ -12,6 +12,7 @@ from pathlib import Path
 from tempfile import mkdtemp
 from urllib.parse import urlparse
 
+import yaml
 from ortools.sat.python import cp_model
 from typeguard import typechecked
 
@@ -206,3 +207,34 @@ def str_or_datetime_to_datetime(date: str | datetime) -> datetime:
     if isinstance(date, str):
         return datetime.fromisoformat(date)
     return date
+
+
+@typechecked
+def extract_yaml_from_str(s: str) -> dict:
+    """
+    Extract a yaml dictionary from a string.
+
+    If there's a ```yaml ...``` code block, its contents are parsed. If there isn't, we try to parse
+    the whole string as yaml.
+
+    :params:
+    :param s: The string to extract the yaml dictionary from.
+    :returns: The extracted yaml dictionary.
+    :raises: ValueError if the string can't be parsed as yaml.
+    """
+
+    try:
+        yaml_part = re.search(r"```yaml\s*(.*?)\s*```", s, re.DOTALL)
+        match yaml_part:
+            case None:
+                s = s.replace("`", "")
+                yaml_content = yaml.safe_load(s)
+            case _:
+                content_fixed = yaml_part.group(1).replace("`", "")
+                yaml_content = yaml.safe_load(content_fixed)
+        if not isinstance(yaml_content, dict):
+            raise ValueError("Yaml content is not a dictionary.")
+
+        return yaml_content
+    except yaml.YAMLError as e:
+        raise ValueError(f"Error parsing yaml from string: {e}")
