@@ -6,9 +6,9 @@ from typing import Literal, cast
 
 from litellm import completion
 from pydantic import BaseModel, model_validator
-from sqlmodel import Session, create_engine, select
 from typeguard import typechecked
 
+from eyeballvul import get_vulns
 from eyeballvul.config.config_loader import Config
 from eyeballvul.models.eyeballvul import EyeballvulItem
 from eyeballvul.util import extract_yaml_from_str, get_str_weak_hash
@@ -343,13 +343,7 @@ def compute_score(
 
     It's possible to supply a custom `score_one_fn` function, which must have the same signature as `score_one` (the one used by default).
     """
-    engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
-    with Session(engine) as session:
-        real_vulns = list(
-            session.exec(
-                select(EyeballvulItem).where(EyeballvulItem.commits.contains(commit_hash))  # type: ignore[attr-defined]
-            ).all()
-        )
+    real_vulns = get_vulns(commit=commit_hash)
     real_vulns_hit = set()
     total_score = 0
     real_vuln_mapping = {}
