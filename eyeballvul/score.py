@@ -56,7 +56,8 @@ filenames: ['app/routes.py']
 
 Response:
 ```yaml
-reasoning: While CVE-2024-22204 also mentions the pickle module, the vulnerability is about a limited file write vulnerability, while the submission is an overly broad statement on using `pickle.load()` without any details on a specific threat model where the pickled data could be attacker-controlled. The submission is too broad and doesn't correspond to any of the vulnerabilities.
+reasoning: |
+  While CVE-2024-22204 also mentions the pickle module, the vulnerability is about a limited file write vulnerability, while the submission is an overly broad statement on using `pickle.load()` without any details on a specific threat model where the pickled data could be attacker-controlled. The submission is too broad and doesn't correspond to any of the vulnerabilities.
 score: 0
 ```
 </example_1>
@@ -86,7 +87,8 @@ filenames: ['index.js']
 
 Response:
 ```yaml
-reasoning: The closest match is CVE-2017-16016, which also mentions XSS. However, the CVE gives a specific scenario where the vulnerability can be triggered (if allowed at least one nonTextTags), while the submission is overly broad ("other special characters and entities may not be properly encoded or neutralized"). The submission isn't specific enough.
+reasoning: |
+  The closest match is CVE-2017-16016, which also mentions XSS. However, the CVE gives a specific scenario where the vulnerability can be triggered (if allowed at least one nonTextTags), while the submission is overly broad ("other special characters and entities may not be properly encoded or neutralized"). The submission isn't specific enough.
 score: 0
 ```
 </example_2>
@@ -112,7 +114,8 @@ filenames: ['bootbox.js']
 
 Response:
 ```yaml
-reasoning: While the submission doesn't specifically mention XSS, it does name nearly the same set of functions as the ones in CVE-2023-46998. This is specific enough.
+reasoning: |
+  While the submission doesn't specifically mention XSS, it does name nearly the same set of functions as the ones in CVE-2023-46998. This is specific enough.
 score: 1
 corresponds_to: CVE-2023-46998
 ```
@@ -144,7 +147,8 @@ filenames: ['lib/ejs.js']
 
 Response:
 ```yaml
-reasoning: the closest match is CVE-2017-1000188, which also mentions XSS. The submission mentions the function `exports.render` in file `lib/ejs.js`. This seems close enough to the CVE's mention of `ejs.renderFile()`. I'll score this as a match.
+reasoning: |
+  The closest match is CVE-2017-1000188, which also mentions XSS. The submission mentions the function `exports.render` in file `lib/ejs.js`. This seems close enough to the CVE's mention of `ejs.renderFile()`. I'll score this as a match.
 score: 1
 corresponds_to: CVE-2017-1000188
 ```
@@ -173,7 +177,8 @@ filenames: ['force_kill.sh']
 
 Response:
 ```yaml
-reasoning: no match.
+reasoning: |
+  No match.
 score: 0
 ```
 </example_5>
@@ -201,7 +206,8 @@ filenames: ['app.py']
 
 Response:
 ```yaml
-reasoning: both CVEs are very similar, but the closest match is CVE-2024-21663 as it mentions "shell commands". That being said, the submission is rather low-effort, as it only amounts to saying that shell=True is insecure, without mentioning a specific situation where an attacker can control the input to these subprocess calls. In addition, we're not even sure that the CVE is about any of these commands with shell=True. So I'll give this a score of 0.
+reasoning: |
+  Both CVEs are very similar, but the closest match is CVE-2024-21663 as it mentions "shell commands". That being said, the submission is rather low-effort, as it only amounts to saying that shell=True is insecure, without mentioning a specific situation where an attacker can control the input to these subprocess calls. In addition, we're not even sure that the CVE is about any of these commands with shell=True. So I'll give this a score of 0.
 score: 0
 ```
 </example_6>
