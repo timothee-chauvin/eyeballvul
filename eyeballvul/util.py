@@ -238,3 +238,47 @@ def extract_yaml_from_str(s: str) -> dict:
         return yaml_content
     except yaml.YAMLError as e:
         raise ValueError(f"Error parsing yaml from string: {e}")
+
+
+class TooManyTriesException(Exception):
+    pass
+
+
+def aretrying(max_retries):
+    """Wrapper to retry async functions a number of times before giving up."""
+    max_tries = max_retries + 1
+
+    def func_wrapper(f):
+        async def wrapper(*args, **kwargs):
+            for i in range(max_tries):
+                try:
+                    return await f(*args, **kwargs)
+                except Exception as e:
+                    logging.info(f"Validation failed (attempt {i+1}/{max_tries}): {str(e)}")
+                    if i < max_tries - 1:
+                        logging.info("Retrying...")
+            raise TooManyTriesException()
+
+        return wrapper
+
+    return func_wrapper
+
+
+def retrying(max_retries):
+    """Wrapper to retry functions a number of times before giving up."""
+    max_tries = max_retries + 1
+
+    def func_wrapper(f):
+        def wrapper(*args, **kwargs):
+            for i in range(max_tries):
+                try:
+                    return f(*args, **kwargs)
+                except Exception as e:
+                    logging.info(f"Validation failed (attempt {i+1}/{max_tries}): {str(e)}")
+                    if i < max_tries - 1:
+                        logging.info("Retrying...")
+            raise TooManyTriesException()
+
+        return wrapper
+
+    return func_wrapper

@@ -12,7 +12,7 @@ from typeguard import typechecked
 from eyeballvul import get_vulns
 from eyeballvul.config.config_loader import Config
 from eyeballvul.models.eyeballvul import EyeballvulItem
-from eyeballvul.util import extract_yaml_from_str, get_str_weak_hash
+from eyeballvul.util import aretrying, extract_yaml_from_str, get_str_weak_hash, retrying
 
 instructions_template = """
 An AI vulnerability detection tool has analyzed a project and come up with a possible lead, included below.
@@ -292,6 +292,7 @@ class EyeballvulScore(BaseModel):
 
 
 @typechecked
+@retrying(max_retries=5)
 def score_one(
     vuln_submission: str, real_vulns: list[EyeballvulItem], scoring_model: str
 ) -> ScoreResponse:
@@ -305,6 +306,7 @@ def score_one(
 
 
 @typechecked
+@aretrying(max_retries=5)
 async def ascore_one(
     vuln_submission: str, real_vulns: list[EyeballvulItem], scoring_model: str
 ) -> ScoreResponse:
