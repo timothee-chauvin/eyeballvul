@@ -327,6 +327,32 @@ def validate_score_response(response: str, real_vulns: list[EyeballvulItem]) -> 
 
 
 @typechecked
+def _process_score_responses(
+    score_responses: list[ScoreResponse], real_vulns: list[EyeballvulItem], scoring_model: str
+) -> EyeballvulScore:
+    """Return an `EyeballvulScore` from the list of `ScoreResponse` objects, which must be in the
+    same order as the underlying list of vulnerability submissions."""
+    real_vulns_hit = set()
+    total_score = 0
+    real_vuln_mapping = {}
+    for i, score_response in enumerate(score_responses):
+        if score_response.corresponds_to:
+            real_vulns_hit.add(score_response.corresponds_to)
+            real_vuln_mapping[i] = score_response.corresponds_to
+            total_score += score_response.score
+    tp = len(real_vulns_hit)
+    fp = len(score_responses) - total_score
+    fn = len(real_vulns) - tp
+    return EyeballvulScore(
+        stats={"fp": fp, "tp": tp, "fn": fn},
+        mapping=real_vuln_mapping,
+        vuln_dates={vuln.id: vuln.published for vuln in real_vulns},
+        type="llm",
+        scoring_model=scoring_model,
+    )
+
+
+@typechecked
 def compute_score(
     commit_hash: str,
     vulns_submission: list[str],
@@ -344,22 +370,7 @@ def compute_score(
     It's possible to supply a custom `score_one_fn` function, which must have the same signature as `score_one` (the one used by default).
     """
     real_vulns = get_vulns(commit=commit_hash)
-    real_vulns_hit = set()
-    total_score = 0
-    real_vuln_mapping = {}
-    for i, vuln_submission in enumerate(vulns_submission):
-        score_response: ScoreResponse = score_one_fn(vuln_submission, real_vulns, scoring_model)
-        if score_response.corresponds_to:
-            real_vulns_hit.add(score_response.corresponds_to)
-            real_vuln_mapping[i] = score_response.corresponds_to
-            total_score += score_response.score
-    tp = len(real_vulns_hit)
-    fp = len(vulns_submission) - total_score
-    fn = len(real_vulns) - tp
-    return EyeballvulScore(
-        stats={"fp": fp, "tp": tp, "fn": fn},
-        mapping=real_vuln_mapping,
-        vuln_dates={vuln.id: vuln.published for vuln in real_vulns},
-        type="llm",
-        scoring_model=scoring_model,
-    )
+    score_responses = [
+        score_one_fn(submission, real_vulns, scoring_model) for submission in vulns_submission
+    ]
+    return _process_score_responses(score_responses, real_vulns, scoring_model)
