@@ -1,10 +1,11 @@
+import asyncio
 import json
-from collections.abc import Callable
+from collections.abc import Callable, Coroutine
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Literal, cast
+from typing import Any, Literal, cast
 
-from litellm import completion
+from litellm import acompletion, completion
 from pydantic import BaseModel, model_validator
 from typeguard import typechecked
 
@@ -294,19 +295,35 @@ class EyeballvulScore(BaseModel):
 def score_one(
     vuln_submission: str, real_vulns: list[EyeballvulItem], scoring_model: str
 ) -> ScoreResponse:
-    real_vulns_formats: list[str] = []
-    for vuln in real_vulns:
-        real_vulns_formats.append(json.dumps({"id": vuln.id, "details": vuln.details}, indent=2))
-    real_vulns_str = "\n".join(real_vulns_formats)
-    prompt = instructions_template.format(
-        vuln_submission=vuln_submission, real_vulns=real_vulns_str
-    )
+    prompt = _gen_prompt(vuln_submission, real_vulns)
     response = completion(
         model=scoring_model,
         messages=[{"content": prompt, "role": "user"}],
     )
     content = response.choices[0].message.content
     return validate_score_response(content, real_vulns)
+
+
+@typechecked
+async def ascore_one(
+    vuln_submission: str, real_vulns: list[EyeballvulItem], scoring_model: str
+) -> ScoreResponse:
+    prompt = _gen_prompt(vuln_submission, real_vulns)
+    response = await acompletion(
+        model=scoring_model,
+        messages=[{"content": prompt, "role": "user"}],
+    )
+    content = response.choices[0].message.content
+    return validate_score_response(content, real_vulns)
+
+
+@typechecked
+def _gen_prompt(vuln_submission: str, real_vulns: list[EyeballvulItem]) -> str:
+    real_vulns_formats: list[str] = []
+    for vuln in real_vulns:
+        real_vulns_formats.append(json.dumps({"id": vuln.id, "details": vuln.details}, indent=2))
+    real_vulns_str = "\n".join(real_vulns_formats)
+    return instructions_template.format(vuln_submission=vuln_submission, real_vulns=real_vulns_str)
 
 
 def validate_score_response(response: str, real_vulns: list[EyeballvulItem]) -> ScoreResponse:
@@ -373,4 +390,20 @@ def compute_score(
     score_responses = [
         score_one_fn(submission, real_vulns, scoring_model) for submission in vulns_submission
     ]
+    return _process_score_responses(score_responses, real_vulns, scoring_model)
+
+
+@typechecked
+async def acompute_score(
+    commit_hash: str,
+    vulns_submission: list[str],
+    scoring_model: str = Config.scoring_model,
+    ascore_one_fn: Callable[..., Coroutine[Any, Any, Any]] = ascore_one,
+) -> EyeballvulScore:
+    """Same as `compute_score`, except async (therefore faster if there are multiple vulnerability
+    submissions to process)."""
+    real_vulns = get_vulns(commit=commit_hash)
+    score_responses = await asyncio.gather(
+        *[ascore_one_fn(submission, real_vulns, scoring_model) for submission in vulns_submission]
+    )
     return _process_score_responses(score_responses, real_vulns, scoring_model)

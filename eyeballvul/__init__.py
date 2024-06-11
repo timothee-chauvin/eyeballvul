@@ -9,4 +9,4 @@ from eyeballvul.api import (
     json_import,
 )
 from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
-from eyeballvul.score import EyeballvulScore, compute_score
+from eyeballvul.score import EyeballvulScore, acompute_score, compute_score
