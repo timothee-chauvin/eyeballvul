@@ -282,7 +282,7 @@ class EyeballvulScore(BaseModel):
     def stats_with_cutoff(
         self,
         cutoff_date: datetime,
-    ) -> Stats | StatsWithCutoff:
+    ) -> StatsWithCutoff:
         vulns_before = {vuln_id for vuln_id, date in self.vuln_dates.items() if date < cutoff_date}
         vulns_after = {vuln_id for vuln_id, date in self.vuln_dates.items() if date >= cutoff_date}
         vulns_hit = set(self.mapping.values())
