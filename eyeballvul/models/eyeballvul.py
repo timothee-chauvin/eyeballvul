@@ -66,7 +66,7 @@ class EyeballvulItem(SQLModel, table=True):
     details: str
     # Same as in osv.dev.
     summary: str | None = None
-    # Same as in asv.dev.
+    # Same as in osv.dev.
     severity: list[Severity] | None = Field(sa_column=Column(JSON))
     # Extracted from osv.dev.
     repo_url: str = Field(index=True)
