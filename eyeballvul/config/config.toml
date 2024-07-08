@@ -36,4 +36,4 @@ supported_domains = ["github.com", "gitlab.com"]
 
 cache_path = "~/.cache/eyeballvul"
 workdir = "/tmp/eyeballvul"
-scoring_model = "gpt-4o-2024-05-13"
+scoring_model = "claude-3-5-sonnet-20240620"

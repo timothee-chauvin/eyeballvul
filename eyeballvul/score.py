@@ -320,6 +320,7 @@ async def ascore_one(
     response = await acompletion(
         model=scoring_model,
         messages=[{"content": prompt, "role": "user"}],
+        temperature=0.1,
     )
     content = response.choices[0].message.content
     return validate_score_response(content, real_vulns)
