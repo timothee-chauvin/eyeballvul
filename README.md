@@ -88,6 +88,7 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 # Important note: the filtering by date doesn't apply to the commit date, but to the
 # existence of at least one vuln associated with the commit within the date range!
 # get_commits(
+#     *,
 #     after: str | datetime | None = None,
 #     before: str | datetime | None = None,
 #     project: str | None = None,
@@ -99,6 +100,7 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 # `get_revisions`: same as `get_commits`, except you get a list of `EyeballvulRevision` objects instead.
 # This method is faster than the equivalent [get_revision(commit) for commit in get_commits(...)] when no date range is provided.
 # get_revisions(
+#     *,
 #     after: str | datetime | None = None,
 #     before: str | datetime | None = None,
 #     project: str | None = None,
@@ -111,6 +113,7 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 
 # `get_vulns`: get a list of vulnerabilities, with possible filtering by CVE ID, date, project, and commit.
 # get_vulns(
+#     *,
 #     id: str | None = None,
 #     after: str | datetime | None = None,
 #     before: str | datetime | None = None,

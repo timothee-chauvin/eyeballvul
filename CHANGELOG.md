@@ -5,6 +5,7 @@
 ### Changed
 - the LLM scorer now uses YAML, few-shot prompting, Claude 3.5 Sonnet at temperature 0, and asks for a reasoning step before giving the response.
 - `Stats` and `StatsWithCutoff` are no longer dataclasses.
+- `get_vulns`, `get_commits` and `get_revisions` now only accept keyword arguments.
 
 ### Added
 - an async version of `compute_score` has been added, named `acompute_score`.

@@ -59,6 +59,7 @@ def get_projects() -> list[str]:
 
 @typechecked
 def get_vulns(
+    *,
     id: str | None = None,
     after: str | datetime | None = None,
     before: str | datetime | None = None,
@@ -109,6 +110,7 @@ def get_vulns(
 
 @typechecked
 def get_commits(
+    *,
     after: str | datetime | None = None,
     before: str | datetime | None = None,
     project: str | None = None,
@@ -133,6 +135,7 @@ def get_commits(
 
 @typechecked
 def get_revisions(
+    *,
     after: str | datetime | None = None,
     before: str | datetime | None = None,
     project: str | None = None,
