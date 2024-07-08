@@ -59,6 +59,7 @@ def get_projects() -> list[str]:
 
 @typechecked
 def get_vulns(
+    id: str | None = None,
     after: str | datetime | None = None,
     before: str | datetime | None = None,
     project: str | None = None,
@@ -83,7 +84,8 @@ def get_vulns(
     engine = create_engine(f"sqlite:///{Config.paths.db}/eyeballvul.db")
     with Session(engine) as session:
         query = select(EyeballvulItem)
-
+        if id:
+            query = query.where(EyeballvulItem.id == id)
         if project:
             query = query.where(EyeballvulItem.repo_url == project)
         if after:
