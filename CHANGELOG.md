@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+## [0.7.0] - 2024-07-08
 ### Changed
 - the LLM scorer now uses YAML, few-shot prompting, Claude 3.5 Sonnet at temperature 0, and asks for a reasoning step before giving the response.
 - `Stats` and `StatsWithCutoff` are no longer dataclasses.
