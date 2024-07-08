@@ -1,7 +1,6 @@
 import asyncio
 import json
 from collections.abc import Callable, Coroutine
-from dataclasses import dataclass
 from datetime import datetime
 from typing import Any, Literal, cast
 
@@ -231,7 +230,6 @@ class ScoreResponse(BaseModel):
     corresponds_to: str | None = None
 
 
-@dataclass
 class Stats(BaseModel):
     """
     False negatives, true positives, and false positives.
@@ -246,7 +244,6 @@ class Stats(BaseModel):
     fp: int | None = None
 
 
-@dataclass
 @typechecked
 class StatsWithCutoff(BaseModel):
     """Similar to `Stats`, but with separate false negative and true positive counts before and
@@ -257,6 +254,7 @@ class StatsWithCutoff(BaseModel):
     after: Stats
 
 
+@typechecked
 class EyeballvulScore(BaseModel):
     """
     Representation of the result of scoring a model's attempt at finding vulnerabilities.
