@@ -109,8 +109,9 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 # get_revision(commit: str) -> EyeballvulRevision
 >>> revision = get_revision("some commit hash (40 characters)")
 
-# `get_vulns`: get a list of vulnerabilities, with possible filtering by date, project, and commit.
+# `get_vulns`: get a list of vulnerabilities, with possible filtering by CVE ID, date, project, and commit.
 # get_vulns(
+#     id: str | None = None,
 #     after: str | datetime | None = None,
 #     before: str | datetime | None = None,
 #     project: str | None = None,
@@ -120,6 +121,7 @@ For any of the commands shown below, run `help(command_name)` to see its documen
 >>> vulns = get_vulns(after="2024-01-01")
 >>> vulns = get_vulns(after="2024-01-01", project="https://github.com/torvalds/linux")
 >>> vulns = get_vulns(before="2024-05-01", commit="some commit hash (40 characters)")
+>>> vuln = get_vulns(id="CVE-2020-2225")[0]
 ```
 
 ## Motivation
@@ -382,6 +384,13 @@ Stats(fn=3, tp=3, fp=0)
 {0: 'CVE-2024-1522', 1: 'CVE-2024-1600', 2: 'CVE-2024-1569'}
 # That seems correct if you have a look!
 ```
+
+There is also an async version of the scorer, `acompute_score`, which can be used in the same way:
+```python
+>>> from eyeballvul import acompute_score
+>>> score = await acompute_score(commit, vulns_submission)
+```
+
 Now for the sake of demonstration, suppose that we were evaluating a model with a knowledge cutoff on April 12, 2024 (such that 3 CVEs were published before, and 3 were published after). This is supported by the scorer:
 ```python
 >>> from datetime import datetime

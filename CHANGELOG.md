@@ -2,6 +2,14 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Changed
+- the LLM scorer now uses YAML, few-shot prompting, Claude 3.5 Sonnet at temperature 0, and asks for a reasoning step before giving the response.
+- `Stats` and `StatsWithCutoff` are no longer dataclasses.
+
+### Added
+- an async version of `compute_score` has been added, named `acompute_score`.
+- an `id` argument has been added to `get_vulns`, to filter by CVE ID.
+- up to 5 retries are now automatically tried by the LLM scorer, in case of API errors or incorrect YAML.
 
 ## [0.6.1] - 2024-06-08
 ### Fixed
