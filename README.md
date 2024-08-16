@@ -464,3 +464,6 @@ from eyeballvul import download_data
 download_data()
 ```
 The data sources (version-controlled OSV data, and eyeballvul cache) are kept in the [eyeballvul_data_sources](https://github.com/timothee-chauvin/eyeballvul_data_sources) repository.
+
+### How do I update the data myself?
+See the [README in the terraform directory](terraform/README.md).
