@@ -40,6 +40,7 @@ class ConversionStatusCode(Enum):
     """Possible outcomes of the conversion process."""
 
     OK = "OK"
+    NO_VERSION_FOUND_BY_GIT = "no provided affected version could be mapped to a git commit"
     REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore'
     GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
     LINGUIST_ERROR = "error running linguist"
@@ -82,12 +83,20 @@ class Converter:
         """
         try:
             with temp_directory() as repo_workdir:
-                return (
-                    *Converter.osv_group_to_eyeballvul_group(
+                eyeballvul_items, eyeballvul_revisions, cache = (
+                    Converter.osv_group_to_eyeballvul_group(
                         repo_url, repo_workdir, osv_items, cache, existing_revisions
-                    ),
-                    ConversionStatusCode.OK,
+                    )
                 )
+                if not eyeballvul_items:
+                    status_code = ConversionStatusCode.NO_VERSION_FOUND_BY_GIT
+                    if eyeballvul_revisions:
+                        raise RuntimeError(
+                            "there should be no revisions if there are no items. There's a bug in the code."
+                        )
+                else:
+                    status_code = ConversionStatusCode.OK
+                return eyeballvul_items, eyeballvul_revisions, cache, status_code
         except AllOsvItemsWithdrawnError:
             return [], [], cache, ConversionStatusCode.ALL_OSV_ITEMS_WITHDRAWN
         except NoAffectedVersionsError:
