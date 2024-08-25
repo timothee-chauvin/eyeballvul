@@ -285,7 +285,9 @@ class Converter:
         self.remove_empty_revisions()
 
     def remove_stale_revisions(self) -> None:
-        """Remove all EyeballvulRevisions that don't have a corresponding EyeballvulItem."""
+        """Remove all EyeballvulRevisions that don't have a corresponding EyeballvulItem (for
+        instance because their associated EyeballvulItems have been withdrawn since the previous
+        update)."""
         with Session(self.engine) as session:
             revisions: dict[str, EyeballvulRevision] = {
                 revision.commit: revision
