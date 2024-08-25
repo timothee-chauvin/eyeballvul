@@ -1,3 +1,7 @@
+class UnsupportedDomainError(Exception):
+    """When the domain of the project URL is not in Config.supported_domains."""
+
+
 class AllOsvItemsWithdrawnError(Exception):
     """When all the OSV items for this repository have been withdrawn."""
 

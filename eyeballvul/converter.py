@@ -20,6 +20,7 @@ from eyeballvul.exceptions import (
     LinguistError,
     NoAffectedVersionsError,
     RepoNotFoundError,
+    UnsupportedDomainError,
 )
 from eyeballvul.models.cache import Cache, CacheItem
 from eyeballvul.models.eyeballvul import EyeballvulItem, EyeballvulRevision
@@ -40,6 +41,7 @@ class ConversionStatusCode(Enum):
     """Possible outcomes of the conversion process."""
 
     OK = "OK"
+    UNSUPPORTED_DOMAIN = f"unsupported domain. Supported domains: {Config.supported_domains}"
     NO_VERSION_FOUND_BY_GIT = "no provided affected version could be mapped to a git commit"
     REPO_NOT_FOUND = '"remote: Repository not found". Repo isn\'t accessible anymore'
     GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
@@ -97,6 +99,9 @@ class Converter:
                 else:
                     status_code = ConversionStatusCode.OK
                 return eyeballvul_items, eyeballvul_revisions, cache, status_code
+        except UnsupportedDomainError:
+            logging.warning(f"Domain {get_domain(repo_url)} not supported. Skipping.")
+            return [], [], cache, ConversionStatusCode.UNSUPPORTED_DOMAIN
         except AllOsvItemsWithdrawnError:
             return [], [], cache, ConversionStatusCode.ALL_OSV_ITEMS_WITHDRAWN
         except NoAffectedVersionsError:
@@ -338,22 +343,11 @@ class Converter:
 
     @staticmethod
     def osv_items_by_repo(items: list[dict]) -> dict[str, list[dict]]:
-        """
-        Group the items from the osv.dev dataset by repository.
-
-        Filtering out unsupported domains is done in this function.
-        """
+        """Group the items from the osv.dev dataset by repository."""
         items_by_repo: dict[str, list] = {}
-        filtered_out = set()
         for item in items:
             repo_url = OSVVulnerability(**item).get_repo_url()
-            if get_domain(repo_url) not in Config.supported_domains:
-                filtered_out.add(repo_url)
-                continue
             items_by_repo.setdefault(repo_url, []).append(item)
-        logging.info(
-            f"Kept {len(items_by_repo)} repos. {len(filtered_out)} unsupported repos filtered out."
-        )
         return items_by_repo
 
     @staticmethod
@@ -373,6 +367,8 @@ class Converter:
 
         Versions that aren't found in the git repo are also ignored.
         """
+        if get_domain(repo_url) not in Config.supported_domains:
+            raise UnsupportedDomainError()
         # if the repo is known not to exist, raise that it doesn't exist immediately
         if cache.doesnt_exist:
             logging.info(f"Repo {repo_url} known not to exist. Skipping.")
