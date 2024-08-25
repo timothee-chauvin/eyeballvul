@@ -1,5 +1,6 @@
 import json
 import logging
+import sys
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
@@ -214,6 +215,7 @@ class Converter:
                     future.cancel()
                 raise e
         self.print_statistics(repos_by_status_code, repo_len)
+        self.exit_with_status(repos_by_status_code)
 
     def convert_one(self, repo_url: str) -> None:
         """
@@ -244,6 +246,15 @@ class Converter:
             logging.info(f"{len(concerned_repos)}/{repo_len}: {status_code}: {status_code.value}.")
             if status_code not in only_print_length:
                 logging.info(f"Concerned repos: {concerned_repos}")
+
+    @staticmethod
+    def exit_with_status(repos_by_status_code: dict[ConversionStatusCode, list[str]]) -> None:
+        """Exit with status 1 if there is any GIT_RUNTIME_ERROR, 0 otherwise."""
+        if ConversionStatusCode.GIT_RUNTIME_ERROR in repos_by_status_code:
+            logging.error(
+                "Returning an exit status 1 because of the presence of GIT_RUNTIME_ERROR."
+            )
+            sys.exit(1)
 
     def postprocess(self) -> None:
         """Functions applied after the bulk of the conversion."""

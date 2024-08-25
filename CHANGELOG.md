@@ -2,6 +2,8 @@
 `eyeballvul` adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), and this file is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+### Changed
+- \[build\] building the benchmark now terminates with a non-zero exit status in case of any git runtime error.
 
 ## [0.7.0] - 2024-07-08
 ### Changed
