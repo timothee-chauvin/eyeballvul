@@ -6,7 +6,7 @@
   * secret type: other type of secret
   * encryption key: aws/secretsmanager
   * key: "token"
-  * value": the token
+  * value: the token
   * name: "eyeballvul_github_token"
   * no rotation, no special permissions, etc
 * Create an AWS IAM user named `eyeballvul_updater`

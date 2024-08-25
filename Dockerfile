@@ -41,5 +41,5 @@ ENV PATH="$HOME/.local/bin:$PATH"
 COPY --chown=evuser:evuser . .
 RUN poetry install --no-interaction --no-ansi
 
-# Create "rv" alias
+# Create "ev" alias
 RUN echo "alias ev='poetry run ev'" >> $HOME/.bashrc
