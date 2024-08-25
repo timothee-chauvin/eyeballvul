@@ -14,10 +14,11 @@ from typeguard import typechecked
 
 from eyeballvul.config.config_loader import Config
 from eyeballvul.exceptions import (
+    AllOsvItemsWithdrawnError,
     ConflictingCommitError,
     GitRuntimeError,
     LinguistError,
-    NoOsvItemsLeftError,
+    NoAffectedVersionsError,
     RepoNotFoundError,
 )
 from eyeballvul.models.cache import Cache, CacheItem
@@ -43,7 +44,10 @@ class ConversionStatusCode(Enum):
     GIT_RUNTIME_ERROR = "runtime error while cloning the repo"
     LINGUIST_ERROR = "error running linguist"
     CONFLICTING_COMMIT = "the same commit already exists in another repo URL"
-    NO_OSV_ITEMS_LEFT = "all OSV items for this repo have been filtered out"
+    ALL_OSV_ITEMS_WITHDRAWN = "all OSV items for this repo have been withdrawn"
+    NO_AFFECTED_VERSIONS = (
+        "at least one non-withdrawn OSV item doesn't use the 'affected versions' syntax"
+    )
 
 
 @typechecked
@@ -84,8 +88,13 @@ class Converter:
                     ),
                     ConversionStatusCode.OK,
                 )
-        except NoOsvItemsLeftError:
-            return [], [], cache, ConversionStatusCode.NO_OSV_ITEMS_LEFT
+        except AllOsvItemsWithdrawnError:
+            return [], [], cache, ConversionStatusCode.ALL_OSV_ITEMS_WITHDRAWN
+        except NoAffectedVersionsError:
+            logging.warning(
+                f"At least one vuln in doesn't have affected versions in {repo_url}. Skipping."
+            )
+            return [], [], cache, ConversionStatusCode.NO_AFFECTED_VERSIONS
         except RepoNotFoundError:
             logging.warning(f"Repo {repo_url} not found. Skipping.")
             cache.doesnt_exist = True
@@ -240,7 +249,7 @@ class Converter:
         repos_by_status_code: dict[ConversionStatusCode, list[str]], repo_len: int
     ) -> None:
         """Display the statistics of the conversion process."""
-        only_print_length = [ConversionStatusCode.OK, ConversionStatusCode.NO_OSV_ITEMS_LEFT]
+        only_print_length = [ConversionStatusCode.OK, ConversionStatusCode.ALL_OSV_ITEMS_WITHDRAWN]
         logging.info("Done processing repositories. Statistics:")
         for status_code, concerned_repos in repos_by_status_code.items():
             logging.info(f"{len(concerned_repos)}/{repo_len}: {status_code}: {status_code.value}.")
@@ -365,11 +374,14 @@ class Converter:
                 f"Repo {repo_url} known to have a conflicting commit (also found in {conflict}). Skipping."
             )
             raise ConflictingCommitError()
-        osv_group = Converter.filter_out_no_affected_versions(osv_group)
         osv_group = Converter.filter_out_withdrawn(osv_group)
         if not osv_group:
-            logging.info(f"No OSV items with affected versions found for {repo_url}. Skipping.")
-            raise NoOsvItemsLeftError()
+            logging.info(f"All items are withdrawn for {repo_url}. Skipping.")
+            raise AllOsvItemsWithdrawnError()
+        for osv_item in osv_group:
+            if not osv_item.get_affected_versions():
+                logging.warning(f"OSV item {osv_item.id} doesn't have affected versions. Skipping.")
+                raise NoAffectedVersionsError()
         # For each affected version in each OSV item, find the corresponding commit and its date.
         # This will allow to sort versions chronologically, to use as a constraint
         # in the hitting set solver.
@@ -441,18 +453,6 @@ class Converter:
             )
             eyeballvul_items.append(eyeballvul_item)
         return eyeballvul_items, list(eyeballvul_revisions.values()), cache
-
-    @staticmethod
-    def filter_out_no_affected_versions(
-        osv_group: list[OSVVulnerability],
-    ) -> list[OSVVulnerability]:
-        """Filter out OSV items that don't have any affected version."""
-        filtered = [osv_item for osv_item in osv_group if osv_item.get_affected_versions()]
-        if len(filtered) < len(osv_group):
-            logging.debug(
-                f"Filtered out {len(osv_group) - len(filtered)}/{len(osv_group)} OSV items without affected versions."
-            )
-        return filtered
 
     @staticmethod
     def filter_out_withdrawn(osv_group: list[OSVVulnerability]) -> list[OSVVulnerability]:

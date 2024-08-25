@@ -4,6 +4,7 @@
 ## [Unreleased]
 ### Changed
 - \[build\] building the benchmark now terminates with a non-zero exit status in case of any git runtime error.
+- \[build\] all repositories for which at least one item doesn't have an "affected versions" field are dropped, to avoid true positives being potentially marked as false positives. This concerned 326 repositories out of 6,025 in the benchmark, or 5.4\% of repositories.
 
 ## [0.7.0] - 2024-07-08
 ### Changed

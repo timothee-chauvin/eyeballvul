@@ -1,6 +1,15 @@
-class NoOsvItemsLeftError(Exception):
-    """When all the OSV items for this repository have been filtered out (e.g. because they were
-    withdrawn, or aren't using the "affected versions" syntax)."""
+class AllOsvItemsWithdrawnError(Exception):
+    """When all the OSV items for this repository have been withdrawn."""
+
+
+class NoAffectedVersionsError(Exception):
+    """
+    When at least one non-withdrawn OSV item in the repository doesn't use the "affected versions"
+    syntax.
+
+    The whole repository is skipped to avoid potential true positives being marked as false
+    positives.
+    """
 
 
 class RepoNotFoundError(Exception):
