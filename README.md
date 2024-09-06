@@ -1,7 +1,5 @@
 # eyeballvul
 
-**Update 2024-07-11**: The preprint "eyeballvul: a future-proof benchmark for vulnerability detection in the wild" has been [published to arxiv](https://arxiv.org/abs/2407.08708)!
-
 eyeballvul is an open-source benchmark designed to enable the evaluation of [SAST](https://en.wikipedia.org/wiki/Static_application_security_testing) vulnerability detection tools, especially ones based on language models.
 
 While most benchmarks eventually make it into the training data of language models, eyeballvul is designed to be future-proof: it is updated weekly from the stream of CVEs in open-source repositories. This means that it will remain relevant as long as models have a reasonably delayed training data cutoff, by evaluating on the subset of the vulnerabilities that were published after the cutoff of the considered model.
@@ -15,7 +13,7 @@ The typical use case that this benchmark enables is the following:
 
 eyeballvul currently contains 18,920 vulnerabilities, in 5,982 revisions and 5,685 repositories (last updated 2024-09-06).
 
-**Notable updates since publication:**
+**Notable updates:**
 - 2024-08-25: all repositories for which at least one item doesn't have an "affected versions" field are now dropped. Previously, only the OSV items were dropped instead of the entire repository, so some repositories had at least one known vulnerability excluded. As a consequence, some true positives could potentially be marked as false positives. This concerned 326 repositories out of 6,025 in the benchmark, or 5.4\% of repositories, among which 36\% of vulnerabilities were filtered out on average. The first version of [eyeballvul_data](https://github.com/timothee-chauvin/eyeballvul_data) to incorporate these changes is `2024-08-30`.
 
 ## Table of contents
@@ -457,8 +455,6 @@ To get a rough idea of the total size of different subsets, you could do:
 ```python
 >>> total_size = sum(get_revision(commit).size for commit in commit_subset)
 ```
-
-The [eyeballvul paper](https://arxiv.org/abs/2407.08708) filtered out all revisions above 600kB, then used the 328 revisions having at least one vulnerability past the earliest knowledge cutoff of the models considered (2023-09-01), and the 700 first other revisions (sorted by commit hash).
 
 ### Where is the data?
 The data is kept in the [eyeballvul_data](https://github.com/timothee-chauvin/eyeballvul_data) repository. It is downloaded into `~/.cache/eyeballvul` when you run:
