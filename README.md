@@ -14,6 +14,7 @@ The typical use case that this benchmark enables is the following:
 eyeballvul currently contains 15,503 vulnerabilities, in 5,135 revisions and 4,909 repositories (last updated 2024-09-27).
 
 **Notable updates:**
+- 2024-10-09: the issue below has been fixed upstream. The benchmark will be updated as usual on 2024-10-11.
 - 2024-10-04: OSV currently has a [significant issue](https://github.com/google/osv.dev/issues/2704), where almost all recent vulnerabilities are incorrectly marked as withdrawn. The benchmark won't be updated today.
 - 2024-08-25: all repositories for which at least one item doesn't have an "affected versions" field are now dropped. Previously, only the OSV items were dropped instead of the entire repository, so some repositories had at least one known vulnerability excluded. As a consequence, some true positives could potentially be marked as false positives. This concerned 326 repositories out of 6,025 in the benchmark, or 5.4\% of repositories, among which 36\% of vulnerabilities were filtered out on average. The first version of [eyeballvul_data](https://github.com/timothee-chauvin/eyeballvul_data) to incorporate these changes is `2024-08-30`.
 
