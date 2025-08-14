@@ -209,7 +209,9 @@ class Converter:
                         with Session(self.engine) as session:
                             # First remove all the items for this repo URL
                             # Using type ignore because of a limitation of sqlmodel: https://github.com/tiangolo/sqlmodel/discussions/831
-                            delete_items = delete(EyeballvulItem).where(EyeballvulItem.repo_url == repo_url)  # type: ignore[arg-type]
+                            delete_items = delete(EyeballvulItem).where(
+                                EyeballvulItem.repo_url == repo_url  # type: ignore[arg-type]
+                            )
                             session.exec(delete_items)  # type: ignore[call-overload]
                             delete_revisions = delete(EyeballvulRevision).where(
                                 EyeballvulRevision.repo_url == repo_url  # type: ignore[arg-type]

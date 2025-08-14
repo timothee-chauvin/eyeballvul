@@ -25,6 +25,7 @@ eyeballvul currently contains 21,651 vulnerabilities, in 6,861 revisions and 6,4
 * [Motivation](#motivation)
 * [How it works](#how-it-works)
 * [Full example](#full-example)
+* [Known issues](#known-issues)
 * [FAQ](#faq)
 
 
@@ -444,6 +445,10 @@ Let's see how we would compute e.g. an F1 score from these results:
 >>> f1
 0.6666666666666666
 ```
+
+## Known issues
+- some repositories given by OSV are actually not vulnerable repositories, but repositories containing a proof of concept exploit for another repository
+- some repositories don't contain source code but some binary assets for a closed-source project
 
 ## FAQ
 ### I'm GPU poor
