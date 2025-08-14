@@ -43,18 +43,6 @@ wrap-summaries = 100
 wrap-descriptions = 100
 pre-summary-newline = true
 
-[tool.mypy]
-check_untyped_defs = true
-plugins = "pydantic.mypy"
-
-
-[[tool.mypy.overrides]]
-module = """\
-  fire.*,\
-  litellm.*,\
-"""
-ignore_missing_imports = true
-
 [tool.bandit]
 skips = [
   "B404", # Consider possible security implications associated with the subprocess module
