@@ -57,7 +57,9 @@ class Cache(RootModel):
         tmp_cache_filepath = Config.paths.repo_info_cache / "cache.tmp.json"
         cache_filepath = Config.paths.repo_info_cache / "cache.json"
         with open(tmp_cache_filepath, "w") as f:
-            f.write(self.model_dump_json(indent=2, exclude_unset=True))
+            f.write(
+                json.dumps(self.model_dump(mode="json", exclude_unset=True), separators=(",", ":"))
+            )
             f.write("\n")
         tmp_cache_filepath.replace(cache_filepath)
 
