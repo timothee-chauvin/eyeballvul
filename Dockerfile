@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.10.17@sha256:7118d485696a1eb1105ae30e3f55e5685117a9bc0c3ffbe3830a268911e0837d
 
 WORKDIR /eyeballvul
 
