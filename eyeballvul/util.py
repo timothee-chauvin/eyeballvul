@@ -39,7 +39,7 @@ def get_domain(repo_url: str) -> str:
 @typechecked
 def repo_url_to_name(repo_url: str) -> str:
     """Get the name of the repository from the URL."""
-    return Path(repo_url.replace(".git", "")).name
+    return Path(repo_url.removesuffix(".git")).name
 
 
 @typechecked
