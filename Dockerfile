@@ -39,6 +39,7 @@ ENV PATH="$HOME/.local/bin:$PATH"
 
 # Install the project using poetry
 COPY --chown=evuser:evuser . .
+ENV POETRY_REQUESTS_MAX_RETRIES=2
 RUN poetry install --no-interaction --no-ansi
 
 # Create "ev" alias
