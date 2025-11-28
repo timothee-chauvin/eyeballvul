@@ -71,7 +71,7 @@ DATE=$(date '+%Y-%m-%d')
 # eyeballvul_data
 cd eyeballvul_data
 rm -rf data/vulns data/revisions
-cp -r /mnt/nvme/.cache/eyeballvul/data .
+cp -r ../.cache/eyeballvul/data .
 cat <<EOF > data/info.json
 {
   "date": "$DATE"
@@ -84,18 +84,18 @@ git push --follow-tags
 
 # eyeballvul_data_sources
 cd ../eyeballvul_data_sources
-cp /mnt/nvme/.cache/eyeballvul/repo_info/cache.json eyeballvul_build_cache.json
+cp ../.cache/eyeballvul/repo_info/cache.json eyeballvul_build_cache.json
 rm -rf osv_data/*
-cp -r /mnt/nvme/.cache/eyeballvul/osv/* osv_data
+cp -r ../.cache/eyeballvul/osv/* osv_data
 git add .
 git commit -m "$DATE" --allow-empty
 git push
 
 # eyeballvul
 cd ../eyeballvul
-n_vulns=$(cat /mnt/nvme/.cache/eyeballvul/n_vulns)
-n_revisions=$(cat /mnt/nvme/.cache/eyeballvul/n_revisions)
-n_projects=$(cat /mnt/nvme/.cache/eyeballvul/n_projects)
+n_vulns=$(cat ../.cache/eyeballvul/n_vulns)
+n_revisions=$(cat ../.cache/eyeballvul/n_revisions)
+n_projects=$(cat ../.cache/eyeballvul/n_projects)
 sed -i "s/eyeballvul currently contains.*/eyeballvul currently contains $n_vulns vulnerabilities, in $n_revisions revisions and $n_projects repositories (last updated $DATE)./" README.md
 git add README.md
 git commit -m "update stats with new data ($DATE)"
