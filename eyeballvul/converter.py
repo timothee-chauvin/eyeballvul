@@ -180,7 +180,7 @@ class Converter:
         logging.info("Computing in parallel...")
         time_start = time.time()
         repos_by_status_code: dict[ConversionStatusCode, list[str]] = {}
-        with ProcessPoolExecutor() as executor:
+        with ProcessPoolExecutor(max_workers=1) as executor:
             futures_to_repo_urls = {
                 executor.submit(Converter.convert_one_inner, *args): args[0]
                 for args in to_compute_args
