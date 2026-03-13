@@ -339,6 +339,14 @@ class Converter:
         """Group the items from the osv.dev dataset by repository."""
         items_by_repo: dict[str, list] = {}
         for item in items:
+            # Drop malformed references missing a URL (seen in upstream OSV data)
+            if "references" in item:
+                dropped = [r for r in item["references"] if "url" not in r]
+                if dropped:
+                    logging.warning(
+                        f"Dropping {len(dropped)} references without URL in {item.get('id', '?')}: {dropped}"
+                    )
+                    item["references"] = [r for r in item["references"] if "url" in r]
             repo_url = OSVVulnerability(**item).get_repo_url()
             items_by_repo.setdefault(repo_url, []).append(item)
         return items_by_repo
