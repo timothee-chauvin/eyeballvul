@@ -47,7 +47,7 @@ git clone https://github.com/timothee-chauvin/eyeballvul_data.git
 git clone https://github.com/timothee-chauvin/eyeballvul_data_sources.git
 mkdir -p .cache/eyeballvul/repo_info
 cp -r eyeballvul_data/data .cache/eyeballvul/
-cp -r eyeballvul_data_sources/eyeballvul_build_cache.json .cache/eyeballvul/repo_info/cache.json
+cp -r eyeballvul_data_sources/eyeballvul_build_cache/ .cache/eyeballvul/repo_info/
 (cd eyeballvul && sudo make build)
 sudo docker run --rm -v $(pwd)/.cache/eyeballvul:/home/evuser/.cache/eyeballvul eyeballvul bash -c "
 set -euo pipefail
@@ -84,7 +84,9 @@ git push --follow-tags
 
 # eyeballvul_data_sources
 cd ../eyeballvul_data_sources
-cp ../.cache/eyeballvul/repo_info/cache.json eyeballvul_build_cache.json
+rm -rf eyeballvul_build_cache
+cp -r ../.cache/eyeballvul/repo_info/ eyeballvul_build_cache
+find eyeballvul_build_cache -name '*.tmp.json' -delete
 rm -rf osv_data/*
 cp -r ../.cache/eyeballvul/osv/* osv_data
 git add .

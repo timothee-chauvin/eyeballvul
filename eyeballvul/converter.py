@@ -150,7 +150,7 @@ class Converter:
         if new_cache != self.cache[repo_url]:
             logging.info(f"Cache updated for {repo_url}. Writing.")
             self.cache[repo_url] = new_cache
-            self.cache.write()
+            self.cache.write_one(repo_url)
 
     def get_conflicting_revision(
         self, repo_url: str, eyeballvul_revisions: list[EyeballvulRevision]

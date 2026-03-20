@@ -1,9 +1,25 @@
 import json
+import logging
 from collections.abc import ItemsView, KeysView, ValuesView
+from pathlib import Path
+from urllib.parse import urlparse
 
 from pydantic import BaseModel, RootModel
 
 from eyeballvul.config.config_loader import Config
+
+
+def _repo_url_to_path(cache_dir: Path, repo_url: str) -> Path:
+    parsed = urlparse(repo_url)
+    repo_path = parsed.path.strip("/")
+    return cache_dir / parsed.netloc / f"{repo_path}.json"
+
+
+def _path_to_repo_url(cache_dir: Path, path: Path) -> str:
+    rel = path.relative_to(cache_dir).with_suffix("")
+    domain = rel.parts[0]
+    rest = "/".join(rel.parts[1:])
+    return f"https://{domain}/{rest}"
 
 
 class CacheItem(BaseModel):
@@ -42,26 +58,50 @@ class Cache(RootModel):
     root: dict[str, CacheItem]
 
     @staticmethod
-    def read() -> "Cache":
-        """Read the cache from the cache file."""
-        cache_filepath = Config.paths.repo_info_cache / "cache.json"
-        if not cache_filepath.exists():
-            return Cache({})
-        else:
-            with open(cache_filepath) as f:
-                return Cache(json.load(f))
+    def _cache_dir() -> Path:
+        return Config.paths.repo_info_cache
 
-    def write(self) -> None:
-        """Write the cache to the cache file, ensuring the file won't be lost if this function is
-        interrupted in the middle."""
-        tmp_cache_filepath = Config.paths.repo_info_cache / "cache.tmp.json"
-        cache_filepath = Config.paths.repo_info_cache / "cache.json"
-        with open(tmp_cache_filepath, "w") as f:
+    @staticmethod
+    def read() -> "Cache":
+        """Read the cache from per-repo JSON files, falling back to legacy single-file format."""
+        cache_dir = Cache._cache_dir()
+        legacy_path = cache_dir / "cache.json"
+        if legacy_path.exists():
+            logging.info("Reading legacy single-file cache...")
+            with open(legacy_path) as f:
+                cache = Cache(json.load(f))
+            logging.info(f"Migrating {len(cache)} cache entries to per-repo files...")
+            cache.write_all()
+            legacy_path.unlink()
+            logging.info("Migration complete. Deleted legacy cache.json.")
+            return cache
+        items: dict[str, CacheItem] = {}
+        for json_file in cache_dir.rglob("*.json"):
+            if json_file.name.endswith(".tmp.json"):
+                continue
+            repo_url = _path_to_repo_url(cache_dir, json_file)
+            with open(json_file) as f:
+                items[repo_url] = CacheItem(**json.load(f))
+        return Cache(items)
+
+    def write_one(self, repo_url: str) -> None:
+        """Write a single repo's cache entry to its own file, atomically."""
+        cache_dir = self._cache_dir()
+        path = _repo_url_to_path(cache_dir, repo_url)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp_path = path.with_suffix(".tmp.json")
+        item = self.root[repo_url]
+        with open(tmp_path, "w") as f:
             f.write(
-                json.dumps(self.model_dump(mode="json", exclude_unset=True), separators=(",", ":"))
+                json.dumps(item.model_dump(mode="json", exclude_none=True), separators=(",", ":"))
             )
             f.write("\n")
-        tmp_cache_filepath.replace(cache_filepath)
+        tmp_path.replace(path)
+
+    def write_all(self) -> None:
+        """Write all cache entries to per-repo files."""
+        for repo_url in self.root:
+            self.write_one(repo_url)
 
     def initialize(self, repo_url: str) -> None:
         if repo_url not in self:
