@@ -171,7 +171,9 @@ def get_version_commit(repo_dir: str, version: str) -> str | None:
     try:
         return (
             subprocess.check_output(
-                ["git", "rev-list", "-n", "1", version], stderr=subprocess.DEVNULL, cwd=repo_dir
+                ["git", "rev-list", "-n", "1", "--end-of-options", version],
+                stderr=subprocess.DEVNULL,
+                cwd=repo_dir,
             )
             .decode()
             .strip()
@@ -190,7 +192,7 @@ def get_version_date(repo_dir: str, version: str) -> float | None:
     try:
         date_str = (
             subprocess.check_output(
-                ["git", "log", "-1", "--format=%cI", version],
+                ["git", "log", "-1", "--format=%cI", "--end-of-options", version],
                 stderr=subprocess.DEVNULL,
                 cwd=repo_dir,
             )
