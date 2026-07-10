@@ -338,7 +338,14 @@ class Converter:
     def osv_items_by_repo(items: list[dict]) -> dict[str, list[dict]]:
         """Group the items from the osv.dev dataset by repository."""
         items_by_repo: dict[str, list] = {}
-        for item in items:
+        # Drop items with no description at all (e.g. Oracle-CNA items re-exported by
+        # osv.dev on 2026-07-08): they are useless for scoring.
+        with_description = [i for i in items if "details" in i or "summary" in i]
+        if len(with_description) < len(items):
+            logging.warning(
+                f"Dropping {len(items) - len(with_description)} OSV items without details or summary."
+            )
+        for item in with_description:
             # Drop malformed references missing a URL (seen in upstream OSV data)
             if "references" in item:
                 dropped = [r for r in item["references"] if "url" not in r]
@@ -450,7 +457,7 @@ class Converter:
                 id=osv_item.id,
                 published=osv_item.published,
                 modified=osv_item.modified,
-                details=osv_item.details,
+                details=osv_item.get_details(),
                 summary=osv_item.summary,
                 repo_url=osv_item.get_repo_url(),
                 cwes=osv_item.get_cwes(),

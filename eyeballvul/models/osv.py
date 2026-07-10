@@ -62,7 +62,8 @@ class OSVVulnerability(BaseModel):
     id: str
     published: str
     modified: str
-    details: str
+    # Optional in the OSV schema; e.g. missing from Oracle-CNA items since 2026-07-08.
+    details: str | None = None
     affected: list[OSVAffected]
     summary: str | None = None
     withdrawn: str | None = None
@@ -82,6 +83,14 @@ class OSVVulnerability(BaseModel):
                         # e.g. CVE-2017-6908
                         return range_.repo.lower()
         raise ValueError(f"No repo URL found for item {self.id}")
+
+    def get_details(self) -> str:
+        """Return the details, falling back to the summary if there are none."""
+        if self.details is not None:
+            return self.details
+        if self.summary is not None:
+            return self.summary
+        raise ValueError(f"No details or summary found for item {self.id}")
 
     def get_affected_versions(self) -> list[str] | None:
         for affected in self.affected:
