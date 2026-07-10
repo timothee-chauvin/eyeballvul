@@ -169,7 +169,7 @@ def get_version_commit(repo_dir: str, version: str) -> str | None:
     If the version isn't known to git, return None.
     """
     try:
-        return (
+        commit = (
             subprocess.check_output(
                 ["git", "rev-list", "-n", "1", "--end-of-options", version],
                 stderr=subprocess.DEVNULL,
@@ -178,6 +178,8 @@ def get_version_commit(repo_dir: str, version: str) -> str | None:
             .decode()
             .strip()
         )
+        # A glob version like "0.6.*" matches no ref: empty output, exit code 0.
+        return commit or None
     except subprocess.CalledProcessError:
         return None
 
@@ -199,6 +201,9 @@ def get_version_date(repo_dir: str, version: str) -> float | None:
             .decode()
             .strip()
         )
+        # A glob version like "0.6.*" matches no ref: empty output, exit code 0.
+        if not date_str:
+            return None
         return datetime.fromisoformat(date_str).timestamp()
     except subprocess.CalledProcessError:
         return None
