@@ -50,13 +50,13 @@ def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, float]) -
     model = cp_model.CpModel()
 
     all_versions = {version for lst in lists for version in lst}
-    version_vars = {version: model.NewBoolVar(version) for version in all_versions}
+    version_vars = {version: model.new_bool_var(version) for version in all_versions}
 
     for lst in lists:
-        model.Add(sum(version_vars[version] for version in lst) >= 1)
+        model.add(sum(version_vars[version] for version in lst) >= 1)
 
     # Minimize the number of selected versions
-    model.Minimize(sum(version_vars[version] for version in all_versions))
+    model.minimize(sum(version_vars[version] for version in all_versions))
 
     solver = cp_model.CpSolver()
     status = solver.Solve(model)
@@ -67,10 +67,10 @@ def solve_hitting_set(lists: list[list[str]], version_dates: dict[str, float]) -
         raise ValueError("No optimal solution found in stage 1/2.")
 
     # Add a constraint to fix the number of selected versions
-    model.Add(sum(version_vars[version] for version in all_versions) == min_versions)
+    model.add(sum(version_vars[version] for version in all_versions) == min_versions)
 
     # Maximize the sum of the selected version dates
-    model.Maximize(
+    model.maximize(
         sum(int(version_dates[version]) * version_vars[version] for version in all_versions)
     )
 
