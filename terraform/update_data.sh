@@ -1,13 +1,20 @@
 #!/bin/bash
 set -euo pipefail
 
-set -x
-
 # Verify $GITHUB_TOKEN is set
 if [ -z "$GITHUB_TOKEN" ]; then
   echo "GITHUB_TOKEN is not set"
   exit 1
 fi
+
+# Fail early if the token can't push to all three repos
+for repo in eyeballvul eyeballvul_data eyeballvul_data_sources; do
+  curl -fsS -H "Authorization: Bearer $GITHUB_TOKEN" \
+    "https://api.github.com/repos/timothee-chauvin/$repo" | grep -q '"push": true' \
+    || { echo "GITHUB_TOKEN lacks push access to $repo"; exit 1; }
+done
+
+set -x
 git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 git config --global user.email "timothee.chauvin28@gmail.com"
 git config --global user.name "Timothee Chauvin"
@@ -15,10 +22,12 @@ git config --global user.name "Timothee Chauvin"
 sudo apt-get update
 sudo apt-get install -y make
 
-# NVMe storage
-sudo mkfs.ext4 /dev/nvme1n1
+# NVMe storage (instance store device name varies across instance types)
+NVME_DEV=/dev/$(lsblk -ndo NAME,MODEL | awk '/Instance Storage/{print $1; exit}')
+[ -b "$NVME_DEV" ] || { echo "No instance-store NVMe device found"; exit 1; }
+sudo mkfs.ext4 "$NVME_DEV"
 sudo mkdir /mnt/nvme
-sudo mount /dev/nvme1n1 /mnt/nvme
+sudo mount "$NVME_DEV" /mnt/nvme
 cd /mnt/nvme
 sudo chown -R ubuntu:ubuntu .
 
@@ -36,11 +45,15 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Make docker containers live in NVMe storage
-sudo systemctl stop docker
+sudo systemctl stop docker docker.socket containerd
 sudo mv /var/lib/docker /mnt/nvme/docker
 sudo ln -s /mnt/nvme/docker /var/lib/docker
+# Docker >= 29 defaults to the containerd snapshotter, which stores images
+# under /var/lib/containerd rather than /var/lib/docker
+sudo mv /var/lib/containerd /mnt/nvme/containerd
+sudo ln -s /mnt/nvme/containerd /var/lib/containerd
 sudo systemctl daemon-reload
-sudo systemctl start docker
+sudo systemctl start containerd docker
 
 git clone https://github.com/timothee-chauvin/eyeballvul.git
 git clone https://github.com/timothee-chauvin/eyeballvul_data.git
