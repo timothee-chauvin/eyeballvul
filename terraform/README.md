@@ -1,49 +1,61 @@
-# Weekly update procedure
-## Initial steps (do this once)
-* [Create a Github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), specifically a fine-grained token with access to the `eyeballvul`, `eyeballvul_data` and `eyeballvul_data_sources` repositories (permissions: read access to metadata, read and write access to code).
-* Store the Github token by creating a secret in AWS Secrets Manager (use e.g. AWS's web interface).
-  * make sure to be in us-east-1
-  * secret type: other type of secret
-  * encryption key: aws/secretsmanager
-  * key: "token"
-  * value: the token
-  * name: "eyeballvul_github_token"
-  * no rotation, no special permissions, etc
-* Create an AWS IAM user named `eyeballvul_updater`
-* Give it the AmazonEC2FullAccess policy
-* Give it another custom policy to access the Github token secret. Click on "Add permissions", "Create inline policy", switch to the JSON editor and paste this, replacing with your AWS account ID:
-```json
-{
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Effect": "Allow",
-			"Action": [
-				"secretsmanager:GetSecretValue",
-				"secretsmanager:DescribeSecret",
-				"secretsmanager:GetResourcePolicy"
-			],
-			"Resource": "arn:aws:secretsmanager:us-east-1:ACCOUNT_ID:secret:eyeballvul_github_token-*"
-		}
-	]
-}
-```
-Name the policy "github_token_access".
-* Generate an access key ID and secret access key for the `eyeballvul_updater` IAM user. Store them in file `~/.aws/credentials` like so:
-```
-[default]
-aws_access_key_id=...
-aws_secret_access_key=...
+# Weekly update
 
-```
-* Install aws-cli and terraform
-* Add an SSH key pair to your AWS account and to your own system, to be able to connect to the instance via SSH.
-* In this directory, create a `terraform.tfvars` file containing the line:
-```
-key_name = "your key pair name"
-```
+Runs unattended every Friday 05:00 UTC via the `weekly update` GitHub Actions workflow:
+it launches a self-terminating EC2 instance that builds the data, pushes to the three
+repositories, and shuts itself down (success or failure). On failure, the instance files
+a `weekly update failed` issue on this repo with the log tail, and the workflow run goes
+red (GitHub emails on that).
 
-* From this directory, run `terraform init`.
+Manual run: `gh workflow run "weekly update"` (or the Actions tab). To rehearse without
+pushing any data (e.g. after changing the pipeline): `gh workflow run "weekly update" -f dry_run=true`.
 
-## Weekly update
-Run `terraform apply`. Then once the github repositories are updated (this usually takes around an hour), run `terraform destroy`.
+To debug a run: find the instance IP in the AWS console or with
+`aws ec2 describe-instances --filters Name=tag:Name,Values=eyeballvul_updater`, then
+`ssh ubuntu@<ip>` (key pair `eyeballvul_aws`) and `tail -f /var/log/update_data.log`.
+
+## Initial setup (once)
+
+1. [Create a Github personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens):
+   a fine-grained token with access to the `eyeballvul`, `eyeballvul_data` and
+   `eyeballvul_data_sources` repositories. Permissions: read on metadata, read/write on
+   code, read/write on issues (used for failure reports). Fine-grained tokens expire
+   after at most one year: set a reminder to rotate it.
+2. Store it as an Actions secret on this repo: `gh secret set EYEBALLVUL_UPDATE_PAT`
+   (paste the token when prompted).
+3. Create an access key for an IAM user with IAM + EC2 permissions (needed once, to
+   create the role that the workflow assumes). In the AWS console, signed in as root or
+   an existing admin:
+   * IAM > Users > Create user. Name it e.g. `admin`; leave console access unchecked.
+   * Permissions: "Attach policies directly" > `IAMFullAccess` + `AmazonEC2FullAccess`
+     (or `AdministratorAccess`). Create the user.
+   * Open the user > Security credentials > Access keys > Create access key > use case
+     "Command Line Interface (CLI)" > confirm > next. Description tag value:
+     `admin terraform applies from laptop` (so a later key audit shows where it lives
+     and what it's for) > create.
+   * Copy both values immediately (the secret is shown only once) into
+     `~/.aws/credentials`:
+   ```
+   [admin]
+   aws_access_key_id=AKIA...
+   aws_secret_access_key=...
+   ```
+4. From the repository root, run:
+   ```
+   AWS_PROFILE=admin terraform -chdir=terraform init
+   AWS_PROFILE=admin terraform -chdir=terraform apply
+   ```
+   This creates the durable infrastructure (4 resources): the `allow_ssh` security
+   group, the GitHub OIDC identity provider, and the `gha_eyeballvul_updater` IAM role
+   (+ its inline policy) that the workflow assumes — scoped to launching, describing
+   and terminating EC2 instances. No long-lived AWS keys are stored in GitHub.
+5. Add an SSH key pair named `eyeballvul_aws` to the AWS account (used only for
+   debugging): `aws ec2 import-key-pair --key-name eyeballvul_aws --public-key-material fileb://$HOME/.ssh/id_ed25519_eyeballvul_aws.pub`
+
+## Design notes
+
+The ephemeral instance is launched by `.github/scripts/launch_update.sh`, not by
+terraform: it terminates itself out-of-band (user_data ends in `shutdown -h now` with
+`--instance-initiated-shutdown-behavior terminate`), which terraform state handles
+poorly. The pipeline logic lives in `terraform/update_data.sh`, shared by any launch
+path; `.github/scripts/render_user_data.py` wraps it with the failure-report trap and
+the token.

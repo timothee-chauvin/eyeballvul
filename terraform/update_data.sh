@@ -79,6 +79,11 @@ poetry run python -c 'from eyeballvul import get_revisions; print(f\"{len(get_re
 poetry run python -c 'from eyeballvul import get_projects; print(f\"{len(get_projects()):,}\")' > ~/.cache/eyeballvul/n_projects
 "
 
+if [ "${EV_DRY_RUN:-0}" = 1 ]; then
+  echo "EV_DRY_RUN set: skipping pushes to the three repositories"
+  exit 0
+fi
+
 DATE=$(date '+%Y-%m-%d')
 
 # eyeballvul_data
