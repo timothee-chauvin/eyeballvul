@@ -19,6 +19,11 @@ git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https:/
 git config --global user.email "timothee.chauvin28@gmail.com"
 git config --global user.name "Timothee Chauvin"
 
+# Retry transient mirror failures (unattended runs shouldn't die on a 503),
+# and use the global ports mirror: the region-local EC2 mirror has served
+# persistent 503s for individual packages (two runs, different backend IPs).
+echo 'Acquire::Retries "5";' | sudo tee /etc/apt/apt.conf.d/80-retries
+sudo sed -i 's|http://[a-z0-9-]*\.ec2\.ports\.ubuntu\.com|http://ports.ubuntu.com|g' /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get install -y make
 
