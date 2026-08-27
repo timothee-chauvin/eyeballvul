@@ -36,4 +36,8 @@ supported_domains = ["github.com", "gitlab.com"]
 
 cache_path = "~/.cache/eyeballvul"
 workdir = "/tmp/eyeballvul"
+# Each convert worker holds one full clone on disk at a time; peak disk usage
+# is the sum of the largest concurrent clones (workers=1 was a tmp fix for
+# disk exhaustion, see fa8ae730b).
+convert_workers = 3
 scoring_model = "claude-3-5-sonnet-20240620"

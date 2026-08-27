@@ -27,6 +27,7 @@ class Config:
     cache_path = Path(config["cache_path"]).expanduser()
     data_path = cache_path / "data"
     scoring_model = config["scoring_model"]
+    convert_workers = config["convert_workers"]
     eyeballvul_data_api = "https://api.github.com/repos/timothee-chauvin/eyeballvul_data"
 
     paths = Paths(
