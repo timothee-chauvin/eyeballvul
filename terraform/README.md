@@ -44,11 +44,18 @@ To debug a run: find the instance IP in the AWS console or with
    AWS_PROFILE=admin terraform -chdir=terraform init
    AWS_PROFILE=admin terraform -chdir=terraform apply
    ```
+   The admin key is only needed for this apply (and future changes to these IAM
+   resources): you can delete it afterwards (IAM > Users > admin > Security
+   credentials) and remove the `[admin]` block from `~/.aws/credentials`.
    This creates the durable infrastructure (4 resources): the `allow_ssh` security
    group, the GitHub OIDC identity provider, and the `gha_eyeballvul_updater` IAM role
    (+ its inline policy) that the workflow assumes — scoped to launching, describing
    and terminating EC2 instances. No long-lived AWS keys are stored in GitHub.
-5. Add an SSH key pair named `eyeballvul_aws` to the AWS account (used only for
+5. For day-to-day CLI operations from your machine (debugging, terminating a stuck
+   instance, the key-pair import below), create an IAM user `eyeballvul_updater` with
+   the `AmazonEC2FullAccess` policy and store its access key as the `[default]` profile
+   in `~/.aws/credentials`. Unlike the admin key, this one stays.
+6. Add an SSH key pair named `eyeballvul_aws` to the AWS account (used only for
    debugging): `aws ec2 import-key-pair --key-name eyeballvul_aws --public-key-material fileb://$HOME/.ssh/id_ed25519_eyeballvul_aws.pub`
 
 ## Design notes
