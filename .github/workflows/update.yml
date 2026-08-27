@@ -42,6 +42,8 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
         run: .github/scripts/wait_for_update.sh "${{ steps.launch.outputs.instance_id }}" "${{ steps.launch.outputs.start_time }}"
 
+      # failure() (not always()): on a 6h-cap timeout the job is cancelled and this
+      # step must NOT run — the self-terminating instance finishes and pushes on its own.
       - name: Terminate instance if still running
-        if: always() && steps.launch.outputs.instance_id != ''
+        if: failure() && steps.launch.outputs.instance_id != ''
         run: aws ec2 terminate-instances --instance-ids "${{ steps.launch.outputs.instance_id }}" || true
