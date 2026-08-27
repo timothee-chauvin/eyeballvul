@@ -27,6 +27,7 @@ import os
 import urllib.request
 
 log = open("/var/log/update_data.log", errors="replace").read()[-6000:]
+log = log.replace(os.environ["GITHUB_TOKEN"], "[REDACTED]")
 date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
 body = (
     "The unattended weekly update failed. "

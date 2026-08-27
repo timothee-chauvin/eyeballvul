@@ -14,10 +14,14 @@ for repo in eyeballvul eyeballvul_data eyeballvul_data_sources; do
     || { echo "GITHUB_TOKEN lacks push access to $repo"; exit 1; }
 done
 
-set -x
+# git config stays above set -x: the insteadOf URL contains the token, and an
+# xtrace of it in a log that later reaches a public issue gets the token
+# auto-revoked by GitHub secret scanning (this happened; see issues #3, #4)
 git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 git config --global user.email "timothee.chauvin28@gmail.com"
 git config --global user.name "Timothee Chauvin"
+
+set -x
 
 # Retry transient mirror failures (unattended runs shouldn't die on a 503),
 # and use the global ports mirror: the region-local EC2 mirror has served
