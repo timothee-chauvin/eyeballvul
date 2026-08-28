@@ -53,6 +53,10 @@ finish() {
 }
 trap finish EXIT
 
+# Ubuntu's .bash_logout runs clear_console, which fails on a non-tty and
+# overwrites the login shell's exit status — a successful run then looks failed.
+rm -f /home/ubuntu/.bash_logout
+
 su - ubuntu <<'EOSU'
 export GITHUB_TOKEN=__PAT__
 __DRY__
