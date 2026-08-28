@@ -12,7 +12,7 @@ python3 .github/scripts/render_user_data.py > /tmp/user_data.sh
 
 IID=$(aws ec2 run-instances \
   --image-id "$AMI" \
-  --instance-type m8gd.2xlarge \
+  --instance-type m8gd.4xlarge \
   --key-name eyeballvul_aws \
   --security-group-ids "$SG" \
   --user-data file:///tmp/user_data.sh \
