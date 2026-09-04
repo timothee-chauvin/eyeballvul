@@ -11,7 +11,7 @@ The typical use case that this benchmark enables is the following:
 1. run a SAST tool (typically LLM-based) on the source code at each of these revisions;
 1. compare the results of the SAST tool with the list of known vulnerabilities for each revision, especially the ones that were published after the training data cutoff.
 
-eyeballvul currently contains 38,073 vulnerabilities, in 12,661 revisions and 9,628 repositories (last updated 2026-08-28).
+eyeballvul currently contains 38,265 vulnerabilities, in 12,721 revisions and 9,704 repositories (last updated 2026-09-04).
 
 Associated paper: [[arxiv] eyeballvul: a future-proof benchmark for vulnerability detection in the wild](https://arxiv.org/abs/2407.08708)
 
