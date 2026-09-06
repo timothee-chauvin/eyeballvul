@@ -21,6 +21,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 330
+    env:
+      GMAIL_USER: ${{ secrets.GMAIL_USER }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+      DRY_RUN: ${{ inputs.dry_run }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,13 +38,14 @@ jobs:
         id: launch
         env:
           GH_PAT: ${{ secrets.EYEBALLVUL_UPDATE_PAT }}
-          DRY_RUN: ${{ inputs.dry_run }}
         run: .github/scripts/launch_update.sh
+
+      - name: Notify start
+        run: .github/scripts/notify.py start
 
       - name: Wait for the three repos to be updated
         env:
           GH_TOKEN: ${{ github.token }}
-          DRY_RUN: ${{ inputs.dry_run }}
         run: .github/scripts/wait_for_update.sh "${{ steps.launch.outputs.instance_id }}" "${{ steps.launch.outputs.start_time }}"
 
       # failure() (not always()): on a 6h-cap timeout the job is cancelled and this
@@ -47,3 +53,9 @@ jobs:
       - name: Terminate instance if still running
         if: failure() && steps.launch.outputs.instance_id != ''
         run: aws ec2 terminate-instances --instance-ids "${{ steps.launch.outputs.instance_id }}" || true
+
+      - name: Notify outcome
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/notify.py finish "${{ job.status }}" "${{ steps.launch.outputs.start_time }}"
