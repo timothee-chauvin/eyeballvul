@@ -4,7 +4,10 @@ Runs unattended every Friday 05:00 UTC via the `weekly update` GitHub Actions wo
 it launches a self-terminating EC2 instance that builds the data, pushes to the three
 repositories, and shuts itself down (success or failure). On failure, the instance files
 a `weekly update failed` issue on this repo with the log tail, and the workflow run goes
-red (GitHub emails on that).
+red. The workflow emails `NOTIFY_EMAIL` when a run starts and when it ends (GitHub's own
+notifications don't cover this: the issue is filed by the owner's PAT, and GitHub never
+notifies you of your own activity). A run is skipped if today's tag already exists on
+eyeballvul_data, since the schedule can fire hours late after a manual run.
 
 Manual run: `gh workflow run "weekly update"` (or the Actions tab). To rehearse without
 pushing any data (e.g. after changing the pipeline): `gh workflow run "weekly update" -f dry_run=true`.

@@ -34,16 +34,36 @@ jobs:
           role-to-assume: arn:aws:iam::796778066192:role/gha_eyeballvul_updater
           aws-region: us-east-1
 
+      # The schedule can fire many hours late; after a manual run the same day it
+      # would otherwise fail on `git tag` (the tag is the last thing a run pushes).
+      - name: Skip if today's data is already published
+        id: guard
+        if: inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=$(date -u +%F)
+          code=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/timothee-chauvin/eyeballvul_data/git/ref/tags/$tag")
+          case $code in
+            200) echo "Tag $tag already exists on eyeballvul_data: skipping."; echo "skip=true" >> "$GITHUB_OUTPUT" ;;
+            404) ;;
+            *) echo "Unexpected HTTP $code checking tag $tag"; exit 1 ;;
+          esac
+
       - name: Launch updater instance
         id: launch
+        if: steps.guard.outputs.skip != 'true'
         env:
           GH_PAT: ${{ secrets.EYEBALLVUL_UPDATE_PAT }}
         run: .github/scripts/launch_update.sh
 
       - name: Notify start
+        if: steps.guard.outputs.skip != 'true'
         run: .github/scripts/notify.py start
 
       - name: Wait for the three repos to be updated
+        if: steps.guard.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: .github/scripts/wait_for_update.sh "${{ steps.launch.outputs.instance_id }}" "${{ steps.launch.outputs.start_time }}"
@@ -58,4 +78,4 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: .github/scripts/notify.py finish "${{ job.status }}" "${{ steps.launch.outputs.start_time }}"
+        run: .github/scripts/notify.py finish "${{ steps.guard.outputs.skip == 'true' && 'skipped (already published today)' || job.status }}" "${{ steps.launch.outputs.start_time }}"
